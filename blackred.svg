@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!--
+  左上角为原点
+  cx是x轴，150
+  cy是y轴，150
+  r是半径，60
+  stroke是边框颜色
+  stroke-width是边框宽度
+  fill是填充色
+  -->
+  <circle cx="150" cy="150" r="60" stroke="black" stroke-width="2" fill="red"/>
+</svg>
+
+

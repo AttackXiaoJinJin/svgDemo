@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!--<circle cx="150" cy="150" r="100" fill="#39F"/>-->
+
+  <!--四分之三圆-->
+  <!--300,200是圆心,h-150是相对水平移动-150到(150,200)-->
+  <!--有问题， 0 1,0 没理解-->
+  <path d="M300,200 h-150 a150,150 0 1,0 150,-150 z"
+        style="fill:red;stroke:blue;stroke-width:5" />
+  <!---->
+  <path d="M275,175 v-150 a-150,150 0 0,0 -150,150 z"
+        style="fill:yellow;stroke:blue;stroke-width:5" />
+  <!--斜线-->
+  <!--a使用椭圆曲线连接到-->
+  <path d="M600,350 l 50,-25
+           a25,25 -30 0,1 50,-25 l 50,-25
+           a25,50 -30 0,1 50,-25 l 50,-25
+           a25,75 -30 0,1 50,-25 l 50,-25
+           a25,100 -30 0,1 50,-25 l 50,-25"
+        style="fill:yellow;stroke:red;stroke-width:5" />
+</svg>

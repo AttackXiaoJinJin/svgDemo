@@ -1,4 +1,5 @@
 window.onload=function () {
+
   let SVG_NS='http://www.w3.org/2000/svg'
   //设置默认图形及其属性
   let shapeInfo={
@@ -8,38 +9,39 @@ window.onload=function () {
     line:'x1:10,y1:10,x2:100,y2:100'
   }
   //设置公共的填充色和边框颜色
-  let defaultAttrs={
-    fill:'#ffffff',
+  var defaultAttrs={
+    fill:'#FFB6C1',
     stroke:'#ff0000'
   }
+
   //创建
-  let createForm=document.getElementById('create-shape')
+  let createShape=document.getElementById('create-shape')
   //设置形状
-  let attrForm=document.getElementById('shape-attrs')
+  let shapeAttribute=document.getElementById('shape-attrs')
   //设置变换
-  let lookForm=document.getElementById('look-and-transform')
+  let lookTransform=document.getElementById('look-and-transform')
   //创建svg图形
   let svg=createSVG()
   //默认选中为空
   let selected=null
 
-  createForm.addEventListener('click',function (e) {
+  createShape.addEventListener('click',function (e) {
     if(e.target.tagName.toLowerCase() ==='button'){
       create(e.target.getAttribute('create'))
     }
   })
 
-  attrForm.addEventListener('input',function (e) {
+  shapeAttribute.addEventListener('input',function (e) {
     if(e.target.tagName.toLowerCase()!=='input'){
       //终止
       return
     }
-    var handle=e.target
+    let handle=e.target
     //选中的节点设置名称和值
     selected.setAttribute(handle.name,handle.value)
   })
 
-  lookForm.addEventListener('input',function (e) {
+  lookTransform.addEventListener('input',function (e) {
     if(e.target.tagName.toLowerCase()!=='input'){
       return
     }
@@ -60,6 +62,7 @@ window.onload=function () {
 
   //创建svg图形
   function createSVG() {
+    //NS即namespace
     let svg=document.createElementNS(SVG_NS,'svg')
     svg.setAttribute('width','100%')
     svg.setAttribute('height','100%')
@@ -82,7 +85,7 @@ window.onload=function () {
   function select(shape) {
     let attrs=shapeInfo[shape.tagName].split(',')
     let attr,name,value
-    attrForm.innerHTML=""
+    shapeAttribute.innerHTML=""
     while(attrs.length){
       //shift删除第一个元素并返回该元素
       attr=attrs.shift().split(':')
@@ -92,7 +95,7 @@ window.onload=function () {
       createHandle(shape,name,value)
       shape.setAttribute(name,value)
     }
-    for(name in defalutAttrs){
+    for(name in defaultAttrs){
       value=shape.getAttribute(name) || defaultAttrs[name]
       shape.setAttribute(name,value)
     }
@@ -109,8 +112,8 @@ window.onload=function () {
     handle.setAttribute('value',value)
     handle.setAttribute('min',0)
     handle.setAttribute('max',800)
-    attrForm.appendChild(label)
-    attrForm.appendChild(handle)
+    shapeAttribute.appendChild(label)
+    shapeAttribute.appendChild(handle)
   }
 
   //更新属性值
@@ -125,10 +128,23 @@ window.onload=function () {
   }
   //解码变换
   function decodeTransform(transString) {
-
+    var match = /translate\((-?\d+),(-?\d+)\)\srotate\((-?\d+)\)\sscale\((-?\d+\.\d{0,2})\)/.exec(transString)
+    return match?{
+      tx:+match[1],
+      ty:+match[2],
+      rotate:+match[3],
+      scale:+match[4],
+    }:null
   }
 
-
+  //编码变换
+  function encodeTransform(transObject) {
+    return [
+      'translate(',transObject.tx,',',transObject.ty,')',
+      'rotate(',transObject.rotate,')',
+      'scale(',transObject.scale,')'
+    ].join('')
+  }
 
 
 

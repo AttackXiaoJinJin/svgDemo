@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/guolvjianbian.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/svgtext.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/svgEditor/svgEditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/svgEditor/svgEditor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/svgEditor/svgEditor.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/smile.html" afterPath="$PROJECT_DIR$/smile.html" />
-      <change beforePath="$PROJECT_DIR$/使用css插入svg.html" afterPath="$PROJECT_DIR$/使用css插入svg.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,30 +21,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="smile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smile.html">
+      <file leaf-file-name="svgEditor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="505">
+              <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="使用css插入svg.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/使用css插入svg.html">
+      <file leaf-file-name="svgEditor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="472">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#p#0;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#p#1;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guolvjianbian.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guolvjianbian.svg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="svgEditor.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -52,7 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,11 +92,21 @@
         <option value="$PROJECT_DIR$/guolvjianbian.svg" />
         <option value="$PROJECT_DIR$/smile.html" />
         <option value="$PROJECT_DIR$/使用css插入svg.html" />
+        <option value="$PROJECT_DIR$/svg.js" />
+        <option value="$PROJECT_DIR$/svgEditor/svgEditor.css" />
+        <option value="$PROJECT_DIR$/svgEditor/svgEditor.html" />
+        <option value="$PROJECT_DIR$/svgEditor/svgEditor.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -124,6 +143,11 @@
               <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="svgEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,11 +155,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\svgDemo\svgEditor" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,18 +195,18 @@
       <updated>1512465053708</updated>
       <workItem from="1512465055132" duration="2604000" />
       <workItem from="1512469781426" duration="515000" />
-      <workItem from="1512522019750" duration="13964000" />
+      <workItem from="1512522019750" duration="21819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17083000" />
+    <option name="totallyTimeSpent" value="24938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="907" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2128655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08421053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -354,6 +385,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/使用css插入svg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -362,10 +401,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smile.html">
+    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="1254">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#p#0;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#p#1;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,11 @@
+#input {
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 25px;
+  font-size: 32px;
+  border: none;
+  border-top: 2px solid gray;
+}

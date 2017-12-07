@@ -17,4 +17,7 @@
            a25,75 -30 0,1 50,-25 l 50,-25
            a25,100 -30 0,1 50,-25 l 50,-25"
         style="fill:yellow;stroke:red;stroke-width:5" />
+
+  <path d="M 200 200 A 200 100 0 1 1 300 300" />
+
 </svg>

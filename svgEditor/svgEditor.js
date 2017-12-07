@@ -4,7 +4,7 @@ window.onload=function () {
   //设置默认图形及其属性
   let shapeInfo={
     rect:'x:10,y:10,width:200,height:100,rx:0,ry:0',
-    circle:'cx:200,cy:200,rx:80,ry:30',
+    circle:'cx:200,cy:200,r:100',
     ellipse:'cx:200,cy:200,rx:80,ry:30',
     line:'x1:10,y1:10,x2:100,y2:100'
   }
@@ -14,20 +14,26 @@ window.onload=function () {
     stroke:'#ff0000'
   }
 
+  let canvas=document.querySelector("#canvas")
   //创建
-  let createShape=document.getElementById('create-shape')
+  let createShape=document.querySelector("#createShape")
   //设置形状
-  let shapeAttribute=document.getElementById('shape-attrs')
+  let shapeAttribute=document.querySelector('#shapeAttrs')
   //设置变换
-  let lookTransform=document.getElementById('look-and-transform')
+  let lookTransform=document.querySelector('#look-and-transform')
   //创建svg图形
   let svg=createSVG()
   //默认选中为空
   let selected=null
-
+  //1、先判断点击的是按钮
+  //2、然后判断点击的是哪个按钮文本
   createShape.addEventListener('click',function (e) {
+    console.log(e.target)
+    console.log(e.target.tagName)
     if(e.target.tagName.toLowerCase() ==='button'){
-      create(e.target.getAttribute('create'))
+      console.log(e.target.innerText.toLowerCase())
+      // create(e.target.getAttribute('create'))
+      create(e.target.innerText.toLowerCase())
     }
   })
 
@@ -36,9 +42,11 @@ window.onload=function () {
       //终止
       return
     }
+    console.log(e.target)
     let handle=e.target
     //选中的节点设置名称和值
     selected.setAttribute(handle.name,handle.value)
+    console.log(handle.value)
   })
 
   lookTransform.addEventListener('input',function (e) {
@@ -60,6 +68,12 @@ window.onload=function () {
     }))
   })
 
+  //创建图形
+  function create(name) {
+    let shape=document.createElementNS(SVG_NS,name)
+    svg.appendChild(shape)
+    select(shape)
+  }
   //创建svg图形
   function createSVG() {
     //NS即namespace
@@ -75,12 +89,7 @@ window.onload=function () {
     })
     return svg
   }
-  //创建图形
-  function create(name) {
-    let shape=document.createElementNS(SVG_NS,name)
-    svg.appendChild(shape)
-    select(shape)
-  }
+
   //选中图形
   function select(shape) {
     let attrs=shapeInfo[shape.tagName].split(',')

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <!--水平线性渐变-->
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="grad1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="10" y2="40">
       <!--从黄色,可见度均为1-->
       <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
       <!--到红色-->

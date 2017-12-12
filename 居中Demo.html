@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>居中Demo</title>
+  <style>
+
+  </style>
+</head>
+<body>
+<select id="ta">
+  <option value="start"></option>
+  <option value="center"></option>
+  <option value="end"></option>
+</select>
+<select id="select"></select>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700">
+  <line x1="140" y1="100" x2="340" y2="100" style="stroke:red;stroke-width:1"></line>
+  <text id="text" fill="red" x="140" y="100" font-size="30">
+    垂直居中问题
+  </text>
+  <rect id="rect" fill="none" stroke="blue" stroke-width="1"></rect>
+</svg>
+<script>
+  window.onload=function () {
+   let text=document.querySelector("#text") 
+   let rect=document.querySelector("#rect")
+    let box=text.getBBox()
+    rect.setAttribute("x",box.x)
+    rect.setAttribute("y",box.y)
+    rect.setAttribute("width",box.width)
+    rect.setAttribute("height",box.height)
+    console.log(box.x)
+    console.log(box.y)
+    console.log(box.height)
+    console.log(text.getAttribute('y'))
+
+  }
+</script>
+</body>
+</html>

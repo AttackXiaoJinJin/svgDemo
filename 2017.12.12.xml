@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Components>
+  <Component>
+    <BSHX width="103" height="98" deviceID="" compName="热交换器" type="comp" group="deviceComp">
+      <Image x="0" y="0" width="103" height="98" name="背景" param="bg" source="assets/comp/BSHX/bg.png"/>
+      <Image x="16" y="9" width="72" height="79" compName="运行" param="runing"  paramvaule="0,1" source="assets/comp/BSHX/runing/1/1.png"/>
+    </BSHX>
+    <FPG width="297" height="180" deviceID="" compName="风机盘管" type="comp" group="deviceComp" isPop="true" popType="list">
+      <Image x="0" y="0" width="297" height="180" name="背景" param="bg" source="assets/comp/FPG/bg.png"/>
+      <Image x="0" y="0" width="297" height="180" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/FPG/alarm/0/1.png"/>
+      <Image x="0" y="0" width="297" height="180" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/FPG/runing/0/1.png"/>
+    </FPG>
+  </Component>
+</Components>
+

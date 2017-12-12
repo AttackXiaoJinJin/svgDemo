@@ -80,17 +80,117 @@ img{
   border: 1px red solid;
   box-sizing: border-box;
 }
-#middleTop .middleTopLeft{
+#middleTop ul{
+  float: left;
+}
+
+#middleTop ul .middleTopLeft{
   border: 1px red solid;
   box-sizing: border-box;
+  float: left;
+}
+#middleTop ul .middleTopLeft input{
+  width: 56px;
+  height: 27px;
+}
 
+
+
+
+
+
+#middleTop ul .middleTopRight{
+  border: 1px red solid;
+  box-sizing: border-box;
+  float: left;
 
 }
-#middleTop .middleTopLeft{
-  border: 1px red solid;
-  box-sizing: border-box;
+/*#middleTop ul .middleTopRight{*/
+  /*border: 1px red solid;*/
+  /*box-sizing: border-box;*/
+  /*float: left;*/
+/*}*/
 
 
+#middleTop .middleTopRight .icon-trunleft{
+  background: url("../image/左转.png") no-repeat center ;
+  background-size:27px 27px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-trunright{
+  background: url("../image/右转.png") no-repeat center;
+  background-size:27px 27px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-totop{
+  background: url("../image/置顶.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-tobottom{
+  background: url("../image/置底.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-toup{
+  background: url("../image/上移一层.png") no-repeat center;
+  background-size:27px 27px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-todown {
+  background: url("../image/下移一层.png") no-repeat center;
+  background-size:27px 27px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-delete {
+  background: url("../image/删除.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-refresh {
+  background: url("../image/刷新.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-export {
+  background: url("../image/导出.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#middleTop .middleTopRight .icon-保存 {
+  background: url("../image/保存.png") no-repeat center;
+  background-size:22px 22px;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 

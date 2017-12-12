@@ -3,7 +3,7 @@ window.onload=function () {
   let paper;
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
   //在元素中创建Raphael对象
-  paper =new Raphael(document.querySelector("#middle"),1430, 600);
+  paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
   //为每个li绑定拖拽元素
     $(".tool_part").each(function()
     {
@@ -16,8 +16,8 @@ window.onload=function () {
       drop:function(event,ui)
       {
         console.log(event)
-        // drawSvg(ui.helper.attr("type"),event.clientX,event.clientY);
-        drawSvg(ui.helper.attr("type"),event.clientX-24,event.clientY-24);
+        drawSvg(ui.helper.attr("type"),event.clientX,event.clientY);
+        // drawSvg(ui.helper.attr("type"),event.clientX-24,event.clientY-24);
         console.log(ui.helper)
         
       }
@@ -33,7 +33,7 @@ window.onload=function () {
       //引用图片
       //          paper.image(src,x,y,width,height)
       // let start = paper.image("image/green.png",x-184,y-75,48,48)
-      let start = paper.image("image/green.png",x,y,48,48)
+      let start = paper.image("../image/green.png",x,y,19,19)
         //设置属性
         .attr({
           cursor:'pointer'
@@ -57,18 +57,26 @@ window.onload=function () {
       showStart(startId);
       let myStart = function()
       {
+        moveX = event.clientX-24;
+        moveY = event.clientY-24;
+        console.log("startgreen")
         showStart(startId);
       }
       let myMove = function()
       {
         console.log("mymove")
         //让鼠标处于圆心
+        //48 48
         moveX = event.clientX-24;
         // moveX = event.clientX-184;
         moveY = event.clientY-24;
         // moveY = event.clientY-75;
         start.attr({x:moveX});
         start.attr({y:moveY});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
+
       }
       let myEnd = function()
       {
@@ -96,14 +104,14 @@ window.onload=function () {
         else{}
       });
     }
-    //================================================
+    //================================================green
     /*
-    *绘制end
+    *绘制picexample
     */
-    if("end"===tool_type)
+    if("picexample"===tool_type)
     {
       console.log(tool_type)
-      let end = paper.image("image/picexample.png",x-184,y-75,48,48)
+      let end = paper.image("../image/picexample.png",x,y,235,133)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
@@ -116,15 +124,19 @@ window.onload=function () {
       }
       let myMove = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
+        //235 133
+        moveX = event.clientX-117;
+        moveY = event.clientY-66;
         end.attr({x:moveX});
         end.attr({y:moveY});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
       }
       let myEnd = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
+        moveX = event.clientX-117;
+        moveY = event.clientY-66;
         end.attr({x:moveX});
         end.attr({y:moveY});
       }
@@ -147,171 +159,291 @@ window.onload=function () {
       });
     }
     /*
-    **绘制task1
+    **绘制红字
     */
-    if("task1"===tool_type)
+    if("redman"===tool_type)
     {
-      let task1 = paper.image("image/redman.png",x-184,y-75,100,50)
+      let redman = paper.image("../image/redman.png",x,y,53,16)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
-      let realText = paper.text(x-140,y-50,'Task1').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask1(task1Id,realTextId);});
+      // let realText = paper.text(x-140,y-50,'Task1').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask1(task1Id,realTextId);});
       let moveX,moveY;
 
-      let task1Id = task1.id;
-      let realTextId = realText.id;
-      showTask1(task1Id,realTextId);
+      let redmanId = redman.id;
+      // let realTextId = realText.id;
+      // showTask1(task1Id,realTextId);
 
       let myMove = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        task1.attr({x:moveX});
-        task1.attr({y:moveY});
-        realText.attr({x:(moveX+task1.attr("width")/2)});
-        realText.attr({y:(moveY+task1.attr("height")/2)});
+        //53 16
+        moveX = event.clientX-26;
+        moveY = event.clientY-8;
+        // task1.attr({x:moveX});
+        // task1.attr({y:moveY});
+        // realText.attr({x:(moveX+task1.attr("width")/2)});
+        // realText.attr({y:(moveY+task1.attr("height")/2)});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
       }
       let myStart = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        showTask1(task1Id,realTextId);
+        moveX = event.clientX-26;
+        moveY = event.clientY-8;
+        // showTask1(task1Id,realTextId);
       }
       let myEnd = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        task1.attr({x:moveX});
-        task1.attr({y:moveY});
+        moveX = event.clientX-26;
+        moveY = event.clientY-8;
+        // task1.attr({x:moveX});
+        // task1.attr({y:moveY});
       }
     }
     /*
-   **绘制task2
+   **绘制2013
    */
-    if("task2"===tool_type)
+    if("year2013"===tool_type)
     {
-      let task2 = paper.image("image/year2013.png",x-184,y-75,100,50)
+      let task2 = paper.image("../image/year2013.png",x,y,38,18)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
       let realText = paper.text(x-140,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
       let moveX,moveY;
 
-      let task2Id = task2.id;
-      let realTextId = realText.id;
-      showTask2(task2Id,realTextId);
+      // let task2Id = task2.id;
+      // let realTextId = realText.id;
+      // showTask2(task2Id,realTextId);
 
       let myMove = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
+        //38 18
+        moveX = event.clientX-19;
+        moveY = event.clientY-9;
         task2.attr({x:moveX});
         task2.attr({y:moveY});
-        realText.attr({x:(moveX+task2.attr("width")/2)});
-        realText.attr({y:(moveY+task2.attr("height")/2)});
+        // realText.attr({x:(moveX+task2.attr("width")/2)});
+        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
       }
       let myStart = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        showTask2(task2Id,realTextId);
+        moveX = event.clientX-19;
+        moveY = event.clientY-9;
+        // showTask2(task2Id,realTextId);
       }
       let myEnd = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
+        moveX = event.clientX-19;
+        moveY = event.clientY-9;
         task2.attr({x:moveX});
         task2.attr({y:moveY});
       }
     }
     /*
-    *绘制task3
-    */
-    if("task3"==tool_type)
+   **红点
+   */
+    if("red"===tool_type)
     {
-      let task3 = paper.image("image/zhengchang.png",x-184,y-75,100,50)
+      let task2 = paper.image("../image/red.png",x,y,19,19)
+        .attr({cursor:'pointer'})
+        .drag(function(){
+          myMove()
+        },
+          function(){
+          myStart()
+          },
+          function(){
+          myEnd()
+        });
+      // let realText = paper.text(x-,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
+      let moveX,moveY;
+
+      let task2Id = task2.id;
+      // let realTextId = realText.id;
+      // showTask2(task2Id,realTextId);
+
+      let myMove = function()
+      {
+        //19 19
+        moveX = event.clientX-9;
+        moveY = event.clientY-9;
+        task2.attr({x:moveX});
+        task2.attr({y:moveY});
+        // realText.attr({x:(moveX+task2.attr("width")/2)});
+        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
+      }
+      let myStart = function()
+      {
+        moveX = event.clientX-9;
+        moveY = event.clientY-9;
+        // showTask2(task2Id,realTextId);
+      }
+      let myEnd = function()
+      {
+        moveX = event.clientX-9;
+        moveY = event.clientY-9;
+        task2.attr({x:moveX});
+        task2.attr({y:moveY});
+      }
+    }
+    /*
+   **报警
+   */
+    if("baojing"===tool_type)
+    {
+      let task2 = paper.image("../image/baojing.png",x,y,121,24)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
-      let realText = paper.text(x-140,y-50,'Task3').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask3(task3Id,realTextId);});
+      // let realText = paper.text(x-140,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
       let moveX,moveY;
 
-      let task3Id = task3.id;
-      let realTextId = realText.id;
-      showTask3(task3Id,realTextId);
+      // let task2Id = task2.id;
+      // let realTextId = realText.id;
+      // showTask2(task2Id,realTextId);
 
       let myMove = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        task3.attr({x:moveX});
-        task3.attr({y:moveY});
-        realText.attr({x:(moveX+task3.attr("width")/2)});
-        realText.attr({y:(moveY+task3.attr("height")/2)});
+        //121,24
+        moveX = event.clientX-60;
+        moveY = event.clientY-12;
+        task2.attr({x:moveX});
+        task2.attr({y:moveY});
+        // realText.attr({x:(moveX+task2.attr("width")/2)});
+        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
       }
       let myStart = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
-        showTask3(task3Id,realTextId);
+        moveX = event.clientX;
+        moveY = event.clientY;
+        // showTask2(task2Id,realTextId);
       }
       let myEnd = function()
       {
-        moveX = event.clientX-184;
-        moveY = event.clientY-75;
+        //121,24
+        moveX = event.clientX-60;
+        moveY = event.clientY-12;
+        task2.attr({x:moveX});
+        task2.attr({y:moveY});
+      }
+    }
+    /*
+    *绘制客流正常
+    */
+    if("zhengchang"===tool_type)
+    {
+      let task3 = paper.image("../image/zhengchang.png",x,y,125,27)
+        .attr({cursor:'pointer'})
+        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
+
+      // let realText = paper.text(x-140,y-50,'Task3').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask3(task3Id,realTextId);});
+      let moveX,moveY;
+
+      // let task3Id = task3.id;
+      // let realTextId = realText.id;
+      // showTask3(task3Id,realTextId);
+
+      let myMove = function()
+      {
+        //125 27
+        moveX = event.clientX-62;
+        moveY = event.clientY-13;
+        task3.attr({x:moveX});
+        task3.attr({y:moveY});
+        // realText.attr({x:(moveX+task3.attr("width")/2)});
+        // realText.attr({y:(moveY+task3.attr("height")/2)});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
+      }
+      let myStart = function()
+      {
+        moveX = event.clientX-62;
+        moveY = event.clientY-13;
+        // showTask3(task3Id,realTextId);
+      }
+      let myEnd = function()
+      {
+        moveX = event.clientX-62;
+        moveY = event.clientY-13;
         task3.attr({x:moveX});
         task3.attr({y:moveY});
       }
     }
     /*
-   *绘制judge
+   *绘制广场大图
    */
-    // if("judge"==tool_type)
-    // {
-    //   console.log(tool_type)
-    //   let judge = paper.image("js/designer/images/48/task_wait.png",x-184,y-75,48,48)
-    //     .attr({cursor:'pointer'})
-    //     .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-    //
-    //   let moveX,moveY;
-    //   let judgeId = judge.id;
-    //   showJudge(judgeId);
-    //   let myStart = function()
-    //   {
-    //     showJudge(judgeId);
-    //   }
-    //   let myMove = function()
-    //   {
-    //     moveX = event.clientX-184;
-    //     moveY = event.clientY-75;
-    //     judge.attr({x:moveX});
-    //     judge.attr({y:moveY});
-    //   }
-    //   let myEnd = function()
-    //   {
-    //     moveX = event.clientX-184;
-    //     moveY = event.clientY-75;
-    //     judge.attr({x:moveX});
-    //     judge.attr({y:moveY});
-    //   }
+    if("all"===tool_type)
+    {
+      console.log(tool_type)
+      let judge = paper.image("../image/all.png",x,y,1428,436)
+        .attr({cursor:'pointer'})
+        .drag(function(){
+          myMove()
+        },
+          function(){
+          myStart()
+          },
+          function(){
+          myEnd()
+        });
 
-      // judge.dblclick(function()
-      // {
-      //   if(confirm("确定删除此元素？"))
-      //   {
-      //
-      //     console.log(judge.id)
-      //     let id = judge.id;
-      //     if(document.getElementById(id+"judge"))
-      //     {
-      //       $("#"+id+"judge").css('display','none');
-      //       $("#"+id+"judge").remove();
-      //     }
-      //     this.remove();
-      //   }
-      //   else{}
-      // });
-    // }
+      let moveX,moveY;
+      // let judgeId = judge.id;
+      // showJudge(judgeId);
+      let myStart = function()
+      {
+        moveX = event.clientX-714;
+        moveY = event.clientY-218;
+        // showJudge(judgeId);
+      }
+      let myMove = function()
+      {
+        //1428 436
+        moveX = event.clientX-714;
+        moveY = event.clientY-218;
+        judge.attr({x:moveX});
+        judge.attr({y:moveY});
+        $("#moveX").val(moveX)
+        $("#moveY").val(moveY)
+
+      }
+      let myEnd = function()
+      {
+        moveX = event.clientX-714;
+        moveY = event.clientY-218;
+        judge.attr({x:moveX});
+        judge.attr({y:moveY});
+      }
+
+      judge.dblclick(function()
+      {
+        if(confirm("确定删除此元素？"))
+        {
+
+          console.log(judge.id)
+          let id = judge.id;
+          if(document.getElementById(id+"judge"))
+          {
+            $("#"+id+"judge").css('display','none');
+            $("#"+id+"judge").remove();
+          }
+          this.remove();
+        }
+        else{}
+      });
+    }
   }
 
 /*显示下方表单
@@ -435,27 +567,27 @@ window.onload=function () {
     }
   }
 //judge文本
-//   function showJudge(judgeId)
-//   {
-//     $("#info div").each(function()
-//     {
-//       $(this).css('display','none');
-//     });
-//
-//     if(document.getElementById(judgeId+"judge"))
-//     {
-//       $("#"+judgeId+"judge").css('display',"block");
-//     }
-//     else
-//     {
-//       let htmlStr = "<div id="+judgeId+"judge ><table style=text-align:center>"+
-//         "<tr><td > 属性： </td><td>权限设置</td></tr>"+
-//         "<tr><td>开始编号：<input type=text value="+judgeId+"judge readOnly /></td><td>注解：<input type=text value='' /></td></tr>"+
-//         "</table></div>";
-//       $("#info").append(htmlStr);
-//       $("#"+judgeId+"judge").css('display','block');
-//     }
-//   }
+  function showJudge(judgeId)
+  {
+    $("#info div").each(function()
+    {
+      $(this).css('display','none');
+    });
+
+    if(document.getElementById(judgeId+"judge"))
+    {
+      $("#"+judgeId+"judge").css('display',"block");
+    }
+    else
+    {
+      let htmlStr = "<div id="+judgeId+"judge ><table style=text-align:center>"+
+        "<tr><td > 属性： </td><td>权限设置</td></tr>"+
+        "<tr><td>开始编号：<input type=text value="+judgeId+"judge readOnly /></td><td>注解：<input type=text value='' /></td></tr>"+
+        "</table></div>";
+      $("#info").append(htmlStr);
+      $("#"+judgeId+"judge").css('display','block');
+    }
+  }
 
   /*
   *修改文本域内容

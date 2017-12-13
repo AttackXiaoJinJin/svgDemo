@@ -14,12 +14,12 @@
 
   <div id="left" class="col-md-1 col-xs-1 col-lg-1">
     <ul id="myTab" class="nav nav-tabs">
-      <li class="active" style="width: 60px">
+      <li class="active" style="width: 62px">
         <a href="#system" data-toggle="tab"  style="font-size: 12px">
           系统列表
         </a>
       </li>
-      <li style="width: 60px"><a href="#equipment" data-toggle="tab"  style="font-size: 12px">设备列表</a></li>
+      <li style="width: 62px"><a href="#equipment" data-toggle="tab"  style="font-size: 12px">设备列表</a></li>
     </ul>
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane fade in active" id="system">
@@ -33,16 +33,16 @@
 
 <div id="middle" class="col-md-10 col-xs-10 col-lg-10">
   <div id="middleTop">
-    <ul>
-      <li class="middleTopLeft">X(px):<input id="moveX" type="number" /></li>
-      <li class="middleTopLeft">Y(px):<input id="moveY" type="number" /></li>
-      <li class="middleTopLeft">旋转(°):<input id="rotate" type="number" /></li>
+    <ul id="middleTopLeftUl">
+      <li class="middleTopLeft">X(px):<input id="moveX" name="x" type="number" /></li>
+      <li class="middleTopLeft">Y(px):<input id="moveY" name="y" type="number" /></li>
+      <li class="middleTopLeft">旋转(°):<input id="rotate" name="rotate" type="number" /></li>
       <li class="middleTopLeft">X缩放(%):<input id="scaleX" type="number" /></li>
       <li class="middleTopLeft">Y缩放(%):<input id="scaleY" type="number" /></li>
-      <li class="middleTopLeft">宽度固定(px):<input id="changeWidth" type="number" /></li>
-      <li class="middleTopLeft">高度固定(px):<input id="changeHeight" type="number" /></li>
+      <li class="middleTopLeft">宽度固定(px):<input id="changeWidth" name="width" type="number" /></li>
+      <li class="middleTopLeft">高度固定(px):<input id="changeHeight" name="height" type="number" /></li>
     </ul>
-    <ul>
+    <ul id="middleTopRightUl">
       <li class="middleTopRight"><i class="icon-trunleft"></i></li>
       <li class="middleTopRight"><i class="icon-trunright"></i></li>
       <li class="middleTopRight"><i class="icon-totop"></i></li>

@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017.12.12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/上移一层.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/下移一层.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/保存.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/删除.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/刷新.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/右转.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/导出.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/左转.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/置底.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/image/置顶.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/useSVG/css/useSVG.css" afterPath="$PROJECT_DIR$/useSVG/css/useSVG.css" />
+      <change beforePath="$PROJECT_DIR$/svgEditor/svgEditor.js" afterPath="$PROJECT_DIR$/svgEditor/svgEditor.js" />
       <change beforePath="$PROJECT_DIR$/useSVG/html/useSVG.html" afterPath="$PROJECT_DIR$/useSVG/html/useSVG.html" />
       <change beforePath="$PROJECT_DIR$/useSVG/js/useSVG.js" afterPath="$PROJECT_DIR$/useSVG/js/useSVG.js" />
     </list>
@@ -33,61 +22,54 @@
       <file leaf-file-name="useSVG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="627">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1513073897963" expanded="false" signature="3436:3451" ph="..." />
+                <marker date="1513146803971" expanded="false" signature="3538:3553" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1WKYNode.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1WKYNode.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Components.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28055">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017.12.12.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2017.12.12.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="useSVG.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="useSVG.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1928">
-              <caret line="463" column="21" lean-forward="true" selection-start-line="463" selection-start-column="21" selection-end-line="463" selection-end-column="21" />
+            <state relative-caret-position="579">
+              <caret line="503" column="0" lean-forward="true" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
               <folding>
-                <marker date="1513074536966" expanded="true" signature="12121:12138" ph="..." />
-                <marker date="1513074536966" expanded="true" signature="12742:12759" ph="..." />
-                <marker date="1513074536966" expanded="true" signature="13380:13397" ph="..." />
-                <marker date="1513074536966" expanded="true" signature="14097:14114" ph="..." />
-                <marker date="1513074536966" expanded="true" signature="14806:14823" ph="..." />
-                <marker date="1513074536966" expanded="true" signature="15508:15525" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="15324:15341" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="15945:15962" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="16583:16600" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="17327:17344" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="18048:18065" ph="..." />
+                <marker date="1513151839157" expanded="true" signature="18732:18749" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svgEditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svgEditor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#p#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +78,8 @@
       <file leaf-file-name="useSVG.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/css/useSVG.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -127,6 +109,9 @@
       <find>var</find>
       <find>left</find>
       <find>red</find>
+      <find>select</find>
+      <find>judge</find>
+      <find>task2</find>
       <find>all</find>
     </findStrings>
     <replaceStrings>
@@ -137,6 +122,8 @@
       <replace>left</replace>
       <replace>let</replace>
       <replace>middle</replace>
+      <replace>all</replace>
+      <replace>year2013</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +154,6 @@
         <option value="$PROJECT_DIR$/svg.js" />
         <option value="$PROJECT_DIR$/svgEditor/svgEditor.css" />
         <option value="$PROJECT_DIR$/svgEditor/svgEditor.html" />
-        <option value="$PROJECT_DIR$/svgEditor/svgEditor.js" />
         <option value="$PROJECT_DIR$/lineartuoyuan.svg" />
         <option value="$PROJECT_DIR$/bishua.svg" />
         <option value="$PROJECT_DIR$/pathEditor/path.css" />
@@ -184,10 +170,11 @@
         <option value="$PROJECT_DIR$/useSVG/useSVG.css" />
         <option value="$PROJECT_DIR$/useSVG/css.css" />
         <option value="$PROJECT_DIR$/useSVG/useSVG.html" />
-        <option value="$PROJECT_DIR$/useSVG/html/useSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/css/useSVG.css" />
-        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
         <option value="$PROJECT_DIR$/2017.12.12.xml" />
+        <option value="$PROJECT_DIR$/svgEditor/svgEditor.js" />
+        <option value="$PROJECT_DIR$/useSVG/html/useSVG.html" />
+        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
       </list>
     </option>
   </component>
@@ -204,8 +191,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1087" />
+    <option name="x" value="-7" />
+    <option name="width" value="1158" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -234,6 +221,22 @@
             <path>
               <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="svgEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,18 +302,19 @@
       <workItem from="1512887775744" duration="613000" />
       <workItem from="1512980623871" duration="1975000" />
       <workItem from="1512986931226" duration="2454000" />
-      <workItem from="1513039958807" duration="26379000" />
+      <workItem from="1513039958807" duration="26527000" />
+      <workItem from="1513127027655" duration="18596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89777000" />
+    <option name="totallyTimeSpent" value="108521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0980912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13202545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -361,14 +365,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guolvjianbian.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lineartuoyuan.svg">
@@ -453,9 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
           <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#text#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#line#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,15 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="146" column="3" lean-forward="true" selection-start-line="146" selection-start-column="3" selection-end-line="146" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,45 +490,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/otherJs/raphael.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pathEditor/pathEditor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/image/img1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/image/img2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/image/logo4w.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/image/img1.jpg" />
+    <entry file="file://$PROJECT_DIR$/useSVG/image/img2.jpg" />
+    <entry file="file://$PROJECT_DIR$/useSVG/image/logo4w.png" />
     <entry file="file://$PROJECT_DIR$/useSVG/image/red.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -569,14 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="106" column="9" lean-forward="false" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding>
-            <marker date="1513062821250" expanded="true" signature="9568:9585" ph="..." />
-            <marker date="1513062821250" expanded="true" signature="10193:10210" ph="..." />
-            <marker date="1513062821250" expanded="true" signature="10833:10850" ph="..." />
-            <marker date="1513062821250" expanded="true" signature="11554:11571" ph="..." />
-            <marker date="1513062821250" expanded="true" signature="12265:12282" ph="..." />
-            <marker date="1513062821250" expanded="true" signature="12971:12988" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,23 +536,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/css.css" />
     <entry file="file://$PROJECT_DIR$/useSVG/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="1940" column="3" lean-forward="true" selection-start-line="1940" selection-start-column="3" selection-end-line="1940" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,72 +572,92 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/css/useSVG.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1928">
-          <caret line="463" column="21" lean-forward="true" selection-start-line="463" selection-start-column="21" selection-end-line="463" selection-end-column="21" />
-          <folding>
-            <marker date="1513074536966" expanded="true" signature="12121:12138" ph="..." />
-            <marker date="1513074536966" expanded="true" signature="12742:12759" ph="..." />
-            <marker date="1513074536966" expanded="true" signature="13380:13397" ph="..." />
-            <marker date="1513074536966" expanded="true" signature="14097:14114" ph="..." />
-            <marker date="1513074536966" expanded="true" signature="14806:14823" ph="..." />
-            <marker date="1513074536966" expanded="true" signature="15508:15525" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1513073897963" expanded="false" signature="3436:3451" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1WKYNode.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aa.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aa.xsl" />
     <entry file="file://$PROJECT_DIR$/Components.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28055">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="429">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2017.12.12.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="429">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#p#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/css/useSVG.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1513146803971" expanded="false" signature="3538:3553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/otherJs/raphael.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1" column="17254" lean-forward="false" selection-start-line="1" selection-start-column="17254" selection-end-line="1" selection-end-column="17254" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svgEditor/svgEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="503" column="0" lean-forward="true" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+          <folding>
+            <marker date="1513151839157" expanded="true" signature="15324:15341" ph="..." />
+            <marker date="1513151839157" expanded="true" signature="15945:15962" ph="..." />
+            <marker date="1513151839157" expanded="true" signature="16583:16600" ph="..." />
+            <marker date="1513151839157" expanded="true" signature="17327:17344" ph="..." />
+            <marker date="1513151839157" expanded="true" signature="18048:18065" ph="..." />
+            <marker date="1513151839157" expanded="true" signature="18732:18749" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

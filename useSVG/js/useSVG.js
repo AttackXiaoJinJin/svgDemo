@@ -1,4 +1,8 @@
 window.onload=function () {
+  let showBorder=1
+  //左边和上边的工具栏占的位置
+  let gongjuLeft=125
+  let gongjuTop=30
   //创建画布
   let paper;
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
@@ -11,7 +15,7 @@ window.onload=function () {
       console.log("aaaaa")
     });
 
-    $("#middle").droppable({
+    $("#middleMid").droppable({
       accept:".tool_part",
       drop:function(event,ui)
       {
@@ -206,26 +210,26 @@ window.onload=function () {
    */
     if("year2013"===tool_type)
     {
-      let task2 = paper.image("../image/year2013.png",x,y,38,18)
+      let year2013 = paper.image("../image/year2013.png",x,y,38,18)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
-      let realText = paper.text(x-140,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
+      let realText = paper.text(x-140,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
       let moveX,moveY;
 
-      // let task2Id = task2.id;
+      // let year2013Id = year2013.id;
       // let realTextId = realText.id;
-      // showTask2(task2Id,realTextId);
+      // showyear2013(year2013Id,realTextId);
 
       let myMove = function()
       {
         //38 18
         moveX = event.clientX-19;
         moveY = event.clientY-9;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
-        // realText.attr({x:(moveX+task2.attr("width")/2)});
-        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
+        // realText.attr({x:(moveX+year2013.attr("width")/2)});
+        // realText.attr({y:(moveY+year2013.attr("height")/2)});
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
 
@@ -234,14 +238,14 @@ window.onload=function () {
       {
         moveX = event.clientX-19;
         moveY = event.clientY-9;
-        // showTask2(task2Id,realTextId);
+        // showyear2013(year2013Id,realTextId);
       }
       let myEnd = function()
       {
         moveX = event.clientX-19;
         moveY = event.clientY-9;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
       }
     }
     /*
@@ -249,7 +253,7 @@ window.onload=function () {
    */
     if("red"===tool_type)
     {
-      let task2 = paper.image("../image/red.png",x,y,19,19)
+      let year2013 = paper.image("../image/red.png",x,y,19,19)
         .attr({cursor:'pointer'})
         .drag(function(){
           myMove()
@@ -260,22 +264,22 @@ window.onload=function () {
           function(){
           myEnd()
         });
-      // let realText = paper.text(x-,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
+      // let realText = paper.text(x-,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
       let moveX,moveY;
 
-      let task2Id = task2.id;
+      let year2013Id = year2013.id;
       // let realTextId = realText.id;
-      // showTask2(task2Id,realTextId);
+      // showyear2013(year2013Id,realTextId);
 
       let myMove = function()
       {
         //19 19
         moveX = event.clientX-9;
         moveY = event.clientY-9;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
-        // realText.attr({x:(moveX+task2.attr("width")/2)});
-        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
+        // realText.attr({x:(moveX+year2013.attr("width")/2)});
+        // realText.attr({y:(moveY+year2013.attr("height")/2)});
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
 
@@ -284,14 +288,14 @@ window.onload=function () {
       {
         moveX = event.clientX-9;
         moveY = event.clientY-9;
-        // showTask2(task2Id,realTextId);
+        // showyear2013(year2013Id,realTextId);
       }
       let myEnd = function()
       {
         moveX = event.clientX-9;
         moveY = event.clientY-9;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
       }
     }
     /*
@@ -299,26 +303,26 @@ window.onload=function () {
    */
     if("baojing"===tool_type)
     {
-      let task2 = paper.image("../image/baojing.png",x,y,121,24)
+      let year2013 = paper.image("../image/baojing.png",x,y,121,24)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 
-      // let realText = paper.text(x-140,y-50,'Task2').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask2(task2Id,realTextId);});
+      // let realText = paper.text(x-140,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
       let moveX,moveY;
 
-      // let task2Id = task2.id;
+      // let year2013Id = year2013.id;
       // let realTextId = realText.id;
-      // showTask2(task2Id,realTextId);
+      // showyear2013(year2013Id,realTextId);
 
       let myMove = function()
       {
         //121,24
         moveX = event.clientX-60;
         moveY = event.clientY-12;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
-        // realText.attr({x:(moveX+task2.attr("width")/2)});
-        // realText.attr({y:(moveY+task2.attr("height")/2)});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
+        // realText.attr({x:(moveX+year2013.attr("width")/2)});
+        // realText.attr({y:(moveY+year2013.attr("height")/2)});
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
 
@@ -327,15 +331,15 @@ window.onload=function () {
       {
         moveX = event.clientX;
         moveY = event.clientY;
-        // showTask2(task2Id,realTextId);
+        // showyear2013(year2013Id,realTextId);
       }
       let myEnd = function()
       {
         //121,24
         moveX = event.clientX-60;
         moveY = event.clientY-12;
-        task2.attr({x:moveX});
-        task2.attr({y:moveY});
+        year2013.attr({x:moveX});
+        year2013.attr({y:moveY});
       }
     }
     /*
@@ -381,63 +385,138 @@ window.onload=function () {
         task3.attr({y:moveY});
       }
     }
+    //==============================================
     /*
    *绘制广场大图
    */
     if("all"===tool_type)
     {
+      let width=1428
+      let height=436
       console.log(tool_type)
-      let judge = paper.image("../image/all.png",x,y,1428,436)
-        .attr({cursor:'pointer'})
+      let all = paper.image("../image/all.png",x,y,width,height)
+        // .attr({cursor:'pointer'})
+        // .attr({border:'1px red solid',boxSizing:'border-box'})
+        .attr({cursor:'pointer',strokeWidth:'3',stroke:'red'})
         .drag(function(){
           myMove()
         },
           function(){
           myStart()
-          },
-          function(){
-          myEnd()
+          }
+        //   ,
+        //   function(){
+        //   myEnd()
+        // }
+        );
+        let box=all.getBBox()
+        let rect=paper.rect(box.x, box.y, box.width, box.height).attr({
+        "stroke": "red"
         });
 
-      let moveX,moveY;
-      // let judgeId = judge.id;
-      // showJudge(judgeId);
+
+      //获取矩形的中心
+      let midX=all.attrs.width/2
+      let midY=all.attrs.height/2
+      console.log(all)
+      console.log("这是all的offsetleft")
+      let moveX,moveY,ol,ot;
+
+      // let allId = all.id;
+      // showall(allId);
       let myStart = function()
       {
-        moveX = event.clientX-714;
-        moveY = event.clientY-218;
-        // showJudge(judgeId);
+        //一开始就画一个矩形，之后就是移动它而不是重复画它
+
+
+        // let event=event || window.event
+        // moveX = event.clientX-714;
+        // moveX = event.clientX-midX;
+        // ol=event.offsetLeft -event.clientX;
+        // moveY = event.clientY-218;
+        // ot =event.offsetTop- event.clientY;
+        $("#changeWidth").val(all.attrs.width)
+        $("#changeHeight").val(all.attrs.height)
+        // console.log($("#changeWidth").val())
+        // console.log("这是start")
+        // console.log(event)
+        // console.log(ol)
+        // console.log(ot)
+        console.log(event.clientX+"clientX")
+        console.log(event.clientY+"clientY")
+        // showall(allId);
       }
       let myMove = function()
       {
+        // let event=event || window.event
         //1428 436
-        moveX = event.clientX-714;
-        moveY = event.clientY-218;
-        judge.attr({x:moveX});
-        judge.attr({y:moveY});
+        //先定位鼠标到图片的左上角
+        moveX = event.clientX-gongjuLeft;
+        // moveX = event.clientX-714;
+        // moveX = event.clientX-ol;
+        // moveX =event.offsetX- ol;
+        moveY = event.clientY-gongjuTop;
+        // moveY = event.clientY-218;
+        // moveY = event.clientY-ot;
+        // moveY =event.offsetY- ot;
+        all.attr({x:moveX,y:moveY});
+        rect.attr({x:moveX,y:moveY});
+
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
+        console.log("这是move")
+        console.log(event.clientX+"clientX")
+        console.log(event.clientY+"clientY")
+
+
 
       }
-      let myEnd = function()
-      {
-        moveX = event.clientX-714;
-        moveY = event.clientY-218;
-        judge.attr({x:moveX});
-        judge.attr({y:moveY});
-      }
+      // let myEnd = function()
+      // {
+      //   // moveX = event.clientX-714;
+      //   moveX = event.clientX-midX;
+      //   // moveY = event.clientY-218;
+      //   moveY = event.clientY-midY;
+      //   all.attr({x:moveX});
+      //   all.attr({y:moveY});
+      //
+      //   console.log("这是end")
+      // }
 
-      judge.dblclick(function()
+      //通过input去改变图片的属性值
+      $("#middleTopLeftUl").on('input',function (e) {
+        if(e.target.tagName.toLowerCase()!=='input'){
+          //终止
+          return
+        }
+        console.log(e.target)
+        let handle=e.target
+        console.log(handle.name)
+        console.log(handle.value)
+        switch(handle.name){
+          case "width":all.attr({width:handle.value});rect.attr({width:handle.value});break;
+          case "height":all.attr({height:handle.value});rect.attr({height:handle.value});break;
+          case "rotate": all.attr('transform','R'+handle.value);rect.attr('transform','R'+handle.value);break;
+        }
+        // all.rotate(handle.value);
+
+        //选中的节点设置名称和值
+
+        // all.setAttribute(handle.name,handle.value)
+        console.log(handle.value)
+      })
+
+      all.dblclick(function()
       {
         if(confirm("确定删除此元素？"))
         {
 
-          console.log(judge.id)
-          let id = judge.id;
-          if(document.getElementById(id+"judge"))
+          console.log(all.id)
+          let id = all.id;
+          if(document.getElementById(id+"all"))
           {
-            $("#"+id+"judge").css('display','none');
-            $("#"+id+"judge").remove();
+            $("#"+id+"all").css('display','none');
+            $("#"+id+"all").remove();
           }
           this.remove();
         }
@@ -445,6 +524,29 @@ window.onload=function () {
       });
     }
   }
+
+  /**
+   *显示middle-top的数据
+   */
+
+  /*
+  * 更新属性值
+  * */
+  // function updateValue(selected) {
+  //   width.value=selected.getAttribute('width')
+  //   height.value=selected.getAttribute('height')
+  //   let t=decodeTransform(selected.getAttribute('transform'))
+  //   translateX.value=t?t.tx:0
+  //   translateY.value=t?t.ty:0
+  //   rotate.value=t?t.rotate:0
+  //   scale.value=t?t.scale:1
+  //   fill.value=selected.getAttribute('fill')
+  //   stroke.value=selected.getAttribute('stroke')
+  // }
+
+
+
+
 
 /*显示下方表单
   */
@@ -521,27 +623,27 @@ window.onload=function () {
       $("#"+task1Id+"task1").css('display','block');
     }
   }
-//task2
+//year2013
 //task1文本
-  function showTask2(task2Id,textId)
+  function showyear2013(year2013Id,textId)
   {
     $("#info div").each(function()
     {
       $(this).css('display','none');
     });
 
-    if(document.getElementById(task2Id+"task2"))
+    if(document.getElementById(year2013Id+"year2013"))
     {
-      $("#"+task2Id+"task2").css('display',"block");
+      $("#"+year2013Id+"year2013").css('display',"block");
     }
     else
     {
-      let htmlStr = "<div id="+task2Id+"task2 ><table style=text-align:center>"+
+      let htmlStr = "<div id="+year2013Id+"year2013 ><table style=text-align:center>"+
         "<tr><td > 属性： </td><td>权限设置</td></tr>"+
-        "<tr><td>开始编号：<input type=text value="+task2Id+"task2 readOnly /></td><td>显示名称：<input type=text value='' onblur=javascript:changeText('"+textId+"') id="+textId+"text /></td></tr>"+
+        "<tr><td>开始编号：<input type=text value="+year2013Id+"year2013 readOnly /></td><td>显示名称：<input type=text value='' onblur=javascript:changeText('"+textId+"') id="+textId+"text /></td></tr>"+
         "</table></div>";
       $("#info").append(htmlStr);
-      $("#"+task2Id+"task2").css('display','block');
+      $("#"+year2013Id+"year2013").css('display','block');
     }
   }
 //task3文本
@@ -566,26 +668,26 @@ window.onload=function () {
       $("#"+task3Id+"task3").css('display','block');
     }
   }
-//judge文本
-  function showJudge(judgeId)
+//all文本
+  function showall(allId)
   {
     $("#info div").each(function()
     {
       $(this).css('display','none');
     });
 
-    if(document.getElementById(judgeId+"judge"))
+    if(document.getElementById(allId+"all"))
     {
-      $("#"+judgeId+"judge").css('display',"block");
+      $("#"+allId+"all").css('display',"block");
     }
     else
     {
-      let htmlStr = "<div id="+judgeId+"judge ><table style=text-align:center>"+
+      let htmlStr = "<div id="+allId+"all ><table style=text-align:center>"+
         "<tr><td > 属性： </td><td>权限设置</td></tr>"+
-        "<tr><td>开始编号：<input type=text value="+judgeId+"judge readOnly /></td><td>注解：<input type=text value='' /></td></tr>"+
+        "<tr><td>开始编号：<input type=text value="+allId+"all readOnly /></td><td>注解：<input type=text value='' /></td></tr>"+
         "</table></div>";
       $("#info").append(htmlStr);
-      $("#"+judgeId+"judge").css('display','block');
+      $("#"+allId+"all").css('display','block');
     }
   }
 

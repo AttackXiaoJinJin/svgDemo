@@ -9,7 +9,7 @@ window.onload=function () {
     line:'x1:10,y1:10,x2:100,y2:100'
   }
   //设置公共的填充色和边框颜色
-  var defaultAttrs={
+  let defaultAttrs={
     fill:'#FFB6C1',
     stroke:'#ff0000'
   }
@@ -45,6 +45,8 @@ window.onload=function () {
     console.log(e.target)
     let handle=e.target
     //选中的节点设置名称和值
+    console.log(handle.name)
+    console.log(handle.value)
     selected.setAttribute(handle.name,handle.value)
     console.log(handle.value)
   })

@@ -116,6 +116,7 @@ window.onload=function () {
       shape.setAttribute(name,value)
     }
     selected=shape
+    console.log(shape)
     updateLookHandle()
   }
   function createHandle(shape,name,value) {

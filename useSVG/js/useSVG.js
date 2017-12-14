@@ -5,8 +5,11 @@ window.onload=function () {
 
   let selected=null
   //左边和上边的工具栏占的位置
+  //屏幕适配，暂时不做
   let gongjuLeft=125
   let gongjuTop=30
+
+
   //创建画布
   let paper;
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
@@ -14,11 +17,11 @@ window.onload=function () {
   paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
   // console.log(paper)
   $("svg").on("click",function (e) {
-
     // console.log(e.target)
     selected=e.target
+    console.log(e.target.style.transform)
     console.log(selected)
-    console.log(selected.getAttribute('width'))
+    // console.log(selected.getAttribute('width'))
     // $("#changeWidth").val(all.attrs.width)
     //是pic到input,是由内向外显示的值
     $("#changeWidth").val(selected.getAttribute("width"))
@@ -445,10 +448,9 @@ window.onload=function () {
         //   myEnd()
         // }
         );
-
-
-
-        
+      
+      console.log(all)
+      
       //获取矩形的中心
       let midX=all.attrs.width/2
       let midY=all.attrs.height/2
@@ -492,8 +494,6 @@ window.onload=function () {
         // console.log(mouseTop+"mouseTop")
         // console.log(goLeft+"goLeft")
         // console.log(goTop+"goTop")
-
-
         // showall(allId);
       }
       let myMove = function()
@@ -504,20 +504,14 @@ window.onload=function () {
         //1428 436
         //先定位鼠标到图片的左上角
         moveX =mouseLeft-goLeft ;
-
         moveY =mouseTop-goTop ;
-
         all.attr({x:moveX,y:moveY});
         // rect.attr({x:moveX,y:moveY});
-
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
         // console.log("这是move")
         // console.log(moveX+"moveX")
         // console.log(moveY+"moveY")
-
-
-
       }
       // let myEnd = function()
       // {
@@ -553,9 +547,13 @@ window.onload=function () {
             selected.setAttribute("height",handle.value);
             // rect.attr({height:handle.value});
             break;
-          // case "rotate": all.attr('transform','R'+handle.value);rect.attr('transform','R'+handle.value);break;
+          // case "rotate": rect.attr('transform','R'+handle.value);break;
           case "rotate":
-            selected.setAttribute('transform','R'+handle.value);
+            // matrix(cosθ,sinθ,-sinθ,cosθ,0,0)
+            selected.setAttribute("transform","matrix("+Math.cos( 2*Math.PI/360*handle.value).toFixed(4)+","+Math.sin(2*Math.PI/360*handle.value).toFixed(4)+","+"-"+Math.sin(2*Math.PI/360*handle.value).toFixed(4)+","+Math.cos(2*Math.PI/360*handle.value).toFixed(4)+","+0+","+0+")");
+            // selected.css("transform","rotate("+handle.value+"deg)");
+            // selected.style.transform("rotate("+handle.value+"deg)");
+            // all.attr('transform','R'+handle.value);
             // rect.attr('transform','R'+handle.value);
             break;
         }
@@ -566,30 +564,89 @@ window.onload=function () {
         // all.setAttribute(handle.name,handle.value)
         // console.log(handle.value)
       })
-      //通过中上的删除去删除
-      $(".icon-delete").on('click',function (e) {
-        // if(confirm("确定删除此元素？"))
-        // {
-          // console.log(all.id)
-          // let id = all.id;
-          // if(document.getElementById(id+"all"))
-          // {
-          //   $("#"+id+"all").css('display','none');
-          //   $("#"+id+"all").remove();
-          // }
-          // rect.remove()
-        //
-        //   all.remove()
-          selected.remove()
-        // }
-
-      })
     }
   }
 
-  /**
+  /*
+  * 删除
+  * */
+  //通过中上的删除去删除
+  $(".icon-delete").on('click',function (e) {
+    // if(confirm("确定删除此元素？"))
+    // {
+    // console.log(all.id)
+    // let id = all.id;
+    // if(document.getElementById(id+"all"))
+    // {
+    //   $("#"+id+"all").css('display','none');
+    //   $("#"+id+"all").remove();
+    // }
+    // rect.remove()
+    //
+    //   all.remove()
+    selected.remove()
+    // }
+
+  })
+
+  /*
+  * 向上一层
+  * */
+  $(".icon-toup").on('click',function (e) {
+    // if(confirm("确定删除此元素？"))
+    // {
+    // console.log(all.id)
+    // let id = all.id;
+    // if(document.getElementById(id+"all"))
+    // {
+    //   $("#"+id+"all").css('display','none');
+    //   $("#"+id+"all").remove();
+    // }
+    // rect.remove()
+    //
+    //   all.remove()
+    selected.remove()
+    // }
+
+  })
+
+  /*
+  * 向下一层
+  * */
+  $(".icon-todown").on('click',function (e) {
+    // if(confirm("确定删除此元素？"))
+    // {
+    // console.log(all.id)
+    // let id = all.id;
+    // if(document.getElementById(id+"all"))
+    // {
+    //   $("#"+id+"all").css('display','none');
+    //   $("#"+id+"all").remove();
+    // }
+    // rect.remove()
+    //
+    //   all.remove()
+    selected.remove()
+    // }
+
+  })
+
+  /*
+  *置顶
+  * */
+  $(".icon-totop").on('click',function (e) {
+    console.log("置顶")
+  })
+  /*
+  * 置底
+  * */
+  $(".icon-tobottom").on('click',function (e) {
+    console.log("置底")
+  })
+
+  /*
    *显示middle-top的数据
-   */
+   **/
 
 
 

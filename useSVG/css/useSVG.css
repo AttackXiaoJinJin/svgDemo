@@ -206,7 +206,7 @@ img{
   border: 1px red solid;
   box-sizing: border-box;
 }
-
+/*右侧的工具栏*/
 #right{
   /*width: 100px;*/
   height:730px;
@@ -217,6 +217,41 @@ img{
   margin: 0;
   padding: 0;
 }
+
+#right #leftTab{
+  border: 1px red solid;
+  box-sizing: border-box;
+  width: 32px;
+  float: left;
+}
+#right #leftTab li{
+  text-align: left;
+  width: 30px;
+}
+#right #leftTab li a{
+  font-size: 12px;
+  padding-left: 9px;
+}
+
+
+#leftTabContent{
+  width: 92px;
+  border: 1px solid green;
+  margin-left: 33px;
+}
+/*#left1{*/
+  /*width: 50px;*/
+/*}*/
+/*#left2{*/
+  /*width: 50px;*/
+/*}*/
+#leftTabContent div{
+  width: 50px;
+}
+
+
+
+
 li{
   padding: 0;
 }

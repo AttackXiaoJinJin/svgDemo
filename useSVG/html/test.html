@@ -48,6 +48,9 @@
     {
       width:100%;
     }
+    #baojing{
+
+    }
   </style>
 
 </head>
@@ -76,7 +79,7 @@
         <div class="div1">工具栏</div>
         <br />
         <div class="tool_part" type="start">
-          <img src="../image/green.png" width="20px" />  start
+          <img id="baojing" src="../image/baojing.png" width="20px" style="transform: rotate(45deg);" />  start
         </div>
         <br />
 
@@ -96,6 +99,7 @@
 
 <script>
 window.onload=function () {
+  console.log($("#info"))
   var paper;
     paper = new Raphael(document.getElementById("flow"),1800, 600);
     $(".tool_part").each(function()
@@ -122,7 +126,7 @@ window.onload=function () {
     if("start"==tool_type)
     {
       console.log(tool_type)
-      var start = paper.image("../image/green.png",x-184,y-75,48,48)
+      var start = paper.image("../image/baojing.png",x-184,y-75,48,48)
         .attr({cursor:'pointer'})
         .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
 

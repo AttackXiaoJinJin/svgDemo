@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Components>
 	<Component>
+		<!--设备库===============-->
 		<BSHX width="103" height="98" deviceID="" compName="热交换器" type="comp" group="deviceComp">
 			<Image x="0" y="0" width="103" height="98" name="背景" param="bg" source="assets/comp/BSHX/bg.png"/>
 			<Image x="16" y="9" width="72" height="79" compName="运行" param="runing"  paramvaule="0,1" source="assets/comp/BSHX/runing/1/1.png"/>
@@ -31,6 +32,7 @@
 			<Image x="0" y="0" width="256" height="129" compName="背景" param="alarm" paramvaule="0,1" source="assets/comp/LGJZ/alarm/0/1.png"/>
 			<Image x="102" y="22" width="68" height="40" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/LGJZ/runing/0/1.png"/>
 		</LGJZ>
+
 		<LQB width="88" height="87" deviceID="" compName="冷却泵" type="comp" group="deviceComp"  isPop="false" popType="list" isMouseOverTip="false">
 			<Image x="0" y="0" width="88" height="87" compName="背景" param="alarm" paramvaule="0,1" source="assets/comp/LQB/alarm/0/1.png"/>
 			<Image x="27" y="2" width="34" height="22" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/LQB/runing/0/1.png"/>
@@ -125,19 +127,16 @@
 			<Image x="0" y="0" width="1009" height="393" param="alarm" paramvaule="0,1" source="assets/comp/EA/alarm/0/1.png"/>
 			<Image x="367" y="166" width="132" height="104" param="runing" paramvaule="0,1" source="assets/comp/EA/runing/0/1.png"/>
 		</EA>
-				
-	
+
 		<EA1 width="1021" height="685" deviceID="" compName="组合式空调风柜" type="comp" group="deviceComp"  isPop="true" popType="list">
 			<Image x="0" y="0" width="1021" height="685" param="alarm" paramvaule="0,1" source="assets/comp/EA1/alarm/0/1.png"/>
 			<Image x="707" y="448" width="59" height="46" param="runing" paramvaule="0,1" source="assets/comp/EA1/runing/0/1.png"/>
 		</EA1>
-		
-	
+
 		<EA2 width="993" height="430" deviceID="" compName="新风机组风柜" type="comp" group="deviceComp"  isPop="true" popType="list">
 			<Image x="0" y="0" width="993" height="430" param="alarm" paramvaule="0,1" source="assets/comp/EA2/alarm/0/1.png"/>
 			<Image x="568" y="105" width="84" height="65" param="runing" paramvaule="0,1" source="assets/comp/EA2/runing/0/1.png"/>
 		</EA2>
-		
 
 		<EAF1 width="101" height="129" deviceID="" compName="排风机1" type="comp" group="deviceComp"  isPop="true" popType="list">
 			<Image x="0" y="0" width="101" height="129" param="alarm1" paramvaule="0,1" source="assets/comp/EAF1/alarm1/0/1.png"/>
@@ -195,8 +194,7 @@
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/KTTB/alarm/0/1.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/KTTB/runing/0/1.png"/>
 		</KTTB>
-		
-		
+
 		<KTDZKT width="80" height="80" deviceID="" compName="吊顶空调图标" type="comp" group="deviceComp" isPop="true" popType="redirect">
 			<Image x="0" y="0" width="80" height="80" name="背景" param="bg" source="assets/comp/KTDZKT/bg.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/KTDZKT/alarm/0/1.png"/>
@@ -220,8 +218,7 @@
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/KTSPFJ/alarm/0/1.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/KTSPFJ/runing/0/1.png"/>
 		</KTSPFJ>
-		
-		
+
 		<KTTBDJR width="80" height="80" deviceID="" compName="电热风幕电加热图标" type="comp" group="deviceComp" isPop="true" popType="redirect">
 			<Image x="0" y="0" width="80" height="80" name="背景" param="bg" source="assets/comp/KTTBDJR/bg.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/KTTBDJR/alarm/0/1.png"/>
@@ -238,17 +235,14 @@
 			<Image x="0" y="0" width="80" height="80" name="背景" param="bg" source="assets/comp/JSKTB/bg.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="高液位" param="highLevel" paramvaule="0,1" source="assets/comp/JSKTB/highLevel/0/1.png"/>
 		</JSKTB>
-		
-		
+
 		<JSKTBA width="80" height="80" deviceID="" compName="集水坑图标2" type="comp" group="deviceComp" isPop="true" popType="redirect">
 			<Image x="0" y="0" width="80" height="80" name="背景" param="bg" source="assets/comp/JSKTBA/bg.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm2" paramvaule="0,1" source="assets/comp/JSKTBA/alarm2/0/1.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/JSKTBA/alarm/0/1.png"/>
 			<Image x="0" y="0" width="80" height="80" compName="报警" param="highLevel" paramvaule="0,1" source="assets/comp/JSKTBA/highLevel/0/1.png"/>
 		</JSKTBA>
-		
-		
-		
+
 		<PSX width="148" height="202" deviceID="" compName="膨胀水箱" type="comp" group="deviceComp">
 			<Image x="0" y="0" width="148" height="202" compName="背景" param="bg" source="assets/comp/PSX/bg.png"/>
 			<Image x="0" y="0" width="148" height="202" compName="高液位报警" param="highLevel" paramvaule="0,1" source="assets/comp/PSX/highLevel/0/1.png"/>
@@ -295,7 +289,8 @@
 		<UA width="110" height="72" deviceID="" compName="电压表" type="comp" group="deviceComp" isPop="true" popType="list">
 			<Image x="0" y="0" width="110" height="72" compName="背景" param="bg" source="assets/comp/UA/bg.png"/>
 		</UA>
-		
+		<!--以上是设备库=========================================-->
+		<!--基本组件======================================================================================================================================-->
 		<GLASS width="80" height="80" deviceID="" compName="玻璃破碎" type="comp" group="commonComp" isPop="true" popType="video" isToolTip="true">
 			<Image x="0" y="0" width="80" height="80" param="alarm" paramvaule="0,1" source="assets/comp/GLASS/alarm/0/1.png"/>
 		</GLASS>
@@ -712,15 +707,20 @@
 			<Image x="0" y="0"  width="58" height="25" param="bg" source="assets/comp/ONLINEOFFLINE/bg.png"/>
 			<Image x="0" y="0" width="58" height="25" param="state" paramvaule="0,1" source="assets/comp/ONLINEOFFLINE/state/0/1.png"/>
 		</ONLINEOFFLINE>
+		<!--=========上面是基本组件=======================-->
 
+		<!--设备库=========================================-->
 		<RBJZ width="186" height="115" deviceID="" compName="热泵机组" type="comp" group="deviceComp"  isPop="true" popType="list">
 			<Image x="0" y="0" width="186" height="115" compName="背景" param="bg" source="assets/comp/RBJZ/bg.png"/>
 			<Image x="0" y="0" width="186" height="115" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/RBJZ/runing/0/1.png"/>
 			<Image x="0" y="0" width="186" height="115" compName="报警" param="alarm" paramvaule="0,1" source="assets/comp/RBJZ/alarm/0/1.png"/>
 		</RBJZ>
-		
+		<!--=====================-->
+		<!--基本组件-->
 		<LABEL source="assets/comp/TEXTINPUT/text.png"  text="0101"  compName="动态文本" textAlign="right" color="3407616"  widthInChars="4" fontWeight="normal" fontFamily="digifaw" rotation="0" contentBackgroundColor="000000" borderColor="999999" contentBackgroundAlpha="1" borderVisible="true" fontSize="12" sizeAuto="false" deviceID="" param="" type="comp" group="commonComp"/>
 		<TEXT source="assets/comp/TEXTINPUT/label.png" text="静态文本" fontSize="12" fontWeight="normal" fontFamily="微软雅黑"  widthInChars="4" compName="标准文本" color="0x444444" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" textAlign="center" sizeAuto="true" deviceID="" param="" type="comp" group="commonComp"/>
+		<!--========-->
+		<!--背景=================================-->
 		<JXK source="assets/comp/jxk.png" compName="矩形框" type="image" group="bg"/>
 		<JXK2 source="assets/comp/jxk2.png" compName="矩形框2" type="image" group="bg"/>
 		<JXKh source="assets/comp/jxkh.png" compName="灰色矩形框" type="image" group="bg"/>
@@ -765,6 +765,8 @@
 		<DZXG source="assets/comp/dzxg.png" compName="已巡更" type="image" group="bg"/>
 		<DZXGNO source="assets/comp/dzxgno.png" compName="未巡更" type="image" group="bg"/>
 		<JT source="assets/comp/jt.png" compName="箭头" type="image" group="bg"/>
+		<!--以上是背景================================-->
+		<!--图例=====================================-->
 		<TULI source="assets/comp/TULI/TULI.png" compName="图例底图" type="image" group="tuli"/>
 		<JSKN source="assets/comp/TULI/JSKN.png" compName="集水坑正常" type="image" group="tuli"/>
 		<JSKA source="assets/comp/TULI/JSKA.png" compName="集水坑报警" type="image" group="tuli"/>
@@ -809,8 +811,12 @@
 		<PARKFREETULI source="assets/comp/TULI/PARKFREE.png" compName="车位空闲图例" type="image" group="tuli"/>
 		<PARKBUSYTULI source="assets/comp/TULI/PARKBUSY.png" compName="车位忙碌图例"  type="image" group="tuli"/>
 		<PARKALARMTULI source="assets/comp/TULI/PARKALARM.png" compName="车位报警图例"  type="image" group="tuli"/>
+		<!--以上是图例==========================-->
+
+
+		<!--======背景============================-->
 		<COMPASS source="assets/comp/compass.png" compName="指南针" type="image" group="bg"/>
-		
+
 		<LCF8 source="assets/comp/LCF8.png" compName="F8" type="image" group="bg"/>
 		<LCF7 source="assets/comp/LCF7.png" compName="F7" type="image" group="bg"/>
 		<LCF6 source="assets/comp/LCF6.png" compName="F6" type="image" group="bg"/>
@@ -825,14 +831,15 @@
 		
 		<ZNZTL source="assets/comp/ZNZTL.png" compName="指北针" type="image" group="bg"/>
 		<DDC source="assets/comp/ddc.png" compName="DDC结构图" type="image" group="bg"/>
-		
+		<!--以上是背景=========================-->
+		<!--管道========================-->
 		<PIPELINE source="assets/comp/PIPE/pipe1.png" compName="竖管" type="image" group="pipe"/>
 		<PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" compName="竖管2" type="image" group="pipe"/>
 		<PIPECORNER source="assets/comp/PIPE/pipe2.png" compName="弯管" type="image" group="pipe"/>
 		<PIPE3T source="assets/comp/PIPE/pipe3.png" compName="3通管" type="image" group="pipe"/>
 		<PIPE4T source="assets/comp/PIPE/pipe4.png" compName="4通管" type="image" group="pipe"/>
-		
-		
+		<!--以上是管道=================-->
+		<!--背景===============================-->
 		<LYXGCE source="assets/comp/lyxgce.png" compName="冷源测试图" type="image" group="bg"/>
 		<RYXGCE source="assets/comp/ryxgce.png" compName="热源测试图" type="image" group="bg"/>
 		<GSXTCE source="assets/comp/gsxtce.png" compName="给水系统测试图" type="image" group="bg"/>
@@ -840,9 +847,7 @@
 	    <BPDNEW1 source="assets/comp/BPDNEW1.png" compName="变配电测试" type="image" group="bg"/>
 		 <ZHSKTCE source="assets/comp/zhsktce.png" compName="组空测试" type="image" group="bg"/>
 	      <DZKTCE source="assets/comp/dzktce.png" compName="吊装测试" type="image" group="bg"/>
-		
-		
-		
+
 		<GZDT source="assets/comp/gzdt.png" compName="格子底图" type="image" group="bg"/>
 		<KTMD source="assets/comp/ktmd.png" compName="新风管" type="image" group="bg"/>
 		<KTMDEX source="assets/comp/ktmd2.png" compName="新风管2" type="image" group="bg"/>
@@ -863,7 +868,8 @@
 		<GONGFANG source="assets/comp/gongfang.png" compName="功放器" type="image" group="bg"/>
 		<GONGFANGLINE source="assets/comp/gongfangline.png" compName="功放连接线" type="image" group="bg"/>
 		<GONGFANGZHUJI source="assets/comp/gongfangzhuji.png" compName="背景音乐主机" type="image" group="bg"/>
-		
+		<!--以上是背景===============================-->
+		<!--特殊设备================================-->
 		<!-- 特殊组件，不显示，只绑设备 开始 -->
 		<LYZKSB source="assets/comp/gongfangzhuji.png" compName="冷源系统参数"  deviceID=""  type="image" group="spetial"/>
 		<LYZKSB1 source="assets/comp/gongfangzhuji.png" compName="冷源控制参数1"  deviceID=""  type="image" group="spetial"/>
@@ -871,11 +877,13 @@
 		<RYZKSB source="assets/comp/gongfangzhuji.png" compName="热源系统参数"  deviceID=""  type="image" group="spetial"/>
 		<RYZKSB1 source="assets/comp/gongfangzhuji.png" compName="热源控制参数1"  deviceID=""  type="image" group="spetial"/>
 		<!-- 特殊组件，不显示，只绑设备 结束 -->
-		
+		<!--以上是特殊设备================================================-->
+		<!--基本组件=================================-->
 		<!-- 方法组件，绑定特定后台方法 开始 -->
 		<FUNCBTN width="58" height="25" compName="方法按钮" type="comp" group="commonComp" isPop="true" popType="funcBtn">
 			<Image x="0" y="0" width="58" height="25" compName="背景" param="bg" source="assets/comp/FUNCBTN/bg.png"/>
 		</FUNCBTN>
 		<!-- 方法组件，绑定特定后台方法 结束 -->
+		<!--以上是基本组件===================================-->
 	</Component>
 </Components>

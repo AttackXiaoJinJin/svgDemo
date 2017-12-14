@@ -5,14 +5,11 @@
   <title>useSVG</title>
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/useSVG.css">
-
-
 </head>
 <body>
 <div class="container-fluid">
 <div class="row">
-
-  <div id="left" class="col-md-1 col-xs-1 col-lg-1">
+  <div id="left" class="col-xs-1 col-sm-1 col-md-1  col-lg-1">
     <ul id="myTab" class="nav nav-tabs">
       <li class="active" style="width: 62px">
         <a href="#system" data-toggle="tab"  style="font-size: 12px">
@@ -31,7 +28,7 @@
     </div>
   </div>
 
-<div id="middle" class="col-md-10 col-xs-10 col-lg-10">
+<div id="middle" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
   <div id="middleTop">
     <ul id="middleTopLeftUl">
       <li class="middleTopLeft">X(px):<input id="moveX" name="x" type="number" /></li>
@@ -62,32 +59,56 @@
 
   </div>
 </div>
-<div id="right" class="col-md-1 col-xs-1 col-lg-1">
+<div id="right" class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+  <!--右侧的图片集合-->
   <ul>
     <li class="tool_part" type="all">
       <img src="../image/all.png" width="110px" height="60px" />
     </li>
-    <li class="tool_part" type="baojing">
-      <img src="../image/baojing.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="green">
-      <img src="../image/green.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="picexample">
-      <img src="../image/picexample.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="redman">
-      <img src="../image/redman.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="year2013">
-      <img src="../image/year2013.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="zhengchang">
-      <img src="../image/zhengchang.png" width="110px"  height="60px"/>
-    </li>
-    <li class="tool_part" type="red">
-      <img src="../image/red.png" width="110px"  height="60px"/>
-    </li>
+    <!--<li class="tool_part" type="baojing">-->
+      <!--<img src="../image/baojing.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="green">-->
+      <!--<img src="../image/green.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="picexample">-->
+      <!--<img src="../image/picexample.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="redman">-->
+      <!--<img src="../image/redman.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="year2013">-->
+      <!--<img src="../image/year2013.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="zhengchang">-->
+      <!--<img src="../image/zhengchang.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+    <!--<li class="tool_part" type="red">-->
+      <!--<img src="../image/red.png" width="110px"  height="60px"/>-->
+    <!--</li>-->
+
+    <!--<ul id="leftTab" class="nav nav-pills nav-stacked">-->
+      <!--<li class="active">-->
+        <!--<a href="#left1" data-toggle="tab">-->
+          <!--自动绑点设备-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a href="#left2" data-toggle="tab">-->
+          <!--特殊设备-->
+        <!--</a>-->
+      <!--</li>-->
+    <!--</ul>-->
+    <!--<div id="leftTabContent" class="tab-content">-->
+      <!--<div class="tab-pane fade in active" id="left1">-->
+        <!--<span>自动绑点设备</span>-->
+      <!--</div>-->
+      <!--<div class="tab-pane fade" id="left2">-->
+        <!--<span>特殊设备</span>-->
+      <!--</div>-->
+    <!--</div>-->
+
+
   </ul>
   <!--<input type="button" ng-click="onsave()" value="点击保存">-->
   <!--<div ng-click="onsave()" style="cursor: pointer">点击保存</div>-->
@@ -102,6 +123,7 @@
 <script src="../otherJs/jquery-3.2.1.js"></script>
 <script src="../otherJs/bootstrap.js"></script>
 <script src="../otherJs/jquery-ui.js"></script>
+<script src="../otherJs/jquery.rotate.js"></script>
 <script src="../otherJs/raphael.min.js"></script>
 <script src="../js/useSVG.js"></script>
 </body>

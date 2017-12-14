@@ -28,10 +28,10 @@ window.onload=function () {
   //1、先判断点击的是按钮
   //2、然后判断点击的是哪个按钮文本
   createShape.addEventListener('click',function (e) {
-    console.log(e.target)
-    console.log(e.target.tagName)
+    // console.log(e.target)
+    // console.log(e.target.tagName)
     if(e.target.tagName.toLowerCase() ==='button'){
-      console.log(e.target.innerText.toLowerCase())
+      // console.log(e.target.innerText.toLowerCase())
       // create(e.target.getAttribute('create'))
       create(e.target.innerText.toLowerCase())
     }
@@ -42,13 +42,13 @@ window.onload=function () {
       //终止
       return
     }
-    console.log(e.target)
+    // console.log(e.target)
     let handle=e.target
     //选中的节点设置名称和值
-    console.log(handle.name)
-    console.log(handle.value)
+    // console.log(handle.name)
+    // console.log(handle.value)
     selected.setAttribute(handle.name,handle.value)
-    console.log(handle.value)
+    // console.log(handle.value)
   })
 
   lookTransform.addEventListener('input',function (e) {
@@ -87,6 +87,7 @@ window.onload=function () {
       if(e.target.tagName.toLowerCase() in shapeInfo){
         // 选中
         select(e.target)
+        console.log(e.target)
       }
     })
     return svg
@@ -94,6 +95,7 @@ window.onload=function () {
 
   //选中图形
   function select(shape) {
+    // console.log("选中了"+shape)
     let attrs=shapeInfo[shape.tagName].split(',')
     let attr,name,value
     shapeAttribute.innerHTML=""
@@ -103,6 +105,9 @@ window.onload=function () {
       name=attr[0]
       //没有则是默认值
       value=shape.getAttribute(name) || attr[1]
+      // console.log(shape.getAttribute('width'))
+      // console.log(name)
+      // console.log(value)
       createHandle(shape,name,value)
       shape.setAttribute(name,value)
     }
@@ -156,14 +161,5 @@ window.onload=function () {
       'scale(',transObject.scale,')'
     ].join('')
   }
-
-
-
-
-
-
-
-
-
 
 }

@@ -35,7 +35,7 @@
 			<Image x="0" y="0" width="88" height="87" compName="背景" param="alarm" paramvaule="0,1" source="assets/comp/LQB/alarm/0/1.png"/>
 			<Image x="27" y="2" width="34" height="22" compName="运行" param="runing" paramvaule="0,1" source="assets/comp/LQB/runing/0/1.png"/>
 		</LQB>
-		
+
 		<BSB1 width="88" height="87" deviceID="" compName="补水泵1" type="comp" group="deviceComp"  isPop="true" popType="list">
 			<Image x="0" y="0" width="88" height="87" compName="背景" param="bg" source="assets/comp/BSB1/bg.png"/>
 			<Image x="27" y="2" width="34" height="22" compName="运行" param="runing1" paramvaule="0,1" source="assets/comp/BSB1/runing1/0/1.png"/>

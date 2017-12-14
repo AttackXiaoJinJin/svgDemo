@@ -1,5 +1,9 @@
 window.onload=function () {
-  let showBorder=1
+  let shapeInfo={
+    all:'width:1428,height:436'
+  }
+
+  let selected=null
   //左边和上边的工具栏占的位置
   let gongjuLeft=125
   let gongjuTop=30
@@ -8,28 +12,60 @@ window.onload=function () {
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
   //在元素中创建Raphael对象
   paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
+  // console.log(paper)
+  $("svg").on("click",function (e) {
+
+    // console.log(e.target)
+    selected=e.target
+    console.log(selected)
+    console.log(selected.getAttribute('width'))
+    // $("#changeWidth").val(all.attrs.width)
+    //是pic到input,是由内向外显示的值
+    $("#changeWidth").val(selected.getAttribute("width"))
+    $("#changeHeight").val(selected.getAttribute("height"))
+    //外面的矩形边框
+    let box=selected.getBBox()
+    // let rect=paper.rect(box.x, box.y, box.width, box.height).attr({
+    //   "stroke": "red"
+    // });
+
+
+
+  })
+  
   //为每个li绑定拖拽元素
     $(".tool_part").each(function()
     {
       $(this).draggable({helper:"clone",cursor:'move'})
-      console.log("aaaaa")
+      
+    });
+    //为middletopright绑定事件
+    $(".middleTopRight").each(function()
+    {
+      $(this).on("mouseover",function () {
+        $(this).css("cursor","pointer").css("backgroundColor","#D1D1D1")
+      })
+      $(this).on("mouseout",function () {
+        $(this).css("backgroundColor","")
+      })
     });
 
     $("#middleMid").droppable({
       accept:".tool_part",
       drop:function(event,ui)
       {
-        console.log(event)
+        // console.log(event)
+        //绘制图片
         drawSvg(ui.helper.attr("type"),event.clientX,event.clientY);
         // drawSvg(ui.helper.attr("type"),event.clientX-24,event.clientY-24);
-        console.log(ui.helper)
+        // console.log(ui.helper)
         
       }
     });
 
     //绘制svg图片
   function drawSvg(tool_type,x,y)
-  {
+  { 
     //绘制绿点
     if("green"===tool_type)
     {
@@ -393,11 +429,11 @@ window.onload=function () {
     {
       let width=1428
       let height=436
-      console.log(tool_type)
+      // console.log(tool_type)
       let all = paper.image("../image/all.png",x,y,width,height)
         // .attr({cursor:'pointer'})
         // .attr({border:'1px red solid',boxSizing:'border-box'})
-        .attr({cursor:'pointer',strokeWidth:'3',stroke:'red'})
+        .attr({cursor:'pointer'})
         .drag(function(){
           myMove()
         },
@@ -409,18 +445,16 @@ window.onload=function () {
         //   myEnd()
         // }
         );
-        let box=all.getBBox()
-        let rect=paper.rect(box.x, box.y, box.width, box.height).attr({
-        "stroke": "red"
-        });
 
 
+
+        
       //获取矩形的中心
       let midX=all.attrs.width/2
       let midY=all.attrs.height/2
-      console.log(all)
-      console.log("这是all的offsetleft")
-      let moveX,moveY,ol,ot;
+      // console.log(all)
+      // console.log("这是all的offsetleft")
+      let moveX,moveY,mouseLeft,mouseTop,picLeft,picTop,goLeft,goTop;
 
       // let allId = all.id;
       // showall(allId);
@@ -428,45 +462,59 @@ window.onload=function () {
       {
         //一开始就画一个矩形，之后就是移动它而不是重复画它
 
-
         // let event=event || window.event
         // moveX = event.clientX-714;
         // moveX = event.clientX-midX;
         // ol=event.offsetLeft -event.clientX;
         // moveY = event.clientY-218;
         // ot =event.offsetTop- event.clientY;
-        $("#changeWidth").val(all.attrs.width)
-        $("#changeHeight").val(all.attrs.height)
+        // console.log(selected)
+        // $("#changeWidth").val(all.attrs.width)
+        // $("#changeHeight").val(all.attrs.height)
         // console.log($("#changeWidth").val())
         // console.log("这是start")
         // console.log(event)
         // console.log(ol)
         // console.log(ot)
-        console.log(event.clientX+"clientX")
-        console.log(event.clientY+"clientY")
+        //鼠标刚开始点击时的鼠标的坐标（相对于middleMid即svg坐标系）
+        mouseLeft=event.clientX-gongjuLeft
+        mouseTop=event.clientY-gongjuTop
+        //图片相对于svg坐标系的位置
+        picLeft=all.attrs.x
+        picTop=all.attrs.y
+        goLeft=mouseLeft-picLeft
+        goTop=mouseTop-picTop
+        //pic相对于鼠标的偏移量
+        //鼠标的横纵坐标永远比pic左上角的坐标大
+        // console.log(all.attrs.x)
+        // console.log(all.attrs.y)
+        // console.log(mouseLeft+"mouseLeft")
+        // console.log(mouseTop+"mouseTop")
+        // console.log(goLeft+"goLeft")
+        // console.log(goTop+"goTop")
+
+
         // showall(allId);
       }
       let myMove = function()
       {
+        mouseLeft=event.clientX-gongjuLeft
+        mouseTop=event.clientY-gongjuTop
         // let event=event || window.event
         //1428 436
         //先定位鼠标到图片的左上角
-        moveX = event.clientX-gongjuLeft;
-        // moveX = event.clientX-714;
-        // moveX = event.clientX-ol;
-        // moveX =event.offsetX- ol;
-        moveY = event.clientY-gongjuTop;
-        // moveY = event.clientY-218;
-        // moveY = event.clientY-ot;
-        // moveY =event.offsetY- ot;
+        moveX =mouseLeft-goLeft ;
+
+        moveY =mouseTop-goTop ;
+
         all.attr({x:moveX,y:moveY});
-        rect.attr({x:moveX,y:moveY});
+        // rect.attr({x:moveX,y:moveY});
 
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
-        console.log("这是move")
-        console.log(event.clientX+"clientX")
-        console.log(event.clientY+"clientY")
+        // console.log("这是move")
+        // console.log(moveX+"moveX")
+        // console.log(moveY+"moveY")
 
 
 
@@ -489,45 +537,61 @@ window.onload=function () {
           //终止
           return
         }
-        console.log(e.target)
+        // console.log(e.target)
         let handle=e.target
-        console.log(handle.name)
-        console.log(handle.value)
+        // console.log(handle.name)
+        // console.log(handle.value)
+        //获取焦点选中的图片
         switch(handle.name){
-          case "width":all.attr({width:handle.value});rect.attr({width:handle.value});break;
-          case "height":all.attr({height:handle.value});rect.attr({height:handle.value});break;
-          case "rotate": all.attr('transform','R'+handle.value);rect.attr('transform','R'+handle.value);break;
+          // case "width":all.attr({width:handle.value});rect.attr({width:handle.value});break;
+          case "width":
+            selected.setAttribute("width",handle.value);
+            // rect.attr({width:handle.value});
+            break;
+          // case "height":all.attr({height:handle.value});rect.attr({height:handle.value});break;
+          case "height":
+            selected.setAttribute("height",handle.value);
+            // rect.attr({height:handle.value});
+            break;
+          // case "rotate": all.attr('transform','R'+handle.value);rect.attr('transform','R'+handle.value);break;
+          case "rotate":
+            selected.setAttribute('transform','R'+handle.value);
+            // rect.attr('transform','R'+handle.value);
+            break;
         }
         // all.rotate(handle.value);
 
         //选中的节点设置名称和值
 
         // all.setAttribute(handle.name,handle.value)
-        console.log(handle.value)
+        // console.log(handle.value)
       })
+      //通过中上的删除去删除
+      $(".icon-delete").on('click',function (e) {
+        // if(confirm("确定删除此元素？"))
+        // {
+          // console.log(all.id)
+          // let id = all.id;
+          // if(document.getElementById(id+"all"))
+          // {
+          //   $("#"+id+"all").css('display','none');
+          //   $("#"+id+"all").remove();
+          // }
+          // rect.remove()
+        //
+        //   all.remove()
+          selected.remove()
+        // }
 
-      all.dblclick(function()
-      {
-        if(confirm("确定删除此元素？"))
-        {
-
-          console.log(all.id)
-          let id = all.id;
-          if(document.getElementById(id+"all"))
-          {
-            $("#"+id+"all").css('display','none');
-            $("#"+id+"all").remove();
-          }
-          this.remove();
-        }
-        else{}
-      });
+      })
     }
   }
 
   /**
    *显示middle-top的数据
    */
+
+
 
   /*
   * 更新属性值
@@ -543,10 +607,6 @@ window.onload=function () {
   //   fill.value=selected.getAttribute('fill')
   //   stroke.value=selected.getAttribute('stroke')
   // }
-
-
-
-
 
 /*显示下方表单
   */

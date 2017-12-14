@@ -19,8 +19,12 @@ window.onload=function () {
   $("svg").on("click",function (e) {
     // console.log(e.target)
     selected=e.target
-    console.log(e.target.style.transform)
-    console.log(selected)
+    // console.log(e.target.getAttribute("x"))
+    // console.log(e.target.getAttribute("y"))
+    // console.log(selected)
+    console.log(selected.getAttribute("x"))
+    console.log(selected.getAttribute("width")/2)
+    // console.log((selected.getAttribute("y")+selected.getAttribute("height")/2))
     // console.log(selected.getAttribute('width'))
     // $("#changeWidth").val(all.attrs.width)
     //是pic到input,是由内向外显示的值
@@ -550,8 +554,34 @@ window.onload=function () {
           // case "rotate": rect.attr('transform','R'+handle.value);break;
           case "rotate":
             // matrix(cosθ,sinθ,-sinθ,cosθ,0,0)
-            selected.setAttribute("transform","matrix("+Math.cos( 2*Math.PI/360*handle.value).toFixed(4)+","+Math.sin(2*Math.PI/360*handle.value).toFixed(4)+","+"-"+Math.sin(2*Math.PI/360*handle.value).toFixed(4)+","+Math.cos(2*Math.PI/360*handle.value).toFixed(4)+","+0+","+0+")");
-            // selected.css("transform","rotate("+handle.value+"deg)");
+            selected.setAttribute(
+              "transform",
+              "matrix("+
+              Math.cos( 2*Math.PI/360*handle.value).toFixed(4) +
+              "," +
+              Math.sin(2*Math.PI/360*handle.value).toFixed(4) +
+              ","+
+              (-1)*Math.sin(2*Math.PI/360*handle.value).toFixed(4)+
+              ","+
+              Math.cos(2*Math.PI/360*handle.value).toFixed(4)+
+              ","+
+              // (selected.getAttribute("x")+selected.getAttribute("width")/2)+
+              // (selected.getAttribute("x"))+
+              0+
+              ","+
+              // (selected.getAttribute("y")+selected.getAttribute("height")/2)+
+              // (selected.getAttribute("y"))+
+              0+
+              ")")
+            selected.setAttribute(
+              "transform-origin",
+              (
+                parseInt(selected.getAttribute("x"))+
+                parseInt(selected.getAttribute("width")/2))
+              +" "+
+              (parseInt(selected.getAttribute("y"))+
+                parseInt(selected.getAttribute("height")/2))
+            );
             // selected.style.transform("rotate("+handle.value+"deg)");
             // all.attr('transform','R'+handle.value);
             // rect.attr('transform','R'+handle.value);

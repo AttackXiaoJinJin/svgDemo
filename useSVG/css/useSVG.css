@@ -21,6 +21,8 @@ article, aside, details, figcaption, figure,
 footer, header, menu, nav, section {
   display: block;
 }
+
+
 body {
   margin: 0;
   padding: 0;

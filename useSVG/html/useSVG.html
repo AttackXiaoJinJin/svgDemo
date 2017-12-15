@@ -33,9 +33,9 @@
     <ul id="middleTopLeftUl">
       <li class="middleTopLeft">X(px):<input id="moveX" name="x" type="number" /></li>
       <li class="middleTopLeft">Y(px):<input id="moveY" name="y" type="number" /></li>
-      <li class="middleTopLeft">旋转(°):<input id="rotate" name="rotate" type="number" /></li>
-      <li class="middleTopLeft">X缩放(%):<input id="scaleX" type="number" /></li>
-      <li class="middleTopLeft">Y缩放(%):<input id="scaleY" type="number" /></li>
+      <li class="middleTopLeft">旋转(°):<input id="rotate" name="rotate" type="number" value="0"/></li>
+      <li class="middleTopLeft">X缩放(%):<input id="scaleX" type="number" value="0"/></li>
+      <li class="middleTopLeft">Y缩放(%):<input id="scaleY" type="number" value="0" /></li>
       <li class="middleTopLeft">宽度固定(px):<input id="changeWidth" name="width" type="number" /></li>
       <li class="middleTopLeft">高度固定(px):<input id="changeHeight" name="height" type="number" /></li>
     </ul>
@@ -65,6 +65,8 @@
     <li class="tool_part" type="all">
       <img src="../image/all.png" width="110px" height="60px" />
     </li>
+  </ul>
+
     <!--<li class="tool_part" type="baojing">-->
       <!--<img src="../image/baojing.png" width="110px"  height="60px"/>-->
     <!--</li>-->
@@ -87,29 +89,78 @@
       <!--<img src="../image/red.png" width="110px"  height="60px"/>-->
     <!--</li>-->
 
-    <!--<ul id="leftTab" class="nav nav-pills nav-stacked">-->
-      <!--<li class="active">-->
-        <!--<a href="#left1" data-toggle="tab">-->
-          <!--自动绑点设备-->
-        <!--</a>-->
-      <!--</li>-->
-      <!--<li>-->
-        <!--<a href="#left2" data-toggle="tab">-->
-          <!--特殊设备-->
-        <!--</a>-->
-      <!--</li>-->
-    <!--</ul>-->
-    <!--<div id="leftTabContent" class="tab-content">-->
-      <!--<div class="tab-pane fade in active" id="left1">-->
-        <!--<span>自动绑点设备</span>-->
-      <!--</div>-->
-      <!--<div class="tab-pane fade" id="left2">-->
-        <!--<span>特殊设备</span>-->
-      <!--</div>-->
-    <!--</div>-->
+    <ul id="leftTab" class="nav nav-pills nav-stacked">
+      <li class="active">
+        <a href="#left1" data-toggle="tab">
+          自动绑点设备
+        </a>
+      </li>
+      <li>
+        <a href="#left2" data-toggle="tab">
+          特殊设备
+        </a>
+      </li>
+      <li>
+        <a href="#left3" data-toggle="tab">
+          楼层平面
+        </a>
+      </li>
+      <li>
+        <a href="#left4" data-toggle="tab">
+          设备库
+        </a>
+      </li>
+      <li>
+        <a href="#left5" data-toggle="tab">
+          基本组件
+        </a>
+      </li>
+      <li>
+        <a href="#left6" data-toggle="tab">
+          管道
+        </a>
+      </li>
+      <li>
+        <a href="#left7" data-toggle="tab">
+          背景
+        </a>
+      </li>
+      <li>
+        <a href="#left8" data-toggle="tab">
+          图例
+        </a>
+      </li>
+    </ul>
+    <div id="leftTabContent" class="tab-content">
+      <div class="tab-pane fade in active" id="left1">
+        <span>自动绑点设备</span>
+      </div>
+      <div class="tab-pane fade" id="left2">
+        <span>特殊设备</span>
+      </div>
+      <div class="tab-pane fade" id="left3">
+        <span>楼层平面</span>
+      </div>
+      <div class="tab-pane fade" id="left4">
+        <span>设备库</span>
+      </div>
+      <div class="tab-pane fade" id="left5">
+        <span>基本组件</span>
+      </div>
+      <div class="tab-pane fade" id="left6">
+        <span>管道</span>
+      </div>
+      <div class="tab-pane fade" id="left7">
+        <span>背景</span>
+      </div>
+      <div class="tab-pane fade" id="left8">
+        <span>图例</span>
+      </div>
+
+    </div>
 
 
-  </ul>
+
   <!--<input type="button" ng-click="onsave()" value="点击保存">-->
   <!--<div ng-click="onsave()" style="cursor: pointer">点击保存</div>-->
   <!--<input  target="_blank" ng-click="onsave()">点击预览</input>-->
@@ -123,7 +174,6 @@
 <script src="../otherJs/jquery-3.2.1.js"></script>
 <script src="../otherJs/bootstrap.js"></script>
 <script src="../otherJs/jquery-ui.js"></script>
-<script src="../otherJs/jquery.rotate.js"></script>
 <script src="../otherJs/raphael.min.js"></script>
 <script src="../js/useSVG.js"></script>
 </body>

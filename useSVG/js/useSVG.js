@@ -2,7 +2,8 @@ window.onload=function () {
   let shapeInfo={
     all:'width:1428,height:436'
   }
-
+  //设置z-index属性
+  let zIndex=1
   let selected=null
   //左边和上边的工具栏占的位置
   //屏幕适配，暂时不做
@@ -11,7 +12,7 @@ window.onload=function () {
 
 
   //创建画布
-  let paper;
+  let paper=null;
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
   //在元素中创建Raphael对象
   paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
@@ -19,11 +20,15 @@ window.onload=function () {
   $("svg").on("click",function (e) {
     // console.log(e.target)
     selected=e.target
+    console.log(selected.nodeName)
+    if( selected.nodeName==="image" && !selected.getAttribute("z-index")){
+      selected.setAttribute("z-index",zIndex++)
+    }
     // console.log(e.target.getAttribute("x"))
     // console.log(e.target.getAttribute("y"))
     // console.log(selected)
-    console.log(selected.getAttribute("x"))
-    console.log(selected.getAttribute("width")/2)
+    // console.log(selected.getAttribute("x"))
+    // console.log(selected.getAttribute("width")/2)
     // console.log((selected.getAttribute("y")+selected.getAttribute("height")/2))
     // console.log(selected.getAttribute('width'))
     // $("#changeWidth").val(all.attrs.width)
@@ -453,7 +458,7 @@ window.onload=function () {
         // }
         );
       
-      console.log(all)
+      // console.log(all)
       
       //获取矩形的中心
       let midX=all.attrs.width/2
@@ -554,6 +559,7 @@ window.onload=function () {
           // case "rotate": rect.attr('transform','R'+handle.value);break;
           case "rotate":
             // matrix(cosθ,sinθ,-sinθ,cosθ,0,0)
+
             selected.setAttribute(
               "transform",
               "matrix("+
@@ -565,23 +571,26 @@ window.onload=function () {
               ","+
               Math.cos(2*Math.PI/360*handle.value).toFixed(4)+
               ","+
-              // (selected.getAttribute("x")+selected.getAttribute("width")/2)+
-              // (selected.getAttribute("x"))+
               0+
               ","+
-              // (selected.getAttribute("y")+selected.getAttribute("height")/2)+
-              // (selected.getAttribute("y"))+
               0+
               ")")
-            selected.setAttribute(
-              "transform-origin",
-              (
-                parseInt(selected.getAttribute("x"))+
-                parseInt(selected.getAttribute("width")/2))
-              +" "+
-              (parseInt(selected.getAttribute("y"))+
-                parseInt(selected.getAttribute("height")/2))
-            );
+
+            // selected.style.transform="rotate("+handle.value+"deg)"
+            // console.log(selected.style)
+            // console.log(selected.style.cursor)
+            // console.log(selected.style.transform)
+
+              // "transform-origin",
+              // "transform-origin",
+              // (
+              //   parseInt(selected.getAttribute("x"))+
+              //   parseInt(selected.getAttribute("width")/2))
+              // +" "+
+              // (parseInt(selected.getAttribute("y"))+
+              //   parseInt(selected.getAttribute("height")/2))
+            // "600 300"
+            // );
             // selected.style.transform("rotate("+handle.value+"deg)");
             // all.attr('transform','R'+handle.value);
             // rect.attr('transform','R'+handle.value);
@@ -596,6 +605,41 @@ window.onload=function () {
       })
     }
   }
+
+  /*
+  * 通过滚轮去旋转
+  * */
+  //暂时不考虑FF
+
+  let scrollFunc=function(e){
+    e = e || window.event;
+    // let rotateInput = $("#rotate")
+    let rotateInput = document.getElementById("rotate")
+    if (e.wheelDelta) {//IE/Opera/Chrome
+      rotateInput.value = e.wheelDelta;
+    }
+    else if (e.detail) {
+      //Firefox
+      //IE11
+      rotateInput.value = e.detail;
+      console.log(rotateInput.value)
+    }else if(e.deltaY){
+      console.log("ccccc")
+      rotateInput.value = e.deltaY;
+    }
+  }
+  $("#rotate").on("mousescroll",function (e) {
+    // W3C
+    if(document.addEventListener){
+      document.addEventListener('DOMMouseScroll',scrollFunc,false);
+      console.log("dddddddddddd")
+    }
+    //IE/Opera/Chrome
+    window.onmousewheel=document.onmousewheel=scrollFunc;
+    console.log("eeeeeeeeeeee")
+  })
+
+
 
   /*
   * 删除
@@ -614,7 +658,22 @@ window.onload=function () {
     // rect.remove()
     //
     //   all.remove()
-    selected.remove()
+    // console.log(e)
+    //移除svg下的image
+    // 兼容ie11
+    if((/Trident\/7\./).test(navigator.userAgent)){
+      selected.parentNode.removeChild(selected)
+      // selected.removeChild(true)
+      // paper.removeNode(selected)
+      // console.log(selected)
+      // document.getElementById('img1').removeNode(true)
+      // console.log(document.getElementById('img1'))
+    }else{
+      selected.remove()
+    }
+
+
+
     // }
 
   })
@@ -623,41 +682,31 @@ window.onload=function () {
   * 向上一层
   * */
   $(".icon-toup").on('click',function (e) {
-    // if(confirm("确定删除此元素？"))
-    // {
-    // console.log(all.id)
-    // let id = all.id;
-    // if(document.getElementById(id+"all"))
-    // {
-    //   $("#"+id+"all").css('display','none');
-    //   $("#"+id+"all").remove();
-    // }
-    // rect.remove()
-    //
-    //   all.remove()
-    selected.remove()
-    // }
+    if(selected.nextSibling && selected.nextSibling.nodeName==="image"){
+      //2,3,4,5,6,7,8....
+      selected.nextSibling.setAttribute("z-index",parseInt(selected.nextSibling.getAttribute("z-index"))-1)
+      selected.setAttribute("z-index",parseInt(selected.getAttribute("z-index"))+1)
+      // console.log("向上一层")
+      SVG_Z_Index( selected.parentNode.childNodes );
+    }
+
 
   })
-
+//===================向上一层
   /*
   * 向下一层
   * */
   $(".icon-todown").on('click',function (e) {
-    // if(confirm("确定删除此元素？"))
-    // {
-    // console.log(all.id)
-    // let id = all.id;
-    // if(document.getElementById(id+"all"))
-    // {
-    //   $("#"+id+"all").css('display','none');
-    //   $("#"+id+"all").remove();
-    // }
-    // rect.remove()
-    //
-    //   all.remove()
-    selected.remove()
-    // }
+    // if( !selected.previousSibling.getAttribute("z-index") || parseInt(selected.getAttribute("z-index"))===1  ){
+    if( !selected.previousSibling.getAttribute("z-index") && selected.previousSibling.nodeName!=="image"){
+      return
+    }else{
+      selected.previousSibling.setAttribute("z-index",parseInt(selected.previousSibling.getAttribute("z-index"))+1)
+      selected.setAttribute("z-index",parseInt(selected.getAttribute("z-index"))-1)
+      SVG_Z_Index( selected.parentNode.childNodes);
+      // console.log("向下一层")
+    }
+
 
   })
 
@@ -665,13 +714,24 @@ window.onload=function () {
   *置顶
   * */
   $(".icon-totop").on('click',function (e) {
-    console.log("置顶")
+    // console.log(selected.parentNode.lastChild.getAttribute("z-index"))
+    if(selected.parentNode.lastChild && selected.parentNode.lastChild.nodeName==="image"){
+      selected.setAttribute("z-index",parseInt(selected.parentNode.lastChild.getAttribute("z-index"))+1)
+      SVG_Z_Index( selected.parentNode.childNodes);
+    }
+
+    // console.log("置顶")
   })
   /*
   * 置底
   * */
   $(".icon-tobottom").on('click',function (e) {
-    console.log("置底")
+    if(selected.parentNode.childNodes[2] && selected.parentNode.childNodes[2].nodeName==="image"){
+      selected.setAttribute("z-index",parseInt(selected.parentNode.childNodes[2].getAttribute("z-index"))-1)
+      SVG_Z_Index( selected.parentNode.childNodes);
+      // console.log(selected.parentNode.childNodes[2])
+    }
+
   })
 
   /*
@@ -694,6 +754,61 @@ window.onload=function () {
   //   fill.value=selected.getAttribute('fill')
   //   stroke.value=selected.getAttribute('stroke')
   // }
+
+  /*
+   * 解析SVG元素z-index属性，并根据其值定义元素的层级
+   * 规则：z-index越大，层级越高
+   *
+   * @param {elements} elements 一个包含DOM节点的类数组对象或者数组
+   * @return {void}
+   */
+  function SVG_Z_Index( elements ) {
+    let elements_arr = [];
+    // 遍历节点列表，初始化一些设置
+    for( let i = 0, len = elements.length; i < len; i++ ) {
+      //svg下的每一个子节点
+      let elem = elements[ i ];
+      // 某些类型的节点可能没有getAttribute属性，你也可以根据nodeType属性来判断
+      // if( ! elem.getAttribute ) continue;
+
+      // 递归子节点
+      // if( elem.childNodes ) {
+      //   SVG_ZIndex( elem.childNodes );
+      // }
+      // 如果元素没有z-index属性，则默认所有元素都处于第1级
+      if( ! elem.getAttribute( "z-index" ) ) {
+        elem.setAttribute( "z-index", 1 );
+      }
+      //将元素按顺序添加进数组中
+      elements_arr.push( elem );
+    }
+
+    if( elements_arr.length === 0 ) return;
+
+    // 根据z-index属性进行排序
+    elements_arr.sort( function( e1, e2 ) {
+      let z1 = e1.getAttribute( "z-index" );
+      let z2 = e2.getAttribute( "z-index" );
+      if( z1 === z2 ) {
+        return 0;
+      } else if( z1 < z2 ) {
+        return -1;
+      } else {
+        return 1;
+      }
+
+    } );
+    // 排序完成后，按顺序移动这些元素
+    let parent = elements_arr[0] && elements_arr[0].parentNode;
+    for( let i = 0, len = elements_arr.length; i < len; i++ ) {
+      let elem = elements_arr[ i ];
+      // 提示：appendChild里的elem节点如果在页面中已经存在
+      // 那么表示这个节点从原来的地方移动到parent最后的地方，而不是以一个新节点插入
+      parent.appendChild( elem );
+    }
+  }
+
+
 
 /*显示下方表单
   */

@@ -536,24 +536,27 @@ window.onload=function () {
 
       //通过input去改变图片的属性值
       $("#middleTopLeftUl").on('input',function (e) {
-        if(e.target.tagName.toLowerCase()!=='input'){
+        if (e.target.tagName.toLowerCase() !== 'input') {
           //终止
           return
         }
         // console.log(e.target)
-        let handle=e.target
+        let handle = e.target
         // console.log(handle.name)
         // console.log(handle.value)
+        if (selected.nodeName === "image") {
+
+
         //获取焦点选中的图片
-        switch(handle.name){
+        switch (handle.name) {
           // case "width":all.attr({width:handle.value});rect.attr({width:handle.value});break;
           case "width":
-            selected.setAttribute("width",handle.value);
+            selected.setAttribute("width", handle.value);
             // rect.attr({width:handle.value});
             break;
           // case "height":all.attr({height:handle.value});rect.attr({height:handle.value});break;
           case "height":
-            selected.setAttribute("height",handle.value);
+            selected.setAttribute("height", handle.value);
             // rect.attr({height:handle.value});
             break;
           // case "rotate": rect.attr('transform','R'+handle.value);break;
@@ -562,18 +565,18 @@ window.onload=function () {
 
             selected.setAttribute(
               "transform",
-              "matrix("+
-              Math.cos( 2*Math.PI/360*handle.value).toFixed(4) +
+              "matrix(" +
+              Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
               "," +
-              Math.sin(2*Math.PI/360*handle.value).toFixed(4) +
-              ","+
-              (-1)*Math.sin(2*Math.PI/360*handle.value).toFixed(4)+
-              ","+
-              Math.cos(2*Math.PI/360*handle.value).toFixed(4)+
-              ","+
-              0+
-              ","+
-              0+
+              Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+              "," +
+              (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+              "," +
+              Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+              "," +
+              0 +
+              "," +
+              0 +
               ")")
 
             // selected.style.transform="rotate("+handle.value+"deg)"
@@ -581,14 +584,14 @@ window.onload=function () {
             // console.log(selected.style.cursor)
             // console.log(selected.style.transform)
 
-              // "transform-origin",
-              // "transform-origin",
-              // (
-              //   parseInt(selected.getAttribute("x"))+
-              //   parseInt(selected.getAttribute("width")/2))
-              // +" "+
-              // (parseInt(selected.getAttribute("y"))+
-              //   parseInt(selected.getAttribute("height")/2))
+            // "transform-origin",
+            // "transform-origin",
+            // (
+            //   parseInt(selected.getAttribute("x"))+
+            //   parseInt(selected.getAttribute("width")/2))
+            // +" "+
+            // (parseInt(selected.getAttribute("y"))+
+            //   parseInt(selected.getAttribute("height")/2))
             // "600 300"
             // );
             // selected.style.transform("rotate("+handle.value+"deg)");
@@ -602,6 +605,7 @@ window.onload=function () {
 
         // all.setAttribute(handle.name,handle.value)
         // console.log(handle.value)
+      }
       })
     }
   }
@@ -659,18 +663,21 @@ window.onload=function () {
     //
     //   all.remove()
     // console.log(e)
-    //移除svg下的image
-    // 兼容ie11
-    if((/Trident\/7\./).test(navigator.userAgent)){
-      selected.parentNode.removeChild(selected)
-      // selected.removeChild(true)
-      // paper.removeNode(selected)
-      // console.log(selected)
-      // document.getElementById('img1').removeNode(true)
-      // console.log(document.getElementById('img1'))
-    }else{
-      selected.remove()
+    if(selected.nodeName==="image"){
+      //移除svg下的image
+      // 兼容ie11
+      if((/Trident\/7\./).test(navigator.userAgent)){
+        selected.parentNode.removeChild(selected)
+        // selected.removeChild(true)
+        // paper.removeNode(selected)
+        // console.log(selected)
+        // document.getElementById('img1').removeNode(true)
+        // console.log(document.getElementById('img1'))
+      }else{
+        selected.remove()
+      }
     }
+
 
 
 
@@ -965,3 +972,74 @@ window.onload=function () {
     });
   }
 }
+
+
+/*
+* 解析xml文件
+* */
+function analysisXML() {
+let xmlFileName="../xml/Components.xml";
+let xmlDoc='';
+// IE
+if (window.ActiveXObject){
+  let activeXNameList=new Array("MSXML2.DOMDocument.6.0","MSXML2.DOMDocument.5.0","MSXML2.DOMDocument.4.0","MSXML2.DOMDocument.3.0","MSXML2.DOMDocument","Microsoft.XMLDOM","MSXML.DOMDocument");
+  for(let h=0;h<activeXNameList.length;h++)
+  {
+    try{
+      xmlDoc=new ActiveXObject(activeXNameList[h]);
+    }catch(e){
+      continue;
+    }
+    if(xmlDoc) break;
+  }
+}
+//非 IE
+else if (document.implementation && document.implementation.createDocument){
+  xmlDoc=document.implementation.createDocument("","",null);
+}else{
+  alert('不能创建XML,请更新浏览器');
+}
+//同步,防止后面程序处理时遇到文件还没加载完成出现的错误,故同步等XML文件加载完再做后面处理
+  xmlDoc.async=false;
+//加载XML
+  xmlDoc.load(xmlFileName);
+}
+
+//读取xml文件节点
+function readXML() {
+  //JS读取 XML 文件中的 area 节点的方式如下:
+  let nodeList= xmlDoc.documentElement.getElementsByTagName("area")
+  // IE
+  for(let i=0;i<nodeList.length;i++){
+    //...遍历操作...
+  }
+
+  // 非IE
+  // let nodeList=xmlDoc.getElementsByTagName("area");
+  // for(let i=0;i<nodeList.length;i++){
+    //...遍历操作...
+  // }
+
+  //MS IE
+  //读取node节点的文本值
+  // node.text ;
+  //读取 node 下的第 i 个[直接下一级]子节点的文本
+  // node.childNodes[i].text ;
+  //读取 node 节点的属性名称为 attributeName 的属性值
+  // node.getAttribute("attributeName") ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

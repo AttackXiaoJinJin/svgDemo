@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/useSVG.css">
 </head>
-<body>
+<body scroll="no">
 <div class="container-fluid">
 <div class="row">
   <div id="left" class="col-xs-1 col-sm-1 col-md-1  col-lg-1">
@@ -61,11 +61,12 @@
 </div>
 <div id="right" class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
   <!--右侧的图片集合-->
-  <ul>
-    <li class="tool_part" type="all">
-      <img src="../image/all.png" width="110px" height="60px" />
-    </li>
-  </ul>
+  <!--<ul>-->
+    <!--<li type="all">-->
+      <!--&lt;!&ndash;<img src="../image/all.png" width="110px" height="60px" />&ndash;&gt;-->
+      <!--<img src="assets/comp/RGSHU/bg.png" width="110px" height="60px" />-->
+    <!--</li>-->
+  <!--</ul>-->
 
     <!--<li class="tool_part" type="baojing">-->
       <!--<img src="../image/baojing.png" width="110px"  height="60px"/>-->
@@ -89,73 +90,74 @@
       <!--<img src="../image/red.png" width="110px"  height="60px"/>-->
     <!--</li>-->
 
-    <ul id="leftTab" class="nav nav-pills nav-stacked">
+    <ul id="rightTab" class="nav nav-pills nav-stacked">
       <li class="active">
-        <a href="#left1" data-toggle="tab">
+        <a href="#right1" data-toggle="tab">
           自动绑点设备
         </a>
       </li>
       <li>
-        <a href="#left2" data-toggle="tab">
+        <a href="#right2" data-toggle="tab">
           特殊设备
         </a>
       </li>
       <li>
-        <a href="#left3" data-toggle="tab">
+        <a href="#right3" data-toggle="tab">
           楼层平面
         </a>
       </li>
       <li>
-        <a href="#left4" data-toggle="tab">
+        <a href="#deviceComp" data-toggle="tab">
           设备库
         </a>
       </li>
       <li>
-        <a href="#left5" data-toggle="tab">
+        <a href="#right5" data-toggle="tab">
           基本组件
         </a>
       </li>
       <li>
-        <a href="#left6" data-toggle="tab">
+        <a href="#right6" data-toggle="tab">
           管道
         </a>
       </li>
       <li>
-        <a href="#left7" data-toggle="tab">
+        <a href="#right7" data-toggle="tab">
           背景
         </a>
       </li>
       <li>
-        <a href="#left8" data-toggle="tab">
+        <a href="#right8" data-toggle="tab">
           图例
         </a>
       </li>
     </ul>
-    <div id="leftTabContent" class="tab-content">
-      <div class="tab-pane fade in active" id="left1">
-        <span>自动绑点设备</span>
-      </div>
-      <div class="tab-pane fade" id="left2">
-        <span>特殊设备</span>
-      </div>
-      <div class="tab-pane fade" id="left3">
-        <span>楼层平面</span>
-      </div>
-      <div class="tab-pane fade" id="left4">
-        <span>设备库</span>
-      </div>
-      <div class="tab-pane fade" id="left5">
-        <span>基本组件</span>
-      </div>
-      <div class="tab-pane fade" id="left6">
-        <span>管道</span>
-      </div>
-      <div class="tab-pane fade" id="left7">
-        <span>背景</span>
-      </div>
-      <div class="tab-pane fade" id="left8">
-        <span>图例</span>
-      </div>
+    <div id="rightTabContent" class="tab-content">
+      <ul class="tab-pane fade in active" id="right1">
+        <li>自动绑点设备</li>
+        <li>自动绑点设备</li>
+      </ul>
+      <ul class="tab-pane fade" id="right2">
+        <li>特殊设备</li>
+      </ul>
+      <ul class="tab-pane fade" id="right3">
+        <li>楼层平面</li>
+      </ul>
+      <ul class="tab-pane fade" id="deviceComp">
+        <!--<li>设备库</li>-->
+      </ul>
+      <ul class="tab-pane fade" id="right5">
+        <li>基本组件</li>
+      </ul>
+      <ul class="tab-pane fade" id="right6">
+        <li>管道</li>
+      </ul>
+      <ul class="tab-pane fade" id="right7">
+        <li>背景</li>
+      </ul>
+      <ul class="tab-pane fade" id="right8">
+        <li>图例</li>
+      </ul>
 
     </div>
 

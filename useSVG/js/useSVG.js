@@ -20,7 +20,7 @@ window.onload=function () {
   $("svg").on("click",function (e) {
     // console.log(e.target)
     selected=e.target
-    console.log(selected.nodeName)
+    // console.log(selected.nodeName)
     if( selected.nodeName==="image" && !selected.getAttribute("z-index")){
       selected.setAttribute("z-index",zIndex++)
     }
@@ -626,9 +626,9 @@ window.onload=function () {
       //Firefox
       //IE11
       rotateInput.value = e.detail;
-      console.log(rotateInput.value)
+      // console.log(rotateInput.value)
     }else if(e.deltaY){
-      console.log("ccccc")
+      // console.log("ccccc")
       rotateInput.value = e.deltaY;
     }
   }
@@ -636,14 +636,12 @@ window.onload=function () {
     // W3C
     if(document.addEventListener){
       document.addEventListener('DOMMouseScroll',scrollFunc,false);
-      console.log("dddddddddddd")
+      // console.log("dddddddddddd")
     }
     //IE/Opera/Chrome
     window.onmousewheel=document.onmousewheel=scrollFunc;
-    console.log("eeeeeeeeeeee")
+    // console.log("eeeeeeeeeeee")
   })
-
-
 
   /*
   * 删除
@@ -668,20 +666,10 @@ window.onload=function () {
       // 兼容ie11
       if((/Trident\/7\./).test(navigator.userAgent)){
         selected.parentNode.removeChild(selected)
-        // selected.removeChild(true)
-        // paper.removeNode(selected)
-        // console.log(selected)
-        // document.getElementById('img1').removeNode(true)
-        // console.log(document.getElementById('img1'))
       }else{
         selected.remove()
       }
     }
-
-
-
-
-    // }
 
   })
 
@@ -696,7 +684,6 @@ window.onload=function () {
       // console.log("向上一层")
       SVG_Z_Index( selected.parentNode.childNodes );
     }
-
 
   })
 //===================向上一层
@@ -713,7 +700,6 @@ window.onload=function () {
       SVG_Z_Index( selected.parentNode.childNodes);
       // console.log("向下一层")
     }
-
 
   })
 
@@ -742,10 +728,14 @@ window.onload=function () {
   })
 
   /*
-   *显示middle-top的数据
+   *解析xml
    **/
-
-
+    analysisXML()
+  
+  /*
+  * 读取xml
+  * */
+  
 
   /*
   * 更新属性值
@@ -971,65 +961,64 @@ window.onload=function () {
       text:text_value
     });
   }
-}
 
+
+
+}
+//===============window.onload
 
 /*
 * 解析xml文件
 * */
 function analysisXML() {
-let xmlFileName="../xml/Components.xml";
-let xmlDoc='';
-// IE
-if (window.ActiveXObject){
-  let activeXNameList=new Array("MSXML2.DOMDocument.6.0","MSXML2.DOMDocument.5.0","MSXML2.DOMDocument.4.0","MSXML2.DOMDocument.3.0","MSXML2.DOMDocument","Microsoft.XMLDOM","MSXML.DOMDocument");
-  for(let h=0;h<activeXNameList.length;h++)
+  let xmlFileName="../Components.xml";
+    //IE
+    // if(document.implementation && document.implementation.createDocument){
+    //   xmlDoc=document.implementation.createDocument("","",null);
+    // }else{
+  let xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+    // }
+      xmlDoc.async=false
+      xmlDoc.load(xmlFileName)
+  // 获取文档中标签元素对象
+  //xmlDoc.documentElement是根元素即Components
+  //childNodes是Component这一个
+  // let x=xmlDoc.documentElement.childNodes
+  let component=xmlDoc.documentElement.childNodes[0]
+  let componentChildren=component.childNodes
+  // console.log(component.nodeName)
+  // console.log(component.childNodes[3].nodeName)
+  // console.log(component.childNodes.length)
+  for (let i=1;i<componentChildren.length;i++)
   {
-    try{
-      xmlDoc=new ActiveXObject(activeXNameList[h]);
-    }catch(e){
-      continue;
+    let group=componentChildren[i].getAttribute("group")
+    let image=null
+    let imageSource=null
+    let compName=componentChildren[i].getAttribute("compName")
+    // console.log(componentChildren[i].nodeName)
+    //如果BSHX有子节点Image
+    if(componentChildren[i].childNodes[0]){
+      image=componentChildren[i].childNodes[0]
+      imageSource=componentChildren[i].childNodes[0].getAttribute("source")
+      // console.log(imageSource)
+    }else{
+      imageSource=componentChildren[i].getAttribute("source")
+      // console.log(imageSource)
     }
-    if(xmlDoc) break;
-  }
-}
-//非 IE
-else if (document.implementation && document.implementation.createDocument){
-  xmlDoc=document.implementation.createDocument("","",null);
-}else{
-  alert('不能创建XML,请更新浏览器');
-}
-//同步,防止后面程序处理时遇到文件还没加载完成出现的错误,故同步等XML文件加载完再做后面处理
-  xmlDoc.async=false;
-//加载XML
-  xmlDoc.load(xmlFileName);
-}
 
-//读取xml文件节点
-function readXML() {
-  //JS读取 XML 文件中的 area 节点的方式如下:
-  let nodeList= xmlDoc.documentElement.getElementsByTagName("area")
-  // IE
-  for(let i=0;i<nodeList.length;i++){
-    //...遍历操作...
+    switch(group){
+      case "deviceComp":
+        $("#deviceComp")
+          .append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
+
+    }
+
   }
 
-  // 非IE
-  // let nodeList=xmlDoc.getElementsByTagName("area");
-  // for(let i=0;i<nodeList.length;i++){
-    //...遍历操作...
-  // }
-
-  //MS IE
-  //读取node节点的文本值
-  // node.text ;
-  //读取 node 下的第 i 个[直接下一级]子节点的文本
-  // node.childNodes[i].text ;
-  //读取 node 节点的属性名称为 attributeName 的属性值
-  // node.getAttribute("attributeName") ;
-
 
 }
+//============解析xml
+
 
 
 

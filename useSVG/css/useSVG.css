@@ -22,13 +22,17 @@ footer, header, menu, nav, section {
   display: block;
 }
 
+html{
+  overflow-y: hidden;
+}
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
   background-color: rgb(235,235,235);
-
+  overflow-y: hidden;
 }
 div{
   margin: 0;
@@ -208,6 +212,18 @@ img{
   border: 1px red solid;
   box-sizing: border-box;
 }
+
+li{
+  padding: 0;
+}
+.tool
+{
+  width:320px;
+  margin-top:10px;
+}
+
+
+
 /*右侧的工具栏*/
 #right{
   /*width: 100px;*/
@@ -220,23 +236,23 @@ img{
   padding: 0;
 }
 
-#right #leftTab{
+#right #rightTab{
   border: 1px red solid;
   box-sizing: border-box;
   width: 32px;
   float: left;
 }
-#right #leftTab li{
+#right #rightTab li{
   text-align: left;
   width: 30px;
 }
-#right #leftTab li a{
+#right #rightTab li a{
   font-size: 12px;
   padding-left: 9px;
 }
 
 
-#leftTabContent{
+#rightTabContent{
   width: 92px;
   border: 1px solid green;
   margin-left: 33px;
@@ -247,27 +263,25 @@ img{
 /*#left2{*/
   /*width: 50px;*/
 /*}*/
-#leftTabContent div{
-  width: 50px;
+/*右边的ul的显式内容*/
+#rightTabContent ul{
+  /*width: 50px;*/
+  height: 730px;
+  overflow-y:scroll;
 }
-
-
-
-
-li{
-  padding: 0;
-}
-.tool
-{
-  width:320px;
-  margin-top:10px;
-}
-.tool_part
-{
-  width: 110px;
-  height: 60px;
-  margin: 3px 0;
+#rightTabContent ul li{
+/*.tool_part*/
+/*{*/
+  width: 68px;
+  height: 80px;
+  /*margin: 3px 0;*/
   border: 1px red dashed;
   box-sizing: border-box;
   cursor:move;
+/*}*/
 }
+
+
+
+
+

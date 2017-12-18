@@ -1,37 +1,41 @@
 window.onload=function () {
+  /*
+  *解析xml
+  **/
+  analysisXML()
+
+
+
+
   let shapeInfo={
     all:'width:1428,height:436'
   }
   //设置z-index属性
   let zIndex=1
+  //选中的焦点图形
   let selected=null
+  //选中右边图形列表的某个图片
+  let rightSelect=null
+
   //左边和上边的工具栏占的位置
   //屏幕适配，暂时不做
   let gongjuLeft=125
   let gongjuTop=30
 
-
   //创建画布
-  let paper=null;
+  let paper=null
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
   //在元素中创建Raphael对象
   paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
   // console.log(paper)
+  //选中焦点图片
   $("svg").on("click",function (e) {
     // console.log(e.target)
     selected=e.target
-    // console.log(selected.nodeName)
+    // console.log(selected)
     if( selected.nodeName==="image" && !selected.getAttribute("z-index")){
       selected.setAttribute("z-index",zIndex++)
     }
-    // console.log(e.target.getAttribute("x"))
-    // console.log(e.target.getAttribute("y"))
-    // console.log(selected)
-    // console.log(selected.getAttribute("x"))
-    // console.log(selected.getAttribute("width")/2)
-    // console.log((selected.getAttribute("y")+selected.getAttribute("height")/2))
-    // console.log(selected.getAttribute('width'))
-    // $("#changeWidth").val(all.attrs.width)
     //是pic到input,是由内向外显示的值
     $("#changeWidth").val(selected.getAttribute("width"))
     $("#changeHeight").val(selected.getAttribute("height"))
@@ -41,15 +45,24 @@ window.onload=function () {
     //   "stroke": "red"
     // });
 
-
-
   })
-  
+
+  //选中右侧图片
+  $("#rightTabContent").on("mousedown",function (e) {
+    // console.log(rightSelect.nodeName.toLowerCase())
+    if(e.target.nodeName.toLowerCase()==="img"){
+      rightSelect=e.target
+      console.log(rightSelect.getAttribute("src"))
+    }
+  })
+
+
+  // console.log("bbbbbbbbbbb")
   //为每个li绑定拖拽元素
     $(".tool_part").each(function()
     {
       $(this).draggable({helper:"clone",cursor:'move'})
-      
+      // console.log("fffff")
     });
     //为middletopright绑定事件
     $(".middleTopRight").each(function()
@@ -66,385 +79,26 @@ window.onload=function () {
       accept:".tool_part",
       drop:function(event,ui)
       {
-        // console.log(event)
+        // console.log(event.target)
         //绘制图片
-        drawSvg(ui.helper.attr("type"),event.clientX,event.clientY);
-        // drawSvg(ui.helper.attr("type"),event.clientX-24,event.clientY-24);
-        // console.log(ui.helper)
-        
+        drawSvg(ui.helper.attr("class").slice(0,9),event.clientX,event.clientY);
       }
     });
 
     //绘制svg图片
-  function drawSvg(tool_type,x,y)
-  { 
-    //绘制绿点
-    if("green"===tool_type)
-    {
-      console.log(tool_type)
-      //引用图片
-      //          paper.image(src,x,y,width,height)
-      // let start = paper.image("image/green.png",x-184,y-75,48,48)
-      let start = paper.image("../image/green.png",x,y,19,19)
-        //设置属性
-        .attr({
-          cursor:'pointer'
-        })
-        //设置拖拉属性
-        .drag(
-          function(){
-            myMove()
-          },
-          function(){
-            myStart()
-          },
-          function(){
-            myEnd()
-          });
-
-      let moveX,moveY;
-      //设置图片的id
-      let startId = start.id;
-
-      showStart(startId);
-      let myStart = function()
-      {
-        moveX = event.clientX-24;
-        moveY = event.clientY-24;
-        console.log("startgreen")
-        showStart(startId);
-      }
-      let myMove = function()
-      {
-        console.log("mymove")
-        //让鼠标处于圆心
-        //48 48
-        moveX = event.clientX-24;
-        // moveX = event.clientX-184;
-        moveY = event.clientY-24;
-        // moveY = event.clientY-75;
-        start.attr({x:moveX});
-        start.attr({y:moveY});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-
-      }
-      let myEnd = function()
-      {
-        // moveX = event.clientX-184;
-        moveX = event.clientX-24;
-        // moveY = event.clientY-75;
-        moveY = event.clientY-24;
-        start.attr({x:moveX});
-        start.attr({y:moveY});
-      }
-
-      start.dblclick(function()
-      {
-        if(confirm("确定删除此元素？"))
-        {
-          console.log(start.id)
-          let id = start.id;
-          if(document.getElementById(id+"start"))
-          {
-            $("#"+id+"start").css('display','none');
-            $("#"+id+"start").remove();
-          }
-          this.remove();
-        }
-        else{}
-      });
-    }
-    //================================================green
+  function drawSvg(className,x,y)
+  {
     /*
-    *绘制picexample
-    */
-    if("picexample"===tool_type)
-    {
-      console.log(tool_type)
-      let end = paper.image("../image/picexample.png",x,y,235,133)
-        .attr({cursor:'pointer'})
-        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-
-      let moveX,moveY;
-      let endId = end.id;
-      showEnd(endId);
-      let myStart = function()
-      {
-        showEnd(endId);
-      }
-      let myMove = function()
-      {
-        //235 133
-        moveX = event.clientX-117;
-        moveY = event.clientY-66;
-        end.attr({x:moveX});
-        end.attr({y:moveY});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myEnd = function()
-      {
-        moveX = event.clientX-117;
-        moveY = event.clientY-66;
-        end.attr({x:moveX});
-        end.attr({y:moveY});
-      }
-
-      end.dblclick(function()
-      {
-        if(confirm("确定删除此元素？"))
-        {
-
-          console.log(end.id)
-          let id = end.id;
-          if(document.getElementById(id+"end"))
-          {
-            $("#"+id+"end").css('display','none');
-            $("#"+id+"end").remove();
-          }
-          this.remove();
-        }
-        else{}
-      });
-    }
-    /*
-    **绘制红字
-    */
-    if("redman"===tool_type)
-    {
-      let redman = paper.image("../image/redman.png",x,y,53,16)
-        .attr({cursor:'pointer'})
-        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-
-      // let realText = paper.text(x-140,y-50,'Task1').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask1(task1Id,realTextId);});
-      let moveX,moveY;
-
-      let redmanId = redman.id;
-      // let realTextId = realText.id;
-      // showTask1(task1Id,realTextId);
-
-      let myMove = function()
-      {
-        //53 16
-        moveX = event.clientX-26;
-        moveY = event.clientY-8;
-        // task1.attr({x:moveX});
-        // task1.attr({y:moveY});
-        // realText.attr({x:(moveX+task1.attr("width")/2)});
-        // realText.attr({y:(moveY+task1.attr("height")/2)});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myStart = function()
-      {
-        moveX = event.clientX-26;
-        moveY = event.clientY-8;
-        // showTask1(task1Id,realTextId);
-      }
-      let myEnd = function()
-      {
-        moveX = event.clientX-26;
-        moveY = event.clientY-8;
-        // task1.attr({x:moveX});
-        // task1.attr({y:moveY});
-      }
-    }
-    /*
-   **绘制2013
+   *绘制
    */
-    if("year2013"===tool_type)
+    if("tool_part"===className)
     {
-      let year2013 = paper.image("../image/year2013.png",x,y,38,18)
-        .attr({cursor:'pointer'})
-        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-
-      let realText = paper.text(x-140,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
-      let moveX,moveY;
-
-      // let year2013Id = year2013.id;
-      // let realTextId = realText.id;
-      // showyear2013(year2013Id,realTextId);
-
-      let myMove = function()
-      {
-        //38 18
-        moveX = event.clientX-19;
-        moveY = event.clientY-9;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-        // realText.attr({x:(moveX+year2013.attr("width")/2)});
-        // realText.attr({y:(moveY+year2013.attr("height")/2)});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myStart = function()
-      {
-        moveX = event.clientX-19;
-        moveY = event.clientY-9;
-        // showyear2013(year2013Id,realTextId);
-      }
-      let myEnd = function()
-      {
-        moveX = event.clientX-19;
-        moveY = event.clientY-9;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-      }
-    }
-    /*
-   **红点
-   */
-    if("red"===tool_type)
-    {
-      let year2013 = paper.image("../image/red.png",x,y,19,19)
-        .attr({cursor:'pointer'})
-        .drag(function(){
-          myMove()
-        },
-          function(){
-          myStart()
-          },
-          function(){
-          myEnd()
-        });
-      // let realText = paper.text(x-,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
-      let moveX,moveY;
-
-      let year2013Id = year2013.id;
-      // let realTextId = realText.id;
-      // showyear2013(year2013Id,realTextId);
-
-      let myMove = function()
-      {
-        //19 19
-        moveX = event.clientX-9;
-        moveY = event.clientY-9;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-        // realText.attr({x:(moveX+year2013.attr("width")/2)});
-        // realText.attr({y:(moveY+year2013.attr("height")/2)});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myStart = function()
-      {
-        moveX = event.clientX-9;
-        moveY = event.clientY-9;
-        // showyear2013(year2013Id,realTextId);
-      }
-      let myEnd = function()
-      {
-        moveX = event.clientX-9;
-        moveY = event.clientY-9;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-      }
-    }
-    /*
-   **报警
-   */
-    if("baojing"===tool_type)
-    {
-      let year2013 = paper.image("../image/baojing.png",x,y,121,24)
-        .attr({cursor:'pointer'})
-        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-
-      // let realText = paper.text(x-140,y-50,'year2013').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showyear2013(year2013Id,realTextId);});
-      let moveX,moveY;
-
-      // let year2013Id = year2013.id;
-      // let realTextId = realText.id;
-      // showyear2013(year2013Id,realTextId);
-
-      let myMove = function()
-      {
-        //121,24
-        moveX = event.clientX-60;
-        moveY = event.clientY-12;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-        // realText.attr({x:(moveX+year2013.attr("width")/2)});
-        // realText.attr({y:(moveY+year2013.attr("height")/2)});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myStart = function()
-      {
-        moveX = event.clientX;
-        moveY = event.clientY;
-        // showyear2013(year2013Id,realTextId);
-      }
-      let myEnd = function()
-      {
-        //121,24
-        moveX = event.clientX-60;
-        moveY = event.clientY-12;
-        year2013.attr({x:moveX});
-        year2013.attr({y:moveY});
-      }
-    }
-    /*
-    *绘制客流正常
-    */
-    if("zhengchang"===tool_type)
-    {
-      let task3 = paper.image("../image/zhengchang.png",x,y,125,27)
-        .attr({cursor:'pointer'})
-        .drag(function(){myMove()},function(){myStart()},function(){myEnd()});
-
-      // let realText = paper.text(x-140,y-50,'Task3').attr({'font-size':14,cursor:'pointer','font-family':'微软雅黑'}).click(function(){showTask3(task3Id,realTextId);});
-      let moveX,moveY;
-
-      // let task3Id = task3.id;
-      // let realTextId = realText.id;
-      // showTask3(task3Id,realTextId);
-
-      let myMove = function()
-      {
-        //125 27
-        moveX = event.clientX-62;
-        moveY = event.clientY-13;
-        task3.attr({x:moveX});
-        task3.attr({y:moveY});
-        // realText.attr({x:(moveX+task3.attr("width")/2)});
-        // realText.attr({y:(moveY+task3.attr("height")/2)});
-        $("#moveX").val(moveX)
-        $("#moveY").val(moveY)
-
-      }
-      let myStart = function()
-      {
-        moveX = event.clientX-62;
-        moveY = event.clientY-13;
-        // showTask3(task3Id,realTextId);
-      }
-      let myEnd = function()
-      {
-        moveX = event.clientX-62;
-        moveY = event.clientY-13;
-        task3.attr({x:moveX});
-        task3.attr({y:moveY});
-      }
-    }
-    //==============================================
-    /*
-   *绘制广场大图
-   */
-    if("all"===tool_type)
-    {
-      let width=1428
-      let height=436
-      // console.log(tool_type)
-      let all = paper.image("../image/all.png",x,y,width,height)
-        // .attr({cursor:'pointer'})
-        // .attr({border:'1px red solid',boxSizing:'border-box'})
+      // let width=1428
+      let width=rightSelect.getAttribute("imgWidth")
+      // let height=436
+      let height=rightSelect.getAttribute("imgHeight")
+      // let all = paper.image("../image/all.png",x,y,width,height)
+      let all = paper.image(rightSelect.getAttribute("src"),x-gongjuLeft-width/2,y-gongjuTop-height/2,width,height)
         .attr({cursor:'pointer'})
         .drag(function(){
           myMove()
@@ -452,41 +106,11 @@ window.onload=function () {
           function(){
           myStart()
           }
-        //   ,
-        //   function(){
-        //   myEnd()
-        // }
         );
-      
-      // console.log(all)
-      
-      //获取矩形的中心
-      let midX=all.attrs.width/2
-      let midY=all.attrs.height/2
-      // console.log(all)
-      // console.log("这是all的offsetleft")
       let moveX,moveY,mouseLeft,mouseTop,picLeft,picTop,goLeft,goTop;
-
-      // let allId = all.id;
-      // showall(allId);
       let myStart = function()
       {
         //一开始就画一个矩形，之后就是移动它而不是重复画它
-
-        // let event=event || window.event
-        // moveX = event.clientX-714;
-        // moveX = event.clientX-midX;
-        // ol=event.offsetLeft -event.clientX;
-        // moveY = event.clientY-218;
-        // ot =event.offsetTop- event.clientY;
-        // console.log(selected)
-        // $("#changeWidth").val(all.attrs.width)
-        // $("#changeHeight").val(all.attrs.height)
-        // console.log($("#changeWidth").val())
-        // console.log("这是start")
-        // console.log(event)
-        // console.log(ol)
-        // console.log(ot)
         //鼠标刚开始点击时的鼠标的坐标（相对于middleMid即svg坐标系）
         mouseLeft=event.clientX-gongjuLeft
         mouseTop=event.clientY-gongjuTop
@@ -497,13 +121,6 @@ window.onload=function () {
         goTop=mouseTop-picTop
         //pic相对于鼠标的偏移量
         //鼠标的横纵坐标永远比pic左上角的坐标大
-        // console.log(all.attrs.x)
-        // console.log(all.attrs.y)
-        // console.log(mouseLeft+"mouseLeft")
-        // console.log(mouseTop+"mouseTop")
-        // console.log(goLeft+"goLeft")
-        // console.log(goTop+"goTop")
-        // showall(allId);
       }
       let myMove = function()
       {
@@ -518,97 +135,54 @@ window.onload=function () {
         // rect.attr({x:moveX,y:moveY});
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
-        // console.log("这是move")
-        // console.log(moveX+"moveX")
-        // console.log(moveY+"moveY")
       }
-      // let myEnd = function()
-      // {
-      //   // moveX = event.clientX-714;
-      //   moveX = event.clientX-midX;
-      //   // moveY = event.clientY-218;
-      //   moveY = event.clientY-midY;
-      //   all.attr({x:moveX});
-      //   all.attr({y:moveY});
-      //
-      //   console.log("这是end")
-      // }
-
       //通过input去改变图片的属性值
       $("#middleTopLeftUl").on('input',function (e) {
         if (e.target.tagName.toLowerCase() !== 'input') {
           //终止
           return
         }
-        // console.log(e.target)
         let handle = e.target
-        // console.log(handle.name)
-        // console.log(handle.value)
-        if (selected.nodeName === "image") {
-
-
-        //获取焦点选中的图片
-        switch (handle.name) {
-          // case "width":all.attr({width:handle.value});rect.attr({width:handle.value});break;
-          case "width":
-            selected.setAttribute("width", handle.value);
-            // rect.attr({width:handle.value});
-            break;
-          // case "height":all.attr({height:handle.value});rect.attr({height:handle.value});break;
-          case "height":
-            selected.setAttribute("height", handle.value);
-            // rect.attr({height:handle.value});
-            break;
-          // case "rotate": rect.attr('transform','R'+handle.value);break;
-          case "rotate":
-            // matrix(cosθ,sinθ,-sinθ,cosθ,0,0)
-
-            selected.setAttribute(
-              "transform",
-              "matrix(" +
-              Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-              "," +
-              Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-              "," +
-              (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-              "," +
-              Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-              "," +
-              0 +
-              "," +
-              0 +
-              ")")
-
-            // selected.style.transform="rotate("+handle.value+"deg)"
-            // console.log(selected.style)
-            // console.log(selected.style.cursor)
-            // console.log(selected.style.transform)
-
-            // "transform-origin",
-            // "transform-origin",
-            // (
-            //   parseInt(selected.getAttribute("x"))+
-            //   parseInt(selected.getAttribute("width")/2))
-            // +" "+
-            // (parseInt(selected.getAttribute("y"))+
-            //   parseInt(selected.getAttribute("height")/2))
-            // "600 300"
-            // );
-            // selected.style.transform("rotate("+handle.value+"deg)");
-            // all.attr('transform','R'+handle.value);
-            // rect.attr('transform','R'+handle.value);
-            break;
-        }
-        // all.rotate(handle.value);
-
-        //选中的节点设置名称和值
-
-        // all.setAttribute(handle.name,handle.value)
-        // console.log(handle.value)
-      }
+        whrota(handle)
       })
     }
   }
+
+  /*
+  * 宽、高、旋转
+  * */
+  function whrota(handle) {
+    if (selected.nodeName === "image") {
+      //获取焦点选中的图片
+      switch (handle.name) {
+        case "width":
+          selected.setAttribute("width", handle.value);
+          break;
+        case "height":
+          selected.setAttribute("height", handle.value);
+          break;
+        case "rotate":
+          selected.setAttribute(
+            "transform",
+            "matrix(" +
+            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            0 +
+            "," +
+            0 +
+            ")")
+          break;
+      }
+    }
+  }
+
+
 
   /*
   * 通过滚轮去旋转
@@ -727,30 +301,14 @@ window.onload=function () {
 
   })
 
-  /*
-   *解析xml
-   **/
-    analysisXML()
+
   
   /*
   * 读取xml
   * */
   
 
-  /*
-  * 更新属性值
-  * */
-  // function updateValue(selected) {
-  //   width.value=selected.getAttribute('width')
-  //   height.value=selected.getAttribute('height')
-  //   let t=decodeTransform(selected.getAttribute('transform'))
-  //   translateX.value=t?t.tx:0
-  //   translateY.value=t?t.ty:0
-  //   rotate.value=t?t.rotate:0
-  //   scale.value=t?t.scale:1
-  //   fill.value=selected.getAttribute('fill')
-  //   stroke.value=selected.getAttribute('stroke')
-  // }
+
 
   /*
    * 解析SVG元素z-index属性，并根据其值定义元素的层级
@@ -972,12 +530,13 @@ window.onload=function () {
 * */
 function analysisXML() {
   let xmlFileName="../Components.xml";
+  let xmlDoc
     //IE
-    // if(document.implementation && document.implementation.createDocument){
-    //   xmlDoc=document.implementation.createDocument("","",null);
-    // }else{
-  let xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-    // }
+    if((/Trident\/7\./).test(navigator.userAgent)){
+      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+    }else{
+      xmlDoc=document.implementation.createDocument("","",null);
+    }
       xmlDoc.async=false
       xmlDoc.load(xmlFileName)
   // 获取文档中标签元素对象
@@ -995,6 +554,9 @@ function analysisXML() {
     let image=null
     let imageSource=null
     let compName=componentChildren[i].getAttribute("compName")
+    let imgWidth=componentChildren[i].getAttribute("width")
+    let imgHeight=componentChildren[i].getAttribute("height")
+
     // console.log(componentChildren[i].nodeName)
     //如果BSHX有子节点Image
     if(componentChildren[i].childNodes[0]){
@@ -1007,15 +569,20 @@ function analysisXML() {
     }
 
     switch(group){
-      case "deviceComp":
-        $("#deviceComp")
-          .append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
+      case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
+      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
+      // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
 
     }
 
   }
 
-
+console.log("cccccccc")
 }
 //============解析xml
 

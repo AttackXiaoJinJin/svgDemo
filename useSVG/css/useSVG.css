@@ -269,19 +269,14 @@ li{
   height: 730px;
   overflow-y:scroll;
 }
-#rightTabContent ul li{
-/*.tool_part*/
-/*{*/
+
+.tool_part{
   width: 68px;
   height: 80px;
-  /*margin: 3px 0;*/
+  margin: 5px 0;
   border: 1px red dashed;
   box-sizing: border-box;
   cursor:move;
-/*}*/
 }
-
-
-
 
 

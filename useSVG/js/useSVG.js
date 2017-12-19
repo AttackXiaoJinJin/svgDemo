@@ -4,19 +4,14 @@ window.onload=function () {
   **/
   analysisXML()
 
-
-
-
-  let shapeInfo={
-    all:'width:1428,height:436'
-  }
   //设置z-index属性
   let zIndex=1
   //选中的焦点图形
   let selected=null
   //选中右边图形列表的某个图片
   let rightSelect=null
-
+  //组件名称
+  let compname=null
   //左边和上边的工具栏占的位置
   //屏幕适配，暂时不做
   let gongjuLeft=125
@@ -39,6 +34,9 @@ window.onload=function () {
     //是pic到input,是由内向外显示的值
     $("#changeWidth").val(selected.getAttribute("width"))
     $("#changeHeight").val(selected.getAttribute("height"))
+    //底部的信息
+    $("#componentName").text(selected.getAttribute("compname"))
+    // console.log()
     //外面的矩形边框
     let box=selected.getBBox()
     // let rect=paper.rect(box.x, box.y, box.width, box.height).attr({
@@ -52,7 +50,8 @@ window.onload=function () {
     // console.log(rightSelect.nodeName.toLowerCase())
     if(e.target.nodeName.toLowerCase()==="img"){
       rightSelect=e.target
-      console.log(rightSelect.getAttribute("src"))
+
+      console.log(rightSelect.getAttribute("compname"))
     }
   })
 
@@ -79,9 +78,13 @@ window.onload=function () {
       accept:".tool_part",
       drop:function(event,ui)
       {
-        // console.log(event.target)
+
         //绘制图片
-        drawSvg(ui.helper.attr("class").slice(0,9),event.clientX,event.clientY);
+        drawSvg(ui.helper.attr("class").slice(0,9),event.clientX,event.clientY)
+        let lastChild=event.target.childNodes[0].lastChild
+        lastChild.setAttribute("compname",compname)
+
+
       }
     });
 
@@ -95,21 +98,30 @@ window.onload=function () {
     {
       // let width=1428
       let width=null
-      if(rightSelect.getAttribute("imgWidth")!==null && rightSelect.getAttribute("imgWidth")!=="null"){
-        width=rightSelect.getAttribute("imgWidth")
-        console.log(rightSelect.getAttribute("imgWidth")+"aaaaa")
+      if(rightSelect.getAttribute("imgwidth") && rightSelect.getAttribute("imgwidth")!=="null"){
+      // if(rightSelect.getAttribute("imgwidth")){
+        width=rightSelect.getAttribute("imgwidth")
+        // console.log(rightSelect.getAttribute("imgwidth")+"aaaaa")
       }else{
         width=rightSelect.naturalWidth
-        console.log(rightSelect.naturalWidth+"bbbb")
+        // console.log(rightSelect.naturalWidth+"bbbb")
       }
       // let height=436
       let height=null
-      if(rightSelect.getAttribute("imgHeight")!==null && rightSelect.getAttribute("imgHeight")!=="null"){
-        height=rightSelect.getAttribute("imgHeight")
+      if(rightSelect.getAttribute("imgheight") && rightSelect.getAttribute("imgheight")!=="null"){
+      // if(rightSelect.getAttribute("imgheight")){
+        height=rightSelect.getAttribute("imgheight")
       }else{
         height=rightSelect.naturalHeight
         // console.log(height)
       }
+      //设置组件名称
+      if(rightSelect.getAttribute("compname") && rightSelect.getAttribute("compname")!=="null"){
+        compname=rightSelect.getAttribute("compname")
+      }
+
+
+
       // let all = paper.image("../image/all.png",x,y,width,height)
       let all = paper.image(rightSelect.getAttribute("src"),x-gongjuLeft-width/2,y-gongjuTop-height/2,width,height)
         .attr({cursor:'pointer'})
@@ -566,10 +578,12 @@ function analysisXML() {
     let group=componentChildren[i].getAttribute("group")
     let image=null
     let imageSource=null
-    let compName=componentChildren[i].getAttribute("compName")
-    let imgWidth=componentChildren[i].getAttribute("width")
-    let imgHeight=componentChildren[i].getAttribute("height")
-
+    let compname=componentChildren[i].getAttribute("compName")
+    let imgwidth=null,imgheight=null
+      if(componentChildren[i].getAttribute("width") && componentChildren[i].getAttribute("height")){
+        imgwidth=componentChildren[i].getAttribute("width")
+        imgheight=componentChildren[i].getAttribute("height")
+      }
     // console.log(componentChildren[i].nodeName)
     //如果BSHX有子节点Image
     if(componentChildren[i].childNodes[0]){
@@ -582,12 +596,12 @@ function analysisXML() {
     }
 
     switch(group){
-      case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
-      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
-      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li> imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'"));break;
-      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
-      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
-      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
+      case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
 
@@ -595,7 +609,7 @@ function analysisXML() {
 
   }
 
-console.log("cccccccc")
+// console.log("cccccccc")
 }
 //============解析xml
 

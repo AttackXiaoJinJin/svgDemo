@@ -72,7 +72,94 @@ img{
   /*float: left;*/
   margin: 0;
   padding: 0;
+  position: relative;
+  background-color: white;
 }
+
+#myTabContent{
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+#myTabContent span{
+  width: 124px;
+  border: 1px green solid;
+}
+
+.leftStyle:hover{
+  cursor: pointer;
+  background-color: #CEDBEF;
+}
+
+.leftShow{
+  display: block;
+}
+
+.leftHide{
+  display: none;
+}
+
+.left_i_down
+{
+  float: left;
+  display: block;
+  margin-top: 7px;
+  margin-right: 3px;
+  font-size: 0;
+  height: 0;
+  width: 0;
+  /*上 左右 下*/
+  border-width: 7px 5px 0;
+  border-style: solid dashed;
+  border-color: #000 transparent transparent;
+}
+
+.left_i_right{
+  float: left;
+  display: block;
+  margin-top: 5px;
+  margin-right: 3px;
+  margin-left: 2px;
+  font-size: 0px;
+  height: 0px;
+  width: 0px;
+  border-width: 5px 0 5px 7px;
+  border-color: transparent transparent transparent #000;
+  border-style: solid;
+}
+
+.left_file_close{
+  width: 20px;
+  height: 20px;
+  background: url("../image/文件夹关闭.png") no-repeat center;
+  display: block;
+  float: left;
+  margin-left: -2px;
+}
+
+.left_file_open{
+  width: 20px;
+  height: 20px;
+  background: url("../image/文件夹打开.png") no-repeat center;
+  display: block;
+  float: left;
+  margin-left: -2px;
+}
+
+
+#leftBottomBtn{
+  box-sizing: border-box;
+  border:1px solid green;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+#leftBottomBtn button{
+  font-size: 14px;
+  padding: 0;
+}
+
 
 #middle{
   /*width: 1600px;*/

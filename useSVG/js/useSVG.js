@@ -3,6 +3,71 @@ window.onload=function () {
   *解析xml
   **/
   analysisXML()
+  
+  //left==============================
+  // document.querySelector("#leftKeLiu").onclick=function () {
+  //   console.log(this.children.length)
+  //   if(this.children){
+  //     let children=this.children
+  //     for(let i=0;i<children.length;i++){
+  //       if(children[i].className==="leftUlHide leftStyle"){
+  //         children[i].className="leftUlShow leftStyle"
+  //       }else{
+  //         children[i].className="leftUlHide leftStyle"
+  //       }
+  //       let childrenOne=children[i]
+  //
+  //       if(childrenOne.children){
+  //         let children=this.children
+  //         for(let i=0;i<children.length;i++){
+  //           if(children[i].className==="leftUlHide leftStyle"){
+  //             children[i].className="leftUlShow leftStyle"
+  //           }else{
+  //             children[i].className="leftUlHide leftStyle"
+  //           }
+  //
+  //         }
+  //
+  //       }
+  //     }
+  //   }
+  // }
+
+  $("#system").on("click",function (e) {
+      console.log(e.target.nodeName.toLowerCase())
+      // console.log(e.target.parentNode.nodeName.toLowerCase())
+    //第一个ul
+
+    // if(e.target.children){
+    //   $(e.target.firstChild).toggleClass("left_i_right")
+    //   $(e.target.children[1]).toggleClass("left_file_open")
+    //   if(e.target.parentNode.nodeName.toLowerCase()!=="div"){
+    //     $(e.target.children).css("margin-left","13px")
+    //     $(e.target.children[1]).css("margin-left","0px")
+    //   }
+    //   console.log(e.target.firstChild.nodeName.toLowerCase())
+    //   if(e.target.firstChild.nodeName.toLowerCase()!=="i"){
+    //     $(e.target.children).css("margin-left","26px")
+    //   }
+    //   $(e.target.children).toggleClass("leftHide")
+    // }
+
+
+  })
+
+
+
+  $(".leftOne").each(function()
+  {
+    $(this).on("mouseover",function () {
+      $(this).css("cursor","pointer").css("backgroundColor","#D1D1D1")
+    })
+    $(this).on("mouseout",function () {
+      $(this).css("backgroundColor","")
+    })
+  });
+  
+  //===========================
 
   //设置z-index属性
   let zIndex=1

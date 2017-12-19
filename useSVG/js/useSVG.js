@@ -94,9 +94,22 @@ window.onload=function () {
     if("tool_part"===className)
     {
       // let width=1428
-      let width=rightSelect.getAttribute("imgWidth")
+      let width=null
+      if(rightSelect.getAttribute("imgWidth")!==null && rightSelect.getAttribute("imgWidth")!=="null"){
+        width=rightSelect.getAttribute("imgWidth")
+        console.log(rightSelect.getAttribute("imgWidth")+"aaaaa")
+      }else{
+        width=rightSelect.naturalWidth
+        console.log(rightSelect.naturalWidth+"bbbb")
+      }
       // let height=436
-      let height=rightSelect.getAttribute("imgHeight")
+      let height=null
+      if(rightSelect.getAttribute("imgHeight")!==null && rightSelect.getAttribute("imgHeight")!=="null"){
+        height=rightSelect.getAttribute("imgHeight")
+      }else{
+        height=rightSelect.naturalHeight
+        // console.log(height)
+      }
       // let all = paper.image("../image/all.png",x,y,width,height)
       let all = paper.image(rightSelect.getAttribute("src"),x-gongjuLeft-width/2,y-gongjuTop-height/2,width,height)
         .attr({cursor:'pointer'})
@@ -570,11 +583,11 @@ function analysisXML() {
 
     switch(group){
       case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
-      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
-      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
-      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
-      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
-      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li>"));break;
+      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
+      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px'/></li> imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'"));break;
+      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
+      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
+      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgWidth='"+imgWidth+"' imgHeight='"+imgHeight+"'/></li>"));break;
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1631" Height="843">
+  <LIST>
+    <Component>
+      <NEWZMA/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <NEWZMA width="80" source="assets/comp/NEWZMA/bg.png" height="80" y="246" x="925" isControl="true" group="commonComp" deviceID=""/>
+  </Components>
+</Configration>

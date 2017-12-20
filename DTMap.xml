@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Configration Width="1662" Height="865">
+
   <LIST>
+
     <Component>
       <LIFTD2/>
     </Component>
+
     <Image>
       <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
       <TULI source="assets/comp/TULI/TULI.png"/>

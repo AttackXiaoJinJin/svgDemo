@@ -79,6 +79,8 @@ window.onload=function () {
   let rightSelect=null
   //组件名称
   let compname=null
+  let mainname=null
+  let group=null
   //左边和上边的工具栏占的位置
   //屏幕适配，暂时不做
   let gongjuLeft=125
@@ -118,7 +120,7 @@ window.onload=function () {
     if(e.target.nodeName.toLowerCase()==="img"){
       rightSelect=e.target
 
-      console.log(rightSelect.getAttribute("compname"))
+      // console.log(rightSelect.getAttribute("compname"))
     }
   })
 
@@ -150,6 +152,8 @@ window.onload=function () {
         drawSvg(ui.helper.attr("class").slice(0,9),event.clientX,event.clientY)
         let lastChild=event.target.childNodes[0].lastChild
         lastChild.setAttribute("compname",compname)
+        lastChild.setAttribute("mainname",mainname)
+        lastChild.setAttribute("group",group)
 
 
       }
@@ -186,8 +190,12 @@ window.onload=function () {
       if(rightSelect.getAttribute("compname") && rightSelect.getAttribute("compname")!=="null"){
         compname=rightSelect.getAttribute("compname")
       }
-
-
+      if(rightSelect.getAttribute("mainname") && rightSelect.getAttribute("mainname")!=="null"){
+        mainname=rightSelect.getAttribute("mainname")
+      }
+      if(rightSelect.getAttribute("group") && rightSelect.getAttribute("group")!=="null"){
+        group=rightSelect.getAttribute("group")
+      }
 
       // let all = paper.image("../image/all.png",x,y,width,height)
       let all = paper.image(rightSelect.getAttribute("src"),x-gongjuLeft-width/2,y-gongjuTop-height/2,width,height)
@@ -280,7 +288,7 @@ window.onload=function () {
   * 通过滚轮去旋转
   * */
   //暂时不考虑FF
-
+/*
   let scrollFunc=function(e){
     e = e || window.event;
     // let rotateInput = $("#rotate")
@@ -308,6 +316,7 @@ window.onload=function () {
     window.onmousewheel=document.onmousewheel=scrollFunc;
     // console.log("eeeeeeeeeeee")
   })
+*/
 
   /*
   * 删除
@@ -398,8 +407,12 @@ window.onload=function () {
   /*
   * 读取xml
   * */
-  
+  $(".icon-save").on('click',function (e) {
 
+
+
+
+  })
 
 
   /*
@@ -459,6 +472,7 @@ window.onload=function () {
 
 /*显示下方表单
   */
+/*
   //当前时间
   let newTime = (new Date).getTime();
 //start文本
@@ -599,7 +613,7 @@ window.onload=function () {
       $("#"+allId+"all").css('display','block');
     }
   }
-
+*/
   /*
   *修改文本域内容
   */
@@ -611,6 +625,121 @@ window.onload=function () {
       text:text_value
     });
   }
+
+  /*
+  * 导出xml
+  * */
+  $(".icon-export").on("click",function () {
+    /*
+    **生成xml
+    **/
+    // console.log("aaaaa")
+    let xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    //创建两条处理指令     
+    let newPI=xmlDoc.createProcessingInstruction("xml","version=\"1.0\" encoding=\"utf-8\"")
+    //xml版本
+
+    //创建根元素     
+    let Configration=xmlDoc.createElement("Configration")
+    //创建CDATA     
+    //let newCD=xmlDoc.createCDATASection("This is a CDATASection node");     
+    //xmlDoc.documentElement.appendChild(newCD);     
+
+    //创建元素LIST,其子元素Component,Image
+    let LIST=xmlDoc.createElement("LIST")
+    let Components=xmlDoc.createElement("Components")
+    let Component=xmlDoc.createElement("Component")
+    let Image=xmlDoc.createElement("Image")
+
+    xmlDoc.appendChild(newPI)
+    xmlDoc.appendChild(Configration)
+
+    Configration.appendChild(LIST)
+    Configration.appendChild(Components)
+
+    LIST.appendChild(Component)
+    LIST.appendChild(Image)
+
+    Configration.setAttribute("Width",$("svg").attr("width"))
+    Configration.setAttribute("Height",$("svg").attr("height"))
+
+    // console.log(document.querySelector("svg").childNodes)
+    // console.log($("svg").children)
+    let children=document.querySelector("svg").childNodes
+    for(let i=0;i<children.length;i++){
+      if(children[i].nodeName==="image"){
+        let nodename=children[i].getAttribute("mainname")
+        let source=children[i].getAttribute("href")
+        let height=children[i].getAttribute("height")
+        let width=children[i].getAttribute("width")
+        let x=parseInt(children[i].getAttribute("x"))
+        let y=parseInt(children[i].getAttribute("y"))
+        let group=children[i].getAttribute("group")
+        //components
+        let bq2=xmlDoc.createElement(nodename)
+        //component
+        let bq1=xmlDoc.createElement(nodename)
+        //image
+        let bq3=xmlDoc.createElement(nodename)
+        bq2.setAttribute("x",x)
+        bq2.setAttribute("y",y)
+        bq2.setAttribute("height",height)
+        bq2.setAttribute("width",width)
+        bq2.setAttribute("source",source)
+        bq2.setAttribute("group",group)
+        bq2.setAttribute("deviceID","")
+
+        bq3.setAttribute("source",source)
+        bq3.setAttribute("group",group)
+        Components.appendChild(bq2);
+        switch(group){
+          //设备库
+          case "deviceComp":
+            Component.appendChild(bq1)
+            break;
+            //基本组件
+          case "commonComp":
+            Component.appendChild(bq1)
+            break;
+            //背景
+          case "bg":
+            Image.appendChild(bq3)
+            break;
+            //图例
+          case "tuli":
+            Image.appendChild(bq3)
+            break;
+            //管道
+          case "pipe":
+            Image.appendChild(bq3)
+            break;
+          //特殊设备
+          case "spetial":
+            Image.appendChild(bq3)
+
+            break;
+          // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
+          // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
+
+        }
+      }
+    }
+
+    console.log(xmlDoc.xml);
+
+    /*
+    * 导出xml
+    * */
+
+
+
+
+
+    
+  })
+
+
+
 
 
 
@@ -642,6 +771,9 @@ function analysisXML() {
   // console.log(component.childNodes.length)
   for (let i=1;i<componentChildren.length;i++)
   {
+    // console.log()
+    let nodename=componentChildren[i].nodeName
+    // console.log(nodename)
     let group=componentChildren[i].getAttribute("group")
     let image=null
     let imageSource=null
@@ -663,12 +795,12 @@ function analysisXML() {
     }
 
     switch(group){
-      case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
-      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
-      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
-      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
-      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
-      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"'/></li>"));break;
+      case "deviceComp":$("#deviceComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
+      case "commonComp":$("#commonComp").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
+      case "bg":$("#bg").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
+      case "tuli":$("#tuli").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
+      case "pipe":$("#pipe").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
+      case "spetial":$("#spetial").append($("<li class='tool_part'><img src='"+imageSource+"' width='68px' height='80px' imgwidth='"+imgwidth+"' imgheight='"+imgheight+"' compname='"+compname+"' mainname='"+nodename+"' group='"+group+"'/></li>"));break;
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
       // case "deviceComp":$("#deviceComp").append($("<li><img src='"+imageSource+"' width='68px' height='80px'/></li>"))
 

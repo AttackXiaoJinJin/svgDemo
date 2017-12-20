@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1631" Height="843">
+  <LIST>
+    <Component>
+      <NEWZMA/>
+      <NEWZMA2/>
+      <NEWZME/>
+    </Component>
+    <Image>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <NEWZMA width="80" source="assets/comp/NEWZMA/bg.png" height="80" y="313" x="762" isControl="true" group="commonComp" deviceID=""/>
+    <NEWZMA2 width="80" source="assets/comp/NEWZMA2/bg.png" height="80" y="310" x="930" isControl="true" group="commonComp" deviceID=""/>
+    <NEWZME width="80" source="assets/comp/NEWZME/bg.png" height="80" y="411" x="838" isControl="true" group="commonComp" deviceID=""/>
+    <LCF4 y="183" source="assets/comp/LCF4.png" width="110" height="92" group="bg" x="369"/>
+  </Components>
+</Configration>

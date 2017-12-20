@@ -112,6 +112,7 @@ img{
   border-width: 7px 5px 0;
   border-style: solid dashed;
   border-color: #000 transparent transparent;
+
 }
 
 .left_i_right{
@@ -145,6 +146,11 @@ img{
   float: left;
   margin-left: -2px;
 }
+
+.leftClick{
+  background-color:#47A3E5;
+}
+
 
 
 #leftBottomBtn{

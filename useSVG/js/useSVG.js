@@ -3,55 +3,57 @@ window.onload=function () {
   *解析xml
   **/
   analysisXML()
-  
-  //left==============================
-  // document.querySelector("#leftKeLiu").onclick=function () {
-  //   console.log(this.children.length)
-  //   if(this.children){
-  //     let children=this.children
-  //     for(let i=0;i<children.length;i++){
-  //       if(children[i].className==="leftUlHide leftStyle"){
-  //         children[i].className="leftUlShow leftStyle"
-  //       }else{
-  //         children[i].className="leftUlHide leftStyle"
-  //       }
-  //       let childrenOne=children[i]
-  //
-  //       if(childrenOne.children){
-  //         let children=this.children
-  //         for(let i=0;i<children.length;i++){
-  //           if(children[i].className==="leftUlHide leftStyle"){
-  //             children[i].className="leftUlShow leftStyle"
-  //           }else{
-  //             children[i].className="leftUlHide leftStyle"
-  //           }
-  //
-  //         }
-  //
-  //       }
-  //     }
-  //   }
-  // }
 
+  let systemEvent=null
   $("#system").on("click",function (e) {
-      console.log(e.target.nodeName.toLowerCase())
+      // console.log(e.target.nodeName.toLowerCase())
       // console.log(e.target.parentNode.nodeName.toLowerCase())
     //第一个ul
+    if(e.target.nodeName.toLowerCase()==="i") {
 
-    // if(e.target.children){
-    //   $(e.target.firstChild).toggleClass("left_i_right")
-    //   $(e.target.children[1]).toggleClass("left_file_open")
-    //   if(e.target.parentNode.nodeName.toLowerCase()!=="div"){
-    //     $(e.target.children).css("margin-left","13px")
-    //     $(e.target.children[1]).css("margin-left","0px")
-    //   }
-    //   console.log(e.target.firstChild.nodeName.toLowerCase())
-    //   if(e.target.firstChild.nodeName.toLowerCase()!=="i"){
-    //     $(e.target.children).css("margin-left","26px")
-    //   }
-    //   $(e.target.children).toggleClass("leftHide")
-    // }
+      // if()
+      //为父元素div添加背景颜色
+      // e.target.parentNode
 
+      //只要有i就一定有父元素div
+      if(e.target.parentNode.parentNode.children[1]){
+        // console.log(e.target.parentNode.parentNode.children[1].nodeName)
+        //i的父元素div
+        systemEvent=e.target.parentNode
+        let parent=e.target.parentNode.parentNode
+        //自身的图标变换
+        $(e.target.parentNode.firstChild).toggleClass("left_i_right")
+        $(e.target.parentNode.children[1]).toggleClass("left_file_open")
+        //下一个div切换类
+        //显示或隐藏
+        for(let i=1;i<parent.children.length;i++){
+          $(parent.children[i]).toggleClass("leftHide").css("margin-left","13px")
+        }
+
+      }
+    }else if(e.target.nodeName.toLowerCase()==="div") {
+      if (e.target.parentNode.children[1]) {
+        systemEvent=e.target
+        let parent=e.target.parentNode
+        // console.log(parent.children[1].nodeName)
+        $(e.target.firstChild).toggleClass("left_i_right")
+        $(e.target.children[1]).toggleClass("left_file_open")
+        for(let i=1;i<parent.children.length;i++) {
+          $(parent.children[i]).toggleClass("leftHide").css("margin-left","13px")
+
+        }
+      }
+    }else if(e.target.nodeName.toLowerCase()==="p"){
+      systemEvent=e.target
+    }
+
+  })
+
+  //添加节点按钮
+  $("#addBtn").on("click",function () {
+    if(systemEvent){
+
+    }
 
   })
 

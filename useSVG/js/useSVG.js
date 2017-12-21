@@ -731,11 +731,11 @@ window.onload=function () {
     * 导出xml
     * */
 
+    SaveInfoToFile(BrowseFolder(),"svgDemo.xml",xmlDoc.xml)
 
 
 
 
-    
   })
 
 
@@ -814,10 +814,34 @@ function analysisXML() {
 
 
 
+function BrowseFolder() {
+//弹出本地磁盘来选择folder路径
+  try {
+    let Message = "请选择保存路径";  //选择框提示信息
+    let Shell = new ActiveXObject("Shell.Application");
+    let Folder = Shell.BrowseForFolder(0, Message, 0x0040, 0x11); //起始目录为：我的电脑
+    //var Folder = Shell.BrowseForFolder(0,Message,0); //起始目录为：桌面
+    if (Folder != null) {
+      Folder = Folder.items();  // 返回 FolderItems 对象
+      Folder = Folder.item();  // 返回 Folderitem 对象
+      Folder = Folder.Path;   // 返回路径
+      if (Folder.charAt(Folder.length - 1) !== "\\") {
+        Folder = Folder + "\\";
+      }
+      return Folder;
+    }
+  } catch (e) {
+    alert(e.message);
+  }
+}
 
-
-
-
+function SaveInfoToFile(folder, fileName,fileInfo) {
+  let filePath = folder + fileName
+  let fso = new ActiveXObject("Scripting.FileSystemObject")
+  let file = fso.CreateTextFile(filePath, true)
+  file.Write(fileInfo)
+  file.Close()
+}
 
 
 

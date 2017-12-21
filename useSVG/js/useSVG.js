@@ -142,7 +142,7 @@ window.onload=function () {
         $(this).css("backgroundColor","")
       })
     });
-
+    let deviceID=1
     $("#middleMid").droppable({
       accept:".tool_part",
       drop:function(event,ui)
@@ -154,6 +154,8 @@ window.onload=function () {
         lastChild.setAttribute("compname",compname)
         lastChild.setAttribute("mainname",mainname)
         lastChild.setAttribute("group",group)
+        lastChild.setAttribute("deviceID",deviceID)
+        deviceID++
 
 
       }
@@ -681,6 +683,7 @@ window.onload=function () {
         let height=children[i].getAttribute("height")
         let width=children[i].getAttribute("width")
         let compname=children[i].getAttribute("compname")
+        let deviceID=children[i].getAttribute("deviceID")
         console.log(compname)
         let x=parseInt(children[i].getAttribute("x"))
         let y=parseInt(children[i].getAttribute("y"))
@@ -697,7 +700,7 @@ window.onload=function () {
         bq2.setAttribute("width",width)
         bq2.setAttribute("source",source)
         bq2.setAttribute("group",group)
-        bq2.setAttribute("deviceID","")
+        bq2.setAttribute("deviceID",deviceID)
         bq2.setAttribute("compname",compname)
 
         bq3.setAttribute("source",source)

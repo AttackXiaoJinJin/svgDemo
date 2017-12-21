@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/css/readSVG.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/html/readSVG.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/js/readSVG.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/otherJs/FileSaver.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/html/缩放demo.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/useSVG/html/useSVG.html" afterPath="$PROJECT_DIR$/useSVG/html/useSVG.html" />
+      <change beforePath="$PROJECT_DIR$/useSVG/css/readSVG.css" afterPath="$PROJECT_DIR$/useSVG/css/readSVG.css" />
+      <change beforePath="$PROJECT_DIR$/useSVG/html/readSVG.html" afterPath="$PROJECT_DIR$/useSVG/html/readSVG.html" />
+      <change beforePath="$PROJECT_DIR$/useSVG/js/readSVG.js" afterPath="$PROJECT_DIR$/useSVG/js/readSVG.js" />
       <change beforePath="$PROJECT_DIR$/useSVG/js/useSVG.js" afterPath="$PROJECT_DIR$/useSVG/js/useSVG.js" />
       <change beforePath="$PROJECT_DIR$/useSVG/svgDemo.xml" afterPath="$PROJECT_DIR$/useSVG/svgDemo.xml" />
     </list>
@@ -26,8 +25,8 @@
       <file leaf-file-name="useSVG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="240" column="51" lean-forward="false" selection-start-line="240" selection-start-column="51" selection-end-line="240" selection-end-column="51" />
+            <state relative-caret-position="4448">
+              <caret line="231" column="28" lean-forward="true" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -38,31 +37,38 @@
       <file leaf-file-name="readSVG.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/js/readSVG.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1544">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="66">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="useSVG.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
+      <file leaf-file-name="svgDemo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/svgDemo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="844" column="22" lean-forward="true" selection-start-line="844" selection-start-column="22" selection-end-line="844" selection-end-column="22" />
-              <folding>
-                <element signature="e#12851#17073#0" expanded="false" />
-                <element signature="e#17128#17292#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svgDemo.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/useSVG/svgDemo.xml">
+      <file leaf-file-name="readSVG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="4" column="104" lean-forward="false" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="缩放demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/useSVG/html/缩放demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -85,34 +91,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSaver.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/otherJs/FileSaver.min.js">
+      <file leaf-file-name="useSVG.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="677" column="3" lean-forward="false" selection-start-line="677" selection-start-column="3" selection-end-line="677" selection-end-column="57" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#12940#17162#0" expanded="false" />
+                <element signature="e#17217#17381#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analysisXML.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/analysisXML.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readSVG.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,8 +107,8 @@
       <file leaf-file-name="readSVG.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/css/readSVG.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,9 +120,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -165,12 +152,12 @@
       <find>middleMid</find>
       <find>icon</find>
       <find>var</find>
-      <find>svg</find>
       <find>children</find>
       <find>console</find>
       <find>mainname</find>
       <find>compname</find>
       <find>biaoqian</find>
+      <find>svg</find>
     </findStrings>
     <replaceStrings>
       <replace>shapeAttribute</replace>
@@ -192,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fourbian.svg" />
         <option value="$PROJECT_DIR$/star.svg" />
         <option value="$PROJECT_DIR$/sanjiaoone.svg" />
         <option value="$PROJECT_DIR$/rectone.svg" />
@@ -237,12 +223,13 @@
         <option value="$PROJECT_DIR$/DTMap.xml" />
         <option value="$PROJECT_DIR$/useSVG/aaaa.xml" />
         <option value="$PROJECT_DIR$/useSVG/a4.xml" />
+        <option value="$PROJECT_DIR$/useSVG/html/useSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/css/readSVG.css" />
+        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
+        <option value="$PROJECT_DIR$/useSVG/svgDemo.xml" />
         <option value="$PROJECT_DIR$/useSVG/html/readSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/js/readSVG.js" />
-        <option value="$PROJECT_DIR$/useSVG/svgDemo.xml" />
-        <option value="$PROJECT_DIR$/useSVG/html/useSVG.html" />
-        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
+        <option value="$PROJECT_DIR$/useSVG/html/缩放demo.html" />
       </list>
     </option>
   </component>
@@ -259,7 +246,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="619" />
+    <option name="x" value="-1" />
     <option name="width" value="1312" />
     <option name="height" value="1030" />
   </component>
@@ -400,18 +387,18 @@
       <workItem from="1513645009925" duration="10696000" />
       <workItem from="1513663599096" duration="13784000" />
       <workItem from="1513731596704" duration="23833000" />
-      <workItem from="1513817669169" duration="13994000" />
+      <workItem from="1513817669169" duration="21703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264660000" />
+    <option name="totallyTimeSpent" value="272369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14209968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19141039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -444,11 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/useSVG/image/red.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/image/redman.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -663,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/css/readSVG.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/有注释Components.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1579">
@@ -703,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/xpath.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -737,6 +703,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/css/readSVG.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/svgDemo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="677" column="3" lean-forward="false" selection-start-line="677" selection-start-column="3" selection-end-line="677" selection-end-column="57" />
+          <folding>
+            <element signature="e#12940#17162#0" expanded="false" />
+            <element signature="e#17217#17381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -754,37 +747,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="240" column="51" lean-forward="false" selection-start-line="240" selection-start-column="51" selection-end-line="240" selection-end-column="51" />
+        <state relative-caret-position="4448">
+          <caret line="231" column="28" lean-forward="true" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/js/readSVG.js">
+    <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1544">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="132">
+          <caret line="4" column="104" lean-forward="false" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
+    <entry file="file://$PROJECT_DIR$/useSVG/js/readSVG.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="844" column="22" lean-forward="true" selection-start-line="844" selection-start-column="22" selection-end-line="844" selection-end-column="22" />
-          <folding>
-            <element signature="e#12851#17073#0" expanded="false" />
-            <element signature="e#17128#17292#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/svgDemo.xml">
+    <entry file="file://$PROJECT_DIR$/useSVG/html/缩放demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
       </provider>

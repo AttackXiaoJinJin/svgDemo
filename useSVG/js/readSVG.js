@@ -145,11 +145,11 @@ function analysisXML() {
 
 function scale() {
   let r = document.body.offsetWidth / window.screen.availWidth;
-  $(document.body).css("-webkit-transform","scale(" + r + ")");
+  $(document.body).css("-ms-transform","scale(" + r + ")");
 
   $(window).resize(function() {
     let r = document.body.offsetWidth / window.screen.availWidth;
-    $(document.body).css("-webkit-transform","scale(" + r + ")");
+    $(document.body).css("-ms-transform","scale(" + r + ")");
   });
 }
 

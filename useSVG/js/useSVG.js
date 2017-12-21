@@ -635,13 +635,21 @@ window.onload=function () {
     **/
     // console.log("aaaaa")
     let xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
-    //创建两条处理指令     
-    let newPI=xmlDoc.createProcessingInstruction("xml","version=\"1.0\" encoding=\"utf-8\"")
+    //创建两条处理指令
+    let newPI = xmlDoc.createProcessingInstruction("xml","version='1.0' encoding='utf-8' standalone='yes'")
+    // let content="<?xml version='1.0' encoding='gb2312'?><Configration></Configration>"
+    // xmlDoc.loadXML(content);
+    // console.log(xmlDoc.xml)
+
     //xml版本
+    xmlDoc.appendChild(newPI)
+
 
     //创建根元素     
     let Configration=xmlDoc.createElement("Configration")
-    //创建CDATA     
+    // let Configration=xmlDoc.documentElement("Configration")
+    // let Configration=xmlDoc.documentElement
+    //创建CDATA
     //let newCD=xmlDoc.createCDATASection("This is a CDATASection node");     
     //xmlDoc.documentElement.appendChild(newCD);     
 
@@ -651,7 +659,7 @@ window.onload=function () {
     let Component=xmlDoc.createElement("Component")
     let Image=xmlDoc.createElement("Image")
 
-    xmlDoc.appendChild(newPI)
+
     xmlDoc.appendChild(Configration)
 
     Configration.appendChild(LIST)
@@ -672,6 +680,8 @@ window.onload=function () {
         let source=children[i].getAttribute("href")
         let height=children[i].getAttribute("height")
         let width=children[i].getAttribute("width")
+        let compname=children[i].getAttribute("compname")
+        console.log(compname)
         let x=parseInt(children[i].getAttribute("x"))
         let y=parseInt(children[i].getAttribute("y"))
         let group=children[i].getAttribute("group")
@@ -688,6 +698,7 @@ window.onload=function () {
         bq2.setAttribute("source",source)
         bq2.setAttribute("group",group)
         bq2.setAttribute("deviceID","")
+        bq2.setAttribute("compname",compname)
 
         bq3.setAttribute("source",source)
         bq3.setAttribute("group",group)
@@ -725,23 +736,16 @@ window.onload=function () {
       }
     }
 
+
+
     console.log(xmlDoc.xml);
 
     /*
     * 导出xml
     * */
-
     SaveInfoToFile(BrowseFolder(),"svgDemo.xml",xmlDoc.xml)
 
-
-
-
   })
-
-
-
-
-
 
 }
 //===============window.onload
@@ -766,9 +770,6 @@ function analysisXML() {
   // let x=xmlDoc.documentElement.childNodes
   let component=xmlDoc.documentElement.childNodes[0]
   let componentChildren=component.childNodes
-  // console.log(component.nodeName)
-  // console.log(component.childNodes[3].nodeName)
-  // console.log(component.childNodes.length)
   for (let i=1;i<componentChildren.length;i++)
   {
     // console.log()
@@ -837,10 +838,16 @@ function BrowseFolder() {
 
 function SaveInfoToFile(folder, fileName,fileInfo) {
   let filePath = folder + fileName
+  // let fso = new ActiveXObject("Scripting.FileSystemObject",{type: "text/plain;charset=utf-8"})
   let fso = new ActiveXObject("Scripting.FileSystemObject")
-  let file = fso.CreateTextFile(filePath, true)
+  let file = fso.CreateTextFile(filePath, true,true)
+
   file.Write(fileInfo)
   file.Close()
+
+  // let blob = new Blob([fileInfo], {type: "text/plain;charset=utf-8"});
+  // saveAs(blob, fileName);
+  // window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
 }
 
 

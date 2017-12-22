@@ -27,18 +27,17 @@ function analysisXML() {
   // let x=xmlDoc.documentElement.childNodes
   let Configration=xmlDoc.documentElement
   // console.log(Configration)
-  // let ConfigWidth=Configration.getAttribute("Width")
-  let ConfigWidth=2000
+  let ConfigWidth=Configration.getAttribute("Width")
+  // let ConfigWidth=2000
   // console.log(ConfigWidth)
-  // let ConfigHeight=Configration.getAttribute("Height")
-  let ConfigHeight=1200
+  let ConfigHeight=Configration.getAttribute("Height")
+  // let ConfigHeight=1200
   // let ConfigHeight=Configration.getAttribute("Height")
   let num1=0,num2=0,num3=0,num4=0,temp1=0,temp2=0,temp3=0,temp4=0
 
 
   //创建svg画布
   let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
-
 
   let LIST=xmlDoc.documentElement.childNodes[0]
   let Components=xmlDoc.documentElement.childNodes[1]
@@ -48,7 +47,6 @@ function analysisXML() {
   //一共两个List Components
   // console.log(ComponentsChildren.length)
   // console.log(Components.nodeName)
-
 
   for (let i=0;i<ComponentsChildren.length;i++)
   // for (let i=4;i<ComponentsChildren.length;i++)
@@ -62,10 +60,17 @@ function analysisXML() {
     let height=ComponentsChildren[i].getAttribute("height")
     let scaleX=ComponentsChildren[i].getAttribute("scaleX")
     let scaleY=ComponentsChildren[i].getAttribute("scaleY")
-    let text=null
-     if(ComponentsChildren[i].getAttribute("text")) {
-      text=ComponentsChildren[i].getAttribute("text")
+    let param=ComponentsChildren[i].getAttribute("param")
+
+     let fontSize
+     if(ComponentsChildren[i].getAttribute("fontSize")){
+       fontSize=ComponentsChildren[i].getAttribute("fontSize")
      }
+     let textAlign
+     if(ComponentsChildren[i].getAttribute("textAlign")){
+       textAlign=ComponentsChildren[i].getAttribute("textAlign")
+     }
+
     // console.log(text)
      let compname=ComponentsChildren[i].getAttribute("compname")
      let deviceID=ComponentsChildren[i].getAttribute("deviceID")
@@ -90,9 +95,33 @@ function analysisXML() {
        }
       // console.log(rotate)
      // svg.image(imageSource,x,y,width,height)
+    //如果是要绘制文字的话
+    if(ComponentsChildren[i].getAttribute("text")){
+      if(ComponentsChildren[i].getAttribute("color")==="#00FF00"){
+        svg.rect(x, y, width-5, height).attr({
+          // "stroke": "red",
+          "fill": "black"
+        })
+      }
+
+      let textOne=svg.text(parseInt(x)+parseInt(width)/2,parseInt(y)+parseInt(height)/2,ComponentsChildren[i].getAttribute("text"))
+        .attr({
+          "font-size":fontSize+"px",
+          "text-align":textAlign,
+          cursor:'pointer',
+          'background-color':'black',
+          // 'fill':'#ffffff',
+          'fill':ComponentsChildren[i].getAttribute("color"),
+          'text-anchor':'middle',
+          'font-family':ComponentsChildren[i].getAttribute("fontFamily"),
+          'font-weight':ComponentsChildren[i].getAttribute("fontWeight")
+        })
+
+    }
+    else{
      svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
-         'transform':'r'+rotate+','+x+','+y
+         'transform':'r'+rotate+','+x+','+y,
        })
        // .text(text)
        .mouseover(function (e) {
@@ -119,7 +148,7 @@ function analysisXML() {
            .css("display","none")
        })
 
-
+     }
 
      // console.log(ComponentsChildren[i].getAttribute("compname"))
   }
@@ -168,11 +197,11 @@ function analysisXML() {
 
 function scale() {
   let r = document.body.offsetWidth / window.screen.availWidth;
-  $(document.body).css("-ms-transform","scale(" + r + ")");
+  $(document.body).css("-ms-transform","scale("+r+")");
 
   $(window).resize(function() {
     let r = document.body.offsetWidth / window.screen.availWidth;
-    $(document.body).css("-ms-transform","scale(" + r + ")");
+    $(document.body).css("-ms-transform","scale("+r+")");
   });
 }
 

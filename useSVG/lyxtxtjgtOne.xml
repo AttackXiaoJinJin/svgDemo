@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1658" Height="949">
+  <LIST>
+    <Component>
+      <LQT7/>
+      <HANDAUTO/>
+      <LQB/>
+      <LXJZ/>
+      <JSQ/>
+      <LGJZ/>
+      <BSHX/>
+      <PSX/>
+      <SLFM/>
+    </Component>
+    <Image>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+      <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+      <PIPE3T source="assets/comp/PIPE/pipe3.png"/>
+      <JT source="assets/comp/jt.png"/>
+      <PIPE4T source="assets/comp/PIPE/pipe4.png"/>
+      <LYZKSB source="assets/comp/gongfangzhuji.png" group="spetial"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1304" height="40" y="118" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1288.5" height="40" y="117" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="835" height="66" y="408" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1001" height="326" y="224" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="994" height="315" y="125" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="459" height="175" y="305" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40004" scaleX="0.5" group="deviceComp" width="65" x="134" height="109" y="66" deviceName="大商业4#冷却塔"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="802" height="66" y="553" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="665" height="109" y="633" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="663" height="87" y="666" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="810" height="124" y="632" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="542" height="86" y="666.1500000000001" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="372" height="104" y="632" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="479" height="70" y="554" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="513" height="110" y="632" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="502" height="152" y="135" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1148" height="159" y="368" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1288" height="129" y="520" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1275" height="117" y="478" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="664.35" height="87" y="587" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1054" height="398" y="546" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="542" height="86" y="586.3499999999999" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="623" height="356" y="545" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1326" height="298" y="354" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1289.1" height="30" y="363" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1030.05" height="113" y="62" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1146" height="139" y="261" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="750" height="73" y="307" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="753" height="73" y="438" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1003" height="326" y="325.95000000000005" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="752" height="73" y="107" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="541" height="73" y="115" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="301.05" height="152" y="134" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="506" height="142" y="234" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="542" height="73" y="215" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="543" height="73" y="446" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="463" height="142" y="462" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="540" height="73" y="316" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="14" height="607" y="704" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="66" height="196" y="393" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="60" height="199" y="157" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1243" height="40" y="116" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1151" height="40" y="116" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1273" height="40" y="117" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1258" height="40" y="117" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1228" height="40" y="115" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1212" height="40" y="116" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="64" height="388" y="496" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1284" height="30" y="63.85000000000002" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1147" height="79" y="266" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1138.1" height="40" y="116" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1197.05" height="40" y="115.85" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1182.05" height="40" y="115.85" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="1166" height="40" y="115.85" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="56" height="40" y="107" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="202" height="40" y="106" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="55" height="23" y="140" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="219" height="34" y="140" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="262" height="383" y="162" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="271" height="23" y="164.85" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="59" height="40" y="220.85" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="207" height="40" y="221" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="59" height="40" y="337.9" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="206" height="40" y="338" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="61" height="199" y="274.9" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="58" height="23" y="258.9" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="224" height="34" y="257" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="58" height="23" y="376" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="223" height="34" y="375" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="253" height="34" y="257" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="48" height="28" y="92" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="47" height="28" y="208.85" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="47" height="28" y="323.9" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="22" height="34" y="225.85" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="23" height="34" y="340.9" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <HANDAUTO mark="LQB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业5#冷却泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="394.3" paramID="38" height="25" y="494.7" fontFamily="微软雅黑" param="handAuto" deviceID="20005" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="300" height="349" y="485" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20005" deviceName="大商业5#冷却泵" scaleX="0.4" group="deviceComp" width="88" x="351" height="87" y="465" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="304" height="143" y="310.9" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20003" deviceName="大商业3#冷却泵" scaleX="0.4" group="deviceComp" width="88" x="350" height="87" y="280" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="304" height="183" y="219" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20002" deviceName="大商业2#冷却泵" scaleX="0.4" group="deviceComp" width="88" x="345" height="87" y="189" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LQB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业3#冷却泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="338" paramID="38" height="25" y="242.75" fontFamily="微软雅黑" param="handAuto" deviceID="20003" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LQB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业2#冷却泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="335" paramID="38" height="25" y="153" fontFamily="微软雅黑" param="handAuto" deviceID="20002" color="153" fontWeight="normal"/>
+
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="839" height="180" y="455" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="750" height="82" y="207.05" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <LXJZ mark="LSJ" scaleY="0.4" source="assets/comp/LXJZ/alarm/0/1.png" deviceID="10001" deviceName="大商业冷水机组1#" scaleX="0.4" group="deviceComp" width="256" x="599" height="147" y="84" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <LXJZ mark="LSJ" scaleY="0.4" source="assets/comp/LXJZ/alarm/0/1.png" deviceID="10002" deviceName="大商业冷水机组2#" scaleX="0.4" group="deviceComp" width="256" x="598" height="147" y="184" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="15" height="519" y="718" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="5" height="23" y="701" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <HANDAUTO mark="LDB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业2#冷冻泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="884" paramID="38" height="25" y="173" fontFamily="微软雅黑" param="handAuto" deviceID="30002" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LDB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业3#冷冻泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="883.5999999999999" paramID="38" height="25" y="276" fontFamily="微软雅黑" param="handAuto" deviceID="30003" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LDB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业5#冷冻泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="947.3500000000001" paramID="38" height="25" y="492.15" fontFamily="微软雅黑" param="handAuto" deviceID="30005" color="153" fontWeight="normal"/>
+
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="21" height="23" y="91" fontFamily="微软雅黑" color="153" rotation="-270" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="283" height="22" y="170.85000000000002" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="519.75" height="22" y="703" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="213.79999999999995" height="22" y="398.75" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="216" height="22" y="282" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="212" height="22" y="163" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <JSQ scaleY="0.9" source="assets/comp/JSQ/bg.png" scaleX="0.9" color="153" width="199" x="1305.45" height="72" y="93.35000000000002" fontFamily="微软雅黑" group="deviceComp" deviceID="" rotation="180" fontWeight="normal"/>
+    <JSQ scaleY="0.9" source="assets/comp/JSQ/bg.png" scaleX="0.9" color="153" width="199" x="1307" height="72" y="390" fontFamily="微软雅黑" group="deviceComp" deviceID="" rotation="180" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="1081" height="22" y="39" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="1137" height="22" y="255" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1327" height="23" y="71" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <LGJZ mark="LSJ" scaleY="0.4" source="assets/comp/LGJZ/alarm/0/1.png" deviceID="10004" scaleX="0.4" group="deviceComp" width="256" x="598" height="129" y="422" deviceName="大商业冷水机组4#"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="50" height="28" y="430.00000000000006" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="23" height="34" y="447" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="59" height="40" y="445" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="91" height="40" y="446" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="58" height="23" y="479" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="108" height="34" y="479" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="203" height="22" y="469" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="308" height="34" y="478.75" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="301" height="149" y="401" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20004" deviceName="大商业4#冷却泵" scaleX="0.4" group="deviceComp" width="88" x="349" height="87" y="370" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="309" height="34" y="409" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <HANDAUTO mark="LQB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业4#冷却泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="396" paramID="38" height="25" y="400" fontFamily="微软雅黑" param="handAuto" deviceID="20004" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="308" height="34" y="320" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="253" height="34" y="376" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="308" height="34" y="227" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="459" height="94" y="490" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="443" height="23" y="497" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="468" height="34" y="471" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="502" height="129" y="336" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <LXJZ mark="LSJ" scaleY="0.4" source="assets/comp/LXJZ/alarm/0/1.png" deviceID="10003" deviceName="大商业冷水机组3#" scaleX="0.4" group="deviceComp" width="256" x="598" height="147" y="285.85" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="505" height="187" y="324" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="540" height="595" y="709" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="472" height="23" y="632" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="548.25" height="34" y="325" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="549" height="34" y="454" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="549" height="34" y="224" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20001" deviceName="大商业1#冷却泵" scaleX="0.4" group="deviceComp" width="88" x="349" height="87" y="104" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LQB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业1#冷却泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="337" paramID="38" height="25" y="77" fontFamily="微软雅黑" param="handAuto" deviceID="20001" color="153" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="548" height="23" y="104" fontFamily="微软雅黑" color="153" rotation="-270" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="761" height="588" y="701" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="763" height="23" y="123" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="743" height="34" y="299" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1000" height="159" y="483" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="834" height="23" y="475" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30005" deviceName="大商业5#冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="899" height="87" y="460" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1000" height="159" y="395" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30004" deviceName="大商业4#冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="896" height="87" y="374" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LDB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业4#冷冻泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="943.45" paramID="38" height="25" y="404.9" fontFamily="微软雅黑" param="handAuto" deviceID="30004" color="153" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30003" deviceName="大商业3#冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="895" height="87" y="305" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30002" deviceName="大商业2#冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="895" height="87" y="201" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30001" deviceName="大商业1#冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="892" height="87" y="104" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <HANDAUTO mark="LDB" scaleY="0.9" source="assets/comp/HANDAUTO/handAuto/0/1.png" deviceName="大商业1#冷冻泵" scaleX="0.9" alarm="HANDAUTO" group="commonComp" width="58" x="880" paramID="38" height="25" y="80" fontFamily="微软雅黑" param="handAuto" deviceID="30001" color="153" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1008" height="355" y="487" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1157" height="23" y="276" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="991" height="34" y="386" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="990" height="34" y="317" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="744" height="34" y="198" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1019" height="648" y="61" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1018" height="255" y="706" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1012" height="23" y="715" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="751" height="23" y="698" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1035" height="23" y="52" fontFamily="微软雅黑" color="153" rotation="-270" fontWeight="normal"/>
+    <JT scaleY="0.5" source="assets/comp/jt.png" group="bg" width="43" x="771" height="22" y="689" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1309" height="23" y="364" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40001" scaleX="0.5" group="deviceComp" width="65" x="47" height="109" y="66" deviceName="大商业1#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40013" scaleX="0.5" group="deviceComp" width="65" x="46" height="109" y="299" deviceName="大商业13#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40006" scaleX="0.5" group="deviceComp" width="65" x="192" height="109" y="67" deviceName="大商业6#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40020" scaleX="0.5" group="deviceComp" width="65" x="78" height="109" y="405" deviceName="大商业20#冷却塔"/>
+    <LABEL mark="LYZG" widthInChars="4" borderVisible="true" width="60" height="20" param="flashTotalFrosty" sizeAuto="false" textAlign="center" fontWeight="normal" source="assets/comp/TEXTINPUT/text.png" text="123456" contentBackgroundColor="3355443" fontFamily="digifaw" color="3407616" borderColor="999999" paramID="51" y="159" deviceID="1720001" group="commonComp" x="1056" contentBackgroundAlpha="1" deviceName="大商业冷站管网参数" rotation="0" fontSize="12"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="742.7" height="34" y="428.85" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <BSHX scaleY="0.6" source="assets/comp/BSHX/bg.png" scaleX="0.7" group="deviceComp" width="103" x="611" height="98" y="536.9" deviceID=""/>
+    <PIPE4T scaleY="0.75" source="assets/comp/PIPE/pipe4.png" scaleX="0.75" group="pipe" width="34" x="253" height="33" y="478" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="261" height="23" y="537" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="471" height="34" y="562" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PSX mark="RHSBSX" scaleY="0.4" source="assets/comp/PSX/bg.png" scaleX="0.4" group="deviceComp" width="148" x="1264" height="202" y="462" deviceName="大商业软化水箱" deviceID="2290001"/>
+    <LQB mark="LDSBSB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="2260001" deviceName="大商业1#补水泵" scaleX="0.4" group="deviceComp" width="88" x="1193" height="87" y="457" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <LQB mark="LDSBSB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="2260002" deviceName="大商业2#补水泵" scaleX="0.4" group="deviceComp" width="88" x="1194" height="87" y="498" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="1165" height="34" y="494" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1147" height="23" y="512" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="514" height="34" y="242" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="308" height="23" y="125" fontFamily="微软雅黑" color="153" rotation="-270" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="462" height="23" y="408" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="513" height="23" y="124.95" fontFamily="微软雅黑" color="153" rotation="-270" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1008" height="23" y="141" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="1016" height="34" y="277" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <BSHX scaleY="0.6" source="assets/comp/BSHX/bg.png" scaleX="0.7" group="deviceComp" width="103" x="611" height="98" y="616" deviceID=""/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20006" deviceName="大商业1#免费冷却泵" scaleX="0.4" group="deviceComp" width="88" x="409" height="87" y="524" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <LQB mark="LQB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="20007" deviceName="大商业2#免费冷却泵" scaleX="0.4" group="deviceComp" width="88" x="408" height="87" y="602" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="361" height="70" y="556" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="353" height="34" y="562" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="360" height="23" y="616" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE source="assets/comp/PIPE/pipe1.png" group="pipe" width="8" x="510.05" height="70" y="553" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="502" height="34" y="562" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="509" height="23" y="615" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="549" height="34" y="595" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="549" height="34" y="675" fontFamily="微软雅黑" color="153" rotation="180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="523" height="23" y="719" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30006" deviceName="大商业1#免费冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="853" height="87" y="525" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <LQB mark="LDB" scaleY="0.4" source="assets/comp/LQB/alarm/0/1.png" deviceID="30007" deviceName="大商业2#免费冷冻泵" scaleX="0.4" group="deviceComp" width="88" x="854" height="90" y="599" fontFamily="微软雅黑" isMouseOverTip="true" color="153" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="773" height="66" y="558" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="764" height="34" y="562" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="743" height="34" y="570" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="801" height="23" y="615" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="931" height="60" y="557" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="923" height="34" y="563" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="923" height="23" y="632" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="743" height="34" y="648" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="765" height="23" y="634" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="794" height="34" y="562" fontFamily="微软雅黑" color="153" rotation="-90" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="991" height="23" y="492" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40002" scaleX="0.5" group="deviceComp" width="65" x="76" height="109" y="66" deviceName="大商业2#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40003" scaleX="0.5" group="deviceComp" width="65" x="105" height="109" y="66" deviceName="大商业3#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40005" scaleX="0.5" group="deviceComp" width="65" x="163" height="109" y="67" deviceName="大商业5#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40007" scaleX="0.5" group="deviceComp" width="65" x="47" height="109" y="183" deviceName="大商业7#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40008" scaleX="0.5" group="deviceComp" width="65" x="76" height="109" y="184" deviceName="大商业8#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40009" scaleX="0.5" group="deviceComp" width="65" x="105" height="109" y="183" deviceName="大商业9#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40010" scaleX="0.5" group="deviceComp" width="65" x="134" height="109" y="184" deviceName="大商业10#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40011" scaleX="0.5" group="deviceComp" width="65" x="164" height="109" y="184" deviceName="大商业11#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40012" scaleX="0.5" group="deviceComp" width="65" x="194" height="109" y="185" deviceName="大商业12#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40014" scaleX="0.5" group="deviceComp" width="65" x="75" height="109" y="299" deviceName="大商业14#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40015" scaleX="0.5" group="deviceComp" width="65" x="105" height="109" y="299" deviceName="大商业15#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40016" scaleX="0.5" group="deviceComp" width="65" x="135" height="109" y="299" deviceName="大商业16#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40017" scaleX="0.5" group="deviceComp" width="65" x="164" height="109" y="299" deviceName="大商业17#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40018" scaleX="0.5" group="deviceComp" width="65" x="193" height="109" y="299" deviceName="大商业18#冷却塔"/>
+    <LQT7 mark="LQT" scaleY="0.5" source="assets/comp/LQT7/bg.png" deviceID="40019" scaleX="0.5" group="deviceComp" width="65" x="48" height="109" y="404" deviceName="大商业19#冷却塔"/>
+    <LYZKSB mark="LYQK" source="assets/comp/gongfangzhuji.png" group="spetial" width="54" x="1032" height="117" y="583" deviceName="大商业冷源群控" deviceID="2390003"/>
+    <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png" group="pipe" width="8" x="1050" height="277" y="270" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="1041" height="34" y="278" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="1042" height="23" y="557" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1125" height="21" y="109.10000000000002" deviceName="大商业1#分水器蝶阀" param="turnState" deviceID="2330029" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="43" height="21" y="104.05000000000001" deviceName="大商业冷却塔1#蝶阀" param="turnState" deviceID="2330001" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="250" height="21" y="160" deviceName="大商业冷却塔2#蝶阀" param="turnState" deviceID="2330002" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="44" height="21" y="221.25" deviceName="大商业冷却塔3#蝶阀" param="turnState" deviceID="2330003" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="249" height="21" y="278" deviceName="大商业冷却塔4#蝶阀" param="turnState" deviceID="2330004" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="43" height="21" y="336" deviceName="大商业冷却塔5#蝶阀" param="turnState" deviceID="2330005" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="249" height="21" y="396" deviceName="大商业冷却塔6#蝶阀" param="turnState" deviceID="2330006" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="45" height="21" y="442" deviceName="大商业冷却塔7#蝶阀" param="turnState" deviceID="2330007" rotation="-180" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="246" height="21" y="499" deviceName="大商业冷却塔8#蝶阀" param="turnState" deviceID="2330008" rotation="-180" paramID="656"/>
+    <SLFM scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1312" height="21" y="227.10000000000002" param="" deviceID="" rotation="-90"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="461" height="23" y="141" fontFamily="微软雅黑" color="153" rotation="-180" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="494" height="23" y="318" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="442.85" height="23" y="311" fontFamily="微软雅黑" color="153" rotation="270" fontWeight="normal"/>
+    <PIPE4T scaleY="0.75" source="assets/comp/PIPE/pipe4.png" scaleX="0.75" group="pipe" width="34" x="441.50000000000006" height="33" y="201.5" fontFamily="微软雅黑" color="153" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="488" height="34" y="202" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="991" height="34" y="215" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <PIPECORNER scaleY="0.75" source="assets/comp/PIPE/pipe2.png" scaleX="0.75" group="pipe" width="23" x="851" height="23" y="393" fontFamily="微软雅黑" color="153" rotation="90" fontWeight="normal"/>
+    <PIPE3T scaleY="0.75" source="assets/comp/PIPE/pipe3.png" scaleX="0.75" group="pipe" width="24" x="827" height="34" y="447" fontFamily="微软雅黑" color="153" rotation="0" fontWeight="normal"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1139" height="21" y="109" deviceName="大商业2#分水器蝶阀" param="turnState" deviceID="2330030" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1154" height="21" y="109" deviceName="大商业3#分水器蝶阀" param="turnState" deviceID="2330031" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1169" height="21" y="110" deviceName="大商业4#分水器蝶阀" param="turnState" deviceID="2330032" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1184" height="21" y="110" deviceName="大商业5#分水器蝶阀" param="turnState" deviceID="2330033" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1199" height="21" y="110" deviceName="大商业6#分水器蝶阀" param="turnState" deviceID="2330034" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1215" height="21" y="110" deviceName="大商业7#分水器蝶阀" param="turnState" deviceID="2330035" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1230" height="21" y="111" deviceName="大商业8#分水器蝶阀" param="turnState" deviceID="2330036" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1246" height="21" y="110" deviceName="大商业9#分水器蝶阀" param="turnState" deviceID="2330037" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1261" height="21" y="111" deviceName="大商业10#分水器蝶阀" param="turnState" deviceID="2330038" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1276.55" height="21" y="110" deviceName="大商业11#分水器蝶阀" param="turnState" deviceID="2330039" rotation="-90" paramID="656"/>
+    <SLFM mark="ZGDFKG" scaleY="0.75" source="assets/comp/SLFM/runing/0/1.png" scaleX="0.75" alarm="runing" group="commonComp" width="29" x="1292" height="21" y="109" deviceName="大商业12#分水器蝶阀" param="turnState" deviceID="2330040" rotation="-90" paramID="656"/>
+  </Components>
+</Configration>

@@ -245,6 +245,7 @@ window.onload=function () {
           return
         }
         let handle = e.target
+        all.attr({'transform':'R'+handle.value})
         whrota(handle)
       })
     }
@@ -264,21 +265,22 @@ window.onload=function () {
           selected.setAttribute("height", handle.value);
           break;
         case "rotate":
-          selected.setAttribute(
-            "transform",
-            "matrix(" +
-            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-            "," +
-            Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-            "," +
-            (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-            "," +
-            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-            "," +
-            0 +
-            "," +
-            0 +
-            ")")
+          // selected.attr({'transform':'R'+rotate})
+          // selected.setAttribute(
+          //   "transform",
+          //   "matrix(" +
+          //   Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+          //   "," +
+          //   Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+          //   "," +
+          //   (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+          //   "," +
+          //   Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+          //   "," +
+          //   0 +
+          //   "," +
+          //   0 +
+          //   ")")
           break;
       }
     }

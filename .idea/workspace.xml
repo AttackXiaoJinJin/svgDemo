@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/css/read1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/html/read1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/js/read1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/lyxtxtjgt.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/lyxtxtjgtOne.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG/lyxtxtjgtTwo.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/useSVG/js/read1.js" afterPath="$PROJECT_DIR$/useSVG/js/read1.js" />
+      <change beforePath="$PROJECT_DIR$/useSVG/js/useSVG.js" afterPath="$PROJECT_DIR$/useSVG/js/useSVG.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="useSVG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4844">
-              <caret line="231" column="28" lean-forward="true" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+            <state relative-caret-position="457">
+              <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -35,8 +35,8 @@
       <file leaf-file-name="lyxtxtjgt.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgt.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1448">
-              <caret line="25" column="140" lean-forward="false" selection-start-line="25" selection-start-column="132" selection-end-line="25" selection-end-column="140" />
+            <state relative-caret-position="-1877">
+              <caret line="51" column="107" lean-forward="false" selection-start-line="51" selection-start-column="107" selection-end-line="51" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -45,18 +45,8 @@
       <file leaf-file-name="read1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/useSVG/js/read1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="2214" column="10" lean-forward="false" selection-start-line="2214" selection-start-column="4" selection-end-line="2214" selection-end-column="10" />
+            <state relative-caret-position="364">
+              <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -65,8 +55,8 @@
       <file leaf-file-name="read1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,11 +75,11 @@
       <file leaf-file-name="useSVG.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="266" column="32" lean-forward="true" selection-start-line="266" selection-start-column="18" selection-end-line="280" selection-end-column="16" />
+            <state relative-caret-position="2990">
+              <caret line="249" column="8" lean-forward="true" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
               <folding>
-                <element signature="e#12940#17162#0" expanded="false" />
-                <element signature="e#17217#17381#0" expanded="false" />
+                <element signature="e#13087#17309#0" expanded="false" />
+                <element signature="e#17364#17528#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,11 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flow</find>
-      <find>left</find>
-      <find>red</find>
-      <find>select</find>
-      <find>judge</find>
       <find>task2</find>
       <find>all</find>
       <find>OPENCLOSE</find>
@@ -139,6 +124,11 @@
       <find>scale</find>
       <find>rotation</find>
       <find>rotate</find>
+      <find>label</find>
+      <find>手动</find>
+      <find>JSQ/bg.png</find>
+      <find>scaleX</find>
+      <find>text</find>
     </findStrings>
     <replaceStrings>
       <replace>shapeAttribute</replace>
@@ -160,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/radialtuoyuan.svg" />
-        <option value="$PROJECT_DIR$/svgtext.svg" />
         <option value="$PROJECT_DIR$/guolvjianbian.svg" />
         <option value="$PROJECT_DIR$/smile.html" />
         <option value="$PROJECT_DIR$/使用css插入svg.html" />
@@ -203,13 +191,15 @@
         <option value="$PROJECT_DIR$/useSVG/a4.xml" />
         <option value="$PROJECT_DIR$/useSVG/html/useSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/css/readSVG.css" />
-        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
         <option value="$PROJECT_DIR$/useSVG/svgDemo.xml" />
         <option value="$PROJECT_DIR$/useSVG/html/readSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/html/缩放demo.html" />
         <option value="$PROJECT_DIR$/useSVG/js/readSVG.js" />
         <option value="$PROJECT_DIR$/useSVG/html/read1.html" />
         <option value="$PROJECT_DIR$/useSVG/css/read1.css" />
+        <option value="$PROJECT_DIR$/useSVG/lyxtxtjgtOne.xml" />
+        <option value="$PROJECT_DIR$/useSVG/js/useSVG.js" />
+        <option value="$PROJECT_DIR$/useSVG/lyxtxtjgtTwo.xml" />
         <option value="$PROJECT_DIR$/useSVG/js/read1.js" />
       </list>
     </option>
@@ -226,7 +216,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1" />
     <option name="width" value="1312" />
     <option name="height" value="1030" />
@@ -277,6 +267,30 @@
               <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
               <item name="useSVG" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="comp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="comp" type="462c0819:PsiDirectoryNode" />
+              <item name="TEXTINPUT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,8 +303,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,19 +318,19 @@
     <property name="last_opened_file_path" value="E:/BaiduYunDownload/实习/组态Demo/MenuTree" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\svgDemo\useSVG" />
+      <recent name="F:\svgDemo\useSVG\css" />
+      <recent name="F:\svgDemo\useSVG\html" />
+      <recent name="F:\svgDemo\useSVG\js" />
+      <recent name="F:\svgDemo\useSVG\otherJs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\svgDemo\useSVG\html" />
       <recent name="F:\svgDemo\useSVG\js" />
       <recent name="F:\svgDemo\useSVG" />
       <recent name="F:\svgDemo\useSVG\xml" />
       <recent name="F:\svgDemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\svgDemo\useSVG\css" />
-      <recent name="F:\svgDemo\useSVG\html" />
-      <recent name="F:\svgDemo\useSVG\js" />
-      <recent name="F:\svgDemo\useSVG" />
-      <recent name="F:\svgDemo\useSVG\otherJs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,18 +382,19 @@
       <workItem from="1513645009925" duration="10696000" />
       <workItem from="1513663599096" duration="13784000" />
       <workItem from="1513731596704" duration="23833000" />
-      <workItem from="1513817669169" duration="28145000" />
+      <workItem from="1513817669169" duration="28663000" />
+      <workItem from="1513903856684" duration="7836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278811000" />
+    <option name="totallyTimeSpent" value="287165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19141039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22693531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,21 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/useSVG/otherJs/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/css.css" />
-    <entry file="file://$PROJECT_DIR$/useSVG/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="1940" column="3" lean-forward="true" selection-start-line="1940" selection-start-column="3" selection-end-line="1940" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/image/左转.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -634,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="140" column="2" lean-forward="true" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,21 +711,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72633">
+          <caret line="2214" column="10" lean-forward="false" selection-start-line="2214" selection-start-column="4" selection-end-line="2214" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/js/useSVG.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="266" column="32" lean-forward="true" selection-start-line="266" selection-start-column="18" selection-end-line="280" selection-end-column="16" />
+        <state relative-caret-position="2990">
+          <caret line="249" column="8" lean-forward="true" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
           <folding>
-            <element signature="e#12940#17162#0" expanded="false" />
-            <element signature="e#17217#17381#0" expanded="false" />
+            <element signature="e#13087#17309#0" expanded="false" />
+            <element signature="e#17364#17528#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgtOne.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgtTwo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/TEXTINPUT/label.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4844">
-          <caret line="231" column="28" lean-forward="true" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+        <state relative-caret-position="457">
+          <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -742,32 +771,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1448">
-          <caret line="25" column="140" lean-forward="false" selection-start-line="25" selection-start-column="132" selection-end-line="25" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="2214" column="10" lean-forward="false" selection-start-line="2214" selection-start-column="4" selection-end-line="2214" selection-end-column="10" />
+        <state relative-caret-position="-1877">
+          <caret line="51" column="107" lean-forward="false" selection-start-line="51" selection-start-column="107" selection-end-line="51" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/js/read1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="364">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
           <folding />
         </state>
       </provider>

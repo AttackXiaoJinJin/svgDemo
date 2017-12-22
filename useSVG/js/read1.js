@@ -10,6 +10,7 @@ window.onload=function () {
 * 解析导出的xml文件
 * */
 function analysisXML() {
+  // let xmlFileName="../lyxtxtjgtOne.xml";
   let xmlFileName="../lyxtxtjgt.xml";
   let xmlDoc
   //IE
@@ -26,9 +27,12 @@ function analysisXML() {
   // let x=xmlDoc.documentElement.childNodes
   let Configration=xmlDoc.documentElement
   // console.log(Configration)
-  let ConfigWidth=Configration.getAttribute("Width")
+  // let ConfigWidth=Configration.getAttribute("Width")
+  let ConfigWidth=2000
   // console.log(ConfigWidth)
-  let ConfigHeight=Configration.getAttribute("Height")
+  // let ConfigHeight=Configration.getAttribute("Height")
+  let ConfigHeight=1200
+  // let ConfigHeight=Configration.getAttribute("Height")
   let num1=0,num2=0,num3=0,num4=0,temp1=0,temp2=0,temp3=0,temp4=0
 
 
@@ -54,38 +58,43 @@ function analysisXML() {
     // console.log(nodename)
     let group=ComponentsChildren[i].getAttribute("group")
     let image=null
-    let width=0,height=0
-    if(ComponentsChildren[i].getAttribute("scaleX")){
-      width=parseInt(ComponentsChildren[i].getAttribute("width"))*parseFloat(ComponentsChildren[i].getAttribute("scaleX"))
-      // console.log(width)
-    }else{
-      width=ComponentsChildren[i].getAttribute("width")
-    }
-    if(ComponentsChildren[i].getAttribute("scaleY")){
-      height=parseInt(ComponentsChildren[i].getAttribute("height"))*parseFloat(ComponentsChildren[i].getAttribute("scaleY"))
-      // console.log(height)
-    }else{
-      height=ComponentsChildren[i].getAttribute("height")
-    }
-
-
+    let width=ComponentsChildren[i].getAttribute("width")
+    let height=ComponentsChildren[i].getAttribute("height")
+    let scaleX=ComponentsChildren[i].getAttribute("scaleX")
+    let scaleY=ComponentsChildren[i].getAttribute("scaleY")
+    let text=null
+     if(ComponentsChildren[i].getAttribute("text")) {
+      text=ComponentsChildren[i].getAttribute("text")
+     }
+    // console.log(text)
      let compname=ComponentsChildren[i].getAttribute("compname")
      let deviceID=ComponentsChildren[i].getAttribute("deviceID")
      let imageSource=ComponentsChildren[i].getAttribute("source")
      let x=ComponentsChildren[i].getAttribute("x")
      let y=ComponentsChildren[i].getAttribute("y")
+      // console.log(scaleX)
+    if(scaleX){
+      // console.log(scaleX)
+      width=parseInt(width)*parseFloat(scaleX)
+      // x=parseInt(x)*parseFloat(scaleX)
+      }
+      if(scaleY){
+      height=parseInt(height)*parseFloat(scaleY)
+        // y=parseInt(y)*parseFloat(scaleY)
+      // console.log(height)
+      }
+      // y=parseInt(y)-height
      let rotate=0
        if(ComponentsChildren[i].getAttribute("rotation")){
         rotate=parseInt(ComponentsChildren[i].getAttribute("rotation"))
        }
-
-      console.log(rotate)
-
+      // console.log(rotate)
      // svg.image(imageSource,x,y,width,height)
      svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
-         'transform':'R'+rotate
+         'transform':'r'+rotate+','+x+','+y
        })
+       // .text(text)
        .mouseover(function (e) {
          $("#compname").text(compname)
          // switch (deviceID){
@@ -98,10 +107,7 @@ function analysisXML() {
          //   case "7":$("#temp").text(temp3);$("#num").text(num3);break;
          //   case "8":$("#temp").text(temp4);$("#num").text(num4);break;
          // }
-
          // console.log(e.target)
-
-         
        //   $("#infoDiv")
        //     .css("left",(parseInt(x)+parseInt(width)+10)+"px")
        //     .css("top",(parseInt(y)+parseInt(height)+10)+"px")

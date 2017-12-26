@@ -1,21 +1,16 @@
 window.onload=function () {
-  // console.log(parseInt("-180"))
-  analysisXML()
-  scale()
-
-  $("#readSVG").on("click",function (e) {
+  let svg=null
 
 
-
-
-  })
+  mouseWheel()
+  analysisXML(svg)
 
 }
 
 /*
 * 解析导出的xml文件
 * */
-function analysisXML() {
+function analysisXML(svg) {
   // let xmlFileName="../lyxtxtjgtOne.xml";
   let xmlFileName="../lyxtxtjgt.xml";
   let xmlDoc
@@ -43,7 +38,8 @@ function analysisXML() {
 
 
   //创建svg画布
-  let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
+  // let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
+  svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
 
   let LIST=xmlDoc.documentElement.childNodes[0]
   let Components=xmlDoc.documentElement.childNodes[1]
@@ -177,7 +173,7 @@ function analysisXML() {
             //Hz
             case "2000163":drawText.attr({text: lb1});hzStatus[20001]=lb1;break;
             case "2000263":drawText.attr({text: lb2});hzStatus[20002]=lb2;break;
-            case "2000363":drawText.attr({text: lb3});hzStatus[20003]=lb3;console.log(lb3);showLb3(lb3,lb3img);break;
+            case "2000363":showLb3(lb3,lb3img);drawText.attr({text: lb3});hzStatus[20003]=lb3;break;
             case "2000463":drawText.attr({text: lb4});hzStatus[20004]=lb4;break;
             case "2000563":drawText.attr({text: lb5});hzStatus[20005]=lb5;break;
             case "3000163":drawText.attr({text: lb1});hzStatus[30001]=lb1;break;
@@ -222,6 +218,7 @@ function analysisXML() {
 
      let simg=svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
+         //以坐标x,y进行旋转
          'transform':'r'+rotate+','+x+','+y,
        })
 
@@ -267,30 +264,6 @@ function analysisXML() {
 
        //显示运行时间
       runTime()
-
-      //改变图片状态================
-      // setInterval(function () {
-      //     if(changImg){
-      //       console.log(x)
-      //       console.log(deviceID)
-      //     }
-      //
-      // },1000)
-      
-      
-      if(isMouseOverTip && changImg && deviceName==="大商业3#冷却泵"){
-     //    svg.image("assets/comp/LQB/alarm/1/9.png",x,y,width,height)
-     //    .attr({cursor:'pointer',
-     //    'transform':'r'+rotate+','+x+','+y,
-     //    })
-     //    console.log("aaa")
-      }else{
-     //    svg.image("assets/comp/LQB/alarm/0/1.png",x,y,width,height)
-     //    .attr({cursor:'pointer',
-     //    'transform':'r'+rotate+','+x+','+y,
-     // })
-      }
-
 
       //绘制旋转动画
       if(mark==="LQT"){
@@ -339,46 +312,12 @@ function analysisXML() {
   let svgEle=document.querySelector("svg")
   svgEle.style.border="1px red solid"
   let children=svgEle.childNodes
-  // console.log(children[2])
-  // setInterval(function () {
-  //   //创建随机数
-  //   num1=parseInt(Math.random()*500)
-  //   num2=parseInt(Math.random()*500)
-  //   num3=parseInt(Math.random()*500)
-  //   num4=parseInt(Math.random()*500)
-  //   //0~100,50以上报警
-  //   temp1=parseInt(Math.random()*100)
-  //   temp2=parseInt(Math.random()*100)
-  //   temp3=parseInt(Math.random()*100)
-  //   temp4=parseInt(Math.random()*100)
-  //
-  //   if(temp1>50){
-  //     children[6].style.display="none";
-  //   }else{
-  //     children[6].style.display="block";
-  //   }
-  //   if(temp2>50){
-  //     children[7].style.display="none";
-  //   }else{
-  //     children[7].style.display="block";
-  //   }
-  //   if(temp3>50){
-  //     children[8].style.display="none";
-  //   }else{
-  //     children[8].style.display="block";
-  //   }
-  //   if(temp4>50){
-  //     children[9].style.display="none";
-  //   }else{
-  //     children[9].style.display="block";
-  //   }
-  //
-  // }, 5000);
-  
-  
+
+  dragSVG(svg)
 }
 //============解析xml
 //缩放
+/*
 function scale() {
   let r = document.body.offsetWidth / window.screen.availWidth;
   $(document.body).css("-ms-transform","scale("+r+")");
@@ -388,6 +327,15 @@ function scale() {
     $(document.body).css("-ms-transform","scale("+r+")");
   });
 }
+*/
+function scale(r) {
+  $(document.body).css("-ms-transform","scale("+r+")")
+  $(window).resize(function() {
+    $(document.body).css("-ms-transform","scale("+r+")")
+  })
+}
+
+
 
 function drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight) {
   svg.text(textX,textY,text)
@@ -419,14 +367,67 @@ function showLb3(lb3,lb3img) {
   }
   else{
     $("#20003").css("display","block")
-    // console.log(lb3img)
+    // console.log("")
     lb3img.node.setAttribute('display','none')
     // document.querySelector("#20003").style.display="block";
   }
 }
 
+function mouseWheel() {
+  // console.log("aaa")
+  let r=1
+  window.addEventListener("mousewheel",function(event){
+    // console.log("bbb")
+    event.delta = event.wheelDelta /120
+    //1为向上滚动，放大
+    if(event.delta===1){
+      r+=0.1
+    }else if(event.delta===-1){
+      r-=0.1
+    }
+    scale(r)
+  },false)
+}
+
+function dragSVG() {
+  console.log("aaa")
+  let readSVG=document.querySelector("#readSVG")
+  readSVG.onmousedown=function (event) {
+    // console.log("onmousedown")
+    readSVG.setCapture && readSVG.setCapture()
+    event=event || window.event
+    //求div的偏移量
+    let ol=event.clientX - readSVG.offsetLeft
+    let ot=event.clientY-readSVG.offsetTop
+
+    document.onmousemove=function (event) {
+      // console.log("onmousemove")
+      event=event || window.event
+      let mouseLeft=event.clientX
+      let mouseTop=event.clientY
+      let divLeft=mouseLeft-ol
+      let divTop=mouseTop-ot
+
+      readSVG.style.left=divLeft+"px"
+      readSVG.style.top=divTop+"px"
+    }
+
+    //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
+    //事件，而不是box1的
+    document.onmouseup=function () {
+      document.onmousemove=null;
+      //当onmousemove销毁后，onmouseup仍然存在，故要销毁
+      document.onmouseup=null;
+      //当鼠标松开取消捕获
+      //兼容IE8
+      readSVG.releaseCapture && readSVG.releaseCapture();
+    }
+    //拖拽时取消浏览器搜索引擎的行为
+    return false
+  }
 
 
+}
 
 
 

@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+#readSVG{
+  position: absolute;
+}
+
 #infoDiv{
   position: absolute;
   border:1px red solid;

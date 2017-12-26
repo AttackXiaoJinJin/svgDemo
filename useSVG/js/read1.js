@@ -52,8 +52,10 @@ function analysisXML(svg) {
   //改变图片
   var changImg=false
 
-  for (let i=0;i<ComponentsChildren.length;i++)
-  // for (let i=4;i<ComponentsChildren.length;i++)
+  // for (let i=0;i<ComponentsChildren.length;i++)
+  for (let i=0,m=ComponentsChildren.length;i<m;i++)
+  // let i=ComponentsChildren.length
+  // while(i--)
   {
     // console.log()
     let nodename=ComponentsChildren[i].nodeName
@@ -134,6 +136,7 @@ function analysisXML(svg) {
 
 
       if(mark==="LSJ"){
+
         setInterval(function () {
 
           //创建随机数
@@ -147,12 +150,78 @@ function analysisXML(svg) {
           }
 
         }, 3000);
+/*
+        function createNum() {
+          //创建随机数
+          let lt0=parseInt(Math.random()*25+15)
+          let lt2=parseInt(Math.random()*25+15)
+          let lt3=parseInt(Math.random()*25+15)
+          switch(paramID){
+            case "160":drawText.attr({text: lt0});break;
+            case "162":drawText.attr({text: lt2});break;
+            case "163":drawText.attr({text: lt3});break;
+          }
+          requestAnimationFrame(createNum)
+        }
+        createNum()
+*/
+
       }
       //=============================
       if(mark==="LQB" || mark==="LDB"){
         var flag=1
         var lb3img=null
         setInterval(function () {
+          //创建随机数
+          //左闭右开
+          //Hz 50-70
+          let lb1=parseInt(Math.random()*20+50)
+          let lb2=parseInt(Math.random()*20+50)
+          let lb3=parseInt(Math.random()*20+50)
+          // lb3=parseInt(Math.random()*20+50)
+          let lb4=parseInt(Math.random()*20+50)
+          let lb5=parseInt(Math.random()*20+50)
+          //bars
+          let bar1=(Math.random()*2+1).toFixed(1)
+          let bar2=(Math.random()*2+1).toFixed(1)
+          let bar3=(Math.random()*2+1).toFixed(1)
+          let bar4=(Math.random()*2+1).toFixed(1)
+          let bar5=(Math.random()*2+1).toFixed(1)
+
+          switch(deviceParam){
+            //Hz
+            case "2000163":drawText.attr({text: lb1});hzStatus[20001]=lb1;break;
+            case "2000263":drawText.attr({text: lb2});hzStatus[20002]=lb2;break;
+            case "2000363":showLb3(lb3);drawText.attr({text: lb3});hzStatus[20003]=lb3;break;
+            case "2000463":drawText.attr({text: lb4});hzStatus[20004]=lb4;break;
+            case "2000563":drawText.attr({text: lb5});hzStatus[20005]=lb5;break;
+            case "3000163":drawText.attr({text: lb1});hzStatus[30001]=lb1;break;
+            case "3000263":drawText.attr({text: lb2});hzStatus[30002]=lb2;break;
+            case "3000363":drawText.attr({text: lb3});hzStatus[30003]=lb3;break;
+            case "3000463":drawText.attr({text: lb4});hzStatus[30004]=lb4;break;
+            case "3000563":drawText.attr({text: lb5});hzStatus[30005]=lb5;break;
+            //bars
+            case "2000162":drawText.attr({text: bar1});inStress[20001]=bar1;break;
+            case "2000262":drawText.attr({text: bar2});inStress[20002]=bar2;break;
+            case "2000362":drawText.attr({text: bar3});inStress[20003]=bar3;break;
+            case "2000462":drawText.attr({text: bar4});inStress[20004]=bar4;break;
+            case "2000562":drawText.attr({text: bar5});inStress[20005]=bar5;break;
+            case "3000162":drawText.attr({text: bar1});inStress[30001]=bar1;break;
+            case "3000262":drawText.attr({text: bar2});inStress[30002]=bar2;break;
+            case "3000362":drawText.attr({text: bar3});inStress[30003]=bar3;break;
+            case "3000462":drawText.attr({text: bar4});inStress[30004]=bar4;break;
+            case "3000562":drawText.attr({text: bar5});inStress[30005]=bar5;break;
+          }
+
+
+
+
+
+        }, 3000);
+
+/*
+        //左侧图片
+        function createLeft() {
           //创建随机数
           //左闭右开
           //Hz 50-70
@@ -203,25 +272,23 @@ function analysisXML(svg) {
                 })
             }
           }
-            flag=false
+          flag=false
 
+          requestAnimationFrame(createLeft)
+        }
+        createLeft()
+*/
 
-
-        }, 3000);
       }
 
     }
     //===========上面是文字
     else{
-
-      // console.log(isMouseOverTip)
-
      let simg=svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
          //以坐标x,y进行旋转
          'transform':'r'+rotate+','+x+','+y,
        })
-
        .click(function (e) {
          // console.log("aaaaaa")
          //切换成自动
@@ -247,8 +314,8 @@ function analysisXML(svg) {
            //改变数据
            $("#deviceName").text(deviceName)
            $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
-           $("#hzStatus") .text(hzStatus[deviceID])
-           $("#inStress") .text(inStress[deviceID])
+           $("#hzStatus").text(hzStatus[deviceID])
+           $("#inStress").text(inStress[deviceID])
          }
        })
        .mouseout(function () {
@@ -282,7 +349,8 @@ function analysisXML(svg) {
       //   console.log(i)
       //
       // }, 50);
-/*
+
+        /*
         function frame() {
           // i=i+1
           i=i+2
@@ -294,8 +362,11 @@ function analysisXML(svg) {
             })
           requestAnimationFrame(frame)
         }
-        frame()
+        if(group==="deviceComp" && deviceID==='40012'){
+          frame()
+        }
 */
+
 
       }
       //============上面风扇
@@ -315,7 +386,13 @@ function analysisXML(svg) {
 
   dragSVG(svg)
 }
+
 //============解析xml
+
+
+
+
+
 //缩放
 /*
 function scale() {
@@ -328,14 +405,13 @@ function scale() {
   });
 }
 */
+
 function scale(r) {
   $(document.body).css("-ms-transform","scale("+r+")")
   $(window).resize(function() {
     $(document.body).css("-ms-transform","scale("+r+")")
   })
 }
-
-
 
 function drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight) {
   svg.text(textX,textY,text)
@@ -357,21 +433,32 @@ function runTime() {
     $("#runTime").text(i)
   },1000)
 
+  /*
+  function createTime() {
+    i++
+    $("#runTime").text(i)
+    requestAnimationFrame(createTime)
+  }
+  createTime()
+*/
 }
 
-function showLb3(lb3,lb3img) {
-  if(lb3>60){
-    lb3img.node.setAttribute('display','block')
-    $("#20003").css("display","none")
-    // document.querySelector("#20003").style.display="none";
+function showLb3(lb3) {
+  // console.log($("#20003")[0].href.baseVal)
+  if
+  (lb3>=60 && $("#20003")[0].href.baseVal==="assets/comp/LQB/alarm/0/1.png")
+  {
+    $("#20003")[0].href.baseVal="assets/comp/LQB/alarm/1/9.png"
   }
-  else{
-    $("#20003").css("display","block")
-    // console.log("")
-    lb3img.node.setAttribute('display','none')
-    // document.querySelector("#20003").style.display="block";
+  else
+    if
+  (lb3<60 && $("#20003")[0].href.baseVal==="assets/comp/LQB/alarm/1/9.png")
+  {
+    $("#20003")[0].href.baseVal="assets/comp/LQB/alarm/0/1.png"
   }
+
 }
+
 
 function mouseWheel() {
   // console.log("aaa")
@@ -425,8 +512,6 @@ function dragSVG() {
     //拖拽时取消浏览器搜索引擎的行为
     return false
   }
-
-
 }
 
 

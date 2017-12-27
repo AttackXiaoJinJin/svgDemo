@@ -335,42 +335,45 @@ function analysisXML(svg) {
       //绘制旋转动画
       if(mark==="LQT"){
         let i=1
-      //   setInterval(function () {
-      //     // i=i+1
-      //     i=i+3
-      //     // if(i===11){
-      //     if(i===10){
-      //     i=1
-      //   }
-      //   // svg.image("assets/comp/LQT7/runing1/1/"+i+".png",x,y,parseInt(width)*parseInt(scaleX),parseInt(height)*parseInt(scaleY))
-      //   svg.image("assets/comp/LQT7/runing1/1/"+i+".png",x,y,parseInt(width),parseInt(height))
-      //     .attr({cursor:'pointer'
-      //     })
-      //   console.log(i)
-      //
-      // }, 50);
-
-        /*
         function frame() {
-          // i=i+1
-          i=i+2
-          if(i===11){
+          i=i+4
+          if(i===13){
             i=1
           }
-          svg.image("assets/comp/LQT7/runing1/1/"+i+".png",x,y,parseInt(width)*parseFloat(scaleX)*1.8,parseInt(height)*parseFloat(scaleY)/2.3)
-            .attr({cursor:'pointer'
-            })
+          $("#4001240012")[0].href.baseVal="assets/comp/LQT7/runing1/1/"+i+".png"
           requestAnimationFrame(frame)
         }
         if(group==="deviceComp" && deviceID==='40012'){
+          let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",x,y,parseInt(width)*parseFloat(scaleX)*1.8,parseInt(height)*parseFloat(scaleY)/2.3)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id","4001240012")
           frame()
         }
-*/
-
 
       }
       //============上面风扇
+      //======螺旋
+      if(mark==="LSJ"){
+        let i=1
+        function frame1() {
+          i=i+4
+          if(i===13){
+            i=1
+          }
+          $("#1000410004")[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
+          requestAnimationFrame(frame1)
+        }
+        if(group==="deviceComp" && deviceID==='10004'){
+          console.log("bb")
+          let aa=svg.image("assets/comp/LGJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX),parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id","1000410004")
+          frame1()
+        }
 
+      }
 
 
      }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/useSVG/html/read1.html" afterPath="$PROJECT_DIR$/useSVG/html/read1.html" />
       <change beforePath="$PROJECT_DIR$/useSVG/js/read1.js" afterPath="$PROJECT_DIR$/useSVG/js/read1.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,43 +21,53 @@
       <file leaf-file-name="lyxtxtjgt.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgt.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="285" column="66" lean-forward="false" selection-start-line="285" selection-start-column="44" selection-end-line="285" selection-end-column="66" />
+            <state relative-caret-position="9537">
+              <caret line="289" column="33" lean-forward="false" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/lowLevel/1/1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/highLevel/1/1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read1.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="read1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/useSVG/js/read1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="368" column="159" lean-forward="false" selection-start-line="368" selection-start-column="159" selection-end-line="368" selection-end-column="159" />
+            <state relative-caret-position="3802">
+              <caret line="511" column="0" lean-forward="true" selection-start-line="511" selection-start-column="0" selection-end-line="511" selection-end-column="0" />
               <folding>
-                <element signature="e#282#337#0" expanded="false" />
-                <element signature="e#341#409#0" expanded="false" />
-                <element signature="e#7958#10720#0" expanded="false" />
+                <element signature="e#5049#5530#0" expanded="false" />
+                <element signature="e#8077#10839#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readSVG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="useSVG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="919">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,8 +189,8 @@
         <option value="$PROJECT_DIR$/useSVG/html/readSVG.html" />
         <option value="$PROJECT_DIR$/useSVG/js/aa.js" />
         <option value="$PROJECT_DIR$/useSVG/html/aa.html" />
-        <option value="$PROJECT_DIR$/useSVG/html/read1.html" />
         <option value="$PROJECT_DIR$/useSVG/css/read1.css" />
+        <option value="$PROJECT_DIR$/useSVG/html/read1.html" />
         <option value="$PROJECT_DIR$/useSVG/js/read1.js" />
       </list>
     </option>
@@ -197,9 +208,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1068" />
-    <option name="height" value="1038" />
+    <option name="x" value="-1" />
+    <option name="width" value="1039" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,107 +247,7 @@
               <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
               <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="highLevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="highLevel" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="highLevel" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="lowLevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="lowLevel" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="PSX" type="462c0819:PsiDirectoryNode" />
-              <item name="lowLevel" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="useSVG" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,19 +267,19 @@
     <property name="last_opened_file_path" value="E:/BaiduYunDownload/实习/组态Demo/MenuTree" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\svgDemo\useSVG" />
-      <recent name="F:\svgDemo\useSVG\css" />
-      <recent name="F:\svgDemo\useSVG\html" />
-      <recent name="F:\svgDemo\useSVG\js" />
-      <recent name="F:\svgDemo\useSVG\otherJs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\svgDemo\useSVG\html" />
       <recent name="F:\svgDemo\useSVG\js" />
       <recent name="F:\svgDemo\useSVG" />
       <recent name="F:\svgDemo\useSVG\xml" />
       <recent name="F:\svgDemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\svgDemo\useSVG" />
+      <recent name="F:\svgDemo\useSVG\css" />
+      <recent name="F:\svgDemo\useSVG\html" />
+      <recent name="F:\svgDemo\useSVG\js" />
+      <recent name="F:\svgDemo\useSVG\otherJs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -434,27 +345,28 @@
       <workItem from="1514163536112" duration="23922000" />
       <workItem from="1514203817799" duration="849000" />
       <workItem from="1514249867916" duration="19731000" />
-      <workItem from="1514336664602" duration="3323000" />
+      <workItem from="1514336664602" duration="4303000" />
+      <workItem from="1514363936198" duration="840000" />
+      <workItem from="1514422239517" duration="7146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354920000" />
+    <option name="totallyTimeSpent" value="363886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16277836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14793213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3215159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3215159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,21 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LXJZ/runing/1/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LXJZ/runing/1/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LXJZ/runing/1/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LXJZ/runing/1/2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -503,13 +400,6 @@
         <state relative-caret-position="653">
           <caret line="715" column="52" lean-forward="true" selection-start-line="715" selection-start-column="52" selection-end-line="715" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -658,17 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,29 +601,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/js/read1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="368" column="159" lean-forward="false" selection-start-line="368" selection-start-column="159" selection-end-line="368" selection-end-column="159" />
-          <folding>
-            <element signature="e#282#337#0" expanded="false" />
-            <element signature="e#341#409#0" expanded="false" />
-            <element signature="e#7958#10720#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/lowLevel/0/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="285" column="66" lean-forward="false" selection-start-line="285" selection-start-column="44" selection-end-line="285" selection-end-column="66" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/highLevel/0/1.png">
@@ -752,7 +611,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/lowLevel/1/1.png">
+    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LGJZ/alarm/1/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LGJZ/alarm/0/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -762,9 +631,54 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/bg.png">
+    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/PSX/lowLevel/1/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/lyxtxtjgt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9537">
+          <caret line="289" column="33" lean-forward="false" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/readSVG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/useSVG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/html/read1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG/js/read1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3802">
+          <caret line="511" column="0" lean-forward="true" selection-start-line="511" selection-start-column="0" selection-end-line="511" selection-end-column="0" />
+          <folding>
+            <element signature="e#5049#5530#0" expanded="false" />
+            <element signature="e#8077#10839#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

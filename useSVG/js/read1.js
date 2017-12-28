@@ -1,7 +1,9 @@
+//全局变量
+var svgLeft=0
+var svgTop=0
+
 window.onload=function () {
   let svg=null
-
-
   mouseWheel()
   analysisXML(svg)
 
@@ -40,7 +42,7 @@ function analysisXML(svg) {
   //创建svg画布
   // let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
   svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
-
+  dragSVG(svg)
   let LIST=xmlDoc.documentElement.childNodes[0]
   let Components=xmlDoc.documentElement.childNodes[1]
 
@@ -51,10 +53,11 @@ function analysisXML(svg) {
   // console.log(Components.nodeName)
   //改变图片
   var changImg=false
-
+  //优化循环
   // for (let i=0;i<ComponentsChildren.length;i++)
   for (let i=0,m=ComponentsChildren.length;i<m;i++)
-  // let i=ComponentsChildren.length
+  //while循环不分先后
+    // let i=ComponentsChildren.length
   // while(i--)
   {
     // console.log()
@@ -89,33 +92,36 @@ function analysisXML(svg) {
      let paramID=ComponentsChildren[i].getAttribute("paramID")
     //20001 63
     let deviceParam=deviceID+paramID
+    //数组保存参数
     var handAuto=new Array()
     var hzStatus=new Array()
     var inStress=new Array()
-
-
+    //组件宽高缩放
     if(scaleX){
       width=parseInt(width)*parseFloat(scaleX)
-      }
-      if(scaleY){
+    }
+    if(scaleY){
       height=parseInt(height)*parseFloat(scaleY)
-      }
+    }
 
-     let rotate=0
-       if(ComponentsChildren[i].getAttribute("rotation")){
-        rotate=parseInt(ComponentsChildren[i].getAttribute("rotation"))
-       }
+    let rotate=0
+    if(ComponentsChildren[i].getAttribute("rotation")){
+      rotate=parseInt(ComponentsChildren[i].getAttribute("rotation"))
+    }
 
-       let lb3;
+    let lb3;
     //如果是要绘制文字的话===========================================
     if(ComponentsChildren[i].getAttribute("text")){
-      if(ComponentsChildren[i].getAttribute("color")==="#00FF00"){
+      let color=ComponentsChildren[i].getAttribute("color")
+
+      //优先绘制黑色背景框
+      if(color==="#00FF00"){
         svg.rect(x, y, width-5, height).attr({
           // "stroke": "red",
           "fill": "black"
         })
       }
-      let color=ComponentsChildren[i].getAttribute("color")
+
       let fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
       let fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
       let textX=parseInt(x)+parseInt(width)/2
@@ -123,6 +129,7 @@ function analysisXML(svg) {
       let text=ComponentsChildren[i].getAttribute("text")
 
       // drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight)
+      //绘制文字
       let drawText=svg.text(textX,textY,text)
         .attr({
           "font-size":fontSize+"px",
@@ -134,12 +141,11 @@ function analysisXML(svg) {
           'font-weight':fontWeight
         })
 
-
+      //冷水机的温度
       if(mark==="LSJ"){
-
         setInterval(function () {
-
           //创建随机数
+          //15-40
           let lt0=parseInt(Math.random()*25+15)
           let lt2=parseInt(Math.random()*25+15)
           let lt3=parseInt(Math.random()*25+15)
@@ -168,6 +174,7 @@ function analysisXML(svg) {
 
       }
       //=============================
+      //冷却泵的Hz和Bars
       if(mark==="LQB" || mark==="LDB"){
         var flag=1
         var lb3img=null
@@ -212,11 +219,6 @@ function analysisXML(svg) {
             case "3000462":drawText.attr({text: bar4});inStress[30004]=bar4;break;
             case "3000562":drawText.attr({text: bar5});inStress[30005]=bar5;break;
           }
-
-
-
-
-
         }, 3000);
 
 /*
@@ -280,23 +282,21 @@ function analysisXML(svg) {
 */
 
       }
-
     }
-    //===========上面是文字
+    //====================================上面是文字
+    //图片====================================
     else{
      let simg=svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
+         //没有x,y即绕自身中心旋转
          //以坐标x,y进行旋转
          'transform':'r'+rotate+','+x+','+y,
        })
        .click(function (e) {
-         // console.log("aaaaaa")
          //切换成自动
          if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
            e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
            handAuto[deviceID]=true
-           // console.log(handAuto[deviceID])
-
          }
          //切换成手动
          else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
@@ -305,11 +305,15 @@ function analysisXML(svg) {
          }
        })
        .mouseover(function (e) {
+         //鼠标悬停有事件
          if(isMouseOverTip){
            //显示栏
            $("#infoDiv")
-             .css("left",(parseInt(x)+parseInt(width)+10)+"px")
-             .css("top",(parseInt(y)+parseInt(height)+10)+"px")
+             //位置
+             // .css("left",(parseInt(x)+parseInt(width)+10)+"px")
+             .css("left",(parseInt(x)+parseInt(width)+10)+parseInt(svgLeft)+"px")
+             // .css("top",(parseInt(y)+parseInt(height)+10)+"px")
+             .css("top",(parseInt(y)+parseInt(height)+10)+parseInt(svgTop)+"px")
              .css("display","block")
            //改变数据
            $("#deviceName").text(deviceName)
@@ -344,7 +348,7 @@ function analysisXML(svg) {
           requestAnimationFrame(frame)
         }
         if(group==="deviceComp" && deviceID==='40012'){
-          let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",x,y,parseInt(width)*parseFloat(scaleX)*1.8,parseInt(height)*parseFloat(scaleY)/2.3)
+          let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
             .attr({cursor:'pointer'
             })
           aa.node.setAttribute("id","4001240012")
@@ -365,36 +369,24 @@ function analysisXML(svg) {
           requestAnimationFrame(frame1)
         }
         if(group==="deviceComp" && deviceID==='10004'){
-          console.log("bb")
+          // console.log("bb")
           let aa=svg.image("assets/comp/LGJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX),parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
             .attr({cursor:'pointer'
             })
           aa.node.setAttribute("id","1000410004")
           frame1()
         }
-
       }
-
-
      }
      //==========else
-
   }
   //=============循环
-
 
   let svgEle=document.querySelector("svg")
   svgEle.style.border="1px red solid"
   let children=svgEle.childNodes
-
-  dragSVG(svg)
 }
-
 //============解析xml
-
-
-
-
 
 //缩放
 /*
@@ -409,6 +401,7 @@ function scale() {
 }
 */
 
+//缩放
 function scale(r) {
   $(document.body).css("-ms-transform","scale("+r+")")
   $(window).resize(function() {
@@ -429,6 +422,7 @@ function drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontW
     })
 }
 
+//运行时间
 function runTime() {
   let i=0
   setInterval(function () {
@@ -446,8 +440,8 @@ function runTime() {
 */
 }
 
+//报警变红
 function showLb3(lb3) {
-  // console.log($("#20003")[0].href.baseVal)
   if
   (lb3>=60 && $("#20003")[0].href.baseVal==="assets/comp/LQB/alarm/0/1.png")
   {
@@ -459,15 +453,12 @@ function showLb3(lb3) {
   {
     $("#20003")[0].href.baseVal="assets/comp/LQB/alarm/0/1.png"
   }
-
 }
 
-
+//滚轮滚动
 function mouseWheel() {
-  // console.log("aaa")
   let r=1
   window.addEventListener("mousewheel",function(event){
-    // console.log("bbb")
     event.delta = event.wheelDelta /120
     //1为向上滚动，放大
     if(event.delta===1){
@@ -479,11 +470,10 @@ function mouseWheel() {
   },false)
 }
 
+//拖拽画布
 function dragSVG() {
-  console.log("aaa")
   let readSVG=document.querySelector("#readSVG")
   readSVG.onmousedown=function (event) {
-    // console.log("onmousedown")
     readSVG.setCapture && readSVG.setCapture()
     event=event || window.event
     //求div的偏移量
@@ -497,7 +487,8 @@ function dragSVG() {
       let mouseTop=event.clientY
       let divLeft=mouseLeft-ol
       let divTop=mouseTop-ot
-
+      svgLeft=divLeft
+      svgTop=divTop
       readSVG.style.left=divLeft+"px"
       readSVG.style.top=divTop+"px"
     }

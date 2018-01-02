@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>使用css插入svg标签</title>
+  <style>
+    body{
+      background: #EFEFEF;
+    }
+    #bg{
+      width: 400px;
+      height:400px;
+      background: white url(svg基本/smile.svg) repeat;
+      /*颜色 水平偏移量 垂直偏移量 模糊值 阴影的延伸半径 */
+      box-shadow: rgba(0,0,0,0.5) 2px 3px 10px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+<p>用CSS引用SVG</p>
+<div id="bg">
+
+</div>
+
+<svg></svg>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#readSVG{
+  position: absolute;
+}
+
+#infoDiv{
+  position: absolute;
+  border:1px red solid;
+  left:10px;
+  top:10px;
+  display: none;
+  background-color: #eeeeee;
+}
+
+#infoDiv tbody tr{
+  border:1px red solid;
+}
+#infoDiv tbody tr td{
+  border:1px red solid;
+  text-align: center;
+}
+
+.infoColor{
+  color:#38A7AF
+}
+

@@ -2,1518 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/css/useSVG1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ADE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ADE/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ADE/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARM/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARM/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARM/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMBPD/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMBPD/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMBPD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCDY/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCDY/highLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCDY/highLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDL/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDL/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDUL/alarm3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDUL/alarm3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMCGQDUL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDSW/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDSW/lowLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDSW/lowLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDTTB/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDTTB/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMDTTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMRSGZ/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMRSGZ/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMRSGZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMSCWDDL/alarm4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMSCWDDL/alarm4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMSCWDDL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMTB/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMTB/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMWDGG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMWDGG/preAlarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ALARMWDGG/preAlarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BFSTATE/bfState/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BFSTATE/bfState/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BFSTATE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPD8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDNEW1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP1IN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP2IN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP3IN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP4IN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BPDP5IN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BQSX/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BQSX/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BQSX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BS/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BS/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BS/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB1/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSB2/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BSHX/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BURGLAR/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BURGLAR/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/BURGLAR/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CMLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CMLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CMLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CO2CQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/COCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPDD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPDD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CPDD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CYLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CYLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/CYLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCD/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCD/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCDG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCDG/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DCDG/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDC/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDC/openClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDC/openClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCL/openClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCL/openClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCLTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCTB/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDCTB/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDFM/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDFM/openClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDFM/openClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDFM/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DDFM/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DE/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DE/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHD/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHD/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHOPENCLOSE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHOPENCLOSE/dhopenClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DHOPENCLOSE/dhopenClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DMD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DMD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DMD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DOWN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DOWN/down/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DOWN/down/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DRFM/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DS/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DS/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DS/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DWCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DWCQ/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DWCQ/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DZD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DZD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/DZD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/bg .png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA1/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EA2/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/alarm1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF1/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/alarm2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/EAF2/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ENTRANCE/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ENTRANCE/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ENTRANCE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ENTRANCE/doorStart/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ENTRANCE/doorStart/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/F1F2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/F1F2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/F1F2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FPG/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/FUNCBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G1G2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G1G2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G1G2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/G2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCDS/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCDS/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCDS/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCGGD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCGGD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GCGGD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GFQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GGDLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GGDLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GGDLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GJCZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GJCZ/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GJCZ/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GLASS/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GLASS/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GLASS/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GWDL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GWDL/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GWDL/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/GYG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDAUTO/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDAUTO/handAuto/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDAUTO/handAuto/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTN/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTN/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTNFD/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTNFD/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTNFD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTNFD/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDBTNFD/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDTZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDTZ/sdtzstatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HANDTZ/sdtzstatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HFZBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HFZBTN/hzstatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HFZBTN/hzstatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HIGHLEVEL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HIGHLEVEL/highLevelStatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HIGHLEVEL/highLevelStatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTDD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTDD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTDD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTLKD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTLKD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/HTLKD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/IA/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JRZSD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JRZSD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JRZSD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/10/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/11/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/12/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/13/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/14/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/3/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/4/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/5/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/6/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/7/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/8/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSBJ/state/9/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTB/highLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTB/highLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTBA/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTBA/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSKTBA/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/JSQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KEEPWATCH/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KEEPWATCH/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KEEPWATCH/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTFJPG/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTSPFJ/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTB1/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTTBDJR/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/KTXFJZ/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LAMPC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LAMPO.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCB1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCB2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCB3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LCF8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LDCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LDCQ/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LDCQ/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LDCQ/state/2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LDCQ/state/3/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED2/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LED2/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LEDBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LEDBTN/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LEDBTN/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGDZD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGDZD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGDZD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LGJZ/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTD/updown/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTD/updown/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTF/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTF/updown/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIFTF/updown/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIGHT/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LIGHT/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LINE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LOGOUT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LOWLEVEL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LOWLEVEL/lowLevelStatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LOWLEVEL/lowLevelStatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQB/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/alarm4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing3/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT/runing4/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT2/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/alarm3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT3/runing3/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm5/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/alarm5/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing3/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing4/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT5/runing5/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm5/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm5/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm6/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/alarm6/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing3/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing4/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing5/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT6/runing6/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LQT7/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LUXCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/LXJZ/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/MJCLOSE.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/MJOPEN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/MUSICSOURCE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA1/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA1/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMA2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMB/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMB/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMC/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMC/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMC/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMC/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZME/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZME/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZME/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF1/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF1/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMF2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG1/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG1/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG2/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMG2/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMH/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMH/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/NEWZMH/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ONLINEOFFLINE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ONLINEOFFLINE/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ONLINEOFFLINE/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/OPENCLOSE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/OPENCLOSE/openClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/OPENCLOSE/openClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ORGBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PARK/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PARK/carState/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PARK/carState/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PARK/carState/2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PERSON/runing/0/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PIPE/pipe1-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PIPE/pipe1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PIPE/pipe2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PIPE/pipe3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PIPE/pipe4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSX/highLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSX/highLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSX/lowLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSX/lowLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSXNA/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSXNA/highLevelStatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSXNA/highLevelStatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSXNA/lowLevelStatus/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PSXNA/lowLevelStatus/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/alarm1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/PWB1/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QGLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QGLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QGLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QSX/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QSX/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QSX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QTMH/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QTMH/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QTMH/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/QUNKONG/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RBJZ/alram/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RBJZ/alram/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RBJZ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RBJZ/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RBJZ/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/REDBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RGSHU/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQBJ/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQBJ/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQBJ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RQGL/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RUNING/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RUNING/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/RUNING/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/alarm/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF/runing/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/alarm1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF1/runing1/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/alarm2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SAF2/runing2/1/9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCTPD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCTPD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCTPD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCYDS/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCYDS/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SCYDS/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SJLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SJLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SJLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SLFM/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SLFM/runing/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SLFM/runing/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SSD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SSD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SSD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SXD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SXD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/SXD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEMPCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEXTINPUT/deviceName.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEXTINPUT/label.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEXTINPUT/text.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEXTINPUT/textinput.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TEXTINPUT/textinput1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TJDZD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TJDZD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TJDZD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TRUMPET/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TRUMPET/jyState/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TRUMPET/jyState/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSDZD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSDZD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TSDZD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BJA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BJN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BLPSA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BLPSN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BQSXBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/BQSXZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/GWA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/GWN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JLC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JLO.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JSBJBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JSBJZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JSKA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/JSKN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/KTA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/KTN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/LDA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/LDDX.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/LDN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/LDYJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/MJA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/MJN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/PARKALARM.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/PARKBUSY.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/PARKFREE.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/QDCC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/QDCO.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/QSXBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/QSXZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/RQBJBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/RQBJZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/SBA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/SBN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/TULI.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/XFSPBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/XFSPZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/YGA.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/YGN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/YXC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/YXO.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/ZNSXBJ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/ZNSXZC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/UA/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/UP/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/UP/up/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/UP/up/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/VIDEO/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/VIDEOTB/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/VOLUME/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/WETCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/WSK/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/WSK/highLevel/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/WSK/highLevel/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFJZJJZH/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFJZJJZH/xfJjzh/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFJZJJZH/xfJjzh/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFSP/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFSP/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XFSP/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XHOPENCLOSE/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XHOPENCLOSE/xhopenClose/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XHOPENCLOSE/xhopenClose/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XPD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XPD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XPD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XSD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XSD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XSD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XTJGT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XXLIGHT/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XXLIGHT/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/XXLIGHT/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/bg_blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/bg_green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/0/1_blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/0/1_green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/15/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YCQ/state/2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YELLOWBTN/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YLCPD/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YLCPD/control/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YLCPD/control/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/YX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZHSJJZH/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZHSJJZH/zhJjzh/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZHSJJZH/zhJjzh/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZHSJJZH/zhJjzh/2/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZNSX/alarm/0/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZNSX/alarm/1/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZNSX/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ZNZTL.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/alarm_g.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/alarm_r.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/co2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/compass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/data/Components.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/data/Components.xml.bak" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/data/Components_20170306.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/data/Components_bak.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ddc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ddf_fg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dfg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dt1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dt2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dttz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dtyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzktbj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzktce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzkttz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzktyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzxg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/dzxgno.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ff_l.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ff_r.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/fjpgbj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/fjpgtz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/fjpgyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/glw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gongfang.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gongfangline.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gongfangzhuji.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gsg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gsxtce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/gzdt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/hanzhi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/hff_h.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/images/dj1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/images/dj2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/images/dj3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/jt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/jxk.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/jxk2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/jxkb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/jxkh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/kt_bj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/kt_tz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/kt_yx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ktmd.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ktmd2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ktmd_xf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/kttz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/lrpg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/lyxgce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/m14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/outtemp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/outwet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/rgshufg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ryxgce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/spfbj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/spftz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/spfyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/sxt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/sxt_b.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/sxt_g.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/temp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/wet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xfjbj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xfjtz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xfjyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xfsxtce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/xgline.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/ybpan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/zhsktce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/useSVG1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/js/useSVG1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/lyxtxtjgt.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/otherjs/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/otherjs/jquery-3.2.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/otherjs/jquery-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/otherjs/raphael.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/19.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/F1VideoNode(视频).xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/css/读取静态.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/aa.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/assets/comp/TULI/DDKT.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/map - 复制.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/map.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/map.xml.bak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/B1Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/B2Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD1_bak.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/BPD/BPD9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/DBLK/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/DBLK/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/DBLK/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/DDCXT.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F1Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F2Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F3Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F4Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F5Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/F6Node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/GGDX/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/GGDX/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/GGDX/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/KGZ/acSwitch1/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/KGZ/acSwitch1/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/KGZ/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LOGO/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LOGO/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LOGO/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC1/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC1/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC1/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC2/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC2/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/LZLMC2/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/QLD/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/QLD/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/QLD/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/RKD/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/RKD/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/RKD/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/SWNode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/TGD/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/TGD/control/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/TGD/control/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/XBPD/XBPD9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlA/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlA/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlB/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlB/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlC/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlC/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlD/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlD/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlE/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlE/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlF/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlF/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlG/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM/controlG/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateA/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateA/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateB/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateB/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateC/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateC/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateD/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateD/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateE/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateE/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateG/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateG/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateH/0/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/YJZM1/stateH/1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/mapImages/q1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg - 副本.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg_2.rar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/mapAssets/wandaLoginBg_bak.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/html/读取静态.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/js/读取静态.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/useSVG1/ryxtxtjgt(热源).xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/useSVG/js/read1.js" afterPath="$PROJECT_DIR$/useSVG/js/read1.js" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/css/useSVG1.css" afterPath="$PROJECT_DIR$/useSVG1/css/useSVG1.css" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/html/useSVG1.html" afterPath="$PROJECT_DIR$/useSVG1/html/useSVG1.html" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/js/useSVG1.js" afterPath="$PROJECT_DIR$/useSVG1/js/useSVG1.js" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/lyxtxtjgt.xml" afterPath="$PROJECT_DIR$/useSVG1/0.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -1527,11 +145,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="useSVG1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/useSVG1/html/useSVG1.html">
+      <file leaf-file-name="读取静态.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/useSVG1/js/读取静态.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="289">
+              <caret line="300" column="6" lean-forward="false" selection-start-line="300" selection-start-column="6" selection-end-line="300" selection-end-column="6" />
+              <folding>
+                <element signature="e#4674#4702#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG1/19.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="102" column="248" lean-forward="false" selection-start-line="102" selection-start-column="243" selection-end-line="102" selection-end-column="249" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="读取静态.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG1/css/读取静态.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="读取静态.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useSVG1/html/读取静态.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1607,13 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/svgEditor/svgEditor.css" />
-        <option value="$PROJECT_DIR$/svgEditor/svgEditor.html" />
-        <option value="$PROJECT_DIR$/lineartuoyuan.svg" />
-        <option value="$PROJECT_DIR$/bishua.svg" />
-        <option value="$PROJECT_DIR$/pathEditor/path.css" />
-        <option value="$PROJECT_DIR$/pathEditor/pathEditor.css" />
-        <option value="$PROJECT_DIR$/zidingyi.svg" />
         <option value="$PROJECT_DIR$/pathEditor/pathEditor.js" />
         <option value="$PROJECT_DIR$/tiger.svg" />
         <option value="$PROJECT_DIR$/text1.svg" />
@@ -1657,7 +300,14 @@
         <option value="$PROJECT_DIR$/useSVG/css/read1.css" />
         <option value="$PROJECT_DIR$/useSVG/html/read1.html" />
         <option value="$PROJECT_DIR$/useSVG/js/read1.js" />
+        <option value="$PROJECT_DIR$/useSVG1/html/读取静态.html" />
+        <option value="$PROJECT_DIR$/useSVG1/html/aa.html" />
+        <option value="$PROJECT_DIR$/useSVG1/html/mapAssets/map.xml" />
         <option value="$PROJECT_DIR$/useSVG1/html/useSVG1.html" />
+        <option value="$PROJECT_DIR$/useSVG1/js/useSVG1.js" />
+        <option value="$PROJECT_DIR$/useSVG1/css/useSVG1.css" />
+        <option value="$PROJECT_DIR$/useSVG1/css/读取静态.css" />
+        <option value="$PROJECT_DIR$/useSVG1/js/读取静态.js" />
       </list>
     </option>
   </component>
@@ -1718,7 +368,37 @@
               <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
               <item name="useSVG1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG1" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG1" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG1" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="comp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="useSVG1" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="comp" type="462c0819:PsiDirectoryNode" />
+              <item name="KTDZKT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1748,18 +428,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\svgDemo\useSVG1\html\assets\comp\TULI" />
       <recent name="F:\svgDemo\useSVG1" />
-      <recent name="F:\svgDemo\useSVG1\css" />
       <recent name="F:\svgDemo\useSVG1\html" />
-      <recent name="F:\svgDemo\useSVG1\otherjs" />
+      <recent name="F:\svgDemo\useSVG1\css" />
       <recent name="F:\svgDemo\useSVG1\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\svgDemo\svg基本" />
       <recent name="F:\svgDemo\useSVG\html" />
       <recent name="F:\svgDemo\useSVG\js" />
       <recent name="F:\svgDemo\useSVG" />
       <recent name="F:\svgDemo\useSVG\xml" />
-      <recent name="F:\svgDemo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1830,20 +510,22 @@
       <workItem from="1514422239517" duration="9654000" />
       <workItem from="1514508836559" duration="5693000" />
       <workItem from="1514631997749" duration="10000" />
-      <workItem from="1514854546304" duration="491000" />
+      <workItem from="1514854546304" duration="12848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372588000" />
+    <option name="totallyTimeSpent" value="384945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12195122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21845175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1856,7 +538,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1873,90 +554,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/runing/1/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/10.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/0/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/assets/comp/LQB/alarm/1/9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/otherJs/raphael.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="2" column="25607" lean-forward="false" selection-start-line="2" selection-start-column="25607" selection-end-line="2" selection-end-column="25607" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG/html/缩放demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG/js/aa.js" />
     <entry file="file://$PROJECT_DIR$/useSVG/image/all.png">
       <provider selected="true" editor-type-id="images">
@@ -2103,8 +700,8 @@
         <state relative-caret-position="688">
           <caret line="351" column="37" lean-forward="false" selection-start-line="351" selection-start-column="37" selection-end-line="351" selection-end-column="37" />
           <folding>
-            <element signature="e#5049#5530#0" expanded="false" />
-            <element signature="e#8077#10839#0" expanded="false" />
+            <element signature="e#5041#5522#0" expanded="false" />
+            <element signature="e#8069#10831#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2151,17 +748,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/js/useSVG1.js">
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/assets/comp/MUSICSOURCE/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/mapAssets/map.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="3168">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/lyxtxtjgt.xml">
+    <entry file="file://$PROJECT_DIR$/useSVG1/3.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-297">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -2169,10 +771,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG1/html/useSVG1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="952">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/css/useSVG1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/5.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/9.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/js/useSVG1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/assets/comp/dzktyx.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/assets/comp/dzkttz.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/assets/comp/KTDZKT/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/读取静态.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/19.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="102" column="248" lean-forward="false" selection-start-line="102" selection-start-column="243" selection-end-line="102" selection-end-column="249" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/css/读取静态.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/js/读取静态.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="300" column="6" lean-forward="false" selection-start-line="300" selection-start-column="6" selection-end-line="300" selection-end-column="6" />
+          <folding>
+            <element signature="e#4674#4702#0" expanded="false" />
           </folding>
         </state>
       </provider>

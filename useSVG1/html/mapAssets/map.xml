@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><maps>
+	<mapList>
+	
+	    <!-- Begin 变配电 -->
+	    <XBPD1 compName="1#变电所高压(一)1" group="map" source="mapAssets/mapImages/XBPD/XBPD1.png" type="image"/>
+		<XBPD2 compName="1#变电所高压(一)2" group="map" source="mapAssets/mapImages/XBPD/XBPD2.png" type="image"/>
+		<XBPD3 compName="1#变电所高压(二)" group="map" source="mapAssets/mapImages/XBPD/XBPD3.png" type="image"/>
+		
+		<XBPD5 compName="2#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD5.png" type="image"/>
+		<XBPD6 compName="3#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD6.png" type="image"/>
+		<XBPD7 compName="4#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD7.png" type="image"/>
+		<XBPD8 compName="5#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD8.png" type="image"/>
+		<XBPD9 compName="8#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD9.png" type="image"/>
+		<XBPD10 compName="9#变电所高压" group="map" source="mapAssets/mapImages/XBPD/XBPD10.png" type="image"/>
+	    
+	    
+		<BPD1 compName="1#变电所高压(一)" group="map" source="mapAssets/mapImages/BPD/BPD1.png" type="image"/>
+		<BPD2 compName="1#变电所高压(二)" group="map" source="mapAssets/mapImages/BPD/BPD2.png" type="image"/>
+		<BPD3 compName="1#变电所高压(三)" group="map" source="mapAssets/mapImages/BPD/BPD3.png" type="image"/>
+		<BPD4 compName="1#变电所高压(四)" group="map" source="mapAssets/mapImages/BPD/BPD4.png" type="image"/>
+		<BPD5 compName="2#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD5.png" type="image"/>
+		<BPD6 compName="3#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD6.png" type="image"/>
+		<BPD7 compName="4#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD7.png" type="image"/>
+		<BPD8 compName="5#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD8.png" type="image"/>
+		<BPD9 compName="8#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD9.png" type="image"/>
+		<BPD10 compName="9#变电所高压" group="map" source="mapAssets/mapImages/BPD/BPD10.png" type="image"/>
+		<!-- End 变配电 -->
+	    <!--Begin DDC系统结构 -->
+			
+			<DDCXT compName="DDC系统" group="map" source="mapAssets/mapImages/DDCXT.png" type="image"/>
+			
+		<!--End DDC系统结构 -->
+	
+		<!-- Begin	楼层平面图 -->
+		<SWNODE compName="室外平面图" group="map" source="mapAssets/mapImages/SWNode.png" type="image"/>
+		<B2NODE compName="B2平面图" group="map" source="mapAssets/mapImages/B2Node.png" type="image"/>
+		<B1NODE compName="B1平面图" group="map" source="mapAssets/mapImages/B1Node.png" type="image"/>
+		<F1NODE compName="F1平面图" group="map" source="mapAssets/mapImages/F1Node.png" type="image"/>
+		<F2NODE compName="F2平面图" group="map" source="mapAssets/mapImages/F2Node.png" type="image"/>
+		<F3NODE compName="F3平面图" group="map" source="mapAssets/mapImages/F3Node.png" type="image"/>
+		<F4NODE compName="F4平面图" group="map" source="mapAssets/mapImages/F4Node.png" type="image"/>
+		<F5NODE compName="F5平面图" group="map" source="mapAssets/mapImages/F5Node.png" type="image"/>
+		<F6NODE compName="F6平面图" group="map" source="mapAssets/mapImages/F6Node.png" type="image"/>
+		<!-- End	楼层平面图 -->
+		
+	
+		<KGZ compName="变配电开关闸" deviceID="" group="deviceComp" height="62" isPrivate="true" type="comp" width="37">
+			<Image Name="背景" height="62" param="bg" source="mapAssets/mapImages/KGZ/bg.png" width="37" x="0" y="0"/>
+			<Image compName="开关闸" height="62" param="acSwitch1" paramvaule="0,1" source="mapAssets/mapImages/KGZ/acSwitch1/0/1.png" width="37" x="0" y="0"/>		
+        </KGZ>
+
+		<!-- Begin 夜景照明 -->
+
+		<BG compName="夜景背景" group="map" source="mapAssets/mapImages/bg.png" type="image"/>
+		
+
+		<DBLK compName="顶部轮廓" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/DBLK/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="顶部轮廓" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/DBLK/control/0/1.png" width="1920" x="0" y="0"/>		
+		</DBLK>
+<GGDX compName="广告灯箱" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/GGDX/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="广告灯箱" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/GGDX/control/0/1.png" width="1920" x="0" y="0"/>		
+</GGDX>
+<LZLMC1 compName="蜡烛立面C1" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/LZLMC1/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="蜡烛立面C1" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/LZLMC1/control/0/1.png" width="1920" x="0" y="0"/>		
+</LZLMC1>
+ <LZLMC2 compName="蜡烛立面C2" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/LZLMC2/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="蜡烛立面C2" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/LZLMC2/control/0/1.png" width="1920" x="0" y="0"/>		
+</LZLMC2>  
+
+<QLD compName="群楼灯" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/QLD/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="群楼灯" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/QLD/control/0/1.png" width="1920" x="0" y="0"/>		
+</QLD>  
+<TGD compName="投光灯" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/TGD/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="投光灯" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/TGD/control/0/1.png" width="1920" x="0" y="0"/>		
+</TGD>  
+
+<RKD compName="入口灯" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/RKD/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="入口灯" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/RKD/control/0/1.png" width="1920" x="0" y="0"/>		
+</RKD> 
+
+<LOGO compName="LOGO灯" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image Name="背景" height="1080" param="bg" source="mapAssets/mapImages/LOGO/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="LOGO灯" height="1080" param="control" paramvaule="0,1" source="mapAssets/mapImages/LOGO/control/0/1.png" width="1920" x="0" y="0"/>		
+</LOGO> 
+
+<!-- end 夜景照明 -->
+
+   <!-- Begin 夜景照明 -->
+	
+
+		<YJZM1 compName="夜景照明1" deviceID="" group="deviceComp" height="800" isPop="true" isPrivate="true" popType="list" type="comp" width="1280">
+			<Image height="800" name="背景" param="bg" source="mapAssets/mapImages/YJZM/bg.png" width="1280" x="0" y="0"/>
+			<Image compName="logo" height="800" param="stateA" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateA/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="soho蜡烛面" height="800" param="stateB" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateB/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="步行街" height="800" param="stateC" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateC/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="大商业蜡烛面" height="800" param="stateD" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateD/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="大商业立面" height="800" param="stateE" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateE/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="大商业投光" height="800" param="stateG" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateG/0/1.png" width="1280" x="0" y="0"/>
+			<Image compName="广告灯箱" height="800" param="stateH" paramvaule="0,1" source="mapAssets/mapImages/YJZM/stateH/0/1.png" width="1280" x="0" y="0"/>
+		</YJZM1>
+		<!-- End 夜景照明 -->
+
+
+			<!-- begin 夜景照明 -->
+			<YJZM compName="夜景照明2" deviceID="" group="deviceComp" height="1080" isPrivate="true" type="comp" width="1920">
+			<Image compName="背景" height="1080" param="bg" source="mapAssets/mapImages/YJZM/bg.png" width="1920" x="0" y="0"/>
+			<Image compName="顶部轮廓" height="1080" param="controlA" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlA/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="广告灯箱" height="1080" param="controlB" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlB/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="蜡烛立面C1" height="1080" param="controlC" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlC/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="蜡烛立面C2" height="1080" param="controlD" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlD/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="群楼灯" height="1080" param="controlE" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlE/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="投光灯" height="1080" param="controlF" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlF/0/1.png" width="1920" x="0" y="0"/>
+			<Image compName="入口灯" height="1080" param="controlG" paramvaule="0,1" source="mapAssets/mapImages/YJZM/controlG/0/1.png" width="1920" x="0" y="0"/>
+			</YJZM>
+			<!-- end -->
+
+	<bg compName="bg" group="map" source="mapAssets/mapImages/bg.png" type="image"/><wandaLogin11 compName="wandaLogin11" group="map" source="mapAssets/mapImages/wandaLogin11.jpg" type="image"/><q1 compName="q1" group="map" source="mapAssets/mapImages/q1.jpg" type="image"/></mapList>
+</maps>

@@ -14,7 +14,7 @@ window.onload=function () {
 * */
 function analysisXML(svg) {
   // let xmlFileName="../lyxtxtjgtOne.xml";
-  let xmlFileName="../lyxtxtjgt.xml";
+  let xmlFileName="../0.xml";
   let xmlDoc
   //IE
   if((/Trident\/7\./).test(navigator.userAgent)){

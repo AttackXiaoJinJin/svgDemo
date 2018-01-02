@@ -14,7 +14,7 @@ window.onload=function () {
 * */
 function analysisXML(svg) {
   // let xmlFileName="../lyxtxtjgtOne.xml";
-  let xmlFileName="../lyxtxtjgt.xml";
+  let xmlFileName="../0.xml";
   let xmlDoc
   //IE
   if((/Trident\/7\./).test(navigator.userAgent)){
@@ -31,21 +31,27 @@ function analysisXML(svg) {
   let Configration=xmlDoc.documentElement
   // console.log(Configration)
   let ConfigWidth=Configration.getAttribute("Width")
+  // let ConfigWidth='100%'
+  let DivWidth=window.offsetWidth
   // let ConfigWidth=2000
   // console.log(ConfigWidth)
   let ConfigHeight=Configration.getAttribute("Height")
+  // let ConfigHeight='100%'
+  let DivHeight=window.offsetHeight
   // let ConfigHeight=1200
   // let ConfigHeight=Configration.getAttribute("Height")
-  let num1=0,num2=0,num3=0,num4=0,temp1=0,temp2=0,temp3=0,temp4=0
 
 
+  console.log(window.offsetWidth)
   //创建svg画布
   // let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
   svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
   dragSVG(svg)
+  // console.log($("#readSVG").css("height"))
+  // console.log($("#readSVG").css("width"))
+
   let LIST=xmlDoc.documentElement.childNodes[0]
   let Components=xmlDoc.documentElement.childNodes[1]
-
   // console.log(Configration.nodeName)
   let ComponentsChildren=Components.childNodes
   //一共两个List Components
@@ -53,6 +59,9 @@ function analysisXML(svg) {
   // console.log(Components.nodeName)
   //改变图片
   var changImg=false
+
+
+
   //优化循环
   // for (let i=0;i<ComponentsChildren.length;i++)
   for (let i=0,m=ComponentsChildren.length;i<m;i++)
@@ -66,7 +75,9 @@ function analysisXML(svg) {
     let group=ComponentsChildren[i].getAttribute("group")
     let image=null
     let width=ComponentsChildren[i].getAttribute("width")
+
     let height=ComponentsChildren[i].getAttribute("height")
+
     let scaleX=ComponentsChildren[i].getAttribute("scaleX")
     let scaleY=ComponentsChildren[i].getAttribute("scaleY")
     let param=ComponentsChildren[i].getAttribute("param")
@@ -87,8 +98,10 @@ function analysisXML(svg) {
      let deviceName=ComponentsChildren[i].getAttribute("deviceName")
      let isMouseOverTip=ComponentsChildren[i].getAttribute("isMouseOverTip")
      let imageSource=ComponentsChildren[i].getAttribute("source")
-     let x=ComponentsChildren[i].getAttribute("x")
-     let y=ComponentsChildren[i].getAttribute("y")
+     let x=parseInt(ComponentsChildren[i].getAttribute("x"))+20
+    let y=parseInt(ComponentsChildren[i].getAttribute("y"))+20
+    //  let x=ComponentsChildren[i].getAttribute("x")
+    //  let y=ComponentsChildren[i].getAttribute("y")
      let paramID=ComponentsChildren[i].getAttribute("paramID")
     //20001 63
     let deviceParam=deviceID+paramID

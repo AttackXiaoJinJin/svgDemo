@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1400" Height="713">
+  <LIST>
+    <Component>
+      <HANDBTN/>
+      <JSBJ/>
+      <DWCQ/>
+      <YCQ/>
+    </Component>
+    <Image>
+      <XFFQB1Q2 source="mapAssets/mapImages/XFFQB1/XFFQB1_2.png" group="map"/>
+      <XFFQB1Q2TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_2TULI.png" group="mapTuli"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQB1Q2 ky="0" x="-61" y="-1" isLocation="true" ay="25" ax="297" width="1434" kx="0" height="714"/>
+    <XFFQB1Q2TULI x="1100" scaleX="0.75" scaleY="0.75" y="10" width="400" height="300"/>
+    <HANDBTN x="419" isToolTip="true" y="81" scaleY="0.3" scaleX="0.3" deviceName="10.4fab98.4fab98 FDM228/230-CN" deviceID="28078" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="421" isToolTip="true" y="187" scaleY="0.3" scaleX="0.3" deviceName="10.5e4351.5e4351 FDM228/230-CN" deviceID="28077" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="416" isToolTip="true" y="291" scaleY="0.3" scaleX="0.3" deviceName="10.59404c.负一2、3区防火卷帘门2" deviceID="28074" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="503" isToolTip="true" y="378" scaleY="0.3" scaleX="0.3" deviceName="10.5f5db6.5f5db6 FDM228/230-CN" deviceID="28076" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="605" isToolTip="true" y="461" scaleY="0.3" scaleX="0.3" deviceName="10.5e3f5c.5e3f5c FDM228/230-CN" deviceID="28069" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="518" isToolTip="true" y="534" scaleY="0.3" scaleX="0.3" deviceName="10.5e4401.负一层3大商电旁消火栓" deviceID="26829" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="479" isToolTip="true" y="542" scaleY="0.3" scaleX="0.3" deviceName="10.6067c4.负一3区超市空调机房温感29" deviceID="26478" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="433" isToolTip="true" y="544" scaleY="0.3" scaleX="0.3" deviceName="10.4b0fc5.负一3区超市空调机房温感30" deviceID="26477" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="569" isToolTip="true" y="657" scaleY="0.3" scaleX="0.3" deviceName="10.5f5ce5.负一3区手报8" deviceID="26163" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="668" isToolTip="true" y="25" scaleY="0.3" scaleX="0.3" deviceName="10.602884.负一3区5#外铺弱电间温感2" deviceID="26487" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="690" isToolTip="true" y="26" scaleY="0.3" scaleX="0.3" deviceName="10.4faba4.负一3区消火栓4" deviceID="26824" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="668" isToolTip="true" y="48" scaleY="0.3" scaleX="0.3" deviceName="10.597524.负一3区5#外铺强电间风机4" deviceID="28084" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="643" isToolTip="true" y="19" scaleY="0.3" scaleX="0.3" deviceName="10.59823e.负一3区5#外铺强电间强切2" deviceID="28080" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="644" isToolTip="true" y="41" scaleY="0.3" scaleX="0.3" deviceName="10.596cfb.负一3区5#外铺强电间风机2" deviceID="28082" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="644" isToolTip="true" y="62" scaleY="0.3" scaleX="0.3" deviceName="10.610de3.负一3区5#外铺强电间风机1" deviceID="28081" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="611" isToolTip="true" y="21" scaleY="0.3" scaleX="0.3" deviceName="10.593d40.负一3区5#外铺强电间强切1" deviceID="28079" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="612" isToolTip="true" y="47" scaleY="0.3" scaleX="0.3" deviceName="10.610dd0.负一3区5#外铺强电间风机3" deviceID="28083" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="940" isToolTip="true" y="27" scaleY="0.3" scaleX="0.3" deviceName="10.5e44d3.5e44d3 FDM228/230-CN" deviceID="28085" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1044" isToolTip="true" y="27" scaleY="0.3" scaleX="0.3" deviceName="10.4fabab.4fabab FDM228/230-CN" deviceID="28086" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1007" isToolTip="true" y="133" scaleY="0.3" scaleX="0.3" deviceName="10.593fc6.593fc6 FDCIO221-CN" deviceID="28101" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="999" isToolTip="true" y="184" scaleY="0.3" scaleX="0.3" deviceName="10.54a550.负一3区货梯厅前室外手报3" deviceID="26161" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="942" isToolTip="true" y="181" scaleY="0.3" scaleX="0.3" deviceName="10.59b6df.负一3区干垃圾间外阀" deviceID="28087" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="878" isToolTip="true" y="185" scaleY="0.3" scaleX="0.3" deviceName="10.4faa9b.负一3区干垃圾间外消火栓6" deviceID="26825" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="932" isToolTip="true" y="243" scaleY="0.3" scaleX="0.3" deviceName="10.4da2d3.负一3区排风机房烟感5" deviceID="25466" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="967" isToolTip="true" y="249" scaleY="0.3" scaleX="0.3" deviceName="10.593f5e.负一3区排风机房风机3" deviceID="28088" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="995" isToolTip="true" y="269" scaleY="0.3" scaleX="0.3" deviceName="10.597587.负一3区排风机房风机2" deviceID="28089" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="967" isToolTip="true" y="279" scaleY="0.3" scaleX="0.3" deviceName="10.593f53.负一3区排风机房风机1" deviceID="28091" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="895" isToolTip="true" y="226" scaleY="0.3" scaleX="0.3" deviceName="10.569d8f.负一3区干垃圾间烟感3" deviceID="25465" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="897" isToolTip="true" y="261" scaleY="0.3" scaleX="0.3" deviceName="10.56c247.56c247 OP720-CN" deviceID="28092" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="882" isToolTip="true" y="296" scaleY="0.3" scaleX="0.3" deviceName="10.5e3f57.5e3f57 FDM228/230-CN" deviceID="28093" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1047" isToolTip="true" y="294" scaleY="0.3" scaleX="0.3" deviceName="10.5f5ce2.负一3区货梯厅前室外手报4" deviceID="26162" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1024" isToolTip="true" y="316" scaleY="0.3" scaleX="0.3" deviceName="10.4da30d.负一3区货梯厅前室外烟感47" deviceID="25467" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1024" isToolTip="true" y="363" scaleY="0.3" scaleX="0.3" deviceName="10.4da2df.负一3区货梯厅前室外烟感9" deviceID="25468" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1047" isToolTip="true" y="393" scaleY="0.3" scaleX="0.3" deviceName="10.4fab2d.负一3区消火栓8" deviceID="26826" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1038" isToolTip="true" y="471" scaleY="0.3" scaleX="0.3" deviceName="10.52c0be.负一3区自动扶梯厅外烟感10" deviceID="25469" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1031" isToolTip="true" y="508" scaleY="0.3" scaleX="0.3" deviceName="10.4da2f2.负一3区自动扶梯厅外烟感28" deviceID="25470" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1046" isToolTip="true" y="524" scaleY="0.3" scaleX="0.3" deviceName="10.4fab9d.4fab9d FDM228/230-CN" deviceID="28097" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="997" isToolTip="true" y="509" scaleY="0.3" scaleX="0.3" deviceName="10.4cb4d8.负一3区自动扶梯厅烟感27" deviceID="25471" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="916" isToolTip="true" y="512" scaleY="0.3" scaleX="0.3" deviceName="10.5692c1.负一3区自动扶梯厅烟感26" deviceID="25472" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="967" isToolTip="true" y="498" scaleY="0.3" scaleX="0.3" deviceName="10.5e409a.负一3区自动扶梯厅消火栓9" deviceID="26827" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="843" isToolTip="true" y="513" scaleY="0.3" scaleX="0.3" deviceName="10.560805.负一3区自动扶梯厅烟感25" deviceID="25473" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="759" isToolTip="true" y="469" scaleY="0.3" scaleX="0.3" deviceName="10.4cb4c5.负一3区自动扶梯厅烟感23" deviceID="25475" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="789" isToolTip="true" y="496" scaleY="0.3" scaleX="0.3" deviceName="10.519c79.负一3区自动扶梯厅消火栓10" deviceID="26828" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="735" isToolTip="true" y="481" scaleY="0.3" scaleX="0.3" deviceName="10.5f5d4e.5f5d4e FDM228/230-CN" deviceID="28095" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="879" isToolTip="true" y="497" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层中间购物中心扶梯室烟2" deviceID="25474" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="459" isToolTip="true" y="577" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层DQ仓库对面消火栓" deviceID="26830" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="938" isToolTip="true" y="449" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层扶梯间南侧手报" deviceID="28096" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1050" isToolTip="true" y="205" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层5号通道烟感" deviceID="28098" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1022" isToolTip="true" y="280" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层5号通道烟感2" deviceID="28099" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1020" isToolTip="true" y="211" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层步行街货梯厅烟感" deviceID="28100" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="903" isToolTip="true" y="281" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层垃圾房防火阀" deviceID="28106" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="996" isToolTip="true" y="293" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层2区风机1" deviceID="28186" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="965" isToolTip="true" y="314" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层2区风机2" deviceID="28187" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="505" isToolTip="true" y="124" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层龙林物业办公室外烟感2" deviceID="28922" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1021" isToolTip="true" y="443" scaleY="0.3" scaleX="0.3" deviceName="AAA_B1层车库扶梯北侧手报" deviceID="70009" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="996" isToolTip="true" y="365" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层3区垃圾房对面非编3" deviceID="28054" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="959" isToolTip="true" y="364" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层3区垃圾房对面非编2" deviceID="28055" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="926" isToolTip="true" y="362" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层3区垃圾房对面非编温" deviceID="28056" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="713" isToolTip="true" y="462" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一3区广播1" deviceID="28064" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="707" isToolTip="true" y="500" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一3区声光1" deviceID="28065" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="732" isToolTip="true" y="604" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层超市3区排烟阀3" deviceID="28564" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="828" isToolTip="true" y="610" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层超市3区排烟阀4" deviceID="28565" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="578" isToolTip="true" y="602" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层超市3区面制品排烟阀2" deviceID="28559" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="416" isToolTip="true" y="586" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层超市1区配电间烟感" deviceID="28352" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="399" isToolTip="true" y="635" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层超市配电间外烟感1" deviceID="28333" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="531" isToolTip="true" y="572" scaleY="0.3" scaleX="0.3" deviceName="AAA_负一层大商业配电室3消火栓" deviceID="28923" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+  </Components>
+</Configration>

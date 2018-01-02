@@ -14,9 +14,15 @@ window.onload=function () {
 * */
 function analysisXML(svg) {
   // let xmlFileName="../lyxtxtjgtOne.xml";
-  let xmlFileName="../19.xml";
-  // let xmlFileName="../19.xml";
-  // let xmlFileName="../19.xml";
+  // let xmlFileName="../0.xml"
+  // let xmlFileName="../19.xml"
+  // let xmlFileName="../20.xml"
+  let xmlFileName="../21.xml"
+  // let xmlFileName="../3.xml"
+  // let xmlFileName="../22.xml"
+  // let xmlFileName="../23.xml"
+  // let xmlFileName="../24.xml"
+
   let xmlDoc
   //IE
   if((/Trident\/7\./).test(navigator.userAgent)){
@@ -48,8 +54,11 @@ function analysisXML(svg) {
     // console.log(width)
     // console.log(height)
     //匹配大背景图片
-    if(!width){width=ConfigWidth}
-    if(!height){height=ConfigHeight}
+    if(group==="map"){
+      width=ConfigWidth
+      height=ConfigHeight
+    }
+
 
     let scaleX=ComponentsChildren[i].getAttribute("scaleX")
     let scaleY=ComponentsChildren[i].getAttribute("scaleY")
@@ -97,19 +106,21 @@ function analysisXML(svg) {
     //如果是要绘制文字的话===========================================
     if(ComponentsChildren[i].getAttribute("text")){
       let color=ComponentsChildren[i].getAttribute("color")
-
+      let fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
       //优先绘制黑色背景框
-      if(color==="#00FF00"){
-        svg.rect(x, y, width-5, height).attr({
+      // if(color==="#00FF00"){
+
+      if(fontFamily==="digifaw"){
+        svg.rect(x, y, width?width-5:40, height?height:20).attr({
           // "stroke": "red",
           "fill": "black"
         })
+        color="#00FF00"
       }
 
-      let fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
       let fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
-      let textX=parseInt(x)+parseInt(width)/2
-      let textY=parseInt(y)+parseInt(height)/2
+      let textX=parseInt(x)+parseInt(width?width-5:40)/2
+      let textY=parseInt(y)+parseInt(height?height:20)/2
       let text=ComponentsChildren[i].getAttribute("text")
 
       // drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight)

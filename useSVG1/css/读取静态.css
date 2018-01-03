@@ -10,6 +10,8 @@ body {
 
 #readSVG{
   position: absolute;
+  top: 23%;
+  left: 27%;
 }
 
 #infoDiv{

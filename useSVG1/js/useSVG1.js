@@ -42,7 +42,7 @@ function analysisXML(svg) {
   // let ConfigHeight=Configration.getAttribute("Height")
 
 
-  console.log(window.offsetWidth)
+  // console.log(window.offsetWidth)
   //创建svg画布
   // let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
   svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
@@ -100,8 +100,7 @@ function analysisXML(svg) {
      let imageSource=ComponentsChildren[i].getAttribute("source")
      let x=parseInt(ComponentsChildren[i].getAttribute("x"))+20
     let y=parseInt(ComponentsChildren[i].getAttribute("y"))+20
-    //  let x=ComponentsChildren[i].getAttribute("x")
-    //  let y=ComponentsChildren[i].getAttribute("y")
+
      let paramID=ComponentsChildren[i].getAttribute("paramID")
     //20001 63
     let deviceParam=deviceID+paramID
@@ -141,7 +140,6 @@ function analysisXML(svg) {
       let textY=parseInt(y)+parseInt(height)/2
       let text=ComponentsChildren[i].getAttribute("text")
 
-      // drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight)
       //绘制文字
       let drawText=svg.text(textX,textY,text)
         .attr({
@@ -169,21 +167,7 @@ function analysisXML(svg) {
           }
 
         }, 3000);
-/*
-        function createNum() {
-          //创建随机数
-          let lt0=parseInt(Math.random()*25+15)
-          let lt2=parseInt(Math.random()*25+15)
-          let lt3=parseInt(Math.random()*25+15)
-          switch(paramID){
-            case "160":drawText.attr({text: lt0});break;
-            case "162":drawText.attr({text: lt2});break;
-            case "163":drawText.attr({text: lt3});break;
-          }
-          requestAnimationFrame(createNum)
-        }
-        createNum()
-*/
+
 
       }
       //=============================
@@ -234,65 +218,6 @@ function analysisXML(svg) {
           }
         }, 3000);
 
-/*
-        //左侧图片
-        function createLeft() {
-          //创建随机数
-          //左闭右开
-          //Hz 50-70
-          let lb1=parseInt(Math.random()*20+50)
-          let lb2=parseInt(Math.random()*20+50)
-          let lb3=parseInt(Math.random()*20+50)
-          // lb3=parseInt(Math.random()*20+50)
-          let lb4=parseInt(Math.random()*20+50)
-          let lb5=parseInt(Math.random()*20+50)
-          //bars
-          let bar1=(Math.random()*2+1).toFixed(1)
-          let bar2=(Math.random()*2+1).toFixed(1)
-          let bar3=(Math.random()*2+1).toFixed(1)
-          let bar4=(Math.random()*2+1).toFixed(1)
-          let bar5=(Math.random()*2+1).toFixed(1)
-
-          switch(deviceParam){
-            //Hz
-            case "2000163":drawText.attr({text: lb1});hzStatus[20001]=lb1;break;
-            case "2000263":drawText.attr({text: lb2});hzStatus[20002]=lb2;break;
-            case "2000363":showLb3(lb3,lb3img);drawText.attr({text: lb3});hzStatus[20003]=lb3;break;
-            case "2000463":drawText.attr({text: lb4});hzStatus[20004]=lb4;break;
-            case "2000563":drawText.attr({text: lb5});hzStatus[20005]=lb5;break;
-            case "3000163":drawText.attr({text: lb1});hzStatus[30001]=lb1;break;
-            case "3000263":drawText.attr({text: lb2});hzStatus[30002]=lb2;break;
-            case "3000363":drawText.attr({text: lb3});hzStatus[30003]=lb3;break;
-            case "3000463":drawText.attr({text: lb4});hzStatus[30004]=lb4;break;
-            case "3000563":drawText.attr({text: lb5});hzStatus[30005]=lb5;break;
-            //bars
-            case "2000162":drawText.attr({text: bar1});inStress[20001]=bar1;break;
-            case "2000262":drawText.attr({text: bar2});inStress[20002]=bar2;break;
-            case "2000362":drawText.attr({text: bar3});inStress[20003]=bar3;break;
-            case "2000462":drawText.attr({text: bar4});inStress[20004]=bar4;break;
-            case "2000562":drawText.attr({text: bar5});inStress[20005]=bar5;break;
-            case "3000162":drawText.attr({text: bar1});inStress[30001]=bar1;break;
-            case "3000262":drawText.attr({text: bar2});inStress[30002]=bar2;break;
-            case "3000362":drawText.attr({text: bar3});inStress[30003]=bar3;break;
-            case "3000462":drawText.attr({text: bar4});inStress[30004]=bar4;break;
-            case "3000562":drawText.attr({text: bar5});inStress[30005]=bar5;break;
-          }
-
-          if(lb3>=60) {
-            //只执行一次
-            if (flag) {
-              lb3img = svg.image("assets/comp/LQB/alarm/1/9.png", 350, 280, 35.2, 34.8)
-                .attr({
-                  cursor: 'pointer',
-                })
-            }
-          }
-          flag=false
-
-          requestAnimationFrame(createLeft)
-        }
-        createLeft()
-*/
 
       }
     }
@@ -352,44 +277,167 @@ function analysisXML(svg) {
       //绘制旋转动画
       if(mark==="LQT"){
         let i=1
+        /*
         function frame() {
           i=i+4
           if(i===13){
             i=1
           }
-          $("#4001240012")[0].href.baseVal="assets/comp/LQT7/runing1/1/"+i+".png"
+          $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQT7/runing1/1/"+i+".png"
           requestAnimationFrame(frame)
         }
-        if(group==="deviceComp" && deviceID==='40012'){
-        // if(group==="deviceComp" ){
+        //===冷却塔
+        if(group==="deviceComp" && mark==='LQT'){
           let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
             .attr({cursor:'pointer'
             })
-          aa.node.setAttribute("id","4001240012")
+          aa.node.setAttribute("id",deviceID+deviceID)
           frame()
         }
-
+        */
+        // /*
+        //使用setInterval
+        if(group==="deviceComp" && mark==='LQT'){
+          let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id",deviceID+deviceID)
+          // frame
+          setInterval(function () {
+            i=i+4
+            if(i>=13){
+              i=1
+            }
+            $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQT7/runing1/1/"+i+".png"
+          },50)
+        }
+        // */
       }
       //============上面风扇
       //======螺旋
+      //第四个冷水机
       if(mark==="LSJ"){
+
         let i=1
-        function frame1() {
-          i=i+4
-          if(i===13){
+
+        // function frame1() {
+        //   i=i+4
+        //   if(i>=13){
+        //     i=1
+        //   }
+        //   $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
+        //   requestAnimationFrame(frame1)
+        // }
+
+        // let frame1=setInterval(function () {
+        //   i=i+4
+        //   if(i>=13){
+        //     i=1
+        //   }
+        //   $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
+        //
+        // },50)
+
+
+        /*
+        //前三个冷水机
+        function frame2() {
+          i=i+2
+          if(i===7){
             i=1
           }
-          $("#1000410004")[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
-          requestAnimationFrame(frame1)
+          $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LXJZ/runing/1/"+i+".png"
+          requestAnimationFrame(frame2)
         }
-        if(group==="deviceComp" && deviceID==='10004'){
-          // console.log("bb")
-          let aa=svg.image("assets/comp/LGJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX),parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
+        */
+
+        // let frame2=
+
+        //=======冷水机
+        let aa
+        if(group==="deviceComp" && mark==='LSJ' && deviceID==='10004'){
+          aa=svg.image("assets/comp/LGJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX),parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
             .attr({cursor:'pointer'
             })
-          aa.node.setAttribute("id","1000410004")
-          frame1()
+          aa.node.setAttribute("id",deviceID+deviceID)
+          // frame1()
+          // frame1
+          setInterval(function () {
+              i=i+4
+              if(i>=13){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
+
+            },50)
         }
+        else
+          if(group==="deviceComp" && mark==='LSJ' ){
+          aa=svg.image("assets/comp/LXJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id",deviceID+deviceID)
+          // frame2()
+          // frame2
+            setInterval(function () {
+              i=i+2
+              if(i>=7){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LXJZ/runing/1/"+i+".png"
+            },51)
+
+        }
+
+
+       //==================if
+
+      }
+      //========冷水机上面
+
+      //==========冷却泵 冷冻泵 补水泵
+      if(mark==="LQB" || mark==="LDB" || mark==="LDSBSB"){
+        let i=1
+        /*
+        function frame3() {
+          i=i+1
+          if(i===4){
+            i=1
+          }
+          $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQB/runing/1/"+i+".png"
+          requestAnimationFrame(frame3)
+        }
+        let aa
+        if(group==="deviceComp" && (mark==='LQB' || mark==='LDB' || mark==="LDSBSB") ){
+          aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y),parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+          // aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.1,parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id",deviceID+deviceID)
+          frame3()
+        }
+      */
+        let aa
+        if(group==="deviceComp" && (mark==="LQB" || mark==="LDB" || mark==="LDSBSB")){
+          aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y),parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+          // aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.1,parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+            .attr({cursor:'pointer'
+            })
+          aa.node.setAttribute("id",deviceID+deviceID)
+          // frame3
+          setInterval(function () {
+            i=i+1
+            if(i>=4){
+              i=1
+            }
+            $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQB/runing/1/"+i+".png"
+            console.log($("#"+deviceID+deviceID)[0].href.baseVal)
+          },50)
+
+
+        }
+
+
       }
      }
      //==========else
@@ -401,19 +449,6 @@ function analysisXML(svg) {
   let children=svgEle.childNodes
 }
 //============解析xml
-
-//缩放
-/*
-function scale() {
-  let r = document.body.offsetWidth / window.screen.availWidth;
-  $(document.body).css("-ms-transform","scale("+r+")");
-
-  $(window).resize(function() {
-    let r = document.body.offsetWidth / window.screen.availWidth;
-    $(document.body).css("-ms-transform","scale("+r+")");
-  });
-}
-*/
 
 //缩放
 function scale(r) {

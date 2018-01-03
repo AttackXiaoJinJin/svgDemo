@@ -1,6 +1,9 @@
 //全局变量
 var svgLeft=0
 var svgTop=0
+var paperLeft=0
+var paperTop=0
+var jsonData=null
 
 window.onload=function () {
   let svg=null
@@ -17,11 +20,14 @@ function analysisXML(svg) {
   // let xmlFileName="../0.xml"
   // let xmlFileName="../19.xml"
   // let xmlFileName="../20.xml"
-  let xmlFileName="../21.xml"
+  // let xmlFileName="../21.xml"
   // let xmlFileName="../3.xml"
   // let xmlFileName="../22.xml"
   // let xmlFileName="../23.xml"
   // let xmlFileName="../24.xml"
+  // let xmlFileName="../1.xml"
+  // let xmlFileName="../2.xml"
+  let xmlFileName="../0.xml"
 
   let xmlDoc
   //IE
@@ -39,6 +45,9 @@ function analysisXML(svg) {
   svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
   dragSVG(svg)
   let LIST=xmlDoc.documentElement.childNodes[0]
+  let LISTImage=LIST.childNodes[1]
+  let LISTImageChildren=LISTImage.childNodes
+  // console.log(LISTImage.childNodes.length)
   let Components=xmlDoc.documentElement.childNodes[1]
   let ComponentsChildren=Components.childNodes
   //改变图片
@@ -46,6 +55,15 @@ function analysisXML(svg) {
   //优化循环
   for (let i=0,m=ComponentsChildren.length;i<m;i++)
   {
+    let imageSource=ComponentsChildren[i].getAttribute("source")
+    //如果没有source就从listimg中寻找
+    if(!imageSource){
+      for(let j=0,n=LISTImageChildren.length;j<n;j++){
+        if(ComponentsChildren[i].nodeName===LISTImageChildren[j].nodeName){
+          imageSource=LISTImageChildren[j].getAttribute("source")
+        }
+      }
+    }
     let nodename=ComponentsChildren[i].nodeName
     let group=ComponentsChildren[i].getAttribute("group")
     let image=null
@@ -79,7 +97,7 @@ function analysisXML(svg) {
      let deviceID=ComponentsChildren[i].getAttribute("deviceID")
      let deviceName=ComponentsChildren[i].getAttribute("deviceName")
      let isMouseOverTip=ComponentsChildren[i].getAttribute("isMouseOverTip")
-     let imageSource=ComponentsChildren[i].getAttribute("source")
+
      let x=ComponentsChildren[i].getAttribute("x")
      let y=ComponentsChildren[i].getAttribute("y")
      let paramID=ComponentsChildren[i].getAttribute("paramID")
@@ -228,26 +246,24 @@ function analysisXML(svg) {
          // }
        })
        .mouseover(function (e) {
-         // //鼠标悬停有事件
-         // if(isMouseOverTip){
-         //   //显示栏
-         //   $("#infoDiv")
-         //     //位置
-         //     // .css("left",(parseInt(x)+parseInt(width)+10)+"px")
-         //     .css("left",(parseInt(x)+parseInt(width)+10)+parseInt(svgLeft)+"px")
-         //     // .css("top",(parseInt(y)+parseInt(height)+10)+"px")
-         //     .css("top",(parseInt(y)+parseInt(height)+10)+parseInt(svgTop)+"px")
-         //     .css("display","block")
-         //   //改变数据
-         //   $("#deviceName").text(deviceName)
-         //   $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
-         //   $("#hzStatus").text(hzStatus[deviceID])
-         //   $("#inStress").text(inStress[deviceID])
-         // }
+       // .mouseenter(function (e) {
+         // time = (new Date()).getTime();
+         // console.log(time)
+         //鼠标悬停有事件
+         if(isMouseOverTip){
+           // console.log(deviceID)
+           //改变数据
+           // $("#deviceName").text(deviceName)
+           // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+           // $("#hzStatus").text(hzStatus[deviceID])
+           // $("#inStress").text(inStress[deviceID])
+           getJSON("../json/cold1.json",deviceID)
+           // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
+         }
        })
        .mouseout(function () {
-         // $("#infoDiv")
-         //   .css("display","none")
+         $("#infoDiv")
+           .css("display","none")
        })
 
       //添加ID
@@ -314,7 +330,10 @@ function analysisXML(svg) {
   svgEle.style.top='50%'
   svgEle.style.marginLeft="-"+parseInt(ConfigWidth)/2+"px"
   svgEle.style.marginTop="-"+parseInt(ConfigHeight)/2+"px"
-
+  paperLeft=parseInt($("#readSVG").css("width"))/2-parseInt(ConfigWidth)/2
+  paperTop=parseInt($("#readSVG").css("height"))/2-parseInt(ConfigHeight)/2
+// console.log($("#readSVG").css("height"))
+// console.log(ConfigHeight)
 
   let children=svgEle.childNodes
 }
@@ -421,6 +440,39 @@ function dragSVG() {
   }
 }
 
+function getJSON(address,deviceID) {
+  $.getJSON(address, function(data) {
+    let $infoDiv= $("#infoDiv");
+    $infoDiv.empty();//清空内容
+    $.each(data.result,function(i,group){
+      // if(group[i].deviceID===deviceID){
+      //   console.log(group[i])
+      // }
+      console.log(group)
+      // strHtml += "姓名："+info["name"]+"<br>";
+      // strHtml += "性别："+info["sex"]+"<br>";
+      // strHtml += "邮箱："+info["email"]+"<br>";
+      // strHtml += "<hr>"
+    })
+    // $jsontip.html(strHtml);
+    //显示处理后的数据
+
+
+    //显示栏
+    $("#infoDiv")
+    //位置
+      .css("left",parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)+"px")
+      .css("top",parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)+"px")
+      .css("display","block")
+
+  })
+  
+}
+
+//读取json数据
+function readJSON(result,deviceID) {
+  // console.log(result)
+}
 
 
 

@@ -277,7 +277,7 @@ function analysisXML(svg) {
       //绘制旋转动画
       if(mark==="LQT"){
         let i=1
-        /*
+        //===========================
         function frame() {
           i=i+4
           if(i===13){
@@ -294,8 +294,7 @@ function analysisXML(svg) {
           aa.node.setAttribute("id",deviceID+deviceID)
           frame()
         }
-        */
-        // /*
+        //============================
         //使用setInterval
         if(group==="deviceComp" && mark==='LQT'){
           let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
@@ -319,7 +318,7 @@ function analysisXML(svg) {
       if(mark==="LSJ"){
 
         let i=1
-
+        //===================================
         // function frame1() {
         //   i=i+4
         //   if(i>=13){
@@ -339,19 +338,17 @@ function analysisXML(svg) {
         // },50)
 
 
-        /*
-        //前三个冷水机
-        function frame2() {
-          i=i+2
-          if(i===7){
-            i=1
-          }
-          $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LXJZ/runing/1/"+i+".png"
-          requestAnimationFrame(frame2)
-        }
-        */
 
-        // let frame2=
+        //前三个冷水机
+        // function frame2() {
+        //   i=i+2
+        //   if(i===7){
+        //     i=1
+        //   }
+        //   $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LXJZ/runing/1/"+i+".png"
+        //   requestAnimationFrame(frame2)
+        // }
+        //====================================
 
         //=======冷水机
         let aa
@@ -361,7 +358,6 @@ function analysisXML(svg) {
             })
           aa.node.setAttribute("id",deviceID+deviceID)
           // frame1()
-          // frame1
           setInterval(function () {
               i=i+4
               if(i>=13){
@@ -378,7 +374,6 @@ function analysisXML(svg) {
             })
           aa.node.setAttribute("id",deviceID+deviceID)
           // frame2()
-          // frame2
             setInterval(function () {
               i=i+2
               if(i>=7){
@@ -388,8 +383,6 @@ function analysisXML(svg) {
             },51)
 
         }
-
-
        //==================if
 
       }
@@ -398,25 +391,26 @@ function analysisXML(svg) {
       //==========冷却泵 冷冻泵 补水泵
       if(mark==="LQB" || mark==="LDB" || mark==="LDSBSB"){
         let i=1
-        /*
-        function frame3() {
-          i=i+1
-          if(i===4){
-            i=1
-          }
-          $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQB/runing/1/"+i+".png"
-          requestAnimationFrame(frame3)
-        }
-        let aa
-        if(group==="deviceComp" && (mark==='LQB' || mark==='LDB' || mark==="LDSBSB") ){
-          aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y),parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
-          // aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.1,parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
-            .attr({cursor:'pointer'
-            })
-          aa.node.setAttribute("id",deviceID+deviceID)
-          frame3()
-        }
-      */
+        //======================================
+        // function frame3() {
+        //   i=i+1
+        //   if(i===4){
+        //     i=1
+        //   }
+        //   $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQB/runing/1/"+i+".png"
+        //   requestAnimationFrame(frame3)
+        // }
+        // let aa
+        // if(group==="deviceComp" && (mark==='LQB' || mark==='LDB' || mark==="LDSBSB") ){
+        //   aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y),parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+        //   // aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.1,parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
+        //     .attr({cursor:'pointer'
+        //     })
+        //   aa.node.setAttribute("id",deviceID+deviceID)
+        //   frame3()
+        // }
+
+        //============================================
         let aa
         if(group==="deviceComp" && (mark==="LQB" || mark==="LDB" || mark==="LDSBSB")){
           aa=svg.image("assets/comp/LQB/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.7,parseInt(y),parseInt(width)*parseFloat(scaleX)*1.1,parseInt(height)*parseFloat(scaleY)*0.9)
@@ -431,12 +425,9 @@ function analysisXML(svg) {
               i=1
             }
             $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/LQB/runing/1/"+i+".png"
-            console.log($("#"+deviceID+deviceID)[0].href.baseVal)
           },50)
-
-
         }
-
+        //==========================================
 
       }
      }

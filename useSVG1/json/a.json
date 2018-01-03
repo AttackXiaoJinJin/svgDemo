@@ -1,0 +1,13 @@
+{
+  "result":
+  [
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    }]
+}

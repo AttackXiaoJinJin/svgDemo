@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="edf66f90-0086-492f-b701-137b74f9d042" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/useSVG1/js/读取静态.js" afterPath="$PROJECT_DIR$/useSVG1/js/读取静态.js" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/json/cold.json" afterPath="$PROJECT_DIR$/useSVG1/json/cold.json" />
+      <change beforePath="$PROJECT_DIR$/useSVG1/json/cold1.json" afterPath="$PROJECT_DIR$/useSVG1/json/cold1.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6423797">
+    <splitter split-orientation="horizontal" split-proportion="0.6041287">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="0.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/useSVG1/0.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1183">
-                  <caret line="346" column="200" lean-forward="false" selection-start-line="346" selection-start-column="200" selection-end-line="346" selection-end-column="200" />
+                <state relative-caret-position="235">
+                  <caret line="198" column="340" lean-forward="false" selection-start-line="198" selection-start-column="340" selection-end-line="198" selection-end-column="340" />
                   <folding />
                 </state>
               </provider>
@@ -31,12 +33,15 @@
           <file leaf-file-name="读取静态.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/useSVG1/js/读取静态.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="655">
-                  <caret line="696" column="0" lean-forward="true" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
+                <state relative-caret-position="457">
+                  <caret line="164" column="25" lean-forward="true" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
                   <folding>
-                    <element signature="e#5502#8123#0" expanded="false" />
-                    <element signature="e#9999#10718#0" expanded="false" />
-                    <element signature="e#10783#11538#0" expanded="false" />
+                    <element signature="e#216#257#0" expanded="false" />
+                    <element signature="e#7731#7741#0" expanded="false" />
+                    <element signature="e#8315#8344#0" expanded="false" />
+                    <element signature="e#8477#8501#0" expanded="false" />
+                    <element signature="e#9271#9990#0" expanded="false" />
+                    <element signature="e#10055#10810#0" expanded="false" />
                     <element signature="n#!!block;n#drawText#0" expanded="false" />
                     <element signature="n#!!block;n#runTime#0" expanded="false" />
                     <element signature="n#!!block;n#showLb3#0" expanded="false" />
@@ -48,7 +53,7 @@
           <file leaf-file-name="读取静态.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/useSVG1/html/读取静态.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
+                <state relative-caret-position="957">
                   <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
                   <folding />
                 </state>
@@ -69,11 +74,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="cold.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cold.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/useSVG1/json/cold.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-44687">
-                  <caret line="2637" column="19" lean-forward="false" selection-start-line="2637" selection-start-column="19" selection-end-line="2637" selection-end-column="19" />
+                <state relative-caret-position="235">
+                  <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cold1.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/useSVG1/json/cold1.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="433">
+                  <caret line="1657" column="6" lean-forward="true" selection-start-line="1657" selection-start-column="6" selection-end-line="1657" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -95,16 +110,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>digifaw</find>
-      <find>deviceComp</find>
-      <find>LQT</find>
-      <find>assets/comp/LXJZ/alarm/0/1.png</find>
-      <find>assets/comp/LGJZ/alarm/0/1.png</find>
-      <find>assets/comp/LQB/alarm/0/1.png</find>
-      <find>LQB</find>
-      <find>LDB</find>
       <find>BSB</find>
-      <find>10001</find>
       <find>isMouseOverTip</find>
       <find>大商业冷水机组1#</find>
       <find>大商业冷水机组</find>
@@ -125,6 +131,15 @@
       <find>653</find>
       <find>assets/comp/LQT7/bg.png</find>
       <find>#冷却塔&quot;</find>
+      <find>1</find>
+      <find>20001</find>
+      <find>73</find>
+      <find>10001</find>
+      <find>&quot;paramID&quot;:161,</find>
+      <find>&quot;pa</find>
+      <find>&quot;paramId&quot;:161,</find>
+      <find>&quot;paramId&quot;:160</find>
+      <find>&quot;paramId&quot;:161</find>
     </findStrings>
     <replaceStrings>
       <replace>shapeAttribute</replace>
@@ -201,11 +216,11 @@
         <option value="$PROJECT_DIR$/useSVG1/js/useSVG1.js" />
         <option value="$PROJECT_DIR$/useSVG1/json/冷源组态.json" />
         <option value="$PROJECT_DIR$/useSVG1/json/a.json" />
-        <option value="$PROJECT_DIR$/useSVG1/json/cold1.json" />
         <option value="$PROJECT_DIR$/useSVG1/html/读取静态.html" />
         <option value="$PROJECT_DIR$/useSVG1/css/读取静态.css" />
-        <option value="$PROJECT_DIR$/useSVG1/json/cold.json" />
         <option value="$PROJECT_DIR$/useSVG1/0.xml" />
+        <option value="$PROJECT_DIR$/useSVG1/json/cold.json" />
+        <option value="$PROJECT_DIR$/useSVG1/json/cold1.json" />
         <option value="$PROJECT_DIR$/useSVG1/js/读取静态.js" />
       </list>
     </option>
@@ -402,12 +417,12 @@
       <workItem from="1514892124923" duration="223000" />
       <workItem from="1514892702860" duration="2590000" />
       <workItem from="1514941340517" duration="25520000" />
-      <workItem from="1515027625308" duration="18580000" />
+      <workItem from="1515027625308" duration="28093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444537000" />
+    <option name="totallyTimeSpent" value="454050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -647,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/js/useSVG1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="295" column="9" lean-forward="false" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG1/1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
@@ -715,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/json/cold1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="506" column="6" lean-forward="false" selection-start-line="506" selection-start-column="6" selection-end-line="506" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useSVG1/html/assets/comp/data/Components.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -747,38 +746,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/html/读取静态.html">
+    <entry file="file://$PROJECT_DIR$/useSVG1/js/useSVG1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/useSVG1/json/cold.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44687">
-          <caret line="2637" column="19" lean-forward="false" selection-start-line="2637" selection-start-column="19" selection-end-line="2637" selection-end-column="19" />
+        <state relative-caret-position="4778">
+          <caret line="295" column="9" lean-forward="false" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG1/0.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="346" column="200" lean-forward="false" selection-start-line="346" selection-start-column="200" selection-end-line="346" selection-end-column="200" />
+        <state relative-caret-position="235">
+          <caret line="198" column="340" lean-forward="false" selection-start-line="198" selection-start-column="340" selection-end-line="198" selection-end-column="340" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/json/cold.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/html/读取静态.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useSVG1/json/cold1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="1657" column="6" lean-forward="true" selection-start-line="1657" selection-start-column="6" selection-end-line="1657" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/useSVG1/js/读取静态.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="696" column="0" lean-forward="true" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
+        <state relative-caret-position="457">
+          <caret line="164" column="25" lean-forward="true" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
           <folding>
-            <element signature="e#5502#8123#0" expanded="false" />
-            <element signature="e#9999#10718#0" expanded="false" />
-            <element signature="e#10783#11538#0" expanded="false" />
+            <element signature="e#216#257#0" expanded="false" />
+            <element signature="e#7731#7741#0" expanded="false" />
+            <element signature="e#8315#8344#0" expanded="false" />
+            <element signature="e#8477#8501#0" expanded="false" />
+            <element signature="e#9271#9990#0" expanded="false" />
+            <element signature="e#10055#10810#0" expanded="false" />
             <element signature="n#!!block;n#drawText#0" expanded="false" />
             <element signature="n#!!block;n#runTime#0" expanded="false" />
             <element signature="n#!!block;n#showLb3#0" expanded="false" />

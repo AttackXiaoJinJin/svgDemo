@@ -22,20 +22,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":10001,
       "deviceName":"大商业冷水机组1#",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":10001,
       "deviceName":"大商业冷水机组1#",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {
@@ -157,20 +157,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":10002,
       "deviceName":"大商业冷水机组2#",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":10002,
       "deviceName":"大商业冷水机组2#",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {
@@ -292,20 +292,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":10003,
       "deviceName":"大商业冷水机组3#",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":10003,
       "deviceName":"大商业冷水机组3#",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {
@@ -427,20 +427,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":10004,
       "deviceName":"大商业冷水机组4#",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":10004,
       "deviceName":"大商业冷水机组4#",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {
@@ -516,20 +516,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":1720001,
       "deviceName":"大商业冷站管网参数",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":1720001,
       "deviceName":"大商业冷站管网参数",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {
@@ -1641,20 +1641,20 @@
 
     {
       "paramID":160,
-      "statusEnValue":"20",
+      "statusEnValue":"21",
       "paramEnName":"ldewTemp",
       "deviceID":2390003,
       "deviceName":"大商业冷源群控",
-      "statusValue":"20"
+      "statusValue":"21"
     },
 
     {
       "paramID":161,
-      "statusEnValue":"20",
+      "statusEnValue":"19",
       "paramEnName":"lqewTemp",
       "deviceID":2390003,
       "deviceName":"大商业冷源群控",
-      "statusValue":"20"
+      "statusValue":"19"
     },
 
     {

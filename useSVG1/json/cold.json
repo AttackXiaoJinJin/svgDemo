@@ -772,7 +772,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//工作频率低于下限故障报警
     {
       "paramID":16,
       "statusEnValue":"正常",
@@ -808,7 +808,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//手自动状态
     {
       "paramID":38,
       "statusEnValue":"手动",
@@ -817,7 +817,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//=====出口分支管压力反馈（bars）
     {
       "paramID":62,
       "statusEnValue":"0",
@@ -826,7 +826,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//=====频率反馈（Hz）
     {
       "paramID":63,
       "statusEnValue":"0",
@@ -835,7 +835,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//=====进水压力反馈（bars）
     {
       "paramID":659,
       "statusEnValue":"0",
@@ -844,7 +844,7 @@
       "deviceName":"大商业1#冷却泵",
       "statusValue":"0"
     },
-
+//===============================
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -1168,7 +1168,7 @@
       "deviceName":"大商业5#冷却泵",
       "statusValue":"0"
     },
-
+//==============
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -1249,7 +1249,7 @@
       "deviceName":"大商业1#免费冷却泵",
       "statusValue":"0"
     },
-
+//===============
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -1330,7 +1330,7 @@
       "deviceName":"大商业2#免费冷却泵",
       "statusValue":"0"
     },
-
+//==================
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -1375,7 +1375,7 @@
       "deviceName":"大商业1#补水泵",
       "statusValue":"0"
     },
-
+//===============
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -1420,7 +1420,7 @@
       "deviceName":"大商业2#补水泵",
       "statusValue":"0"
     },
-
+//===================
     {
       "paramID":15,
       "statusEnValue":"正常",
@@ -1438,7 +1438,7 @@
       "deviceName":"大商业软化水箱",
       "statusValue":"0"
     },
-
+//=================
     {
       "paramID":656,
       "statusEnValue":"关闭",
@@ -1618,7 +1618,7 @@
       "deviceName":"大商业12#分水器蝶阀",
       "statusValue":"0"
     },
-
+//=====================
     {
       "paramID":11,
       "statusEnValue":"停止",
@@ -1996,7 +1996,7 @@
       "deviceName":"大商业冷源群控",
       "statusValue":"0"
     },
-
+//=====================
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -2401,7 +2401,7 @@
       "deviceName":"大商业5#冷冻泵",
       "statusValue":"0"
     },
-
+//===============================
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -2563,7 +2563,7 @@
       "deviceName":"大商业2#免费冷冻泵",
       "statusValue":"0"
     },
-
+//============================
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -2608,7 +2608,7 @@
       "deviceName":"大商业1#冷却塔",
       "statusValue":"0"
     },
-
+//=========风机频率反馈
     {
       "paramID":422,
       "statusEnValue":"0",
@@ -2617,7 +2617,7 @@
       "deviceName":"大商业1#冷却塔",
       "statusValue":"0"
     },
-
+//==========冷却塔出水温度低于冷机保护
     {
       "paramID":50,
       "statusEnValue":"正常",
@@ -2626,7 +2626,7 @@
       "deviceName":"大商业1#冷却塔",
       "statusValue":"0"
     },
-
+//===冷却塔风机工作频率低于下限
     {
       "paramID":653,
       "statusEnValue":"正常",
@@ -2635,7 +2635,7 @@
       "deviceName":"大商业1#冷却塔",
       "statusValue":"0"
     },
-
+//=================
     {
       "paramID":1,
       "statusEnValue":"停止",

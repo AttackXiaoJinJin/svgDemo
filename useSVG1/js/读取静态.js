@@ -483,7 +483,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                         +"<td>"+group.deviceName+"</td>"
                         +"<td>"+"位置"+"</td>"
                         +"<td>"+"运行状态"+"</td>"
-                        +"<td>"+group.statusValue+"</td>"
+                        +"<td>"+group.statusEnValue+"</td>"
                         +"</tr>";break;
             // case "compressorRunTime":
             case 115:
@@ -491,7 +491,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                         +"<td>"+group.deviceName+"</td>"
                         +"<td>"+"位置"+"</td>"
                         +"<td>"+"压缩机运行小时数"+"</td>"
-                        +"<td>"+group.statusValue+"</td>"
+                        +"<td>"+group.statusEnValue+"</td>"
                         +"</tr>";break;
             // case "ldewTemp":
             case 160:
@@ -499,7 +499,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                         +"<td>"+group.deviceName+"</td>"
                         +"<td>"+"位置"+"</td>"
                         +"<td>"+"冷冻水供水温度"+"</td>"
-                        +"<td>"+group.statusValue+"</td>"
+                        +"<td>"+group.statusEnValue+"</td>"
                         +"</tr>";break;
             // // case "lqewTemp":
             case 161:
@@ -507,7 +507,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷却水供水温度"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             // // case "ldiwTemp":
             case 162:
@@ -515,7 +515,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷冻水回水温度"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             // // case "lqiwTemp":
             case 163:
@@ -523,7 +523,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷却水回水温度"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";
               break;
             // // case "runTime":
@@ -532,7 +532,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"本日运行时间"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";
               break;
             // // case "xdybfb":
@@ -541,7 +541,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"压缩机运行电流百分比"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";
               break;
             // // case "alarm":
@@ -550,7 +550,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"报警状态"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             // // case "runTime1":
             case 201:
@@ -558,7 +558,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷机运行时间"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             // // case "runTime1":
             case 203:
@@ -566,36 +566,95 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"总运行时间"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             case 253:
               tbody.innerHTML+="<tr>"
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷冻水出水温度设定值"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             case 69:
               tbody.innerHTML+="<tr>"
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"冷凝压力"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             case 70:
               tbody.innerHTML+="<tr>"
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"蒸发压力"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
             case 11:
               tbody.innerHTML+="<tr>"
                 +"<td>"+group.deviceName+"</td>"
                 +"<td>"+"位置"+"</td>"
                 +"<td>"+"启停控制"+"</td>"
-                +"<td>"+group.statusValue+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
+            //大商业冷却泵
+            case 16:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"工作频率低于下限故障报警"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 38:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"手自动状态"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 62:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"出口分支管压力反馈（bars）"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 63:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"频率反馈（Hz）"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 659:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"进水压力反馈（bars）"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 422:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"风机频率反馈"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 50:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷却塔出水温度低于冷机保护"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+            case 653:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷却塔风机工作频率低于下限"+"</td>"
+                +"<td>"+group.statusEnValue+"</td>"
+                +"</tr>";break;
+
+
           }
           //================switch
           // $infoDiv.appendChild(tbody.innerHTML)

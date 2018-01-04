@@ -1,7 +1,7 @@
 {
   "result":
   [
-//运行
+//运行状态
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -10,7 +10,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//    压缩机运行时间
+//    压缩机运行小时数
     {
       "paramID":115,
       "statusEnValue":"0",
@@ -19,7 +19,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//    冷冻 温度
+//    冷冻水供水温度
     {
       "paramID":160,
       "statusEnValue":"20",
@@ -28,7 +28,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"20"
     },
-//  冷却供水温度
+//  冷却水供水温度
     //equip water
     {
       "paramID":161,
@@ -38,7 +38,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"20"
     },
-//  冷冻回水温度
+//  冷冻水回水温度
 //  increase water
     {
       "paramID":162,
@@ -48,7 +48,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"20"
     },
-//  冷却 温度
+//  冷却水回水温度
     {
       "paramID":163,
       "statusEnValue":"20",
@@ -57,7 +57,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"20"
     },
-//运行时间
+//本日运行时间
     {
       "paramID":17,
       "statusEnValue":"0",
@@ -75,7 +75,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//是否报警
+///报警状态
     {
       "paramID":2,
       "statusEnValue":"正常",
@@ -84,7 +84,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//    运行时间
+//    冷机运行时间
     {
       "paramID":201,
       "statusEnValue":"0",
@@ -93,7 +93,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//冷机运行时间
+//总运行时间
     {
       "paramID":203,
       "statusEnValue":"0",
@@ -102,7 +102,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
-//
+//冷冻水出水温度设定值
     {
       "paramID":253,
       "statusEnValue":"20",
@@ -509,6 +509,7 @@
       "statusValue":"20"
     },
 //================================
+    //机房室内温度
     {
       "paramID":73,
       "statusEnValue":"20",
@@ -518,6 +519,8 @@
       "statusValue":"20"
     },
 //=========================
+    //冷冻水供水温度
+    //左边20℃
     {
       "paramID":160,
       "statusEnValue":"20",
@@ -526,7 +529,7 @@
       "deviceName":"大商业冷站管网参数",
       "statusValue":"20"
     },
-
+    //冷却水供水温度
     {
       "paramID":161,
       "statusEnValue":"20",
@@ -724,7 +727,7 @@
       "deviceName":"大商业冷站管网参数",
       "statusValue":"0"
     },
-
+//===================================
     {
       "paramID":410,
       "statusEnValue":"0",
@@ -760,7 +763,7 @@
       "deviceName":"大商业冷站管网参数补充",
       "statusValue":"0"
     },
-
+//====================================
     {
       "paramID":1,
       "statusEnValue":"停止",

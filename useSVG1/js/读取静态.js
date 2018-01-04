@@ -153,6 +153,8 @@ function analysisXML(svg) {
           'font-family':fontFamily,
           'font-weight':fontWeight
         })
+      //给文字加id
+      drawText.node.setAttribute("textId",deviceID)
 
       //冷水机的温度
       if(mark==="LSJ"){
@@ -244,12 +246,7 @@ function analysisXML(svg) {
          //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
          //   handAuto[deviceID]=false
          // }
-       })
-       .mouseover(function (e) {
-       // .mouseenter(function (e) {
-         // time = (new Date()).getTime();
-         // console.log(time)
-         //鼠标悬停有事件
+
          if(isMouseOverTip){
            // console.log(deviceID)
            //改变数据
@@ -257,13 +254,21 @@ function analysisXML(svg) {
            // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
            // $("#hzStatus").text(hzStatus[deviceID])
            // $("#inStress").text(inStress[deviceID])
-           getJSON("../json/cold1.json",deviceID)
+           getJSON("../json/cold1.json",deviceID,x,y,width,height)
            // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
          }
+
+       })
+       .mouseover(function (e) {
+       // .mouseenter(function (e) {
+         // time = (new Date()).getTime();
+         // console.log(time)
+         //鼠标悬停有事件
+
        })
        .mouseout(function () {
-         $("#infoDiv")
-           .css("display","none")
+         // $("#infoDiv")
+         //   .css("display","none")
        })
 
       //添加ID
@@ -440,24 +445,181 @@ function dragSVG() {
   }
 }
 
-function getJSON(address,deviceID) {
+function getJSON(address,deviceID,x,y,width,height) {
+  let $infoDiv= $("#infoDiv")
+  $infoDiv.empty();//清空内容
+  // let tbody.innerHTML=""
+  let tbody= document.createElement('tbody');
+  tbody.className = 'infoTr';
+  // let tbody.innerHTML=
+  tbody.innerHTML="<tr><td>设备</td>"+
+        "<td>位置</td><td>参数</td><td>参数值</td></tr>"
+  // console.log(tbody.innerHTML)
+  
   $.getJSON(address, function(data) {
-    let $infoDiv= $("#infoDiv");
-    $infoDiv.empty();//清空内容
     $.each(data.result,function(i,group){
-      // if(group[i].deviceID===deviceID){
-      //   console.log(group[i])
+      // $infoDiv.empty();//清空内容
+      // let oldID=null
+      // if(oldID!==deviceID){
+      //   tbody.innerHTML="<tr>"+
+      //     "<td>设备</td>"+
+      //     "<td>位置</td><td>参数</td><td>参数值</td></tr>"
+      //   oldID=deviceID
       // }
-      console.log(group)
+      $.each(group,function (key,val) {
+        //获取鼠标悬浮的设备
+        if(val===parseInt(deviceID)){
+          // console.log(group.paramID)
+          //   tbody.innerHTML+="<tr>"+
+          // "<td>设备</td>"+
+          // "<td>位置</td><td>参数</td><td>参数值</td></tr>"
+          // switch(group.paramEnName){
+          // switch(group.paramID){
+          switch(group.paramID){
+            // case "runing":
+            case 1:
+              tbody.innerHTML+=
+                "<tr>"
+                        +"<td>"+group.deviceName+"</td>"
+                        +"<td>"+"位置"+"</td>"
+                        +"<td>"+"运行状态"+"</td>"
+                        +"<td>"+group.statusValue+"</td>"
+                        +"</tr>";break;
+            // case "compressorRunTime":
+            case 115:
+              tbody.innerHTML+="<tr>"
+                        +"<td>"+group.deviceName+"</td>"
+                        +"<td>"+"位置"+"</td>"
+                        +"<td>"+"压缩机运行小时数"+"</td>"
+                        +"<td>"+group.statusValue+"</td>"
+                        +"</tr>";break;
+            // case "ldewTemp":
+            case 160:
+              tbody.innerHTML+="<tr>"
+                        +"<td>"+group.deviceName+"</td>"
+                        +"<td>"+"位置"+"</td>"
+                        +"<td>"+"冷冻水供水温度"+"</td>"
+                        +"<td>"+group.statusValue+"</td>"
+                        +"</tr>";break;
+            // // case "lqewTemp":
+            case 161:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷却水供水温度"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            // // case "ldiwTemp":
+            case 162:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷冻水回水温度"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            // // case "lqiwTemp":
+            case 163:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷却水回水温度"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";
+              break;
+            // // case "runTime":
+            case 17:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"本日运行时间"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";
+              break;
+            // // case "xdybfb":
+            case 171:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"压缩机运行电流百分比"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";
+              break;
+            // // case "alarm":
+            case 2:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"报警状态"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            // // case "runTime1":
+            case 201:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷机运行时间"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            // // case "runTime1":
+            case 203:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"总运行时间"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            case 253:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷冻水出水温度设定值"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            case 69:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"冷凝压力"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            case 70:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"蒸发压力"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+            case 11:
+              tbody.innerHTML+="<tr>"
+                +"<td>"+group.deviceName+"</td>"
+                +"<td>"+"位置"+"</td>"
+                +"<td>"+"启停控制"+"</td>"
+                +"<td>"+group.statusValue+"</td>"
+                +"</tr>";break;
+          }
+          //================switch
+          // $infoDiv.appendChild(tbody.innerHTML)
+
+
+
+        }
+        //==id
+
+
+      })
+      //一个group里循环
+
       // strHtml += "姓名："+info["name"]+"<br>";
       // strHtml += "性别："+info["sex"]+"<br>";
       // strHtml += "邮箱："+info["email"]+"<br>";
       // strHtml += "<hr>"
+
     })
     // $jsontip.html(strHtml);
     //显示处理后的数据
-
-
+    // console.log(tbody.innerHTML)
+    // $infoDiv.html(tbody.innerHTML)
+    $infoDiv[0].appendChild(tbody)
     //显示栏
     $("#infoDiv")
     //位置
@@ -465,8 +627,12 @@ function getJSON(address,deviceID) {
       .css("top",parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)+"px")
       .css("display","block")
 
+
   })
-  
+
+  //ajax
+
+
 }
 
 //读取json数据

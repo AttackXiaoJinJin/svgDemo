@@ -247,16 +247,7 @@ function analysisXML(svg) {
          //   handAuto[deviceID]=false
          // }
 
-         if(isMouseOverTip){
-           // console.log(deviceID)
-           //改变数据
-           // $("#deviceName").text(deviceName)
-           // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
-           // $("#hzStatus").text(hzStatus[deviceID])
-           // $("#inStress").text(inStress[deviceID])
-           getJSON("../json/cold1.json",deviceID,x,y,width,height)
-           // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
-         }
+
 
        })
        .mouseover(function (e) {
@@ -264,11 +255,20 @@ function analysisXML(svg) {
          // time = (new Date()).getTime();
          // console.log(time)
          //鼠标悬停有事件
-
+         if(isMouseOverTip){
+           // console.log(deviceID)
+           //改变数据
+           // $("#deviceName").text(deviceName)
+           // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+           // $("#hzStatus").text(hzStatus[deviceID])
+           // $("#inStress").text(inStress[deviceID])
+           getJSON("../json/cold1.json",deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
+           // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
+         }
        })
        .mouseout(function () {
-         // $("#infoDiv")
-         //   .css("display","none")
+         $("#infoDiv")
+           .css("display","none")
        })
 
       //添加ID
@@ -445,7 +445,7 @@ function dragSVG() {
   }
 }
 
-function getJSON(address,deviceID,x,y,width,height) {
+function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
   let $infoDiv= $("#infoDiv")
   $infoDiv.empty();//清空内容
   // let tbody.innerHTML=""
@@ -454,27 +454,12 @@ function getJSON(address,deviceID,x,y,width,height) {
   // let tbody.innerHTML=
   tbody.innerHTML="<tr><td>设备</td>"+
         "<td>位置</td><td>参数</td><td>参数值</td></tr>"
-  // console.log(tbody.innerHTML)
   
   $.getJSON(address, function(data) {
     $.each(data.result,function(i,group){
-      // $infoDiv.empty();//清空内容
-      // let oldID=null
-      // if(oldID!==deviceID){
-      //   tbody.innerHTML="<tr>"+
-      //     "<td>设备</td>"+
-      //     "<td>位置</td><td>参数</td><td>参数值</td></tr>"
-      //   oldID=deviceID
-      // }
       $.each(group,function (key,val) {
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
-          // console.log(group.paramID)
-          //   tbody.innerHTML+="<tr>"+
-          // "<td>设备</td>"+
-          // "<td>位置</td><td>参数</td><td>参数值</td></tr>"
-          // switch(group.paramEnName){
-          // switch(group.paramID){
           switch(group.paramID){
             // case "runing":
             case 1:
@@ -653,7 +638,7 @@ function getJSON(address,deviceID,x,y,width,height) {
                 +"<td>"+"冷却塔风机工作频率低于下限"+"</td>"
                 +"<td>"+group.statusEnValue+"</td>"
                 +"</tr>";break;
-
+            
 
           }
           //================switch
@@ -679,12 +664,37 @@ function getJSON(address,deviceID,x,y,width,height) {
     // console.log(tbody.innerHTML)
     // $infoDiv.html(tbody.innerHTML)
     $infoDiv[0].appendChild(tbody)
-    //显示栏
-    $("#infoDiv")
-    //位置
-      .css("left",parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)+"px")
-      .css("top",parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)+"px")
-      .css("display","block")
+    let showHeight=parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)
+    let showWidth=parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)
+    let cha1=showHeight+parseInt($infoDiv.css("height"))-parseInt(paperTop)-ConfigHeight
+    let cha2=showWidth+parseInt($infoDiv.css("width"))-parseInt(paperLeft)-ConfigWidth
+    if(cha1>0 && cha2>0){
+      $infoDiv
+        .css("left",showWidth-cha2+"px")
+        .css("top",showHeight-cha1+"px")
+        .css("display","block")
+    } else if(cha1>0 && cha2<=0)
+    {
+      $infoDiv
+        .css("left",showWidth+"px")
+        .css("top",showHeight-cha1+"px")
+        .css("display","block")
+
+    }else if(cha1<=0 && cha2>0){
+      $infoDiv
+        .css("left",showWidth-cha2+"px")
+        .css("top",showHeight+"px")
+        .css("display","block")
+    }
+    else{
+      //显示栏
+      $infoDiv
+      //位置
+        .css("left",showWidth+"px")
+        .css("top",showHeight+"px")
+        .css("display","block")
+    }
+
 
 
   })

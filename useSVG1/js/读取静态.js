@@ -254,7 +254,7 @@ function analysisXML(svg) {
          // console.log(time)
          //鼠标悬停有事件
          if(isMouseOverTip){
-           // console.log(deviceID)
+           console.log(deviceID)
            //改变数据
            // $("#deviceName").text(deviceName)
            // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
@@ -458,6 +458,7 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
       $.each(group,function (key,val) {
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
+
           switch(group.paramID){
             // case "runing":
             case 1:
@@ -642,7 +643,7 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
           //================switch
           // $infoDiv.appendChild(tbody.innerHTML)
 
-
+          return false;
 
         }
         //==id

@@ -287,13 +287,13 @@ function analysisXML(svg) {
           requestAnimationFrame(frame)
         }
         //===冷却塔
-        if(group==="deviceComp" && mark==='LQT'){
-          let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
-            .attr({cursor:'pointer'
-            })
-          aa.node.setAttribute("id",deviceID+deviceID)
-          frame()
-        }
+        // if(group==="deviceComp" && mark==='LQT'){
+        //   let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
+        //     .attr({cursor:'pointer'
+        //     })
+        //   aa.node.setAttribute("id",deviceID+deviceID)
+        //   frame()
+        // }
         //============================
         //使用setInterval
         if(group==="deviceComp" && mark==='LQT'){
@@ -357,7 +357,8 @@ function analysisXML(svg) {
             .attr({cursor:'pointer'
             })
           aa.node.setAttribute("id",deviceID+deviceID)
-          // frame1()
+          // 1.frame1()
+          //2.
           setInterval(function () {
               i=i+4
               if(i>=13){
@@ -373,7 +374,8 @@ function analysisXML(svg) {
             .attr({cursor:'pointer'
             })
           aa.node.setAttribute("id",deviceID+deviceID)
-          // frame2()
+          // 1.frame2()
+            //2.
             setInterval(function () {
               i=i+2
               if(i>=7){

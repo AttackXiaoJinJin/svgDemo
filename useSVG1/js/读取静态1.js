@@ -9,6 +9,7 @@ window.onload=function () {
   let svg=null
   mouseWheel()
   analysisXML(svg)
+  // analysisCompoents("a","a")
 
 }
 
@@ -65,6 +66,8 @@ function analysisXML(svg) {
       }
     }
     let nodename=ComponentsChildren[i].nodeName
+
+    // console.log(nodename)
     let group=ComponentsChildren[i].getAttribute("group")
     let image=null
     let width=ComponentsChildren[i].getAttribute("width")
@@ -123,13 +126,14 @@ function analysisXML(svg) {
     //如果是要绘制文字的话===========================================
     if(ComponentsChildren[i].getAttribute("text")){
       let color=ComponentsChildren[i].getAttribute("color")
+      color=color.indexOf("#")===-1?colorTransformation(parseInt(color)):color
       let fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
       //优先绘制黑色背景框
       if(fontFamily==="digifaw"){
         svg.rect(x, y, width?width-5:40, height?height:20).attr({
           "fill": "black"
         })
-        color="#00FF00"
+
       }
 
       let fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
@@ -168,6 +172,9 @@ function analysisXML(svg) {
     //====================================上面是文字
     //图片====================================
     else{
+
+
+
      let simg=svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
          //没有x,y即绕自身中心旋转
@@ -186,8 +193,6 @@ function analysisXML(svg) {
          //   handAuto[deviceID]=false
          // }
 
-
-
        })
        .mouseover(function (e) {
        // .mouseenter(function (e) {
@@ -195,7 +200,7 @@ function analysisXML(svg) {
          // console.log(time)
          //鼠标悬停有事件
          if(isMouseOverTip){
-           console.log(deviceID)
+           // console.log(deviceID)
            //改变数据
            // $("#deviceName").text(deviceName)
            // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
@@ -210,57 +215,30 @@ function analysisXML(svg) {
            .css("display","none")
        })
 
+      //读取配置文件
+      //在添加好图片的基础上再去添加它的运行，报警图片
+      analysisCompoents(nodename,svg,x,y,scaleX,scaleY,deviceID)
+
       //添加ID
+      //是设备图片
       if(group==="deviceComp"){
+
         simg.node.setAttribute('id',deviceID)
         simg.node.setAttribute('display','block')
+        let runNum=3;
+        let runSpeed=80 ;
+        let alarmNum=16;
+        getImgNum(nodename,runNum,runSpeed,alarmNum)
+        //读取json
+        jsonStatus("../json/cold1.json",deviceID,nodename,runNum,runSpeed,alarmNum)
       }
+
+
+
 
        //显示运行时间
       // runTime()
 
-      //绘制旋转动画
-      if(mark==="LQT"){
-        // let i=1
-        // function frame() {
-        //   i=i+4
-        //   if(i===13){
-        //     i=1
-        //   }
-        //   $("#4001240012")[0].href.baseVal="assets/comp/LQT7/runing1/1/"+i+".png"
-        //   requestAnimationFrame(frame)
-        // }
-        // if(group==="deviceComp" && deviceID==='40012'){
-        // // if(group==="deviceComp" ){
-        //   let aa=svg.image("assets/comp/LQT7/runing1/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX)*0.4,y,parseInt(width)*parseFloat(scaleX)*1.3,parseInt(height)*parseFloat(scaleY)/2.3)
-        //     .attr({cursor:'pointer'
-        //     })
-        //   aa.node.setAttribute("id","4001240012")
-        //   frame()
-        // }
-
-      }
-      //============上面风扇
-      //======螺旋
-      if(mark==="LSJ"){
-        let i=1
-        // function frame1() {
-        //   i=i+4
-        //   if(i===13){
-        //     i=1
-        //   }
-        //   $("#1000410004")[0].href.baseVal="assets/comp/LGJZ/runing/1/"+i+".png"
-        //   requestAnimationFrame(frame1)
-        // }
-        // if(group==="deviceComp" && deviceID==='10004'){
-        //   // console.log("bb")
-        //   let aa=svg.image("assets/comp/LGJZ/runing/1/1.png",parseInt(x)+parseInt(width)*parseFloat(scaleX),parseInt(y)+parseInt(height)*parseFloat(scaleY)*0.4,parseInt(width)*parseFloat(scaleX)*0.8,parseInt(height)*parseFloat(scaleY)/1.3)
-        //     .attr({cursor:'pointer'
-        //     })
-        //   aa.node.setAttribute("id","1000410004")
-        //   frame1()
-        // }
-      }
      }
      //==========else
   }
@@ -391,52 +369,60 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
   let tbody= document.createElement('tbody');
   tbody.className = 'infoTr';
   // let tbody.innerHTML=
-  tbody.innerHTML="<tr><td>设备</td>"+
-        "<td>位置</td><td>参数</td><td>参数值</td></tr>"
+  tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
   
   $.getJSON(address, function(data) {
     $.each(data.result,function(i,group){
       $.each(group,function (key,val) {
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
-          tbody.innerHTML+="<tr><td>"+group.deviceName+"</td>"
-                          +"<td>位置</td><td>"
-          switch(group.paramID){
-            case 1:tbody.innerHTML+="运行状态";break;
-            case 115:tbody.innerHTML+="压缩机运行小时数";break;
-            case 160:tbody.innerHTML+="冷冻水供水温度";break;
-            case 161:tbody.innerHTML+="冷却水供水温度";break;
-            case 162:tbody.innerHTML+="冷冻水回水温度";break;
-            case 163:tbody.innerHTML+="冷却水回水温度";break;
-            case 17:tbody.innerHTML+="本日运行时间";break;
-            case 171:tbody.innerHTML+="压缩机运行电流百分比";break;
-            case 2:tbody.innerHTML+="报警状态";break;
-            case 201:tbody.innerHTML+="冷机运行时间";break;
-            case 203:tbody.innerHTML+="总运行时间";break;
-            case 253:tbody.innerHTML+="冷冻水出水温度设定值";break;
-            case 69:tbody.innerHTML+="冷凝压力";break;
-            case 70:tbody.innerHTML+="蒸发压力";break;
-            case 11:tbody.innerHTML+="启停控制";break;
-            //大商业冷却泵
-            case 16:tbody.innerHTML+="工作频率低于下限故障报警";break;
-            case 38:tbody.innerHTML+="手自动状态";break;
-            case 62:tbody.innerHTML+="出口分支管压力反馈（bars）";break;
-            case 63:tbody.innerHTML+="频率反馈（Hz）";break;
-            case 659:tbody.innerHTML+="进水压力反馈（bars）";break;
-            case 422:tbody.innerHTML+="风机频率反馈";break;
-            case 50:tbody.innerHTML+="冷却塔出水温度低于冷机保护";break;
-            case 653:tbody.innerHTML+="冷却塔风机工作频率低于下限";break;
-          }
+          tbody.innerHTML+="<tr><td>"+group.deviceName+"</td><td>位置</td><td>参数</td><td>"+group.statusEnValue+"</td></tr>"
+          // switch(group.paramID){
+            // case 1:tbody.innerHTML+="<tr><td>"+group.deviceName+"</td>"
+            //   +"<td>位置</td><td>运行状态</td><td>"+group.statusEnValue+"</td></tr>";break;
+            // case 115:tbody.innerHTML+="压缩机运行小时数";break;
+            // case 160:tbody.innerHTML+="冷冻水供水温度";break;
+            // case 161:tbody.innerHTML+="冷却水供水温度";break;
+            // case 162:tbody.innerHTML+="冷冻水回水温度";break;
+            // case 163:tbody.innerHTML+="冷却水回水温度";break;
+            // case 17:tbody.innerHTML+="本日运行时间";break;
+            // case 171:tbody.innerHTML+="压缩机运行电流百分比";break;
+            // case 2:tbody.innerHTML+="报警状态";break;
+            // case 201:tbody.innerHTML+="冷机运行时间";break;
+            // case 203:tbody.innerHTML+="总运行时间";break;
+            // case 253:tbody.innerHTML+="冷冻水出水温度设定值";break;
+            // case 69:tbody.innerHTML+="冷凝压力";break;
+            // case 70:tbody.innerHTML+="蒸发压力";break;
+            // case 11:tbody.innerHTML+="启停控制";break;
+            // //大商业冷却泵
+            // case 16:tbody.innerHTML+="工作频率低于下限故障报警";break;
+            // case 38:tbody.innerHTML+="手自动状态";break;
+            // case 62:tbody.innerHTML+="出口分支管压力反馈（bars）";break;
+            // case 63:tbody.innerHTML+="频率反馈（Hz）";break;
+            // case 659:tbody.innerHTML+="进水压力反馈（bars）";break;
+            // case 422:tbody.innerHTML+="风机频率反馈";break;
+            // case 50:tbody.innerHTML+="冷却塔出水温度低于冷机保护";break;
+            // case 653:tbody.innerHTML+="冷却塔风机工作频率低于下限";break;
+          // }
           //================switch
-          tbody.innerHTML+="</td><td>"+group.statusEnValue+"</td></tr>"
+          // tbody.innerHTML+="</td><td>"+group.statusEnValue+"</td></tr>"
+          //运行，即动画
+          // console.log(group.paramID,group.statusValue)
+
+
           return false;
 
         }
+
+
+
+
         //==id
       })
     })
 
     $infoDiv[0].appendChild(tbody)
+    //让显示框不出画布
     let showHeight=parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)
     let showWidth=parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)
     let cha1=showHeight+parseInt($infoDiv.css("height"))-parseInt(paperTop)-ConfigHeight
@@ -474,8 +460,194 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
 
 }
 
+function jsonStatus(address,deviceID,nodeName,runNum,runSpeed,alarmNum) {
+  // console.log(alarmNum+"bbb")
+  $.getJSON(address, function(data) {
+    $.each(data.result,function(i,group){
+      $.each(group,function (key,val) {
+        //获取鼠标悬浮的设备
+        if(val===parseInt(deviceID)){
+          //运行，即动画
+          // console.log(group.paramID,group.statusValue)
+
+          if(group.paramID===1 && group.statusValue ==="1" ){
+            clearInterval(aa)
+            let i=1
+            //================================
+            var aa=setInterval(function () {
+              i=i+1
+              if(i>runNum){
+              // if(i>16){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
+            },runSpeed)
+            //===================================
+            //frame====================================
+            /*
+            function frame3() {
+              i=i+1
+              if(i===5){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
+              requestAnimationFrame(frame3)
+            }
+            frame3()
+            */
+            //=======================================
+          }
+
+          if(group.paramID===2 && group.statusValue ==="1" ){
+            // console.log(nodeName)
+            clearInterval(bb)
+            let j=1
+            //==============================
+            var bb=setInterval(function () {
+              j++
+              // if(j>alarmNum){
+              if(j>alarmNum){
+                j=1
+              }
+              $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
+            },runSpeed)
+
+            //先针对冷却泵
+            //======================
+            /*
+            function frame4() {
+              j=j+1
+              if(j===13){
+                j=5
+              }
+              // if($("#"+deviceID+deviceID+deviceID)[0]){
+              //   $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
+              // }else{
+                $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
+              // }
+
+              requestAnimationFrame(frame4)
+            }
+            frame4()
+            */
+            //==========================
+
+          }
 
 
+          return false;
+        }
+
+        //==id
+      })
+    })
+
+
+  })
+
+}
+
+
+//十进制颜色转换为十六进制
+function colorTransformation(colorStr){
+  colorStr = colorStr.toString(16);
+ let colorLen = colorStr.length;
+  // if(colorLen===6){
+  //   colorStr = colorStr;
+  // }
+  if(colorLen===5){
+    colorStr = '#0'+colorStr;
+  }else if(colorLen===4){
+    colorStr = '#00'+colorStr;
+  }else if(colorLen===3){
+    colorStr = '#000'+colorStr;
+  }else if(colorLen===2){
+    colorStr = '#0000'+colorStr;
+  }
+  return colorStr.toString();
+}
+
+
+function analysisCompoents(nodeName,svg,x,y,scaleX,scaleY,deviceID) {
+  let xmlFileName="../Components.xml"
+  let xmlDoc
+  //IE
+  if((/Trident\/7\./).test(navigator.userAgent)){
+    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+  }else{
+    xmlDoc=document.implementation.createDocument("","",null);
+  }
+  xmlDoc.async=false
+  xmlDoc.load(xmlFileName)
+  // let Components=xmlDoc.documentElement
+  let Component=xmlDoc.documentElement.childNodes[0]
+  let ComponentChildren=Component.childNodes
+  for(let i=0,m=ComponentChildren.length;i<m;i++){
+    let childName=ComponentChildren[i].nodeName
+    let child=ComponentChildren[i].childNodes
+    if(nodeName===childName && child){
+      //读取除第一个子节点的图片，如运行和报警
+      for(let j=1,n=child.length;j<n;j++){
+        let imgSource=child[j].getAttribute("source")
+        // let imgX=parseInt(child[j].getAttribute("x"))+parseInt(x)
+        let imgX=parseInt(child[j].getAttribute("x"))*parseFloat(scaleX)+parseInt(x)
+        let imgY=parseInt(child[j].getAttribute("y"))*parseFloat(scaleY)+parseInt(y)
+        let imgWidth=parseInt(child[j].getAttribute("width"))*parseFloat(scaleX)
+        let imgHeight=parseInt(child[j].getAttribute("height"))*parseFloat(scaleY)
+        //画图
+        let imgRun=svg.image(imgSource,imgX,imgY,imgWidth,imgHeight)
+        // let imgRun=svg.image(imgSource,imgX,imgY,width,height)
+          .attr({cursor:'pointer',
+
+          })
+        if(child[j].getAttribute("param")==="runing"){
+          imgRun.node.setAttribute("id",deviceID+deviceID)
+        }else if(child[j].getAttribute("param")==="alarm"){
+          imgRun.node.setAttribute("id",deviceID+deviceID+deviceID)
+        }
+
+
+
+      }
+    }
+
+  }
+
+}
+//获取图片数量
+function getImgNum(nodeName,runNum,runSpeed,alarmNum) {
+  //转动数量
+  runNum = 3;
+  //转动速率
+  runSpeed = 80;
+  if(nodeName.indexOf('LQT')>-1){
+    runNum = 10;
+    runSpeed = 40;
+  }else if(nodeName.indexOf('LQB')>-1){
+    runNum = 3;
+    runSpeed = 80;
+  }else if(nodeName.indexOf('LGJZ')>-1){
+    runNum = 12;
+    runSpeed = 90;
+  }else if(nodeName.indexOf('LXJZ')>-1){
+    runNum = 5;
+    runSpeed = 60;
+  }
+  if(nodeName==="BSB2" || nodeName==="BSB1" ||
+     nodeName==="DRFM" || nodeName==="EAF" ||
+     nodeName==="EAF1" || nodeName==="EAF2" ||
+     nodeName==="FPG" || nodeName==="PWB" ||
+     nodeName==="PWB1" || nodeName==="RGSHU" ||
+     nodeName==="LQB" || nodeName==="RQGL" ||
+     nodeName==="SAF" || nodeName==="SAF1" ||
+     nodeName==="SAF2"){
+    alarmNum=16
+    // console.log(alarmNum)
+  }
+  // return {"runNum":runNum,
+  //         "runSpeed":runSpeed,
+  //         "alarmNum":alarmNum}
+}
 
 
 

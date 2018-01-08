@@ -8,7 +8,7 @@
       "paramEnName":"runing",
       "deviceID":10001,
       "deviceName":"大商业冷水机组1#",
-      "statusValue":"0"
+      "statusValue":"1"
     },
 
     {
@@ -134,7 +134,7 @@
       "paramEnName":"runing",
       "deviceID":10002,
       "deviceName":"大商业冷水机组2#",
-      "statusValue":"0"
+      "statusValue":"1"
     },
 
     {
@@ -763,7 +763,7 @@
       "paramEnName":"runing",
       "deviceID":20001,
       "deviceName":"大商业1#冷却泵",
-      "statusValue":"0"
+      "statusValue":"1"
     },
 
     {
@@ -781,7 +781,7 @@
       "paramEnName":"alarm",
       "deviceID":20001,
       "deviceName":"大商业1#冷却泵",
-      "statusValue":"0"
+      "statusValue":"1"
     },
 
     {

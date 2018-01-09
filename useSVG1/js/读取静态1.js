@@ -8,7 +8,8 @@ var jsonData=null
 window.onload=function () {
   let svg=null
   mouseWheel()
-  analysisXML(svg)
+  let cptArray=analysisCompoentsOne()
+  analysisXML(svg,cptArray)
   // analysisCompoents("a","a")
 
 }
@@ -16,7 +17,7 @@ window.onload=function () {
 /*
 * 解析导出的xml文件
 * */
-function analysisXML(svg) {
+function analysisXML(svg,cptArray) {
   // let xmlFileName="../lyxtxtjgtOne.xml";
   // let xmlFileName="../0.xml"
   // let xmlFileName="../19.xml"
@@ -164,7 +165,6 @@ function analysisXML(svg) {
               return false;
             }
           })
-
         })
       })
 
@@ -172,9 +172,6 @@ function analysisXML(svg) {
     //====================================上面是文字
     //图片====================================
     else{
-
-
-
      let simg=svg.image(imageSource,x,y,width,height)
        .attr({cursor:'pointer',
          //没有x,y即绕自身中心旋转
@@ -215,26 +212,25 @@ function analysisXML(svg) {
            .css("display","none")
        })
 
-      //读取配置文件
-      //在添加好图片的基础上再去添加它的运行，报警图片
-      analysisCompoents(nodename,svg,x,y,scaleX,scaleY,deviceID)
-
       //添加ID
       //是设备图片
       if(group==="deviceComp"){
 
         simg.node.setAttribute('id',deviceID)
         simg.node.setAttribute('display','block')
-        let runNum=3;
-        let runSpeed=80 ;
-        let alarmNum=16;
-        getImgNum(nodename,runNum,runSpeed,alarmNum)
-        //读取json
-        jsonStatus("../json/cold1.json",deviceID,nodename,runNum,runSpeed,alarmNum)
+        let runNum=3
+        let runSpeed=80
+        let alarmNum=16
+        // console.log(getImgNum(nodename,runNum,runSpeed,alarmNum))
+        let allRun=getImgNum(nodename,runNum,runSpeed,alarmNum)
+
+
+
+          //读取json
+          jsonStatus("../json/cold1.json",deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+
+
       }
-
-
-
 
        //显示运行时间
       // runTime()
@@ -346,7 +342,6 @@ function dragSVG() {
       readSVG.style.left=divLeft+"px"
       readSVG.style.top=divTop+"px"
     }
-
     //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
     //事件，而不是box1的
     document.onmouseup=function () {
@@ -408,15 +403,8 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
           // tbody.innerHTML+="</td><td>"+group.statusEnValue+"</td></tr>"
           //运行，即动画
           // console.log(group.paramID,group.statusValue)
-
-
           return false;
-
         }
-
-
-
-
         //==id
       })
     })
@@ -455,64 +443,72 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
     }
 
   })
-
   //ajax
-
 }
 
-function jsonStatus(address,deviceID,nodeName,runNum,runSpeed,alarmNum) {
-  // console.log(alarmNum+"bbb")
+function jsonStatus(address,deviceID,nodename,runNum,runSpeed,alarmNum,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
+  // console.log("bbb")
+  // let jsonArray={}
   $.getJSON(address, function(data) {
     $.each(data.result,function(i,group){
+    // let deciceID=
+    //   jsonArray[deviceID]["paramID"]={}
+    //   jsonArray[deviceID]["statusValue"]={}
       $.each(group,function (key,val) {
+
+        // jsonArray[group.deviceID]={}
+        // jsonArray[group.deviceID]["paramID"]=group.paraID
+        // jsonArray[group.deviceID]["statusValue"]=group.statusValue
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
-          //运行，即动画
-          // console.log(group.paramID,group.statusValue)
-
-          if(group.paramID===1 && group.statusValue ==="1" ){
-            clearInterval(aa)
-            let i=1
-            //================================
-            var aa=setInterval(function () {
-              i=i+1
-              if(i>runNum){
-              // if(i>16){
-                i=1
-              }
-              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
-            },runSpeed)
-            //===================================
-            //frame====================================
-            /*
-            function frame3() {
-              i=i+1
-              if(i===5){
-                i=1
-              }
-              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
-              requestAnimationFrame(frame3)
-            }
-            frame3()
-            */
-            //=======================================
-          }
-
+          //===================alarm
           if(group.paramID===2 && group.statusValue ==="1" ){
-            // console.log(nodeName)
+            //读取配置文件
+            //在添加好图片的基础上再去添加它的运行，报警图片
+            // analysisCompoents(nodename,svg,x,y,scaleX,scaleY,deviceID)
+            if(cptArray[nodename]){
+              //有的图是用alarm画的，有alarm就不画报警图了
+              if(cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm")===-1){
+                let imgSource=cptArray[nodename]["alarm"]["imgSource"]
+                let imgX=parseInt(cptArray[nodename]["alarm"]["imgX"])*parseFloat(scaleX)+parseInt(x)
+                let imgY=parseInt(cptArray[nodename]["alarm"]["imgY"])*parseFloat(scaleY)+parseInt(y)
+                let imgWidth=parseInt(cptArray[nodename]["alarm"]["imgWidth"])*parseFloat(scaleX)
+                let imgHeight=parseInt(cptArray[nodename]["alarm"]["imgHeight"])*parseFloat(scaleY)
+                //画图
+                let imgRun=svg.image(imgSource,imgX,imgY,imgWidth,imgHeight)
+                  .attr({cursor:'pointer',
+                  })
+                imgRun.node.setAttribute("id",deviceID+deviceID+deviceID)
+              }
+            }
             clearInterval(bb)
             let j=1
             //==============================
-            var bb=setInterval(function () {
-              j++
-              // if(j>alarmNum){
-              if(j>alarmNum){
-                j=1
+            if($("#"+deviceID+deviceID+deviceID)[0]){
+              if(alarmNum===1){
+                $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/1.png"
+              }else{
+                var bb=setInterval(function () {
+                  j++
+                  if(j>alarmNum){
+                    j=1
+                  }
+                  $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/"+j+".png"
+                },runSpeed)
               }
-              $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
-            },runSpeed)
-
-            //先针对冷却泵
+            }else{
+              if(alarmNum===1){
+                $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/1.png"
+              }else{
+                var bb=setInterval(function () {
+                  j++
+                  if(j>alarmNum){
+                    j=1
+                  }
+                  $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/"+j+".png"
+                },runSpeed)
+              }
+            }
             //======================
             /*
             function frame4() {
@@ -533,18 +529,64 @@ function jsonStatus(address,deviceID,nodeName,runNum,runSpeed,alarmNum) {
             //==========================
 
           }
+          else
+          //运行，即动画
+          // console.log(group.paramID,group.statusValue)
+          //=============run
+          if(group.paramID===1 && group.statusValue ==="1" ){
+            if(cptArray[nodename]) {
+              if (cptArray[nodename]["running"]) {
+                let imgSource = cptArray[nodename]["running"]["imgSource"]
+                let imgX = parseInt(cptArray[nodename]["running"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
+                let imgY = parseInt(cptArray[nodename]["running"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
+                let imgWidth = parseInt(cptArray[nodename]["running"]["imgWidth"]) * parseFloat(scaleX)
+                let imgHeight = parseInt(cptArray[nodename]["running"]["imgHeight"]) * parseFloat(scaleY)
+                //画图
+                let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
+                  .attr({
+                    cursor: 'pointer',
+                  })
+                imgRun.node.setAttribute("id", deviceID + deviceID)
+              }
+            }
+            clearInterval(aa)
+            // let i=1
+            // //================================
+            var aa=setInterval(function () {
+              i=i+1
+              if(i>runNum){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
+            },runSpeed)
 
+            //===================================
+            //frame====================================
+            /*
+            function frame3() {
+              i=i+1
+              if(i===5){
+                i=1
+              }
+              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
+              requestAnimationFrame(frame3)
+            }
+            frame3()
+            */
+            //=======================================
+          }
 
           return false;
         }
+        // ==id
 
-        //==id
-      })
     })
 
-
   })
+    })
 
+  // console.log(jsonArray)
+  // return jsonArray
 }
 
 
@@ -569,6 +611,8 @@ function colorTransformation(colorStr){
 
 
 function analysisCompoents(nodeName,svg,x,y,scaleX,scaleY,deviceID) {
+  let compoentsArray=[]
+  console.log("aaa")
   let xmlFileName="../Components.xml"
   let xmlDoc
   //IE
@@ -598,24 +642,77 @@ function analysisCompoents(nodeName,svg,x,y,scaleX,scaleY,deviceID) {
         let imgRun=svg.image(imgSource,imgX,imgY,imgWidth,imgHeight)
         // let imgRun=svg.image(imgSource,imgX,imgY,width,height)
           .attr({cursor:'pointer',
-
           })
         if(child[j].getAttribute("param")==="runing"){
           imgRun.node.setAttribute("id",deviceID+deviceID)
         }else if(child[j].getAttribute("param")==="alarm"){
           imgRun.node.setAttribute("id",deviceID+deviceID+deviceID)
         }
-
-
-
       }
     }
+  }
+}
 
+function analysisCompoentsOne() {
+  let compoentsArray={}
+  // console.log("aaa")
+  let xmlFileName="../Components.xml"
+  let xmlDoc
+  //IE
+  if((/Trident\/7\./).test(navigator.userAgent)){
+    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+  }else{
+    xmlDoc=document.implementation.createDocument("","",null);
+  }
+  xmlDoc.async=false
+  xmlDoc.load(xmlFileName)
+  // let Components=xmlDoc.documentElement
+  let Component=xmlDoc.documentElement.childNodes[0]
+  let ComponentChildren=Component.childNodes
+  for(let i=0,m=ComponentChildren.length;i<m;i++){
+    //节点名
+    let childName=ComponentChildren[i].nodeName
+
+    compoentsArray[childName]={}
+    compoentsArray[childName]["running"]={}
+    compoentsArray[childName]["alarm"]={}
+    //节点名下的孩子
+    let child=ComponentChildren[i].childNodes
+    if(child){
+      // console.log(childName)
+      //读取除第一个子节点的图片，如运行和报警
+      for(let j=0,n=child.length;j<n;j++){
+
+        // if(childName==="LQT7"){
+        //   console.log(childName,child[j].getAttribute("param")==="runing")
+        // }
+
+        if(child[j].getAttribute("param")==="runing"){
+          compoentsArray[childName]["running"]["imgX"]=child[j].getAttribute("x")
+          compoentsArray[childName]["running"]["imgY"]=child[j].getAttribute("y")
+          compoentsArray[childName]["running"]["imgWidth"]=child[j].getAttribute("width")
+          compoentsArray[childName]["running"]["imgHeight"]=child[j].getAttribute("height")
+          compoentsArray[childName]["running"]["imgSource"]=child[j].getAttribute("source")
+      }
+
+      if(child[j].getAttribute("param")==="alarm"){
+          compoentsArray[childName]["alarm"]["imgX"]=child[j].getAttribute("x")
+          compoentsArray[childName]["alarm"]["imgY"]=child[j].getAttribute("y")
+          compoentsArray[childName]["alarm"]["imgWidth"]=child[j].getAttribute("width")
+          compoentsArray[childName]["alarm"]["imgHeight"]=child[j].getAttribute("height")
+          compoentsArray[childName]["alarm"]["imgSource"]=child[j].getAttribute("source")
+      }
+      }
+    }
   }
 
+  return compoentsArray
 }
+
 //获取图片数量
 function getImgNum(nodeName,runNum,runSpeed,alarmNum) {
+  //定义对象
+  // let allRun={}
   //转动数量
   runNum = 3;
   //转动速率
@@ -643,10 +740,12 @@ function getImgNum(nodeName,runNum,runSpeed,alarmNum) {
      nodeName==="SAF2"){
     alarmNum=16
     // console.log(alarmNum)
+  }else{
+    alarmNum=1
   }
-  // return {"runNum":runNum,
-  //         "runSpeed":runSpeed,
-  //         "alarmNum":alarmNum}
+  return {"runNum":runNum,
+          "runSpeed":runSpeed,
+          "alarmNum":alarmNum}
 }
 
 

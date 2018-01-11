@@ -22,7 +22,7 @@ function analysisXML(svg,cptArray) {
   // let xmlFileName="../0.xml"
   // let xmlFileName="../19.xml"
   // let xmlFileName="../20.xml"
-  // let xmlFileName="../21.xml"
+  // let xmlFileName="../readhot.xml"
   // let xmlFileName="../3.xml"
   // let xmlFileName="../22.xml"
   // let xmlFileName="../23.xml"
@@ -162,7 +162,7 @@ function analysisXML(svg,cptArray) {
           $.each(group, function (key, val) {
             if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
               drawText.attr({text: group.statusEnValue})
-              return false;
+              return false
             }
           })
         })
@@ -180,15 +180,15 @@ function analysisXML(svg,cptArray) {
        })
        .click(function (e) {
          // //切换成自动
-         // if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
-         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
-         //   handAuto[deviceID]=true
-         // }
+         if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
+           e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
+           handAuto[deviceID]=true
+         }
          // //切换成手动
-         // else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
-         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
-         //   handAuto[deviceID]=false
-         // }
+         else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
+           e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
+           handAuto[deviceID]=false
+         }
 
        })
        .mouseover(function (e) {
@@ -200,7 +200,7 @@ function analysisXML(svg,cptArray) {
            // console.log(deviceID)
            //改变数据
            // $("#deviceName").text(deviceName)
-           // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+           $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
            // $("#hzStatus").text(hzStatus[deviceID])
            // $("#inStress").text(inStress[deviceID])
            getJSON("../json/cold1.json",deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
@@ -227,7 +227,8 @@ function analysisXML(svg,cptArray) {
 
 
           //读取json
-          jsonStatus("../json/cold1.json",deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+          // jsonStatus("../json/cold1.json",deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+          jsonStatus("../json/cold2.json",deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,cptArray,x,y,scaleX,scaleY,svg,imageSource)
 
 
       }
@@ -550,7 +551,7 @@ function jsonStatus(address,deviceID,nodename,runNum,runSpeed,alarmNum,cptArray,
               }
             }
             clearInterval(aa)
-            // let i=1
+            let i=1
             // //================================
             var aa=setInterval(function () {
               i=i+1

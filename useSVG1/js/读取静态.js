@@ -20,7 +20,7 @@ function analysisXML(svg) {
   // let xmlFileName="../0.xml"
   // let xmlFileName="../19.xml"
   // let xmlFileName="../20.xml"
-  // let xmlFileName="../21.xml"
+  // let xmlFileName="../readhot.xml"
   // let xmlFileName="../3.xml"
   // let xmlFileName="../22.xml"
   // let xmlFileName="../23.xml"

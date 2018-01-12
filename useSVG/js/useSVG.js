@@ -90,7 +90,7 @@ window.onload=function () {
   let paper=null
     // paper = new Raphael(document.getElementById("middle"),1800, 600);
   //在元素中创建Raphael对象
-  paper =new Raphael(document.querySelector("#middleMid"),1265, 670);
+  paper =new Raphael(document.querySelector("#middleMid"),1495, 710);
   // console.log(paper)
   //选中焦点图片
   $("svg").on("click",function (e) {
@@ -231,31 +231,39 @@ window.onload=function () {
         // let event=event || window.event
         //1428 436
         //先定位鼠标到图片的左上角
-        moveX =mouseLeft-goLeft ;
-        moveY =mouseTop-goTop ;
+        moveX =(mouseLeft-goLeft).toFixed(2) ;
+        moveY =(mouseTop-goTop).toFixed(2) ;
         all.attr({x:moveX,y:moveY});
         // rect.attr({x:moveX,y:moveY});
         $("#moveX").val(moveX)
         $("#moveY").val(moveY)
       }
-      //通过input去改变图片的属性值
-      $("#middleTopLeftUl").on('input',function (e) {
-        if (e.target.tagName.toLowerCase() !== 'input') {
-          //终止
-          return
-        }
-        let handle = e.target
-        all.attr({'transform':'R'+handle.value})
-        whrota(handle)
-      })
+
+      //========
     }
   }
+
+  //通过input去改变图片的属性值
+  $("#middleTopLeftUl").on('input',function (e) {
+    if (e.target.tagName.toLowerCase() !== 'input') {
+      //终止
+      return
+    }
+    let handle = e.target
+    // all.attr({'transform':'R'+handle.value})
+    // handle.attr({'transform':'R'+handle.value})
+    // console.log(handle.name)
+    whrota(handle)
+  })
+
 
   /*
   * 宽、高、旋转
   * */
   function whrota(handle) {
+
     if (selected.nodeName === "image") {
+      // console.log(handle.name)
       //获取焦点选中的图片
       switch (handle.name) {
         case "width":
@@ -265,22 +273,24 @@ window.onload=function () {
           selected.setAttribute("height", handle.value);
           break;
         case "rotate":
-          // selected.attr({'transform':'R'+rotate})
-          // selected.setAttribute(
-          //   "transform",
-          //   "matrix(" +
-          //   Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-          //   "," +
-          //   Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-          //   "," +
-          //   (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
-          //   "," +
-          //   Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
-          //   "," +
-          //   0 +
-          //   "," +
-          //   0 +
-          //   ")")
+          // console.log(handle.value)
+          selected.setAttribute('rotate',handle.value)
+
+          selected.setAttribute(
+            "transform",
+            "matrix(" +
+            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            (-1) * Math.sin(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            Math.cos(2 * Math.PI / 360 * handle.value).toFixed(4) +
+            "," +
+            0 +
+            "," +
+            0 +
+            ")")
           break;
       }
     }

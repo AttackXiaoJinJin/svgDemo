@@ -4,7 +4,7 @@ var svgTop=0
 var paperLeft=0
 var paperTop=0
 var jsonData=null
-
+var bigTime=null
 
 
 window.onload=function () {
@@ -12,12 +12,12 @@ window.onload=function () {
   // let bigJson="../json/cold2.json"
   // let jsonOne="../json/cold2.json"
 
-  let bigJson="../json/hot.json"
+  // let bigJson="../json/hot1.json"
   let jsonOne="../json/hotOne.json"
 
   mouseWheel()
   let cptArray=analysisCompoentsOne()
-  analysisXML(svg,cptArray,bigJson,jsonOne)
+  analysisXML(svg,cptArray,jsonOne)
   // analysisCompoents("a","a")
 
 }
@@ -39,6 +39,7 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
   // let xmlFileName="../2.xml"
   // let xmlFileName="../0.xml"
   let xmlFileName="../readhot.xml"
+  // let xmlFileName="../test.xml"
   let xmlDoc
   //IE
   if((/Trident\/7\./).test(navigator.userAgent)){
@@ -168,9 +169,19 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
       drawText.node.setAttribute("deviceId",deviceID)
       drawText.node.setAttribute("paramId",paramID)
       // console.log(deviceID)
-      //根据json绘制文字
-      $.getJSON(bigJson, function(data) {
 
+      //=================================
+      //根据json绘制文字
+      /*
+      {
+      let aa=1
+      function time()
+      {
+        if(aa>3){
+          aa=1
+        }
+        let bigJson="../json/hot"+aa+".json"
+      $.getJSON(bigJson, function(data) {
         $.each(data.result, function (key,group) {
           $.each(group, function (key, val) {
             if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
@@ -180,6 +191,17 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
           })
         })
       })
+        aa++
+        setTimeout(time,5000);
+      }
+      //=====function
+      time()
+      //=============================
+      }
+      */
+
+
+
 
     }
     //====================================上面是文字
@@ -216,8 +238,12 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
            $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
            // $("#hzStatus").text(hzStatus[deviceID])
            // $("#inStress").text(inStress[deviceID])
+
+           //=======================================
            //读取单个json
            getJSON(jsonOne,deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
+           //======================================
+
            // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
          }
        })
@@ -239,13 +265,58 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
         // console.log(getImgNum(nodename,runNum,runSpeed,alarmNum))
         let allRun=getImgNum(nodename,runNum,runSpeed,alarmNum,alarmSpeed)
 
+        //=========================================
+          let aa=2
+        let address
+          function time22(){
+            // clearInterval(time1)
 
+            if(aa>3){
+              aa=2
+            }
+            address="../json/hot"+i+".json"
+            // let address="../json/hot2.json"
+            console.log(address)
+            // 读取全局json
+            // console.log(aa)
+            jsonStatus(i,address,deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,allRun.alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+            aa++
+            clearTimeout(time2)
+            time2=setTimeout(time22,6000);
+          }
+          time22()
+        //============================function
+        //所有都鬼畜
+        // clearInterval(time2)
 
+        // console.log(nodename)
+        // time2=setInterval(function() {
+        //   console.log(timerArray)
+          //刚开始好，之后锅炉1鬼畜
+
+          // if(i>3){
+          //   i=2
+          // }
+          // let address="../json/hot"+i+".json"
+          // let address="../json/hot2.json"
           //读取全局json
-          jsonStatus(bigJson,deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,allRun.alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+          // clearInterval(time1)
+          // for(let timer in timerArray){
+          //   clearInterval(timer)
+          // }
 
+            // jsonStatus(i,address,deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,allRun.alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+          // i++
+          // for(let timer in timerArray){
+          //   clearInterval(timer)
+          // }
 
-      }
+          // clearInterval(time1)
+        // },6000)
+
+        //=================================
+
+     }
 
        //显示运行时间
       // runTime()
@@ -387,35 +458,6 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
           tbody.innerHTML+="<tr><td>"+group.deviceName+"</td><td>位置</td><td>参数</td><td>"+group.statusEnValue+"</td></tr>"
-          // switch(group.paramID){
-            // case 1:tbody.innerHTML+="<tr><td>"+group.deviceName+"</td>"
-            //   +"<td>位置</td><td>运行状态</td><td>"+group.statusEnValue+"</td></tr>";break;
-            // case 115:tbody.innerHTML+="压缩机运行小时数";break;
-            // case 160:tbody.innerHTML+="冷冻水供水温度";break;
-            // case 161:tbody.innerHTML+="冷却水供水温度";break;
-            // case 162:tbody.innerHTML+="冷冻水回水温度";break;
-            // case 163:tbody.innerHTML+="冷却水回水温度";break;
-            // case 17:tbody.innerHTML+="本日运行时间";break;
-            // case 171:tbody.innerHTML+="压缩机运行电流百分比";break;
-            // case 2:tbody.innerHTML+="报警状态";break;
-            // case 201:tbody.innerHTML+="冷机运行时间";break;
-            // case 203:tbody.innerHTML+="总运行时间";break;
-            // case 253:tbody.innerHTML+="冷冻水出水温度设定值";break;
-            // case 69:tbody.innerHTML+="冷凝压力";break;
-            // case 70:tbody.innerHTML+="蒸发压力";break;
-            // case 11:tbody.innerHTML+="启停控制";break;
-            // //大商业冷却泵
-            // case 16:tbody.innerHTML+="工作频率低于下限故障报警";break;
-            // case 38:tbody.innerHTML+="手自动状态";break;
-            // case 62:tbody.innerHTML+="出口分支管压力反馈（bars）";break;
-            // case 63:tbody.innerHTML+="频率反馈（Hz）";break;
-            // case 659:tbody.innerHTML+="进水压力反馈（bars）";break;
-            // case 422:tbody.innerHTML+="风机频率反馈";break;
-            // case 50:tbody.innerHTML+="冷却塔出水温度低于冷机保护";break;
-            // case 653:tbody.innerHTML+="冷却塔风机工作频率低于下限";break;
-          // }
-          //================switch
-          // tbody.innerHTML+="</td><td>"+group.statusEnValue+"</td></tr>"
           //运行，即动画
           // console.log(group.paramID,group.statusValue)
           return false;
@@ -461,121 +503,96 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
   //ajax
 }
 
-function jsonStatus(address,deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
-  // console.log("bbb")
-  // let jsonArray={}
-  $.getJSON(address, function(data) {
-    $.each(data.result,function(i,group){
-    // let deciceID=
-    //   jsonArray[deviceID]["paramID"]={}
-    //   jsonArray[deviceID]["statusValue"]={}
-      $.each(group,function (key,val) {
+var time1=null
+var time2=null
+var timerArray=[]
 
-        // jsonArray[group.deviceID]={}
-        // jsonArray[group.deviceID]["paramID"]=group.paraID
-        // jsonArray[group.deviceID]["statusValue"]=group.statusValue
+function jsonStatus(outI,address,deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
+
+  // console.log(outI)
+  // time1=null
+  // clearInterval(time1)
+
+  // console.log(time1,2)
+  let outJ=0
+  let flag=0
+  
+  // console.log(nodename)
+  $.getJSON(address, function(data) {
+    //只有锅炉2动
+    $.each(data.result,function(i,group){
+      //全部不动
+      $.each(group,function (key,val) {
+        // clearInterval(time1)
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
           //===================alarm
-          if(group.paramID===2 && group.statusValue ==="1" ){
+          /*
+          if(group.paramID===2 && group.statusValue ==="1" ) {
             //读取配置文件
             //在添加好图片的基础上再去添加它的运行，报警图片
-            // analysisCompoents(nodename,svg,x,y,scaleX,scaleY,deviceID)
-            if(cptArray[nodename]){
+            if (cptArray[nodename]) {
               //有的图是用alarm画的，有alarm就不画报警图了
-              if(cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm")===-1){
+              if (cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm") === -1) {
                 // console.log(nodename)
-                let imgSource=cptArray[nodename]["alarm"]["imgSource"]
-                let imgX=parseInt(cptArray[nodename]["alarm"]["imgX"])*parseFloat(scaleX)+parseInt(x)
-                let imgY=parseInt(cptArray[nodename]["alarm"]["imgY"])*parseFloat(scaleY)+parseInt(y)
-                let imgWidth=parseInt(cptArray[nodename]["alarm"]["imgWidth"])*parseFloat(scaleX)
-                let imgHeight=parseInt(cptArray[nodename]["alarm"]["imgHeight"])*parseFloat(scaleY)
+                let imgSource = cptArray[nodename]["alarm"]["imgSource"]
+                let imgX = parseInt(cptArray[nodename]["alarm"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
+                let imgY = parseInt(cptArray[nodename]["alarm"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
+                let imgWidth = parseInt(cptArray[nodename]["alarm"]["imgWidth"]) * parseFloat(scaleX)
+                let imgHeight = parseInt(cptArray[nodename]["alarm"]["imgHeight"]) * parseFloat(scaleY)
                 //画图
-                let imgRun=svg.image(imgSource,imgX,imgY,imgWidth,imgHeight)
-                  .attr({cursor:'pointer',
+                let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
+                  .attr({
+                    cursor: 'pointer',
                   })
-                imgRun.node.setAttribute("id",deviceID+deviceID+deviceID)
+                imgRun.node.setAttribute("id", deviceID + deviceID + deviceID)
               }
             }
-            //================nodename
+            //================画报警图
             //就8,9切换
-            let jj=8
+            let jj = 8
             //==============================
-            if($("#"+deviceID+deviceID+deviceID)[0]){
-              if(alarmNum===1){
-                $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/1.png"
-              }else{
-                clearInterval(bb)
-                var bb=setInterval(function () {
-                  // if(jj>alarmNum/2+1){
-                  if(jj>9){
-                    jj=8
+            if ($("#" + deviceID + deviceID + deviceID)[0]) {
+              if (alarmNum === 1) {
+                $("#" + deviceID + deviceID + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
+              } else {
+                function timeAlarm() {
+                  if (jj > 9) {
+                    jj = 8
                   }
-                  $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/"+jj+".png"
+                  $("#" + deviceID + deviceID + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
                   jj++
-                //   // console.log(j)
-                },alarmSpeed)
-              }
-            }else{
-              if(alarmNum===1){
-                $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/1.png"
-              }else{
-                //====================
-                // clearInterval(bb)
-                // var bb=setInterval(function () {
-                //   if(j>alarmNum){
-                //     j=1
-                //   }
-                //   $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/"+j+".png"
-                //   j=j+1
-                //   console.log(j)
-                // },runSpeed)
-              //  =======================
-
-
-                function time()
-                {
-                    // if(jj>alarmNum){
-                    if(jj>9){
-                      jj=8
-                    }
-                  // console.log(nodename)
-                  $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/alarm/1/"+jj+".png"
-                  // $("#"+deviceID)[0].href.baseVal="assets/comp/"+"LQB"+"/alarm/1/"+jj+".png"
-                    jj++
-                  setTimeout(time,alarmSpeed);
+                  setTimeout(timeAlarm, alarmSpeed);
                 }
-                time()
-
+                timeAlarm()
               }
-
-
+            } else {
+              if (alarmNum === 1) {
+                $("#" + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
+              } else {
+                function timeAlarmOne() {
+                  if (jj > 9) {
+                    jj = 8
+                  }
+                  $("#" + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
+                  jj++
+                  setTimeout(timeAlarmOne, alarmSpeed);
+                }
+                timeAlarmOne()
+              }
             }
-            //======================
-
-            // function frame4() {
-            //   j=j+1
-            //   if(j===13){
-            //     j=5
-            //   }
-              // if($("#"+deviceID+deviceID+deviceID)[0]){
-              //   $("#"+deviceID+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
-              // }else{
-              //   $("#"+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/alarm/1/"+j+".png"
-              // }
-
-              // requestAnimationFrame(frame4)
-            // }
-            // frame4()
-
-            //==========================
 
           }
           else
+          */
+          // clearInterval(time1)
           //运行，即动画
-          // console.log(group.paramID,group.statusValue)
           //=============run
           if(group.paramID===1 && group.statusValue ==="1" ){
+           
+            //防止重新绘画
+            if(!$("#"+deviceID+deviceID)[0]){
+              // console.log("aaaa")
             if(cptArray[nodename]) {
               if (cptArray[nodename]["running"]) {
                 let imgSource = cptArray[nodename]["running"]["imgSource"]
@@ -591,60 +608,53 @@ function jsonStatus(address,deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpee
                 imgRun.node.setAttribute("id", deviceID + deviceID)
               }
             }
-            //=====nodename
-            // clearInterval(aa)
-            let i=1
-            // //================================
-            // var aa=setInterval(function () {
-            //
-            //   if(i>runNum){
-            //     i=1
-            //   }
-            //   $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
-            //   i++
-            // },runSpeed)
-            //======================================
-            function time1()
-            {
+
+            }
+              // let timer
+              let i = 1
+            // clearInterval(time1)
+            //==========================
+            //   timerArray[time1]=setInterval(function () {
+            //     if(i>runNum){
+            //       i=1
+            //     }
+            //     $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
+            //     i++
+            //   },runSpeed)
+            //============================
+            function setinter() {
+
               if(i>runNum){
+
                 i=1
+
               }
               $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
               i++
-              setTimeout(time1,runSpeed);
+              // clearTimeout(time1);
+              time1=setTimeout(setinter,runSpeed)
+
             }
-            time1()
+            setinter()
 
 
-            //===================================
-            //frame====================================
-            /*
-            function frame3() {
-              i=i+1
-              if(i===5){
-                i=1
-              }
-              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodeName+"/runing/1/"+i+".png"
-              requestAnimationFrame(frame3)
-            }
-            frame3()
-            */
-            //=======================================
-          }
 
+
+        }
           return false;
         }
         // ==id
-
     })
-
   })
     })
 
-  // console.log(jsonArray)
-  // return jsonArray
-}
 
+  // clearInterval(time1)
+
+
+
+
+}
 
 //十进制颜色转换为十六进制
 function colorTransformation(colorStr){

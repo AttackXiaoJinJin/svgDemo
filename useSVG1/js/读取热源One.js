@@ -20,20 +20,24 @@ var alarmSpeedArray=[]
 //===============
 var jsonRunIDArray=[]
 var jsonAlarmIDArray=[]
-
+//==================
+var nodeNameArray=[]
+//======
 
 
 window.onload=function () {
   let svg=null
   let jsonOne="../json/hotOne.json"
-
+  //同步
+  $.ajaxSettings.async = false
   mouseWheel()
   let cptArray=analysisCompoentsOne()
   //画图
   analysisXML(svg,cptArray,jsonOne)
   //动图
   runAndAlarm()
-  
+  // console.log(jsonAlarmIDArray,"alarm")
+  // console.log(jsonRunIDArray,"run")
 }
 
 /*
@@ -256,8 +260,7 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
         let alarmSpeed=80
         // console.log(getImgNum(nodename,runNum,runSpeed,alarmNum))
         //添加id,速度,数量
-        getImgNum(deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpeed,imageSource)
-
+        getImgNum(deviceID,nodename,imageSource)
         drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource)
 
         //=================================
@@ -460,29 +463,35 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
 
 
 function jsonStatus(address) {
+  jsonAlarmIDArray=[]
+  jsonRunIDArray=[]
+  // console.log("aaa")
   $.getJSON(address, function(data) {
-    $.each(data.result,function(i,group){
-      $.each(group,function (key,val) {
-        //获取鼠标悬浮的设备
-        if(val===parseInt(deviceID)){
-          //===================alarm
-          if(group.paramID===2 && group.statusValue ==="1" ) {
+    // console.log(data.result[0])
+    for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+      // for(let i=0;i<j;i++) {
+      //   console.log(groups)
+        //===================alarm
+        if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
+          // console.log(group.deviceID,"alarm")
+          let id = groups[j].deviceID
+          jsonAlarmIDArray.push(id)
+          // saveArray(id)
+          // console.log(jsonAlarmIDArray, "alarm")
 
-          }
-          else
-
-          // clearInterval(time1)
-          //运行，即动画
-          //=============run
-          if(group.paramID===1 && group.statusValue ==="1" ){
-           
+        }else
+        //运行，即动画
+        //=============run
+        if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
+          let id = groups[j].deviceID
+          jsonRunIDArray.push(id)
+          // console.log(jsonRunIDArray, "run")
 
         }
-          return false;
-        }
-        // ==id
-    })
-  })
+        // return false;
+      // }
+
+  }
     })
 
 }
@@ -563,14 +572,13 @@ function analysisCompoentsOne() {
 }
 
 //获取图片数量
-function getImgNum(deviceID,nodeName,runNum,runSpeed,alarmNum,alarmSpeed,imageSource) {
-  //定义对象
-  // let allRun={}
+function getImgNum(deviceID,nodeName,imageSource) {
   //转动数量
-  runNum = 3;
+  let runNum = 3
   //转动速率
-  runSpeed = 80;
-  alarmSpeed = 800
+  let runSpeed = 80
+  let alarmSpeed = 800
+  let alarmNum=1
   if(nodeName.indexOf('LQT')>-1){
     runNum = 10
     runSpeed = 40
@@ -617,39 +625,107 @@ function getImgNum(deviceID,nodeName,runNum,runSpeed,alarmNum,alarmSpeed,imageSo
   runNumArray.push(runNum)
   alarmSpeedArray.push(alarmSpeed)
   alarmNumArray.push(alarmNum)
-
+  nodeNameArray.push(nodeName)
 }
+
+
 
 //运行和报警
 function runAndAlarm() {
-  let aa = 1
+  let aa = 2
   let address
   let jj = 8
+
   timerAll=setInterval(function () {
+
+    for(let aa in timerArray){
+      clearTimeout(timerArray[aa])
+    }
+    console.log(timerArray)
+    // console.log("aaaa")
+    // clearInterval(timerAll)
+  // function funcTimerAll() {
+
+
     if (aa > 3) {
       aa = 2
     }
-    address = "../json/hot2.json"
+    // address = "../json/hot2.json"
+    address = "../json/hot"+aa+".json"
+    //获取运行，报警数组
     jsonStatus(address)
-    aa++
-    clearTimeout(timeAll)
-    //就8,9切换
 
-    if (jj > 9) {
-      jj = 8
-    }
-    jj++
+    clearInterval(timerRun)
+
+  // console.log(jsonAlarmIDArray,"alarm")
+  // console.log(jsonRunIDArray,"run")
+  //   aa++
+    // clearTimeout(timerAll)
+    //就8,9切换
+    // if (jj > 9) {
+    //   jj = 8
+    // }
+    // jj++
     //==============================
     //原先就以alarm做图片的，就是1
-    if (alarmNumArray[i] === 1) {
-      $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
-    }else{
-      $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
-    }
+  // for(let i=0,n=jsonAlarmIDArray.length;i<n;i++){
+  //
+  //   if (alarmNumArray[i] === 1) {
+  //     $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
+  //   }else{
+  //     $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
+  //   }
+  // }
     //===============================
+// console.log(jsonRunIDArray)
 
+  for(let i=0,n=jsonRunIDArray.length;i<n;i++){
+    // console.log(jsonRunIDArray[i]+jsonRunIDArray[i])
+    for(let j=0,m=runIDArray.length;j<m;j++){
+
+    //拼接看有没有在运行数组里面
+    if((jsonRunIDArray[i]+""+jsonRunIDArray[i]+"")===runIDArray[j]+""){
+    // if((jsonRunIDArray[i]+""+jsonRunIDArray[i]+"")===runIDArray[0]+""){
+      console.log(address)
+      // console.log(runIDArray[j])
+    let runnum=1
+    let id=runIDArray[j]
+    // let id=runIDArray[0]
+    //   console.log(runNumArray[j])
+    let realJ=j
+
+    //  =====================
+    function funcTimeRun() {
+      // console.log(realJ)
+      if(runnum>runNumArray[realJ]){
+      // if(runnum>runNumArray[0]){
+        runnum=1
+      }
+      // console.log(runNumArray[realJ])
+      // console.log(id)
+      // console.log($("#"+id)[0].getAttribute("href"))
+      $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[realJ] + "/runing/1/" + runnum + ".png")
+      // $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[0] + "/runing/1/" + runnum + ".png")
+
+    //   console.log($("#"+runIDArray[j].toString()));
+    //   console.log($("#10900011090001")[0].getAttribute("href"));
+      runnum++
+
+      // timerRun=setTimeout(funcTimeRun,runSpeedArray[realJ])
+      // timerRun=setTimeout(funcTimeRun,runSpeedArray[0])
+      timerArray.push(setTimeout(funcTimeRun,runSpeedArray[realJ]))
+    }
+      funcTimeRun()
+  //=======================
+  //符合条件就break
+      break;
+  }
+  }
+  }
+  aa++
+    // timerAll=setTimeout(funcTimerAll, 6000)
   }, 6000)
-
+  // funcTimerAll()
   // time22()
 
   // console.log(runIDArray)

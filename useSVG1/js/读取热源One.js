@@ -5,41 +5,42 @@ var paperLeft=0
 var paperTop=0
 var jsonData=null
 var bigTime=null
+var timerAll=null
+var timerAlarm=null
+var timerRun=null
+var timerArray=[]
+//======
+var runIDArray=[]
+var runNumArray=[]
+var runSpeedArray=[]
+//======
+var alarmIDArray=[]
+var alarmNumArray=[]
+var alarmSpeedArray=[]
+//===============
+var jsonRunIDArray=[]
+var jsonAlarmIDArray=[]
+
 
 
 window.onload=function () {
   let svg=null
-  // let bigJson="../json/cold2.json"
-  // let jsonOne="../json/cold2.json"
-
-  // let bigJson="../json/hot1.json"
   let jsonOne="../json/hotOne.json"
 
   mouseWheel()
   let cptArray=analysisCompoentsOne()
+  //画图
   analysisXML(svg,cptArray,jsonOne)
-  // analysisCompoents("a","a")
-
+  //动图
+  runAndAlarm()
+  
 }
 
 /*
 * 解析导出的xml文件
 * */
 function analysisXML(svg,cptArray,bigJson,jsonOne) {
-  // let xmlFileName="../lyxtxtjgtOne.xml";
-
-  // let xmlFileName="../19.xml"
-  // let xmlFileName="../20.xml"
-
-  // let xmlFileName="../3.xml"
-  // let xmlFileName="../22.xml"
-  // let xmlFileName="../23.xml"
-  // let xmlFileName="../24.xml"
-  // let xmlFileName="../1.xml"
-  // let xmlFileName="../2.xml"
-  // let xmlFileName="../0.xml"
   let xmlFileName="../readhot.xml"
-  // let xmlFileName="../test.xml"
   let xmlDoc
   //IE
   if((/Trident\/7\./).test(navigator.userAgent)){
@@ -76,14 +77,11 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
       }
     }
     let nodename=ComponentsChildren[i].nodeName
-
     // console.log(nodename)
     let group=ComponentsChildren[i].getAttribute("group")
     let image=null
     let width=ComponentsChildren[i].getAttribute("width")
     let height=ComponentsChildren[i].getAttribute("height")
-    // console.log(width)
-    // console.log(height)
     //匹配大背景图片
     if(group==="map"){
       width=ConfigWidth
@@ -147,7 +145,6 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
         svg.rect(x, y, width?width-5:40, height?height:20).attr({
           "fill": "black"
         })
-
       }
 
       let fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
@@ -168,7 +165,6 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
       //给文字加id
       drawText.node.setAttribute("deviceId",deviceID)
       drawText.node.setAttribute("paramId",paramID)
-      // console.log(deviceID)
 
       //=================================
       //根据json绘制文字
@@ -199,10 +195,7 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
       //=============================
       }
       */
-
-
-
-
+      
     }
     //====================================上面是文字
     //图片====================================
@@ -244,7 +237,6 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
            getJSON(jsonOne,deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
            //======================================
 
-           // console.log(parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft))
          }
        })
        .mouseout(function () {
@@ -263,62 +255,14 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
         let alarmNum=16
         let alarmSpeed=80
         // console.log(getImgNum(nodename,runNum,runSpeed,alarmNum))
-        let allRun=getImgNum(nodename,runNum,runSpeed,alarmNum,alarmSpeed)
+        //添加id,速度,数量
+        getImgNum(deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpeed,imageSource)
 
-        //=========================================
-          let aa=2
-          function time22(){
-            // clearInterval(time1)
-
-            if(aa>3){
-              aa=2
-            }
-            // address="../json/hot"+i+".json"
-            let address="../json/hot2.json"
-            // console.log(address)
-            // 读取全局json
-            // console.log(aa)
-            jsonStatus(i,address,deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,allRun.alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,imageSource)
-            aa++
-            clearTimeout(time2)
-            time2=setTimeout(time22,6000);
-          }
-          time22()
-        //============================function
-        //所有都鬼畜
-        // clearInterval(time2)
-
-        // console.log(nodename)
-        // time2=setInterval(function() {
-        //   console.log(timerArray)
-          //刚开始好，之后锅炉1鬼畜
-
-          // if(i>3){
-          //   i=2
-          // }
-          // let address="../json/hot"+i+".json"
-          // let address="../json/hot2.json"
-          //读取全局json
-          // clearInterval(time1)
-          // for(let timer in timerArray){
-          //   clearInterval(timer)
-          // }
-
-            // jsonStatus(i,address,deviceID,nodename,allRun.runNum,allRun.runSpeed,allRun.alarmNum,allRun.alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,imageSource)
-          // i++
-          // for(let timer in timerArray){
-          //   clearInterval(timer)
-          // }
-
-          // clearInterval(time1)
-        // },6000)
+        drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource)
 
         //=================================
 
      }
-
-       //显示运行时间
-      // runTime()
 
      }
      //==========else
@@ -352,43 +296,6 @@ function scale(r) {
   })
 }
 
-function drawText(svg,textX,textY,text,fontSize,textAlign,color,fontFamily,fontWeight) {
-  svg.text(textX,textY,text)
-    .attr({
-      "font-size":fontSize+"px",
-      "text-align":textAlign,
-      cursor:'pointer',
-      'fill':color,
-      'text-anchor':'middle',
-      'font-family':fontFamily,
-      'font-weight':fontWeight
-    })
-}
-
-//运行时间
-function runTime() {
-  let i=0
-  setInterval(function () {
-    i++
-    $("#runTime").text(i)
-  },1000)
-
-}
-
-//报警变红
-function showLb3(lb3) {
-  if
-  (lb3>=60 && $("#20003")[0].href.baseVal==="assets/comp/LQB/alarm/0/1.png")
-  {
-    $("#20003")[0].href.baseVal="assets/comp/LQB/alarm/1/9.png"
-  }
-  else
-    if
-  (lb3<60 && $("#20003")[0].href.baseVal==="assets/comp/LQB/alarm/1/9.png")
-  {
-    $("#20003")[0].href.baseVal="assets/comp/LQB/alarm/0/1.png"
-  }
-}
 
 //滚轮滚动
 function mouseWheel() {
@@ -501,145 +408,74 @@ function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
   })
   //ajax
 }
+//画配置图片
+function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
+  //读取配置文件
+  //在添加好图片的基础上再去添加它的运行，报警图片
+  if(!$("#"+deviceID+deviceID+deviceID)[0]) {
+    if (cptArray[nodename]) {
+      //有的图是用alarm画的，有alarm就不画报警图了
+      if (cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm") === -1) {
+        // console.log(nodename)
+        let imgSource = cptArray[nodename]["alarm"]["imgSource"]
+        let imgX = parseInt(cptArray[nodename]["alarm"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
+        let imgY = parseInt(cptArray[nodename]["alarm"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
+        let imgWidth = parseInt(cptArray[nodename]["alarm"]["imgWidth"]) * parseFloat(scaleX)
+        let imgHeight = parseInt(cptArray[nodename]["alarm"]["imgHeight"]) * parseFloat(scaleY)
+        //画图
+        let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
+          .attr({
+            cursor: 'pointer',
+          })
+        imgRun.node.setAttribute("id", deviceID + deviceID + deviceID)
+      }
+    }
+  }
+  //================画报警图
 
-var time1=null
-var time2=null
-var timerArray=[]
-var runIDArray=[]
+  //防止重新绘画
+  //run
+  if(!$("#"+deviceID+deviceID)[0]){
+    // console.log("aaaa")
+    if(cptArray[nodename]) {
+      if (cptArray[nodename]["running"]) {
+        let imgSource = cptArray[nodename]["running"]["imgSource"]
+        let imgX = parseInt(cptArray[nodename]["running"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
+        let imgY = parseInt(cptArray[nodename]["running"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
+        let imgWidth = parseInt(cptArray[nodename]["running"]["imgWidth"]) * parseFloat(scaleX)
+        let imgHeight = parseInt(cptArray[nodename]["running"]["imgHeight"]) * parseFloat(scaleY)
+        //画图
+        let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
+          .attr({
+            cursor: 'pointer',
+          })
+        imgRun.node.setAttribute("id", deviceID + deviceID)
+      }
+    }
+  }
+//======================
 
-function jsonStatus(outI,address,deviceID,nodename,runNum,runSpeed,alarmNum,alarmSpeed,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
 
-  // console.log(outI)
-  // time1=null
-  // clearInterval(time1)
+}
 
-  // console.log(time1,2)
-  let outJ=0
-  let flag=0
-  
-  // console.log(nodename)
+
+function jsonStatus(address) {
   $.getJSON(address, function(data) {
-    //只有锅炉2动
     $.each(data.result,function(i,group){
-      //全部不动
       $.each(group,function (key,val) {
-        // clearInterval(time1)
         //获取鼠标悬浮的设备
         if(val===parseInt(deviceID)){
           //===================alarm
-          /*
           if(group.paramID===2 && group.statusValue ==="1" ) {
-            //读取配置文件
-            //在添加好图片的基础上再去添加它的运行，报警图片
-            if (cptArray[nodename]) {
-              //有的图是用alarm画的，有alarm就不画报警图了
-              if (cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm") === -1) {
-                // console.log(nodename)
-                let imgSource = cptArray[nodename]["alarm"]["imgSource"]
-                let imgX = parseInt(cptArray[nodename]["alarm"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
-                let imgY = parseInt(cptArray[nodename]["alarm"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
-                let imgWidth = parseInt(cptArray[nodename]["alarm"]["imgWidth"]) * parseFloat(scaleX)
-                let imgHeight = parseInt(cptArray[nodename]["alarm"]["imgHeight"]) * parseFloat(scaleY)
-                //画图
-                let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
-                  .attr({
-                    cursor: 'pointer',
-                  })
-                imgRun.node.setAttribute("id", deviceID + deviceID + deviceID)
-              }
-            }
-            //================画报警图
-            //就8,9切换
-            let jj = 8
-            //==============================
-            if ($("#" + deviceID + deviceID + deviceID)[0]) {
-              if (alarmNum === 1) {
-                $("#" + deviceID + deviceID + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
-              } else {
-                function timeAlarm() {
-                  if (jj > 9) {
-                    jj = 8
-                  }
-                  $("#" + deviceID + deviceID + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
-                  jj++
-                  setTimeout(timeAlarm, alarmSpeed);
-                }
-                timeAlarm()
-              }
-            } else {
-              if (alarmNum === 1) {
-                $("#" + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
-              } else {
-                function timeAlarmOne() {
-                  if (jj > 9) {
-                    jj = 8
-                  }
-                  $("#" + deviceID)[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
-                  jj++
-                  setTimeout(timeAlarmOne, alarmSpeed);
-                }
-                timeAlarmOne()
-              }
-            }
 
           }
           else
-          */
+
           // clearInterval(time1)
           //运行，即动画
           //=============run
           if(group.paramID===1 && group.statusValue ==="1" ){
            
-            //防止重新绘画
-            //run
-            if(!$("#"+deviceID+deviceID)[0]){
-              // console.log("aaaa")
-            if(cptArray[nodename]) {
-              if (cptArray[nodename]["running"]) {
-                let imgSource = cptArray[nodename]["running"]["imgSource"]
-                let imgX = parseInt(cptArray[nodename]["running"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
-                let imgY = parseInt(cptArray[nodename]["running"]["imgY"]) * parseFloat(scaleY) + parseInt(y)
-                let imgWidth = parseInt(cptArray[nodename]["running"]["imgWidth"]) * parseFloat(scaleX)
-                let imgHeight = parseInt(cptArray[nodename]["running"]["imgHeight"]) * parseFloat(scaleY)
-                //画图
-                let imgRun = svg.image(imgSource, imgX, imgY, imgWidth, imgHeight)
-                  .attr({
-                    cursor: 'pointer',
-                  })
-                imgRun.node.setAttribute("id", deviceID + deviceID)
-              }
-            }
-
-            }
-              // let timer
-              let i = 1
-            // clearInterval(time1)
-            //==========================
-            //   timerArray[time1]=setInterval(function () {
-            //     if(i>runNum){
-            //       i=1
-            //     }
-            //     $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
-            //     i++
-            //   },runSpeed)
-            //============================
-            function setinter() {
-
-              if(i>runNum){
-
-                i=1
-
-              }
-              $("#"+deviceID+deviceID)[0].href.baseVal="assets/comp/"+nodename+"/runing/1/"+i+".png"
-              i++
-              // clearTimeout(time1);
-              time1=setTimeout(setinter,runSpeed)
-
-            }
-            setinter()
-
-
-
 
         }
           return false;
@@ -648,12 +484,6 @@ function jsonStatus(outI,address,deviceID,nodename,runNum,runSpeed,alarmNum,alar
     })
   })
     })
-
-
-  // clearInterval(time1)
-
-
-
 
 }
 
@@ -733,7 +563,7 @@ function analysisCompoentsOne() {
 }
 
 //获取图片数量
-function getImgNum(nodeName,runNum,runSpeed,alarmNum,alarmSpeed) {
+function getImgNum(deviceID,nodeName,runNum,runSpeed,alarmNum,alarmSpeed,imageSource) {
   //定义对象
   // let allRun={}
   //转动数量
@@ -770,18 +600,64 @@ function getImgNum(nodeName,runNum,runSpeed,alarmNum,alarmSpeed) {
      nodeName==="LQB" || nodeName==="RQGL" ||
      nodeName==="SAF" || nodeName==="SAF1" ||
      nodeName==="SAF2"){
-    alarmNum=16
+    // alarmNum=16
+    alarmNum=2
     // console.log(alarmNum)
   }else{
     alarmNum=1
   }
-  return {"runNum":runNum,
-          "runSpeed":runSpeed,
-          "alarmNum":alarmNum,
-          "alarmSpeed":alarmSpeed
-          }
+  //有alarm
+  if(imageSource.indexOf("alarm")>-1){
+    alarmIDArray.push(deviceID)
+  }else{
+    alarmIDArray.push(deviceID+deviceID+deviceID)
+  }
+  runIDArray.push(deviceID+deviceID)
+  runSpeedArray.push(runSpeed)
+  runNumArray.push(runNum)
+  alarmSpeedArray.push(alarmSpeed)
+  alarmNumArray.push(alarmNum)
+
 }
 
+//运行和报警
+function runAndAlarm() {
+  let aa = 1
+  let address
+  let jj = 8
+  timerAll=setInterval(function () {
+    if (aa > 3) {
+      aa = 2
+    }
+    address = "../json/hot2.json"
+    jsonStatus(address)
+    aa++
+    clearTimeout(timeAll)
+    //就8,9切换
 
+    if (jj > 9) {
+      jj = 8
+    }
+    jj++
+    //==============================
+    //原先就以alarm做图片的，就是1
+    if (alarmNumArray[i] === 1) {
+      $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/1.png"
+    }else{
+      $("#" + alarmIDArray[i])[0].href.baseVal = "assets/comp/" + nodename + "/alarm/1/" + jj + ".png"
+    }
+    //===============================
 
+  }, 6000)
+
+  // time22()
+
+  // console.log(runIDArray)
+  // console.log(runSpeedArray)
+  // console.log(runNumArray)
+  // console.log(alarmIDArray)
+  // console.log(alarmNumArray)
+  // console.log(alarmSpeedArray)
+
+}
 

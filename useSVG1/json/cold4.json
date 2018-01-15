@@ -1,6 +1,7 @@
 {
   "result":
   [
+
     {
       "paramID":1,
       "statusEnValue":"停止",
@@ -9,6 +10,7 @@
       "deviceName":"大商业冷水机组1#",
       "statusValue":"0"
     },
+
     {
       "paramID":115,
       "statusEnValue":"0",
@@ -132,7 +134,7 @@
       "paramEnName":"runing",
       "deviceID":10002,
       "deviceName":"大商业冷水机组2#",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -402,7 +404,7 @@
       "paramEnName":"runing",
       "deviceID":10004,
       "deviceName":"大商业冷水机组4#",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -780,7 +782,7 @@
       "paramEnName":"runing",
       "deviceID":20001,
       "deviceName":"大商业1#冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
     {
       "paramID":201,
@@ -1004,7 +1006,7 @@
       "paramEnName":"runing",
       "deviceID":20004,
       "deviceName":"大商业4#冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1085,7 +1087,7 @@
       "paramEnName":"runing",
       "deviceID":20005,
       "deviceName":"大商业5#冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1103,7 +1105,7 @@
       "paramEnName":"alarm",
       "deviceID":20005,
       "deviceName":"大商业5#冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1166,7 +1168,7 @@
       "paramEnName":"runing",
       "deviceID":20006,
       "deviceName":"大商业1#免费冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1247,7 +1249,7 @@
       "paramEnName":"runing",
       "deviceID":20007,
       "deviceName":"大商业2#免费冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1265,7 +1267,7 @@
       "paramEnName":"alarm",
       "deviceID":20007,
       "deviceName":"大商业2#免费冷却泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1373,7 +1375,7 @@
       "paramEnName":"runing",
       "deviceID":2260002,
       "deviceName":"大商业2#补水泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1382,7 +1384,7 @@
       "paramEnName":"alarm",
       "deviceID":2260002,
       "deviceName":"大商业2#补水泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -1994,7 +1996,7 @@
       "paramEnName":"runing",
       "deviceID":30001,
       "deviceName":"大商业1#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2075,7 +2077,7 @@
       "paramEnName":"runing",
       "deviceID":30002,
       "deviceName":"大商业2#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2093,7 +2095,7 @@
       "paramEnName":"alarm",
       "deviceID":30002,
       "deviceName":"大商业2#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2156,7 +2158,7 @@
       "paramEnName":"runing",
       "deviceID":30003,
       "deviceName":"大商业3#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2255,7 +2257,7 @@
       "paramEnName":"alarm",
       "deviceID":30004,
       "deviceName":"大商业4#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2318,7 +2320,7 @@
       "paramEnName":"runing",
       "deviceID":30005,
       "deviceName":"大商业5#冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2399,7 +2401,7 @@
       "paramEnName":"runing",
       "deviceID":30006,
       "deviceName":"大商业1#免费冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2417,7 +2419,7 @@
       "paramEnName":"alarm",
       "deviceID":30006,
       "deviceName":"大商业1#免费冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2480,7 +2482,7 @@
       "paramEnName":"runing",
       "deviceID":30007,
       "deviceName":"大商业2#免费冷冻泵",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2570,7 +2572,7 @@
       "paramEnName":"alarm",
       "deviceID":40001,
       "deviceName":"大商业1#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2633,7 +2635,7 @@
       "paramEnName":"runing",
       "deviceID":40002,
       "deviceName":"大商业2#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2714,7 +2716,7 @@
       "paramEnName":"alarm",
       "deviceID":40003,
       "deviceName":"大商业3#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2777,7 +2779,7 @@
       "paramEnName":"runing",
       "deviceID":40004,
       "deviceName":"大商业4#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2849,7 +2851,7 @@
       "paramEnName":"runing",
       "deviceID":40005,
       "deviceName":"大商业5#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2858,7 +2860,7 @@
       "paramEnName":"alarm",
       "deviceID":40005,
       "deviceName":"大商业5#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2921,7 +2923,7 @@
       "paramEnName":"runing",
       "deviceID":40006,
       "deviceName":"大商业6#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -2993,7 +2995,7 @@
       "paramEnName":"runing",
       "deviceID":40007,
       "deviceName":"大商业7#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3002,7 +3004,7 @@
       "paramEnName":"alarm",
       "deviceID":40007,
       "deviceName":"大商业7#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3065,7 +3067,7 @@
       "paramEnName":"runing",
       "deviceID":40008,
       "deviceName":"大商业8#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3209,7 +3211,7 @@
       "paramEnName":"runing",
       "deviceID":40010,
       "deviceName":"大商业10#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3218,7 +3220,7 @@
       "paramEnName":"alarm",
       "deviceID":40010,
       "deviceName":"大商业10#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3281,7 +3283,7 @@
       "paramEnName":"runing",
       "deviceID":40011,
       "deviceName":"大商业11#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3290,7 +3292,7 @@
       "paramEnName":"alarm",
       "deviceID":40011,
       "deviceName":"大商业11#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3353,7 +3355,7 @@
       "paramEnName":"runing",
       "deviceID":40012,
       "deviceName":"大商业12#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3425,7 +3427,7 @@
       "paramEnName":"runing",
       "deviceID":40013,
       "deviceName":"大商业13#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3506,7 +3508,7 @@
       "paramEnName":"alarm",
       "deviceID":40014,
       "deviceName":"大商业14#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3641,7 +3643,7 @@
       "paramEnName":"runing",
       "deviceID":40016,
       "deviceName":"大商业16#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3650,7 +3652,7 @@
       "paramEnName":"alarm",
       "deviceID":40016,
       "deviceName":"大商业16#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3713,7 +3715,7 @@
       "paramEnName":"runing",
       "deviceID":40017,
       "deviceName":"大商业17#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {
@@ -3866,7 +3868,7 @@
       "paramEnName":"alarm",
       "deviceID":40019,
       "deviceName":"大商业19#冷却塔",
-      "statusValue":"1"
+      "statusValue":"0"
     },
 
     {

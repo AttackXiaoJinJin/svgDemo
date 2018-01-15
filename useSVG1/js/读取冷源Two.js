@@ -584,11 +584,12 @@ function getImgNum(deviceID,nodeName,imageSource) {
   if(nodeName.indexOf('LQT')>-1){
     runNum = 10
     runSpeed = 40
-    alarmSpeed = 910
+    //修改速度看清除定时器后是不是第一张图
+    alarmSpeed=910
   }else if(nodeName.indexOf('LQB')>-1){
     runNum = 3;
     runSpeed = 80;
-    alarmSpeed = 910
+    alarmSpeed =910
   }else if(nodeName.indexOf('LGJZ')>-1){
     runNum = 12;
     runSpeed = 90
@@ -601,14 +602,7 @@ function getImgNum(deviceID,nodeName,imageSource) {
     runNum = 30
     runSpeed = 80
     alarmSpeed = 910
-  }else if(nodeName.indexOf('BSHX')>-1){
-    runNum = 6
-    runSpeed = 60
-    alarmSpeed = 910
   }
-
-
-
   if(nodeName==="BSB2" || nodeName==="BSB1" ||
      nodeName==="DRFM" || nodeName==="EAF" ||
      nodeName==="EAF1" || nodeName==="EAF2" ||
@@ -644,7 +638,7 @@ function getImgNum(deviceID,nodeName,imageSource) {
 
 //运行和报警
 function runAndAlarm() {
-  let aa = 2
+  let aa = 3
   let address
   let bb = 8
 
@@ -658,11 +652,12 @@ function runAndAlarm() {
       clearTimeout(timerAlarm[bb])
     }
 
-    if (aa > 2) {
-      aa = 1
+    if (aa > 4) {
+      aa = 3
     }
     // address = "../json/hot2.json"
     address = "../json/cold"+aa+".json"
+    console.log(address)
     //获取运行，报警数组
     jsonStatus(address)
     //alarm===================
@@ -681,11 +676,6 @@ function runAndAlarm() {
           let alarmnumOne=0
           //配置里报警有
           if(alarmNumArray[j]===2){
-            // console.log(id,alarmNumArray[j])
-            // if(id===20001){
-            //   console.log(address)
-            // }
-            
             function funcTimeAlarmOne() {
             if(alarmnum>9) {
               alarmnum = 8
@@ -707,6 +697,11 @@ function runAndAlarm() {
               timerAlarm.push(setTimeout(funcTimeAlarmTwo,alarmSpeedArray[realJ]))
             }
             funcTimeAlarmTwo()
+
+
+
+
+
           }
 
 
@@ -739,7 +734,6 @@ function runAndAlarm() {
               alarmnum++
               timerAlarm.push(setTimeout(funcTimeAlarm, alarmSpeedArray[realJ]))
             }
-
             funcTimeAlarm()
             //=======================
             //符合条件就break

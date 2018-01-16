@@ -1,0 +1,2 @@
+<?xml version="1.0" standalone="yes"?>
+<Configration Width="1495" Height="710"><LIST><Component><LGJZ/><BSB1/></Component><Image/></LIST><Components><LGJZ x="1093" y="243" height="129" width="256" source="assets/comp/LGJZ/alarm/0/1.png" group="deviceComp" deviceID="1" compname="螺杆机组"/><BSB1 x="758" y="247" height="87" width="88" source="assets/comp/BSB1/bg.png" group="deviceComp" deviceID="2" compname="补水泵1"/></Components></Configration>

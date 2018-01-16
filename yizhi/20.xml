@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="739">
+  <LIST>
+    <Component>
+      <QSX/>
+      <BQSX/>
+      <ZNSX/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <LCF1 source="assets/comp/LCF1.png"/>
+      <SPJKTULI source="assets/comp/TULI/SPJK.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scaleY="1" group="map" source="mapAssets/mapImages/F1Node.png" scaleX="1" fontFamily="微软雅黑" rotation="0" x="0" y="0" fontSize="14"/>
+    <LCF1 scaleY="0.8" group="bg" source="assets/comp/LCF1.png" scaleX="0.8" width="110" x="10" height="92" y="10"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="72" deviceName="D1101J" x="367" mark="TSX" deviceID="640001"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="135" deviceName="D1102J" x="332" mark="TSX" deviceID="640002"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="160" deviceName="D1103J" x="280" mark="TSX" deviceID="640003"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="179" deviceName="D1104J" x="253" mark="TSX" deviceID="640004"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="226" deviceName="D1105J" x="338" mark="TSX" deviceID="640005"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="260" deviceName="D1106J" x="240" mark="TSX" deviceID="640006"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="250" deviceName="D1201J" x="585" mark="TSX" deviceID="640007"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="301" deviceName="D1202J" x="510" mark="TSX" deviceID="640008"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="349" deviceName="D1203J" x="457" mark="TSX" deviceID="640009"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="307" deviceName="D1204J" x="408" mark="TSX" deviceID="640010"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="300" deviceName="D1205J" x="351" mark="TSX" deviceID="640011"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="326" deviceName="D1206J" x="342" mark="TSX" deviceID="640012"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="396" deviceName="D1207J" x="335" mark="TSX" deviceID="640013"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="442" deviceName="D1208J" x="222" mark="TSX" deviceID="640014"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="363" deviceName="D1209J" x="304" mark="TSX" deviceID="640015"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="299" deviceName="D1210J" x="233" mark="TSX" deviceID="640016"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="346" deviceName="D1301J" x="681" mark="TSX" deviceID="640018"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="373" deviceName="D1302J" x="650" mark="TSX" deviceID="640019"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="402" deviceName="D1303J" x="605" mark="TSX" deviceID="640021"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="400" deviceName="D1304J" x="653" mark="TSX" deviceID="640020"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="444" deviceName="D1305J" x="678" mark="TSX" deviceID="640022"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="497" deviceName="D1306J" x="747" mark="TSX" deviceID="640023"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="355" deviceName="D1307J" x="558" mark="TSX" deviceID="640024"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="419" deviceName="D1308J" x="523" mark="TSX" deviceID="640025"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="273" deviceName="D1401J" x="1122" mark="TSX" deviceID="640026"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="292" deviceName="D1402J" x="1103" mark="TSX" deviceID="640027"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="277" deviceName="D1403J" x="1076" mark="TSX" deviceID="640028"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="285" deviceName="D1404J" x="1035" mark="TSX" deviceID="640029"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="427" deviceName="D1405J" x="1223" mark="TSX" deviceID="640030"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="415" deviceName="D1406J" x="1127" mark="TSX" deviceID="640031"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="358.75" deviceName="D1407J" x="984.5" mark="TSX" deviceID="640032"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="220" deviceName="D1408J" x="866" mark="TSX" deviceID="640033"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="238" deviceName="D1409J" x="879" mark="TSX" deviceID="640034"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="289" deviceName="D1410J" x="896" mark="TSX" deviceID="640035"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="300" deviceName="D1411J" x="836" mark="TSX" deviceID="640036"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="342" deviceName="D1412J" x="865" mark="TSX" deviceID="640037"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="371" deviceName="D1413J" x="879" mark="TSX" deviceID="640038"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="379" deviceName="D1414J" x="824" mark="TSX" deviceID="640039"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="336" deviceName="D1415J" x="760" mark="TSX" deviceID="640040"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="20" deviceName="D1501J" x="852" mark="TSX" deviceID="640041"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="37" deviceName="D1502J" x="842" mark="TSX" deviceID="640042"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="50" deviceName="D1503J" x="898" mark="TSX" deviceID="640043"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="64" deviceName="D1504J" x="948" mark="TSX" deviceID="640044"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="32" deviceName="D1505J" x="994" mark="TSX" deviceID="640045"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="33" deviceName="D1508J" x="1029" mark="TSX" deviceID="640048"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="59" deviceName="D1506J" x="981" mark="TSX" deviceID="640046"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="49" deviceName="D1507J" x="1002" mark="TSX" deviceID="640047"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="56" deviceName="D1509J" x="1020" mark="TSX" deviceID="640049"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="168" deviceName="D1510J" x="1024" mark="TSX" deviceID="640050"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="169" deviceName="D1511J" x="978" mark="TSX" deviceID="640051"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="152" deviceName="D1512J" x="1044" mark="TSX" deviceID="640052"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="148" deviceName="D1513J" x="1083" mark="TSX" deviceID="640053"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="197" deviceName="D1514J" x="1017" mark="TSX" deviceID="640054"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="135" deviceName="D1515J" x="986" mark="TSX" deviceID="640055"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="285" deviceName="B101J" x="656" mark="TSX" deviceID="640179"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="278" deviceName="B102J" x="683" mark="TSX" deviceID="640180"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="277" deviceName="B103J" x="712" mark="TSX" deviceID="640181"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="232" deviceName="B104J" x="665" mark="TSX" deviceID="640182"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="211" deviceName="B105J" x="640" mark="TSX" deviceID="640183"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="188" deviceName="B106J" x="682" mark="TSX" deviceID="640184"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="197" deviceName="B107J" x="663" mark="TSX" deviceID="640185"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="177" deviceName="B108J" x="629" mark="TSX" deviceID="640186"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="169" deviceName="B109J" x="599" mark="TSX" deviceID="640187"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="189" deviceName="B110J" x="592" mark="TSX" deviceID="640188"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="221" deviceName="B111J" x="543" mark="TSX" deviceID="640189"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="195" deviceName="B112J" x="534" mark="TSX" deviceID="640190"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="177" deviceName="B113J" x="555" mark="TSX" deviceID="640191"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="163" deviceName="B114J" x="564" mark="TSX" deviceID="640192"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="175" deviceName="B115J" x="496" mark="TSX" deviceID="640193"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="151" deviceName="B116J" x="472" mark="TSX" deviceID="640194"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="118" deviceName="B117J" x="501" mark="TSX" deviceID="640195"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="110" deviceName="B118J" x="524" mark="TSX" deviceID="640196"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="104" deviceName="B119J" x="550" mark="TSX" deviceID="640197"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="100" deviceName="B120J" x="588" mark="TSX" deviceID="640198"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="118" deviceName="B121J" x="655" mark="TSX" deviceID="640199"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="89" deviceName="B122J" x="645" mark="TSX" deviceID="640200"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="56" deviceName="B123J" x="702" mark="TSX" deviceID="640201"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="32" deviceName="B124J" x="740" mark="TSX" deviceID="640202"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="35" deviceName="B125J" x="720" mark="TSX" deviceID="640203"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="39" deviceName="B126J" x="676" mark="TSX" deviceID="640204"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="39" deviceName="B127J" x="656" mark="TSX" deviceID="640205"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="77" deviceName="B128J" x="608" mark="TSX" deviceID="640206"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="64" deviceName="B129J" x="582" mark="TSX" deviceID="640207"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="66" deviceName="B130J" x="546" mark="TSX" deviceID="640208"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="61" deviceName="B131J" x="482" mark="TSX" deviceID="640209"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="338.75" deviceName="水街与节制闸路北*DS03J(球机)" x="1223.75" mark="TSX" deviceID="640482"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="375" deviceName="负二层A3写字楼电梯厅*D-2318J" x="1237" mark="TSX" deviceID="640479"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="571" deviceName="水街与节制闸路北*DS02J" x="1311" mark="TSX" deviceID="640478"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="475" deviceName="负二层A4消防电梯厅*D-2305J" x="1287.5" mark="TSX" deviceID="640466"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="588" deviceName="负二层A4公寓写字楼电梯厅*D-2304J" x="1276" mark="TSX" deviceID="640465"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="236" deviceName="10.247通道1" x="1185" mark="TSX" deviceID="640497"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="110" deviceName="DS07J" x="1130" mark="TSX" deviceID="640547"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="89" deviceName="DS8J" x="1126" mark="TSX" deviceID="640548"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="15" deviceName="DS9J" x="1088" mark="TSX" deviceID="640549"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="-2" deviceName="DS10J" x="1100" mark="TSX" deviceID="640550"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="8" deviceName="10.247通道2" x="971" mark="TSX" deviceID="640498"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="8" deviceName="10.247通道3" x="942" mark="TSX" deviceID="640499"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="4" deviceName="10.247通道4" x="692" mark="TSX" deviceID="640500"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="11" deviceName="10.247通道5" x="615" mark="TSX" deviceID="640501"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="8" deviceName="10.247通道6" x="546" mark="TSX" deviceID="640502"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="29" deviceName="10.247通道7" x="356" mark="TSX" deviceID="640503"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="60" deviceName="10.247通道8" x="182" mark="TSX" deviceID="640504"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="136" deviceName="10.247通道9" x="187" mark="TSX" deviceID="640505"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="163" deviceName="10.247通道10" x="188" mark="TSX" deviceID="640506"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="211" deviceName="10.247通道11" x="158" mark="TSX" deviceID="640507"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="234" deviceName="10.247通道12" x="156" mark="TSX" deviceID="640508"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="490" deviceName="10.247通道13" x="138" mark="TSX" deviceID="640509"/>
+    <ZNSX group="commonComp" source="assets/comp/ZNSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="681" deviceName="10.247通道14" x="98" mark="TSX" deviceID="640510"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="631" deviceName="10.247通道15" x="132" mark="TSX" deviceID="640511"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="652" deviceName="10.247通道16" x="131" mark="TSX" deviceID="640512"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="688" deviceName="10.247通道17" x="366" mark="TSX" deviceID="640513"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="676" deviceName="10.247通道18" x="703" mark="TSX" deviceID="640514"/>
+    <QSX group="commonComp" source="assets/comp/QSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="678" deviceName="10.247通道19" x="730" mark="TSX" deviceID="640515"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="373" deviceName="慧云机房2" x="944" mark="TSX" deviceID="640527"/>
+    <BQSX group="commonComp" source="assets/comp/BQSX/alarm/0/1.png" scaleX="0.25" scaleY="0.25" width="80" height="80" y="373" deviceName="慧云通道" x="862" mark="TSX" deviceID="640526"/>
+    <SPJKTULI scaleY="0.7" group="tuli" source="assets/comp/TULI/SPJK.png" scaleX="0.7" width="165" x="1316" height="204" y="596"/>
+  </Components>
+</Configration>

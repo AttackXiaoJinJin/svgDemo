@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1338" Height="730">
+  <LIST>
+    <Component>
+      <RQGL/>
+      <CSJTTB/>
+      <LQB/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+      <PIPE3T source="assets/comp/PIPE/pipe3.png"/>
+      <JT source="assets/comp/jt.png"/>
+      <RYZKSB source="assets/comp/gongfangzhuji.png" group="spetial"/>
+      <RYZKSB1 source="assets/comp/gongfangzhuji.png" group="spetial"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="180" width="10" x="953" height="40" y="154"/>
+    <RQGL scaleY="0.7" group="deviceComp" source="assets/comp/RQGL/alarm/0/1.png" scaleX="0.7" width="249" height="122" y="141" deviceName="锅炉主机.商业锅炉主机.1号主机." x="732.05" mark="RQGL" deviceID="1090001"/>
+    <CSJTTB scaleX="0.3" height="63" y="406" scaleY="0.3" source="assets/comp/csjttb.png" rotation="270" width="59" x="406"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="90" width="10" x="945" height="40" y="154"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="90" width="10" x="945" height="40" y="192"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="270" width="22" x="933" height="22" y="165"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="180" width="10" x="953" height="74" y="275"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="180" width="22" x="955" height="22" y="212"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="443" height="500" y="116"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="180" width="22" x="955" height="22" y="126"/>
+    <LQB group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" scaleX="0.7" scaleY="0.7" isMouseOverTip="true" width="88" height="87" y="66" deviceName="大商业1#热水泵" x="382.04999999999995" mark="RSB" deviceID="1190001"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="443" height="145" y="193"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="664" height="281" y="285"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="0" width="10" x="703" height="300" y="114"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="0" width="10" x="656" height="300" y="284"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="0" width="10" x="589" height="150" y="114"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="443" height="145" y="270"/>
+    <LQB group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" scaleX="0.7" scaleY="0.7" isMouseOverTip="true" width="88" height="87" y="142" deviceName="大商业2#热水泵" x="382" mark="RSB" deviceID="1190002"/>
+    <LQB group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" scaleX="0.7" scaleY="0.7" isMouseOverTip="true" width="88" height="87" y="219.85000000000002" deviceName="大商业3#热水泵" x="382" mark="RSB" deviceID="1190003"/>
+    <PIPE3T height="33" y="171" source="assets/comp/PIPE/pipe3.png" x="578" group="pipe" width="22"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="270" width="22" x="579" height="22" y="271"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="270" width="22" x="932" height="22" y="286"/>
+    <PIPE3T group="pipe" source="assets/comp/PIPE/pipe3.png" rotation="270" width="22" x="577" height="33" y="127"/>
+    <PIPE3T group="pipe" source="assets/comp/PIPE/pipe3.png" rotation="270" width="22" x="691" height="33" y="126"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="90" width="22" x="676" height="22" y="273"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="90" width="10" x="383" height="300" y="105"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="238" height="145" y="192"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="238" height="145" y="270"/>
+    <RQGL scaleY="0.7" group="deviceComp" source="assets/comp/RQGL/alarm/0/1.png" scaleX="0.7" width="249" height="122" y="443" deviceName="锅炉主机.商业锅炉主机.2号主机." x="731" mark="RQGL" deviceID="1090002"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="90" width="10" x="944" height="40" y="456"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="180" width="10" x="952" height="40" y="458"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="712" height="233" y="420"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="0" width="22" x="702" height="22" y="398"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="180" width="22" x="953" height="22" y="429"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="270" width="22" x="931" height="22" y="467"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="90" width="10" x="944" height="40" y="494"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="270" width="10" x="346" height="600" y="594"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="180" width="10" x="953" height="83" y="584"/>
+    <PIPE3T group="pipe" source="assets/comp/PIPE/pipe3.png" rotation="90" width="22" x="678" height="33" y="572"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="180" width="22" x="954" height="22" y="515"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="270" width="22" x="932" height="22" y="595"/>
+    <PIPELINE group="pipe" source="assets/comp/PIPE/pipe1.png" rotation="0" width="10" x="228" height="150" y="114"/>
+    <PIPE3T group="pipe" source="assets/comp/PIPE/pipe3.png" rotation="270" width="22" x="216" height="33" y="125"/>
+    <PIPE3T group="pipe" source="assets/comp/PIPE/pipe3.png" rotation="180" width="22" x="248" height="33" y="203"/>
+    <PIPECORNER group="pipe" source="assets/comp/PIPE/pipe2.png" rotation="0" width="22" x="227" height="22" y="249"/>
+    <TEXT group="commonComp" text="锅炉1#" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="52" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="116" x="790" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="锅炉2#" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="52" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="420" x="798" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="1#泵" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="35" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="121" x="425.95000000000005" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="2#泵" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="35" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="200" x="426" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="3#泵" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="35" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="281" x="425" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <HANDAUTO group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" alarm="HANDAUTO" width="58" height="25" y="65" deviceName="大商业1#热水泵" x="482" param="handAuto" mark="RSB" deviceID="1190001" paramID="38"/>
+    <HANDAUTO group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" alarm="HANDAUTO" width="58" height="25" y="146" deviceName="大商业2#热水泵" x="482" param="handAuto" mark="RSB" deviceID="1190002" paramID="38"/>
+    <HANDAUTO group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" alarm="HANDAUTO" width="58" height="25" y="223" deviceName="大商业3#热水泵" x="483" param="handAuto" mark="RSB" deviceID="1190003" paramID="38"/>
+    <TEXT group="commonComp" text="1#压力" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="52" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="60" x="614" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="2#压力" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="52" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="157" x="614" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="3#压力" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="52" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="226" x="615" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="温度" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="230.95" x="788" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="温度" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="532" x="789" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="温度" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="554" x="418" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <LABEL paramID="56" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="hotWaterOutTemp" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="251" deviceID="2320003" x="781" fontWeight="normal" deviceName="大商业热源总管补充" fontSize="12"/>
+    <LABEL paramID="62" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="outPressure" mark="RSB" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="81" deviceID="1190001" x="620" fontWeight="normal" deviceName="大商业1#热水泵" fontSize="12"/>
+    <LABEL paramID="62" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="outPressure" mark="RSB" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="179" deviceID="1190002" x="617" fontWeight="normal" deviceName="大商业2#热水泵" fontSize="12"/>
+    <LABEL paramID="62" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="outPressure" mark="RSB" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="248" deviceID="1190003" x="616" fontWeight="normal" deviceName="大商业3#热水泵" fontSize="12"/>
+    <TEXT group="commonComp" text="bar" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="24" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="82" x="671" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="bar" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="24" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="178" x="669" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="bar" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="24" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="248" x="666" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="流量" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="15" x="241" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="温度" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="43" x="241" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="压力" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="36" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="73" x="241" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <LABEL paramID="55" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="rsxhbPipeFlow" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="13" deviceID="2320001" x="280" fontWeight="normal" deviceName="大商业热源总管" fontSize="12"/>
+    <TEXT group="commonComp" text="℃" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="37" borderColor="0xffffff" contentBackgroundAlpha="0" height="25" y="43" x="328" param="" sizeAuto="false" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="bar" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="24" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="72" x="335" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="M3/h" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="38" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="14" x="332" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" width="43" x="734" height="22" y="88"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" rotation="180" width="43" x="804" height="22" y="303.05"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" width="43" x="489" height="22" y="90"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" width="43" x="157" height="22" y="86.69999999999999"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" rotation="180" width="43" x="618" height="22" y="575.95"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" rotation="180" width="43" x="735" height="22" y="576"/>
+    <JT scaleY="0.6" group="bg" source="assets/comp/jt.png" scaleX="1" width="43" x="780" height="22" y="387.95000000000005"/>
+    <LABEL paramID="57" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="hotWaterInTemp" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="42" deviceID="2320001" x="279" fontWeight="normal" deviceName="大商业热源总管" fontSize="12"/>
+    <LABEL paramID="54" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="rsxhbPipePressure" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="72" deviceID="2320001" x="279" fontWeight="normal" deviceName="大商业热源总管" fontSize="12"/>
+    <LABEL paramID="56" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="hotWaterOutTemp" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="553" deviceID="2320001" x="456" fontWeight="normal" deviceName="大商业热源总管" fontSize="12"/>
+    <TEXT group="commonComp" text="℃" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="37" borderColor="0xffffff" contentBackgroundAlpha="0" height="25" y="555.95" x="829.95" param="" sizeAuto="false" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="℃" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="37" borderColor="0xffffff" contentBackgroundAlpha="0" height="25" y="553" x="502" param="" sizeAuto="false" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="℃" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="37" borderColor="0xffffff" contentBackgroundAlpha="0" height="25" y="251.95" x="829.1" param="" sizeAuto="false" deviceID="" fontSize="16" fontWeight="normal"/>
+    <RYZKSB group="spetial" source="assets/comp/gongfangzhuji.png" width="54" x="102" height="117" y="454" deviceName="大商业热源总管" mark="RYZGCS" deviceID="2320001"/>
+    <LABEL paramID="73" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="inTemp1" mark="BAEN" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="24" deviceID="1410058" x="951" fontWeight="normal" deviceName="大商业锅炉房室内温度" fontSize="12"/>
+    <TEXT group="commonComp" text="锅炉房室内温度" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="121" borderColor="0xffffff" contentBackgroundAlpha="0" height="21" y="26" x="829" param="" sizeAuto="true" deviceID="" fontSize="16" fontWeight="normal"/>
+    <TEXT group="commonComp" text="℃" widthInChars="4" source="assets/comp/TEXTINPUT/label.png" borderVisible="false" fontFamily="微软雅黑" color="0x444444" textAlign="center" width="37" borderColor="0xffffff" contentBackgroundAlpha="0" height="25" y="23" x="1001" param="" sizeAuto="false" deviceID="" fontSize="16" fontWeight="normal"/>
+    <LABEL paramID="57" widthInChars="4" borderVisible="true" rotation="0" width="50" height="25" param="hotWaterInTemp" mark="RYZGCS" sizeAuto="false" textAlign="center" contentBackgroundAlpha="1" group="commonComp" text="0101" source="assets/comp/TEXTINPUT/text.png" fontFamily="digifaw" color="3407616" borderColor="999999" contentBackgroundColor="000000" y="555.4500000000002" deviceID="2320003" x="782.2" fontWeight="normal" deviceName="大商业热源总管补充" fontSize="12"/>
+    <RYZKSB1 group="spetial" source="assets/comp/gongfangzhuji.png" width="54" x="106.19999999999999" height="117" y="275.49999999999994" deviceName="大商业热源" mark="RYQK" deviceID="2500001"/>
+  </Components>
+</Configration>

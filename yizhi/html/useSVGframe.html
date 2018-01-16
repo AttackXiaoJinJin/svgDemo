@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+  <title>useSVGframe</title>
+  <link rel="stylesheet" href="../css/useSVG1.css">
+</head>
+<body>
+  <div id="readSVG" style="border: 1px green solid">
+  </div>
+  <table id="infoDiv" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>设备名称:<span id="deviceName" class="infoColor"></span></td>
+      <td>运行时间(s):<span id="runTime" class="infoColor"></span></td>
+      <td>运行状态:<span id="runStatus" class="infoColor">运行</span></td>
+    </tr>
+    <tr>
+      <td>报警状态:<span id="alarmStatus" class="infoColor"></span></td>
+      <td colspan="2">手自动状态:<span id="handAuto" class="infoColor"></span></td>
+    </tr>
+    <tr>
+      <td>频率反馈(Hz):<span id="hzStatus" class="infoColor"></span></td>
+      <td>进水压力反馈(bars):<span id="inStress" class="infoColor"></span></td>
+    </tr>
+  </table>
+
+  <script src="../otherjs/jquery-3.2.1.js"></script>
+  <script src="../otherjs/bootstrap.js"></script>
+  <script src="../otherjs/jquery-ui.js"></script>
+  <script src="../otherjs/raphael.min.js"></script>
+  <script src="../js/useSVGframe.js"></script>
+</body>
+</html>

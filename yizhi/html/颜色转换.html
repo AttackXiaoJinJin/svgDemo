@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>颜色转换</title>
+</head>
+<body>
+
+
+<script>
+window.onload=function () {
+  var reg = /^0x([0-9a-fA-f]{8})$/;
+  String.prototype.colorRgb = function() {//这个方法我截取了一部分，也就是说，你得保证你的color值都是以0x00000000这样的格式的，不然就会出问题
+    var sColor = this.toLowerCase();
+    if(sColor && reg.test(sColor)) {
+      //处理六位的颜色值
+      var sColorChange = [];
+      for(var i = 2; i < 10; i += 2) {
+        sColorChange.push(parseInt("0x" + sColor.slice(i, i + 2)));
+      }
+      return "RGB(" + sColorChange.join(",") + ")";
+    } else {
+      return sColor;
+    }
+  };
+  // var rgb="0x16777215".colorRgb();
+  var rgb="0x33333300".colorRgb();  //rgb(51,51,48,0)
+  console.log(rgb)
+}
+
+</script>
+</body>
+</html>

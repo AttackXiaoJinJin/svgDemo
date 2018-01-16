@@ -1,0 +1,34 @@
+/*******CSS backup**********/
+/* .btn_box {position: relative;width: 260px;height:60px;margin: 0 auto}
+.btn_box a{width: 69px;height: 68px;position: absolute;cursor: pointer; }
+.btn_box a.up{left: 96px;top: 0px;}
+.btn_box a.right_up{right: 23px;top: 23px;}
+.btn_box a.right{right: 0px;top: 94px;}
+.btn_box a.right_down{right: 23px;top: 165px;}
+.btn_box a.down{left: 96px;top: 192px;}
+.btn_box a.left_down{left: 23px;top: 165px;}
+.btn_box a.left{left: 0px;top: 94px;}
+.btn_box a.left_up{left: 23px;top: 23px;}
+.btn_box a.blowup{left: 75px;top: 107px;}
+.btn_box a.lessen{left: 133px;top: 106px;}
+.btn_box a:hover img{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3; -khtml-opacity: 0.3;}
+
+ */
+
+
+
+
+.btn_box {position: relative;width: 260px;height:60px;margin: 0 auto}
+.btn_box a{width: 69px;height: 68px;position: absolute;cursor: pointer; }
+.btn_box a.up{left: 96px;top: 0px;}
+.btn_box a.right_up{right: 23px;top: 23px;}
+.btn_box a.right{right: 0px;top: 94px;}
+.btn_box a.right_down{right: 23px;top: 165px;}
+.btn_box a.down{left: 96px;top: 192px;}
+.btn_box a.left_down{left: 23px;top: 165px;}
+.btn_box a.left{left: 0px;top: 94px;}
+.btn_box a.left_up{left: 23px;top: 23px;}
+.btn_box a.blowup{left: 75px;top: 107px;}
+.btn_box a.lessen{left: 133px;top: 106px;}
+.btn_box a:hover img{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3; -khtml-opacity: 0.3;}
+

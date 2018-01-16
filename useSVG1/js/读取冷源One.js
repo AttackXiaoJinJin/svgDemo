@@ -26,16 +26,22 @@ var nodeNameArray=[]
 
 
 window.onload=function () {
-  let svg=null
-  let jsonOne="../json/hotOne.json"
-  //同步
-  $.ajaxSettings.async = false
-  mouseWheel()
-  let cptArray=analysisCompoentsOne()
-  //画图
-  analysisXML(svg,cptArray,jsonOne)
-  //动图
-  runAndAlarm()
+  $("#showSVG").click(function () {
+    let svg=null
+    let jsonOne="../json/hotOne.json"
+    //同步
+    $.ajaxSettings.async = false
+    mouseWheel()
+    let cptArray=analysisCompoentsOne()
+    //画图
+    analysisXML(svg,cptArray,jsonOne)
+    //动图
+    runAndAlarm()
+
+
+    console.log("aaa")
+  })
+
   // console.log(jsonAlarmIDArray,"alarm")
   // console.log(jsonRunIDArray,"run")
 }
@@ -114,6 +120,7 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
 
      let x=ComponentsChildren[i].getAttribute("x")
      let y=ComponentsChildren[i].getAttribute("y")
+    // 文字以paramid标识
      let paramID=ComponentsChildren[i].getAttribute("paramID")
     //20001 63
     let deviceParam=deviceID+paramID
@@ -212,15 +219,15 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
        })
        .click(function (e) {
          // //切换成自动
-         if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
-           e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
-           handAuto[deviceID]=true
-         }
-         // //切换成手动
-         else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
-           e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
-           handAuto[deviceID]=false
-         }
+         // if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
+         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
+         //   handAuto[deviceID]=true
+         // }
+         // // //切换成手动
+         // else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
+         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
+         //   handAuto[deviceID]=false
+         // }
 
        })
        .mouseover(function (e) {
@@ -235,7 +242,6 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
            // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
            // $("#hzStatus").text(hzStatus[deviceID])
            // $("#inStress").text(inStress[deviceID])
-
            //=======================================
            //读取单个json
            // getJSON(jsonOne,deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
@@ -251,22 +257,13 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
       //添加ID
       //是设备图片
       if(group==="deviceComp"){
-
         simg.node.setAttribute('id',deviceID)
         simg.node.setAttribute('display','block')
-        let runNum=3
-        let runSpeed=80
-        let alarmNum=16
-        let alarmSpeed=80
-        // console.log(getImgNum(nodename,runNum,runSpeed,alarmNum))
         //添加id,速度,数量
         getImgNum(deviceID,nodename,imageSource)
         drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource)
-
         //=================================
-
      }
-
      }
      //==========else
   }
@@ -282,14 +279,9 @@ function analysisXML(svg,cptArray,bigJson,jsonOne) {
   svgEle.style.marginTop="-"+parseInt(ConfigHeight)/2+"px"
   paperLeft=parseInt($("#readSVG").css("width"))/2-parseInt(ConfigWidth)/2
   paperTop=parseInt($("#readSVG").css("height"))/2-parseInt(ConfigHeight)/2
-// console.log($("#readSVG").css("height"))
-// console.log(ConfigHeight)
-
   let children=svgEle.childNodes
 }
 //============解析xml
-
-//缩放
 
 //缩放
 function scale(r) {
@@ -298,7 +290,6 @@ function scale(r) {
     $(document.body).css("-ms-transform","scale("+r+")")
   })
 }
-
 
 //滚轮滚动
 function mouseWheel() {
@@ -324,7 +315,6 @@ function dragSVG() {
     //求div的偏移量
     let ol=event.clientX - readSVG.offsetLeft
     let ot=event.clientY-readSVG.offsetTop
-
     document.onmousemove=function (event) {
       // console.log("onmousemove")
       event=event || window.event
@@ -467,34 +457,47 @@ function jsonStatus(address) {
   //注意清空
   jsonAlarmIDArray=[]
   jsonRunIDArray=[]
-  // console.log("aaa")
-  $.getJSON(address, function(data) {
-    // console.log(data.result[0])
-    for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-      // for(let i=0;i<j;i++) {
-      //   console.log(groups)
+  let param={},httpUrl
+  param.gcID='JSCZJTWY'
+  param.device="'10001','10002','10003','10004','20005','30001','30002','30003','30004','30005','20004','20003'," +
+    "'20002','20001','40007','40005','40006','40003','40004','40001','40002','1720001','1720001','1720001'," +
+    "'30005','30004','30003','30002','30001','1720001','1720001','1720002','1720002','1720001','1720001'," +
+    "'1720001','1720001','2270001','2390001','20001','20002','20003','20004','20005','30001','30002','30003'," +
+    "'30004','30005','40007','40005','40006','40003','40004','40001','40002','2330009','2330010','2330011'," +
+    "'2330012','2330008','2330004','2330007','2330003','2330006','2330002','2330001','2330005','10004','10003'," +
+    "'10002','10001'"
+
+  httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getNodeParam?falg='+Math.random()
+  //请求
+  $.ajax({
+    type:'get',
+    url:httpUrl,
+    data:{'str':JSON.stringify(param) },
+    dataType:'json',
+    success:function (data) {
+      data=JSON.parse(data)
+      console.log(data)
+      for(let j=0,groups=data.result,n=groups.length;j<n;j++){
         //===================alarm
         if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
-          // console.log(group.deviceID,"alarm")
           let id = groups[j].deviceID
           jsonAlarmIDArray.push(id)
-          // saveArray(id)
-          // console.log(jsonAlarmIDArray, "alarm")
-
+          // console.log(jsonAlarmIDArray)
         }else
         //运行，即动画
         //=============run
         if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
           let id = groups[j].deviceID
           jsonRunIDArray.push(id)
-          // console.log(jsonRunIDArray, "run")
-
         }
-        // return false;
-      // }
 
-  }
-    })
+      }
+    },
+    error:function (err) {
+    }
+
+  })
+
 
 }
 
@@ -640,8 +643,6 @@ function getImgNum(deviceID,nodeName,imageSource) {
   nodeNameArray.push(nodeName)
 }
 
-
-
 //运行和报警
 function runAndAlarm() {
   let aa = 2
@@ -658,13 +659,13 @@ function runAndAlarm() {
       clearTimeout(timerAlarm[bb])
     }
 
-    if (aa > 2) {
-      aa = 1
-    }
+    // if (aa > 2) {
+    //   aa = 1
+    // }
     // address = "../json/hot2.json"
-    address = "../json/cold"+aa+".json"
+    // address = "../json/cold"+aa+".json"
     //获取运行，报警数组
-    jsonStatus(address)
+    jsonStatus()
     //alarm===================
     // console.log(alarmIDArray)
     for(let i=0,n=jsonAlarmIDArray.length;i<n;i++){
@@ -708,8 +709,6 @@ function runAndAlarm() {
             }
             funcTimeAlarmTwo()
           }
-
-
           //=======================
           //符合条件就break
           break;

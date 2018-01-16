@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>远程桌面 Web 连接</title>
+  <style type="text/css" media="screen">
+    p {
+      color:#000000;
+      font-size:75%;
+    }
+    h1 { font-size: 100%;
+      font-weight: bold;
+      margin-top: 0em;}
+    p.indent { margin-left: 3em; margin-top: .5em; line-height: 1.25em; margin-bottom: .2em; margin-right: 1em;}
+    .button {
+      font-weight:normal;
+      font-size:75%;
+      color:#000000;
+      background-color:#ffffff;
+      border-color:#6699ff;
+      margin-top:6pt;
+      margin-left: .5em;
+    }
+    .topspace {margin-top: .08em; }
+  </style>
+  <script src="../js/jquery-1.11.1.min.js"></script>
+
+  <script language="javascript">
+    /**
+     *
+     */
+      //用户连接节点的凭据
+    var serverIP;//="223.3.56.160";
+    var serveraccount;//="EPtest";
+    var serverpsw;//="Qing7Qing7";
+    //需要保存的用户使用节点的信息
+    var username;//="admin";
+    var starttime=new Date();
+    var port;//=6000;
+    var softname;//="hfss";
+    var modelID;//="1";
+
+    //下面为与连接节点相关的代码
+    var L_FullScreenWarn1_Text = "当前的安全设置不允许自动切换到全屏模式。"
+    var L_FullScreenWarn2_Text = "您可以用 Ctrl-Alt-Pause 将远程桌面会话切换到全屏模式"
+    var L_FullScreenTitle_Text = "远程桌面 Web 连接"
+    var L_ErrMsg_Text         = "连接到远程计算机时的错误: "
+    var L_PlatformCheck_ErrorMessage = "远程桌面 Web 连接 ActiveX 控件只能在 32 位版本的 Internet Explorer 中运行。"
+    //error messages
+    var L_RemoteDesktopCaption_ErrorMessage =  "远程桌面连接"
+    var L_DisconnectedCaption_ErrorMessage =  "远程桌面连接已被中断"
+    var L_ErrConnectCallFailed_ErrorMessage =  "客户端连接到远程计算机时出现错误。请检查系统内存，然后重新连接。"
+    var L_DisconnectRemoteByServer_ErrorMessage = "远程计算机已结束连接。"
+    var L_LowMemory_ErrorMessage = "本地计算机内存不足。请关闭一些程序，然后再连接到远程计算机。"
+    var L_SecurityErr_ErrorMessage = "由于安全错误，客户端无法连接到远程计算机。请确认您已登录到网络，然后重新连接。"
+    var L_BadServerName_ErrorMessage = "找不到指定的远程计算机。请确认您键入的计算机名和 IP 地址是否正确，然后重新连接。"
+    var L_ConnectFailedProtocol_ErrorMessage = "由于一个协议错误，客户端无法连接到远程计算机。请重新廉洁到远程计算机。如果客户端依旧无法连接，请跟网络管理员联系。"
+    var L_CannotLoopBackConnect_ErrorMessage = "客户端无法连接，您无法从同一台计算机的控制台会话连接到控制台。"
+    var L_NetworkErr_ErrorMessage = "由于网络错误，连接被结束。请重新连接到远程计算机。"
+    var L_InternalErr_ErrorMessage = "出现了一个内部错误。"
+    var L_NotResponding_ErrorMessage = "客户端无法连接到远程计算机。远程连接没有启用，或者计算机太忙，无法接受新连接。也有可能网络问题阻碍了连接。请重新连接。如果问题继续出现，请跟系统管理员联系。"
+    var L_VersionMismatch_ErrorMessage = "客户端和服务器版本不相符。请升级客户端软件，然后重新连接。"
+    var L_EncryptionError_ErrorMessage = "由于数据加密的错误，这个会话将结束。请重新连接到远程计算机。"
+    var L_ProtocolErr_ErrorMessage = "由于协议错误，这个会话将被中断。请重新连接到远程计算机。"
+    var L_IllegalServerName_ErrorMessage = "指定的计算机名含有无效字符。请确认计算机名，重试一次。"
+    var L_ConnectionTimeout_ErrorMessage = "远程连接已超时。请重新连接到远程计算机。"
+    var L_DisconnectIdleTimeout_ErrorMessage = "由于达到了空闲超时限度，远程会话被结束。这个限度是服务器管理员或网络策略设置的。"
+    var L_DisconnectLogonTimeout_ErrorMessage ="由于达到了总登录时间限度，远程会话被结束。这个限度是服务器管理员或网络策略设置的。"
+    var L_ProtocolErrWITHCODE_ErrorMessage  = "由于内部协议错误，客户端已中断连接: "
+    var L_LicensingTimeout_ErrorMessage = "客户端试图连接时，出现了一个授权错误(授权超时)。请重新跟远程计算机连接。"
+    var L_LicensingNegotFailed_ErrorMessage = "由于授权协议中的一个错误，远程计算机中断了会话。请重新跟远程计算机连接；或者跟服务器管理员联系。"
+    var L_DisconnectRemoteByServerTool_ErrorMessage = "跟远程计算机的远程会话被一个管理工具结束。可能是您的管理员中断了您的连接。"
+    var L_LogoffRemoteByServer_ErrorMessage = "由于会话在远程计算机上被注销，远程会话被中断。您的系统管理员或另一个用户结束了您的连接。"
+    var L_DisconnectByOtherConnection_ErrorMessage = "由于另一个用户连接到了会话，远程会话被中断。"
+    var L_ConnectionBroken_ErrorMessage  = "跟远程计算机的连接被打断。请重新连接到远程计算机。"
+    var L_ServerOutOfMemory_ErrorMessage = "由于远程计算机内存不足，连接被中断。"
+    var L_LicenseInternal_ErrorMessage = "由于远程计算机的授权协议中有一个内部错误，远程会话被中断。"
+    var L_NoLicenseServer_ErrorMessage = "由于没有终端服务器许可证服务器可以提供许可证，远程会话被中断。请跟服务器管理员联系。"
+    var L_NoLicense_ErrorMessage = "由于这台计算机没有终端服务器客户端访问许可证，远程会话被中断。请跟服务器管理员联系。"
+    var L_LicenseBadClientMsg_ErrorMessage = "由于远程计算机从这台计算机收到一个无效的授权消息，远程会话被中断。"
+    var L_LicenseHwidDoesntMatch_ErrorMessage = "由于这台计算机上储存的终端服务器客户端访问许可证已被修改，远程会话被中断。"
+    var L_BadClientLicense_ErrorMessage = "由于这台计算机上储存的终端服务器客户端访问许可证的格式无效，远程会话被中断。"
+    var L_LicenseCantFinishProtocol_ErrorMessage = "由于授权协议中有网络问题，远程会话被中断。请重新跟远程计算机连接。"
+    var L_LicenseClientEndedProtocol_ErrorMessage = "由于客户端过早地结束了授权协议，远程会话被中断。"
+    var L_LicenseBadClientEncryption_ErrorMessage = "由于授权消息的加密不正确，远程会话被中断。"
+    var L_CantUpgradeLicense_ErrorMessage = "由于无法升级或重续本地计算机的客户端访问许可证，远程会话被中断。请跟服务器管理员联系。"
+    var L_LicenseNoRemoteConnections_ErrorMessage = "由于远程计算机没有授权接受远程连接，远程会话被中断。请跟服务器管理员联系。"
+    var L_DecompressionFailed_ErrorMessage = "由于客户端的解压缩操作失败，远程会话被中断。请重新连接到远程计算机。"
+    var L_ServerDeniedConnection_ErrorMessage ="客户端无法建立跟远程计算机的连接。导致这个错误的可能的原因是: 1) 远程计算机上的远程连接可能没有启用。2) 已超出远程计算机上的连接最大数。3) 建立连接时出现了一个网络错误。"
+    var L_ControlLoadFailed_ErrorMessage= "远程桌面 Web 连接 ActiveX 控制无法安装。在没有一个安装后运行正常的控制版本的情况下，无法进行连接。请与服务器的管理员联系。"
+    var L_InvalidServerName_ErrorMessage = "指定了一个无效服务器。"
+    //检查当前浏览器是否是IE浏览器
+    function window_onload()
+    {
+      if (navigator.cpuClass.toLowerCase() != "x86" )
+        alert( L_PlatformCheck_ErrorMessage);
+      if(document.getElementById("PageCover"))
+        document.getElementById("PageCover").style.display="block";
+    }
+    //是否要发送身份验证
+    function checkClick()
+    {
+      if (document.getElementById("Check1").checked) {
+        document.getElementById("tableLogonInfo").style.display = "";
+        document.getElementById("editUserName").disabled = false;
+        document.getElementById("editDomain").disabled = false;
+      } else {
+        document.getElementById("tableLogonInfo").style.display = "none";
+        document.getElementById("editUserName").disabled = true;
+        document.getElementById("editDomain").disabled = true;
+      }
+    }
+    //给activex提供的函数
+    function OnControlLoadError()
+    {
+      alert( L_RemoteDesktopCaption_ErrorMessage+":"+L_ControlLoadFailed_ErrorMessage);
+    }
+    function OnControlLoad() {
+      var Control = document.getElementById("MsRdpClient");
+      if (Control != null) {
+        if (Control.readyState == 4)
+        {
+          document.getElementById("connectButton").disabled = false;
+        }
+      }
+    }
+    //连接
+    function BtnConnect()
+    {
+      //用户连接节点的凭据初始化
+      serverIP=window.opener.document.getElementById("saveforIPAddress").value;
+      serveraccount=window.opener.document.getElementById("saveforAccount").value;
+      serverpsw=window.opener.document.getElementById("saveforPassword").value;
+      //需要保存的用户使用节点的信息初始化
+      username=window.opener.document.getElementById("saveforLoginuser").value;
+      port=window.opener.document.getElementById("saveforPort").value;
+      softname=window.opener.document.getElementById("saveforSoft").value;
+      modelID=window.opener.document.getElementById("saveforModel").value;
+
+      window.onbeforeunload=function(){
+        var dontleave="请确定已经关闭软件后再关闭！";
+
+        var releaseServletUrl="/Electricity/ReleasenodeServlet?nodeip="+serverIP+"&account="+serveraccount+
+          "&user="+username+"&starttime="+starttime+"&tid="+Math.random();
+        var subhtmlobj=$.ajax({url:releaseServletUrl,async:false});
+
+        obj.window.onbeforeunload=null;
+        return dontleave;
+      };
+      try{
+        //MsRdpClient.server = serverName;
+        /*if(!MsRdpClient.server){*/ MsRdpClient.server=serverIP;//} //登录IP new added 03.08 by GU
+        /*if(!MsRdpClient.UserName){*/MsRdpClient.UserName =serveraccount;//} //登录用户名 new added 03.08 by GU
+        /*if(!MsRdpClient.AdvancedSettings.ClearTextPassword){*/MsRdpClient.AdvancedSettings.ClearTextPassword =serverpsw;//} //登录密码 new added 03.08 by GU
+      }
+      catch(err)
+      {
+        alert(L_RemoteDesktopCaption_ErrorMessage+":"+L_InvalidServerName_ErrorMessage);
+      }
+      try {
+        // serverName name text
+        //document.getElementById("srvNameField").innerHTML =starttime; //MsRdpClient.server;
+        document.getElementById("username").value=username;
+        document.getElementById("starttime").value=new Date();
+        // Username/Domain自动登录
+//		if (document.getElementById("CheckBoxAutoLogon").checked) {
+//			MsRdpClient.UserName = document.getElementById("UserName").value;
+//			MsRdpClient.Domain = document.getElementById("Domain").value;
+//		}
+        // Resolution
+        MsRdpClient.FullScreen = false;
+
+        var resWidth =screen.width;
+        var resHeight =screen.height;
+
+        MsRdpClient.DesktopWidth = resWidth;
+        MsRdpClient.DesktopHeight = resHeight;
+        MsRdpClient.width = resWidth;
+        MsRdpClient.height = resHeight;
+        // Device redirection options
+        MsRdpClient.AdvancedSettings2.RedirectDrives = false;
+        MsRdpClient.AdvancedSettings2.RedirectPrinters = false;
+        MsRdpClient.AdvancedSettings2.RedirectPorts = false;
+        MsRdpClient.AdvancedSettings2.RedirectSmartCards = false;
+        // FullScreen title
+        MsRdpClient.FullScreenTitle = L_FullScreenTitle_Text + "(" + MsRdpClient.server
+          + ")";
+        // Display connect region
+        document.getElementById("loginArea").style.display = "none";
+        document.getElementById("connectArea").style.display = "block";
+        // Connect
+        MsRdpClient.Connect();
+        receivereadysignal();
+        //setTimeout("document.getElementById('PageCover').style.display='none';MsRdpClient.FullScreen = true;",5000);
+
+      } catch (err) {
+        alert(err);
+      }
+    }
+    //断开连接后操作
+    function OnDisconnected(disconnectCode) {
+      document.getElementById("connectArea").style.display = "none";
+      window.close();
+    }
+    function restore()
+    {
+      MsRdpClient.FullScreen = true;
+    }
+    function receivereadysignal()
+    {
+      var getsignalurl="/Electricity//NodeReady?nodeIP="+serverIP+
+        "&port="+port;
+      if(modelID){
+        getsignalurl+=("&model="+modelID);
+      }
+      getsignalurl+=("&tid="+Math.random());
+      $.ajax({
+        type: "POST",
+        url:getsignalurl,
+        data:{"soft":softname,"user":username},
+        async:true,
+        success:function(data){
+          var param=data.split(',');
+          if(param[0]=="ready")
+          {
+            document.getElementById('PageCover').style.display='none';
+            MsRdpClient.FullScreen = true;
+          }
+        }});
+    }
+    var timeTicket=5000;
+  </script>
+  <script type="text/javascript" for="MsRdpClient" event="OnDisconnected(reason)">
+    OnDisconnected(reason);
+  </script>
+
+</head>
+
+<body bgcolor="#ffffff" onload="window_onload()" >
+
+<!--
+-->
+
+<!-- =========================LOGIN AREA   ==========================
+-->
+<div id="loginArea">
+  <!-- <div id="Cover" style="width: 100%; left: 0px; top: 0px; height: 100%; position: fixed; -webkit-user-select: none; z-index: 99999;background: tan;filter: alpha(Opacity=80);-moz-opacity: 1;opacity: 1;">
+  </div> -->
+  <p>如果没有响应，请点击</p>
+  <input type="submit" id="connectButton" value="刷新" disabled="true" name="ButtonLogin" onclick="BtnConnect()" class="button">
+</div>
+<!-- ================================= LOGIN FORM =================
+-->
+
+<!-- ================================= CONNECT ====================
+-->
+<div id="connectArea" style="display: none">
+
+    <table>
+      <tr>
+        <td id="objActiveX">
+          <input type="button" value="还原" onclick="restore()" class="button">
+          <object language="javascript" ID="MsRdpClient"
+                  onerror="OnControlLoadError()"
+                  onreadystatechange="OnControlLoad()"
+                  CLASSID="CLSID:7584c670-2274-4efb-b00b-d6aaba6d3850"
+                  CODEBASE="../image/msrdp.cab#version=5,2,3790,0"
+                  WIDTH="800"
+                  HEIGHT="600">
+          </object>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="connectDisplay">
+            <label id="loggedinsrv">已连接 </label>
+            <span id="srvNameField"></span>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <input type="hidden" id="username">
+    <input type="hidden" id="starttime">
+    <div id="PageCover"
+         style="display: none;
+         width: 100%;
+         left: 0;
+         top: 0;
+         height: 100%; position: fixed; -webkit-user-select: none; z-index: 99999;background-color:white;background-image:url(../image/loading.gif);background-repeat:no-repeat;background-position:center;filter: alpha(Opacity=80);Opacity:0.8">
+      <iframe style="width:100%;height:100%;z-index: 99999;" onload="BtnConnect()"></iframe>
+
+    </div>
+
+
+</div>
+</body>
+</html>

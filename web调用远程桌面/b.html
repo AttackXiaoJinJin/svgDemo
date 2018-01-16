@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script language="javascript">
+
+  </script>
+</head>
+<body>
+<input type="button" id="btn" value="远程连接">
+<input type="text" id="clearTextPassword" name="clearTextPassword" value="dahaiYF123">
+<table>
+  <tr>
+    <object id="MsRdpClient" classid="CLSID:9059f30f-4eb1-4bd2-9fdc-36f43a218f4a"
+            codebase="msrdp.cab#version=5,2,3790,0" width="1680" height="1050">
+    </object>
+  </tr>
+</table>
+</body>
+<script type="text/javascript">
+  window.onload=function () {
+    mstscload()
+    // btn.onclick=function () {
+    //   mstscload()
+    //   console.log("aaa")
+    // }
+
+
+    // function MsRdpClient::OnDisconnected(disconnectCode) {
+    //   closeWindow();
+    // }
+
+    function mstscload(){
+      var clearTextPassword = document.all.clearTextPassword.value
+
+      var client = document.getElementById("MsRdpClient");
+      client.Server = "192.168.1.26";  //远程服务器地址
+      client.UserName = "administrator";  //登录账号
+      client.AdvancedSettings.ClearTextPassword = "dahaiYF123"
+      MSTSCLib::IMsTscNonScriptable secured = client.GetOcx();
+      secured.ClearTextPassword = "dahaiYF123"
+      // client.Domain = "myDomain";  //要登录的域
+      client.FullScreen = true;  //是否全屏 0否 1是
+      client.FullScreenTitle = "京广高铁SCADA复视";
+
+      client.AdvancedSettings2.RDPPort = 3389
+      client.AdvancedSettings2.RedirectDrives     = false;
+      client.AdvancedSettings2.RedirectPrinters   = true;
+
+      client.AdvancedSettings2.RedirectPorts      = false;
+
+      client.AdvancedSettings2.RedirectSmartCards = false;
+
+      //如果不支持，继续下面操作
+      client.AdvancedSettings7.EnableCredSspSupport = true;
+      client.AdvancedSettings5.AuthenticationLevel = 2;
+
+
+      client.Connect();
+
+    }
+    //关闭当前页面
+    function closeWindow() {
+      // window.location.href= '/loginindex/initPage';
+      //window.opener = null;
+      //window.open("", "_self");
+      //window.close();
+    }
+
+
+
+  }
+
+</script>
+</html>

@@ -2,18 +2,18 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <script language="javascript">
-
-  </script>
+  <script src="require.js"></script>
 </head>
 <body>
 <input type="button" id="btn" value="远程连接">
 <input type="text" id="clearTextPassword" name="clearTextPassword" value="dahaiYF123">
 <table>
   <tr>
+
     <object id="MsRdpClient" classid="CLSID:9059f30f-4eb1-4bd2-9fdc-36f43a218f4a"
             codebase="msrdp.cab#version=5,2,3790,0" width="1680" height="1050">
     </object>
+
   </tr>
 </table>
 </body>
@@ -31,17 +31,28 @@
     // }
 
     function mstscload(){
+
       var clearTextPassword = document.all.clearTextPassword.value
 
       var client = document.getElementById("MsRdpClient");
-      client.Server = "192.168.1.26";  //远程服务器地址
+      //需要转成js
+      // IMsTscNonScriptable secured = (IMsTscNonScriptable)client.GetOcx()
+      // secured.ClearTextPassword="aaa"
+
+      client.Server = "192.168.1.1";  //远程服务器地址
       client.UserName = "administrator";  //登录账号
-      client.AdvancedSettings.ClearTextPassword = "dahaiYF123"
-      MSTSCLib::IMsTscNonScriptable secured = client.GetOcx();
-      secured.ClearTextPassword = "dahaiYF123"
+      // client.AdvancedSettings.ClearTextPassword = ""
+      // secured.ClearTextPassword = ""
+      client.AdvancedSettings6.ClearTextPassword="1"
+      // let secured=new IMsTscNonScriptable()
+      console.log(client.GetOcx())
+      // secured.ClearTextPassword ="1"
+      // client.RemoteProgram.RemoteProgramMode = true;
       // client.Domain = "myDomain";  //要登录的域
       client.FullScreen = true;  //是否全屏 0否 1是
-      client.FullScreenTitle = "京广高铁SCADA复视";
+      client.FullScreenTitle ="";
+
+      // secured.ClearTextPassword = "dahaiYF123"
 
       client.AdvancedSettings2.RDPPort = 3389
       client.AdvancedSettings2.RedirectDrives     = false;

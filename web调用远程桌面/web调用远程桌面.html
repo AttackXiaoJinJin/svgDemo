@@ -23,16 +23,16 @@
   // 连接远程桌面的方法
   function RdpConnect() {
     var userName, Pwd, server, domain, port;
-    Pwd="dahaiYF123"
+    Pwd=""
     userName = "administrator"; //用户名
-    server = "192.168.1.26"; //IP
+    server = "192.168.1.1"; //IP
     port = 3389; //端口
     domain = "myDomain";  //域
     if (!MsRdpClient.Connected) {
       try {
         document.getElementById("connectArea").style.display = "block"; //显示远程桌面div
         MsRdpClient.Server = server; //设置远程桌面IP地址
-        MsRdpClient.AdvancedSettings.ClearTextPassword = "dahaiYF123"; //密码
+        MsRdpClient.AdvancedSettings.ClearTextPassword = ""; //密码
 
         try {
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1305" Height="616">
+  <LIST>
+    <Component/>
+    <Image>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <MJN source="assets/comp/TULI/MJN.png"/>
+      <MJA source="assets/comp/TULI/MJA.png"/>
+      <MJKM source="assets/comp/MJKM/bg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <TULI height="124" y="490" width="225" group="tuli" source="assets/comp/TULI/TULI.png" x="1080"/>
+    <MJN scaleY="0.5" group="tuli" width="80" x="1115" height="80" y="545" source="assets/comp/TULI/MJN.png" scaleX="0.5"/>
+    <MJA scaleY="0.5" group="tuli" width="80" x="1230" height="80" y="545" source="assets/comp/TULI/MJA.png" scaleX="0.5"/>
+    <TEXT x="1118" param="" deviceID="" text="关门" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="17" y="520" widthInChars="4" width="28" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="12" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1176" param="" deviceID="" text="开门" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="17" y="520" widthInChars="4" width="28" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="12" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1233" param="" deviceID="" text="报警" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="17" y="520" widthInChars="4" width="28" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="12" fontFamily="微软雅黑" borderVisible="false"/>
+    <MJKM scaleY="0.5" group="tuli" width="80" x="1173" height="80" y="545" source="assets/comp/MJKM/bg.png" scaleX="0.5"/>
+  </Components>
+</Configration>

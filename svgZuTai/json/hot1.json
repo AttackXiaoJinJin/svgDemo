@@ -1,0 +1,643 @@
+{
+  "result":
+  [
+    {
+      "paramID":253,
+      "statusEnValue":"0",
+      "paramEnName":"ewSetTemp",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"1"
+    },
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":258,
+      "statusEnValue":"关闭",
+      "paramEnName":"xhopenClose",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":259,
+      "statusEnValue":"关闭",
+      "paramEnName":"dhopenClose",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":4,
+      "statusEnValue":"0",
+      "paramEnName":"eTemp",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":655,
+      "statusEnValue":"0",
+      "paramEnName":"sTemp",
+      "deviceID":1090001,
+      "deviceName":"锅炉主机.商业锅炉主机.1号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":253,
+      "statusEnValue":"0",
+      "paramEnName":"ewSetTemp",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":258,
+      "statusEnValue":"关闭",
+      "paramEnName":"xhopenClose",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":259,
+      "statusEnValue":"关闭",
+      "paramEnName":"dhopenClose",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":4,
+      "statusEnValue":"0",
+      "paramEnName":"eTemp",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":655,
+      "statusEnValue":"0",
+      "paramEnName":"sTemp",
+      "deviceID":1090002,
+      "deviceName":"锅炉主机.商业锅炉主机.2号主机.",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":402,
+      "statusEnValue":"慧云控制",
+      "paramEnName":"HYORBA",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":112,
+      "statusEnValue":"慧云手动",
+      "paramEnName":"handAutoYjs",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":1190001,
+      "deviceName":"大商业1#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":402,
+      "statusEnValue":"慧云控制",
+      "paramEnName":"HYORBA",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":112,
+      "statusEnValue":"慧云手动",
+      "paramEnName":"handAutoYjs",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":1190002,
+      "deviceName":"大商业2#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":402,
+      "statusEnValue":"慧云控制",
+      "paramEnName":"HYORBA",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":112,
+      "statusEnValue":"慧云手动",
+      "paramEnName":"handAutoYjs",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":1190003,
+      "deviceName":"大商业3#热水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":73,
+      "statusEnValue":"0",
+      "paramEnName":"inTemp1",
+      "deviceID":1410058,
+      "deviceName":"大商业锅炉房室内温度",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":54,
+      "statusEnValue":"0",
+      "paramEnName":"rsxhbPipePressure",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":213,
+      "statusEnValue":"关闭",
+      "paramEnName":"acSwitch1",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":214,
+      "statusEnValue":"关闭",
+      "paramEnName":"acSwitch2",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":55,
+      "statusEnValue":"0",
+      "paramEnName":"rsxhbPipeFlow",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":56,
+      "statusEnValue":"0",
+      "paramEnName":"hotWaterOutTemp",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":57,
+      "statusEnValue":"0",
+      "paramEnName":"hotWaterInTemp",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":58,
+      "statusEnValue":"0",
+      "paramEnName":"publicHotWaterValve",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":59,
+      "statusEnValue":"0",
+      "paramEnName":"bhInPressure",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":60,
+      "statusEnValue":"0",
+      "paramEnName":"bhOutPressure",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":665,
+      "statusEnValue":"0",
+      "paramEnName":"secondHotWaterPipeFl",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":670,
+      "statusEnValue":"0",
+      "paramEnName":"secondInWaterPipeTem",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":671,
+      "statusEnValue":"0",
+      "paramEnName":"secondHOutWaterPipeT",
+      "deviceID":2320001,
+      "deviceName":"大商业热源总管",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":56,
+      "statusEnValue":"0",
+      "paramEnName":"hotWaterOutTemp",
+      "deviceID":2320003,
+      "deviceName":"大商业热源总管补充",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":57,
+      "statusEnValue":"0",
+      "paramEnName":"hotWaterInTemp",
+      "deviceID":2320003,
+      "deviceName":"大商业热源总管补充",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":252,
+      "statusEnValue":"群控控制",
+      "paramEnName":"hyStart",
+      "deviceID":2500001,
+      "deviceName":"大商业热源",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":112,
+      "statusEnValue":"慧云手动",
+      "paramEnName":"handAutoYjs",
+      "deviceID":2500001,
+      "deviceName":"大商业热源",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":441,
+      "statusEnValue":"0",
+      "paramEnName":"hotSetTemp",
+      "deviceID":2500001,
+      "deviceName":"大商业热源",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":442,
+      "statusEnValue":"0",
+      "paramEnName":"yaChaSet",
+      "deviceID":2500001,
+      "deviceName":"大商业热源",
+      "statusValue":"0"
+    }
+  ],
+  "errorID":0,
+  "errorString":""
+}

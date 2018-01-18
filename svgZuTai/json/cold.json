@@ -1,0 +1,4009 @@
+{
+  "result":
+  [
+//运行状态
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//    压缩机运行小时数
+    {
+      "paramID":115,
+      "statusEnValue":"0",
+      "paramEnName":"compressorRunTime",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//    冷冻水供水温度
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"19"
+    },
+//  冷却水供水温度
+    //equip water
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"21"
+    },
+//  冷冻水回水温度
+//  increase water
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"20"
+    },
+//  冷却水回水温度
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"20"
+    },
+//本日运行时间
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//压缩机运行电流百分比
+    {
+      "paramID":171,
+      "statusEnValue":"0",
+      "paramEnName":"xdybfb",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+///报警状态
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//    冷机运行时间
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//总运行时间
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//冷冻水出水温度设定值
+    {
+      "paramID":253,
+      "statusEnValue":"20",
+      "paramEnName":"ewSetTemp",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"20"
+    },
+//冷凝压力
+    {
+      "paramID":69,
+      "statusEnValue":"0",
+      "paramEnName":"lnPressure",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//蒸发压力
+    {
+      "paramID":70,
+      "statusEnValue":"0",
+      "paramEnName":"zfPressure",
+      "deviceID":10001,
+      "deviceName":"大商业冷水机组1#",
+      "statusValue":"0"
+    },
+//==================================1-14
+    //====15
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+//启停控制
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":115,
+      "statusEnValue":"0",
+      "paramEnName":"compressorRunTime",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"19"
+    },
+
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"21"
+    },
+
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":171,
+      "statusEnValue":"0",
+      "paramEnName":"xdybfb",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":253,
+      "statusEnValue":"20",
+      "paramEnName":"ewSetTemp",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":69,
+      "statusEnValue":"0",
+      "paramEnName":"lnPressure",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":70,
+      "statusEnValue":"0",
+      "paramEnName":"zfPressure",
+      "deviceID":10002,
+      "deviceName":"大商业冷水机组2#",
+      "statusValue":"0"
+    },
+//============================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":115,
+      "statusEnValue":"0",
+      "paramEnName":"compressorRunTime",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"19"
+    },
+
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"21"
+    },
+
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":171,
+      "statusEnValue":"0",
+      "paramEnName":"xdybfb",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":253,
+      "statusEnValue":"20",
+      "paramEnName":"ewSetTemp",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":69,
+      "statusEnValue":"0",
+      "paramEnName":"lnPressure",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":70,
+      "statusEnValue":"0",
+      "paramEnName":"zfPressure",
+      "deviceID":10003,
+      "deviceName":"大商业冷水机组3#",
+      "statusValue":"0"
+    },
+//========================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":115,
+      "statusEnValue":"0",
+      "paramEnName":"compressorRunTime",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"19"
+    },
+
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"21"
+    },
+
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":17,
+      "statusEnValue":"0",
+      "paramEnName":"runTime",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":253,
+      "statusEnValue":"20",
+      "paramEnName":"ewSetTemp",
+      "deviceID":10004,
+      "deviceName":"大商业冷水机组4#",
+      "statusValue":"20"
+    },
+//================================
+    //机房室内温度
+    {
+      "paramID":73,
+      "statusEnValue":"20",
+      "paramEnName":"inTemp1",
+      "deviceID":1410066,
+      "deviceName":"大商业冷冻机房室内温度",
+      "statusValue":"20"
+    },
+//=========================
+    //冷冻水供水温度
+    //左边20℃
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"19"
+    },
+    //冷却水供水温度
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"21"
+    },
+
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":167,
+      "statusEnValue":"0",
+      "paramEnName":"ldgsPressure",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":193,
+      "statusEnValue":"无",
+      "paramEnName":"iPressure2",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"无"
+    },
+
+    {
+      "paramID":194,
+      "statusEnValue":"无",
+      "paramEnName":"iPressure1",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"无"
+    },
+
+    {
+      "paramID":410,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow2",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":419,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure8",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":45,
+      "statusEnValue":"关闭",
+      "paramEnName":"sclglValveTurn",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":46,
+      "statusEnValue":"关闭",
+      "paramEnName":"glglValveTurn",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":47,
+      "statusEnValue":"0",
+      "paramEnName":"outDryBallTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":48,
+      "statusEnValue":"0",
+      "paramEnName":"outMoisture",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":51,
+      "statusEnValue":"0",
+      "paramEnName":"flashTotalFrosty",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":52,
+      "statusEnValue":"0",
+      "paramEnName":"frostyPerHour",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":53,
+      "statusEnValue":"0",
+      "paramEnName":"totalCOP",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":651,
+      "statusEnValue":"0",
+      "paramEnName":"ycValve",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":654,
+      "statusEnValue":"0",
+      "paramEnName":"outWetBallTemp",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":662,
+      "statusEnValue":"0",
+      "paramEnName":"outEnthalpy",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":667,
+      "statusEnValue":"0",
+      "paramEnName":"fsjsyacha",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":668,
+      "statusEnValue":"0",
+      "paramEnName":"mdghsyacha",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":669,
+      "statusEnValue":"关闭",
+      "paramEnName":"ldsValveTurn",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":83,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow",
+      "deviceID":1720001,
+      "deviceName":"大商业冷站管网参数",
+      "statusValue":"0"
+    },
+//===================================
+    {
+      "paramID":410,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow2",
+      "deviceID":1720003,
+      "deviceName":"大商业冷站管网参数补充",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":167,
+      "statusEnValue":"0",
+      "paramEnName":"ldgsPressure",
+      "deviceID":1720003,
+      "deviceName":"大商业冷站管网参数补充",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":668,
+      "statusEnValue":"0",
+      "paramEnName":"mdghsyacha",
+      "deviceID":1720003,
+      "deviceName":"大商业冷站管网参数补充",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":83,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow",
+      "deviceID":1720003,
+      "deviceName":"大商业冷站管网参数补充",
+      "statusValue":"0"
+    },
+//====================================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//工作频率低于下限故障报警
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//手自动状态
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//=====出口分支管压力反馈（bars）
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//=====频率反馈（Hz）
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//=====进水压力反馈（bars）
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20001,
+      "deviceName":"大商业1#冷却泵",
+      "statusValue":"0"
+    },
+//===============================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20002,
+      "deviceName":"大商业2#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20003,
+      "deviceName":"大商业3#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20004,
+      "deviceName":"大商业4#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20005,
+      "deviceName":"大商业5#冷却泵",
+      "statusValue":"0"
+    },
+//==============
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20006,
+      "deviceName":"大商业1#免费冷却泵",
+      "statusValue":"0"
+    },
+//===============
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":659,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":20007,
+      "deviceName":"大商业2#免费冷却泵",
+      "statusValue":"0"
+    },
+//==================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":2260001,
+      "deviceName":"大商业1#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":2260001,
+      "deviceName":"大商业1#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":2260001,
+      "deviceName":"大商业1#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":2260001,
+      "deviceName":"大商业1#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":2260001,
+      "deviceName":"大商业1#补水泵",
+      "statusValue":"0"
+    },
+//===============
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":2260002,
+      "deviceName":"大商业2#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":2260002,
+      "deviceName":"大商业2#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":2260002,
+      "deviceName":"大商业2#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":2260002,
+      "deviceName":"大商业2#补水泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":2260002,
+      "deviceName":"大商业2#补水泵",
+      "statusValue":"0"
+    },
+//===================
+    {
+      "paramID":15,
+      "statusEnValue":"正常",
+      "paramEnName":"highLevel",
+      "deviceID":2290001,
+      "deviceName":"大商业软化水箱",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":2290001,
+      "deviceName":"大商业软化水箱",
+      "statusValue":"0"
+    },
+//=================
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330001,
+      "deviceName":"大商业冷却塔1#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330002,
+      "deviceName":"大商业冷却塔2#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330003,
+      "deviceName":"大商业冷却塔3#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330004,
+      "deviceName":"大商业冷却塔4#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330005,
+      "deviceName":"大商业冷却塔5#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330006,
+      "deviceName":"大商业冷却塔6#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330007,
+      "deviceName":"大商业冷却塔7#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330008,
+      "deviceName":"大商业冷却塔8#蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330029,
+      "deviceName":"大商业1#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330030,
+      "deviceName":"大商业2#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330031,
+      "deviceName":"大商业3#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330032,
+      "deviceName":"大商业4#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330033,
+      "deviceName":"大商业5#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330034,
+      "deviceName":"大商业6#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330035,
+      "deviceName":"大商业7#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330036,
+      "deviceName":"大商业8#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330037,
+      "deviceName":"大商业9#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330038,
+      "deviceName":"大商业10#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330039,
+      "deviceName":"大商业11#分水器蝶阀",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":656,
+      "statusEnValue":"关闭",
+      "paramEnName":"turnState",
+      "deviceID":2330040,
+      "deviceName":"大商业12#分水器蝶阀",
+      "statusValue":"0"
+    },
+//=====================
+    {
+      "paramID":11,
+      "statusEnValue":"停止",
+      "paramEnName":"start",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":112,
+      "statusEnValue":"慧云自动",
+      "paramEnName":"handAutoYjs",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"1"
+    },
+
+    {
+      "paramID":160,
+      "statusEnValue":"19",
+      "paramEnName":"ldewTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"19"
+    },
+
+    {
+      "paramID":161,
+      "statusEnValue":"21",
+      "paramEnName":"lqewTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"21"
+    },
+
+    {
+      "paramID":162,
+      "statusEnValue":"20",
+      "paramEnName":"ldiwTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":163,
+      "statusEnValue":"20",
+      "paramEnName":"lqiwTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":167,
+      "statusEnValue":"0",
+      "paramEnName":"ldgsPressure",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":193,
+      "statusEnValue":"无",
+      "paramEnName":"iPressure2",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"无"
+    },
+
+    {
+      "paramID":194,
+      "statusEnValue":"无",
+      "paramEnName":"iPressure1",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"无"
+    },
+
+    {
+      "paramID":252,
+      "statusEnValue":"慧云控制",
+      "paramEnName":"hyStart",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":253,
+      "statusEnValue":"20",
+      "paramEnName":"ewSetTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"20"
+    },
+
+    {
+      "paramID":410,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow2",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":411,
+      "statusEnValue":"0",
+      "paramEnName":"setValue",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":419,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure8",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":442,
+      "statusEnValue":"0",
+      "paramEnName":"yaChaSet",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":443,
+      "statusEnValue":"0",
+      "paramEnName":"wenChaSet",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":47,
+      "statusEnValue":"0",
+      "paramEnName":"outDryBallTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":48,
+      "statusEnValue":"0",
+      "paramEnName":"outMoisture",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":51,
+      "statusEnValue":"0",
+      "paramEnName":"flashTotalFrosty",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":52,
+      "statusEnValue":"0",
+      "paramEnName":"frostyPerHour",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":53,
+      "statusEnValue":"0",
+      "paramEnName":"totalCOP",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":622,
+      "statusEnValue":"0",
+      "paramEnName":"lastHournh",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":651,
+      "statusEnValue":"0",
+      "paramEnName":"ycValve",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":654,
+      "statusEnValue":"0",
+      "paramEnName":"outWetBallTemp",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":660,
+      "statusEnValue":"0",
+      "paramEnName":"badYaCha",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":662,
+      "statusEnValue":"0",
+      "paramEnName":"outEnthalpy",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":667,
+      "statusEnValue":"0",
+      "paramEnName":"fsjsyacha",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":668,
+      "statusEnValue":"0",
+      "paramEnName":"mdghsyacha",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":674,
+      "statusEnValue":"0",
+      "paramEnName":"badWenChaSet",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":700,
+      "statusEnValue":"0",
+      "paramEnName":"setLXNum",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":701,
+      "statusEnValue":"0",
+      "paramEnName":"setLGNum",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":702,
+      "statusEnValue":"0",
+      "paramEnName":"totalLJCOP",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":703,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow3",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":704,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure9",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":705,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure10",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":706,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure11",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":707,
+      "statusEnValue":"0",
+      "paramEnName":"csPressure12",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":708,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow4",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":74,
+      "statusEnValue":"0",
+      "paramEnName":"tempSet",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":75,
+      "statusEnValue":"0",
+      "paramEnName":"difTempSet",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":83,
+      "statusEnValue":"0",
+      "paramEnName":"waterFlow",
+      "deviceID":2390003,
+      "deviceName":"大商业冷源群控",
+      "statusValue":"0"
+    },
+//=====================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30001,
+      "deviceName":"大商业1#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30002,
+      "deviceName":"大商业2#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30003,
+      "deviceName":"大商业3#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30004,
+      "deviceName":"大商业4#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30005,
+      "deviceName":"大商业5#冷冻泵",
+      "statusValue":"0"
+    },
+//===============================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30006,
+      "deviceName":"大商业1#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":16,
+      "statusEnValue":"正常",
+      "paramEnName":"lowLevel",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":62,
+      "statusEnValue":"0",
+      "paramEnName":"outPressure",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":63,
+      "statusEnValue":"0",
+      "paramEnName":"rate",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":658,
+      "statusEnValue":"0",
+      "paramEnName":"ewPressure",
+      "deviceID":30007,
+      "deviceName":"大商业2#免费冷冻泵",
+      "statusValue":"0"
+    },
+//============================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+//=========风机频率反馈
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+//==========冷却塔出水温度低于冷机保护
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+//===冷却塔风机工作频率低于下限
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40001,
+      "deviceName":"大商业1#冷却塔",
+      "statusValue":"0"
+    },
+//=================
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40002,
+      "deviceName":"大商业2#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40003,
+      "deviceName":"大商业3#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40004,
+      "deviceName":"大商业4#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40005,
+      "deviceName":"大商业5#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40006,
+      "deviceName":"大商业6#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40007,
+      "deviceName":"大商业7#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40008,
+      "deviceName":"大商业8#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40009,
+      "deviceName":"大商业9#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40010,
+      "deviceName":"大商业10#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40011,
+      "deviceName":"大商业11#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40012,
+      "deviceName":"大商业12#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40013,
+      "deviceName":"大商业13#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40014,
+      "deviceName":"大商业14#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40015,
+      "deviceName":"大商业15#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40016,
+      "deviceName":"大商业16#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40017,
+      "deviceName":"大商业17#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40018,
+      "deviceName":"大商业18#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40019,
+      "deviceName":"大商业19#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":1,
+      "statusEnValue":"停止",
+      "paramEnName":"runing",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":2,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":201,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":203,
+      "statusEnValue":"0",
+      "paramEnName":"runTime1",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":38,
+      "statusEnValue":"手动",
+      "paramEnName":"handAuto",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":422,
+      "statusEnValue":"0",
+      "paramEnName":"rate1",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":50,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm2",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    },
+
+    {
+      "paramID":653,
+      "statusEnValue":"正常",
+      "paramEnName":"alarm1",
+      "deviceID":40020,
+      "deviceName":"大商业20#冷却塔",
+      "statusValue":"0"
+    }
+  ],
+  "errorID":0,
+  "errorString":""
+}

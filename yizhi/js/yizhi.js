@@ -22,26 +22,42 @@ var jsonRunIDArray=[]
 var jsonAlarmIDArray=[]
 //==================
 var nodeNameArray=[]
-//======
+//===============
 var deviceIDArray=[]
+//装文字对象的数组
+var drawTextArray=[]
+//文字对象的deviceID
+var textDeviceArray=[]
+//文字对象的paramID
+var textParamArray=[]
+//json文字的值
+var jsonTextArray=[]
+
 
 window.onload=function () {
   deviceIDArray.unshift('')
   $("#showSVG").click(function () {
+    //初始化
+    drawTextArray=[]
+
     let svg=null
     let jsonOne="../json/hotOne.json"
     //同步
     $.ajaxSettings.async = false
     mouseWheel()
     let cptArray=analysisCompoentsOne()
-    let xmlAddress="../lyxtxtjgt.xml"
+    // let xmlAddress="../lyxtxtjgt.xml"
+    let xmlAddress="../F2VideoNode.xml"
+    // let xmlAddress="../F1mjNode.xml"
     //画图
     analysisXML(svg,cptArray,xmlAddress)
-    //动图
+    //动图和文字
     runAndAlarm()
+    
+  })
 
-
-    // console.log("aaa")
+  $("#vt_btn").click(function () {
+    $("#infoVideo").css("display","none")
   })
 
   // console.log(jsonAlarmIDArray,"alarm")
@@ -181,34 +197,15 @@ function analysisXML(svg,cptArray,xmlAddress) {
 
       //=================================
       //根据json绘制文字
-
-      // {
-      // let aa=1
-      // function time()
-      // {
-      //   if(aa>3){
-      //     aa=1
-      //   }
-      //   let bigJson="../json/hot"+aa+".json"
-      // $.getJSON(bigJson, function(data) {
-      //   $.each(data.result, function (key,group) {
-      //     $.each(group, function (key, val) {
-      //       if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
-      //         drawText.attr({text: group.statusEnValue})
-      //         return false
-      //       }
-      //     })
-      //   })
-      // })
-      //   aa++
-      //   setTimeout(time,5000);
-      // }
-      // //=====function
-      // time()
-      // //=============================
-      // }
-
-      
+      if(fontFamily==="digifaw"){
+        // drawTextArray.push(drawText)
+        // textDeviceArray.push(deviceID)
+        // textParamArray.push(paramID)
+        if(paramID == 63 && deviceID==30005){
+          // console.log("aaa")
+          drawTextArray.push(drawText)
+        }
+      }
     }
     //====================================上面是文字
     //图片====================================
@@ -219,38 +216,6 @@ function analysisXML(svg,cptArray,xmlAddress) {
          //以坐标x,y进行旋转
          'transform':'r'+rotate+','+x+','+y,
        })
-       .click(function (e) {
-         // //切换成自动
-         // if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
-         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
-         //   handAuto[deviceID]=true
-         // }
-         // // //切换成手动
-         // else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
-         //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
-         //   handAuto[deviceID]=false
-         // }
-
-       })
-       .mouseover(function (e) {
-       // .mouseenter(function (e) {
-         // time = (new Date()).getTime();
-         // console.log(time)
-         //鼠标悬停有事件
-         if(isMouseOverTip){
-           // console.log(deviceID)
-           //改变数据
-           // $("#deviceName").text(deviceName)
-           // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
-           // $("#hzStatus").text(hzStatus[deviceID])
-           // $("#inStress").text(inStress[deviceID])
-           //=======================================
-           //读取单个json
-           // getJSON(jsonOne,deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
-           //======================================
-
-         }
-       })
        .mouseout(function () {
          $("#infoDiv")
            .css("display","none")
@@ -258,14 +223,98 @@ function analysisXML(svg,cptArray,xmlAddress) {
 
       //添加ID
       //是设备图片
-      if(group==="deviceComp"){
+      if(group==="deviceComp" || group==="commonComp"){
         simg.node.setAttribute('id',deviceID)
         simg.node.setAttribute('display','block')
         if(deviceID){deviceIDArray.push(deviceID.toString())}
         //添加id,速度,数量
         getImgNum(deviceID,nodename,imageSource)
-        drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource)
+        drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource,simg)
         //=================================
+          simg.click(function (e) {
+            console.log("aaa")
+            //  弹窗
+            if(e.target.getAttribute("isPop")){
+            //弹窗类型
+              let mouseEvent=""
+              switch (e.target.getAttribute("popType")){
+                //  视频
+                case "video":
+                  mouseEvent="video"
+                  $("#infoVideo").css("display","block")
+                  $("#video_content")[0].innerText=deviceID
+                break;
+                //空调
+                case "redirect":
+                  mouseEvent="redirect";
+                  break;
+                //门禁管理
+                case "list":
+                  mouseEvent="list";
+                  break;
+                //  CO探测器
+                case "line":
+                  mouseEvent="line";
+                  break;
+                //  温度探测器
+                case "chart":
+                  mouseEvent="chart";
+                  break;
+                //  退出按钮
+                case "btn":
+                  mouseEvent="btn";
+                  break;
+                //消防摄像机
+                case "videoSub":
+                  mouseEvent="videoSub";
+                  break;
+                //客流黄色按钮
+                case "yBtn":
+                  mouseEvent="yBtn";
+                  break;
+              //  客流橙色按钮
+                case "oBtn":
+                  mouseEvent="oBtn";
+                  break;
+                //客流红色按钮
+                case "rBtn":
+                  mouseEvent="rBtn";
+                  break;
+                //方法按钮
+                case "funcBtn":
+                  mouseEvent="funcBtn";
+                  break;
+
+
+
+              }
+
+            }
+
+          }).mouseover(function (e) {
+            // .mouseenter(function (e) {
+            // time = (new Date()).getTime();
+            // console.log(time)
+            //鼠标悬停有事件
+            if(isMouseOverTip){
+              let mouseEvent="isMouseOverTip"
+              // console.log(deviceID)
+              //改变数据
+              // $("#deviceName").text(deviceName)
+              // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+              // $("#hzStatus").text(hzStatus[deviceID])
+              // $("#inStress").text(inStress[deviceID])
+              //=======================================
+              //读取单个json
+              getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
+              //======================================
+
+            }
+          })
+
+
+
+
      }
      }
      //==========else
@@ -345,67 +394,85 @@ function dragSVG() {
   }
 }
 
-function getJSON(address,deviceID,x,y,width,height,ConfigHeight,ConfigWidth) {
-  let $infoDiv= $("#infoDiv")
-  $infoDiv.empty();//清空内容
-  // let tbody.innerHTML=""
-  let tbody= document.createElement('tbody');
-  tbody.className = 'infoTr';
-  // let tbody.innerHTML=
-  tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
-  
-  $.getJSON(address, function(data) {
-    $.each(data.result,function(i,group){
-      $.each(group,function (key,val) {
-        //获取鼠标悬浮的设备
-        if(val===parseInt(deviceID)){
-          tbody.innerHTML+="<tr><td>"+group.deviceName+"</td><td>位置</td><td>参数</td><td>"+group.statusEnValue+"</td></tr>"
-          //运行，即动画
-          // console.log(group.paramID,group.statusValue)
-          return false;
+function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) {
+  //ajax======================
+  let param={}
+  let httpUrl
+  param.gcID='JSCZJTWY'
+  param.device=deviceID.toString()
+  httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random().toFixed(3)
+
+  let $infoDiv=null
+
+  if(mouseEvent==="isMouseOverTip"){
+    //请求
+    $.ajax({
+      type:'get',
+      // type:'post',
+      url:httpUrl,
+      data:{'str':JSON.stringify(param) },
+      success:function (data) {
+        data=JSON.parse(data)
+        // console.log(data)
+          $infoDiv= $("#infoDiv")
+          $infoDiv.empty();//清空内容
+          let tbody= document.createElement('tbody');
+          tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
+        for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+          tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+          $infoDiv[0].appendChild(tbody)
         }
-        //==id
-      })
+      },
+      error:function (err) {
+      }
     })
+  }else if(mouseEvent==="isMouseOverTip"){
 
-    $infoDiv[0].appendChild(tbody)
-    //让显示框不出画布
-    let showHeight=parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)
-    let showWidth=parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)
-    let cha1=showHeight+parseInt($infoDiv.css("height"))-parseInt(paperTop)-ConfigHeight
-    let cha2=showWidth+parseInt($infoDiv.css("width"))-parseInt(paperLeft)-ConfigWidth
-    if(cha1>0 && cha2>0){
-      $infoDiv
-        .css("left",showWidth-cha2+"px")
-        .css("top",showHeight-cha1+"px")
-        .css("display","block")
-    } else if(cha1>0 && cha2<=0)
-    {
-      $infoDiv
-        .css("left",showWidth+"px")
-        .css("top",showHeight-cha1+"px")
-        .css("display","block")
+  }
+    //=========================
 
-    }else if(cha1<=0 && cha2>0){
-      $infoDiv
-        .css("left",showWidth-cha2+"px")
-        .css("top",showHeight+"px")
-        .css("display","block")
-    }
-    else{
-      //显示栏
-      $infoDiv
-      //位置
-        .css("left",showWidth+"px")
-        .css("top",showHeight+"px")
-        .css("display","block")
-    }
 
-  })
-  //ajax
+
+
+
+
+  //让显示框不出画布=============================================
+  let showHeight=parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)
+  let showWidth=parseInt(x)+parseInt(width)+10+parseInt(svgLeft)+parseInt(paperLeft)
+  let cha1=showHeight+parseInt($infoDiv.css("height"))-parseInt(paperTop)-ConfigHeight
+  let cha2=showWidth+parseInt($infoDiv.css("width"))-parseInt(paperLeft)-ConfigWidth
+  if(cha1>0 && cha2>0){
+    $infoDiv
+      .css("left",showWidth-cha2+"px")
+      .css("top",showHeight-cha1+"px")
+      .css("display","block")
+  } else if(cha1>0 && cha2<=0)
+  {
+    $infoDiv
+      .css("left",showWidth+"px")
+      .css("top",showHeight-cha1+"px")
+      .css("display","block")
+
+  }else if(cha1<=0 && cha2>0){
+    $infoDiv
+      .css("left",showWidth-cha2+"px")
+      .css("top",showHeight+"px")
+      .css("display","block")
+  }
+  else{
+    //显示栏
+    $infoDiv
+    //位置
+      .css("left",showWidth+"px")
+      .css("top",showHeight+"px")
+      .css("display","block")
+  }
+//==================================
+
+
 }
 //画配置图片
-function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueImgSource) {
+function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueImgSource,simg) {
   //读取配置文件
   //在添加好图片的基础上再去添加它的运行，报警图片
   //背景是bg的，画新的alarm
@@ -435,6 +502,7 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
   if(document.getElementById(deviceID) && !document.getElementById(deviceID+deviceID)){
   // if($("#"+deviceID) && !$("#"+deviceID+deviceID)){
     if(cptArray[nodename]) {
+      //running=====================
       if (cptArray[nodename]["running"]) {
         let imgSource = cptArray[nodename]["running"]["imgSource"]
         let imgX = parseInt(cptArray[nodename]["running"]["imgX"]) * parseFloat(scaleX) + parseInt(x)
@@ -448,37 +516,48 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
           })
         imgRun.node.setAttribute("id", deviceID + deviceID)
       }
+    //  ================
+    //  设置悬浮，点击属性==================
+      if (cptArray[nodename]["mouseEvent"]) {
+        // console.log(cptArray[nodename]["mouseEvent"])
+        let isPop=cptArray[nodename]["mouseEvent"]["isPop"]
+        let popType=cptArray[nodename]["mouseEvent"]["popType"]
+        let isToolTip=cptArray[nodename]["mouseEvent"]["isToolTip"]
+        // console.log(isPop)
+        //设置mouse属性
+        if(isPop){
+          simg.node.setAttribute('isPop',"true")
+          simg.node.setAttribute('popType',popType)
+        }
+        if(isToolTip){
+          simg.node.setAttribute('isToolTip',"true")
+        }
+      }
+
+      
     }
   }
 //======================
-
-
 }
-
 
 function jsonStatus(address) {
 
   //注意清空
   jsonAlarmIDArray=[]
   jsonRunIDArray=[]
+  jsonTextArray=[]
   let param={}
   let httpUrl
   param.gcID='JSCZJTWY'
-
   param.device=deviceIDArray.toString()
-  // console.log(param.device.toString())
   httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random()
-  // console.log(JSON.stringify(param))
   //请求
   $.ajax({
     type:'get',
     // type:'post',
     url:httpUrl,
     data:{'str':JSON.stringify(param) },
-    // data:{"str":"{\"gcID\":\"JSCZJTWY\",\"device\":\"'','10002','10003','10004','20005'\"}"},
-    // dataType:'json',
     success:function (data) {
-
       data=JSON.parse(data)
       // console.log(data)
       for(let j=0,groups=data.result,n=groups.length;j<n;j++){
@@ -494,6 +573,18 @@ function jsonStatus(address) {
           let id = groups[j].deviceID
           jsonRunIDArray.push(id)
         }
+
+        if(groups[j].paramID === 63 && groups[j].deviceID===30005){
+          jsonTextArray.push(groups[j].statusEnValue)
+        }
+
+        // for(let i=0,m=textParamArray.length;i<m;i++){
+        //   if (groups[j].paramID+'' === textParamArray[i]+'' && groups[j].deviceID+'' === textDeviceArray[i]+'') {
+        //     jsonTextArray.push(textParamArray[i])
+        //     break;
+        //   }
+        // }
+
 
       }
     },
@@ -548,21 +639,27 @@ function analysisCompoentsOne() {
   for(let i=0,m=ComponentChildren.length;i<m;i++){
     //节点名
     let childName=ComponentChildren[i].nodeName
-
+    //节点名下的孩子
+    let child=ComponentChildren[i].childNodes
     compoentsArray[childName]={}
     compoentsArray[childName]["running"]={}
     compoentsArray[childName]["alarm"]={}
-    //节点名下的孩子
-    let child=ComponentChildren[i].childNodes
+    compoentsArray[childName]["mouseEvent"]={}
+    //==========获取点击，悬浮属性
+    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isPop")==="true"){
+      compoentsArray[childName]["mouseEvent"]["isPop"]=ComponentChildren[i].getAttribute("isPop")
+      compoentsArray[childName]["mouseEvent"]["popType"]=ComponentChildren[i].getAttribute("popType")
+    }
+    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isToolTip")==="true"){
+      compoentsArray[childName]["mouseEvent"]["isToolTip"]=ComponentChildren[i].getAttribute("isToolTip")
+    }
+    //=====================
+
+
     if(child){
       // console.log(childName)
       //读取除第一个子节点的图片，如运行和报警
       for(let j=0,n=child.length;j<n;j++){
-
-        // if(childName==="LQT7"){
-        //   console.log(childName,child[j].getAttribute("param")==="runing")
-        // }
-
         if(child[j].getAttribute("param")==="runing"){
           compoentsArray[childName]["running"]["imgX"]=child[j].getAttribute("x")
           compoentsArray[childName]["running"]["imgY"]=child[j].getAttribute("y")
@@ -580,8 +677,11 @@ function analysisCompoentsOne() {
       }
       }
     }
-  }
 
+
+
+  }
+  // console.log(compoentsArray)
   return compoentsArray
 }
 
@@ -619,8 +719,6 @@ function getImgNum(deviceID,nodeName,imageSource) {
     alarmSpeed = 910
   }
 
-
-
   if(nodeName==="BSB2" || nodeName==="BSB1" ||
      nodeName==="DRFM" || nodeName==="EAF" ||
      nodeName==="EAF1" || nodeName==="EAF2" ||
@@ -652,7 +750,7 @@ function getImgNum(deviceID,nodeName,imageSource) {
   nodeNameArray.push(nodeName)
 }
 
-//运行和报警
+//运行和报警和绘制文字
 function runAndAlarm() {
   let aa = 2
   let address
@@ -668,17 +766,13 @@ function runAndAlarm() {
       clearTimeout(timerAlarm[bb])
     }
 
-    // if (aa > 2) {
-    //   aa = 1
-    // }
-    // address = "../json/hot2.json"
-    // address = "../json/cold"+aa+".json"
-    //获取运行，报警数组
+    //获取运行，报警数组和文字
     jsonStatus()
-
+    // console.log(jsonTextArray)
     //根据json绘制文字
     // if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
-    //   drawText.attr({text: group.statusEnValue})
+    //   drawTextArray[0].attr({text: jsonTextArray[0]})
+    // console.log(drawTextArray[0]);
     //   return false
     // }
 

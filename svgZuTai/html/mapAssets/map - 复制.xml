@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<mapList>
+	
+	    <!-- Begin 变配电 -->
+		<BPD1 source="mapAssets/mapImages/BPD/BPD1.png" compName="变配电1" type="image" group="map"/>
+		<BPD2 source="mapAssets/mapImages/BPD/BPD2.png" compName="变配电2" type="image" group="map"/>
+		<BPD3 source="mapAssets/mapImages/BPD/BPD3.png" compName="变配电3" type="image" group="map"/>
+		<BPD4 source="mapAssets/mapImages/BPD/BPD4.png" compName="变配电4" type="image" group="map"/>
+		<!-- End 变配电 -->
+	
+		<!-- 消防分区节点中的  kx， ky表示分区图相对于大图的切割点，只能由美工确认修改 -->
+		<!-- Begin	消防分区地下一层   -->
+		<XFFQB1Q1 source="mapAssets/mapImages/XFFQB1/XFFQB1_1.png" compName="B1消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q2 source="mapAssets/mapImages/XFFQB1/XFFQB1_2.png" compName="B1消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q3 source="mapAssets/mapImages/XFFQB1/XFFQB1_3.png" compName="B1消防分区3" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q4 source="mapAssets/mapImages/XFFQB1/XFFQB1_4.png" compName="B1消防分区4" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q5 source="mapAssets/mapImages/XFFQB1/XFFQB1_5.png" compName="B1消防分区5" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q6 source="mapAssets/mapImages/XFFQB1/XFFQB1_6.png" compName="B1消防分区6" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB1Q7 source="mapAssets/mapImages/XFFQB1/XFFQB1_7.png" compName="B1消防分区7" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQB1Q1TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_1TULI.png" compName="B1消防分区1" type="image" group="mapTuli"/>
+		<XFFQB1Q2TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_2TULI.png" compName="B1消防分区2" type="image" group="mapTuli"/>
+		<XFFQB1Q3TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_3TULI.png" compName="B1消防分区3" type="image" group="mapTuli"/>
+		<XFFQB1Q4TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_4TULI.png" compName="B1消防分区4" type="image" group="mapTuli"/>
+		<XFFQB1Q5TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_5TULI.png" compName="B1消防分区5" type="image" group="mapTuli"/>
+		<XFFQB1Q6TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_6TULI.png" compName="B1消防分区6" type="image" group="mapTuli"/>
+		<XFFQB1Q7TULI source="mapAssets/mapImages/XFFQB1/XFFQB1_7TULI.png" compName="B1消防分区7" type="image" group="mapTuli"/>
+		<!-- End   消防分区地下一层   -->
+		
+		<!-- Begin	消防分区地下二层   -->
+		<XFFQB2Q1 source="mapAssets/mapImages/XFFQB2/XFFQB2_1.png" compName="B2消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q2 source="mapAssets/mapImages/XFFQB2/XFFQB2_2.png" compName="B2消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q3 source="mapAssets/mapImages/XFFQB2/XFFQB2_3.png" compName="B2消防分区3" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q4 source="mapAssets/mapImages/XFFQB2/XFFQB2_4.png" compName="B2消防分区4" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q5 source="mapAssets/mapImages/XFFQB2/XFFQB2_5.png" compName="B2消防分区5" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q6 source="mapAssets/mapImages/XFFQB2/XFFQB2_6.png" compName="B2消防分区6" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q7 source="mapAssets/mapImages/XFFQB2/XFFQB2_7.png" compName="B2消防分区7" type="image" group="map" kx="0" ky="0"/>
+		<XFFQB2Q8 source="mapAssets/mapImages/XFFQB2/XFFQB2_8.png" compName="B2消防分区8" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQB2Q1TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_1TULI.png" compName="B2消防分区1" type="image" group="mapTuli"/>
+		<XFFQB2Q2TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_2TULI.png" compName="B2消防分区2" type="image" group="mapTuli"/>
+		<XFFQB2Q3TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_3TULI.png" compName="B2消防分区3" type="image" group="mapTuli"/>
+		<XFFQB2Q4TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_4TULI.png" compName="B2消防分区4" type="image" group="mapTuli"/>
+		<XFFQB2Q5TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_5TULI.png" compName="B2消防分区5" type="image" group="mapTuli"/>
+		<XFFQB2Q6TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_6TULI.png" compName="B2消防分区6" type="image" group="mapTuli"/>
+		<XFFQB2Q7TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_7TULI.png" compName="B2消防分区7" type="image" group="mapTuli"/>
+		<XFFQB2Q7TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_8TULI.png" compName="B2消防分区8" type="image" group="mapTuli"/>
+		<!-- End   消防分区地下二层   -->
+		
+		<!-- Begin	消防分区一层   -->
+		<XFFQF1Q1 source="mapAssets/mapImages/XFFQF1/XFFQF1_1.png" compName="F1消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF1Q2 source="mapAssets/mapImages/XFFQF1/XFFQF1_2.png" compName="F1消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF1Q3 source="mapAssets/mapImages/XFFQF1/XFFQF1_3.png" compName="F1消防分区3" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQF1_1TULI source="mapAssets/mapImages/XFFQF1/XFFQF1_1TULI.png" compName="F1消防分区1图例" type="image" group="mapTuli"/>
+		<XFFQF1_2TULI source="mapAssets/mapImages/XFFQF1/XFFQF1_2TULI.png" compName="F1消防分区2图例" type="image" group="mapTuli"/>
+		<XFFQF1_3TULI source="mapAssets/mapImages/XFFQF1/XFFQF1_3TULI.png" compName="F1消防分区3图例" type="image" group="mapTuli"/>
+		<!-- End   消防分区一层   -->
+	
+		<!-- Begin	消防分区二层   -->
+		<XFFQF2Q1 source="mapAssets/mapImages/XFFQF2/XFFQF2_1.png" compName="F2消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF2Q2 source="mapAssets/mapImages/XFFQF2/XFFQF2_2.png" compName="F2消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF2Q3 source="mapAssets/mapImages/XFFQF2/XFFQF2_3.png" compName="F2消防分区3" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQF2_1TULI source="mapAssets/mapImages/XFFQF2/XFFQF2_1TULI.png" compName="F2消防分区1图例" type="image" group="mapTuli"/>
+		<XFFQF2_2TULI source="mapAssets/mapImages/XFFQF2/XFFQF2_2TULI.png" compName="F2消防分区2图例" type="image" group="mapTuli"/>
+		<XFFQF2_3TULI source="mapAssets/mapImages/XFFQF2/XFFQF2_3TULI.png" compName="F2消防分区3图例" type="image" group="mapTuli"/>
+		<!-- End   消防分区二层   -->
+	
+		<!-- Begin	消防分区三层   -->
+		<XFFQF3Q1 source="mapAssets/mapImages/XFFQF3/XFFQF3_1.png" compName="F3消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF3Q2 source="mapAssets/mapImages/XFFQF3/XFFQF3_2.png" compName="F3消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF3Q3 source="mapAssets/mapImages/XFFQF3/XFFQF3_3.png" compName="F3消防分区3" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQF3_1TULI source="mapAssets/mapImages/XFFQF3/XFFQF3_1TULI.png" compName="F3消防分区1图例" type="image" group="mapTuli"/>
+		<XFFQF3_2TULI source="mapAssets/mapImages/XFFQF3/XFFQF3_2TULI.png" compName="F3消防分区2图例" type="image" group="mapTuli"/>
+		<XFFQF3_3TULI source="mapAssets/mapImages/XFFQF3/XFFQF3_3TULI.png" compName="F3消防分区3图例" type="image" group="mapTuli"/>
+		<!-- End   消防分区三层   -->
+		
+		<!-- Begin	消防分区四层   -->
+		<XFFQF4Q1 source="mapAssets/mapImages/XFFQF4/XFFQF4_1.png" compName="F4消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF4Q2 source="mapAssets/mapImages/XFFQF4/XFFQF4_2.png" compName="F4消防分区2" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF4Q3 source="mapAssets/mapImages/XFFQF4/XFFQF4_3.png" compName="F4消防分区3" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQF4_1TULI source="mapAssets/mapImages/XFFQF4/XFFQF4_1TULI.png" compName="F4消防分区1图例" type="image" group="mapTuli"/>
+		<XFFQF4_2TULI source="mapAssets/mapImages/XFFQF4/XFFQF4_2TULI.png" compName="F4消防分区2图例" type="image" group="mapTuli"/>
+		<XFFQF4_3TULI source="mapAssets/mapImages/XFFQF4/XFFQF4_3TULI.png" compName="F4消防分区3图例" type="image" group="mapTuli"/>
+		<!-- End   消防分区四层   -->
+		
+		<!-- Begin	消防分区五层   -->
+		<XFFQF5Q1 source="mapAssets/mapImages/XFFQF5/XFFQF5_1.png" compName="F5消防分区1" type="image" group="map" kx="0" ky="0"/>
+		<XFFQF5Q2 source="mapAssets/mapImages/XFFQF5/XFFQF5_2.png" compName="F5消防分区2" type="image" group="map" kx="0" ky="0"/>
+		
+		<XFFQF5_1TULI source="mapAssets/mapImages/XFFQF5/XFFQF5_1TULI.png" compName="F5消防分区1图例" type="image" group="mapTuli"/>
+		<XFFQF5_2TULI source="mapAssets/mapImages/XFFQF5/XFFQF5_2TULI.png" compName="F5消防分区2图例" type="image" group="mapTuli"/>
+		<!-- End   消防分区五层   -->
+	
+		<!-- Begin	楼层平面图 -->
+		<B2NODE source="mapAssets/mapImages/B2Node.png" compName="B2平面图" type="image" group="map"/>
+		<B1NODE source="mapAssets/mapImages/B1Node.png" compName="B1平面图" type="image" group="map"/>
+		<F1NODE source="mapAssets/mapImages/F1Node.png" compName="F1平面图" type="image" group="map"/>
+		<F2NODE source="mapAssets/mapImages/F2Node.png" compName="F2平面图" type="image" group="map"/>
+		<F3NODE source="mapAssets/mapImages/F3Node.png" compName="F3平面图" type="image" group="map"/>
+		<F4NODE source="mapAssets/mapImages/F4Node.png" compName="F4平面图" type="image" group="map"/>
+		<F5NODE source="mapAssets/mapImages/F5Node.png" compName="F5平面图" type="image" group="map"/>
+			<F6NODE source="mapAssets/mapImages/F6Node.png" compName="F6平面图" type="image" group="map"/>
+		<!-- End	楼层平面图 -->
+		
+		
+		<!-- Begin	地下一层停车位 -->
+		<PARKB1Q source="mapAssets/mapImages/PARKB1/PARKB1.png" compName="B1停车位平面图" type="image" group="map"/>
+		<PARKB1QE source="mapAssets/mapImages/PARKB1/PARKB1_E.png" compName="B1停车位分区E" type="image" group="map"/>
+		<PARKB1QF source="mapAssets/mapImages/PARKB1/PARKB1_F.png" compName="B1停车位分区F" type="image" group="map"/>
+		
+		<PARKB1QETULI source="mapAssets/mapImages/PARKB1/PARKB1_ETULI.png" compName="B1停车位分区E图例" type="image" group="mapTuli"/>
+		<PARKB1QFTULI source="mapAssets/mapImages/PARKB1/PARKB1_FTULI.png" compName="B1停车位分区F图例" type="image" group="mapTuli"/>
+		<!-- End	地下一层停车位 -->
+		
+		<!-- Begin	地下二层停车位 -->
+		<PARKB2Q source="mapAssets/mapImages/PARKB2/PARKB2.png" compName="B2停车位平面图" type="image" group="map"/>
+		<PARKB2QG source="mapAssets/mapImages/PARKB2/PARKB2_G.png" compName="B2停车位分区G" type="image" group="map"/>
+		<PARKB2QH source="mapAssets/mapImages/PARKB2/PARKB2_H.png" compName="B2停车位分区H" type="image" group="map"/>
+		<PARKB2QK source="mapAssets/mapImages/PARKB2/PARKB2_K.png" compName="B2停车位分区K" type="image" group="map"/>
+		
+		<PARKB1QGTULI source="mapAssets/mapImages/PARKB2/PARKB2_GTULI.png" compName="B2停车位分区G图例" type="image" group="mapTuli"/>
+		<PARKB1QHTULI source="mapAssets/mapImages/PARKB2/PARKB2_HTULI.png" compName="B2停车位分区H图例" type="image" group="mapTuli"/>
+		<PARKB1QKTULI source="mapAssets/mapImages/PARKB2/PARKB2_KTULI.png" compName="B2停车位分区K图例" type="image" group="mapTuli"/>
+		<!-- End	地下二层停车位 -->
+		
+		<!-- Begin	背景音乐 -->
+		<BUMUSICF1 source="mapAssets/mapImages/BGMUSIC/BGMUSIC_F1.png" compName="F1背景音乐平面图" type="image" group="map"/>
+		<BUMUSICF1 source="mapAssets/mapImages/BGMUSIC/BGMUSIC_F2.png" compName="F2背景音乐平面图" type="image" group="map"/>
+		<BUMUSICF1 source="mapAssets/mapImages/BGMUSIC/BGMUSIC_F3.png" compName="F2背景音乐平面图" type="image" group="map"/>
+		<!-- End	背景音乐 -->
+	</mapList>
+</maps>

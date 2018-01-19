@@ -47,21 +47,56 @@ window.onload=function () {
     mouseWheel()
     let cptArray=analysisCompoentsOne()
     // let xmlAddress="../lyxtxtjgt.xml"
-    let xmlAddress="../F2VideoNode.xml"
-    // let xmlAddress="../F1mjNode.xml"
+    // let xmlAddress="../F2VideoNode.xml"
+    let xmlAddress="../F2mjNode.xml"
     //画图
     analysisXML(svg,cptArray,xmlAddress)
     //动图和文字
     runAndAlarm()
     
   })
-
+  //视频关闭按钮
   $("#vt_btn").click(function () {
     $("#infoVideo").css("display","none")
   })
 
-  // console.log(jsonAlarmIDArray,"alarm")
-  // console.log(jsonRunIDArray,"run")
+  //门禁表格行
+  $("#doorTable").click(function (e) {
+    $(e.target).parent().addClass("tr_select").siblings().removeClass("tr_select")
+  })
+
+//  门禁的下拉框
+  //int
+  let $selectHead = $('.select-head:first')
+  let $selectHeadCont = $('.select-head-cont:first')
+  let $Option = $('.option')
+  let $optionItem = $('.option-item')
+
+  /*默认是第一个选项*/
+  $selectHeadCont[0].innerText=$optionItem[0].innerText
+
+  /*点击后出现下拉框*/
+  $selectHead.click(function(){
+    $Option.css('display','block')
+  })
+  /*点击选项后出现在下拉框*/
+  var len = $optionItem.length
+  for(var i=0;i<len;i++){
+    $optionItem[i].index = i
+    $optionItem[i].addEventListener('click',function(){
+      $selectHeadCont[0].innerHTML = $optionItem[this.index].innerHTML
+      $Option.css('display','none')
+    },false)
+  }
+  /*点击其他地方时，select会收起来*/
+  document.body.addEventListener('click',function(){
+    $Option.style.display = 'none'
+  }.false)
+
+
+
+
+
 }
 
 /*
@@ -251,6 +286,8 @@ function analysisXML(svg,cptArray,xmlAddress) {
                 //门禁管理
                 case "list":
                   mouseEvent="list";
+                  deviceID=1390069
+                     getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
                   break;
                 //  CO探测器
                 case "line":
@@ -296,7 +333,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
             // time = (new Date()).getTime();
             // console.log(time)
             //鼠标悬停有事件
-            if(isMouseOverTip){
+            if(isMouseOverTip ||  e.target.getAttribute("isToolTip")){
               let mouseEvent="isMouseOverTip"
               // console.log(deviceID)
               //改变数据
@@ -305,6 +342,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
               // $("#hzStatus").text(hzStatus[deviceID])
               // $("#inStress").text(inStress[deviceID])
               //=======================================
+              deviceID=1390069
               //读取单个json
               getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
               //======================================
@@ -395,6 +433,7 @@ function dragSVG() {
 }
 
 function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) {
+  console.log("aaaaa")
   //ajax======================
   let param={}
   let httpUrl
@@ -404,7 +443,7 @@ function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) 
 
   let $infoDiv=null
 
-  if(mouseEvent==="isMouseOverTip"){
+
     //请求
     $.ajax({
       type:'get',
@@ -413,22 +452,63 @@ function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) 
       data:{'str':JSON.stringify(param) },
       success:function (data) {
         data=JSON.parse(data)
-        // console.log(data)
-          $infoDiv= $("#infoDiv")
-          $infoDiv.empty();//清空内容
+
+        //====================
+        if(mouseEvent==="isMouseOverTip"){
+        //   $infoDiv= $("#infoDiv")
+        //   $infoDiv.empty();//清空内容
+        //   let tbody= document.createElement('tbody');
+        //   tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
+        // for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+        //   tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+        //   $infoDiv[0].appendChild(tbody)
+        // }
+
+          console.log(data)
+          $infoDiv=$("#infoDoor").css("display","block")
+          $("#doorTable").empty()
           let tbody= document.createElement('tbody');
-          tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
-        for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-          tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
-          $infoDiv[0].appendChild(tbody)
+          tbody.innerHTML="<tr><td>设备名称</td><td>参数名称</td><td>参数值</td></tr>"
+          for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+            if(groups[j].paramName==="开关状态"){
+              tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td style='background-color: #82B882'>"+groups[j].statusEnValue+"</td></tr>"
+            }else{
+              tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+            }
+
+            $("#doorTable")[0].appendChild(tbody)
+          }
+
+          //奇偶行设置背景颜色
+          $('#doorTable tbody tr:even').addClass("trEven");
+          $('#doorTable tbody tr:odd').addClass("trOdd");
         }
+      //  ==============
+        else if(mouseEvent==="list"){
+          console.log(data)
+          $infoDiv=$("#infoDoor").css("display","block").empty() //清空内容
+          let tbody= document.createElement('tbody');
+          tbody.innerHTML="<tr><td>设备名称</td><td>参数名称</td><td>参数值</td></tr>"
+          for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+            tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+            $infoDiv[0].appendChild(tbody)
+          }
+
+          //奇偶行设置背景颜色
+          $('#doorTable tbody tr:even').css('background','white');
+          $('#doorTable tbody tr:odd').css('background','#f1f5f8');
+
+
+
+
+        }
+
+
       },
       error:function (err) {
       }
     })
-  }else if(mouseEvent==="isMouseOverTip"){
 
-  }
     //=========================
 
 

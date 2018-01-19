@@ -7,6 +7,11 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 #readSVG{
   position: absolute;
@@ -91,6 +96,8 @@ body {
 }
 
 #infoDoor{
+  font-family: "微软雅黑";
+  font-size: 16px;
   cursor: pointer;
   position: absolute;
   border:1px red solid;
@@ -98,14 +105,18 @@ body {
   top:170px;
   /*display: none;*/
   display: block;
-  width: 500px;
-  height: 350px;
+  width: 700px;
+  background:#f1f5f8;
 
 }
+
+
+
 #infoDoor .door_title{
   width: 100%;
-  height:20px;
+  height:25px;
   background-color:#38A7AF ;
+  line-height:25px;
   /*border:1px red solid;*/
 }
 #infoDoor .door_title .dt_txt1{
@@ -127,15 +138,23 @@ body {
   margin-left: 20px;
 }
 
+#infoDoor .door_content{
+  width: 100%;
+  height: 100%;
+}
+
 #doorTable tbody tr{
   width: 100%;
   height:25px;
 }
+#doorTable tbody tr:hover{
+  background-color: #CCCCCC;
+}
 
 #doorTable tbody tr td{
-  background-color: #EEEEEE;
-  border: 1px red solid;
-  width: 13%;
+  /*background-color: #EEEEEE;*/
+  border-right: 1px #CCCCCC solid;
+  width: 9%;
   text-align: center;
   height: 20px;
   line-height: 20px;
@@ -144,31 +163,102 @@ body {
 #infoDoor .door_bottom{
   border:1px red solid;
   width: 100%;
-  height:30px;
-  position: absolute;
-  bottom: 0;
-  left:0;
+  height:35px;
 
 }
+#infoDoor .door_bottom .db_clopen{
+  float: left;
+  margin-top: 7px;
+  position: relative;
+  margin-left: 7px;
+}
+/*下拉框样式*/
+#select{
+  background: rgba(0,0,0,0);
+  width: 60px;
+  height: 26px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: white;
+  border: 1px #1a1a1a solid;
+  /*border-radius: 5px;*/
+  position: absolute;
+  top:0px;
+  left:63px;
+
+}
+.select-head{
+  overflow: hidden;
+  width: 55px;
+  height: 22px;
+  box-sizing: border-box;
+  /*padding: 0 10px;*/
+  /*line-height: 40px;*/
+}
+.select-head .select-head-cont{
+  float: left;
+  color: black;
+
+
+}
+.select-head .select-icon{
+  float: right;
+  color:black;
+}
+.option{
+
+  color: black;
+  line-height: 25px;
+  display: none;
+  border: 1px solid black;
+  position:absolute;
+  top:20px;
+  left:-1px;
+  width:60px;
+  background-color: whitesmoke;
+}
+.option-item:hover{
+  background-color: #A8C6EE;
+}
+/*end下拉框============*/
+
+/*下发======================*/
 #infoDoor .door_bottom .door_btn1{
-  border:1px red solid;
-  width: 40px;
-  height:20px;
+  cursor: not-allowed;
+  opacity: 0.6;
+  /*border:1px red solid;*/
+  width: 45px;
+  height:25px;
   float: right;
   margin-top: 4px;
   margin-right: 8px;
 }
+/*关闭*/
 #infoDoor .door_bottom .door_btn2{
-  border:1px red solid;
-  width: 40px;
-  height:20px;
+  /*border:1px red solid;*/
+  border: 0;
+  background-color: #6BC6CB;
+  color: white;
+  width: 45px;
+  height:25px;
   float: right;
   margin-top:4px;
   margin-right: 8px;
 
 }
 
+/*奇偶行*/
+.trEven{
+  background-color: #FFFFFF;
+}
 
+.trOdd{
+  background-color: #EEEEEE;
+}
+
+.tr_select{
+  background-color: #A5CFE5;
+}
 
 
 

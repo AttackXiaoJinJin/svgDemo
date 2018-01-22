@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+
+  <title>解析xml</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+
+    body {
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    ul,li{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #readSVG{
+      position: absolute;
+      /*border: 1px red solid;*/
+      left:100px;
+      top:0;
+      width: 100%;
+      height:100%;
+    }
+
+    #infoDiv{
+      position: absolute;
+      /*border:1px red solid;*/
+      left:10px;
+      top:10px;
+      display: none;
+      /*display: block;*/
+      background-color: #eeeeee;
+    }
+
+    #infoDiv tbody tr{
+    }
+
+    #infoDiv tbody tr td{
+      font-size: 18px;
+
+      padding: 5px;
+      vertical-align: center;
+      border:1px red solid;
+      text-align: center;
+    }
+
+    .infoColor{
+      color:#38A7AF;
+    }
+
+    /*视频的弹出框*/
+    #infoVideo{
+      cursor: pointer;
+      position: absolute;
+      border:1px red solid;
+      left:10px;
+      top:70px;
+      display: none;
+      /*display: block;*/
+      width: 300px;
+      height: 350px;
+      /*display: block;*/
+      /*background-color: #eeeeee;*/
+    }
+    #infoVideo .video_title{
+      width: 100%;
+      height:20px;
+      background-color:#38A7AF ;
+      /*border:1px red solid;*/
+    }
+    #infoVideo  .video_title .vt_txt{
+      font-family: 宋体;
+      font-size: 16px;
+      color:white;
+      /*border:1px red solid;*/
+      line-height: 20px;
+      text-align: center;
+    }
+    #infoVideo  .video_title #vt_btn{
+
+      cursor:pointer;
+      width: 16px;
+      height:16px;
+      /*border:1px red solid;*/
+      background-repeat: no-repeat;
+      float:right;
+      border-radius: 50%;
+      margin-top: 1px;
+      border:0;
+    }
+    #video_content{
+      border: 1px solid red;
+      background-color: #EEEEEE;
+      height: 100%;
+      width: 100%;
+    }
+
+    #infoDoor{
+      font-family: "微软雅黑";
+      font-size: 16px;
+      cursor: pointer;
+      position: absolute;
+      border:1px red solid;
+      left:10px;
+      top:170px;
+      display: none;
+      /*display: block;*/
+      width: 700px;
+      background:#f1f5f8;
+
+    }
+
+
+
+    #infoDoor .door_title{
+      width: 100%;
+      height:25px;
+      background-color:#38A7AF ;
+      line-height:25px;
+      /*border:1px red solid;*/
+    }
+    #infoDoor .door_title .dt_txt1{
+      font-family: 宋体;
+      font-size: 16px;
+      color:white;
+      font-weight: bold;
+      /*border:1px red solid;*/
+      line-height: 20px;
+      text-align: center;
+    }
+    #infoDoor .door_title .dt_txt2{
+      font-family: 宋体;
+      font-size: 16px;
+      color:white;
+      /*border:1px red solid;*/
+      line-height: 20px;
+      text-align: center;
+      margin-left: 20px;
+    }
+
+    #infoDoor .door_content{
+      width: 100%;
+      height: 100%;
+    }
+
+    #doorTable tbody tr{
+      width: 100%;
+      height:25px;
+    }
+    #doorTable tbody tr:hover{
+      background-color: #CCCCCC;
+    }
+
+    #doorTable tbody tr td{
+      /*background-color: #EEEEEE;*/
+      border-right: 1px #CCCCCC solid;
+      width: 9%;
+      text-align: center;
+      height: 20px;
+      line-height: 20px;
+    }
+
+    #infoDoor .door_bottom{
+      border:1px red solid;
+      width: 100%;
+      height:35px;
+
+    }
+    #infoDoor .door_bottom .db_clopen{
+      float: left;
+      margin-top: 7px;
+      position: relative;
+      margin-left: 7px;
+    }
+    /*下拉框样式*/
+    #select{
+      background: rgba(0,0,0,0);
+      width: 60px;
+      height: 26px;
+      font-family: "微软雅黑";
+      font-size: 16px;
+      color: white;
+      border: 1px #1a1a1a solid;
+      /*border-radius: 5px;*/
+      position: absolute;
+      top:0px;
+      left:63px;
+
+    }
+    .select-head{
+      overflow: hidden;
+      width: 55px;
+      height: 22px;
+      box-sizing: border-box;
+      /*padding: 0 10px;*/
+      /*line-height: 40px;*/
+    }
+    .select-head .select-head-cont{
+      float: left;
+      color: black;
+
+
+    }
+    .select-head .select-icon{
+      float: right;
+      color:black;
+    }
+    #option{
+
+      color: black;
+      line-height: 25px;
+      display: none;
+      border: 1px solid black;
+      position:absolute;
+      top:20px;
+      left:-1px;
+      width:60px;
+      background-color: whitesmoke;
+    }
+    .option-item:hover{
+      background-color: #A8C6EE;
+    }
+    /*end下拉框============*/
+
+    /*下发======================*/
+    #infoDoor .door_bottom .door_btn1{
+      /*border:1px red solid;*/
+      width: 45px;
+      height:25px;
+      float: right;
+      margin-top: 4px;
+      margin-right: 8px;
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+
+    /*关闭*/
+    #infoDoor .door_bottom .door_btn2{
+      /*border:1px red solid;*/
+      border: 0;
+      background-color: #6BC6CB;
+      color: white;
+      width: 45px;
+      height:25px;
+      float: right;
+      margin-top:4px;
+      margin-right: 8px;
+
+    }
+
+    /*奇偶行*/
+    .trEven{
+      background-color: #FFFFFF;
+    }
+    .trOdd{
+      background-color: #EEEEEE;
+    }
+    .tr_select{
+      background-color: #A5CFE5;
+    }
+  </style>
+</head>
+
+<body>
+<button id="showSVG">显示组态</button>
+<div id="readSVG">
+</div>
+
+<table id="infoDiv" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>设备</td>
+    <td>位置</td>
+    <td>参数</td>
+    <td>参数值</td>
+  </tr>
+</table>
+
+<!--视频监控-->
+<div id="infoVideo">
+  <div class="video_title">
+    <span class="vt_txt">视频监控</span>
+    <button id="vt_btn"></button>
+  </div>
+  <div id="video_content">
+  </div>
+</div>
+
+
+<!--门禁管理-->
+<div id="infoDoor">
+  <div class="door_title">
+    <span class="dt_txt1">设备信息</span>
+    <span class="dt_txt2">*绿色行标示的设备为可控</span>
+  </div>
+  <div class="door_content">
+    <table id="doorTable" border="0" cellspacing="0" cellpadding="0">
+      <!--<tr>-->
+      <!--<td>设备名称</td>-->
+      <!--<td>参数名称</td>-->
+      <!--<td>参数值</td>-->
+      <!--</tr>-->
+    </table>
+  </div>
+  <div class="door_bottom">
+    <div class="db_clopen">
+      <span>设定值：</span>
+      <!--下拉列表-->
+      <ul id="select">
+        <li>
+          <div class="select-head">
+            <span class="select-head-cont"></span>
+            <span class="select-icon">▼</span>
+          </div>
+          <ul id="option">
+            <li class="option-item">关闭</li>
+            <li class="option-item">开启</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <button class="door_btn2">关闭</button>
+    <button class="door_btn1" disabled="disabled">下发</button>
+  </div>
+</div>
+
+
+
+<script src="jquery-3.2.1.js"></script>
+<script src="raphael.min.js"></script>
+<script>
+  window.onload=function () {
+    // let xmlAddress="conf/F2mjNode.xml"
+    let xmlAddress="conf/F2mjNode.xml"
+    let svg=null
+    analysisXML(svg,xmlAddress)
+  }
+  /*
+* 解析导出的xml文件
+* */
+  function analysisXML(svg,xmlAddress) {
+    //新的解析xml方法========================
+    // let xmlHttp
+    // let xmlDoc1=''
+    // if(window.XMLHttpRequest){
+    //   xmlHttp=new XMLHttpRequest()
+    // }else{
+    //   //低版本IE
+    //   xmlHttp=new ActiveXObject('Microsoft.XMLHTTP')
+    // }
+    // xmlHttp.open("GET","conf/xmltest.xml",true)
+    // xmlHttp.send()
+    // xmlHttp.onreadystatechange=function(){
+    //   if(xmlHttp.readyState===4 && xmlHttp.status===200){
+    //     // console.log("aaaa")
+    //     console.log(xmlHttp.responseText)
+    //     // analysisXML(xmlHttp.responseText);
+    //     xmlDoc1=xmlHttp.responseText
+    //   }
+    // }
+    // console.log(xmlDoc1.documentElement)
+
+
+    
+    
+    //=================================================
+    let xmlFileName=xmlAddress
+    let xmlDoc
+    //IE
+    if((/Trident\/7\./).test(navigator.userAgent)){
+      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+    }else{
+      xmlDoc=document.implementation.createDocument("","",null);
+    }
+    xmlDoc.async=false
+    xmlDoc.load(xmlFileName)
+    
+    let Configration=xmlDoc.documentElement
+    let ConfigWidth=Configration.getAttribute("Width")
+    let ConfigHeight=Configration.getAttribute("Height")
+    //创建svg画布
+    svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
+    // dragSVG(svg)
+    let LIST=null
+    let LISTImage=null
+    let LISTImageChildren=null
+    console.log(Configration.childNodes.length)
+    /*循环出不来*/
+    for(let i=0;i<Configration.childNodes.lengh;i++){
+      console.log("aaa")
+      // if(Configration.childNodes[i].nodeName==="LIST"){
+      //   LIST=Configration.childNodes[i]
+      //   LISTImage =LIST.childNodes[1]
+      //   LISTImageChildren=LISTImage.childNodes
+      //
+      // }
+    }
+
+    
+    // console.log(LISTImage.childNodes.length)
+    let Components=xmlDoc.documentElement.childNodes[1]
+    let ComponentsChildren=Components.childNodes
+    //改变图片
+    var changImg=false
+    //优化循环
+    for (let i=0,m=ComponentsChildren.length;i<m;i++)
+    {
+      let imageSource=ComponentsChildren[i].getAttribute("source")
+      //如果没有source就从listimg中寻找
+      if(!imageSource){
+        for(let j=0,n=LISTImageChildren.length;j<n;j++){
+          if(ComponentsChildren[i].nodeName===LISTImageChildren[j].nodeName){
+            imageSource=LISTImageChildren[j].getAttribute("source")
+          }
+        }
+      }
+      let nodename=ComponentsChildren[i].nodeName
+      // console.log(nodename)
+      let group=ComponentsChildren[i].getAttribute("group")
+      let image=null
+      let width=ComponentsChildren[i].getAttribute("width")
+      let height=ComponentsChildren[i].getAttribute("height")
+      //匹配大背景图片
+      if(group==="map"){
+        width=ConfigWidth
+        height=ConfigHeight
+      }
+
+      let scaleX=ComponentsChildren[i].getAttribute("scaleX")
+      let scaleY=ComponentsChildren[i].getAttribute("scaleY")
+      let param=ComponentsChildren[i].getAttribute("param")
+      //风扇
+      let mark=ComponentsChildren[i].getAttribute("mark")
+
+      let fontSize
+      if(ComponentsChildren[i].getAttribute("fontSize")){
+        fontSize=ComponentsChildren[i].getAttribute("fontSize")
+      }
+      let textAlign
+      if(ComponentsChildren[i].getAttribute("textAlign")){
+        textAlign=ComponentsChildren[i].getAttribute("textAlign")
+      }
+
+      let compname=ComponentsChildren[i].getAttribute("compname")
+      let deviceID=ComponentsChildren[i].getAttribute("deviceID")
+      let deviceName=ComponentsChildren[i].getAttribute("deviceName")
+      let isMouseOverTip=ComponentsChildren[i].getAttribute("isMouseOverTip")
+
+      let x=ComponentsChildren[i].getAttribute("x")
+      let y=ComponentsChildren[i].getAttribute("y")
+      // 文字以paramid标识
+      let paramID=ComponentsChildren[i].getAttribute("paramID")
+      //20001 63
+      let deviceParam=deviceID+paramID
+      //数组保存参数
+      var handAuto=new Array()
+      var hzStatus=new Array()
+      var inStress=new Array()
+      //组件宽高缩放
+      if(scaleX){
+        width=parseInt(width)*parseFloat(scaleX)
+      }
+      if(scaleY){
+        height=parseInt(height)*parseFloat(scaleY)
+      }
+
+      let rotate=0
+      if(ComponentsChildren[i].getAttribute("rotation")){
+        rotate=parseInt(ComponentsChildren[i].getAttribute("rotation"))
+      }
+
+      let lb3;
+      //如果是要绘制文字的话===========================================
+      if(ComponentsChildren[i].getAttribute("text")){
+        let color=ComponentsChildren[i].getAttribute("color")
+        let contentBackgroundColor=ComponentsChildren[i].getAttribute("contentBackgroundColor")
+        let contentBackgroundAlpha=ComponentsChildren[i].getAttribute("contentBackgroundAlpha")
+
+        // color=color.indexOf("#")===-1?colorTransformation(parseInt(color)):color
+        // console.log(color)
+        let fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
+        //优先绘制黑色背景框
+        if(fontFamily==="digifaw" || (parseInt(contentBackgroundAlpha)===1 && parseInt(contentBackgroundColor)===0)){
+          svg.rect(x, y, width?width-5:40, height?height:20).attr({
+            "fill": "black"
+          })
+        }
+
+        let fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
+        let textX=parseInt(x)+parseInt(width?width-5:40)/2
+        let textY=parseInt(y)+parseInt(height?height:20)/2
+        let text=ComponentsChildren[i].getAttribute("text")
+        //绘制文字
+        let drawText=svg.text(textX,textY,text)
+        drawText.attr({
+          "font-size":fontSize+"px",
+          "text-align":textAlign,
+          cursor:'pointer',
+          'fill':color,
+          'text-anchor':'middle',
+          'font-family':fontFamily,
+          'font-weight':fontWeight
+        })
+        //给文字加id
+        drawText.node.setAttribute("deviceId",deviceID)
+        drawText.node.setAttribute("paramId",paramID)
+
+        //=================================
+        //根据json绘制文字
+        if(fontFamily==="digifaw"){
+          // drawTextArray.push(drawText)
+          // textDeviceArray.push(deviceID)
+          // textParamArray.push(paramID)
+          if(paramID == 63 && deviceID==30005){
+            // console.log("aaa")
+            drawTextArray.push(drawText)
+          }
+        }
+      }
+      //====================================上面是文字
+      //图片====================================
+      else{
+        let simg=svg.image(imageSource,x,y,width,height)
+          .attr({cursor:'pointer',
+            //没有x,y即绕自身中心旋转
+            //以坐标x,y进行旋转
+            'transform':'r'+rotate+','+x+','+y,
+          })
+          .mouseout(function () {
+            $("#infoDiv")
+              .css("display","none")
+          })
+
+        //添加ID
+        //是设备图片
+        if(group==="deviceComp" || group==="commonComp"){
+          simg.node.setAttribute('id',deviceID)
+          simg.node.setAttribute('display','block')
+          if(deviceID){
+            // deviceIDArray.push(deviceID.toString())
+          }
+          // //添加id,速度,数量
+          // getImgNum(deviceID,nodename,imageSource)
+          // drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource,simg)
+          //=================================
+          simg.click(function (e) {
+            // console.log("aaa")
+            //  弹窗
+            if(e.target.getAttribute("isPop")){
+              //弹窗类型
+              let mouseEvent=""
+              switch (e.target.getAttribute("popType")){
+                //  视频
+                case "video":
+                  mouseEvent="video"
+                  $("#infoVideo").css("display","block")
+                  $("#video_content")[0].innerText=deviceID
+                  break;
+                //空调
+                case "redirect":
+                  mouseEvent="redirect";
+                  break;
+                //门禁管理
+                case "list":
+                  mouseEvent="list";
+                  deviceID=1390069
+                  // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
+                  break;
+                //  CO探测器
+                case "line":
+                  mouseEvent="line";
+                  break;
+                //  温度探测器
+                case "chart":
+                  mouseEvent="chart";
+                  break;
+                //  退出按钮
+                case "btn":
+                  mouseEvent="btn";
+                  break;
+                //消防摄像机
+                case "videoSub":
+                  mouseEvent="videoSub";
+                  break;
+                //客流黄色按钮
+                case "yBtn":
+                  mouseEvent="yBtn";
+                  break;
+                //  客流橙色按钮
+                case "oBtn":
+                  mouseEvent="oBtn";
+                  break;
+                //客流红色按钮
+                case "rBtn":
+                  mouseEvent="rBtn";
+                  break;
+                //方法按钮
+                case "funcBtn":
+                  mouseEvent="funcBtn";
+                  break;
+
+
+
+              }
+
+            }
+
+          }).mouseover(function (e) {
+            // .mouseenter(function (e) {
+            // time = (new Date()).getTime();
+            // console.log(time)
+            //鼠标悬停有事件
+            if(isMouseOverTip ||  e.target.getAttribute("isToolTip")){
+              let mouseEvent="isMouseOverTip"
+              // console.log(deviceID)
+              //改变数据
+              // $("#deviceName").text(deviceName)
+              // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+              // $("#hzStatus").text(hzStatus[deviceID])
+              // $("#inStress").text(inStress[deviceID])
+              //=======================================
+              deviceID=1390069
+              //读取单个json
+              // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
+              //======================================
+
+            }
+          })
+
+
+
+
+        }
+      }
+      //==========else
+    }
+    //=============循环
+
+    //设置画布的属性
+    let svgEle=document.querySelector("svg")
+    svgEle.style.border="1px red solid"
+    //居中
+    svgEle.style.left='50%'
+    svgEle.style.top='50%'
+    svgEle.style.marginLeft="-"+parseInt(ConfigWidth)/2+"px"
+    svgEle.style.marginTop="-"+parseInt(ConfigHeight)/2+"px"
+    paperLeft=parseInt($("#readSVG").css("width"))/2-parseInt(ConfigWidth)/2
+    paperTop=parseInt($("#readSVG").css("height"))/2-parseInt(ConfigHeight)/2
+    let children=svgEle.childNodes
+  }
+
+</script>
+
+</body>
+</html>

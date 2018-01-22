@@ -103,8 +103,8 @@ ul,li{
   border:1px red solid;
   left:10px;
   top:170px;
-  /*display: none;*/
-  display: block;
+  display: none;
+  /*display: block;*/
   width: 700px;
   background:#f1f5f8;
 
@@ -205,7 +205,7 @@ ul,li{
   float: right;
   color:black;
 }
-.option{
+#option{
 
   color: black;
   line-height: 25px;
@@ -224,15 +224,17 @@ ul,li{
 
 /*下发======================*/
 #infoDoor .door_bottom .door_btn1{
-  cursor: not-allowed;
-  opacity: 0.6;
   /*border:1px red solid;*/
   width: 45px;
   height:25px;
   float: right;
   margin-top: 4px;
   margin-right: 8px;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
+
+
 /*关闭*/
 #infoDoor .door_bottom .door_btn2{
   /*border:1px red solid;*/

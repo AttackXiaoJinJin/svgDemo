@@ -53,51 +53,68 @@ window.onload=function () {
     analysisXML(svg,cptArray,xmlAddress)
     //动图和文字
     runAndAlarm()
+
     
   })
   //视频关闭按钮
   $("#vt_btn").click(function () {
     $("#infoVideo").css("display","none")
   })
-
-  //门禁表格行
-  $("#doorTable").click(function (e) {
-    $(e.target).parent().addClass("tr_select").siblings().removeClass("tr_select")
-  })
-
-//  门禁的下拉框
-  //int
-  let $selectHead = $('.select-head:first')
-  let $selectHeadCont = $('.select-head-cont:first')
-  let $Option = $('.option')
-  let $optionItem = $('.option-item')
-
-  /*默认是第一个选项*/
-  $selectHeadCont[0].innerText=$optionItem[0].innerText
-
-  /*点击后出现下拉框*/
-  $selectHead.click(function(){
-    $Option.css('display','block')
-  })
-  /*点击选项后出现在下拉框*/
-  var len = $optionItem.length
-  for(var i=0;i<len;i++){
-    $optionItem[i].index = i
-    $optionItem[i].addEventListener('click',function(){
-      $selectHeadCont[0].innerHTML = $optionItem[this.index].innerHTML
-      $Option.css('display','none')
-    },false)
-  }
-  /*点击其他地方时，select会收起来*/
-  document.body.addEventListener('click',function(){
-    $Option.style.display = 'none'
-  }.false)
+  
 
 
 
 
 
 }
+
+function infoDoor() {
+  //显示的时候才执行
+  if($("#infoDoor").css("display")==="block"){
+    //门禁表格行
+    $("#doorTable").click(function (e) {
+      $(e.target).parent().addClass("tr_select").siblings().removeClass("tr_select")
+      if($(e.target).parent().attr("id")==="toClopen"){
+        $(".door_btn1").css("cursor","default").css("opacity","1").attr("disabled",false)
+      }else{
+        $(".door_btn1").css("cursor","not-allowed").css("opacity","0.6").attr("disabled",true)
+      }
+
+    })
+    //门禁的下拉框
+    let $selectHead = $('.select-head:first')
+    let $selectHeadCont = $('.select-head-cont:first')
+    let $Option = $('#option')
+    let $optionItem = $('.option-item')
+    /*默认是第一个选项*/
+    $selectHeadCont[0].innerText=$optionItem[0].innerText
+    /*点击后出现下拉框*/
+    $selectHead.click(function(){
+      $Option.css('display','block')
+    })
+    /*点击选项后出现在下拉框*/
+    let len = $optionItem.length
+    for(let i=0;i<len;i++){
+
+      $optionItem[i].index = i
+      $optionItem[i].addEventListener('click',function(){
+        // console.log("aaa")
+        $selectHeadCont[0].innerHTML = $optionItem[this.index].innerHTML
+        $Option.css('display','none')
+
+      })
+    }
+    /*点击其他地方时，select会收起来*/
+    // document.body.addEventListener('click',function(){
+    //   $Option.css('display','none')
+    // },false)
+    //  关闭
+    $(".door_btn2").click(function () {
+      $("#infoDoor").css("display","none")
+    })
+  }
+}
+
 
 /*
 * 解析导出的xml文件
@@ -118,7 +135,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
   let ConfigHeight=Configration.getAttribute("Height")
   //创建svg画布
   svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
-  dragSVG(svg)
+
   let LIST=xmlDoc.documentElement.childNodes[0]
   let LISTImage=LIST.childNodes[1]
   let LISTImageChildren=LISTImage.childNodes
@@ -267,7 +284,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
         drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource,simg)
         //=================================
           simg.click(function (e) {
-            console.log("aaa")
+            // console.log("aaa")
             //  弹窗
             if(e.target.getAttribute("isPop")){
             //弹窗类型
@@ -287,7 +304,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
                 case "list":
                   mouseEvent="list";
                   deviceID=1390069
-                     getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
+                     // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
                   break;
                 //  CO探测器
                 case "line":
@@ -344,7 +361,7 @@ function analysisXML(svg,cptArray,xmlAddress) {
               //=======================================
               deviceID=1390069
               //读取单个json
-              getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
+              // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
               //======================================
 
             }
@@ -375,9 +392,12 @@ function analysisXML(svg,cptArray,xmlAddress) {
 
 //缩放
 function scale(r) {
-  $(document.body).css("-ms-transform","scale("+r+")")
+  let readSVG=$("#readSVG")
+  // $(document.body).css("-ms-transform","scale("+r+")")
+  readSVG.css("-ms-transform","scale("+r+")")
   $(window).resize(function() {
-    $(document.body).css("-ms-transform","scale("+r+")")
+    // $(document.body).css("-ms-transform","scale("+r+")")
+    readSVG.css("-ms-transform","scale("+r+")")
   })
 }
 
@@ -389,15 +409,21 @@ function mouseWheel() {
     //1为向上滚动，放大
     if(event.delta===1){
       r+=0.1
+      console.log(r)
     }else if(event.delta===-1){
       r-=0.1
     }
     scale(r)
   },false)
+
+//  拖动画布
+  dragSVG(r)
 }
 
 //拖拽画布
-function dragSVG() {
+function dragSVG(r) {
+  let flag=false
+
   let readSVG=document.querySelector("#readSVG")
   readSVG.onmousedown=function (event) {
     readSVG.setCapture && readSVG.setCapture()
@@ -405,6 +431,8 @@ function dragSVG() {
     //求div的偏移量
     let ol=event.clientX - readSVG.offsetLeft
     let ot=event.clientY-readSVG.offsetTop
+    console.log(readSVG.offsetTop,"readSVG.offsetTop")
+    // console.log(ol)
     document.onmousemove=function (event) {
       // console.log("onmousemove")
       event=event || window.event
@@ -412,6 +440,7 @@ function dragSVG() {
       let mouseTop=event.clientY
       let divLeft=mouseLeft-ol
       let divTop=mouseTop-ot
+      // console.log(divTop,"divTop")
       svgLeft=divLeft
       svgTop=divTop
       readSVG.style.left=divLeft+"px"
@@ -431,9 +460,10 @@ function dragSVG() {
     return false
   }
 }
+//=============================
 
 function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) {
-  console.log("aaaaa")
+  // console.log("aaaaa")
   //ajax======================
   let param={}
   let httpUrl
@@ -455,33 +485,38 @@ function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) 
 
         //====================
         if(mouseEvent==="isMouseOverTip"){
-        //   $infoDiv= $("#infoDiv")
-        //   $infoDiv.empty();//清空内容
-        //   let tbody= document.createElement('tbody');
-        //   tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
-        // for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-        //   tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
-        //   $infoDiv[0].appendChild(tbody)
-        // }
-
-          console.log(data)
-          $infoDiv=$("#infoDoor").css("display","block")
-          $("#doorTable").empty()
+          /*需要*/
+        // =======================================================================================
+          $infoDiv= $("#infoDiv")
+          $infoDiv.empty();//清空内容
           let tbody= document.createElement('tbody');
-          tbody.innerHTML="<tr><td>设备名称</td><td>参数名称</td><td>参数值</td></tr>"
-          for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-            if(groups[j].paramName==="开关状态"){
-              tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td style='background-color: #82B882'>"+groups[j].statusEnValue+"</td></tr>"
-            }else{
-              tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
-            }
+          tbody.innerHTML="<tr><td>设备</td><td>位置</td><td>参数</td><td>参数值</td></tr>"
+        for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+          tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>位置</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+          $infoDiv[0].appendChild(tbody)
+        }
+        //======================================================================================
 
-            $("#doorTable")[0].appendChild(tbody)
-          }
+          //============================================================================
+          // $infoDiv=$("#infoDoor").css("display","block")
+          // $("#doorTable").empty()
+          // let tbody= document.createElement('tbody');
+          // tbody.innerHTML="<tr><td>设备名称</td><td>参数名称</td><td>参数值</td></tr>"
+          // for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+          //   if(groups[j].paramName==="开关状态"){
+          //     tbody.innerHTML+="<tr id='toClopen'><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td style='background-color: #82B882'>"+groups[j].statusEnValue+"</td></tr>"
+          //   }else{
+          //     tbody.innerHTML+="<tr><td>"+groups[j].deviceName+"</td><td>"+groups[j].paramName+"</td><td>"+groups[j].statusEnValue+"</td></tr>"
+          //   }
+          //   $("#doorTable")[0].appendChild(tbody)
+          // }
+          //
+          // //奇偶行设置背景颜色
+          // $('#doorTable tbody tr:even').addClass("trEven")
+          // $('#doorTable tbody tr:odd').addClass("trOdd")
+          // infoDoor()
+        //============================================================================
 
-          //奇偶行设置背景颜色
-          $('#doorTable tbody tr:even').addClass("trEven");
-          $('#doorTable tbody tr:odd').addClass("trOdd");
         }
       //  ==============
         else if(mouseEvent==="list"){
@@ -510,11 +545,6 @@ function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) 
     })
 
     //=========================
-
-
-
-
-
 
   //让显示框不出画布=============================================
   let showHeight=parseInt(y)+parseInt(height)+10+parseInt(svgTop)+parseInt(paperTop)
@@ -699,7 +729,7 @@ function colorTransformation(colorStr){
   // console.log(colorStr.toString())
   return colorStr.toString();
 }
-
+//解析配置文件
 function analysisCompoentsOne() {
   let compoentsArray={}
   // console.log("aaa")

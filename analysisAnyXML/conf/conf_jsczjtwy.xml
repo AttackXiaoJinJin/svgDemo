@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<versionInfo>
+		<appName>新城新云智能监控平台</appName>
+		<versionNum>V1.1.31</versionNum>
+	</versionInfo>
+	
+	<!-- 所有子系统的初始化界面，设置对应的mapID即可-->
+	<welcomepage>
+		<!-- 背景音乐系统 系统结构图-->
+		<bgmModel>83</bgmModel>
+		<!-- 防盗报警系统 地上一层平面图-->
+		<burglarAlarmModel>44</burglarAlarmModel>
+		<!-- 视频监控 地上一层平面图 -->
+		<cctvModel>91</cctvModel>
+		<!-- 公共照明系统 步行街照明平面图地上一层 -->
+		<comlModel>190</comlModel>
+		<!-- 信息发布  设备列表-->
+		<eiModel>81</eiModel>
+		<!-- 变配电系统  高压变配电1#开闭所1-->
+		<electricModel>662</electricModel>
+		<!-- 能耗管理 -->
+		<!--<energyModel></energyModel>-->
+		<!-- 环境监控系统 地上一层平面图-->
+		<enmonModel>249</enmonModel>
+		<!-- 门禁管理 地上一层-->
+		<entranceModel>109</entranceModel>
+		<!-- 消防系统 火灾报警平面图地上一层-->
+		<fireMdoel>290</fireMdoel>
+		<!-- 暖通空调 冷源系统结构图-->
+		<hvacModel>1</hvacModel>
+		<!-- 电子巡更 巡更记录 -->
+		<keepWatchModel>301</keepWatchModel>
+		<!-- 电梯监视 平面图 -->
+		<liftModel>659</liftModel>
+		<!-- 夜景照明 楼体照明平面图 -->
+		<nlModel>59</nlModel>
+		<!-- 停车管理 平面图地下一层 -->
+		<parkModel>661</parkModel>
+		<!-- 客流 平面图地上一层 -->
+		<passFlowModel>356</passFlowModel>
+		<!-- 排水系统 平面图地下一层 -->
+		<waterSupplyModel>32</waterSupplyModel>
+	</welcomepage>
+	
+	<!-- 配置主控台显示，以逗号隔开 ，-->
+	<hvacHomePage>
+		<flag>1,2,3</flag><!-- 1.风机盘管 2.吊装空调 3.新风机组 4.组合式空调机组 5.热交换新风机组    6.送排风机 -->
+	</hvacHomePage>
+	
+	<!-- 系统类型和系统个数配置 -->
+	<sysType typeCount="5">
+		<!-- 消防 -->
+		<fireCount>1</fireCount>
+		<!-- 安防 -->
+		<securityCount>4</securityCount>
+		<!-- 设备 -->
+		<deviceCount>6</deviceCount>
+		<!-- 运营 -->
+		<operationCount>4</operationCount>
+		<!-- 能源 -->
+		<energyCount>1</energyCount>
+	</sysType>
+	
+	<retailer>
+		<!-- code:(MASWD:马鞍山万达,HBJZWD:湖北荆州万达,HEBXFWD:哈尔滨香坊万达,LYJXWD:洛阳涧西万达,LZCGWD:兰州城关万达,NJJYWD:南京建邺万达,ZJWD:镇江万达)-->
+		<code>JSCZJTWY</code>
+		<!--  <code>jsntgzwd</code>-->
+		<!-- 广场中文名称缩写 -->
+		<gcname>金坛吾悦</gcname>
+		
+		<!-- 广场介绍 -->
+		<detail>“新云智能化管理系统”是通过建立集中控制平台，将能源（能耗）管理、暖通空调、给排水、变配电监控、消防报警、视频监控、门禁系统、防盗报警、公共照明、夜景照明、电梯监视、客流统计、停车管理等13项智能设备系统的控制管理集成在一个管理界面上，从而实现“提升总部管理效能” 、“扩大管理范围、降低总部管理成本”、“保证项目运行品质”、“适当降低各项目能耗及人力成本”的目标</detail>
+		<!-- 开业时间(格式:YYYY/MM/DD) -->
+		<liveDate>2016/12/09</liveDate>
+		<!-- 消防是否分区 0:false 1:true-->
+		<zoning>1</zoning>
+		<!-- 安监需要的底图倍率：  1,2,3  安监标准默认是1-->
+		<power>1</power>
+		<!--1是使用万达SSO登录验证，0是使用本地登录验证-->
+		<ssoflag>0</ssoflag>
+		<!-- 新城sso使用自身登录页面   1是使用sso验证，0是使用本地登录验证 -->
+		<xyssoflag>1</xyssoflag>
+	</retailer>
+	
+	<!-- 扩展功能项 0:关(默认)，1:开，2:开但是被禁用（暂时保留此功能）-->
+	<extendFeatures>
+	  <!--1开启大屏控制，0关闭大屏控制-->
+	    <pollingcontrol>0</pollingcontrol>
+		<!-- 用户UK硬件认证 -->
+		<ukValidate>0</ukValidate>
+		<!-- 消防联动（广播和视频的联动）-->
+		<fireLinkage>0</fireLinkage>
+		<!-- 控制VGA大屏 -->
+		<vgaControl>0</vgaControl>
+		<!-- 视频回放控制  -->
+		<videoControl>1</videoControl>
+		<!-- 客流报警预案信息 -->
+		<passAlarmInfo>0</passAlarmInfo>
+		<!-- BA以及模式日志是否按开闭店时间维护和管理 -->
+		<controlByMyTime>0</controlByMyTime>
+		<!-- 节点图：风/水阀阀位给定，无控制权时底色变色显示 -->
+		<valveControl>0</valveControl>
+		<!-- 室内环境：温度曲线图展示 -->
+		<displayChart>0</displayChart>
+		<!-- 变配电：配电图展示 -->
+		<displayPowerMap>0</displayPowerMap>
+		<!-- 变配电：参数列表展示 -->
+		<displayPowerParamList>1</displayPowerParamList>
+		<!-- 夜景照明：显示控制快捷键 -->
+		<displayShortcutKeyInNL>0</displayShortcutKeyInNL>
+		<!-- 公共照明：显示控制快捷键 -->
+		<displayShortcutKeyInCOML>0</displayShortcutKeyInCOML>
+		<!-- 显示天气预报 -->
+		<displayWeather>1</displayWeather>
+		<!-- 智能缩放组态元素 -->
+		<smartScale>1</smartScale>
+		<!--组态移动缩放功能-->
+		<zoom>0</zoom>
+		<!-- 报警管理视频投到大屏 -->
+		<alarmManagerVideo>0</alarmManagerVideo>
+		
+		<!-- 是否使用了支持视频控制的视频服务，如果使用该服务，对视频回放的时候会修改dvrUrl头(例如: vod|dahua|sdk会替换为dahuartmp);
+		如果使用了把该值设为1，没有使用设为0 -->
+		<videoServerSupport>0</videoServerSupport>
+		
+		<!-- 回路列表开关 -->
+		<loopList>0</loopList>
+		
+		<!-- 基本信息日志开关 1会弹出log日志框，要求填写日志原因；0不会弹出log日志弹出框，日志原因默认；2种情况都会产生日志-->
+		<basicLog>0</basicLog>
+		<!-- 用户管理日志开关 -->
+		<userLog>0</userLog>
+		<!-- 系统日历日志开关 -->
+		<sysTimeLog>0</sysTimeLog>
+		<!-- 子系统操作日志开关 -->
+		<handOPLog>0</handOPLog>
+		<!-- 策略维护日志开关 -->
+		<logicLog>0</logicLog>
+		<!-- 维修信息日志开关 -->
+		<maintainLog>0</maintainLog>
+		<!-- BA设备日志开关 -->
+		<baDeviceLog>0</baDeviceLog>
+		<!-- 模式编辑日志开关 -->
+		<modelLog>0</modelLog>
+		<!-- 照明时间表日志开关 -->
+		<lightLog>0</lightLog>
+	</extendFeatures>
+
+	
+	<!-- 嵌入的URL格式为 http://+IP ; width指定页面的宽度(暂时无效)，height指定页面的高度(暂时无效) 目前宽高都是按屏幕大小100%填充-->
+	<!-- 嵌入的URL格式为 http://+IP ; width指定页面的宽度(暂时无效)，height指定页面的高度(暂时无效) 目前宽高都是按屏幕大小100%填充-->
+	<iframe>
+	     <!-- 用能趋势 -->
+		<!-- <energytrendsIframe width="1460" height="930">http://10.26.58.220:8999/</energytrendsIframe> -->
+        <energytrendsIframe width="1460" height="930">http://10.102.25.128:9099/xysso?userId=nengyuan&login=0</energytrendsIframe> 
+
+		<!-- 能耗子系统 -->
+		<energyIframe width="1460" height="930">http://10.102.25.128:9099/xysso?userId=nengyuan&login=0</energyIframe>
+              <!-- 是否只展示能耗子界面系统：开启此项之后，程序自定义的图表将隐藏 -->
+		<isOnlyEnergy>0</isOnlyEnergy>
+	</iframe>
+	<!--门禁嵌套集成配置-->
+		 <MJIframe>
+		    <apply>0</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>10.26.58.188</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>administrator</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>123456</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+			<url></url>
+		 </MJIframe>
+		 
+    <!--防盗嵌套集成配置-->
+		 <FDIframe>
+		    <apply>0</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>10.26.58.183</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>dell</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>123456</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+		    <url></url>
+		 </FDIframe>
+		 
+    <!--客流嵌套集成配置-->
+		 <KLIframe>
+		    <apply>1</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server></server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName></userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd></Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+		    <url>http://10.26.58.95</url>
+		 </KLIframe>
+		 
+	<!--停车收费嵌套集成配置-->
+		 <TCSFIframe>
+		    <apply>0</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>10.26.58.221</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>dell</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>123456</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+		    <url></url>
+		 </TCSFIframe>
+
+
+         <CWYDIframe>
+		    <apply>0</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>10.26.58.221</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>dell</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>123456</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+			 <url></url>
+		 </CWYDIframe>	
+		 
+		 <!-- 变配电嵌套集成配置 -->
+		  <BPDIframe>
+		    <apply>1</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>http://10.102.25.128:9099/xysso?userId=nengyuan&login=0&pd=1</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>dell</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>123456</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+			 <url>http://10.102.25.128:9099/xysso?userId=nengyuan&login=0&pd=1</url>
+			<!--5  -->
+			<count> 6300 </count> 
+		</BPDIframe>	
+		
+		 
+		   <!-- 消防嵌套集成配置 -->
+		  <XFIframe>
+		    <apply>0</apply><!--0是使用远程桌面嵌套，需要配置1、2、3参数      1是使用网页嵌套，需要配置4参数  -->
+			<!--1 远程电脑IP地址-->
+			<server>192.168.1.26</server>
+			<!--2 远程电脑登陆用户名 -->
+			<userName>administrator</userName>
+			<!--3 远程电脑登陆密码 -->
+			<Pwd>dahaiYF123</Pwd>
+		    <!--4 网页嵌套地址如：http://www.baidu.com  -->
+			 <url>http://www.qq.com</url>
+			 
+			<!--5  -->
+			<count> 6300 </count>
+		 </XFIframe>	
+	
+	
+	<!-- 安监配置信息 -->
+	<anjian>
+		<!-- 安监开关，默认true关闭安监链路通道 -->
+		<isOpen>false</isOpen>
+	</anjian>
+	
+	<!-- 视频缓存的时间  至少设置为1S -->
+	<videoBufferTime>
+		<bufferTime>2</bufferTime>
+		<checkip>10.102.25.153</checkip>
+		<checkport>5535</checkport>
+	</videoBufferTime>
+	
+	<!-- 首页刷新频率 10S-->
+	<HomePageFreshenTime>
+		<hpfreshenTime>10</hpfreshenTime>
+	</HomePageFreshenTime>
+	
+	
+	<VGA>
+		<!-- 全屏指令 -->
+		<FULL>
+			<FA command='{"deviceID":16171,"paramID":116,"statusValue":"0","type":0}'/>
+			<FB command='{"deviceID":16173,"paramID":116,"statusValue":"0","type":0}'/>
+		</FULL>
+		<!-- 分屏指令 -->
+		<BLOCK>
+			<BA command='{"deviceID":16171,"paramID":116,"statusValue":"1","type":0}'/>
+			<BB command='{"deviceID":16173,"paramID":116,"statusValue":"1","type":0}'/>
+		</BLOCK>
+		<!-- 视频投放大屏 -->
+		<FIREVIDEO>
+			<FA command='{"deviceID":16172,"paramID":116,"statusValue":"2","type":0}'/>
+		</FIREVIDEO>
+	</VGA>
+	<!-- 开闭店自检处理  0：默认所有系统， 1：自检BA的ddc(例：马鞍上)， -->
+	<HEARTBEAT>
+		<HEARTBEATTYPE>0</HEARTBEATTYPE>
+	</HEARTBEAT>
+</config>

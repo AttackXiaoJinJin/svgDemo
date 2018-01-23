@@ -39,7 +39,6 @@ window.onload=function () {
   $("#showSVG").click(function () {
     //初始化
     drawTextArray=[]
-
     let svg=null
     let jsonOne="../json/hotOne.json"
     //同步
@@ -55,6 +54,21 @@ window.onload=function () {
     //动图和文字
     runAndAlarm()
   })
+  //夜景照明，模式预览
+
+  $("#patternPreview").click(function () {
+    if($("#patternPreview")[0].innerText==="模式预览"){
+      $("svg").css("z-index",0)
+      $("#patternPreview")[0].innerText="停止预览"
+    }else if($("#patternPreview")[0].innerText==="停止预览"){
+      $("svg").css("z-index",-1)
+      $("#patternPreview")[0].innerText="模式预览"
+    }
+
+  })
+
+
+
   //视频关闭按钮
   $("#vt_btn").click(function () {
     $("#infoVideo").css("display","none")

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="621">
+  <LIST>
+    <Component>
+      <LRYJF/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LRYJF y="0" rotation="0" x="257"/>
+  </Components>
+</Configration>

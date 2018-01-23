@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <GWA source="assets/comp/TULI/GWA.png"/>
+      <GWN source="assets/comp/TULI/GWN.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="50" y="-60"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7021" scale="0.25" rotation="0" x="433" y="84"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7020" scale="0.25" rotation="0" x="452" y="148"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7018" scale="0.25" rotation="0" x="743" y="233"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7026" scale="0.25" rotation="0" x="408" y="21"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7019" scale="0.25" rotation="0" x="836" y="150"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="" scale="0.25" rotation="0" x="486" y="49"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7022" scale="0.25" rotation="0" x="486" y="83"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7028" scale="0.25" rotation="0" x="739" y="19"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="190" scale="0.25" rotation="0" x="547" y="50"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7027" scale="0.25" rotation="0" x="739" y="-1"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7013" scale="0.25" rotation="0" x="204" y="346"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7011" scale="0.25" rotation="0" x="118" y="112"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7012" scale="0.25" rotation="0" x="96" y="271"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7014" scale="0.25" rotation="0" x="208" y="186"/>
+    <TEXT text="G082车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="183" y="333"/>
+    <TEXT text="H133车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="376" y="314"/>
+    <TEXT text="G199车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="185" y="172"/>
+    <TEXT text="G133车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="95" y="94"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7015" scale="0.25" rotation="0" x="400" y="330"/>
+    <TEXT text="G103车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="79" y="252"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7016" scale="0.25" rotation="0" x="670" y="335"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7017" scale="0.25" rotation="0" x="756" y="370"/>
+    <TEXT text="M008车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="645" y="320"/>
+    <TEXT text="M236车位2" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="735" y="354"/>
+    <TEXT text="M035车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="719" y="218"/>
+    <TEXT text="M167车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="805" y="135"/>
+    <TEXT text="H179车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="424" y="132"/>
+    <TEXT text="H188车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="408" y="68"/>
+    <TEXT text="H232车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="471" y="100"/>
+    <TEXT text="H253车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="462" y="33"/>
+    <TEXT text="H259车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="538" y="32"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7025" scale="0.25" rotation="0" x="696" y="81"/>
+    <TEXT text="M103车位" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="680" y="98"/>
+    <TEXT text="大商业水泵房" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="6" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="382" y="4"/>
+    <TEXT text="冷房门口1" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="6" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="661" y="0"/>
+    <TEXT text="冷房门口2" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="6" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="663" y="20"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7029" scale="0.25" rotation="0" x="773" y="30"/>
+    <TEXT text="冷机房3" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="4" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="788" y="30"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" deviceID="7029" scale="0.25" rotation="0" x="773" y="49"/>
+    <TEXT text="冷机房4" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="4" color="0" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="787" y="49"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="840" y="430"/>
+    <TEXT text="正常" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="870" y="450"/>
+    <TEXT text="报警" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="950" y="450"/>
+    <GWA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="950" y="470"/>
+    <GWN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="870" y="470"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="892" y="415" rotation="-90"/>
+  </Components>
+</Configration>

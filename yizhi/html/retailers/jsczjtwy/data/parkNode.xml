@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component/>
+    <Image>
+      <TCCMD source="assets/comp/tcc_md.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <TCCMD scale="0.3" x="8" y="0" rotation="0"/>
+  </Components>
+</Configration>

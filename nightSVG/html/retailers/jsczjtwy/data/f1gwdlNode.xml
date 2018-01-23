@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scale="0.45" x="30" y="10" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="101" y="42" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="308" y="353" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="353" y="253" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="306" y="390" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="702" y="408" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="746" y="320" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="856" y="270" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="853" y="224" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="700" y="52" rotation="0"/>
+  </Components>
+</Configration>

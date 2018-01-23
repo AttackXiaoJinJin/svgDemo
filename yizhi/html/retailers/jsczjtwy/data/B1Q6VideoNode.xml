@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="568">
+  <LIST>
+    <Component>
+      <BQSX/>
+      <QSX/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <VB1TULI source="assets/comp/VB1Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scale="1.2" scaleX="1.2" scaleY="1.2" rotation="0" x="-734" y="-461"/>
+    <BQSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="10001" x="494" y="127"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9994" x="270" y="255"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="7" fontWeight="normal" textAlign="right" rotation="0" text="入口主干道F2区" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="246" y="237"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9995" x="370" y="323"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" rotation="0" text="值班室F2区" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="358" y="355"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9996" x="393" y="295"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" rotation="0" text="3号双入口" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="378" y="279"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9998" x="514" y="259"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" rotation="0" text="3号双入口" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="421" y="315"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9997" x="439" y="333"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="7" fontWeight="normal" textAlign="right" rotation="0" text="3号双入口至-2F" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="481" y="245"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="9999" x="370" y="141"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" rotation="0" text="卸货区F1区" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="357" y="173"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="10000" x="410" y="67"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="6" fontWeight="normal" textAlign="right" rotation="0" text="永辉仓库F2区" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="385" y="95"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="7" fontWeight="normal" textAlign="right" rotation="0" text="-1F南观光梯口" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="465" y="109"/>
+    <BQSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="10002" x="526" y="180"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="7" fontWeight="normal" textAlign="right" rotation="0" text="-1F南货梯厅" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="488" y="210"/>
+    <VB1TULI scale="0.8" scaleX="0.8" scaleY="0.8" rotation="0" x="711" y="1"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="10013" x="352" y="385"/>
+    <QSX scale="0.45" rotation="0" popType="video" scaleX="0.45" scaleY="0.45" isPop="true" deviceID="14165" x="402" y="392"/>
+    <TEXT rotation="0" param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" scaleX="1" text="2号开关站1" scaleY="1" fontFamily="Arial" color="0" x="300" y="419"/>
+    <TEXT param="" scale="1" fontSize="14" deviceID="" widthInChars="5" fontWeight="normal" textAlign="right" rotation="0" text="2号开关站2" scaleY="1" fontFamily="Arial" color="0" scaleX="1" x="382" y="430"/>
+  </Components>
+</Configration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="0" y="0" height="714" width="1434"/>
+    <ALARMTB x="218" param="alarm" scaleX="1" scaleY="1" deviceName="13.597364 5F影城气体灭火放气" deviceID="24401" y="311" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="240" y="307" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="5F影城气灭放气" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="117" sizeAuto="true" height="24"/>
+    <ALARMTB x="218" param="alarm" scaleX="1" scaleY="1" deviceName="13.593f5b 5F影城气体灭火故障" deviceID="24402" y="332" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="240" y="328" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="5F影城气灭火警1" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="127" sizeAuto="true" height="24"/>
+    <ALARMTB x="219" param="alarm" scaleX="1" scaleY="1" deviceName="13.59767c 5F影城气体灭火火警" deviceID="24403" y="354" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="239" y="350" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="5F影城气灭火警2" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="127" sizeAuto="true" height="24"/>
+  </Components>
+</Configration>

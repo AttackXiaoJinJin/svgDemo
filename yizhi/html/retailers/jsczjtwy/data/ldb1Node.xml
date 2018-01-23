@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="543">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scale="0.5" rotation="0" x="19" y="9"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="380" y="40"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="451" y="40"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="513" y="43"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="244" y="45"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="146" y="50"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="53" y="53"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="445" y="156"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="244" y="186"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="309" y="208"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="176" y="307"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="372" y="150"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="520" y="159"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="643" y="200"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="465" y="111"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="311" y="102"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="251" y="90"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="543" y="106"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="561" y="42"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="594" y="42"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="595" y="98"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="711" y="103"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="768" y="102"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="830" y="101"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="902" y="103"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="961" y="32"/>
+    <LDCQ scale="0.4" rotation="0" deviceID="" x="147" y="375"/>
+  </Components>
+</Configration>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="937">
+  <LIST>
+    <Component>
+      <QSX/>
+      <BQSX/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <VB1TULI source="assets/comp/VB1Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="-697" y="-92"/>
+    <QSX scaleX="0.35" deviceID="9981" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="317" y="82"/>
+    <TEXT rotation="0" deviceID="" widthInChars="3" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="通道四" fontWeight="normal" textAlign="right" x="313" y="109"/>
+    <BQSX scaleX="0.35" deviceID="9985" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="383" y="96"/>
+    <TEXT rotation="0" deviceID="" widthInChars="5" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="商管食堂2" fontWeight="normal" textAlign="right" x="359" y="119"/>
+    <BQSX scaleX="0.35" deviceID="9984" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="403" y="31"/>
+    <TEXT rotation="0" deviceID="" widthInChars="5" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="商管食堂1" fontWeight="normal" textAlign="right" x="384" y="14"/>
+    <QSX scaleX="0.35" deviceID="9983" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="476" y="105"/>
+    <TEXT rotation="0" deviceID="" widthInChars="7" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="6号楼梯道口-1F" fontWeight="normal" textAlign="right" x="463" y="130"/>
+    <BQSX scaleX="0.35" deviceID="9986" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="543" y="86"/>
+    <TEXT rotation="0" deviceID="" widthInChars="7" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="-1F商管客梯厅" fontWeight="normal" textAlign="right" x="523" y="68"/>
+    <BQSX scaleX="0.35" deviceID="9979" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="474" y="185"/>
+    <TEXT rotation="0" deviceID="" widthInChars="7" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="-1F百货客梯口" fontWeight="normal" textAlign="right" x="453" y="168"/>
+    <BQSX scaleX="0.35" deviceID="10005" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="525" y="265"/>
+    <TEXT rotation="0" deviceID="" widthInChars="3" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="孩子王" fontWeight="normal" textAlign="right" x="518" y="288"/>
+    <BQSX scaleX="0.35" deviceID="10004" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="489" y="304"/>
+    <TEXT rotation="0" deviceID="" widthInChars="5" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="永辉步道梯" fontWeight="normal" textAlign="right" x="473" y="328"/>
+    <QSX scaleX="0.35" deviceID="10003" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="605" y="394"/>
+    <TEXT rotation="0" deviceID="" widthInChars="5" color="0" fontFamily="Arial" scaleX="1" scale="1" scaleY="1" param="" fontSize="12" text="8号配电室1" fontWeight="normal" textAlign="right" x="592" y="376"/>
+    <VB1TULI scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="809" y="1"/>
+    <QSX scaleX="0.35" deviceID="14164" scaleY="0.35" rotation="0" popType="video" scale="0.35" isPop="true" x="680" y="410"/>
+    <TEXT scaleX="1" rotation="0" deviceID="" widthInChars="5" color="0" fontFamily="Arial" scale="1" scaleY="1" param="" fontSize="12" text="8号配电室2" fontWeight="normal" textAlign="right" x="666" y="387"/>
+  </Components>
+</Configration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="2001" Height="701">
+  <LIST>
+    <Component>
+      <PSX/>
+    </Component>
+    <Image>
+      <GZDT source="assets/comp/gzdt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <GZDT x="0" y="0" height="700" source="assets/comp/gzdt.png" width="2000" group="bg"/>
+    <PSX deviceID="2360001" source="assets/comp/PSX/bg.png" deviceName="消防水箱2" x="975" y="255" width="148" group="deviceComp" height="202" mark="XFSX"/>
+    <TEXT width="86" y="475" text="消防水箱" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="20" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="25" borderVisible="false" color="0x444444" param="" fontFamily="微软雅黑" x="1013" textAlign="center" group="commonComp" deviceID="" sizeAuto="true"/>
+  </Components>
+</Configration>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F6NODE source="mapAssets/mapImages/F6Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE y="0" rotation="0" x="0"/>
+    <KTTB scaleY="0.35" deviceName="P1排风机" y="132" scaleX="0.35" x="303" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11543"/>
+    <TEXT x="336" y="135" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P1" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P2排风机" y="160" scaleX="0.35" x="303" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11544"/>
+    <TEXT x="336" y="162" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P2" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P3排风机" y="306.95" scaleX="0.35" x="437" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11545"/>
+    <TEXT x="470" y="311" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P3" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P4排风机" y="452" scaleX="0.35" x="397" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11546"/>
+    <TEXT x="430" y="455" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P4" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P5排风机" y="484.95000000000005" scaleX="0.35" x="396.8499999999999" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11547"/>
+    <TEXT x="430" y="487" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P5" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P6排风机" y="399" scaleX="0.35" x="575" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11548"/>
+    <TEXT x="605" y="400" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P6" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P7排风机" y="426" scaleX="0.35" x="576" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11549"/>
+    <TEXT x="606" y="428" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P8排风机" y="560" scaleX="0.35" x="785" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11550"/>
+    <TEXT x="813" y="563" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P8" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P9排风机" y="587" scaleX="0.35" x="786" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11551"/>
+    <TEXT x="813" y="589" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="19" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P9" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P10排风机" y="171.95" scaleX="0.35" x="639.9" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11552"/>
+    <TEXT x="669" y="175" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P10" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P11排风机" y="201" scaleX="0.35" x="642" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11553"/>
+    <TEXT x="670" y="203" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P11" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P12排风机" y="116" scaleX="0.35" x="782" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11554"/>
+    <TEXT x="810" y="118" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P12" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P13排风机" y="145" scaleX="0.35" x="783" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11555"/>
+    <TEXT x="811" y="147" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P13" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P14排风机" y="142" scaleX="0.35" x="1038" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11556"/>
+    <TEXT x="1067" y="144" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P14" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P15排风机" y="265" scaleX="0.35" x="908.8" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11557"/>
+    <TEXT x="937" y="268" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P15" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P16排风机" y="316" scaleX="0.35" x="773" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11558"/>
+    <TEXT x="804" y="318" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P16" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P17排风机" y="344" scaleX="0.35" x="774" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11559"/>
+    <TEXT x="803" y="348" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P17" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P18排风机" y="383" scaleX="0.35" x="851" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11560"/>
+    <TEXT x="880" y="386" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P18" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P19排风机" y="348.95" scaleX="0.35" x="993.9" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11561"/>
+    <TEXT x="1024" y="351" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P19" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P20排风机" y="377" scaleX="0.35" x="995" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11562"/>
+    <TEXT x="1025" y="381" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P20" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P21排风机" y="469" scaleX="0.35" x="997" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11563"/>
+    <TEXT x="1027" y="472" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="27" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P21" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P1,A7排风机" y="70.95000000000005" scaleX="0.35" x="959" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11564"/>
+    <TEXT x="987" y="72" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P1,A7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P2,A7排风机" y="99" scaleX="0.35" x="960" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11565"/>
+    <TEXT x="987" y="101" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P2,A7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P3,A7排风机" y="529" scaleX="0.35" x="637.95" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11566"/>
+    <TEXT x="667" y="531" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P3,A7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P4,A7排风机" y="557" scaleX="0.35" x="636.9000000000001" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11569"/>
+    <TEXT x="667" y="559" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P4,A7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P1,A8排风机" y="473.95000000000005" scaleX="0.35" x="730.95" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11567"/>
+    <TEXT x="760" y="476" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P1,A8" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P2,A8排风机" y="503" scaleX="0.35" x="731.9000000000001" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11568"/>
+    <TEXT x="760" y="505" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P2,A8" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTTB scaleY="0.35" deviceName="P5,A7排风机" y="498" scaleX="0.35" x="502" width="80" height="80" isPop="true" rotation="0" mark="EAF" popType="redirect" deviceID="11570"/>
+    <TEXT x="532" y="500" height="21" widthInChars="4" fontSize="16" rotation="0" color="255" sizeAuto="true" contentBackgroundColor="16777215" width="42" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="P5,A7" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <TULI scaleY="1" y="590" scaleX="1" x="1204" rotation="0"/>
+    <TEXT x="1245" y="625" height="22" widthInChars="2" fontSize="18" rotation="0" color="0" scaleX="1" sizeAuto="true" scaleY="1" width="40" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="正常" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <TEXT x="1345" y="625" height="22" widthInChars="2" fontSize="18" rotation="0" color="0" scaleX="1" sizeAuto="true" scaleY="1" width="40" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="报警" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <KTN scaleY="0.5" y="645" scaleX="0.5" x="1245" rotation="0"/>
+    <KTA scaleY="0.5" y="645" scaleX="0.5" x="1345" rotation="0"/>
+  </Components>
+</Configration>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="536">
+  <LIST>
+    <Component/>
+    <Image>
+      <JGZMOUTDT source="assets/comp/jgzmoutdt.png"/>
+      <DZXG source="assets/comp/dzxg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <JGZMOUTDT rotation="0" scale="0.6" scaleX="0.6" scaleY="0.6" x="100" y="20"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="777" y="114"/>
+    <TEXT text="7号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="722" y="317"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="238" y="250"/>
+    <TEXT text="1号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="207" y="248"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="250" y="109"/>
+    <TEXT text="2号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="220" y="106"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="522" y="54"/>
+    <TEXT text="3号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="484" y="54"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="710" y="70"/>
+    <TEXT text="4号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="672" y="69"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="754" y="322"/>
+    <TEXT text="5号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="736" y="109"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="801" y="232"/>
+    <TEXT text="6号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="767" y="227"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="577" y="355"/>
+    <TEXT text="8号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="545" y="350"/>
+    <DZXG rotation="0" scale="0.25" scaleX="0.25" scaleY="0.25" x="466" y="335"/>
+    <TEXT text="9号" scaleY="1" textAlign="right" color="0" widthInChars="2" rotation="0" fontSize="14" fontFamily="黑体" scale="1" fontWeight="normal" scaleX="1" param="" deviceID="" x="430" y="336"/>
+  </Components>
+</Configration>

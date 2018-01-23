@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <ALARM/>
+      <OPENCLOSE/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.7" scaleX="0.7" scaleY="0.65" rotation="0" x="24" y="-22"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" fontWeight="normal" param="ewPressure" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="2" text="" paramID="5" color="65280" deviceID="14570" x="220" y="70"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="5" text="2号喷淋泵" color="0" deviceID="" x="285" y="45"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="6" text="泵压力(bars)" color="0" deviceID="" x="130" y="70"/>
+    <ALARM alarm="ALARM" param="" deviceID="" scale="0" scaleX="0" scaleY="0" x="940" y="59" rotation="0"/>
+    <ALARM alarm="ALARM" paramID="274" param="gzStatus" deviceID="14570" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="120" rotation="0"/>
+    <OPENCLOSE alarm="OPENCLOSE" paramID="1" param="runing" deviceID="14570" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="95" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="运行状态" color="0" deviceID="" widthInChars="4" x="140" y="95"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" text="故障状态" x="140" y="120"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="1号喷淋泵" color="0" deviceID="" widthInChars="5" x="160" y="45"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" fontWeight="normal" param="ewPressure" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="" paramID="5" color="65280" deviceID="14571" widthInChars="2" x="355" y="70"/>
+    <OPENCLOSE paramID="1" param="runing" alarm="OPENCLOSE" deviceID="14571" scale="0.85" scaleX="0.85" scaleY="0.85" x="345" y="95" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="泵压力(bars)" color="0" deviceID="" widthInChars="6" x="265" y="70"/>
+    <ALARM paramID="274" param="gzStatus" alarm="ALARM" deviceID="14571" scale="0.85" scaleX="0.85" scaleY="0.85" x="345" y="120" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" text="运行状态" x="280" y="95"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="故障状态" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" x="280" y="120"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="2号喷淋泵" color="0" deviceID="" widthInChars="5" x="430" y="45"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" scaleX="1" param="ewPressure" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="2" paramID="5" color="65280" deviceID="14572" text="" x="490" y="70"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" text="泵压力(bars)" x="400" y="70"/>
+    <OPENCLOSE alarm="OPENCLOSE" param="runing" paramID="1" deviceID="14572" scale="0.85" scaleX="0.85" scaleY="0.85" x="480" y="95" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="运行状态" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" x="415" y="95"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="4" text="故障状态" color="0" deviceID="" x="415" y="115"/>
+    <ALARM alarm="ALARM" param="gzStatus" paramID="274" deviceID="14572" scale="0.85" scaleX="0.85" scaleY="0.85" x="480" y="120" rotation="0"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" scaleX="1" param="ewPressure" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="2" paramID="5" color="65280" deviceID="14573" text="" x="220" y="175"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="7" color="0" deviceID="" text="1号加密喷淋泵" x="145" y="150"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="泵压力(bars)" color="0" deviceID="" widthInChars="6" x="130" y="175"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" text="运行状态" x="140" y="200"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="故障状态" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" x="140" y="225"/>
+    <OPENCLOSE paramID="1" param="runing" alarm="OPENCLOSE" deviceID="14573" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="200" rotation="0"/>
+    <ALARM paramID="274" param="gzStatus" alarm="ALARM" deviceID="14573" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="225" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="2号加密喷淋泵" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="7" color="0" deviceID="" x="273" y="148"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" scaleX="1" text="" param="ewPressure" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="2" paramID="5" color="65280" deviceID="14574" x="355" y="175"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" text="泵压力(bars)" x="265" y="175"/>
+    <OPENCLOSE alarm="OPENCLOSE" param="runing" paramID="1" deviceID="14574" scale="0.85" scaleX="0.85" scaleY="0.85" x="345" y="200" rotation="0"/>
+    <ALARM alarm="ALARM" param="gzStatus" paramID="274" deviceID="14574" scale="0.85" scaleX="0.85" scaleY="0.85" x="345" y="225" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="4" text="故障状态" color="0" deviceID="" x="275" y="225"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="运行状态" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" x="275" y="200"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" fontWeight="normal" param="ewPressure" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="2" text="" paramID="5" color="65280" deviceID="14575" x="490" y="175"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" text="1号消火栓泵" x="419" y="150"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="泵压力(bars)" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" x="400" y="175"/>
+    <OPENCLOSE paramID="1" param="runing" alarm="OPENCLOSE" deviceID="14575" scale="0.85" scaleX="0.85" scaleY="0.85" x="480" y="200" rotation="0"/>
+    <ALARM paramID="274" param="gzStatus" alarm="ALARM" deviceID="14575" scale="0.85" scaleX="0.85" scaleY="0.85" x="480" y="225" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="4" text="运行状态" color="0" deviceID="" x="410" y="200"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="故障状态" color="0" deviceID="" widthInChars="4" x="410" y="225"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" text="2号消火栓泵" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" x="153" y="247"/>
+    <LABEL fontFamily="digifaw" fontSize="14" scale="1" fontWeight="normal" param="ewPressure" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="" paramID="5" color="65280" deviceID="14576" widthInChars="2" x="220" y="270"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="6" color="0" deviceID="" text="泵压力(bars)" x="130" y="270"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" scaleX="1" param="" rotation="0" fontWeight="normal" textAlign="right" scaleY="1" widthInChars="4" color="0" deviceID="" text="运行状态" x="140" y="295"/>
+    <OPENCLOSE alarm="OPENCLOSE" param="runing" paramID="1" deviceID="14576" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="295" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" widthInChars="4" text="故障状态" color="0" deviceID="" x="140" y="320"/>
+    <ALARM alarm="ALARM" param="gzStatus" paramID="274" deviceID="14576" scale="0.85" scaleX="0.85" scaleY="0.85" x="210" y="320" rotation="0"/>
+    <TEXT fontFamily="宋体" fontSize="14" scale="1" fontWeight="normal" param="" rotation="0" scaleX="1" textAlign="right" scaleY="1" text="消防水箱高液位" color="0" deviceID="" widthInChars="7" x="316" y="270"/>
+    <ALARM paramID="15" param="highLevel" alarm="ALARM" deviceID="14577" scale="0.85" scaleX="0.85" scaleY="0.85" x="336" y="293" rotation="0"/>
+  </Components>
+</Configration>

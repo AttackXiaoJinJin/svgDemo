@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <HANDTZ/>
+      <ALARMBPD/>
+      <OPENCLOSE/>
+    </Component>
+    <Image>
+      <BPDP1 source="assets/comp/BPDP1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <BPDP1 scale="0.6" scaleX="0.6" scaleY="0.5" x="130" y="40" rotation="0"/>
+    <BPDP1 scale="0.6" scaleX="0.6" scaleY="0.5" x="350" y="40" rotation="0"/>
+    <BPDP1 scale="0.6" scaleX="0.6" scaleY="0.5" x="570" y="40" rotation="0"/>
+    <TEXT widthInChars="7" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="1#变压器温控仪" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="170" y="70" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="7" fontFamily="Arial" color="0" param="" text="2#变压器温控仪" scale="1" scaleX="1" scaleY="1" x="390" y="70" rotation="0"/>
+    <TEXT text="3#变压器温控仪" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="7" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="610" y="70" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="6" fontFamily="Arial" color="0" param="" text="A相温度(℃)" scale="1" scaleX="1" scaleY="1" x="145" y="95" rotation="0"/>
+    <TEXT text="B相温度(℃)" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="6" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="145" y="125" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="C相温度(℃)" fontFamily="Arial" color="0" param="" widthInChars="6" scale="1" scaleX="1" scaleY="1" x="145" y="155" rotation="0"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="跳闸状态" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="145" y="185" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" text="故障告警" scale="1" scaleX="1" scaleY="1" x="145" y="215" rotation="0"/>
+    <TEXT text="超温告警" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="145" y="245" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="风机状态" fontFamily="Arial" color="0" param="" widthInChars="4" scale="1" scaleX="1" scaleY="1" x="145" y="275" rotation="0"/>
+    <LABEL widthInChars="3" textAlign="right" paramID="275" deviceID="14367" fontWeight="normal" fontSize="12" text="" fontFamily="digifaw" color="65280" param="cwAlarm" scale="1" scaleX="1" scaleY="1" x="255" y="95" rotation="0"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" fontSize="12" widthInChars="3" fontFamily="digifaw" color="65280" param="" text="" scale="1" scaleX="1" scaleY="1" x="255" y="125" rotation="0"/>
+    <LABEL text="" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" widthInChars="3" fontFamily="digifaw" color="65280" param="" scale="1" scaleX="1" scaleY="1" x="255" y="155" rotation="0"/>
+    <HANDTZ deviceID="" alarm="HANDTZ" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="250" y="185" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="265" y="215" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="265" y="245" rotation="0"/>
+    <OPENCLOSE deviceID="" alarm="OPENCLOSE" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="250" y="275" rotation="0"/>
+    <TEXT text="A相温度(℃)" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="6" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="365" y="95" rotation="0"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" fontSize="12" widthInChars="3" fontFamily="digifaw" color="65280" param="" text="" scale="1" scaleX="1" scaleY="1" x="475" y="95" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="A相温度(℃)" fontFamily="Arial" color="0" param="" widthInChars="6" scale="1" scaleX="1" scaleY="1" x="585" y="95" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="B相温度(℃)" fontFamily="Arial" color="0" param="" widthInChars="6" scale="1" scaleX="1" scaleY="1" x="365" y="125" rotation="0"/>
+    <TEXT widthInChars="6" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="B相温度(℃)" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="585" y="125" rotation="0"/>
+    <TEXT widthInChars="6" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="C相温度(℃)" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="365" y="155" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="6" fontFamily="Arial" color="0" param="" text="C相温度(℃)" scale="1" scaleX="1" scaleY="1" x="585" y="155" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" text="跳闸状态" scale="1" scaleX="1" scaleY="1" x="365" y="185" rotation="0"/>
+    <TEXT text="跳闸状态" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="585" y="185" rotation="0"/>
+    <TEXT text="故障告警" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="365" y="215" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="故障告警" fontFamily="Arial" color="0" param="" widthInChars="4" scale="1" scaleX="1" scaleY="1" x="585" y="215" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="超温告警" fontFamily="Arial" color="0" param="" widthInChars="4" scale="1" scaleX="1" scaleY="1" x="365" y="245" rotation="0"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="超温告警" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="585" y="245" rotation="0"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="风机状态" fontFamily="Arial" color="0" param="" scale="1" scaleX="1" scaleY="1" x="365" y="275" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" fontSize="14" widthInChars="4" fontFamily="Arial" color="0" param="" text="风机状态" scale="1" scaleX="1" scaleY="1" x="585" y="275" rotation="0"/>
+    <LABEL text="" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" widthInChars="3" fontFamily="digifaw" color="65280" param="" scale="1" scaleX="1" scaleY="1" x="695" y="95" rotation="0"/>
+    <LABEL text="" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" widthInChars="3" fontFamily="digifaw" color="65280" param="" scale="1" scaleX="1" scaleY="1" x="475" y="125" rotation="0"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" fontSize="12" text="" fontFamily="digifaw" color="65280" param="" widthInChars="3" scale="1" scaleX="1" scaleY="1" x="475" y="155" rotation="0"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" fontSize="12" text="" fontFamily="digifaw" color="65280" param="" widthInChars="3" scale="1" scaleX="1" scaleY="1" x="695" y="125" rotation="0"/>
+    <LABEL widthInChars="3" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" text="" fontFamily="digifaw" color="65280" param="" scale="1" scaleX="1" scaleY="1" x="695" y="155" rotation="0"/>
+    <HANDTZ deviceID="" alarm="HANDTZ" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="470" y="185" rotation="0"/>
+    <HANDTZ deviceID="" alarm="HANDTZ" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="690" y="185" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="485" y="215" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="705" y="215" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="485" y="245" rotation="0"/>
+    <ALARMBPD deviceID="" alarm="ALARMBPD" param="" scale="1.5" scaleX="1.5" scaleY="1.5" x="705" y="245" rotation="0"/>
+    <OPENCLOSE deviceID="" alarm="OPENCLOSE" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="470" y="275" rotation="0"/>
+    <OPENCLOSE deviceID="" alarm="OPENCLOSE" param="" scale="0.9" scaleX="0.9" scaleY="0.9" x="690" y="275" rotation="0"/>
+  </Components>
+</Configration>

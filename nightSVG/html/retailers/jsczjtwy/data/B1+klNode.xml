@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="715">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <BJN source="assets/comp/TULI/BJN.png"/>
+      <BJA source="assets/comp/TULI/BJA.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE width="1434" group="map" height="714" source="mapAssets/mapImages/B1Node.png" x="0" y="0"/>
+    <TEXT text="客流摄像头正常" group="commonComp" color="0" contentBackgroundColor="16777215" fontWeight="normal" sizeAuto="true" fontFamily="微软雅黑" param="" x="1125" y="595" source="assets/comp/TEXTINPUT/label.png" textAlign="center" deviceID="" fontSize="16" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" height="19.9" borderVisible="false" width="119.9"/>
+    <TEXT text="客流摄像头报警" group="commonComp" color="0" contentBackgroundColor="16777215" fontWeight="normal" sizeAuto="true" fontFamily="微软雅黑" param="" x="1125" y="625" source="assets/comp/TEXTINPUT/label.png" textAlign="center" deviceID="" fontSize="16" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" height="19.9" borderVisible="false" width="119.9"/>
+    <ALARMTB param="alarm" alarm="ALARMTB" group="commonComp" deviceID="1450049" paramID="2" x="548.25" y="234" mark="KLTCQ" width="16" height="16" source="assets/comp/ALARMTB/alarm/0/1.png" deviceName="B1F夹层KT-6电梯厅"/>
+    <TEXT text="B1F夹层19号电梯厅" group="commonComp" color="255" contentBackgroundColor="16777215" fontWeight="normal" sizeAuto="true" fontFamily="微软雅黑" param="" x="502" y="210" scaleY="0.9" source="assets/comp/TEXTINPUT/label.png" textAlign="center" deviceID="" fontSize="12" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" height="17" borderVisible="false" width="117.8"/>
+    <LABEL text="0101" group="commonComp" color="3407616" contentBackgroundColor="000000" fontWeight="normal" sizeAuto="false" scaleX="1" fontFamily="digifaw" param="personNum" x="535" y="182" paramID="121" source="assets/comp/TEXTINPUT/text.png" textAlign="right" deviceName="B1F夹层KT-6电梯厅" mark="KLTCQ" deviceID="1450049" fontSize="12" borderColor="999999" widthInChars="3" contentBackgroundAlpha="1" borderVisible="true" rotation="0"/>
+    <BJN width="16" group="tuli" height="16" source="assets/comp/TULI/BJN.png" x="1100" y="600"/>
+    <BJA width="16" group="tuli" height="16" source="assets/comp/TULI/BJA.png" x="1100" y="630"/>
+    <TEXT text="总进场人数" group="commonComp" color="0" contentBackgroundColor="16777215" fontWeight="normal" sizeAuto="true" fontFamily="微软雅黑" param="" x="1100" y="20" source="assets/comp/TEXTINPUT/label.png" textAlign="center" deviceID="" fontSize="16" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" height="19.9" borderVisible="false" width="86.2"/>
+    <LABEL text="0101" group="commonComp" color="3407616" contentBackgroundColor="000000" fontWeight="normal" sizeAuto="false" fontFamily="digifaw" param="personNum" x="1200" y="20" paramID="121" source="assets/comp/TEXTINPUT/text.png" textAlign="right" deviceName="客流总数" mark="KLTCQ" deviceID="1450000" fontSize="12" borderColor="999999" widthInChars="4" contentBackgroundAlpha="1" borderVisible="true" rotation="0"/>
+    <LABEL text="0101" group="commonComp" color="3407616" contentBackgroundColor="000000" fontWeight="normal" sizeAuto="false" fontFamily="digifaw" param="curPersonNum" x="1200" y="50" paramID="584" source="assets/comp/TEXTINPUT/text.png" textAlign="right" deviceName="客流总数" mark="KLTCQ" deviceID="1450000" fontSize="12" borderColor="999999" widthInChars="4" contentBackgroundAlpha="1" borderVisible="true" rotation="0"/>
+    <TEXT text="总滞留人数" group="commonComp" color="0" contentBackgroundColor="16777215" fontWeight="normal" sizeAuto="true" fontFamily="微软雅黑" param="" x="1100" y="50" source="assets/comp/TEXTINPUT/label.png" textAlign="center" deviceID="" fontSize="16" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" height="19.9" borderVisible="false" width="86.2"/>
+    <TULI width="225" group="tuli" height="124" source="assets/comp/TULI/TULI.png" x="1060" y="560"/>
+  </Components>
+</Configration>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+      <LCF3 source="assets/comp/LCF3.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <BJN source="assets/comp/TULI/BJN.png"/>
+      <BJA source="assets/comp/TULI/BJA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE group="map" y="0" width="1434" height="714" source="mapAssets/mapImages/F3Node.png" x="0"/>
+    <ALARMTB deviceName="DDC_15_3F_1" param="onLine" alarm="ALARMTB" x="168" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="200" mark="DDC" group="commonComp" deviceID="3110013" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="138" borderColor="0xffffff" fontFamily="微软雅黑" y="214" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_15_3F_1" widthInChars="4" deviceID=""/>
+    <LCF3 group="bg" y="10" width="110" height="92" source="assets/comp/LCF3.png" x="10"/>
+    <TULI group="tuli" y="500" width="225" height="124" source="assets/comp/TULI/TULI.png" x="1060"/>
+    <BJN group="tuli" y="570" width="16" height="16" source="assets/comp/TULI/BJN.png" x="1115"/>
+    <BJA group="tuli" y="570" width="16" height="16" source="assets/comp/TULI/BJA.png" x="1215"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="1100" borderColor="0xffffff" contentBackgroundAlpha="0" y="535" sizeAuto="true" width="40" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="在线" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="1200" borderColor="0xffffff" contentBackgroundAlpha="0" y="535" sizeAuto="true" width="40" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="离线" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <ALARMTB deviceName="DDC_15_3F_2" param="onLine" alarm="ALARMTB" x="349" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="191" mark="DDC" group="commonComp" deviceID="3110014" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="315" borderColor="0xffffff" fontFamily="微软雅黑" y="207" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_15_3F_2" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_15_3F_3" param="onLine" alarm="ALARMTB" x="633" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="189" mark="DDC" group="commonComp" deviceID="3110015" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="608" borderColor="0xffffff" fontFamily="微软雅黑" y="203" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_15_3F_3" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_15_3F_4" param="onLine" alarm="ALARMTB" x="322" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="379" mark="DDC" group="commonComp" deviceID="3110016" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="278" borderColor="0xffffff" fontFamily="微软雅黑" y="396" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_15_3F_4" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_15_3F_5" param="onLine" alarm="ALARMTB" x="806" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="367" mark="DDC" group="commonComp" deviceID="3110017" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="773" borderColor="0xffffff" fontFamily="微软雅黑" y="384" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_15_3F_5" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_14_3F_1" param="onLine" alarm="ALARMTB" x="1005" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="365" mark="DDC" group="commonComp" deviceID="3110020" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="947" borderColor="0xffffff" fontFamily="微软雅黑" y="386" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_14_3F_1" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_14_3F_2" param="onLine" alarm="ALARMTB" x="1056" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="364" mark="DDC" group="commonComp" deviceID="3110021" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="1046" borderColor="0xffffff" fontFamily="微软雅黑" y="385" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_14_3F_2" widthInChars="4" deviceID=""/>
+    <ALARMTB deviceName="DDC_14_3F_3" param="onLine" alarm="ALARMTB" x="1172" paramID="592" source="assets/comp/ALARMTB/alarm/0/1.png" y="368" mark="DDC" group="commonComp" deviceID="3110022" width="16" height="16"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="0.7" param="" borderVisible="false" x="1153" borderColor="0xffffff" fontFamily="微软雅黑" y="386" sizeAuto="true" contentBackgroundColor="16777215" group="commonComp" width="89" height="19" color="255" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="DDC_14_3F_3" widthInChars="4" deviceID=""/>
+  </Components>
+</Configration>

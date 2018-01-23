@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F5NODE source="assets/comp/F5Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE rotation="0" scale="0.5" x="0" y="0"/>
+    <KTTB deviceID="" scale="0.5" rotation="0" x="662" y="433"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-8" rotation="0" color="3407718" x="657" y="414"/>
+    <KTTB deviceID="21199" scale="0.5" rotation="0" x="679" y="95"/>
+    <KTTB deviceID="21162" scale="0.5" rotation="0" x="679" y="131"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-5" rotation="0" color="3407718" x="634" y="103"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-6" rotation="0" color="3407718" x="633" y="139"/>
+    <KTTB deviceID="21155" scale="0.5" rotation="0" x="726" y="2"/>
+    <KTTB deviceID="21157" scale="0.5" rotation="0" x="726" y="37"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-3" rotation="0" color="3407718" x="676" y="8"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-4" rotation="0" color="3407718" x="676" y="44"/>
+    <KTTB deviceID="21158" scale="0.5" rotation="0" x="846" y="188"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-2" rotation="0" color="3407718" x="843" y="170"/>
+    <KTTB deviceID="21161" scale="0.5" rotation="0" x="766" y="190"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KZ-5-1" rotation="0" color="3407718" x="761" y="173"/>
+  </Components>
+</Configration>

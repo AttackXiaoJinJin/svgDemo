@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="715">
+  <LIST>
+    <Component/>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE y="0" source="mapAssets/mapImages/F5Node.png" x="0" height="714" width="1434" group="map"/>
+  </Components>
+</Configration>

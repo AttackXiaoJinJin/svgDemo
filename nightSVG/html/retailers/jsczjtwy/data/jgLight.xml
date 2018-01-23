@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1043" Height="546">
+  <LIST>
+    <Component>
+      <LIGHT/>
+      <DCD/>
+      <DCDG/>
+      <DHD/>
+    </Component>
+    <Image>
+      <XGOUT source="assets/comp/xgout.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XGOUT scale="0.55" x="0" y="9" rotation="0"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="450" y="362"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="706" y="101"/>
+    <DCDG scale="1" deviceID="24720" rotation="0" x="541" y="339"/>
+    <DHD scale="1" deviceID="24716" rotation="0" x="447" y="302"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="绿组灯" rotation="0" param="" widthInChars="3" color="3407718" x="400" y="305"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="深绿灯" rotation="0" param="" widthInChars="3" color="65280" x="489" y="360"/>
+    <DCDG scale="1" deviceID="24719" rotation="0" x="540" y="312"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="Arial" deviceID="" text="紫组灯" rotation="0" param="" widthInChars="3" color="16711935" x="489" y="335"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="灰组灯" rotation="0" param="" widthInChars="3" color="16777215" x="489" y="305"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="蓝组灯" rotation="0" param="" widthInChars="3" color="255" x="400" y="360"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="646" y="304"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="61" y="443"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="223" y="252"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="82" y="274"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="149" y="356"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="812" y="120"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="207" y="146"/>
+    <DCDG scale="1" deviceID="24720" rotation="0" x="220" y="121"/>
+    <DCDG scale="1" deviceID="24719" rotation="10" x="177" y="230"/>
+    <DCDG scale="1" deviceID="24719" rotation="-60" x="121" y="182"/>
+    <DCDG scale="1" deviceID="24719" rotation="100" x="69" y="377"/>
+    <DHD scale="1" deviceID="24721" rotation="0" x="541" y="357"/>
+    <DHD scale="1" deviceID="24716" rotation="90" x="155" y="35"/>
+    <DHD scale="1" deviceID="24721" rotation="-90" x="921" y="72"/>
+    <DHD scale="1" deviceID="24716" rotation="0" x="60" y="336"/>
+    <DHD scale="1" deviceID="24721" rotation="20" x="155" y="455"/>
+    <DCDG scale="1" deviceID="24719" rotation="0" x="749" y="110"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="454" y="334"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="852" y="100"/>
+    <DCDG scale="1" deviceID="24720" rotation="90" x="965" y="83"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="576" y="23"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="红组灯" rotation="0" param="" widthInChars="3" color="16711680" x="400" y="335"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="187" y="362"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="673" y="163"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="黄组灯" rotation="0" param="" widthInChars="3" color="16776960" x="592" y="305"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="金组灯" rotation="0" param="" widthInChars="3" color="16750848" x="592" y="335"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="647" y="333"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="647" y="360"/>
+    <TEXT textAlign="right" scale="1" fontWeight="normal" fontSize="14" fontFamily="黑体" deviceID="" text="粉组灯" rotation="0" param="" widthInChars="3" color="16724889" x="592" y="360"/>
+    <DCDG scale="1" deviceID="24720" rotation="100" x="188" y="409"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="103" y="453"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="117" y="349"/>
+    <DCDG scale="1" deviceID="24720" rotation="120" x="300" y="187"/>
+    <DCDG scale="1" deviceID="24720" rotation="10" x="120" y="316"/>
+    <DHD scale="1" deviceID="24716" rotation="0" x="101" y="225"/>
+    <DHD scale="1" deviceID="24721" rotation="0" x="182" y="324"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="207" y="294"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="137" y="226"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="70" y="306"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="104" y="200"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="284" y="151"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="244" y="145"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="167" y="147"/>
+    <DHD scale="1" deviceID="24716" rotation="0" x="235" y="223"/>
+    <DHD scale="1" deviceID="24721" rotation="0" x="141" y="115"/>
+    <DCDG scale="1" deviceID="24719" rotation="0" x="228" y="36"/>
+    <DHD scale="1" deviceID="24721" rotation="90" x="363" y="130"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="353" y="53"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="351" y="102"/>
+    <DCD scale="1" deviceID="24717" rotation="0" x="186" y="32"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="182" y="101"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="307" y="36"/>
+    <DCDG scale="1" deviceID="24719" rotation="0" x="476" y="30"/>
+    <DCDG scale="1" deviceID="24720" rotation="0" x="473" y="189"/>
+    <DCD scale="1" deviceID="24722" rotation="0" x="401" y="34"/>
+    <DCD scale="1" deviceID="24723" rotation="0" x="411" y="191"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="584" y="193"/>
+    <DHD scale="1" deviceID="24716" rotation="90" x="402" y="196"/>
+    <DHD scale="1" deviceID="24716" rotation="90" x="639" y="27"/>
+    <LIGHT scale="0.3" deviceID="24718" rotation="0" x="637" y="116"/>
+    <DHD scale="1" deviceID="24721" rotation="-90" x="649" y="231"/>
+    <DCD scale="1" deviceID="24724" rotation="0" x="913" y="117"/>
+  </Components>
+</Configration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component>
+      <DDC/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <DDC deviceID="76" isPop="true" rotation="0" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image1091" popType="list" scale="1" x="56" y="100"/>
+    <TEXT text="12" fontSize="10" deviceID="76" fontFamily="Arial" fontWeight="normal" scale="1" rotation="0" color="65280" param="deviceName" textAlign="right" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput1093" widthInChars="12" x="66" y="28"/>
+  </Components>
+</Configration>

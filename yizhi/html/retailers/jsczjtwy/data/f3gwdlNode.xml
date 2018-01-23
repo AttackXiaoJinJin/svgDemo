@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F3NODE source="assets/comp/F3Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE scale="0.45" x="40" y="10" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="114" y="278" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="81" y="214" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="111" y="205" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="360" y="262" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="374" y="236" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="303" y="421" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="315" y="391" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="532" y="240" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="708" y="426" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="712" y="384" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="741" y="383" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="893" y="257" rotation="0"/>
+  </Components>
+</Configration>

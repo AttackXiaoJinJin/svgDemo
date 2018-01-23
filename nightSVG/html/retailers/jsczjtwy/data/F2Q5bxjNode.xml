@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <BLIGHT/>
+      <ADE/>
+      <G1G2/>
+      <HLIGHT/>
+      <DE/>
+      <G2/>
+      <BQSX/>
+    </Component>
+    <Image>
+      <GGZMSY2F5 source="assets/comp/ggzmsy2f5.png"/>
+      <JXK source="assets/comp/jxk.png"/>
+      <GGZMSY2F source="assets/comp/ggzmsy2f.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <GGZMSY2F5 scaleX="1" scaleY="1" rotation="0" scale="1" x="14" y="8"/>
+    <JXK scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="594" y="8"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="5" fontWeight="normal" fontSize="14" text="A 应急照明" x="690" y="65"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="7" fontWeight="normal" fontSize="14" text="D 走廊照明50%" x="686" y="155"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="7" fontWeight="normal" fontSize="14" text="E 走廊照明50%" x="688" y="200"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="6" fontWeight="normal" fontSize="14" text="B 小走道照明" x="690" y="110"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="5" fontWeight="normal" fontSize="14" text="H 导向标识" x="965" y="195"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="6" fontWeight="normal" fontSize="14" text="G1 T5装饰灯" x="830" y="152"/>
+    <BLIGHT deviceID="6857" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="605" y="100"/>
+    <ADE deviceID="6869" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="605" y="145"/>
+    <ADE deviceID="6875" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="605" y="190"/>
+    <G1G2 deviceID="6881" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="780" y="145"/>
+    <HLIGHT deviceID="6841" scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" popType="list" isPop="true" x="920" y="190"/>
+    <ADE deviceID="6869" scaleX="1" scaleY="1" rotation="145" scale="1" popType="list" isPop="true" x="195" y="142"/>
+    <ADE deviceID="6875" scaleX="1" scaleY="1" rotation="25" scale="1" popType="list" isPop="true" x="327" y="58"/>
+    <ADE deviceID="6875" scaleX="1" scaleY="1" rotation="10" scale="1" popType="list" isPop="true" x="140" y="418"/>
+    <HLIGHT deviceID="6841" scaleX="0.7" scaleY="0.7" rotation="-90" scale="0.7" popType="list" isPop="true" x="202" y="455"/>
+    <ADE deviceID="6875" scaleX="1" scaleY="1" rotation="125" scale="1" popType="list" isPop="true" x="484" y="298"/>
+    <ADE deviceID="6875" scaleX="1" scaleY="1" rotation="115" scale="1" popType="list" isPop="true" x="111" y="197"/>
+    <ADE deviceID="6869" scaleX="1" scaleY="1" rotation="145" scale="1" popType="list" isPop="true" x="426" y="387"/>
+    <HLIGHT deviceID="6841" scaleX="0.7" scaleY="0.7" rotation="180" scale="0.7" popType="list" isPop="true" x="467" y="307"/>
+    <BLIGHT deviceID="6857" scaleX="1" scaleY="1" rotation="45" scale="1" popType="list" isPop="true" x="360" y="420"/>
+    <G1G2 deviceID="6881" scaleX="1" scaleY="1" rotation="155" scale="1" popType="list" isPop="true" x="236" y="142"/>
+    <G1G2 deviceID="6881" scaleX="1" scaleY="1" rotation="85" scale="1" popType="list" isPop="true" x="456" y="172"/>
+    <G1G2 deviceID="6881" scaleX="1" scaleY="1" rotation="65" scale="1" popType="list" isPop="true" x="84" y="323"/>
+    <G1G2 deviceID="6881" scaleX="1" scaleY="1" rotation="-25" scale="1" popType="list" isPop="true" x="279" y="390"/>
+    <HLIGHT deviceID="6841" scaleX="0.7" scaleY="0.7" rotation="90" scale="0.7" popType="list" isPop="true" x="321" y="83"/>
+    <HLIGHT deviceID="6841" scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" popType="list" isPop="true" x="44" y="250"/>
+    <ADE deviceID="6869" scaleX="1" scaleY="1" rotation="40" scale="1" popType="list" isPop="true" x="79" y="369"/>
+    <ADE deviceID="6869" scaleX="1" scaleY="1" rotation="55" scale="1" popType="list" isPop="true" x="427" y="97"/>
+    <GGZMSY2F scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="800" y="8"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="0" fontFamily="Arial" param="" scale="1" scaleY="1" widthInChars="1" fontWeight="bold" fontSize="20" text="5" x="956" y="80"/>
+    <DE deviceID="6851" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="605" y="55"/>
+    <DE deviceID="6851" scaleX="1" scaleY="1" rotation="-10" scale="1" popType="list" isPop="true" x="193" y="84"/>
+    <DE deviceID="6851" scaleX="1" scaleY="1" rotation="-10" scale="1" popType="list" isPop="true" x="235" y="423"/>
+    <DE deviceID="6851" scaleX="1" scaleY="1" rotation="90" scale="1" popType="list" isPop="true" x="74" y="274"/>
+    <DE deviceID="6851" scaleX="1" scaleY="1" rotation="90" scale="1" popType="list" isPop="true" x="491" y="192"/>
+    <G2 deviceID="13887" scaleX="1" scaleY="1" rotation="0" scale="1" popType="list" isPop="true" x="782" y="190"/>
+    <TEXT scaleX="1" deviceID="" rotation="0" textAlign="right" color="16777215" fontFamily="黑体" param="" scale="1" scaleY="1" widthInChars="6" fontWeight="normal" fontSize="14" text="G2 LED装饰灯" x="838" y="198"/>
+    <G2 deviceID="13887" scaleX="1" scaleY="1" rotation="30" scale="1" popType="list" isPop="true" x="377" y="103"/>
+    <G2 deviceID="13887" scaleX="1" scaleY="1" rotation="140" scale="1" popType="list" isPop="true" x="153" y="197"/>
+    <G2 deviceID="13887" scaleX="1" scaleY="1" rotation="30" scale="1" popType="list" isPop="true" x="133" y="389"/>
+    <G2 deviceID="13887" scaleX="1" scaleY="1" rotation="-45" scale="1" popType="list" isPop="true" x="351" y="350"/>
+    <BQSX deviceID="7299" popType="video" isPop="true" scale="0.35" scaleX="0.35" scaleY="0.35" x="622" y="22" rotation="0"/>
+  </Components>
+</Configration>

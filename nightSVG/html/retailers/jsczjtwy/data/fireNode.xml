@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="979.6711409395973" Height="522">
+  <LIST>
+    <Component>
+      <YCQ/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+      <XFFQ1F source="assets/comp/XFFQ1F.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE rotation="0" scale="0.45" x="20" y="4"/>
+    <XFFQ1F rotation="0" scale="0.45" x="20" y="4"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="874" y="137"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="824" y="117"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="778" y="91"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="742" y="179"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="806" y="168"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="855" y="187"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="777" y="221"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="758" y="271"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="834" y="242"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="810" y="294"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="741" y="327"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="666" y="298"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="788" y="347"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="759" y="410"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="706" y="386"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="675" y="455"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="723" y="475"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="642" y="383"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="621" y="431"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="568" y="411"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="589" y="361"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="544" y="346"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="542" y="297"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="698" y="39"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="708" y="133"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="553" y="256"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="435" y="255"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="497" y="256"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="359" y="208"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="346" y="136"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="356" y="42"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="151" y="106"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="151" y="62"/>
+    <YCQ scale="0.4" rotation="0" deviceID="324" x="107" y="60"/>
+    <YCQ scale="0.4" rotation="0" deviceID="189" x="65" y="60"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="56" y="108"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="51" y="151"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="47" y="193"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="43" y="232"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="92" y="244"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="99" y="198"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="104" y="152"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="146" y="157"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="107" y="110"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="186" y="175"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="218" y="132"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="277" y="143"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="281" y="207"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="224" y="200"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="285" y="252"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="359" y="260"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="392" y="298"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="286" y="293"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="495" y="343"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="365" y="365"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="437" y="375"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="496" y="394"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="286" y="376"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="287" y="333"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="214" y="324"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="165" y="251"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="149" y="321"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="147" y="368"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="36" y="282"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="218" y="376"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="80" y="284"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="56" y="359"/>
+    <YCQ scale="0.4" rotation="0" deviceID="" x="107" y="333"/>
+  </Components>
+</Configration>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <BURGLAR/>
+      <GLASS/>
+      <HANDBTN/>
+      <BFSTATE/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <BLPSA source="assets/comp/TULI/BLPSA.png"/>
+      <BLPSN source="assets/comp/TULI/BLPSN.png"/>
+      <SBN source="assets/comp/TULI/SBN.png"/>
+      <SBA source="assets/comp/TULI/SBA.png"/>
+      <ALARMR source="assets/comp/alarm_r.png"/>
+      <ALARMG source="assets/comp/alarm_g.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE x="0" y="0" rotation="0" scaleX="1" scaleY="1"/>
+    <BURGLAR isToolTip="true" x="159" deviceID="360" scaleX="0.25" isPop="true" rotation="0" y="431" scaleY="0.25" popType="video" width="80" height="80"/>
+    <GLASS isToolTip="true" x="408" deviceID="356" scaleX="0.25" isPop="true" rotation="0" y="623" scaleY="0.25" mark="HWBJ" deviceName="玻璃破碎1" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="71" scaleX="1" y="454" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层10号通道外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <TULI x="1225" y="601" rotation="0" scaleX="0.9" scaleY="0.9"/>
+    <TEXT fontFamily="微软雅黑" x="1230" scaleX="1" y="644" param="" widthInChars="4" color="0" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="正常" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" width="34" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="1228" scaleX="1" y="672" param="" widthInChars="4" color="0" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="报警" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" width="34" height="24"/>
+    <BLPSA x="1315" y="670" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <BLPSN x="1315" y="640" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <SBN x="1380" y="640" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <SBA x="1380" y="670" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <ALARMR x="1265" y="670" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <TEXT fontFamily="微软雅黑" x="1260" scaleX="1" y="620" param="" widthInChars="4" color="0" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="红外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" width="34" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="1310" scaleX="1" y="620" param="" widthInChars="4" color="0" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="玻璃" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" width="34" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="1375" scaleX="1" y="620" param="" widthInChars="4" color="0" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="手按" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" width="34" height="24"/>
+    <ALARMG x="1265" y="640" rotation="0" scaleX="0.35" scaleY="0.35"/>
+    <BURGLAR isToolTip="true" x="308" deviceID="364" scaleX="0.25" isPop="true" rotation="0" y="570" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="226" scaleX="1" y="596" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道中" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="238" deviceID="361" scaleX="0.25" isPop="true" rotation="0" y="434" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="211" scaleX="1" y="455" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层10号通道内" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="148" scaleX="1" y="566" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="268" deviceID="362" scaleX="0.25" isPop="true" rotation="0" y="570" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="288" deviceID="363" scaleX="0.25" isPop="true" rotation="0" y="570" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="331" scaleX="1" y="567" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <GLASS isToolTip="true" x="1054" deviceID="389" scaleX="0.25" isPop="true" rotation="0" y="604" scaleY="0.25" popType="video" width="80" height="80"/>
+    <GLASS isToolTip="true" x="1028" deviceID="390" scaleX="0.25" isPop="true" rotation="0" y="629" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="228" deviceID="367" scaleX="0.25" isPop="true" rotation="0" y="221" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="60" scaleX="1" y="242" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层11号通道外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="155" deviceID="366" scaleX="0.25" isPop="true" rotation="0" y="221" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="216" scaleX="1" y="240" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层11号通道内" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <HANDBTN isToolTip="true" x="1086" deviceID="382" scaleX="0.25" isPop="true" rotation="0" y="174" scaleY="0.25" popType="video" width="80" height="80"/>
+    <HANDBTN isToolTip="true" x="249" deviceID="368" scaleX="0.25" isPop="true" rotation="0" y="194" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="500" deviceID="369" scaleX="0.25" isPop="true" rotation="0" y="91" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="716" scaleX="1" y="76" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层05通道外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="102" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="307" scaleX="1" y="186" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层12号通道内西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="134" height="24"/>
+    <BURGLAR isToolTip="true" x="442" deviceID="370" scaleX="0.25" isPop="true" rotation="0" y="190" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="499" deviceID="371" scaleX="0.25" isPop="true" rotation="0" y="191" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="523" scaleX="1" y="192" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层12号通道内东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="134" height="24"/>
+    <BURGLAR isToolTip="true" x="497" deviceID="373" scaleX="0.25" isPop="true" rotation="0" y="280" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="588" scaleX="1" y="128" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层13号通道" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="102" height="24"/>
+    <BURGLAR isToolTip="true" x="622" deviceID="372" scaleX="0.25" isPop="true" rotation="0" y="108" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="348" scaleX="1" y="273" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层娱乐疏散通道西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="146" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="506" scaleX="1" y="252" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层娱乐疏散通道东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="146" height="24"/>
+    <BURGLAR isToolTip="true" x="822" deviceID="375" scaleX="0.25" isPop="true" rotation="0" y="75" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="516" deviceID="374" scaleX="0.25" isPop="true" rotation="0" y="279" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="377" scaleX="1" y="91" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层12号通道外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="840" deviceID="376" scaleX="0.25" isPop="true" rotation="0" y="215" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="861" deviceID="377" scaleX="0.25" isPop="true" rotation="0" y="215" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="718" scaleX="1" y="215" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层05通道内西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="885" scaleX="1" y="212" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层05通道内东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1154" deviceID="380" scaleX="0.25" isPop="true" rotation="0" y="182" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="602" scaleX="1" y="287" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层百货疏散通道步西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="162" height="24"/>
+    <BURGLAR isToolTip="true" x="783" deviceID="379" scaleX="0.25" isPop="true" rotation="0" y="281" scaleY="0.25" popType="video" width="80" height="80"/>
+    <BURGLAR isToolTip="true" x="763" deviceID="378" scaleX="0.25" isPop="true" rotation="0" y="281" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="805" scaleX="1" y="278" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层百货疏散通道步东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="162" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="1151" scaleX="1" y="202" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层06号通道外" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1067" deviceID="381" scaleX="0.25" isPop="true" rotation="0" y="227" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1066" scaleX="1" y="244" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层06号通道内" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1223" deviceID="385" scaleX="0.25" isPop="true" rotation="0" y="453" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1099" scaleX="1" y="388" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层07号通道内" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1220" deviceID="383" scaleX="0.25" isPop="true" rotation="0" y="389" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1021" scaleX="1" y="450" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层07号通道内" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1142" deviceID="384" scaleX="0.25" isPop="true" rotation="0" y="453" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1178" scaleX="1" y="475" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层07号通道外南" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="134" height="24"/>
+    <BURGLAR isToolTip="true" x="1081" deviceID="386" scaleX="0.25" isPop="true" rotation="0" y="573" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="958" scaleX="1" y="568" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层01号通道西" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1102" deviceID="387" scaleX="0.25" isPop="true" rotation="0" y="573" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1039" scaleX="1" y="544" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层01号通道中" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <BURGLAR isToolTip="true" x="1123" deviceID="388" scaleX="0.25" isPop="true" rotation="0" y="573" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1147" scaleX="1" y="573" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层01号通道东" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" height="24"/>
+    <HANDBTN isToolTip="true" x="290" deviceID="365" scaleX="0.25" isPop="true" rotation="0" y="512" scaleY="0.25" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="237" scaleX="1" y="533" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层服务台按钮" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="114" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="99" scaleX="1" y="185" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层西残卫紧急按钮" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="146" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="983" scaleX="1" y="175" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层东侧残卫" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="98" height="24"/>
+    <GLASS isToolTip="true" x="434" deviceID="357" scaleX="0.25" isPop="true" rotation="0" y="641" scaleY="0.25" mark="HWBJ" deviceName="玻璃破碎2" popType="video" width="80" height="80"/>
+    <GLASS isToolTip="true" x="544" deviceID="358" scaleX="0.25" isPop="true" rotation="0" y="640" scaleY="0.25" mark="HWBJ" deviceName="玻璃破碎3" popType="video" width="80" height="80"/>
+    <BFSTATE x="998" deviceID="420" y="36" isPop="true" mark="BJX" deviceName="撤布防设备" popType="list" width="58" height="25"/>
+    <BURGLAR isToolTip="true" x="460" deviceID="60001" scaleX="0.25" isPop="true" rotation="0" y="489" scaleY="0.25" mark="HWBJ" deviceName="大商业断路测试" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="430" scaleX="1" y="511" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="消控室测试" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="82" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="251" scaleX="1" y="620" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道玻璃01" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="154" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="375" scaleX="1" y="661" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道玻璃02" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="154" height="24"/>
+    <TEXT fontFamily="微软雅黑" x="564" scaleX="1" y="640" param="" widthInChars="4" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="一层02号通道玻璃03" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="154" height="24"/>
+  </Components>
+</Configration>

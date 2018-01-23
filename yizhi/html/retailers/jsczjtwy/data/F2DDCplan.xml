@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <LCF2 source="assets/comp/LCF2.png"/>
+      <ZNZTL source="assets/comp/ZNZTL.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE source="mapAssets/mapImages/F2Node.png" y="0" x="0" width="1434" height="714"/>
+    <LCF2 source="assets/comp/LCF2.png" x="50" y="30" scaleY="0.8" width="110" height="92" scaleX="0.8"/>
+    <ZNZTL source="assets/comp/ZNZTL.png" y="88" x="1212" width="80" height="80"/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="85.19999999999999" x="779.75" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="95" x="401" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="228" x="462.05000000000007" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="233.3" x="615.45" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="395.09999999999997" x="584.95" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="536" x="402.85" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="538.8499999999999" x="202.04999999999998" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="105" x="1096" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="237" x="861.3" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="237.05" x="1061.6999999999998" scaleY="1.5" width="16" height="16" deviceID=""/>
+  </Components>
+</Configration>

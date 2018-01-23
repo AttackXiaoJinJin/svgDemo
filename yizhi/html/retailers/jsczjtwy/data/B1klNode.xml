@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+      <BJN source="assets/comp/TULI/BJN.png"/>
+      <BJA source="assets/comp/TULI/BJA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE source="mapAssets/mapImages/B1Node.png" x="0" group="map" height="714" width="1434" y="0"/>
+    <TULI source="assets/comp/TULI/TULI.png" x="1060" group="tuli" height="124" width="225" y="560"/>
+    <LCB1 source="assets/comp/LCB1.png" x="10" group="bg" height="92" width="110" y="10"/>
+    <TEXT height="23" color="0" deviceID="" fontWeight="normal" fontSize="16" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="595" text="客流摄像头正常" fontFamily="微软雅黑" x="1125" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" borderVisible="false" widthInChars="4" param="" width="114"/>
+    <TEXT height="23" color="0" deviceID="" fontWeight="normal" fontSize="16" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="625" text="客流摄像头报警" fontFamily="微软雅黑" x="1125" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" borderVisible="false" widthInChars="4" param="" width="114"/>
+    <ALARMTB param="alarm" y="431" x="60" height="16" deviceID="1450030" group="commonComp" mark="KLTCQ" deviceName="B1F西货梯5" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <BJN source="assets/comp/TULI/BJN.png" x="1100" group="tuli" height="16" width="16" y="600"/>
+    <BJA source="assets/comp/TULI/BJA.png" x="1100" group="tuli" height="16" width="16" y="630"/>
+    <ALARMTB param="alarm" y="400" x="262" height="16" deviceID="1450031" group="commonComp" mark="KLTCQ" deviceName="B1F购物中心电梯厅" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="435" x="599" height="16" deviceID="1450032" group="commonComp" mark="KLTCQ" deviceName="B1F货梯6" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="452" x="599" height="16" deviceID="1450033" group="commonComp" mark="KLTCQ" deviceName="B1F货梯7" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="452" x="968" height="16" deviceID="1450034" group="commonComp" mark="KLTCQ" deviceName="B1F南消防电梯" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="433" x="1205" height="16" deviceID="1450035" group="commonComp" mark="KLTCQ" deviceName="B1F东南消防电梯1" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="452" x="1206" height="16" deviceID="1450036" group="commonComp" mark="KLTCQ" deviceName="B1F东南消防电梯2" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="304" x="719" height="16" deviceID="1450037" group="commonComp" mark="KLTCQ" deviceName="B1F到商场扶梯1" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="322" x="719" height="16" deviceID="1450038" group="commonComp" mark="KLTCQ" deviceName="B1F到商场扶梯2" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="160" x="35" height="16" deviceID="1450039" group="commonComp" mark="KLTCQ" deviceName="B1F西北角货梯1" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="170" x="392" height="16" deviceID="1450040" group="commonComp" mark="KLTCQ" deviceName="B1F西北货梯2" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="159" x="879" height="16" deviceID="1450041" group="commonComp" mark="KLTCQ" deviceName="B1F北货梯" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="164" x="1098" height="16" deviceID="1450042" group="commonComp" mark="KLTCQ" deviceName="B1F影院、KTV电梯" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="206" x="1146" height="16" deviceID="1450043" group="commonComp" mark="KLTCQ" deviceName="B1F超市扶梯1" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+    <ALARMTB param="alarm" y="209" x="1279" height="16" deviceID="1450044" group="commonComp" mark="KLTCQ" deviceName="B1F超市扶梯2" source="assets/comp/ALARMTB/alarm/0/1.png" width="16" alarm="ALARMTB" paramID="2"/>
+  </Components>
+</Configration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <RQBJ/>
+    </Component>
+    <Image>
+      <B2NODE source="mapAssets/mapImages/B2Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE height="714" x="0" y="0" width="1434"/>
+    <RQBJ x="245" y="210" scaleY="0.25" scaleX="0.25" deviceName="B2热水机房" deviceID="24524" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="229" y="232" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="热水机房" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" height="24"/>
+  </Components>
+</Configration>

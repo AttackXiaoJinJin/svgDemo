@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1121" Height="493">
+  <LIST>
+    <Component/>
+    <Image>
+      <BXJPLAN source="assets/comp/bxjPlan.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <BXJPLAN scale="0.5" x="1" y="10" rotation="0"/>
+  </Components>
+</Configration>

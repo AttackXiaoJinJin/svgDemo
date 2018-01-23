@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1346" Height="947">
+  <LIST>
+    <Component>
+      <BQSX/>
+      <QSX/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <VB1TULI source="assets/comp/VB1Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="-252" y="-82"/>
+    <BQSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9910" rotation="0" scale="0.35" x="254" y="94"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9902" rotation="0" scale="0.35" x="244" y="41"/>
+    <TEXT text="大商配电值班室" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="7" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="177" y="70"/>
+    <TEXT text="-1F娱乐楼客梯" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="7" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="221" y="122"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9900" rotation="0" scale="0.35" x="399" y="126"/>
+    <TEXT text="仓库E2区" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="381" y="154"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9901" rotation="0" scale="0.35" x="402" y="33"/>
+    <TEXT text="通道E2区" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="394" y="15"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9898" rotation="0" scale="0.35" x="447" y="121"/>
+    <TEXT text="小厨娘货梯" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="5" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="443" y="148"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9906" rotation="0" scale="0.35" x="540" y="112"/>
+    <TEXT text="消防通道E2区" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="6" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="524" y="140"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9907" rotation="0" scale="0.35" x="653" y="76"/>
+    <TEXT text="娱乐楼货梯右" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="6" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="613" y="60"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9909" rotation="0" scale="0.35" x="678" y="97"/>
+    <TEXT text="通道十二" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="667" y="123"/>
+    <VB1TULI scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="757" y="11"/>
+  </Components>
+</Configration>

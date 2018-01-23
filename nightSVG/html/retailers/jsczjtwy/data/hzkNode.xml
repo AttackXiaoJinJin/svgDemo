@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1091" Height="593">
+  <LIST>
+    <Component>
+      <EA1/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <EA1 scaleY="0.800000000000001" scaleX="1" deviceID="76" x="0" y="0" width="1021" height="685" source="assets/comp/EA1/alarm/0/1.png"/>
+  </Components>
+</Configration>

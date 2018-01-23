@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="742">
+  <LIST>
+    <Component>
+      <PARK/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <PARKFREETULI source="assets/comp/TULI/PARKFREE.png"/>
+      <PARKBUSYTULI source="assets/comp/TULI/PARKBUSY.png"/>
+      <PARKALARMTULI source="assets/comp/TULI/PARKALARM.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE y="0" x="0" source="mapAssets/mapImages/B1Node.png" group="map" width="1434" height="714"/>
+    <LCB1 y="10" x="10" source="assets/comp/LCB1.png" group="bg" width="110" height="92"/>
+    <PARK x="236.04999999999995" scaleX="1.2" group="deviceComp" deviceID="1420001" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="293.05" mark="CW" deviceName="C01A01" scaleY="1.2"/>
+    <TULI y="578" x="1111" source="assets/comp/TULI/TULI.png" group="tuli" width="225" height="124"/>
+    <PARKFREETULI x="1150" y="660" group="tuli" width="10" height="19" source="assets/comp/TULI/PARKFREE.png" rotation="-90" scaleX="1.2" scaleY="1.2"/>
+    <PARKBUSYTULI x="1216" y="661" group="tuli" width="10" height="19" source="assets/comp/TULI/PARKBUSY.png" rotation="-90" scaleX="1.2" scaleY="1.2"/>
+    <PARKALARMTULI x="1276" y="660" group="tuli" width="10" height="19" source="assets/comp/TULI/PARKALARM.png" rotation="-90" scaleX="1.2" scaleY="1.2"/>
+    <TEXT text="空闲(0)" x="1143" color="0x444444" y="615" group="commonComp" deviceID="" param="" width="56" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="16" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="24"/>
+    <TEXT text="占用(1)" x="1206" color="0x444444" y="614" group="commonComp" deviceID="" param="" width="56" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="16" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="24"/>
+    <TEXT text="故障(2)" x="1267" color="0x444444" y="615" group="commonComp" deviceID="" param="" width="56" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="16" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="24"/>
+    <PARK x="235.60000000000002" scaleX="1.2" group="deviceComp" deviceID="1420002" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="280.45" mark="CW" deviceName="C01A02" scaleY="1.2"/>
+    <PARK x="236" scaleX="1.2" group="deviceComp" deviceID="1420003" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="267.65000000000003" mark="CW" deviceName="C01A03" scaleY="1.2"/>
+    <PARK x="236.20000000000005" scaleX="1.2" group="deviceComp" deviceID="1420004" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="253.64999999999998" mark="CW" deviceName="C01A04" scaleY="1.2"/>
+    <PARK x="237.09999999999997" scaleX="1.2" group="deviceComp" deviceID="1420005" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="229.00000000000003" mark="CW" deviceName="C01A05" scaleY="1.2"/>
+    <PARK x="236" scaleX="1.2" group="deviceComp" deviceID="1420006" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C01A06" scaleY="1.2"/>
+    <PARK x="236" scaleX="1.2" group="deviceComp" deviceID="1420007" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="201.7" mark="CW" deviceName="C01A07" scaleY="1.2"/>
+    <PARK x="236" scaleX="1.2" group="deviceComp" deviceID="1420008" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="188.55" mark="CW" deviceName="C01A08" scaleY="1.2"/>
+    <PARK x="273" scaleX="1.2" group="deviceComp" deviceID="1420009" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="175" mark="CW" deviceName="C01A09" scaleY="1.2"/>
+    <PARK x="286" scaleX="1.2" group="deviceComp" deviceID="1420010" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="174.7" mark="CW" deviceName="C01A10" scaleY="1.2"/>
+    <PARK x="298" scaleX="1.2" group="deviceComp" deviceID="1420011" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="174.85" mark="CW" deviceName="C01A11" scaleY="1.2"/>
+    <PARK x="314" scaleX="1.2" group="deviceComp" deviceID="1420012" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="234" mark="CW" deviceName="C01A12" scaleY="1.2"/>
+    <PARK x="326" scaleX="1.2" group="deviceComp" deviceID="1420013" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="234" mark="CW" deviceName="C01A13" scaleY="1.2"/>
+    <PARK x="338.40000000000003" scaleX="1.2" group="deviceComp" deviceID="1420014" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="234" mark="CW" deviceName="C01A14" scaleY="1.2"/>
+    <PARK x="354.7" scaleX="1.2" group="deviceComp" deviceID="1420015" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="234" mark="CW" deviceName="C01A15" scaleY="1.2"/>
+    <PARK x="367" scaleX="1.2" group="deviceComp" deviceID="1420016" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="234" mark="CW" deviceName="C01A16" scaleY="1.2"/>
+    <PARK x="379.54999999999995" scaleX="1.2" group="deviceComp" deviceID="1420017" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="233.7" mark="CW" deviceName="C01A17" scaleY="1.2"/>
+    <PARK x="314.5" scaleX="1.2" group="deviceComp" deviceID="1420018" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262" mark="CW" deviceName="C01A18" scaleY="1.2"/>
+    <PARK x="325" scaleX="1.2" group="deviceComp" deviceID="1420019" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262.04999999999995" mark="CW" deviceName="C01A19" scaleY="1.2"/>
+    <PARK x="338" scaleX="1.2" group="deviceComp" deviceID="1420020" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262" mark="CW" deviceName="C01A20" scaleY="1.2"/>
+    <PARK x="356" scaleX="1.2" group="deviceComp" deviceID="1420021" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262" mark="CW" deviceName="C01A21" scaleY="1.2"/>
+    <PARK x="367.55" scaleX="1.2" group="deviceComp" deviceID="1420022" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262" mark="CW" deviceName="C01A22" scaleY="1.2"/>
+    <PARK x="379.9000000000001" scaleX="1.2" group="deviceComp" deviceID="1420023" rotation="-180" width="10" height="19" source="assets/comp/PARK/bg.png" y="262" mark="CW" deviceName="C01A23" scaleY="1.2"/>
+    <PARK x="259" scaleX="1.2" group="deviceComp" deviceID="1420024" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="300" mark="CW" deviceName="C01A24" scaleY="1.2"/>
+    <PARK x="259.35" scaleX="1.2" group="deviceComp" deviceID="1420025" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="313" mark="CW" deviceName="C01A25" scaleY="1.2"/>
+    <PARK x="259" scaleX="1.2" group="deviceComp" deviceID="1420026" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C01A26" scaleY="1.2"/>
+    <PARK x="260" scaleX="1.2" group="deviceComp" deviceID="1420027" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="343" mark="CW" deviceName="C01A27" scaleY="1.2"/>
+    <PARK x="261" scaleX="1.2" group="deviceComp" deviceID="1420028" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="356.00000000000006" mark="CW" deviceName="C01A28" scaleY="1.2"/>
+    <PARK x="260" scaleX="1.2" group="deviceComp" deviceID="1420029" rotation="-270" width="10" height="19" source="assets/comp/PARK/bg.png" y="368.40000000000003" mark="CW" deviceName="C01A29" scaleY="1.2"/>
+    <PARK x="272.8500000000001" scaleX="1.2" group="deviceComp" deviceID="1420030" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C01A30" scaleY="1.2"/>
+    <PARK x="286" scaleX="1.2" group="deviceComp" deviceID="1420031" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C01A31" scaleY="1.2"/>
+    <PARK x="303" scaleX="1.2" group="deviceComp" deviceID="1420032" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C01A32" scaleY="1.2"/>
+    <PARK x="315" scaleX="1.2" group="deviceComp" deviceID="1420033" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382.54999999999995" mark="CW" deviceName="C01A33" scaleY="1.2"/>
+    <PARK x="303" scaleX="1.2" group="deviceComp" deviceID="1420034" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325.9" mark="CW" deviceName="C01A34" scaleY="1.2"/>
+    <PARK x="316" scaleX="1.2" group="deviceComp" deviceID="1420035" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C01A35" scaleY="1.2"/>
+    <PARK x="303" scaleX="1.2" group="deviceComp" deviceID="1420036" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C01A36" scaleY="1.2"/>
+    <PARK x="315" scaleX="1.2" group="deviceComp" deviceID="1420037" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C01A37" scaleY="1.2"/>
+    <PARK x="327" scaleX="1.2" group="deviceComp" deviceID="1420038" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C01A38" scaleY="1.2"/>
+    <PARK x="342" scaleX="1.2" group="deviceComp" deviceID="1420039" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C01A39" scaleY="1.2"/>
+    <PARK x="355" scaleX="1.2" group="deviceComp" deviceID="1420040" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C01A40" scaleY="1.2"/>
+    <PARK x="367" scaleX="1.2" group="deviceComp" deviceID="1420041" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C01A41" scaleY="1.2"/>
+    <PARK x="345" scaleX="1.2" group="deviceComp" deviceID="1420042" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C02A01" scaleY="1.2"/>
+    <PARK x="357" scaleX="1.2" group="deviceComp" deviceID="1420043" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C02A02" scaleY="1.2"/>
+    <PARK x="369" scaleX="1.2" group="deviceComp" deviceID="1420044" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C02A03" scaleY="1.2"/>
+    <PARK x="384" scaleX="1.2" group="deviceComp" deviceID="1420045" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A04" scaleY="1.2"/>
+    <PARK x="396" scaleX="1.2" group="deviceComp" deviceID="1420046" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A05" scaleY="1.2"/>
+    <PARK x="408" scaleX="1.2" group="deviceComp" deviceID="1420047" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A06" scaleY="1.2"/>
+    <PARK x="425" scaleX="1.2" group="deviceComp" deviceID="1420048" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A07" scaleY="1.2"/>
+    <PARK x="437" scaleX="1.2" group="deviceComp" deviceID="1420049" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A08" scaleY="1.2"/>
+    <PARK x="449" scaleX="1.2" group="deviceComp" deviceID="1420050" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A09" scaleY="1.2"/>
+    <PARK x="466" scaleX="1.2" group="deviceComp" deviceID="1420051" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A10" scaleY="1.2"/>
+    <PARK x="478" scaleX="1.2" group="deviceComp" deviceID="1420052" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A11" scaleY="1.2"/>
+    <PARK x="490" scaleX="1.2" group="deviceComp" deviceID="1420053" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C02A12" scaleY="1.2"/>
+    <PARK x="509" scaleX="1.2" group="deviceComp" deviceID="1420054" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C02A13" scaleY="1.2"/>
+    <PARK x="521" scaleX="1.2" group="deviceComp" deviceID="1420055" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C02A14" scaleY="1.2"/>
+    <PARK x="522" scaleX="1.2" group="deviceComp" deviceID="1420056" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A15" scaleY="1.2"/>
+    <PARK x="509" scaleX="1.2" group="deviceComp" deviceID="1420057" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A16" scaleY="1.2"/>
+    <PARK x="490" scaleX="1.2" group="deviceComp" deviceID="1420058" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A17" scaleY="1.2"/>
+    <PARK x="477" scaleX="1.2" group="deviceComp" deviceID="1420059" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A18" scaleY="1.2"/>
+    <PARK x="438" scaleX="1.2" group="deviceComp" deviceID="1420060" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A19" scaleY="1.2"/>
+    <PARK x="425" scaleX="1.2" group="deviceComp" deviceID="1420061" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A20" scaleY="1.2"/>
+    <PARK x="396" scaleX="1.2" group="deviceComp" deviceID="1420062" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A21" scaleY="1.2"/>
+    <PARK x="384" scaleX="1.2" group="deviceComp" deviceID="1420063" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C02A22" scaleY="1.2"/>
+    <PARK x="529" scaleX="1.2" group="deviceComp" deviceID="1420064" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A23" scaleY="1.2"/>
+    <PARK x="517" scaleX="1.2" group="deviceComp" deviceID="1420065" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A24" scaleY="1.2"/>
+    <PARK x="505" scaleX="1.2" group="deviceComp" deviceID="1420066" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A25" scaleY="1.2"/>
+    <PARK x="489" scaleX="1.2" group="deviceComp" deviceID="1420067" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A26" scaleY="1.2"/>
+    <PARK x="478" scaleX="1.2" group="deviceComp" deviceID="1420068" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A27" scaleY="1.2"/>
+    <PARK x="467" scaleX="1.2" group="deviceComp" deviceID="1420069" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A28" scaleY="1.2"/>
+    <PARK x="449" scaleX="1.2" group="deviceComp" deviceID="1420070" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A29" scaleY="1.2"/>
+    <PARK x="437" scaleX="1.2" group="deviceComp" deviceID="1420071" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A30" scaleY="1.2"/>
+    <PARK x="426" scaleX="1.2" group="deviceComp" deviceID="1420072" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A31" scaleY="1.2"/>
+    <PARK x="410" scaleX="1.2" group="deviceComp" deviceID="1420073" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A32" scaleY="1.2"/>
+    <PARK x="398" scaleX="1.2" group="deviceComp" deviceID="1420074" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C02A33" scaleY="1.2"/>
+    <PARK x="386" scaleX="1.2" group="deviceComp" deviceID="1420075" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="299" mark="CW" deviceName="C02A34" scaleY="1.2"/>
+    <PARK x="530" scaleX="1.2" group="deviceComp" deviceID="1420076" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C02A35" scaleY="1.2"/>
+    <PARK x="518" scaleX="1.2" group="deviceComp" deviceID="1420077" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C02A36" scaleY="1.2"/>
+    <PARK x="506" scaleX="1.2" group="deviceComp" deviceID="1420078" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C02A37" scaleY="1.2"/>
+    <PARK x="489" scaleX="1.2" group="deviceComp" deviceID="1420079" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A38" scaleY="1.2"/>
+    <PARK x="477" scaleX="1.2" group="deviceComp" deviceID="1420080" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A39" scaleY="1.2"/>
+    <PARK x="465" scaleX="1.2" group="deviceComp" deviceID="1420081" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A40" scaleY="1.2"/>
+    <PARK x="450" scaleX="1.2" group="deviceComp" deviceID="1420082" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A41" scaleY="1.2"/>
+    <PARK x="438" scaleX="1.2" group="deviceComp" deviceID="1420083" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A42" scaleY="1.2"/>
+    <PARK x="426" scaleX="1.2" group="deviceComp" deviceID="1420084" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A43" scaleY="1.2"/>
+    <PARK x="409" scaleX="1.2" group="deviceComp" deviceID="1420085" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A44" scaleY="1.2"/>
+    <PARK x="397" scaleX="1.2" group="deviceComp" deviceID="1420086" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A45" scaleY="1.2"/>
+    <PARK x="385" scaleX="1.2" group="deviceComp" deviceID="1420087" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C02A46" scaleY="1.2"/>
+    <PARK x="489" scaleX="1.2" group="deviceComp" deviceID="1420088" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A47" scaleY="1.2"/>
+    <PARK x="477" scaleX="1.2" group="deviceComp" deviceID="1420089" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A48" scaleY="1.2"/>
+    <PARK x="465" scaleX="1.2" group="deviceComp" deviceID="1420090" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A49" scaleY="1.2"/>
+    <PARK x="450" scaleX="1.2" group="deviceComp" deviceID="1420091" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A50" scaleY="1.2"/>
+    <PARK x="438" scaleX="1.2" group="deviceComp" deviceID="1420092" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A51" scaleY="1.2"/>
+    <PARK x="426" scaleX="1.2" group="deviceComp" deviceID="1420093" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C02A52" scaleY="1.2"/>
+    <PARK x="669.05" scaleX="1.2" group="deviceComp" deviceID="1420094" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C03A01" scaleY="1.2"/>
+    <PARK x="681" scaleX="1.2" group="deviceComp" deviceID="1420095" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C03A02" scaleY="1.2"/>
+    <PARK x="694" scaleX="1.2" group="deviceComp" deviceID="1420096" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C03A03" scaleY="1.2"/>
+    <PARK x="654" scaleX="1.2" group="deviceComp" deviceID="1420097" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A04" scaleY="1.2"/>
+    <PARK x="642" scaleX="1.2" group="deviceComp" deviceID="1420098" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A05" scaleY="1.2"/>
+    <PARK x="630" scaleX="1.2" group="deviceComp" deviceID="1420099" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A06" scaleY="1.2"/>
+    <PARK x="613" scaleX="1.2" group="deviceComp" deviceID="1420100" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A07" scaleY="1.2"/>
+    <PARK x="601" scaleX="1.2" group="deviceComp" deviceID="1420101" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A08" scaleY="1.2"/>
+    <PARK x="589" scaleX="1.2" group="deviceComp" deviceID="1420102" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C03A09" scaleY="1.2"/>
+    <PARK x="572" scaleX="1.2" group="deviceComp" deviceID="1420103" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C03A10" scaleY="1.2"/>
+    <PARK x="561" scaleX="1.2" group="deviceComp" deviceID="1420104" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C03A11" scaleY="1.2"/>
+    <PARK x="550" scaleX="1.2" group="deviceComp" deviceID="1420105" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241" mark="CW" deviceName="C03A12" scaleY="1.2"/>
+    <PARK x="653" scaleX="1.2" group="deviceComp" deviceID="1420106" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A15" scaleY="1.2"/>
+    <PARK x="642" scaleX="1.2" group="deviceComp" deviceID="1420107" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A16" scaleY="1.2"/>
+    <PARK x="629" scaleX="1.2" group="deviceComp" deviceID="1420108" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A17" scaleY="1.2"/>
+    <PARK x="613" scaleX="1.2" group="deviceComp" deviceID="1420109" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="211" mark="CW" deviceName="C03A18" scaleY="1.2"/>
+    <PARK x="601" scaleX="1.2" group="deviceComp" deviceID="1420110" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="211" mark="CW" deviceName="C03A19" scaleY="1.2"/>
+    <PARK x="588" scaleX="1.2" group="deviceComp" deviceID="1420111" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="211" mark="CW" deviceName="C03A20" scaleY="1.2"/>
+    <PARK x="574" scaleX="1.2" group="deviceComp" deviceID="1420112" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A21" scaleY="1.2"/>
+    <PARK x="562" scaleX="1.2" group="deviceComp" deviceID="1420113" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A22" scaleY="1.2"/>
+    <PARK x="549" scaleX="1.2" group="deviceComp" deviceID="1420114" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A23" scaleY="1.2"/>
+    <PARK x="532" scaleX="1.2" group="deviceComp" deviceID="1420115" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A24" scaleY="1.2"/>
+    <PARK x="520" scaleX="1.2" group="deviceComp" deviceID="1420116" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A25" scaleY="1.2"/>
+    <PARK x="508" scaleX="1.2" group="deviceComp" deviceID="1420117" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C03A26" scaleY="1.2"/>
+    <PARK x="642" scaleX="1.2" group="deviceComp" deviceID="1420118" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="158" mark="CW" deviceName="C03A27" scaleY="1.2"/>
+    <PARK x="654" scaleX="1.2" group="deviceComp" deviceID="1420119" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159" mark="CW" deviceName="C03A28" scaleY="1.2"/>
+    <PARK x="691.75" scaleX="1.2" group="deviceComp" deviceID="1420120" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A01" scaleY="1.2"/>
+    <PARK x="680" scaleX="1.2" group="deviceComp" deviceID="1420121" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A02" scaleY="1.2"/>
+    <PARK x="668" scaleX="1.2" group="deviceComp" deviceID="1420122" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A03" scaleY="1.2"/>
+    <PARK x="652" scaleX="1.2" group="deviceComp" deviceID="1420123" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A04" scaleY="1.2"/>
+    <PARK x="640" scaleX="1.2" group="deviceComp" deviceID="1420124" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A05" scaleY="1.2"/>
+    <PARK x="629" scaleX="1.2" group="deviceComp" deviceID="1420125" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C04A06" scaleY="1.2"/>
+    <PARK x="613" scaleX="1.2" group="deviceComp" deviceID="1420126" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="381" mark="CW" deviceName="C04A07" scaleY="1.2"/>
+    <PARK x="600" scaleX="1.2" group="deviceComp" deviceID="1420127" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="381" mark="CW" deviceName="C04A08" scaleY="1.2"/>
+    <PARK x="588" scaleX="1.2" group="deviceComp" deviceID="1420128" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="381" mark="CW" deviceName="C04A09" scaleY="1.2"/>
+    <PARK x="694" scaleX="1.2" group="deviceComp" deviceID="1420129" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A10" scaleY="1.2"/>
+    <PARK x="682" scaleX="1.2" group="deviceComp" deviceID="1420130" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A11" scaleY="1.2"/>
+    <PARK x="670" scaleX="1.2" group="deviceComp" deviceID="1420131" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A12" scaleY="1.2"/>
+    <PARK x="653" scaleX="1.2" group="deviceComp" deviceID="1420132" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A13" scaleY="1.2"/>
+    <PARK x="641" scaleX="1.2" group="deviceComp" deviceID="1420133" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A14" scaleY="1.2"/>
+    <PARK x="630" scaleX="1.2" group="deviceComp" deviceID="1420134" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A15" scaleY="1.2"/>
+    <PARK x="612" scaleX="1.2" group="deviceComp" deviceID="1420135" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A16" scaleY="1.2"/>
+    <PARK x="600" scaleX="1.2" group="deviceComp" deviceID="1420136" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A17" scaleY="1.2"/>
+    <PARK x="588" scaleX="1.2" group="deviceComp" deviceID="1420137" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A18" scaleY="1.2"/>
+    <PARK x="573" scaleX="1.2" group="deviceComp" deviceID="1420138" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A19" scaleY="1.2"/>
+    <PARK x="561" scaleX="1.2" group="deviceComp" deviceID="1420139" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A20" scaleY="1.2"/>
+    <PARK x="549" scaleX="1.2" group="deviceComp" deviceID="1420140" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C04A21" scaleY="1.2"/>
+    <PARK x="694" scaleX="1.2" group="deviceComp" deviceID="1420141" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C04A22" scaleY="1.2"/>
+    <PARK x="682" scaleX="1.2" group="deviceComp" deviceID="1420142" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C04A23" scaleY="1.2"/>
+    <PARK x="670" scaleX="1.2" group="deviceComp" deviceID="1420143" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C04A24" scaleY="1.2"/>
+    <PARK x="653" scaleX="1.2" group="deviceComp" deviceID="1420144" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C04A25" scaleY="1.2"/>
+    <PARK x="641" scaleX="1.2" group="deviceComp" deviceID="1420145" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A26" scaleY="1.2"/>
+    <PARK x="629" scaleX="1.2" group="deviceComp" deviceID="1420146" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A27" scaleY="1.2"/>
+    <PARK x="613" scaleX="1.2" group="deviceComp" deviceID="1420147" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A28" scaleY="1.2"/>
+    <PARK x="601" scaleX="1.2" group="deviceComp" deviceID="1420148" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A29" scaleY="1.2"/>
+    <PARK x="589" scaleX="1.2" group="deviceComp" deviceID="1420149" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A30" scaleY="1.2"/>
+    <PARK x="573" scaleX="1.2" group="deviceComp" deviceID="1420150" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A31" scaleY="1.2"/>
+    <PARK x="561" scaleX="1.2" group="deviceComp" deviceID="1420151" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A32" scaleY="1.2"/>
+    <PARK x="549" scaleX="1.2" group="deviceComp" deviceID="1420152" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C04A33" scaleY="1.2"/>
+    <PARK x="817" scaleX="1.2" group="deviceComp" deviceID="1420153" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C05A01" scaleY="1.2"/>
+    <PARK x="805" scaleX="1.2" group="deviceComp" deviceID="1420154" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C05A02" scaleY="1.2"/>
+    <PARK x="793" scaleX="1.2" group="deviceComp" deviceID="1420155" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C05A03" scaleY="1.2"/>
+    <PARK x="773" scaleX="1.2" group="deviceComp" deviceID="1420156" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A04" scaleY="1.2"/>
+    <PARK x="761" scaleX="1.2" group="deviceComp" deviceID="1420157" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A05" scaleY="1.2"/>
+    <PARK x="742" scaleX="1.2" group="deviceComp" deviceID="1420158" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A06" scaleY="1.2"/>
+    <PARK x="731" scaleX="1.2" group="deviceComp" deviceID="1420159" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A07" scaleY="1.2"/>
+    <PARK x="719" scaleX="1.2" group="deviceComp" deviceID="1420160" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A08" scaleY="1.2"/>
+    <PARK x="833" scaleX="1.2" group="deviceComp" deviceID="1420161" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A09" scaleY="1.2"/>
+    <PARK x="845" scaleX="1.2" group="deviceComp" deviceID="1420162" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A10" scaleY="1.2"/>
+    <PARK x="858" scaleX="1.2" group="deviceComp" deviceID="1420163" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="240" mark="CW" deviceName="C05A11" scaleY="1.2"/>
+    <PARK x="834" scaleX="1.2" group="deviceComp" deviceID="1420164" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C05A12" scaleY="1.2"/>
+    <PARK x="847" scaleX="1.2" group="deviceComp" deviceID="1420165" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C05A13" scaleY="1.2"/>
+    <PARK x="859" scaleX="1.2" group="deviceComp" deviceID="1420166" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C05A14" scaleY="1.2"/>
+    <PARK x="834.6500000000001" scaleX="1.2" group="deviceComp" deviceID="1420167" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="324.70000000000005" mark="CW" deviceName="C05A15" scaleY="1.2"/>
+    <PARK x="847" scaleX="1.2" group="deviceComp" deviceID="1420168" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C05A16" scaleY="1.2"/>
+    <PARK x="860" scaleX="1.2" group="deviceComp" deviceID="1420169" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C05A17" scaleY="1.2"/>
+    <PARK x="816" scaleX="1.2" group="deviceComp" deviceID="1420170" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C05A18" scaleY="1.2"/>
+    <PARK x="804" scaleX="1.2" group="deviceComp" deviceID="1420171" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C05A19" scaleY="1.2"/>
+    <PARK x="792" scaleX="1.2" group="deviceComp" deviceID="1420172" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C05A20" scaleY="1.2"/>
+    <PARK x="772" scaleX="1.2" group="deviceComp" deviceID="1420173" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C05A21" scaleY="1.2"/>
+    <PARK x="759" scaleX="1.2" group="deviceComp" deviceID="1420174" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="384" mark="CW" deviceName="C05A22" scaleY="1.2"/>
+    <PARK x="741" scaleX="1.2" group="deviceComp" deviceID="1420175" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="381" mark="CW" deviceName="C05A23" scaleY="1.2"/>
+    <PARK x="729" scaleX="1.2" group="deviceComp" deviceID="1420176" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="381" mark="CW" deviceName="C05A24" scaleY="1.2"/>
+    <PARK x="717" scaleX="1.2" group="deviceComp" deviceID="1420177" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C05A25" scaleY="1.2"/>
+    <PARK x="858" scaleX="1.2" group="deviceComp" deviceID="1420178" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A26" scaleY="1.2"/>
+    <PARK x="846" scaleX="1.2" group="deviceComp" deviceID="1420179" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A27" scaleY="1.2"/>
+    <PARK x="833" scaleX="1.2" group="deviceComp" deviceID="1420180" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A28" scaleY="1.2"/>
+    <PARK x="816" scaleX="1.2" group="deviceComp" deviceID="1420181" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A29" scaleY="1.2"/>
+    <PARK x="804" scaleX="1.2" group="deviceComp" deviceID="1420182" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A30" scaleY="1.2"/>
+    <PARK x="793" scaleX="1.2" group="deviceComp" deviceID="1420183" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A31" scaleY="1.2"/>
+    <PARK x="670.4000000000001" scaleX="1.2" group="deviceComp" deviceID="1420184" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212.3" mark="CW" deviceName="C05A32" scaleY="1.2"/>
+    <PARK x="682" scaleX="1.2" group="deviceComp" deviceID="1420185" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A33" scaleY="1.2"/>
+    <PARK x="695" scaleX="1.2" group="deviceComp" deviceID="1420186" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A34" scaleY="1.2"/>
+    <PARK x="718" scaleX="1.2" group="deviceComp" deviceID="1420187" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A35" scaleY="1.2"/>
+    <PARK x="731" scaleX="1.2" group="deviceComp" deviceID="1420188" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A36" scaleY="1.2"/>
+    <PARK x="743" scaleX="1.2" group="deviceComp" deviceID="1420189" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A37" scaleY="1.2"/>
+    <PARK x="760" scaleX="1.2" group="deviceComp" deviceID="1420190" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A38" scaleY="1.2"/>
+    <PARK x="773" scaleX="1.2" group="deviceComp" deviceID="1420191" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="212" mark="CW" deviceName="C05A39" scaleY="1.2"/>
+    <PARK x="772" scaleX="1.2" group="deviceComp" deviceID="1420192" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="161" mark="CW" deviceName="C05A40" scaleY="1.2"/>
+    <PARK x="758" scaleX="1.2" group="deviceComp" deviceID="1420193" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="161" mark="CW" deviceName="C05A41" scaleY="1.2"/>
+    <PARK x="742" scaleX="1.2" group="deviceComp" deviceID="1420194" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="160" mark="CW" deviceName="C05A42" scaleY="1.2"/>
+    <PARK x="730" scaleX="1.2" group="deviceComp" deviceID="1420195" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="160" mark="CW" deviceName="C05A43" scaleY="1.2"/>
+    <PARK x="718" scaleX="1.2" group="deviceComp" deviceID="1420196" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="160" mark="CW" deviceName="C05A44" scaleY="1.2"/>
+    <PARK x="695" scaleX="1.2" group="deviceComp" deviceID="1420197" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159" mark="CW" deviceName="C05A45" scaleY="1.2"/>
+    <PARK x="684.05" scaleX="1.2" group="deviceComp" deviceID="1420198" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159" mark="CW" deviceName="C05A46" scaleY="1.2"/>
+    <PARK x="671" scaleX="1.2" group="deviceComp" deviceID="1420199" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159" mark="CW" deviceName="C05A47" scaleY="1.2"/>
+    <PARK x="900" scaleX="1.2" group="deviceComp" deviceID="1420200" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C06A01" scaleY="1.2"/>
+    <PARK x="888" scaleX="1.2" group="deviceComp" deviceID="1420201" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C06A02" scaleY="1.2"/>
+    <PARK x="875" scaleX="1.2" group="deviceComp" deviceID="1420202" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="239" mark="CW" deviceName="C06A03" scaleY="1.2"/>
+    <PARK x="875" scaleX="1.2" group="deviceComp" deviceID="1420203" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="213" mark="CW" deviceName="C06A04" scaleY="1.2"/>
+    <PARK x="887" scaleX="1.2" group="deviceComp" deviceID="1420204" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C06A05" scaleY="1.2"/>
+    <PARK x="899" scaleX="1.2" group="deviceComp" deviceID="1420205" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C06A06" scaleY="1.2"/>
+    <PARK x="938" scaleX="1.2" group="deviceComp" deviceID="1420206" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159.95" mark="CW" deviceName="C06A07" scaleY="1.2"/>
+    <PARK x="927" scaleX="1.2" group="deviceComp" deviceID="1420207" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="160" mark="CW" deviceName="C06A08" scaleY="1.2"/>
+    <PARK x="915" scaleX="1.2" group="deviceComp" deviceID="1420208" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="160" mark="CW" deviceName="C06A09" scaleY="1.2"/>
+    <PARK x="978" scaleX="1.2" group="deviceComp" deviceID="1420216" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="293" mark="CW" deviceName="C06A17" scaleY="1.2"/>
+    <PARK x="966" scaleX="1.2" group="deviceComp" deviceID="1420217" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="293" mark="CW" deviceName="C06A18" scaleY="1.2"/>
+    <PARK x="955" scaleX="1.2" group="deviceComp" deviceID="1420218" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="293" mark="CW" deviceName="C06A19" scaleY="1.2"/>
+    <PARK x="876.5999999999999" scaleX="1.2" group="deviceComp" deviceID="1420219" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297.09999999999997" mark="CW" deviceName="C06A20" scaleY="1.2"/>
+    <PARK x="888" scaleX="1.2" group="deviceComp" deviceID="1420220" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C06A21" scaleY="1.2"/>
+    <PARK x="900" scaleX="1.2" group="deviceComp" deviceID="1420221" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C06A22" scaleY="1.2"/>
+    <PARK x="875.7" scaleX="1.2" group="deviceComp" deviceID="1420222" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="324.95000000000005" mark="CW" deviceName="C06A23" scaleY="1.2"/>
+    <PARK x="888" scaleX="1.2" group="deviceComp" deviceID="1420223" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C06A24" scaleY="1.2"/>
+    <PARK x="901" scaleX="1.2" group="deviceComp" deviceID="1420224" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C06A25" scaleY="1.2"/>
+    <PARK x="876" scaleX="1.2" group="deviceComp" deviceID="1420225" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C06A26" scaleY="1.2"/>
+    <PARK x="888" scaleX="1.2" group="deviceComp" deviceID="1420226" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C06A27" scaleY="1.2"/>
+    <PARK x="900" scaleX="1.2" group="deviceComp" deviceID="1420227" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A28" scaleY="1.2"/>
+    <PARK x="915" scaleX="1.2" group="deviceComp" deviceID="1420228" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A29" scaleY="1.2"/>
+    <PARK x="927" scaleX="1.2" group="deviceComp" deviceID="1420229" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A30" scaleY="1.2"/>
+    <PARK x="939" scaleX="1.2" group="deviceComp" deviceID="1420230" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A31" scaleY="1.2"/>
+    <PARK x="956" scaleX="1.2" group="deviceComp" deviceID="1420231" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="378" mark="CW" deviceName="C06A32" scaleY="1.2"/>
+    <PARK x="968" scaleX="1.2" group="deviceComp" deviceID="1420232" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A33" scaleY="1.2"/>
+    <PARK x="980" scaleX="1.2" group="deviceComp" deviceID="1420233" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A34" scaleY="1.2"/>
+    <PARK x="997" scaleX="1.2" group="deviceComp" deviceID="1420234" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="379" mark="CW" deviceName="C06A35" scaleY="1.2"/>
+    <PARK x="1080" scaleX="1.2" group="deviceComp" deviceID="1420235" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A01" scaleY="1.2"/>
+    <PARK x="1091" scaleX="1.2" group="deviceComp" deviceID="1420236" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A02" scaleY="1.2"/>
+    <PARK x="1103" scaleX="1.2" group="deviceComp" deviceID="1420237" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A03" scaleY="1.2"/>
+    <PARK x="1141.9" scaleX="1.2" group="deviceComp" deviceID="1420238" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="241.05" mark="CW" deviceName="C07A04" scaleY="1.2"/>
+    <PARK x="1161.2499999999998" scaleX="1.2" group="deviceComp" deviceID="1420239" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A05" scaleY="1.2"/>
+    <PARK x="1173" scaleX="1.2" group="deviceComp" deviceID="1420240" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A06" scaleY="1.2"/>
+    <PARK x="1185" scaleX="1.2" group="deviceComp" deviceID="1420241" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A07" scaleY="1.2"/>
+    <PARK x="1201" scaleX="1.2" group="deviceComp" deviceID="1420242" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A08" scaleY="1.2"/>
+    <PARK x="1214" scaleX="1.2" group="deviceComp" deviceID="1420243" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A09" scaleY="1.2"/>
+    <PARK x="1226" scaleX="1.2" group="deviceComp" deviceID="1420244" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A10" scaleY="1.2"/>
+    <PARK x="1242" scaleX="1.2" group="deviceComp" deviceID="1420245" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A11" scaleY="1.2"/>
+    <PARK x="1254" scaleX="1.2" group="deviceComp" deviceID="1420246" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C07A12" scaleY="1.2"/>
+    <PARK x="1267" scaleX="1.2" group="deviceComp" deviceID="1420247" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A13" scaleY="1.2"/>
+    <PARK x="1283" scaleX="1.2" group="deviceComp" deviceID="1420248" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A14" scaleY="1.2"/>
+    <PARK x="1296" scaleX="1.2" group="deviceComp" deviceID="1420249" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A15" scaleY="1.2"/>
+    <PARK x="1308" scaleX="1.2" group="deviceComp" deviceID="1420250" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A16" scaleY="1.2"/>
+    <PARK x="1324" scaleX="1.2" group="deviceComp" deviceID="1420251" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A17" scaleY="1.2"/>
+    <PARK x="1347" scaleX="1.2" group="deviceComp" deviceID="1420252" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="243" mark="CW" deviceName="C07A18" scaleY="1.2"/>
+    <PARK x="1349" scaleX="1.2" group="deviceComp" deviceID="1420253" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A19" scaleY="1.2"/>
+    <PARK x="1336" scaleX="1.2" group="deviceComp" deviceID="1420254" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A20" scaleY="1.2"/>
+    <PARK x="1324" scaleX="1.2" group="deviceComp" deviceID="1420255" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A21" scaleY="1.2"/>
+    <PARK x="1307" scaleX="1.2" group="deviceComp" deviceID="1420256" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A22" scaleY="1.2"/>
+    <PARK x="1295" scaleX="1.2" group="deviceComp" deviceID="1420257" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="213" mark="CW" deviceName="C07A23" scaleY="1.2"/>
+    <PARK x="1335" scaleX="1.2" group="deviceComp" deviceID="1420258" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="163" mark="CW" deviceName="C07A24" scaleY="1.2"/>
+    <PARK x="1323" scaleX="1.2" group="deviceComp" deviceID="1420259" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="163" mark="CW" deviceName="C07A25" scaleY="1.2"/>
+    <PARK x="1308" scaleX="1.2" group="deviceComp" deviceID="1420260" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="163" mark="CW" deviceName="C07A26" scaleY="1.2"/>
+    <PARK x="1296" scaleX="1.2" group="deviceComp" deviceID="1420261" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="163" mark="CW" deviceName="C07A27" scaleY="1.2"/>
+    <PARK x="1284" scaleX="1.2" group="deviceComp" deviceID="1420262" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="163" mark="CW" deviceName="C07A28" scaleY="1.2"/>
+    <PARK x="1079" scaleX="1.2" group="deviceComp" deviceID="1420263" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="213" mark="CW" deviceName="C07A29" scaleY="1.2"/>
+    <PARK x="1091" scaleX="1.2" group="deviceComp" deviceID="1420264" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A30" scaleY="1.2"/>
+    <PARK x="1104" scaleX="1.2" group="deviceComp" deviceID="1420265" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="214" mark="CW" deviceName="C07A31" scaleY="1.2"/>
+    <PARK x="1062" scaleX="1.2" group="deviceComp" deviceID="1420266" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="158" mark="CW" deviceName="C07A32" scaleY="1.2"/>
+    <PARK x="1050" scaleX="1.2" group="deviceComp" deviceID="1420267" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="158" mark="CW" deviceName="C07A33" scaleY="1.2"/>
+    <PARK x="1038" scaleX="1.2" group="deviceComp" deviceID="1420268" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="159" mark="CW" deviceName="C07A34" scaleY="1.2"/>
+    <PARK x="1079" scaleX="1.2" group="deviceComp" deviceID="1420269" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A01" scaleY="1.2"/>
+    <PARK x="1091" scaleX="1.2" group="deviceComp" deviceID="1420270" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A02" scaleY="1.2"/>
+    <PARK x="1103" scaleX="1.2" group="deviceComp" deviceID="1420271" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A03" scaleY="1.2"/>
+    <PARK x="1115" scaleX="1.2" group="deviceComp" deviceID="1420272" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="303" mark="CW" deviceName="C08A04" scaleY="1.2"/>
+    <PARK x="1160" scaleX="1.2" group="deviceComp" deviceID="1420273" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A05" scaleY="1.2"/>
+    <PARK x="1172" scaleX="1.2" group="deviceComp" deviceID="1420274" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A06" scaleY="1.2"/>
+    <PARK x="1184" scaleX="1.2" group="deviceComp" deviceID="1420275" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A07" scaleY="1.2"/>
+    <PARK x="1200" scaleX="1.2" group="deviceComp" deviceID="1420276" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A08" scaleY="1.2"/>
+    <PARK x="1212" scaleX="1.2" group="deviceComp" deviceID="1420277" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A09" scaleY="1.2"/>
+    <PARK x="1225" scaleX="1.2" group="deviceComp" deviceID="1420278" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A10" scaleY="1.2"/>
+    <PARK x="1241" scaleX="1.2" group="deviceComp" deviceID="1420279" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A11" scaleY="1.2"/>
+    <PARK x="1254" scaleX="1.2" group="deviceComp" deviceID="1420280" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A12" scaleY="1.2"/>
+    <PARK x="1266" scaleX="1.2" group="deviceComp" deviceID="1420281" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A13" scaleY="1.2"/>
+    <PARK x="1283" scaleX="1.2" group="deviceComp" deviceID="1420282" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A14" scaleY="1.2"/>
+    <PARK x="1295" scaleX="1.2" group="deviceComp" deviceID="1420283" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A15" scaleY="1.2"/>
+    <PARK x="1307" scaleX="1.2" group="deviceComp" deviceID="1420284" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="298" mark="CW" deviceName="C08A16" scaleY="1.2"/>
+    <PARK x="1324" scaleX="1.2" group="deviceComp" deviceID="1420285" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A17" scaleY="1.2"/>
+    <PARK x="1348" scaleX="1.2" group="deviceComp" deviceID="1420286" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="297" mark="CW" deviceName="C08A18" scaleY="1.2"/>
+    <PARK x="1398" scaleX="1.2" group="deviceComp" deviceID="1420287" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="294.55000000000007" mark="CW" deviceName="C08A19" scaleY="1.2"/>
+    <PARK x="1398" scaleX="1.2" group="deviceComp" deviceID="1420288" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="283" mark="CW" deviceName="C08A20" scaleY="1.2"/>
+    <PARK x="1398" scaleX="1.2" group="deviceComp" deviceID="1420289" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="271" mark="CW" deviceName="C08A21" scaleY="1.2"/>
+    <PARK x="1396" scaleX="1.2" group="deviceComp" deviceID="1420290" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="254" mark="CW" deviceName="C08A22" scaleY="1.2"/>
+    <PARK x="1395" scaleX="1.2" group="deviceComp" deviceID="1420291" rotation="-90" width="10" height="19" source="assets/comp/PARK/bg.png" y="242" mark="CW" deviceName="C08A23" scaleY="1.2"/>
+    <PARK x="1103" scaleX="1.2" group="deviceComp" deviceID="1420297" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C08A29" scaleY="1.2"/>
+    <PARK x="1091" scaleX="1.2" group="deviceComp" deviceID="1420298" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C08A30" scaleY="1.2"/>
+    <PARK x="1080.05" scaleX="1.2" group="deviceComp" deviceID="1420299" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C08A31" scaleY="1.2"/>
+    <PARK x="1038" scaleX="1.2" group="deviceComp" deviceID="1420300" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C08A32" scaleY="1.2"/>
+    <PARK x="1050" scaleX="1.2" group="deviceComp" deviceID="1420301" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="382" mark="CW" deviceName="C08A33" scaleY="1.2"/>
+    <PARK x="1062" scaleX="1.2" group="deviceComp" deviceID="1420302" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A34" scaleY="1.2"/>
+    <PARK x="1078" scaleX="1.2" group="deviceComp" deviceID="1420303" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A35" scaleY="1.2"/>
+    <PARK x="1090" scaleX="1.2" group="deviceComp" deviceID="1420304" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A36" scaleY="1.2"/>
+    <PARK x="1103" scaleX="1.2" group="deviceComp" deviceID="1420305" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A37" scaleY="1.2"/>
+    <PARK x="1119" scaleX="1.2" group="deviceComp" deviceID="1420306" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A38" scaleY="1.2"/>
+    <PARK x="1132" scaleX="1.2" group="deviceComp" deviceID="1420307" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="384" mark="CW" deviceName="C08A39" scaleY="1.2"/>
+    <PARK x="1159" scaleX="1.2" group="deviceComp" deviceID="1420308" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A40" scaleY="1.2"/>
+    <PARK x="1172" scaleX="1.2" group="deviceComp" deviceID="1420309" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383" mark="CW" deviceName="C08A41" scaleY="1.2"/>
+    <PARK x="1183.9499999999998" scaleX="1.2" group="deviceComp" deviceID="1420310" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="383.95000000000005" mark="CW" deviceName="C08A42" scaleY="1.2"/>
+    <PARK x="1184" scaleX="1.2" group="deviceComp" deviceID="1420311" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C08A43" scaleY="1.2"/>
+    <PARK x="1172" scaleX="1.2" group="deviceComp" deviceID="1420312" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C08A44" scaleY="1.2"/>
+    <PARK x="1160" scaleX="1.2" group="deviceComp" deviceID="1420313" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="325" mark="CW" deviceName="C08A45" scaleY="1.2"/>
+    <PARK x="1202" scaleX="1.2" group="deviceComp" deviceID="1420314" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A01" scaleY="1.2"/>
+    <PARK x="1214" scaleX="1.2" group="deviceComp" deviceID="1420315" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A02" scaleY="1.2"/>
+    <PARK x="1225" scaleX="1.2" group="deviceComp" deviceID="1420316" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A03" scaleY="1.2"/>
+    <PARK x="1242" scaleX="1.2" group="deviceComp" deviceID="1420317" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A04" scaleY="1.2"/>
+    <PARK x="1255" scaleX="1.2" group="deviceComp" deviceID="1420318" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A05" scaleY="1.2"/>
+    <PARK x="1266" scaleX="1.2" group="deviceComp" deviceID="1420319" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A06" scaleY="1.2"/>
+    <PARK x="1283" scaleX="1.2" group="deviceComp" deviceID="1420320" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A07" scaleY="1.2"/>
+    <PARK x="1296" scaleX="1.2" group="deviceComp" deviceID="1420321" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A08" scaleY="1.2"/>
+    <PARK x="1308" scaleX="1.2" group="deviceComp" deviceID="1420322" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="327" mark="CW" deviceName="C09A09" scaleY="1.2"/>
+    <PARK x="1324" scaleX="1.2" group="deviceComp" deviceID="1420323" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A10" scaleY="1.2"/>
+    <PARK x="1336" scaleX="1.2" group="deviceComp" deviceID="1420324" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A11" scaleY="1.2"/>
+    <PARK x="1348" scaleX="1.2" group="deviceComp" deviceID="1420325" rotation="0" width="10" height="19" source="assets/comp/PARK/bg.png" y="326" mark="CW" deviceName="C09A12" scaleY="1.2"/>
+    <TEXT text="车位总数" x="1259" color="255" y="5" group="commonComp" deviceID="" param="" width="74" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <LABEL x="1354" y="5" deviceID="1430001" param="totalCars" borderColor="999999" widthInChars="4" mark="CWYD" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="16" contentBackgroundAlpha="1" fontFamily="digifaw" text="" color="3407616" group="commonComp" rotation="0" sizeAuto="false" paramID="125" contentBackgroundColor="000000" textAlign="center" fontWeight="normal" deviceName="车位总数"/>
+    <TEXT text="剩余车位数" x="1244" color="255" y="40" group="commonComp" deviceID="" param="" width="92" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <LABEL x="1354" y="40" deviceID="1430001" param="surplusCars" borderColor="999999" widthInChars="4" mark="CWYD" borderVisible="true" source="assets/comp/TEXTINPUT/text.png" fontSize="16" contentBackgroundAlpha="1" fontFamily="digifaw" text="" color="3407616" group="commonComp" rotation="0" sizeAuto="false" paramID="128" contentBackgroundColor="000000" textAlign="center" fontWeight="normal" deviceName="车位总数"/>
+    <LABEL x="1354" y="75" deviceID="1430002" param="totalCars" borderColor="999999" widthInChars="4" mark="CWYD" borderVisible="true" source="assets/comp/TEXTINPUT/text.png" fontSize="16" contentBackgroundAlpha="1" fontFamily="digifaw" text="" color="3407616" group="commonComp" rotation="0" sizeAuto="false" paramID="125" contentBackgroundColor="000000" textAlign="center" fontWeight="normal" deviceName="B1区域"/>
+    <TEXT text="B1层车位数" x="1239" color="255" y="75" group="commonComp" deviceID="" param="" width="97" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <TEXT text="B1层剩余车位数" x="1204" color="255" y="110" group="commonComp" deviceID="" param="" width="133" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <LABEL x="1354" y="110" deviceID="1430002" param="surplusCars" borderColor="999999" widthInChars="4" mark="CWYD" borderVisible="true" source="assets/comp/TEXTINPUT/text.png" fontSize="16" contentBackgroundAlpha="1" fontFamily="digifaw" text="" color="3407616" group="commonComp" rotation="0" sizeAuto="false" paramID="128" contentBackgroundColor="000000" textAlign="center" fontWeight="normal" deviceName="B1区域"/>
+  </Components>
+</Configration>

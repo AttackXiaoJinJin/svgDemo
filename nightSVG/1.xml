@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1525" Height="731">
+  <LIST>
+    <Component>
+      <LTZMB/>
+      <LTZMC/>
+      <LTZME/>
+      <LTZMD/>
+      <SSCTRL/>
+      <NEWZMA/>
+      <NEWZMB/>
+      <NEWZMC/>
+      <NEWZMD/>
+      <NEWZME/>
+    </Component>
+    <Image>
+      <YJZM source="mapAssets/mapImages/YJZM.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <YJZM y="0" x="1" source="mapAssets/mapImages/YJZM.png" group="map" width="1300" height="731"/>
+    <LTZMB x="0" y="0" group="deviceComp" deviceID="3370001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMB/bg.png" mark="LTZMB" deviceName="大商业立面投光"/>
+    <!--<LTZMB x="0" y="0" group="deviceComp" deviceID="3370001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMB/control1/0/1.png" mark="LTZMB" deviceName="大商业立面投光"/>-->
+    <LTZMC x="0" y="0" group="deviceComp" deviceID="3380001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMC/bg.png" mark="LTZMC" deviceName="大商业筒灯照明"/>
+    <!--<LTZMC x="0" y="0" group="deviceComp" deviceID="3380001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMC/control1/0/1.png" mark="LTZMC" deviceName="大商业筒灯照明"/>-->
+    <LTZME x="0" y="0" group="deviceComp" deviceID="3400001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZME/bg.png" mark="LTZME" deviceName="大商业立面照明"/>
+    <!--<LTZME x="0" y="0" group="deviceComp" deviceID="3400001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZME/control1/0/1.png" mark="LTZME" deviceName="大商业立面照明"/>-->
+    <LTZMD x="0" y="0" group="deviceComp" deviceID="3390001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMD/bg.png" mark="LTZMD" deviceName="大商业主入口"/>
+    <!--<LTZMD x="0" y="0" group="deviceComp" deviceID="3390001" width="1300" height="731" isPrivate="true" source="retailers/jsczjtwy/mapAssets/mapImages/LTZMD/control1/0/1.png" mark="LTZMD" deviceName="大商业主入口"/>-->
+    <TEXT x="1311" y="494" deviceID="" param="" borderColor="0xffffff" fontSize="30" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="大商业立面照明" color="255" group="commonComp" sizeAuto="true" width="212" height="42" contentBackgroundColor="6710886" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1312" y="372" deviceID="" param="" borderColor="0xffffff" fontSize="30" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="大商业主入口" color="255" group="commonComp" sizeAuto="true" width="182" height="42" contentBackgroundColor="6710886" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1311" y="253" deviceID="" param="" borderColor="0xffffff" fontSize="30" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="大商业筒灯照明" color="255" group="commonComp" sizeAuto="true" width="212" height="42" contentBackgroundColor="6710886" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1309" y="133" deviceID="" param="" borderColor="0xffffff" fontSize="30" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="大商业立面投光" color="255" group="commonComp" sizeAuto="true" width="212" height="42" contentBackgroundColor="6710886" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1306" y="16" deviceID="" param="" borderColor="0xffffff" fontSize="30" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="大商业显示屏" color="0" group="commonComp" sizeAuto="true" width="182" height="42" contentBackgroundColor="6710886" textAlign="center" fontWeight="normal"/>
+    <SSCTRL paramID="97" x="1305" scaleX="1.5" group="commonComp" deviceID="3360001" scaleY="1.5" param="control" width="100" height="30" source="assets/comp/SSCTRL/control/0/1.png" y="50" deviceName="大商业显示屏" mark="LTZMA"/>
+    <SSCTRL paramID="97" x="1305" scaleX="1.5" group="commonComp" deviceID="3370001" scaleY="1.5" param="control" width="100" height="30" source="assets/comp/SSCTRL/control/0/1.png" y="170" deviceName="大商业立面投光" mark="LTZMB"/>
+    <SSCTRL paramID="97" x="1305" scaleX="1.5" group="commonComp" deviceID="3380001" scaleY="1.5" param="control" width="100" height="30" source="assets/comp/SSCTRL/control/0/1.png" y="290" deviceName="大商业筒灯" mark="LTZMC"/>
+    <SSCTRL paramID="97" x="1305" scaleX="1.5" group="commonComp" deviceID="3390001" scaleY="1.5" param="control" width="100" height="30" source="assets/comp/SSCTRL/control/0/1.png" y="410" deviceName="大商业主入口" mark="LTZMD"/>
+    <SSCTRL paramID="97" x="1305" scaleX="1.5" group="commonComp" deviceID="3400001" scaleY="1.5" param="control" width="100" height="30" source="assets/comp/SSCTRL/control/0/1.png" y="530" deviceName="大商业立面照明" mark="LTZME"/>
+    <NEWZMA x="1485" isControl="true" group="commonComp" deviceID="3360001" width="80" scaleX="0.5" height="80" y="50" mark="LTZMA" source="assets/comp/NEWZMA/bg.png" deviceName="大商业显示屏" scaleY="0.5"/>
+    <NEWZMB x="1485" isControl="true" group="commonComp" deviceID="3370001" width="80" scaleX="0.5" height="80" y="170" mark="LTZMB" source="assets/comp/NEWZMB/bg.png" deviceName="大商业立面投光" scaleY="0.5"/>
+    <NEWZMC x="1485" isControl="true" group="commonComp" deviceID="3380001" width="80" scaleX="0.5" height="80" y="290" mark="LTZMC" source="assets/comp/NEWZMC/bg.png" deviceName="大商业筒灯" scaleY="0.5"/>
+    <NEWZMD x="1485" isControl="true" group="commonComp" deviceID="3390001" width="80" scaleX="0.5" height="80" y="410" mark="LTZMD" source="assets/comp/NEWZMD/bg.png" deviceName="大商业主入口" scaleY="0.5"/>
+    <NEWZME x="1485" isControl="true" group="commonComp" deviceID="3400001" width="80" scaleX="0.5" height="80" y="530" mark="LTZME" source="assets/comp/NEWZME/bg.png" deviceName="大商业立面照明" scaleY="0.5"/>
+  </Components>
+</Configration>

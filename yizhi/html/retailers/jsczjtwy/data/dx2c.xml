@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1614" Height="714">
+  <LIST>
+    <Component>
+      <NEWZMA1/>
+      <NEWZMA2/>
+      <NEWZMB/>
+      <NEWZMC/>
+      <SSCTRL/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE height="714" group="map" source="mapAssets/mapImages/B1Node.png" x="0" width="1434" y="0"/>
+    <NEWZMA1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车道灯1组" mark="TCCA1" y="145" group="commonComp" source="assets/comp/NEWZMA1/bg.png" x="1450" isControl="true" deviceID="3290001"/>
+    <NEWZMA2 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车道灯2组" mark="TCCA2" y="245" group="commonComp" source="assets/comp/NEWZMA2/bg.png" x="1450" isControl="true" deviceID="3300001"/>
+    <TEXT height="25" y="115" borderColor="0xffffff" text="地下一层车道灯1组" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="180" fontFamily="微软雅黑" param="" deviceID="" x="1417" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="204" borderColor="0xffffff" text="地下一层车道灯2组" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="180" fontFamily="微软雅黑" param="" deviceID="" x="1426" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯1组" mark="TCCB" y="345" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="1450" isControl="true" deviceID="3310001"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯2组" mark="TCCC" y="445" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="1450" isControl="true" deviceID="3320001"/>
+    <TEXT height="25" y="308" borderColor="0xffffff" text="地下一层车位灯1组" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="180" fontFamily="微软雅黑" param="" deviceID="" x="1429" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="412" borderColor="0xffffff" text="地下一层车位灯2组" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="180" fontFamily="微软雅黑" param="" deviceID="" x="1434" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <SSCTRL deviceName="地下一层车道灯1组" width="100" height="30" deviceID="3290001" paramID="97" param="control" mark="TCCA1" y="150" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1504"/>
+    <SSCTRL deviceName="地下一层车道灯2组" width="100" height="30" deviceID="3300001" paramID="97" param="control" mark="TCCA2" y="248" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1505"/>
+    <SSCTRL deviceName="地下一层车位灯1组" width="100" height="30" deviceID="3310001" paramID="97" param="control" mark="TCCB" y="352" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1506"/>
+    <SSCTRL deviceName="地下一层车位灯2组" width="100" height="30" deviceID="3320001" paramID="97" param="control" mark="TCCC" y="452" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1506"/>
+    <LCB1 scaleX="1" scaleY="1" height="92" width="110" x="10" y="10" group="bg" source="assets/comp/LCB1.png"/>
+    <NEWZMA1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车道灯1组" mark="TCCA1" y="258" group="commonComp" source="assets/comp/NEWZMA1/bg.png" x="358" isControl="true" deviceID="3290001"/>
+    <NEWZMA2 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车道灯2组" mark="TCCA2" y="263" group="commonComp" source="assets/comp/NEWZMA2/bg.png" x="720" isControl="true" deviceID="3300001"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯1组" mark="TCCB" y="207" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="530" isControl="true" deviceID="3310001"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯2组" mark="TCCC" y="330" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="528" isControl="true" deviceID="3320001"/>
+    <NEWZMA1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车道灯1组" mark="TCCA1" y="260" group="commonComp" source="assets/comp/NEWZMA1/bg.png" x="1180" isControl="true" deviceID="3290001"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯1组" mark="TCCB" y="217" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="1298" isControl="true" deviceID="3310001"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="地下一层车位灯2组" mark="TCCC" y="367" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="1029" isControl="true" deviceID="3320001"/>
+  </Components>
+</Configration>

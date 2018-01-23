@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1339" Height="724">
+  <LIST>
+    <Component>
+      <LXJZ/>
+      <LGJZ/>
+      <LQB/>
+      <JSQ/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LXJZ x="760" source="assets/comp/LXJZ/alarm/0/1.png" deviceName="3#冷机" deviceID="10023" mark="LSJ" y="60" rotation="90" width="256" height="147" scaleX="0.7" scaleY="0.7"/>
+    <LXJZ x="500" source="assets/comp/LXJZ/alarm/0/1.png" deviceName="1#冷机" deviceID="10021" mark="LSJ" y="60" rotation="90" width="256" height="147" scaleX="0.7" scaleY="0.7"/>
+    <LGJZ x="870" source="assets/comp/LGJZ/alarm/0/1.png" deviceName="螺杆机" deviceID="10024" mark="LGJZ" y="60" rotation="90" width="256" height="129" scaleX="0.6" scaleY="0.6"/>
+    <LQB x="1166" source="assets/comp/LQB/alarm/0/1.png" deviceName="1#冷却水泵" deviceID="10005" mark="LQB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="130" source="assets/comp/LQB/alarm/0/1.png" deviceName="2#冷冻水泵" deviceID="10002" mark="LDB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="1095" source="assets/comp/LQB/alarm/0/1.png" deviceName="2#冷却水泵" deviceID="10006" mark="LQB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="1025" source="assets/comp/LQB/alarm/0/1.png" deviceName="3#冷却水泵" deviceID="10007" mark="LQB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="60" source="assets/comp/LQB/alarm/0/1.png" deviceName="1#冷冻水泵" deviceID="10001" mark="LDB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="275" source="assets/comp/LQB/alarm/0/1.png" deviceName="1#螺杆机冷冻水泵" deviceID="10017" mark="LDB" y="100" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <LXJZ x="630" source="assets/comp/LXJZ/alarm/0/1.png" deviceName="2#冷机" deviceID="10022" mark="LSJ" y="60" rotation="90" width="256" height="147" scaleX="0.7" scaleY="0.7"/>
+    <LQB x="335.95000000000005" source="assets/comp/LQB/alarm/0/1.png" deviceName="2#螺杆机冷冻水泵" deviceID="10018" mark="LDB" y="100" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <LQB x="200" source="assets/comp/LQB/alarm/0/1.png" deviceName="3#冷冻水泵" deviceID="10003" mark="LDB" y="100" rotation="0" width="88" height="87" scaleX="0.5" scaleY="0.5"/>
+    <LQB x="890" source="assets/comp/LQB/alarm/0/1.png" deviceName="2#螺杆机冷却水泵" deviceID="10020" mark="LQB" y="100" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <LQB x="950" source="assets/comp/LQB/alarm/0/1.png" deviceName="1#螺杆机冷却水泵" deviceID="10019" mark="LQB" y="100" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <LQB x="105" source="assets/comp/LQB/alarm/0/1.png" deviceName="1#补水泵" deviceID="10009" mark="BSB" y="250" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <LQB x="105" source="assets/comp/LQB/alarm/0/1.png" deviceName="2#补水泵" deviceID="10010" mark="BSB" y="330" rotation="0" width="88" height="87" scaleX="0.45" scaleY="0.45"/>
+    <JSQ x="220" source="assets/comp/JSQ/bg.png" deviceID="" y="420" width="159" scaleX="1.5" height="72"/>
+    <JSQ x="520" source="assets/comp/JSQ/bg.png" deviceID="" y="420" width="159" scaleX="1.5" height="72"/>
+    <JSQ x="835" source="assets/comp/JSQ/bg.png" deviceID="" y="430" width="159" scaleX="1" scaleY="0.7" height="72"/>
+    <JSQ x="1035" source="assets/comp/JSQ/bg.png" deviceID="" y="430" width="159" scaleX="1" scaleY="0.7" height="72"/>
+    <TEXT x="281.9" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="445" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="主力店分水器" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="583" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="443" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="主力店集水器" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="859" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="444" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="步行街分水器" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="1062" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="443" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="步行街集水器" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="400" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="250" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="1#离心机" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="530" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="250" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="2#离心机" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="660" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="250" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="3#离心机" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="790" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="250" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="4#螺杆机" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="45" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="151" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="1#冷冻泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="115" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="150" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="2#冷冻泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="268" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="149" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="螺杆机冷冻泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="1155" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="148" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="1#冷却泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="1085" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="148" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="2#冷却泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="1014" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="147" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="3#冷却泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="889" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="148" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="98" contentBackgroundColor="16777215" color="0" text="螺杆机冷却泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="186" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="150" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="3#冷冻泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="92" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="291" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="1#补水泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+    <TEXT x="94" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" y="370" textAlign="center" fontWeight="normal" borderColor="0xffffff" height="24" width="70" contentBackgroundColor="16777215" color="0" text="2#补水泵" deviceID="" param="" fontFamily="微软雅黑" contentBackgroundAlpha="0" borderVisible="false" sizeAuto="true" fontSize="16"/>
+  </Components>
+</Configration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1057.6510067114093" Height="538">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scale="0.7" rotation="0" x="40" y="0"/>
+    <DWCQ scale="0.3" deviceID="" rotation="0" x="279" y="55"/>
+    <DWCQ scale="0.3" deviceID="" rotation="0" x="664" y="63"/>
+  </Components>
+</Configration>

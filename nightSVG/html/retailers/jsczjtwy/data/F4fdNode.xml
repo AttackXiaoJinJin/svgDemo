@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <BFSTATE/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <SBN source="assets/comp/TULI/SBN.png"/>
+      <SBA source="assets/comp/TULI/SBA.png"/>
+      <ALARMR source="assets/comp/alarm_r.png"/>
+      <ALARMG source="assets/comp/alarm_g.png"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE rotation="0" group="map" x="0" y="0" source="mapAssets/mapImages/F4Node.png" scaleY="1" scaleX="1"/>
+    <TULI rotation="0" group="tuli" x="1205" y="584" source="assets/comp/TULI/TULI.png" scaleY="1" scaleX="1"/>
+    <TEXT sizeAuto="true" color="0" group="commonComp" fontWeight="normal" textAlign="right" fontFamily="微软雅黑" deviceID="" rotation="0" borderColor="0xffffff" text="正常" fontSize="16" widthInChars="2" x="1234" scaleX="1" y="630.8" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" width="36" borderVisible="false" height="21" param="" scaleY="1"/>
+    <TEXT sizeAuto="true" color="0" group="commonComp" fontWeight="normal" textAlign="right" fontFamily="微软雅黑" deviceID="" rotation="0" borderColor="0xffffff" text="报警" fontSize="16" widthInChars="2" x="1234" scaleX="1" y="657" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" width="36" borderVisible="false" height="21" param="" scaleY="1"/>
+    <SBN rotation="0" group="tuli" x="1358" y="630" source="assets/comp/TULI/SBN.png" scaleY="0.35" scaleX="0.35"/>
+    <SBA rotation="0" group="tuli" x="1358" y="660.8" source="assets/comp/TULI/SBA.png" scaleY="0.35" scaleX="0.35"/>
+    <ALARMR rotation="0" group="bg" x="1275" y="660.8" source="assets/comp/alarm_r.png" scaleY="0.35" scaleX="0.35"/>
+    <TEXT sizeAuto="true" color="0" group="commonComp" fontWeight="normal" textAlign="right" fontFamily="微软雅黑" deviceID="" rotation="0" borderColor="0xffffff" text="红外" fontSize="16" widthInChars="2" x="1270" scaleX="1" y="605.8" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" width="36" borderVisible="false" height="21" param="" scaleY="1"/>
+    <TEXT sizeAuto="true" color="0" group="commonComp" fontWeight="normal" textAlign="right" fontFamily="微软雅黑" deviceID="" rotation="0" borderColor="0xffffff" text="手按" fontSize="16" widthInChars="2" x="1353" scaleX="1" y="608" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" width="36" borderVisible="false" height="21" param="" scaleY="1"/>
+    <ALARMG rotation="0" group="bg" x="1276" y="629.95" source="assets/comp/alarm_g.png" scaleY="0.35" scaleX="0.35"/>
+    <LCF4 group="bg" x="10" y="10" source="assets/comp/LCF4.png" scaleY="1" width="110" scaleX="1" height="92"/>
+    <BFSTATE group="commonComp" x="200" y="100" source="assets/comp/BFSTATE/bfState/0/1.png" scaleY="1.5" width="58" scaleX="1.5" height="25" deviceName="防盗报警主机" deviceID="690001" mark="BJX"/>
+    <TEXT sizeAuto="true" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="爱上铜锣湾KTV" fontSize="12" widthInChars="4" x="838" y="461" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="92" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="true" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="金仕堡健身" fontSize="12" widthInChars="4" x="838" y="476" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="67" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="true" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="星轶国际影城" fontSize="12" widthInChars="4" x="838" y="491" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="80" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4001" fontSize="12" widthInChars="4" x="968" y="461" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="29" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4002" fontSize="12" widthInChars="4" x="968" y="476" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="30" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4003" fontSize="12" widthInChars="4" x="968" y="491" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="30" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4001" fontSize="12" widthInChars="4" x="1095" y="231" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="29" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4002" fontSize="12" widthInChars="4" x="1086" y="332" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="30" borderVisible="false" height="17" param=""/>
+    <TEXT sizeAuto="false" color="13408512" group="commonComp" fontWeight="normal" textAlign="center" fontFamily="微软雅黑" deviceID="" borderColor="0xffffff" text="4003" fontSize="12" widthInChars="4" x="1254" y="319" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" contentBackgroundColor="16777215" width="30" borderVisible="false" height="17" param=""/>
+  </Components>
+</Configration>

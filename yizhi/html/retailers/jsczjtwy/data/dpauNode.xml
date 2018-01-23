@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration >
+  <LIST>
+    <Component>
+      <EA/>
+      <HANDAUTO/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <EA width="1009" height="393" deviceName="1F-DK1吊装空调" x="0" y="0" group="deviceComp" source="assets/comp/EA/alarm/0/1.png" mark="DPAU" deviceID="76"/>
+    <HANDAUTO deviceName="空调BX-1AP(K)1-1" width="58" alarm="HANDAUTO" height="25" paramID="38" param="handAuto" x="575" y="22" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="DPAU" deviceID="76"/>
+  </Components>
+</Configration>

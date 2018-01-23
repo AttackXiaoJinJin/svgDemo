@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="742">
+  <LIST>
+    <Component>
+      <LUXCQ/>
+      <WETCQ/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+      <LCF3 source="assets/comp/LCF3.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE y="0" source="mapAssets/mapImages/F3Node.png" group="map" x="0" width="1434" height="714"/>
+    <LUXCQ x="527" y="382" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <LABEL x="557" y="377" deviceID="3050010" param="zhaodu" borderColor="999999" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="119" sizeAuto="false" mark="HJJKZDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="3层1#照度（6号门）"/>
+    <LCF3 y="10" source="assets/comp/LCF3.png" group="bg" x="10" width="110" height="92"/>
+    <TULI y="500" source="assets/comp/TULI/TULI.png" group="tuli" x="1100" width="225" height="124"/>
+    <TEXT text="照度(Lux)" x="1200" color="6710886" y="535" group="commonComp" deviceID="" param="" width="85" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <WETCQ x="1150" y="570" group="commonComp" deviceID="" width="16" height="19" source="assets/comp/WETCQ/bg.png"/>
+    <LUXCQ x="1150" y="540" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <TEXT text="湿度(%)" x="1200" color="6710886" y="570" group="commonComp" deviceID="" param="" width="69" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <LABEL x="277" y="419" deviceID="3050011" param="zhaodu" borderColor="999999" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="119" sizeAuto="false" mark="HJJKZDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="3层2#照度（7号门）"/>
+    <LUXCQ x="248" y="423" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <WETCQ x="528" y="348" group="commonComp" deviceID="" width="16" height="19" source="assets/comp/WETCQ/bg.png"/>
+    <LABEL x="558" y="344" deviceID="3010010" param="inWet" borderColor="999999" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="128" sizeAuto="false" mark="HJJKSDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="3层 1#湿度监测（6号门）"/>
+    <LABEL x="276" y="385" deviceID="3010011" param="inWet" borderColor="999999" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="128" sizeAuto="false" mark="HJJKSDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="3层 2#湿度监测（7号门）"/>
+    <WETCQ x="251" y="387" group="commonComp" deviceID="" width="16" height="19" source="assets/comp/WETCQ/bg.png"/>
+    <TEXT text="正常光照强度范围      50-300LUX" x="550" color="13311" y="30" group="commonComp" deviceID="" param="" width="218" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+    <TEXT text="正常湿度范围                 20-100%" x="550" color="13311" y="60" group="commonComp" deviceID="" param="" width="218" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+    <TEXT text="正常温度范围                  20-30℃" x="550" color="13311" y="90" group="commonComp" deviceID="" param="" width="214" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+  </Components>
+</Configration>

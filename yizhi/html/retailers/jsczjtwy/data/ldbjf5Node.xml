@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LDN source="assets/comp/TULI/LDN.png"/>
+      <LDYJ source="assets/comp/TULI/LDYJ.png"/>
+      <LDDX source="assets/comp/TULI/LDDX.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="0" scaleX="1" scaleY="1" rotation="0" y="0"/>
+    <LDCQ x="585" isToolTip="true" y="418" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="740" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="563" y="393" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井B1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <TULI x="1200" scaleX="1" scaleY="1" rotation="0" y="545" width="179"/>
+    <TEXT fontFamily="微软雅黑" x="1220" y="575" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="正常" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="1315" y="574" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="报警" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <LDN x="1220" scaleX="0.5" scaleY="0.5" rotation="0" y="600"/>
+    <LDYJ x="1315" scaleX="0.5" scaleY="0.5" rotation="0" y="600"/>
+    <LDDX x="1265" scaleX="0.5" scaleY="0.5" rotation="0" y="600"/>
+    <TEXT fontFamily="微软雅黑" x="1265" y="575" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="掉线" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="608" y="418" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="5AT4" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="44" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="259" y="190" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="系统正在巡检中..." fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="129" sizeAuto="true" widthInChars="4"/>
+  </Components>
+</Configration>

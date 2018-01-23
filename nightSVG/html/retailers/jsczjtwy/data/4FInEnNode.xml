@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <LUXCQ/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE height="714" y="0" width="1434" group="map" source="mapAssets/mapImages/F4Node.png" x="0"/>
+    <LUXCQ deviceID="" group="commonComp" width="16" x="466" height="16" y="417" source="assets/comp/LUXCQ/bg.png"/>
+    <LABEL x="445" paramID="119" deviceID="3050039" mark="HJJKZDD" fontWeight="normal" borderColor="999999" rotation="0" widthInChars="4" contentBackgroundAlpha="1" fontSize="12" borderVisible="true" param="zhaodu" text="0101" sizeAuto="false" group="commonComp" source="assets/comp/TEXTINPUT/text.png" textAlign="right" y="436" contentBackgroundColor="000000" color="3407616" deviceName="4层4#照度" fontFamily="digifaw"/>
+    <TEXT x="503" param="" deviceID="" text="Lux" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="436" widthInChars="4" width="33" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <LCF4 height="92" y="10" width="110" group="bg" source="assets/comp/LCF4.png" x="10"/>
+    <LABEL x="543" paramID="73" deviceID="1410016" mark="BAEN" fontWeight="normal" borderColor="999999" rotation="0" widthInChars="4" contentBackgroundAlpha="1" fontSize="12" borderVisible="true" param="inTemp1" text="0101" sizeAuto="false" group="commonComp" source="assets/comp/TEXTINPUT/text.png" textAlign="right" y="410" contentBackgroundColor="000000" color="3407616" deviceName="4层2#温度" fontFamily="digifaw"/>
+    <TEXT x="600" param="" deviceID="" text="°C" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="411" widthInChars="4" width="22" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="514" param="" deviceID="" text="正常光照强度范围" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="73" widthInChars="4" width="154" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="546" param="" deviceID="" text="正常温度范围" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="111" widthInChars="4" width="116" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="690" param="" deviceID="" text=" 50~300LUX   " sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="left" height="22" y="74" widthInChars="4" width="113" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="690" param="" deviceID="" text=" 20~30°C    " sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="left" height="22" y="112" widthInChars="4" width="92" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+  </Components>
+</Configration>

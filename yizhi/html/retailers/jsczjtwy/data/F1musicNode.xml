@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <TRUMPET/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <YXC source="assets/comp/TULI/YXC.png"/>
+      <YXO source="assets/comp/TULI/YXO.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE y="0" height="714" width="1434" x="0"/>
+    <TULI rotation="0" x="1222" y="595" scaleX="0.8" scaleY="0.8"/>
+    <YXC rotation="0" x="1335" y="645" scaleX="0.5" scaleY="0.5"/>
+    <YXO rotation="0" x="1255" y="645" scaleX="0.5" scaleY="0.5"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="0" width="70" height="21" widthInChars="4" borderColor="0xffffff" text="开启状态" textAlign="center" sizeAuto="true" rotation="0" fontSize="16" x="1245" y="620" scaleX="1" scaleY="1" fontFamily="微软雅黑" deviceID=""/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="0" width="70" height="21" widthInChars="4" borderColor="0xffffff" text="关闭状态" textAlign="center" sizeAuto="true" rotation="0" fontSize="16" x="1315" y="620" scaleX="1" scaleY="1" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="754" x="256.09999999999997" width="64" scaleX="0.7" height="64" scaleY="0.7" y="435.2" deviceName="1F-4长廊"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="307" y="446" sizeAuto="false" fontFamily="digifaw" deviceID="754" deviceName="1F-4长廊"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="长街" textAlign="center" sizeAuto="true" fontSize="18" x="285" y="484" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="长街" textAlign="center" sizeAuto="true" fontSize="18" x="660" y="249" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="754" x="502" width="64" scaleX="0.7" height="64" scaleY="0.7" y="238" deviceName="1F-4长廊"/>
+    <TRUMPET mark="YX" deviceID="754" x="754.05" width="64" scaleX="0.7" height="64" scaleY="0.7" y="237.64999999999998" deviceName="1F-4长廊"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="554" y="249" sizeAuto="false" fontFamily="digifaw" deviceID="754" deviceName="1F-4长廊"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="802" y="247" sizeAuto="false" fontFamily="digifaw" deviceID="754" deviceName="1F-4长廊"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="长街" textAlign="center" sizeAuto="true" fontSize="18" x="1088" y="507" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="754" x="1050.95" width="64" scaleX="0.7" height="64" scaleY="0.7" y="459.65" deviceName="1F-4长廊"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="1099" y="472" sizeAuto="false" fontFamily="digifaw" deviceID="754" deviceName="1F-4长廊"/>
+    <TRUMPET mark="YX" deviceID="753" x="977.8" width="64" scaleX="0.7" height="64" scaleY="0.7" y="269.09999999999997" deviceName="1F-3东圆"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="1026" y="278" sizeAuto="false" fontFamily="digifaw" deviceID="753" deviceName="1F-3东圆"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="东圆" textAlign="center" sizeAuto="true" fontSize="18" x="1008" y="314" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="752" x="278" width="64" scaleX="0.7" height="64" scaleY="0.7" y="253.34999999999997" deviceName="1F-2西圆"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="西圆" textAlign="center" sizeAuto="true" fontSize="18" x="311" y="303" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="325" y="264" sizeAuto="false" fontFamily="digifaw" deviceID="752" deviceName="1F-2西圆"/>
+    <TRUMPET mark="YX" deviceID="751" x="190.29999999999995" width="64" scaleX="0.7" height="64" scaleY="0.7" y="645.3999999999999" deviceName="1F-1室外"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="室外" textAlign="center" sizeAuto="true" fontSize="18" x="226" y="627" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="247" y="653" sizeAuto="false" fontFamily="digifaw" deviceID="751" deviceName="1F-1室外"/>
+    <TRUMPET mark="YX" deviceID="751" x="1055.65" width="64" scaleX="0.7" height="64" scaleY="0.7" y="642.6000000000001" deviceName="1F-1室外"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="1112" y="651" sizeAuto="false" fontFamily="digifaw" deviceID="751" deviceName="1F-1室外"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="室外" textAlign="center" sizeAuto="true" fontSize="18" x="1089" y="624" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="751" x="308" width="64" scaleX="0.7" height="64" scaleY="0.7" y="13.099999999999994" deviceName="1F-1室外"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="363" y="24" sizeAuto="false" fontFamily="digifaw" deviceID="751" deviceName="1F-1室外"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="室外" textAlign="center" sizeAuto="true" fontSize="18" x="337" y="58" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+    <TRUMPET mark="YX" deviceID="751" x="893.1499999999999" width="64" scaleX="0.7" height="64" scaleY="0.7" y="14" deviceName="1F-1室外"/>
+    <LABEL fontWeight="normal" contentBackgroundAlpha="0" mark="YX" borderVisible="true" param="volume" paramID="27" color="3407616" width="50" widthInChars="4" borderColor="999999" text="0101" textAlign="right" contentBackgroundColor="000000" rotation="0" fontSize="16" x="940" y="24" sizeAuto="false" fontFamily="digifaw" deviceID="751" deviceName="1F-1室外"/>
+    <TEXT fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" param="" color="255" width="40" height="22" widthInChars="4" borderColor="0xffffff" text="室外" textAlign="center" sizeAuto="true" fontSize="18" x="922" y="58" contentBackgroundColor="16777215" fontFamily="微软雅黑" deviceID=""/>
+  </Components>
+</Configration>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <LIFTD2/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <DTN source="assets/comp/TULI/DTN.png"/>
+      <DTA source="assets/comp/TULI/DTA.png"/>
+      <DTR source="assets/comp/TULI/DTR.png"/>
+      <LCF1 source="assets/comp/LCF1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE y="0" x="0" source="mapAssets/mapImages/F1Node.png" scaleY="1" group="map" width="1434" height="714"/>
+    <TULI y="465" x="968" source="assets/comp/TULI/TULI.png" scaleY="1.2" group="tuli" width="225" height="124"/>
+    <TEXT widthInChars="4" fontSize="12" y="356" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="473" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT1" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="18" fontWeight="normal" y="504" contentBackgroundAlpha="0" borderColor="0xffffff" textAlign="center" borderVisible="false" param="" source="assets/comp/TEXTINPUT/label.png" color="0x444444" sizeAuto="true" text="电梯正常" group="commonComp" deviceID="" fontFamily="微软雅黑" x="1003" width="78" height="22"/>
+    <TEXT widthInChars="4" fontSize="18" fontWeight="normal" y="538" contentBackgroundAlpha="0" borderColor="0xffffff" textAlign="center" borderVisible="false" param="" source="assets/comp/TEXTINPUT/label.png" color="0x444444" sizeAuto="true" text="电梯故障" group="commonComp" deviceID="" fontFamily="微软雅黑" x="1003" width="78" height="22"/>
+    <DTN y="503" x="1115" source="assets/comp/TULI/DTN.png" scaleX="0.2" scaleY="0.2" height="128" width="128" group="tuli"/>
+    <DTA y="538" x="1115" source="assets/comp/TULI/DTA.png" scaleX="0.2" scaleY="0.2" height="128" width="128" group="tuli"/>
+    <LIFTD2 y="339" x="501" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-1" deviceID="840012" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <DTR y="571" x="1115" source="assets/comp/TULI/DTR.png" scaleX="0.7" scaleY="0.5" height="52" width="36" group="tuli"/>
+    <TEXT widthInChars="4" fontSize="18" fontWeight="normal" y="572" contentBackgroundAlpha="0" borderColor="0xffffff" textAlign="center" borderVisible="false" param="" source="assets/comp/TEXTINPUT/label.png" color="0x444444" sizeAuto="true" text="电梯运行" group="commonComp" deviceID="" fontFamily="微软雅黑" x="1003" width="78" height="22"/>
+    <LCF1 y="10" x="10" source="assets/comp/LCF1.png" scaleX="1" scaleY="1" height="92" width="110" group="bg"/>
+    <TEXT widthInChars="4" fontSize="12" y="354" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="562" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT2" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="146" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1089" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT3" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="184" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1089" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT4" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="145" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1178" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT5" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="186" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1179" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT6" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="357" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="170" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT7" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="358" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="256" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT8" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="429" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="11" width="34" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="恒记1" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="429" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="104" width="34" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="恒记2" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="387" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1014" width="31" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="KT11" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="163" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="324" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT1" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="165" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="611" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT2" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="496" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="129" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT3" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="499" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="217" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT4" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="388" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="360" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT5" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="375" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="754" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT6" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="382" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="846" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT7" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="166" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="968" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT8" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="373" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1192" width="31" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT10" deviceID="" fontFamily="微软雅黑"/>
+    <TEXT widthInChars="4" fontSize="12" y="374" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1283" width="31" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT11" deviceID="" fontFamily="微软雅黑"/>
+    <LIFTD2 y="339" x="530" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-2" deviceID="840013" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="132" x="1117" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-3" deviceID="840014" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="173" x="1116" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-4" deviceID="840015" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="131" x="1149" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-5" deviceID="840016" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="173" x="1149" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-6" deviceID="840017" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="343" x="197" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-7" deviceID="840018" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="344" x="226" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-8" deviceID="840019" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="417" x="46" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="恒记饭店1" deviceID="840021" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="417" x="75" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="恒记饭店2" deviceID="840022" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="156" x="350" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-1" deviceID="840001" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="153" x="638" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-2" deviceID="840002" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="484" x="155" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-3" deviceID="840003" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="484" x="185" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-4" deviceID="840004" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="374" x="395" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-5" deviceID="840005" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="368" x="783" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-6" deviceID="840006" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="368" x="812" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-7" deviceID="840007" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="155" x="996" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-8" deviceID="840008" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="364" x="1223" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-10" deviceID="840010" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="363" x="1251" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-11" deviceID="840011" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="380" x="1047" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="KT-11" deviceID="840020" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <LIFTD2 y="374" x="1142" height="52" source="assets/comp/LIFTD2/bg.png" scaleX="0.8" deviceName="HT-9" deviceID="840009" width="36" group="deviceComp" scaleY="0.8" mark="LIFTD"/>
+    <TEXT widthInChars="4" fontSize="12" y="384" contentBackgroundAlpha="1" borderColor="0xffffff" borderVisible="false" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" color="255" x="1114" width="25" fontWeight="normal" height="17" textAlign="center" param="" source="assets/comp/TEXTINPUT/label.png" text="HT9" deviceID="" fontFamily="微软雅黑"/>
+  </Components>
+</Configration>

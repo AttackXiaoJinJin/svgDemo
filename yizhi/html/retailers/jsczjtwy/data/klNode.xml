@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <KELIU/>
+    </Component>
+    <Image>
+      <SXT source="assets/comp/sxt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <KELIU rotation="0" scale="1" deviceID="" x="63" y="14"/>
+    <TEXT textAlign="right" text="蓝色&lt;60%" rotation="0" color="39423" param="" fontFamily="黑体" scale="1" widthInChars="5" fontWeight="normal" fontSize="22" deviceID="" x="139" y="460"/>
+    <TEXT textAlign="right" text="红色>60%" rotation="0" color="16711680" param="" fontFamily="黑体" scale="1" widthInChars="6" fontWeight="normal" fontSize="22" deviceID="" x="212" y="460"/>
+    <TEXT textAlign="right" text="绿色&lt;30%" rotation="0" color="65280" param="" fontFamily="黑体" scale="1" widthInChars="5" fontWeight="normal" fontSize="22" deviceID="" x="40" y="460"/>
+    <LABEL textAlign="right" text="" rotation="0" color="65280" param="firstDoorPersons" fontFamily="digifaw" scale="1" widthInChars="3" fontWeight="normal" fontSize="16" deviceID="7484" x="842" y="62"/>
+    <LABEL textAlign="right" text="" rotation="0" color="65280" param="secondDoorPersons" fontFamily="digifaw" scale="1" widthInChars="3" fontWeight="normal" fontSize="16" deviceID="7484" x="186" y="30"/>
+    <LABEL textAlign="right" text="" rotation="0" color="65280" param="thirdDoorPersons" fontFamily="digifaw" scale="1" widthInChars="3" fontWeight="normal" fontSize="16" deviceID="7484" x="350" y="436"/>
+    <SXT scale="0.5" rotation="0" x="159" y="67"/>
+    <SXT scale="0.5" rotation="0" x="798" y="94"/>
+    <SXT scale="0.5" rotation="0" x="393" y="395"/>
+    <LABEL textAlign="right" text="" rotation="0" color="65280" param="personNum" fontFamily="digifaw" scale="1" widthInChars="5" fontWeight="normal" fontSize="16" deviceID="7484" x="936" y="452"/>
+    <TEXT textAlign="right" text="广场总人数" rotation="0" color="65280" param="" fontFamily="黑体" scale="1" widthInChars="5" fontWeight="normal" fontSize="22" deviceID="" x="819" y="451"/>
+  </Components>
+</Configration>

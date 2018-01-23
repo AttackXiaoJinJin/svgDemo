@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1429" Height="717">
+  <LIST>
+    <Component>
+      <JSBJ/>
+      <YCQ/>
+      <HANDBTN/>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <XFFQF4Q1 source="mapAssets/mapImages/XFFQF4/XFFQF4_1.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQF4Q1 ky="0" x="-5" y="3" isLocation="true" ay="38" ax="72" width="1434" kx="0" height="714"/>
+    <JSBJ x="167" isToolTip="true" y="175" scaleY="0.3" scaleX="0.3" deviceName="10.5a6136三层步行街西回廊排烟40#" deviceID="22503" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="191" isToolTip="true" y="176" scaleY="0.3" scaleX="0.3" deviceName="10.5a4e91三层LT03北侧直灌加压41#" deviceID="22502" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="215" isToolTip="true" y="193" scaleY="0.3" scaleX="0.3" deviceName="10.54e684三层P2强电井楼顶烟感35#" deviceID="20991" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="167" isToolTip="true" y="199" scaleY="0.3" scaleX="0.3" deviceName="10.593ea3三层步行街西圆排烟45#" deviceID="22498" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="191" isToolTip="true" y="198" scaleY="0.3" scaleX="0.3" deviceName="10.598405三层LT03南侧直灌加压44#" deviceID="22499" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="166" isToolTip="true" y="220" scaleY="0.3" scaleX="0.3" deviceName="10.593fde三层LT03地下室加压43#" deviceID="22500" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="191" isToolTip="true" y="221" scaleY="0.3" scaleX="0.3" deviceName="10.598420三层步行街西回廊排烟42#" deviceID="22501" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="166" isToolTip="true" y="243" scaleY="0.3" scaleX="0.3" deviceName="10.5a7478三层步行街西圆排烟39#" deviceID="22504" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="191" isToolTip="true" y="242" scaleY="0.3" scaleX="0.3" deviceName="10.596db8三层P2强电井电动窗33#" deviceID="22509" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="215" isToolTip="true" y="219" scaleY="0.3" scaleX="0.3" deviceName="10.596db9三层P2强电井电动窗34#" deviceID="22508" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="415" isToolTip="true" y="95" scaleY="0.3" scaleX="0.3" deviceName="12.5068a7三层烟感106#" deviceID="21163" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="406" isToolTip="true" y="118" scaleY="0.3" scaleX="0.3" deviceName="12.4fa8f4三层消火栓105#" deviceID="21915" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="449" isToolTip="true" y="101" scaleY="0.3" scaleX="0.3" deviceName="12.522e6c三层烟感104#" deviceID="21164" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="472" isToolTip="true" y="103" scaleY="0.3" scaleX="0.3" deviceName="12.5512d2三层烟感103#" deviceID="21165" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="496" isToolTip="true" y="106" scaleY="0.3" scaleX="0.3" deviceName="12.5512d0三层烟感102#" deviceID="21166" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="495" isToolTip="true" y="83" scaleY="0.3" scaleX="0.3" deviceName="12.593d32三层商场西货梯迫降108#" deviceID="22602" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="496" isToolTip="true" y="126" scaleY="0.3" scaleX="0.3" deviceName="12.596dbd三层商场西货梯迫降107#" deviceID="22603" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="485" isToolTip="true" y="153" scaleY="0.3" scaleX="0.3" deviceName="12.522ea9三层烟感100#" deviceID="21167" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="462" isToolTip="true" y="149" scaleY="0.3" scaleX="0.3" deviceName="12.4fa8f2三层消火栓101#" deviceID="21916" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="359" isToolTip="true" y="150" scaleY="0.3" scaleX="0.3" deviceName="12.596df8三层模块133#" deviceID="22578" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="359" isToolTip="true" y="174" scaleY="0.3" scaleX="0.3" deviceName="12.596dff三层P3强电井电动窗130#" deviceID="22580" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="358" isToolTip="true" y="196" scaleY="0.3" scaleX="0.3" deviceName="12.5a379f三层LT04地下室加压136#" deviceID="22563" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="358" isToolTip="true" y="218" scaleY="0.3" scaleX="0.3" deviceName="12.5a37a9三层P3井5#楼梯右直灌143#" deviceID="22572" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="333" isToolTip="true" y="197" scaleY="0.3" scaleX="0.3" deviceName="12.5a4ea2三层4#楼梯右直灌145#" deviceID="22589" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="381" isToolTip="true" y="218" scaleY="0.3" scaleX="0.3" deviceName="12.5a101b三层P3井21#楼梯加压142#" deviceID="22573" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="381" isToolTip="true" y="196" scaleY="0.3" scaleX="0.3" deviceName="12.5973f5三层步行街西货梯前室风机" deviceID="22616" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="382" isToolTip="true" y="173" scaleY="0.3" scaleX="0.3" deviceName="12.596df1三层P3强电井电动窗131#" deviceID="22579" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="383" isToolTip="true" y="151" scaleY="0.3" scaleX="0.3" deviceName="12.5512d5三层烟感132#" deviceID="21126" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="405" isToolTip="true" y="153" scaleY="0.3" scaleX="0.3" deviceName="12.5a4e9a三层步行街中庭排烟134#" deviceID="22592" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="405" isToolTip="true" y="172" scaleY="0.3" scaleX="0.3" deviceName="12.5a37a4三层步行街中庭排烟135#" deviceID="22591" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="405" isToolTip="true" y="195" scaleY="0.3" scaleX="0.3" deviceName="12.5a7477三层P3井4#楼梯左直灌138#" deviceID="22590" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="404" isToolTip="true" y="218" scaleY="0.3" scaleX="0.3" deviceName="12.61ee21三层西面商铺排烟144#" deviceID="22614" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="429" isToolTip="true" y="193" scaleY="0.3" scaleX="0.3" deviceName="12.5a747d三层5#楼梯间地下室加压140#" deviceID="22574" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="427" isToolTip="true" y="216" scaleY="0.3" scaleX="0.3" deviceName="12.593df4三层P3井东商铺排烟141#" deviceID="22615" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="429" isToolTip="true" y="170" scaleY="0.3" scaleX="0.3" deviceName="12.5a37ab三层P3井5#楼梯左直灌139#" deviceID="22575" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="882" isToolTip="true" y="99" scaleY="0.3" scaleX="0.3" deviceName="12.5fd730.5fd730 OP720-CN" deviceID="27448" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="847" isToolTip="true" y="100" scaleY="0.3" scaleX="0.3" deviceName="12.5fbb75.5fbb75 OP720-CN" deviceID="27447" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="822" isToolTip="true" y="101" scaleY="0.3" scaleX="0.3" deviceName="12.5068b1三层烟感45#" deviceID="21170" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="795" isToolTip="true" y="105" scaleY="0.3" scaleX="0.3" deviceName="12.506897三层烟感44#" deviceID="21169" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="794" isToolTip="true" y="83" scaleY="0.3" scaleX="0.3" deviceName="12.5984ab三层P4井3#货梯迫降42#" deviceID="22605" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="793" isToolTip="true" y="125" scaleY="0.3" scaleX="0.3" deviceName="12.596df7三层P4井4#货梯迫降43#" deviceID="22606" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="848" isToolTip="true" y="140" scaleY="0.3" scaleX="0.3" deviceName="12.54a3bd三层消火栓47#" deviceID="21917" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="822" isToolTip="true" y="139" scaleY="0.3" scaleX="0.3" deviceName="12.596df0三层模块41#" deviceID="22604" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="823" isToolTip="true" y="159" scaleY="0.3" scaleX="0.3" deviceName="12.521fd8三层烟感46#" deviceID="21171" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="798" isToolTip="true" y="180" scaleY="0.3" scaleX="0.3" deviceName="12.5974e9三层LT06地下加压54#" deviceID="22564" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="798" isToolTip="true" y="203" scaleY="0.3" scaleX="0.3" deviceName="12.593fdc三层P4井6#楼梯右直灌58#" deviceID="22565" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="799" isToolTip="true" y="224" scaleY="0.3" scaleX="0.3" deviceName="12.596d1d三层7#楼梯间地下室加压59#" deviceID="22566" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="821" isToolTip="true" y="181" scaleY="0.3" scaleX="0.3" deviceName="12.5984ec三层P4强电井电动窗48#" deviceID="22607" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="822" isToolTip="true" y="202" scaleY="0.3" scaleX="0.3" deviceName="12.596dcd三层P4强电井电动窗49#" deviceID="22608" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="823" isToolTip="true" y="224" scaleY="0.3" scaleX="0.3" deviceName="12.598421三层6#楼梯右直灌55#" deviceID="22581" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="824" isToolTip="true" y="245" scaleY="0.3" scaleX="0.3" deviceName="12.593eb0三层12#步行街中庭排烟62#" deviceID="22568" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="846" isToolTip="true" y="200" scaleY="0.3" scaleX="0.3" deviceName="12.59840c三层P4中庭排烟51#" deviceID="22562" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="845" isToolTip="true" y="224" scaleY="0.3" scaleX="0.3" deviceName="12.598412三层LT07左直灌56#" deviceID="22582" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="847" isToolTip="true" y="246" scaleY="0.3" scaleX="0.3" deviceName="12.596d1e三层13#步行街中庭排烟63#" deviceID="22569" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="844" isToolTip="true" y="181" scaleY="0.3" scaleX="0.3" deviceName="12.5068d7三层烟感40#" deviceID="21168" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="869" isToolTip="true" y="183" scaleY="0.3" scaleX="0.3" deviceName="12.593e2d三层P4东商铺排烟52" deviceID="22620" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="869" isToolTip="true" y="202" scaleY="0.3" scaleX="0.3" deviceName="12.611ca3三层P4井22#楼梯加压53#" deviceID="22619" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="867" isToolTip="true" y="226" scaleY="0.3" scaleX="0.3" deviceName="12.610e15三层东货梯前室风机57#" deviceID="22618" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="892" isToolTip="true" y="203" scaleY="0.3" scaleX="0.3" deviceName="12.5974ea三层P4井7#楼梯右直灌60#" deviceID="22567" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="890" isToolTip="true" y="227" scaleY="0.3" scaleX="0.3" deviceName="12.593e96三层P4井西商铺排烟61#" deviceID="22617" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1117" isToolTip="true" y="126" scaleY="0.3" scaleX="0.3" deviceName="6.5fd70b.5fd70b OP720-CN" deviceID="27482" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1095" isToolTip="true" y="107" scaleY="0.3" scaleX="0.3" deviceName="6.5a4e97三层步行街中庭排烟71#" deviceID="22692" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1095" isToolTip="true" y="127" scaleY="0.3" scaleX="0.3" deviceName="6.596e00三层P5强电井电动窗66#" deviceID="22698" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1095" isToolTip="true" y="147" scaleY="0.3" scaleX="0.3" deviceName="6.5a37a7三层LT08楼梯间地下室加压74#" deviceID="22689" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1118" isToolTip="true" y="104" scaleY="0.3" scaleX="0.3" deviceName="6.5a6154三层步行街中庭排烟70#" deviceID="22693" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1119" isToolTip="true" y="149" scaleY="0.3" scaleX="0.3" deviceName="6.5a378d三层LT08楼梯右直灌73#" deviceID="22690" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1140" isToolTip="true" y="105" scaleY="0.3" scaleX="0.3" deviceName="6.5a7492三层切电69#" deviceID="22694" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1141" isToolTip="true" y="125" scaleY="0.3" scaleX="0.3" deviceName="6.597498三层模块75#" deviceID="22712" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1143" isToolTip="true" y="150" scaleY="0.3" scaleX="0.3" deviceName="6.5a379d三层LT08楼梯左直灌72#" deviceID="22691" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1163" isToolTip="true" y="106" scaleY="0.3" scaleX="0.3" deviceName="6.5a4e99三层切电68#" deviceID="22695" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1163" isToolTip="true" y="127" scaleY="0.3" scaleX="0.3" deviceName="6.5a37aa三层切电67#" deviceID="22696" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1161" isToolTip="true" y="395" scaleY="0.3" scaleX="0.3" deviceName="6.52c083四层6#风机房123#" deviceID="22706" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1139" isToolTip="true" y="396" scaleY="0.3" scaleX="0.3" deviceName="6.4fa87f四层P6出口手报126#" deviceID="21966" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1191" isToolTip="true" y="419" scaleY="0.3" scaleX="0.3" deviceName="6.4da37d四层强电井125#" deviceID="22704" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1191" isToolTip="true" y="396" scaleY="0.3" scaleX="0.3" deviceName="6.4da36a四层强电井124#" deviceID="22705" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1169" isToolTip="true" y="378" scaleY="0.3" scaleX="0.3" deviceName="6.5a3789三层LT09地下室加压108#" deviceID="22687" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1168" isToolTip="true" y="355" scaleY="0.3" scaleX="0.3" deviceName="6.593efa三层LT09楼梯南直灌111#" deviceID="22685" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1191" isToolTip="true" y="376" scaleY="0.3" scaleX="0.3" deviceName="6.5a6137三层步行街中庭排烟107#" deviceID="22688" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1192" isToolTip="true" y="354" scaleY="0.3" scaleX="0.3" deviceName="6.5a3686三层LT09楼梯左直灌109#" deviceID="22686" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1214" isToolTip="true" y="355" scaleY="0.3" scaleX="0.3" deviceName="6.61eddd三层北面商铺排烟110#" deviceID="22711" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1214" isToolTip="true" y="376" scaleY="0.3" scaleX="0.3" deviceName="6.596dbf三层P5强电井空调切非119#" deviceID="22699" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1214" isToolTip="true" y="398" scaleY="0.3" scaleX="0.3" deviceName="6.5975ff三层P6强电井电动窗118#" deviceID="22700" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1235" isToolTip="true" y="356" scaleY="0.3" scaleX="0.3" deviceName="6.5974b3三层南面商铺排烟113#" deviceID="22710" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1235" isToolTip="true" y="377" scaleY="0.3" scaleX="0.3" deviceName="6.593e57三层步行街中庭排烟112#" deviceID="22684" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1236" isToolTip="true" y="397" scaleY="0.3" scaleX="0.3" deviceName="6.59751b三层海港印象补风114#" deviceID="22683" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1259" isToolTip="true" y="356" scaleY="0.3" scaleX="0.3" deviceName="6.560552四层空调机房烟感130#" deviceID="21363" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1283" isToolTip="true" y="356" scaleY="0.3" scaleX="0.3" deviceName="6.4da32f四层空调机房烟感127#" deviceID="21365" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1292" isToolTip="true" y="380" scaleY="0.3" scaleX="0.3" deviceName="6.4da37f四层空调机房出口烟感129#" deviceID="21364" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1269" isToolTip="true" y="379" scaleY="0.3" scaleX="0.3" deviceName="6.4fa94a四层空调机房出口手报128#" deviceID="21965" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="466" isToolTip="true" y="180" scaleY="0.3" scaleX="0.3" deviceName="12.5fb83f.P3井屋面风机故障1" deviceID="28597" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="491" isToolTip="true" y="180" scaleY="0.3" scaleX="0.3" deviceName="12.5fb8c2.P3井屋面风机故障2" deviceID="28598" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="464" isToolTip="true" y="204" scaleY="0.3" scaleX="0.3" deviceName="12.5fd4fa.P3井屋面风机故障3" deviceID="28599" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="491" isToolTip="true" y="205" scaleY="0.3" scaleX="0.3" deviceName="12.5fb8bd.P3井屋面风机故障4" deviceID="28600" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="222" isToolTip="true" y="147" scaleY="0.3" scaleX="0.3" deviceName="10.5fb948.P2井屋面风机故障1" deviceID="28601" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="249" isToolTip="true" y="148" scaleY="0.3" scaleX="0.3" deviceName="10.5fb945.P2井屋面风机故障2" deviceID="28602" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="221" isToolTip="true" y="170" scaleY="0.3" scaleX="0.3" deviceName="10.5fd4f4.P2井屋面风机故障3" deviceID="28603" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="246" isToolTip="true" y="171" scaleY="0.3" scaleX="0.3" deviceName="10.5fb8c3.P2井屋面风机故障4" deviceID="28604" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="731" isToolTip="true" y="310" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管办公前台手报" deviceID="26215" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="779" isToolTip="true" y="313" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管工程副总门外手报" deviceID="26214" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="801" isToolTip="true" y="311" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管收费室外消火栓按钮1" deviceID="26910" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="872" isToolTip="true" y="312" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房安品部外烟感12" deviceID="26052" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="892" isToolTip="true" y="314" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房安品部烟感13" deviceID="26045" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="840" isToolTip="true" y="310" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房财务室外手报3" deviceID="26213" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="856" isToolTip="true" y="323" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房财务室烟感16" deviceID="26042" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="961" isToolTip="true" y="344" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房仓库外消火栓按钮4" deviceID="26907" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="926" isToolTip="true" y="337" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房仓库烟感11" deviceID="26058" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="890" isToolTip="true" y="378" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房大会议室外烟感4" deviceID="26053" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="888" isToolTip="true" y="357" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房大会议室烟感5" deviceID="26048" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="914" isToolTip="true" y="358" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房大会议室烟感6" deviceID="26049" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="946" isToolTip="true" y="380" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房档案室烟感8" deviceID="26050" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="915" isToolTip="true" y="303" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房副总办1烟感20" deviceID="26059" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="935" isToolTip="true" y="308" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房副总办2外烟感3" deviceID="26054" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="887" isToolTip="true" y="293" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房副总办2烟感19" deviceID="26039" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="863" isToolTip="true" y="293" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房副总办3外消火栓2" deviceID="26909" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="838" isToolTip="true" y="290" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房副总办3烟感18" deviceID="26040" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="680" isToolTip="true" y="330" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房更衣室1烟感44" deviceID="26025" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="676" isToolTip="true" y="309" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房更衣室2烟感45" deviceID="26023" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="699" isToolTip="true" y="305" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房更衣室外烟感43" deviceID="26024" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1003" isToolTip="true" y="377" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房工程部外烟感40" deviceID="26022" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="981" isToolTip="true" y="368" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房工程部外消火栓6" deviceID="26905" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="755" isToolTip="true" y="304" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房企划部外消火栓7" deviceID="26904" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="985" isToolTip="true" y="390" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房工程部烟感29" deviceID="26060" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="746" isToolTip="true" y="325" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房企划部烟感27" deviceID="26033" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="911" isToolTip="true" y="323" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房洽谈室外烟感2" deviceID="26055" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="943" isToolTip="true" y="325" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房洽谈室烟感23" deviceID="26037" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="720" isToolTip="true" y="291" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房前台烟感25" deviceID="26035" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="722" isToolTip="true" y="331" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房强电井烟感47" deviceID="26021" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="691" isToolTip="true" y="350" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房弱电井烟感" deviceID="26057" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="765" isToolTip="true" y="329" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房强切" deviceID="27915" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="740" isToolTip="true" y="340" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房强切2" deviceID="27930" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="702" isToolTip="true" y="329" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房弱电井广播" deviceID="27912" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="763" isToolTip="true" y="346" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房弱电井声光" deviceID="27911" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="784" isToolTip="true" y="336" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房弱电井信号闸阀" deviceID="27913" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="733" isToolTip="true" y="357" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房水流指示器" deviceID="27918" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="712" isToolTip="true" y="352" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房收费室烟感24" deviceID="26036" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="961" isToolTip="true" y="365" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房宿舍烟感10" deviceID="26046" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="929" isToolTip="true" y="373" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房宿舍烟感9" deviceID="26051" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="616" isToolTip="true" y="326" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房外烟感30" deviceID="26031" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="635" isToolTip="true" y="321" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房烟感32" deviceID="26030" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="634" isToolTip="true" y="342" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房烟感35" deviceID="26029" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="602" isToolTip="true" y="306" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房烟感38" deviceID="26028" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="639" isToolTip="true" y="366" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房卫生间1烟感41" deviceID="26027" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="819" isToolTip="true" y="300" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房物管部烟感28" deviceID="26032" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="900" isToolTip="true" y="339" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房信息部烟感17" deviceID="26041" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="879" isToolTip="true" y="340" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房小会议室烟感7" deviceID="26047" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="616" isToolTip="true" y="360" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房卫生间2烟感42" deviceID="26026" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="588" isToolTip="true" y="327" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房外消火栓5" deviceID="26906" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="942" isToolTip="true" y="353" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房行政室烟感15" deviceID="26043" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="965" isToolTip="true" y="389" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房营业部外烟感46" deviceID="26056" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="913" isToolTip="true" y="383" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房营业部烟感26" deviceID="26034" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="823" isToolTip="true" y="321" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房运营副总室烟感21" deviceID="26038" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="741" isToolTip="true" y="291" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房总经理办公室烟感14" deviceID="26044" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="763" isToolTip="true" y="284" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房总经理室外消火栓3" deviceID="26908" mark="XHS" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="653" isToolTip="true" y="304" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感31" deviceID="26645" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="626" isToolTip="true" y="303" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感33" deviceID="26640" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="655" isToolTip="true" y="327" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感34" deviceID="26641" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="657" isToolTip="true" y="349" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感36" deviceID="26644" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="666" isToolTip="true" y="370" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感37" deviceID="26642" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="602" isToolTip="true" y="344" scaleY="0.3" scaleX="0.3" deviceName="AAA_商管用房托管机房温感39" deviceID="26643" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1169" isToolTip="true" y="183" scaleY="0.3" scaleX="0.3" deviceName="AAA_四层B4井强切" deviceID="27914" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="382" isToolTip="true" y="106" scaleY="0.3" scaleX="0.3" deviceName="AAA_跨机百货4层" deviceID="27926" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="195" isToolTip="true" y="277" scaleY="0.3" scaleX="0.3" deviceName="AAA_百货1-4F西侧排烟SEF-4" deviceID="24239" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="254" isToolTip="true" y="317" scaleY="0.3" scaleX="0.3" deviceName="AAA_百货4F西侧广播" deviceID="27917" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="545" isToolTip="true" y="321" scaleY="0.3" scaleX="0.3" deviceName="AAA_四层B4井强切" deviceID="27914" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="570" isToolTip="true" y="302" scaleY="0.3" scaleX="0.3" deviceName="AAA_消防泵" deviceID="27925" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="872" isToolTip="true" y="129" scaleY="0.3" scaleX="0.3" deviceName="AAA_消防电梯3" deviceID="24231" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="657" isToolTip="true" y="207" scaleY="0.3" scaleX="0.3" deviceName="AAA_室内步行街中庭排烟SEF-W3-8" deviceID="27916" mark="XFSB" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1302" isToolTip="true" y="582" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感9" deviceID="26526" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1274" isToolTip="true" y="585" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感8" deviceID="26525" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1259" isToolTip="true" y="566" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感7" deviceID="26524" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1233" isToolTip="true" y="563" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感6" deviceID="26523" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1209" isToolTip="true" y="566" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感5" deviceID="26522" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1188" isToolTip="true" y="563" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感4" deviceID="26521" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1249" isToolTip="true" y="588" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感3" deviceID="26520" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1217" isToolTip="true" y="589" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感2" deviceID="26519" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1195" isToolTip="true" y="587" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感18" deviceID="26535" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1285" isToolTip="true" y="560" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感17" deviceID="26534" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1310" isToolTip="true" y="559" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感16" deviceID="26533" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1305" isToolTip="true" y="531" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感15" deviceID="26532" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1278" isToolTip="true" y="538" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感14" deviceID="26531" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1253" isToolTip="true" y="539" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感13" deviceID="26530" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1226" isToolTip="true" y="542" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感12" deviceID="26529" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1198" isToolTip="true" y="542" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感11" deviceID="26528" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1170" isToolTip="true" y="541" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感10" deviceID="26527" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="1299" isToolTip="true" y="505" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室温感1" deviceID="26518" mark="WCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1276" isToolTip="true" y="511" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感9" deviceID="25529" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1249" isToolTip="true" y="514" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感8" deviceID="25528" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1222" isToolTip="true" y="516" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感7" deviceID="25527" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1199" isToolTip="true" y="514" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感6" deviceID="25526" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1174" isToolTip="true" y="516" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感5" deviceID="25525" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1165" isToolTip="true" y="566" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感4" deviceID="25524" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1167" isToolTip="true" y="591" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感3" deviceID="25523" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1148" isToolTip="true" y="521" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感2" deviceID="25522" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1146" isToolTip="true" y="547" scaleY="0.3" scaleX="0.3" deviceName="AAA_写字楼配电室烟感1" deviceID="25521" mark="YCQ" isPop="true" popType="video" width="80" height="80"/>
+  </Components>
+</Configration>

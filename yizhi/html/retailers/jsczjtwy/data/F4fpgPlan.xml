@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="536">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F4NODE source="assets/comp/F4Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="30" y="-5"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="546" scale="0.4" rotation="0" popType="redirect" x="176" y="100"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="550" scale="0.4" rotation="0" popType="redirect" x="237" y="271"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="556" scale="0.4" rotation="0" popType="redirect" x="573" y="305"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="560" scale="0.4" rotation="0" popType="redirect" x="707" y="354"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="565" scale="0.4" rotation="0" popType="redirect" x="761" y="140"/>
+    <TEXT text="4F1#2号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="142" y="129"/>
+    <TEXT text="4F2#1号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="210" y="252"/>
+    <TEXT text="4F3#2号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="539" y="337"/>
+    <TEXT text="4F4#1号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="674" y="381"/>
+    <TEXT text="4F5#1号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="729" y="121"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="566" scale="0.4" rotation="0" popType="redirect" x="793" y="149"/>
+    <TEXT text="4F5#2号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="762" y="177"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="561" scale="0.4" rotation="0" popType="redirect" x="735" y="338"/>
+    <TEXT text="4F4#2号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="702" y="323"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="555" scale="0.4" rotation="0" popType="redirect" x="539" y="303"/>
+    <TEXT text="4F3#1号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="507" y="284"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="551" scale="0.4" rotation="0" popType="redirect" x="271" y="275"/>
+    <TEXT text="4F2#2号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="240" y="307"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="545" scale="0.4" rotation="0" popType="redirect" x="142" y="99"/>
+    <TEXT text="4F1#1号风机盘管" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="107" y="82"/>
+    <TULI scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="840" y="415"/>
+    <TEXT text="正常" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="885" y="440"/>
+    <TEXT text="报警" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="960" y="440"/>
+    <KTN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="885" y="470"/>
+    <KTA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="960" y="470"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="915" y="408" rotation="-90"/>
+  </Components>
+</Configration>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1058" Height="501">
+  <LIST>
+    <Component>
+      <CO2CQ/>
+      <TEMPCQ/>
+      <WETCQ/>
+      <LUXCQ/>
+    </Component>
+    <Image>
+      <F4NODE source="assets/comp/F4Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE scale="0.45" rotation="0" x="60" y="3"/>
+    <TEXT widthInChars="6" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="14" text="二氧化碳浓度" fontFamily="黑体" param="" color="16777215" rotation="0" x="46" y="389"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="14" text="温    度" fontFamily="黑体" param="" color="16777215" rotation="0" x="46" y="421"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="14" text="湿    度" fontFamily="黑体" param="" color="16777215" rotation="0" x="47" y="451"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="14" text="照    度" fontFamily="黑体" param="" color="16777215" rotation="0" x="48" y="477"/>
+    <CO2CQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="19" y="390"/>
+    <TEMPCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="798" y="229"/>
+    <WETCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="25" y="453"/>
+    <LUXCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="795" y="287"/>
+    <TEMPCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="27" y="417"/>
+    <WETCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="97" y="209"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="12" text="22.5℃" fontFamily="digifaw" param="" color="65280" rotation="0" x="118" y="184"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="12" text="222%RH" fontFamily="digifaw" param="" color="65280" rotation="0" x="118" y="206"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="14" text="3-Z-1-N" fontFamily="黑体" param="" color="16777215" rotation="0" x="115" y="153"/>
+    <TEMPCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="99" y="178"/>
+    <WETCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="795" y="260"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="12" text="22.5℃" fontFamily="digifaw" param="" color="65280" rotation="0" x="814" y="234"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="12" text="222%RH" fontFamily="digifaw" param="" color="65280" rotation="0" x="815" y="257"/>
+    <LUXCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="28" y="485"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" scale="1" fontWeight="normal" fontSize="12" text="22.5lux" fontFamily="digifaw" param="" color="65280" rotation="0" x="815" y="280"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" fontFamily="黑体" scale="1" text="RF-Z-1-N" rotation="0" param="" color="16777215" x="813" y="211"/>
+    <TEMPCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="908" y="212"/>
+    <WETCQ deviceID="" scale="1" popType="line" rotation="0" isPop="true" x="907" y="240"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" fontFamily="digifaw" scale="1" text="22.5℃" rotation="0" param="" color="65280" x="925" y="217"/>
+    <LABEL widthInChars="5" textAlign="right" deviceID="" fontWeight="normal" fontSize="12" fontFamily="digifaw" scale="1" text="222%RH" rotation="0" param="" color="65280" x="926" y="239"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" param="" color="16777215" fontFamily="黑体" scale="1" text="RF-Z-1-N" rotation="0" x="925" y="191"/>
+  </Components>
+</Configration>

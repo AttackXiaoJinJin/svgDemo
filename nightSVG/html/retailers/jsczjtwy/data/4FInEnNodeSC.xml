@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <TEMPCQ/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE x="0" width="1434" y="0" height="714"/>
+    <TEMPCQ x="525.7" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" y="533.85" isPop="true" scaleX="1.5" deviceID="" width="12" height="32"/>
+    <LABEL fontFamily="微软雅黑" x="570" y="555" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12224" mark="NHHJ" deviceName="影城VIP休息室" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEXT fontFamily="微软雅黑" x="545" y="531" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="19_影城VIP休息室" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="120" height="21"/>
+    <TEMPCQ x="368.34999999999997" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" y="426.75000000000006" isPop="true" scaleX="1.5" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="391.5" y="426.6" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="20_影城2号放映厅" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="119" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="410" y="450" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12225" mark="NHHJ" deviceName="影城2号放映厅" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="823.0000000000001" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" y="472.2" isPop="true" scaleX="1.5" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="844" y="472" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="26_百货内" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="68" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="849" y="497" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12226" mark="NHHJ" deviceName="百货内" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+  </Components>
+</Configration>

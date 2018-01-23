@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1131" Height="578">
+  <LIST>
+    <Component/>
+    <Image>
+      <DDC source="assets/comp/ddc.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <DDC scaleY="1.5" scaleX="1.5" x="0" y="0" width="753" height="369" source="assets/comp/ddc.png"/>
+  </Components>
+</Configration>

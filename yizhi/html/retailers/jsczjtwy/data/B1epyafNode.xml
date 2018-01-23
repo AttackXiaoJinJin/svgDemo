@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE rotation="0" x="0" scaleX="1" y="0" scaleY="1"/>
+    <TULI rotation="0" x="1204" scaleX="1" y="590" scaleY="1"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="center" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="正常" x="1245" width="40" y="625" height="22" sizeAuto="true" scaleY="1" widthInChars="2"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="center" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="报警" x="1345" width="40" y="625" height="22" sizeAuto="true" scaleY="1" widthInChars="2"/>
+    <KTN rotation="0" x="1245" scaleX="0.5" y="645" scaleY="0.5"/>
+    <KTA rotation="0" x="1345" scaleX="0.5" y="645" scaleY="0.5"/>
+    <KTTB x="183" deviceID="12037" mark="EPYAF" width="80" scaleX="0.35" y="95" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-01-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-01-1" x="138" width="119" y="126" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="526" deviceID="12038" mark="EPYAF" width="80" scaleX="0.35" y="115" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-02-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-02-1" x="483" width="119" y="96" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="527" deviceID="12039" mark="EPYAF" width="80" scaleX="0.35" y="143" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-02-2"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-02-2" x="480" width="119" y="170" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="213.8" deviceID="12040" mark="EPYAF" width="80" scaleX="0.35" y="239.7" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-02-3"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-02-3" x="210" width="119" y="224" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="185" deviceID="12041" mark="EPYAF" width="80" scaleX="0.35" y="242" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-02-4"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-02-4" x="98" width="119" y="275" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="744.95" deviceID="12042" mark="EPYAF" width="80" scaleX="0.35" y="100.94999999999999" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-03-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-03-1" x="683" width="119" y="83" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="745" deviceID="12043" mark="EPYAF" width="80" scaleX="0.35" y="129" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-03-2"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-03-2" x="624" width="119" y="134" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="745" deviceID="12044" mark="EPYAF" width="80" scaleX="0.35" y="154" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-03-3"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-03-3" x="626" width="119" y="159" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="746" deviceID="12045" mark="EPYAF" width="80" scaleX="0.35" y="180" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-03-4"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-03-4" x="626" width="119" y="186" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="861" deviceID="12046" mark="EPYAF" width="80" scaleX="0.35" y="115" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-04-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-04-1" x="824" width="119" y="101" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="973" deviceID="12047" mark="EPYAF" width="80" scaleX="0.35" y="215" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-04-4"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-04-4" x="925" width="119" y="196" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="212" deviceID="12048" mark="EPYAF" width="80" scaleX="0.35" y="169" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-07-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-07-1" x="188" width="119" y="151" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="226.95" deviceID="12049" mark="EPYAF" width="80" scaleX="0.35" y="334.95" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-08-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-08-1" x="154" width="119" y="317" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="227" deviceID="12050" mark="EPYAF" width="80" scaleX="0.35" y="359" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="EAF/SEF-B1-08-2"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="EAF/SEF-B1-08-2" x="148" width="119" y="385" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="270.85" deviceID="12051" mark="EPYAF" width="80" scaleX="0.35" y="70.95000000000005" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="OAF/MAF-B1-01-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="OAF/MAF-B1-01-1" x="225" width="127" y="50" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="432.95000000000005" deviceID="12052" mark="EPYAF" width="80" scaleX="0.35" y="132.85" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="OAF/MAF-B1-02-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="OAF/MAF-B1-02-1" x="379" width="127" y="114" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="862" deviceID="12053" mark="EPYAF" width="80" scaleX="0.35" y="142" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="OAF/MAF-B1-04-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="OAF/MAF-B1-04-1" x="891" width="127" y="148" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="861.95" deviceID="12054" mark="EPYAF" width="80" scaleX="0.35" y="167" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="OAF/MAF-B1-04-2"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="OAF/MAF-B1-04-2" x="891" width="127" y="171" height="19" sizeAuto="false" widthInChars="4"/>
+    <KTTB x="212" deviceID="12055" mark="EPYAF" width="80" scaleX="0.35" y="194" height="80" scaleY="0.35" isPop="true" popType="redirect" deviceName="OAF/MAF-B1-07-1"/>
+    <TEXT contentBackgroundColor="16777215" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" textAlign="center" color="255" fontSize="14" fontWeight="normal" fontFamily="微软雅黑" text="OAF/MAF-B1-07-1" x="240" width="128" y="199" height="19" sizeAuto="false" widthInChars="4"/>
+  </Components>
+</Configration>

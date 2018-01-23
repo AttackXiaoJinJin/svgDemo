@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component/>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.4" x="148" y="21" rotation="0"/>
+  </Components>
+</Configration>

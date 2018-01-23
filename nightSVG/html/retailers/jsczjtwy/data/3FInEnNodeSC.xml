@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <TEMPCQ/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE x="0" width="1434" y="0" height="714"/>
+    <LABEL fontFamily="微软雅黑" x="1112" y="549" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12216" mark="NHHJ" deviceName="3017A铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="1084.85" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="526" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="1102" y="522" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="12_3017A铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="101" height="21"/>
+    <TEMPCQ x="1001.3499999999999" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="321.85" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="1020" y="323" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="13_3018C铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="99" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="1029" y="349" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12217" mark="NHHJ" deviceName="3018C铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="814.7" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="261.40000000000003" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="832" y="261" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="14_3019B铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="100" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="846" y="285" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12218" mark="NHHJ" deviceName="3019B铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="628.5" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="334.49999999999994" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="646" y="333" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="25_3F百货北侧" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="99" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="659" y="358" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12219" mark="NHHJ" deviceName="3F百货北侧" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="535.35" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="247.40000000000003" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="556" y="247" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="15_3021A铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="101" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="571" y="272" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12220" mark="NHHJ" deviceName="3021A铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="268.45000000000005" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="215.05" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="288" y="216" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="16_3006铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="90" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="294" y="242" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12221" mark="NHHJ" deviceName="3006铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="321.44999999999993" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="422.05" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="341" y="421" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="17_3023A铺外" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="101" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="353" y="447" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12222" mark="NHHJ" deviceName="3023A铺外" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+    <TEMPCQ x="386.79999999999995" param="" alarm="TEMPCQ" scaleY="1.5" popType="chart" scaleX="1.5" isPop="true" y="507.09999999999997" deviceID="" width="12" height="32"/>
+    <TEXT fontFamily="微软雅黑" x="404" y="504" sizeAuto="true" param="" color="0" contentBackgroundColor="16777215" fontSize="14" deviceID="" borderColor="0xffffff" text="18_大歌星内&#xA;" fontWeight="normal" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" widthInChars="4" width="82" height="21"/>
+    <LABEL fontFamily="微软雅黑" x="412" y="528" sizeAuto="true" param="eTemp" color="3407616" contentBackgroundColor="000000" borderColor="999999" deviceID="12223" mark="NHHJ" deviceName="大歌星内" fontSize="14" text="0101" fontWeight="normal" paramID="4" rotation="0" contentBackgroundAlpha="0" borderVisible="true" textAlign="right" widthInChars="4" width="38" height="21"/>
+  </Components>
+</Configration>

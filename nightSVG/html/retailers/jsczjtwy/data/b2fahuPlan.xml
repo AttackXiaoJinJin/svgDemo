@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1058" Height="529">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.7" widthInChars="5" rotation="0" x="-380" y="-19"/>
+    <KTTB scale="0.4" rotation="0" deviceID="247" x="111" y="359"/>
+    <KTTB scale="0.4" rotation="0" deviceID="21920" x="786" y="37"/>
+    <TEXT fontFamily="粗体" fontWeight="bold" scale="1" deviceID="" fontSize="12" color="16777215" textAlign="right" rotation="0" text="Kx-B2-B-2" widthInChars="5" param="" x="767" y="70"/>
+    <TEXT fontFamily="粗体" fontWeight="bold" scale="1" deviceID="" fontSize="12" color="16777215" textAlign="right" rotation="0" text="FAU-B2-B-1" widthInChars="5" param="" x="150" y="368"/>
+  </Components>
+</Configration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <TEMPCQ/>
+      <WETCQ/>
+      <CO2CQ/>
+    </Component>
+    <Image>
+      <F6NODE source="mapAssets/mapImages/F6Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE x="0" y="0" width="1434" height="714"/>
+    <TULI x="1183" y="583" width="225" height="124"/>
+    <TEMPCQ x="1199" deviceID="" alarm="TEMPCQ" isPop="true" y="609" popType="chart" param="" width="12" height="32"/>
+    <WETCQ x="1197" width="16" deviceID="" isPop="false" y="647" popType="line" height="19"/>
+    <CO2CQ x="1195" width="24" deviceID="" isPop="false" y="671" popType="line" height="24"/>
+    <TEXT text="CO2浓度（&lt;800ppm）" x="1217" widthInChars="4" fontWeight="normal" deviceID="" contentBackgroundAlpha="0" height="24" fontFamily="微软雅黑" borderVisible="false" y="611" color="0" param="" sizeAuto="true" width="180" textAlign="center" borderColor="0xffffff" fontSize="16"/>
+    <TEXT text="环境湿度（0-80%）" x="1221" widthInChars="4" fontWeight="normal" deviceID="" contentBackgroundAlpha="0" height="24" fontFamily="微软雅黑" borderVisible="false" y="641" color="0" param="" sizeAuto="true" width="150" textAlign="center" borderColor="0xffffff" fontSize="16"/>
+    <TEXT text="CO2浓度（&lt;800ppm）" x="1216" widthInChars="4" fontWeight="normal" deviceID="" contentBackgroundAlpha="0" height="24" fontFamily="微软雅黑" borderVisible="false" y="671" color="0" param="" sizeAuto="true" width="180" textAlign="center" borderColor="0xffffff" fontSize="16"/>
+    <LABEL fontFamily="微软雅黑" x="1054" widthInChars="4" y="81" color="3407616" param="sAirTemp" sizeAuto="true" mark="AHU" fontSize="14" text="0101" paramID="8" fontWeight="normal" deviceID="11011" contentBackgroundAlpha="0" rotation="0" deviceName="K-YL-1-1空调末端" textAlign="right" borderVisible="true" width="38" borderColor="999999" contentBackgroundColor="000000" height="21"/>
+    <TEMPCQ x="1037" deviceID="" alarm="TEMPCQ" isPop="true" y="81" popType="chart" param="" width="12" height="32"/>
+    <WETCQ x="1037" width="16" deviceID="" isPop="false" y="119" popType="line" height="19"/>
+    <LABEL fontFamily="微软雅黑" x="1055" widthInChars="4" y="117" color="3407616" param="eAirWet" sizeAuto="true" mark="AHU" fontSize="14" text="0101" paramID="32" fontWeight="normal" deviceID="11011" contentBackgroundAlpha="0" rotation="0" deviceName="K-YL-1-1空调末端" textAlign="right" borderVisible="true" width="38" borderColor="999999" contentBackgroundColor="000000" height="21"/>
+  </Components>
+</Configration>

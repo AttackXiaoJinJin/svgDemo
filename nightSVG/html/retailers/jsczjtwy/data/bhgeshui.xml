@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="631">
+  <LIST>
+    <Component>
+      <PSX/>
+      <PWB/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+      <PIPE4T source="assets/comp/PIPE/pipe4.png"/>
+      <PIPE3T source="assets/comp/PIPE/pipe3.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PIPELINE group="pipe" y="103" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="92"/>
+    <PIPELINE group="pipe" y="211" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="91"/>
+    <PIPELINE y="296" rotation="-90" x="104" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="110"/>
+    <PIPELINE y="177" rotation="-90" x="92" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="243"/>
+    <PIPELINE y="177" rotation="-90" x="310" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="243"/>
+    <PIPELINE group="pipe" y="462" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="805"/>
+    <PIPELINE group="pipe" y="366" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="805"/>
+    <PIPELINE group="pipe" y="266" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="808"/>
+    <PIPELINE group="pipe" y="169" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="806"/>
+    <PIPELINE group="pipe" y="67" width="10" height="60" source="assets/comp/PIPE/pipe1.png" x="807"/>
+    <PIPELINE y="151" rotation="-90" x="714" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="243" rotation="-90" x="720" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="340" rotation="-90" x="717.05" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="531" rotation="-90" x="713" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="436" rotation="-90" x="575" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="243"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="228" borderColor="0xffffff" contentBackgroundAlpha="0" y="478" sizeAuto="true" width="121" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="屋顶 稳压水箱" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="509" borderColor="0xffffff" contentBackgroundAlpha="0" y="481" sizeAuto="true" width="140" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="地下室 生活水箱" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="249" borderColor="0xffffff" contentBackgroundAlpha="0" y="226" sizeAuto="true" width="87" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="消防水池1" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="534" borderColor="0xffffff" contentBackgroundAlpha="0" y="220" sizeAuto="true" width="87" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="消防水池2" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <PSX x="230" deviceName="屋顶 生活水箱" y="303" mark="SHSX" source="assets/comp/PSX/bg.png" scaleX="0.8" group="deviceComp" deviceID="1470001" width="148" height="202" scaleY="0.8"/>
+    <PSX x="514" deviceName="地下室 生活水箱" y="310" mark="SHSX" source="assets/comp/PSX/bg.png" scaleX="0.8" group="deviceComp" deviceID="1470002" width="148" height="202" scaleY="0.8"/>
+    <PSX x="230" deviceName="消防水池1" y="50" mark="SHSX" source="assets/comp/PSX/bg.png" scaleX="0.8" group="deviceComp" deviceID="1470003" width="148" height="202" scaleY="0.8"/>
+    <PSX x="514" deviceName="消防水池2" y="50" mark="SHSX" source="assets/comp/PSX/bg.png" scaleX="0.8" group="deviceComp" deviceID="1470004" width="148" height="202" scaleY="0.8"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="811.95" borderColor="0xffffff" contentBackgroundAlpha="0" y="30" sizeAuto="true" width="78" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="生活水泵" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="756" borderColor="0xffffff" contentBackgroundAlpha="0" y="104" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="1#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <LABEL borderColor="999999" contentBackgroundAlpha="0" param="pumpPressure" borderVisible="false" x="988" fontSize="14" widthInChars="4" y="246" sizeAuto="false" group="commonComp" color="3342540" deviceName="地下室生活水箱" fontWeight="normal" contentBackgroundColor="000000" mark="SHGSGW" rotation="0" paramID="66" textAlign="center" source="assets/comp/TEXTINPUT/text.png" text="0" fontFamily="digifaw" deviceID="1460001"/>
+    <PWB x="796" deviceName="1#生活水泵" y="93" mark="BPB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="190001" width="250" height="188" scaleY="0.35"/>
+    <PWB x="796" deviceName="2#生活水泵" y="191" mark="BPB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="190002" width="250" height="188" scaleY="0.35"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="756" borderColor="0xffffff" contentBackgroundAlpha="0" y="201" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="2#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <PWB x="796" deviceName="3#生活水泵" y="287" mark="BPB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="190003" width="250" height="188" scaleY="0.35"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="756" borderColor="0xffffff" contentBackgroundAlpha="0" y="297" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="3#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <PWB x="796" deviceName="4#生活水泵" y="386" mark="BPB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="190004" width="250" height="188" scaleY="0.35"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="756" borderColor="0xffffff" contentBackgroundAlpha="0" y="396" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="4#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <PWB x="796" deviceName="5#生活水泵" y="484" mark="BPB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="190005" width="250" height="188" scaleY="0.35"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="756" borderColor="0xffffff" contentBackgroundAlpha="0" y="494" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="5#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="976" borderColor="0xffffff" contentBackgroundAlpha="0" y="221" sizeAuto="true" width="78" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="出水压力" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="1060" borderColor="0xffffff" contentBackgroundAlpha="0" y="246" sizeAuto="true" width="39" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="MPa" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="978" borderColor="0xffffff" contentBackgroundAlpha="0" y="285" sizeAuto="true" width="78" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="变频频率" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <LABEL borderColor="999999" contentBackgroundAlpha="0" param="pumpPressure" borderVisible="false" x="990" fontSize="14" widthInChars="4" y="313" sizeAuto="false" group="commonComp" color="3342540" deviceName="频率" fontWeight="normal" contentBackgroundColor="000000" mark="SHGSGW" rotation="0" paramID="66" textAlign="center" source="assets/comp/TEXTINPUT/text.png" text="0" fontFamily="digifaw" deviceID="1460002"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="1056" borderColor="0xffffff" contentBackgroundAlpha="0" y="315" sizeAuto="true" width="27" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="HZ" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <HANDAUTO deviceName="1#生活水泵" param="handAuto" mark="BPB" x="989" paramID="38" source="assets/comp/HANDAUTO/handAuto/0/1.png" y="195" alarm="HANDAUTO" scaleX="1" group="commonComp" deviceID="190001" width="58" height="25" scaleY="1"/>
+    <PWB x="81" deviceName="空调补水泵1#" y="118" mark="BSB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="1180001" width="250" height="188" scaleY="0.35"/>
+    <PWB x="81" deviceName="空调补水泵2#" y="233" mark="BSB" source="assets/comp/PWB/alarm/0/1.png" scaleX="0.35" group="deviceComp" deviceID="1180002" width="250" height="188" scaleY="0.35"/>
+    <HANDAUTO deviceName="空调补水泵1#" param="handAuto" mark="BSB" x="139" paramID="38" source="assets/comp/HANDAUTO/handAuto/0/1.png" y="186" alarm="HANDAUTO" scaleX="1" group="commonComp" deviceID="1180001" width="58" height="25" scaleY="1"/>
+    <HANDAUTO deviceName="空调补水泵2#" param="handAuto" mark="BSB" x="137" paramID="38" source="assets/comp/HANDAUTO/handAuto/0/1.png" y="300" alarm="HANDAUTO" scaleX="1" group="commonComp" deviceID="1180002" width="58" height="25" scaleY="1"/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="81" borderColor="0xffffff" contentBackgroundAlpha="0" y="67" sizeAuto="true" width="97" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="空调补水泵" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="52" borderColor="0xffffff" contentBackgroundAlpha="0" y="140" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="1#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="18" fontWeight="normal" param="" borderVisible="false" x="51" borderColor="0xffffff" contentBackgroundAlpha="0" y="255" sizeAuto="false" width="30" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="2#" height="22" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <PIPELINE group="pipe" y="141" width="10" height="384" source="assets/comp/PIPE/pipe1.png" x="713"/>
+    <PIPELINE y="76" rotation="-90" x="809" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="125"/>
+    <PIPELINE y="177" rotation="-90" x="807" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="276" rotation="-90" x="808" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="180"/>
+    <PIPELINE y="375" rotation="-90" x="806" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE y="471" rotation="-90" x="805" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="128"/>
+    <PIPELINE group="pipe" y="71" width="10" height="392" source="assets/comp/PIPE/pipe1.png" x="927"/>
+    <PIPE4T group="pipe" y="253" width="34" height="33" source="assets/comp/PIPE/pipe4.png" x="916"/>
+    <PIPE4T group="pipe" y="413" width="34" height="33" source="assets/comp/PIPE/pipe4.png" x="702"/>
+    <PIPE3T y="255" rotation="-180" x="736" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+    <PIPE3T y="351" rotation="-180" x="736" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+    <PIPE3T y="352" rotation="0" x="915" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+    <PIPE3T y="155" rotation="0" x="915" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+    <PIPECORNER group="pipe" y="509" width="23" height="23" source="assets/comp/PIPE/pipe2.png" x="710"/>
+    <PIPECORNER y="471" rotation="-90" x="917" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="137.05" rotation="-270" x="734" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="164" rotation="-270" x="825" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="63" rotation="-270" x="830" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="87" rotation="-180" x="940" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="263" rotation="-270" x="828" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="361.00000000000006" rotation="-270" x="826" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="458.00000000000006" rotation="-270" x="825" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPELINE group="pipe" y="168" width="10" height="127" source="assets/comp/PIPE/pipe1.png" x="206"/>
+    <PIPECORNER y="298" rotation="-90" x="195" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPE3T y="189" rotation="-90" x="194.00000000000006" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+    <PIPELINE y="222" rotation="-90" x="-1" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="97"/>
+    <PIPELINE y="109" rotation="-90" x="44" source="assets/comp/PIPE/pipe1.png" group="pipe" width="10" height="55"/>
+    <PIPELINE group="pipe" y="101" width="10" height="113" source="assets/comp/PIPE/pipe1.png" x="39"/>
+    <PIPECORNER y="120" rotation="-180" x="106" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="232" rotation="-180" x="105" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPECORNER y="96" rotation="-270" x="60" source="assets/comp/PIPE/pipe2.png" group="pipe" width="23" height="23"/>
+    <PIPE3T y="198" rotation="-270" x="61" source="assets/comp/PIPE/pipe3.png" group="pipe" width="24" height="34"/>
+  </Components>
+</Configration>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="714">
+  <LIST>
+    <Component>
+      <XFSP/>
+      <RQBJ/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <XFSPZCTULI source="assets/comp/TULI/XFSPZC.png"/>
+      <XFSPBJTULI source="assets/comp/TULI/XFSPBJ.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="0" y="0" scaleY="1" rotation="0" scaleX="1"/>
+    <XFSP x="274" isToolTip="true" y="217" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="22819" isPop="false" popType="subList" width="80" height="80"/>
+    <TULI x="1210" y="555" scaleY="1" rotation="0" scaleX="1"/>
+    <XFSPZCTULI x="1250" y="615" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <XFSPBJTULI x="1355" y="615" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <TEXT fontFamily="微软雅黑" x="1250" y="585" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="正常" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="1355" y="585" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="报警" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="229" y="186" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="3号影厅东侧水炮56" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="144" sizeAuto="true" widthInChars="4"/>
+    <XFSP x="144" isToolTip="true" y="220" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="22818" isPop="false" popType="subList" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="66" y="186" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="3号影厅西侧水炮55" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="144" sizeAuto="true" widthInChars="4"/>
+    <RQBJ x="280" y="160" scaleY="0.3" scaleX="0.3" deviceName="影院159号手报" deviceID="50007" mark="XFSP" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="185" y="134" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" mark="XFSP" param="" borderColor="0xffffff" text="影院159号手报" fontWeight="normal" fontSize="16" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="112" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="351" y="154" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="4层影院150号启动&#xA;" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="138" sizeAuto="true" widthInChars="4"/>
+    <RQBJ x="321" y="154" scaleY="0.3" scaleX="0.3" deviceName="4层影院150号启动" deviceID="50008" mark="XFSP" width="80" height="80"/>
+    <RQBJ x="295" y="116" scaleY="0.3" scaleX="0.3" deviceName="58号启泵" deviceID="50023" mark="XFSP" width="80" height="80"/>
+    <RQBJ x="294" y="89" scaleY="0.3" scaleX="0.3" deviceName="57号启炮" deviceID="50022" mark="XFSP" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="320" y="86" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="57号启炮" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="70" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="321" y="115" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="58号启泵" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="70" sizeAuto="true" widthInChars="4"/>
+  </Components>
+</Configration>

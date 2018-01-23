@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1000" Height="508">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F5NODE source="assets/comp/F5Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE scale="0.5" x="0" y="0" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="657" y="40" rotation="0"/>
+    <DWCQ deviceID="" scale="0.4" x="495" y="411" rotation="0"/>
+  </Components>
+</Configration>

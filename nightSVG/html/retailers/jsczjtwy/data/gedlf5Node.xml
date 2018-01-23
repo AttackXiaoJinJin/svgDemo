@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="539">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F5NODE source="assets/comp/F5Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <GWA source="assets/comp/TULI/GWA.png"/>
+      <GWN source="assets/comp/TULI/GWN.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="40" y="0"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8247" x="648" y="80"/>
+    <TEXT text="小厨娘" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="normal" fontSize="14" scaleX="1" scale="1" x="667" y="79"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="840" y="430"/>
+    <TEXT text="正常" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="870" y="448"/>
+    <TEXT text="报警" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="950" y="440"/>
+    <GWA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="950" y="465"/>
+    <GWN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="870" y="470"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="893" y="425" rotation="-90"/>
+  </Components>
+</Configration>

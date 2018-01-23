@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+      <ZNZTL source="assets/comp/ZNZTL.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE source="mapAssets/mapImages/B1Node.png" y="0" x="0" width="1434" height="714"/>
+    <LCB1 source="assets/comp/LCB1.png" x="50" y="30" scaleY="0.8" width="110" height="92" scaleX="0.8"/>
+    <ZNZTL source="assets/comp/ZNZTL.png" y="25" x="1300" width="80" height="80"/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="449.24999999999994" x="104.54999999999995" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="254.85000000000002" x="307.05000000000007" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="124.55000000000001" x="697.1500000000001" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="560" x="249.05" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="555" x="414" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="477.45000000000005" x="587.4" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="525.35" x="832.4000000000001" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="326.04999999999995" x="856.9499999999999" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="247.45" x="974.6500000000001" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="237.04999999999998" x="1198.4499999999998" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="435.75000000000006" x="1295.3500000000001" scaleY="1.5" width="16" height="16" deviceID=""/>
+    <ALARMTB source="assets/comp/ALARMTB/alarm/0/1.png" scaleX="1.5" alarm="ALARMTB" param="" y="529.95" x="1246.1" scaleY="1.5" width="16" height="16" deviceID=""/>
+  </Components>
+</Configration>

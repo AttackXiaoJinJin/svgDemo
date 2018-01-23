@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1429" Height="716">
+  <LIST>
+    <Component>
+      <BURGLAR/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <SBN source="assets/comp/TULI/SBN.png"/>
+      <SBA source="assets/comp/TULI/SBA.png"/>
+      <ALARMR source="assets/comp/alarm_r.png"/>
+      <ALARMG source="assets/comp/alarm_g.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE height="714" width="1434" deviceName="4F电梯厅 RD11弱电间侧面" x="-5" y="2" group="map" source="mapAssets/mapImages/B1Node.png" deviceID="104"/>
+    <LCB1 scaleX="1" scaleY="1" height="92" width="110" x="10" y="10" group="bg" source="assets/comp/LCB1.png"/>
+    <TULI rotation="0" scaleY="0.9" scaleX="0.9" x="1225" y="540" group="tuli" source="assets/comp/TULI/TULI.png"/>
+    <TEXT scaleX="1" scaleY="1" height="21" contentBackgroundAlpha="0" color="0" borderVisible="false" width="36" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="0" text="正常" fontFamily="微软雅黑" deviceID="" x="1240" y="582" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="16" widthInChars="4"/>
+    <TEXT scaleX="1" scaleY="1" height="21" contentBackgroundAlpha="0" color="0" borderVisible="false" width="36" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="0" text="报警" fontFamily="微软雅黑" deviceID="" x="1240" y="610" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="16" widthInChars="4"/>
+    <SBN rotation="0" scaleY="0.35" scaleX="0.35" x="1365" y="580" group="tuli" source="assets/comp/TULI/SBN.png"/>
+    <SBA rotation="0" scaleY="0.35" scaleX="0.35" x="1365" y="610" group="tuli" source="assets/comp/TULI/SBA.png"/>
+    <ALARMR rotation="0" scaleY="0.35" scaleX="0.35" x="1285" y="610" group="bg" source="assets/comp/alarm_r.png"/>
+    <TEXT scaleX="1" scaleY="1" height="21" contentBackgroundAlpha="0" color="0" borderVisible="false" width="36" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="0" text="红外" fontFamily="微软雅黑" deviceID="" x="1280" y="560" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="16" widthInChars="4"/>
+    <TEXT scaleX="1" scaleY="1" height="21" contentBackgroundAlpha="0" color="0" borderVisible="false" width="36" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="0" text="手按" fontFamily="微软雅黑" deviceID="" x="1360" y="560" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="16" widthInChars="4"/>
+    <ALARMG rotation="0" scaleY="0.35" scaleX="0.35" x="1285" y="580" group="bg" source="assets/comp/alarm_g.png"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="67" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="消防水泵房" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="123" y="475" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700004" deviceName="大商业生活用水泵房东门" mark="HWBJ" y="445" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="469"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="119" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="大商业生活用水泵房" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="429" y="423" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700006" deviceName="2#商业变配电东门" mark="HWBJ" y="436" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="786"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="79" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="2#商业变配电" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="779" y="462" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700008" deviceName="制冷机房变电所南门" mark="HWBJ" y="249" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="34"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="93" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="制冷机房变电所" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="2" y="278" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700010" deviceName="制冷机房东门" mark="HWBJ" y="254" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="154"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="54" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="制冷机房" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="124" y="286" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700012" deviceName="1#商业变电所东门" mark="HWBJ" y="202" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="154"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="79" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="1#商业变电所" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="122" y="227" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700014" deviceName="B1弱电机房东门" mark="HWBJ" y="168" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="1207"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="68" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="B1弱电机房" fontFamily="微软雅黑" contentBackgroundColor="16777215" x="1187" y="197" borderColor="0xffffff" deviceID="" fontSize="12" widthInChars="4" source="assets/comp/TEXTINPUT/label.png"/>
+    <BURGLAR scaleX="0.3" width="80" scaleY="0.3" height="80" deviceID="700002" deviceName="消防水泵房门口" mark="HWBJ" y="447" group="commonComp" source="assets/comp/BURGLAR/alarm/0/1.png" x="156"/>
+  </Components>
+</Configration>

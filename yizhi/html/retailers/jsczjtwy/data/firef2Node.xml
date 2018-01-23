@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="560">
+  <LIST>
+    <Component>
+      <YCQ/>
+      <VIDEOTB/>
+      <JSBJ/>
+    </Component>
+    <Image>
+      <XFFQ2F source="assets/comp/XFFQ2F.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <YGN source="assets/comp/TULI/YGN.png"/>
+      <YGA source="assets/comp/TULI/YGA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQ2F scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="55" y="0"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="692" scale="0.35" rotation="0" popType="subList" x="754" y="111"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="705" scale="0.35" rotation="0" popType="subList" x="558" y="294"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="693" scale="0.35" rotation="0" popType="subList" x="729" y="187"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8572" scale="0.35" rotation="0" popType="subList" x="770" y="179"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="697" scale="0.35" rotation="0" popType="subList" x="803" y="259"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="701" scale="0.35" rotation="0" popType="subList" x="653" y="368"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="685" scale="0.35" rotation="0" popType="subList" x="397" y="343"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="704" scale="0.35" rotation="0" popType="subList" x="361" y="291"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="687" scale="0.35" rotation="0" popType="subList" x="417" y="201"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8573" scale="0.35" rotation="0" popType="subList" x="309" y="110"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="694" scale="0.35" rotation="0" popType="subList" x="872" y="126"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="689" scale="0.35" rotation="0" popType="subList" x="567" y="244"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="702" scale="0.35" rotation="0" popType="subList" x="197" y="133"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="695" scale="0.35" rotation="0" popType="subList" x="822" y="173"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="684" scale="0.35" rotation="0" popType="subList" x="297" y="216"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="703" scale="0.35" rotation="0" popType="subList" x="214" y="245"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="682" scale="0.35" rotation="0" popType="subList" x="204" y="322"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="678" scale="0.35" rotation="0" popType="subList" x="149" y="56"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="681" scale="0.35" rotation="0" popType="subList" x="154" y="178"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="699" scale="0.35" rotation="0" popType="subList" x="515" y="339"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="691" scale="0.35" rotation="0" popType="subList" x="800" y="81"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="688" scale="0.35" rotation="0" popType="subList" x="450" y="250"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="702" scale="0.25" rotation="0" popType="videoSub" x="222" y="127"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="683" scale="0.35" rotation="0" popType="subList" x="246" y="107"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="705" scale="0.25" rotation="0" popType="videoSub" x="581" y="282"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="703" scale="0.25" rotation="0" popType="videoSub" x="232" y="230"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="704" scale="0.25" rotation="0" popType="videoSub" x="382" y="278"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8572" scale="0.25" rotation="0" popType="videoSub" x="798" y="174"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="706" scale="0.35" rotation="0" popType="subList" x="704" y="300"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="706" scale="0.25" rotation="0" popType="videoSub" x="721" y="282"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="840" y="460"/>
+    <YGN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="850" y="500"/>
+    <YGA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="910" y="500"/>
+    <TEXT text="正常" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="850" y="480"/>
+    <TEXT text="报警" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="910" y="480"/>
+    <VIDEOTB scaleX="0.5" scaleY="0.5" isPop="true" deviceID="" scale="0.5" rotation="0" popType="videoSub" x="970" y="500"/>
+    <TEXT text="摄像" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="970" y="480"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12425" scale="0.35" rotation="0" popType="subList" x="338" y="110"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12328" scale="0.35" rotation="0" popType="subList" x="198" y="161"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12315" scale="0.35" rotation="0" popType="subList" x="595" y="245"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12424" scale="0.35" rotation="0" popType="subList" x="766" y="206"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12329" scale="0.35" rotation="0" popType="subList" x="246" y="245"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12331" scale="0.35" rotation="0" popType="subList" x="589" y="296"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12330" scale="0.35" rotation="0" popType="subList" x="395" y="292"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12332" scale="0.35" rotation="0" popType="subList" x="733" y="297"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12304" scale="0.35" rotation="0" popType="subList" x="181" y="61"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12307" scale="0.35" rotation="0" popType="subList" x="154" y="205"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12308" scale="0.35" rotation="0" popType="subList" x="236" y="325"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12309" scale="0.35" rotation="0" popType="subList" x="251" y="135"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12310" scale="0.35" rotation="0" popType="subList" x="324" y="235"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12311" scale="0.35" rotation="0" popType="subList" x="428" y="345"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12314" scale="0.35" rotation="0" popType="subList" x="479" y="250"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12327" scale="0.35" rotation="0" popType="subList" x="681" y="377"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12318" scale="0.35" rotation="0" popType="subList" x="746" y="141"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12319" scale="0.35" rotation="0" popType="subList" x="717" y="212"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12320" scale="0.35" rotation="0" popType="subList" x="897" y="136"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12323" scale="0.35" rotation="0" popType="subList" x="800" y="284"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12325" scale="0.35" rotation="0" popType="subList" x="545" y="344"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="893" y="450" rotation="-90"/>
+  </Components>
+</Configration>

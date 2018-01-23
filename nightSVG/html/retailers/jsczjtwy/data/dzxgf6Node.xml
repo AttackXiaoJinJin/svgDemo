@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component/>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+      <DZXG source="assets/comp/dzxg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scale="0.7" scaleX="0.7" scaleY="0.7" rotation="0" x="70" y="1"/>
+    <DZXG scale="0.25" scaleX="0.25" scaleY="0.25" x="769" y="141" rotation="0"/>
+    <DZXG scale="0.25" scaleX="0.25" scaleY="0.25" x="607" y="124" rotation="0"/>
+    <TEXT param="" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="北平台" fontFamily="黑体" color="0" widthInChars="3" scale="1" scaleX="1" scaleY="1" x="593" y="143" rotation="0"/>
+    <TEXT widthInChars="3" textAlign="right" deviceID="" fontWeight="normal" fontSize="14" text="南平台" fontFamily="黑体" color="0" param="" scale="1" scaleX="1" scaleY="1" x="759" y="120" rotation="0"/>
+  </Components>
+</Configration>

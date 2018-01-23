@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE x="0" y="0" height="714" width="1434"/>
+    <ALARMTB x="591" param="alarm" y="311" deviceName="6.596b44商管用房气体灭火放气" deviceID="24404" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="609" y="302" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="商管用房气灭放气" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="130" sizeAuto="true" height="24"/>
+    <ALARMTB x="591" param="alarm" y="330" deviceName="6.5976bd商管用房气体灭火故障" deviceID="24405" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="609" y="324" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="商管用房气灭火警1" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="140" sizeAuto="true" height="24"/>
+    <ALARMTB x="591" param="alarm" y="346" deviceName="6.598282商管用房气体灭火火警" deviceID="24406" mark="QTMH" isPop="true" popType="redirect" width="16" paramID="2" alarm="ALARMTB" height="16"/>
+    <TEXT fontFamily="微软雅黑" x="609" y="346" contentBackgroundAlpha="0" widthInChars="4" borderVisible="false" deviceID="" color="255" borderColor="0xffffff" param="" fontSize="16" text="商管用房气灭火警2" fontWeight="normal" textAlign="center" contentBackgroundColor="16777215" width="140" sizeAuto="true" height="24"/>
+  </Components>
+</Configration>

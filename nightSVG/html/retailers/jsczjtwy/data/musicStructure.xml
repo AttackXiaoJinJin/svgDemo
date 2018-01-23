@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <GFQ/>
+      <MUSICSOURCE/>
+      <VOLUME/>
+    </Component>
+    <Image>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PIPELINE x="502" y="55" rotation="0" width="6" height="59"/>
+    <PIPELINE x="460" y="60" rotation="-90" width="6" height="47"/>
+    <PIPELINE x="230" y="115" rotation="-90" width="6" height="506"/>
+    <PIPELINE x="230" y="480" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="230" y="400" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="230" y="320" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="230" y="240" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="230" y="160" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="560" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="480" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="400" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="320" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="240" rotation="-90" width="6" height="49"/>
+    <PIPELINE x="730" y="160" rotation="-90" width="6" height="49"/>
+    <GFQ x="265" scaleX="1" scaleY="1" deviceID="761" y="140" deviceName="办公区域" mark="YX" width="99" height="43"/>
+    <GFQ x="265" scaleX="1" scaleY="1" deviceID="751" y="220" deviceName="1F-1室外" mark="YX" width="99" height="43"/>
+    <TEXT text="1F-1室外" x="275" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="200" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="370" y="145" deviceID="761" deviceName="办公区域" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="370" y="175" deviceID="761" deviceName="办公区域" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <TEXT text="办公区域" x="275" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="120" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="66" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="370" y="225" deviceID="751" deviceName="1F-1室外" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="370" y="254" deviceID="751" deviceName="1F-1室外" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <GFQ x="265" scaleX="1" scaleY="1" deviceID="752" y="300" deviceName="1F-2西圆" mark="YX" width="99" height="43"/>
+    <TEXT text="1F-2西圆" x="275" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="280" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="370" y="305" deviceID="752" deviceName="1F-2西圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="370" y="335" deviceID="752" deviceName="1F-2西圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <GFQ x="265" scaleX="1" scaleY="1" deviceID="753" y="380" deviceName="1F-3东圆" mark="YX" width="99" height="43"/>
+    <TEXT text="1F-3东圆" x="275" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="360" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="370" y="385" deviceID="753" deviceName="1F-3东圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="370" y="415" deviceID="753" deviceName="1F-3东圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <GFQ x="265" scaleX="1" scaleY="1" deviceID="754" y="460" deviceName="1F-4长廊" mark="YX" width="99" height="43"/>
+    <TEXT text="2F-5西圆" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="120" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="370" y="465" deviceID="754" deviceName="1F-4长廊" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="370" y="495" deviceID="754" deviceName="1F-4长廊" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <TEXT text="1F-4长廊" x="275" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="440" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="755" y="140" deviceName="2F-5西圆" mark="YX" width="99" height="43"/>
+    <MUSICSOURCE x="870" y="145" deviceID="755" deviceName="2F-5西圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="175" deviceID="755" deviceName="2F-5西圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <TEXT text="2F-6东圆" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="200" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="756" y="220" deviceName="2F-6东圆" mark="YX" width="99" height="43"/>
+    <MUSICSOURCE x="870" y="225" deviceID="756" deviceName="2F-6东圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="255" deviceID="756" deviceName="2F-6东圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="757" y="300" deviceName="2F-7长廊" mark="YX" width="99" height="43"/>
+    <TEXT text="2F-7长廊" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="280" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="870" y="305" deviceID="757" deviceName="2F-7长廊" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="335" deviceID="757" deviceName="2F-7长廊" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="758" y="380" deviceName="3F-8西圆" mark="YX" width="99" height="43"/>
+    <TEXT text="3F-8西圆" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="360" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <MUSICSOURCE x="870" y="385" deviceID="758" deviceName="3F-8西圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="415" deviceID="758" deviceName="3F-8西圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <TEXT text="3F-9东圆" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="440" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="70" widthInChars="4" borderColor="0xffffff"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="759" y="460" deviceName="3F-9东圆" mark="YX" width="99" height="43"/>
+    <MUSICSOURCE x="870" y="465" deviceID="759" deviceName="3F-9东圆" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="495" deviceID="759" deviceName="3F-9东圆" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <TEXT text="3F-10长廊" x="775" fontWeight="normal" height="24" deviceID="" borderVisible="false" contentBackgroundAlpha="0" textAlign="center" param="" y="520" fontSize="16" color="0x444444" sizeAuto="true" fontFamily="微软雅黑" width="80" widthInChars="4" borderColor="0xffffff"/>
+    <GFQ x="765" scaleX="1" scaleY="1" deviceID="760" y="540" deviceName="3F-10长廊" mark="YX" width="99" height="43"/>
+    <MUSICSOURCE x="870" y="545" deviceID="760" deviceName="3F-10长廊" paramID="71" param="playList" mark="YX" width="99" isCustom="true" height="25"/>
+    <VOLUME x="870" y="575" deviceID="760" deviceName="3F-10长廊" paramID="27" param="volume" mark="YX" width="95" isCustom="true" height="10"/>
+    <PIPELINE x="730" y="110" width="6" height="448"/>
+    <PIPELINE x="230" y="110" width="6" height="368"/>
+    <GFQ x="372" y="30" deviceID="" width="99" height="43"/>
+    <LABEL fontFamily="digifaw" x="475" y="145" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="办公区域" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="761"/>
+    <LABEL fontFamily="digifaw" x="474" y="225" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="1F-1室外" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="751"/>
+    <LABEL fontFamily="digifaw" x="475" y="304" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="1F-2西圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="752"/>
+    <LABEL fontFamily="digifaw" x="476" y="385" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="1F-3东圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="753"/>
+    <LABEL fontFamily="digifaw" x="474" y="464" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="1F-4长廊" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="754"/>
+    <LABEL fontFamily="digifaw" x="975" y="143" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="2F-5西圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="755"/>
+    <LABEL fontFamily="digifaw" x="975" y="225" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="2F-6东圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="756"/>
+    <LABEL fontFamily="digifaw" x="974" y="306" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="2F-7长廊" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="757"/>
+    <LABEL fontFamily="digifaw" x="977" y="385" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="3F-8西圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="758"/>
+    <LABEL fontFamily="digifaw" x="975" y="465" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="3F-9东圆" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="759"/>
+    <LABEL fontFamily="digifaw" x="976" y="545" color="3407616" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" fontSize="12" text="0101" sizeAuto="false" fontWeight="normal" rotation="0" mark="YX" deviceName="3F-10长廊" contentBackgroundAlpha="0" paramID="27" borderVisible="true" param="volume" textAlign="right" deviceID="760"/>
+  </Components>
+</Configration>

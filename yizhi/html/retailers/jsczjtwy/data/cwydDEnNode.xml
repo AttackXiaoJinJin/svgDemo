@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <PARK/>
+    </Component>
+    <Image>
+      <PARKB2QG source="mapAssets/mapImages/PARKB2/PARKB2_G.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PARKB2QG height="714" x="0" y="0" width="1434"/>
+    <PARK x="716" scaleY="1.5" deviceID="1352" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW488"/>
+    <PARK x="699" scaleY="1.5" deviceID="1351" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW487"/>
+    <PARK x="681" scaleY="1.5" deviceID="1350" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW486"/>
+    <PARK x="602" scaleY="1.5" deviceID="1349" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW485"/>
+    <PARK x="587" scaleY="1.5" deviceID="1348" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW484"/>
+    <PARK x="572" scaleY="1.5" deviceID="1347" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW483"/>
+    <PARK x="546" scaleY="1.5" deviceID="1346" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW482"/>
+    <PARK x="531" scaleY="1.5" deviceID="1345" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW481"/>
+    <PARK x="515" scaleY="1.5" deviceID="1344" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW480"/>
+    <PARK x="490" scaleY="1.5" deviceID="1343" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW479"/>
+    <PARK x="475" scaleY="1.5" deviceID="1342" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW478"/>
+    <PARK x="460" scaleY="1.5" deviceID="1341" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW477"/>
+    <PARK x="434" scaleY="1.5" deviceID="1340" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW476"/>
+    <PARK x="418" scaleY="1.5" deviceID="1339" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW475"/>
+    <PARK x="402" scaleY="1.5" deviceID="1338" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW474"/>
+    <PARK x="347" scaleY="1.5" deviceID="1506" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW722"/>
+    <PARK x="363" scaleY="1.5" deviceID="1505" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW721"/>
+    <PARK x="380" scaleY="1.5" deviceID="1504" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW720"/>
+    <PARK x="405" scaleY="1.5" deviceID="1503" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW719"/>
+    <PARK x="347" scaleY="1.5" deviceID="1507" y="172" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW723"/>
+    <PARK x="363" scaleY="1.5" deviceID="1508" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW724"/>
+    <PARK x="378" scaleY="1.5" deviceID="1509" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW725"/>
+    <PARK x="405" scaleY="1.5" deviceID="1510" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW726"/>
+    <PARK scaleY="1.5" deviceID="1502" y="122.64999999999999" mark="CW" width="10" height="19" x="451" scaleX="1.5" rotation="90" deviceName="B2CW718"/>
+    <PARK scaleY="1.5" deviceID="1501" y="121.45000000000002" mark="CW" width="10" height="19" x="547.6" scaleX="1.5" rotation="90" deviceName="B2CW717"/>
+    <PARK scaleY="1.5" deviceID="1500" y="121.24999999999997" mark="CW" width="10" height="19" x="599.8" scaleX="1.5" rotation="90" deviceName="B2CW716"/>
+    <PARK x="628" scaleY="1.5" deviceID="1494" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW710"/>
+    <PARK x="645" scaleY="1.5" deviceID="1495" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW711"/>
+    <PARK x="662" scaleY="1.5" deviceID="1496" y="173" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW712"/>
+    <PARK x="662" scaleY="1.5" deviceID="1497" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW713"/>
+    <PARK x="645" scaleY="1.5" deviceID="1498" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW714"/>
+    <PARK x="628" scaleY="1.5" deviceID="1499" y="140" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW715"/>
+    <PARK scaleY="1.5" deviceID="1493" y="146" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW709"/>
+    <PARK scaleY="1.5" deviceID="1492" y="162" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW708"/>
+    <PARK scaleY="1.5" deviceID="1491" y="178" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW707"/>
+    <PARK scaleY="1.5" deviceID="1490" y="200" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW706"/>
+    <PARK scaleY="1.5" deviceID="1489" y="216" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW705"/>
+    <PARK scaleY="1.5" deviceID="1488" y="232" mark="CW" width="10" height="19" x="765" scaleX="1.5" rotation="90" deviceName="B2CW704"/>
+    <PARK scaleY="1.5" deviceID="1487" y="258" mark="CW" width="10" height="19" x="790" scaleX="1.5" rotation="90" deviceName="B2CW703"/>
+    <PARK scaleY="1.5" deviceID="1486" y="274" mark="CW" width="10" height="19" x="790" scaleX="1.5" rotation="90" deviceName="B2CW702"/>
+    <PARK scaleY="1.5" deviceID="1485" y="290" mark="CW" width="10" height="19" x="790" scaleX="1.5" rotation="90" deviceName="B2CW701"/>
+    <PARK scaleY="1.5" deviceID="1484" y="320" mark="CW" width="10" height="19" x="875" scaleX="1.5" rotation="90" deviceName="B2CW700"/>
+    <PARK x="404" scaleY="1.5" deviceID="1470" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW664"/>
+    <PARK x="419" scaleY="1.5" deviceID="1471" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW665"/>
+    <PARK x="435" scaleY="1.5" deviceID="1472" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW666"/>
+    <PARK x="460" scaleY="1.5" deviceID="1473" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW667"/>
+    <PARK x="475" scaleY="1.5" deviceID="1474" y="250.09999999999997" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW668"/>
+    <PARK x="492" scaleY="1.5" deviceID="1475" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW669"/>
+    <PARK x="518" scaleY="1.5" deviceID="1476" y="250.00000000000006" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW670"/>
+    <PARK x="534" scaleY="1.5" deviceID="1477" y="250.00000000000006" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW671"/>
+    <PARK x="404" scaleY="1.5" deviceID="1462" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW632"/>
+    <PARK x="419" scaleY="1.5" deviceID="1463" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW633"/>
+    <PARK x="434" scaleY="1.5" deviceID="1464" y="350.15" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW634"/>
+    <PARK x="460.35" scaleY="1.5" deviceID="1465" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW635"/>
+    <PARK x="476.95000000000005" scaleY="1.5" deviceID="1466" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW636"/>
+    <PARK x="494" scaleY="1.5" deviceID="1467" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW637"/>
+    <PARK x="516" scaleY="1.5" deviceID="1468" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW638"/>
+    <PARK x="533" scaleY="1.5" deviceID="1469" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW639"/>
+    <PARK x="628" scaleY="1.5" deviceID="1478" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW672"/>
+    <PARK x="644" scaleY="1.5" deviceID="1479" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW673"/>
+    <PARK x="661" scaleY="1.5" deviceID="1480" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW674"/>
+    <PARK x="683" scaleY="1.5" deviceID="1481" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW675"/>
+    <PARK x="699" scaleY="1.5" deviceID="1482" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW676"/>
+    <PARK x="716" scaleY="1.5" deviceID="1483" y="250" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW677"/>
+    <PARK scaleY="1.5" deviceID="1540" y="412" mark="CW" width="10" height="19" x="720" scaleX="1.5" rotation="90" deviceName="B2CW778"/>
+    <PARK scaleY="1.5" deviceID="1832" y="412" mark="CW" width="10" height="19" x="655" scaleX="1.5" rotation="90" deviceName="B2CW1118"/>
+    <PARK scaleY="1.5" deviceID="1831" y="430" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1117"/>
+    <PARK scaleY="1.5" deviceID="1830" y="446" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1116"/>
+    <PARK scaleY="1.5" deviceID="1829" y="463" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1115"/>
+    <PARK scaleY="1.5" deviceID="1826" y="575" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1112"/>
+    <PARK scaleY="1.5" deviceID="1827" y="559" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1113"/>
+    <PARK scaleY="1.5" deviceID="1828" y="542" mark="CW" width="10" height="19" x="580" scaleX="1.5" rotation="90" deviceName="B2CW1114"/>
+    <PARK x="347" scaleY="1.5" deviceID="1442" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW600"/>
+    <PARK x="362" scaleY="1.5" deviceID="1444" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW602"/>
+    <PARK x="378" scaleY="1.5" deviceID="1445" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW603"/>
+    <PARK x="402" scaleY="1.5" deviceID="1446" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW604"/>
+    <PARK x="418" scaleY="1.5" deviceID="1447" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW605"/>
+    <PARK x="435" scaleY="1.5" deviceID="1448" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW606"/>
+    <PARK x="459" scaleY="1.5" deviceID="1449" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW607"/>
+    <PARK x="475" scaleY="1.5" deviceID="1450" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW608"/>
+    <PARK x="491" scaleY="1.5" deviceID="1451" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW609"/>
+    <PARK x="515" scaleY="1.5" deviceID="1452" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW610"/>
+    <PARK x="531" scaleY="1.5" deviceID="1453" y="423" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW611"/>
+    <PARK scaleY="1.5" deviceID="1443" y="452.25" mark="CW" width="10" height="19" x="371.5" scaleX="1.5" rotation="90" deviceName="B2CW601"/>
+    <PARK x="348" scaleY="1.5" deviceID="1814" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1100"/>
+    <PARK scaleY="1.5" deviceID="1815" y="548" mark="CW" width="10" height="19" x="373" scaleX="1.5" rotation="90" deviceName="B2CW1101"/>
+    <PARK x="363" scaleY="1.5" deviceID="1816" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1102"/>
+    <PARK x="379" scaleY="1.5" deviceID="1817" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1103"/>
+    <PARK x="403" scaleY="1.5" deviceID="1818" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1104"/>
+    <PARK x="419" scaleY="1.5" deviceID="1819" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1105"/>
+    <PARK x="436" scaleY="1.5" deviceID="1820" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1106"/>
+    <PARK x="460" scaleY="1.5" deviceID="1821" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1107"/>
+    <PARK x="476" scaleY="1.5" deviceID="1822" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1108"/>
+    <PARK x="493" scaleY="1.5" deviceID="1823" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1109"/>
+    <PARK x="516" scaleY="1.5" deviceID="1824" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1110"/>
+    <PARK x="533" scaleY="1.5" deviceID="1825" y="565" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1111"/>
+    <PARK scaleY="1.5" deviceID="1833" y="460" mark="CW" width="10" height="19" x="651" scaleX="1.5" rotation="90" deviceName="B2CW1119"/>
+    <PARK scaleY="1.5" deviceID="1834" y="485" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1120"/>
+    <PARK scaleY="1.5" deviceID="1835" y="501" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1121"/>
+    <PARK scaleY="1.5" deviceID="1836" y="517" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1122"/>
+    <PARK scaleY="1.5" deviceID="1837" y="544" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1123"/>
+    <PARK scaleY="1.5" deviceID="1838" y="560" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1124"/>
+    <PARK scaleY="1.5" deviceID="1839" y="576" mark="CW" width="10" height="19" x="650" scaleX="1.5" rotation="90" deviceName="B2CW1125"/>
+    <PARK scaleY="1.5" deviceID="1539" y="460.09999999999997" mark="CW" width="10" height="19" x="696.3" scaleX="1.5" rotation="90" deviceName="B2CW777"/>
+    <PARK scaleY="1.5" deviceID="1845" y="485" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1131"/>
+    <PARK scaleY="1.5" deviceID="1844" y="501" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1130"/>
+    <PARK scaleY="1.5" deviceID="1843" y="517" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1129"/>
+    <PARK scaleY="1.5" deviceID="1842" y="544" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1128"/>
+    <PARK scaleY="1.5" deviceID="1841" y="560" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1127"/>
+    <PARK scaleY="1.5" deviceID="1840" y="577" mark="CW" width="10" height="19" x="690" scaleX="1.5" rotation="90" deviceName="B2CW1126"/>
+    <PARK scaleY="1.5" deviceID="1530" y="462.00000000000006" mark="CW" width="10" height="19" x="846.3" scaleX="1.5" rotation="90" deviceName="B2CW768"/>
+    <PARK x="792" scaleY="1.5" deviceID="1538" y="562" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW776"/>
+    <PARK x="775" scaleY="1.5" deviceID="1537" y="562" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW775"/>
+    <PARK x="850" scaleY="1.5" deviceID="1511" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW732"/>
+    <PARK x="866" scaleY="1.5" deviceID="1512" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW733"/>
+    <PARK x="883" scaleY="1.5" deviceID="1513" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW734"/>
+    <PARK x="906" scaleY="1.5" deviceID="1514" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW735"/>
+    <PARK x="922" scaleY="1.5" deviceID="1515" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW736"/>
+    <PARK x="939" scaleY="1.5" deviceID="1516" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW737"/>
+    <PARK x="963" scaleY="1.5" deviceID="1517" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW738"/>
+    <PARK x="979" scaleY="1.5" deviceID="1518" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW739"/>
+    <PARK x="995" scaleY="1.5" deviceID="1519" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW740"/>
+    <PARK x="1022" scaleY="1.5" deviceID="1520" y="350" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW741"/>
+    <PARK x="1044.65" scaleY="1.5" deviceID="1521" y="425.15" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW742"/>
+    <PARK scaleY="1.5" deviceID="1522" y="430" mark="CW" width="10" height="19" x="1038" scaleX="1.5" rotation="90" deviceName="B2CW743"/>
+    <PARK scaleY="1.5" deviceID="1523" y="446" mark="CW" width="10" height="19" x="1038" scaleX="1.5" rotation="90" deviceName="B2CW744"/>
+    <PARK scaleY="1.5" deviceID="1524" y="462" mark="CW" width="10" height="19" x="1038" scaleX="1.5" rotation="90" deviceName="B2CW745"/>
+    <PARK scaleY="1.5" deviceID="1525" y="488" mark="CW" width="10" height="19" x="1038" scaleX="1.5" rotation="90" deviceName="B2CW746"/>
+    <PARK scaleY="1.5" deviceID="1526" y="413" mark="CW" width="10" height="19" x="945.4000000000001" scaleX="1.5" rotation="90" deviceName="B2CW764"/>
+    <PARK scaleY="1.5" deviceID="1813" y="430" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1095"/>
+    <PARK scaleY="1.5" deviceID="1812" y="446.55000000000007" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1094"/>
+    <PARK scaleY="1.5" deviceID="1811" y="462" mark="CW" width="10" height="19" x="960.1500000000001" scaleX="1.5" rotation="90" deviceName="B2CW1093"/>
+    <PARK scaleY="1.5" deviceID="1810" y="483" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1092"/>
+    <PARK scaleY="1.5" deviceID="1809" y="499" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1091"/>
+    <PARK scaleY="1.5" deviceID="1808" y="515" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1090"/>
+    <PARK scaleY="1.5" deviceID="1807" y="543" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1089"/>
+    <PARK scaleY="1.5" deviceID="1806" y="560" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1088"/>
+    <PARK scaleY="1.5" deviceID="1805" y="576" mark="CW" width="10" height="19" x="960" scaleX="1.5" rotation="90" deviceName="B2CW1087"/>
+    <PARK scaleY="1.5" deviceID="1527" y="430" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW765"/>
+    <PARK scaleY="1.5" deviceID="1528" y="446" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW766"/>
+    <PARK scaleY="1.5" deviceID="1529" y="462" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW767"/>
+    <PARK scaleY="1.5" deviceID="1531" y="484" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW769"/>
+    <PARK scaleY="1.5" deviceID="1532" y="500" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW770"/>
+    <PARK scaleY="1.5" deviceID="1533" y="516" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW771"/>
+    <PARK scaleY="1.5" deviceID="1534" y="544" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW772"/>
+    <PARK scaleY="1.5" deviceID="1535" y="561" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW773"/>
+    <PARK scaleY="1.5" deviceID="1536" y="577" mark="CW" width="10" height="19" x="925" scaleX="1.5" rotation="90" deviceName="B2CW774"/>
+    <PARK x="573" scaleY="1.5" deviceID="1782" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1064"/>
+    <PARK x="589" scaleY="1.5" deviceID="1783" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1065"/>
+    <PARK x="605" scaleY="1.5" deviceID="1784" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1066"/>
+    <PARK x="629" scaleY="1.5" deviceID="1785" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1067"/>
+    <PARK x="644" scaleY="1.5" deviceID="1786" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1068"/>
+    <PARK x="660" scaleY="1.5" deviceID="1787" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1069"/>
+    <PARK x="699" scaleY="1.5" deviceID="1788" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1070"/>
+    <PARK x="715" scaleY="1.5" deviceID="1789" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1071"/>
+    <PARK x="741" scaleY="1.5" deviceID="1790" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1072"/>
+    <PARK x="756" scaleY="1.5" deviceID="1791" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1073"/>
+    <PARK x="772" scaleY="1.5" deviceID="1792" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1074"/>
+    <PARK x="793" scaleY="1.5" deviceID="1793" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1075"/>
+    <PARK x="808" scaleY="1.5" deviceID="1794" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1076"/>
+    <PARK x="823" scaleY="1.5" deviceID="1795" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1077"/>
+    <PARK x="844" scaleY="1.5" deviceID="1796" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1078"/>
+    <PARK x="860" scaleY="1.5" deviceID="1797" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1079"/>
+    <PARK x="876" scaleY="1.5" deviceID="1798" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1080"/>
+    <PARK x="906" scaleY="1.5" deviceID="1799" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1081"/>
+    <PARK x="921" scaleY="1.5" deviceID="1800" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1082"/>
+    <PARK x="937" scaleY="1.5" deviceID="1801" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1083"/>
+    <PARK x="964" scaleY="1.5" deviceID="1802" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1084"/>
+    <PARK x="980" scaleY="1.5" deviceID="1803" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1085"/>
+    <PARK x="997" scaleY="1.5" deviceID="1804" y="640" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW1086"/>
+    <PARK x="347" scaleY="1.5" deviceID="1337" y="50" mark="CW" width="10" height="19" scaleX="1.5" deviceName="B2CW473"/>
+    <LABEL contentBackgroundAlpha="0" x="1175" textAlign="center" borderVisible="true" y="95" mark="CWYD" fontSize="18" width="60" paramID="125" fontFamily="digifaw" param="totalCars" fontWeight="normal" widthInChars="4" height="30" color="3407616" sizeAuto="false" rotation="0" contentBackgroundColor="000000" text="190" deviceID="1899" borderColor="999999" deviceName="G区车位"/>
+    <TEXT contentBackgroundAlpha="0" textAlign="center" borderVisible="false" y="95" x="1075" color="0" param="" width="79" height="22" fontFamily="微软雅黑" sizeAuto="true" fontWeight="normal" widthInChars="4" fontSize="18" deviceID="" borderColor="0xffffff" text="总  车  位"/>
+    <TEXT contentBackgroundAlpha="0" textAlign="center" borderVisible="false" y="140" x="1075" color="0" param="" width="78" height="22" fontFamily="微软雅黑" sizeAuto="true" fontWeight="normal" widthInChars="4" fontSize="18" deviceID="" borderColor="0xffffff" text="空余车位"/>
+    <LABEL contentBackgroundAlpha="0" x="1175" textAlign="center" borderVisible="true" y="140" mark="CWYD" fontSize="18" width="60" paramID="126" fontFamily="digifaw" param="freeCars" fontWeight="normal" widthInChars="4" height="30" color="255" sizeAuto="false" rotation="0" contentBackgroundColor="000000" text="120" deviceID="1899" borderColor="999999" deviceName="G区车位"/>
+    <TEXT contentBackgroundAlpha="0" textAlign="center" borderVisible="false" y="195" x="1075" color="0" param="" width="78" height="22" fontFamily="微软雅黑" sizeAuto="true" fontWeight="normal" widthInChars="4" fontSize="18" deviceID="" borderColor="0xffffff" text="故障车位"/>
+    <LABEL contentBackgroundAlpha="0" x="1175" textAlign="center" borderVisible="true" y="190" mark="CWYD" fontSize="18" width="60" paramID="127" fontFamily="digifaw" param="faultCars" fontWeight="normal" widthInChars="4" height="30" color="16737792" sizeAuto="false" rotation="0" contentBackgroundColor="000000" text="0" deviceID="1899" borderColor="999999" deviceName="G区车位"/>
+  </Components>
+</Configration>

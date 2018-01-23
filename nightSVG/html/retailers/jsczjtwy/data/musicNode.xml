@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="613">
+  <LIST>
+    <Component>
+      <YX/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scale="0.8" x="20" y="4" rotation="0"/>
+    <YX isPop="true" deviceID="" scale="1" x="751" y="327" rotation="0"/>
+    <YX isPop="true" deviceID="" scale="1" x="473" y="330" rotation="0"/>
+    <YX isPop="true" deviceID="" scale="1" x="177" y="105" rotation="0"/>
+    <YX isPop="true" deviceID="" scale="1" x="216" y="267" rotation="0"/>
+    <YX isPop="true" deviceID="" scale="1" x="836" y="201" rotation="0"/>
+    <LABEL textAlign="right" fontSize="12" fontWeight="normal" deviceID="" fontFamily="digifaw" text="12db" widthInChars="3" param="" color="65280" scale="1" x="797" y="355" rotation="0"/>
+  </Components>
+</Configration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component/>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <YXO source="assets/comp/TULI/YXO.png"/>
+      <YXC source="assets/comp/TULI/YXC.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE width="1434" x="0" y="0" height="714"/>
+    <TULI scaleY="0.9" x="1220" y="594" scaleX="0.9" width="225" height="124"/>
+    <LABEL fontFamily="digifaw" param="volume" x="887" y="324" color="3407616" sizeAuto="false" borderColor="999999" contentBackgroundColor="000000" widthInChars="4" text="0101" deviceID="761" fontWeight="normal" deviceName="办公区域" fontSize="16" rotation="0" contentBackgroundAlpha="0" textAlign="center" borderVisible="true" mark="YX" paramID="27"/>
+    <TEXT fontFamily="微软雅黑" x="1240.1" y="625" color="0" sizeAuto="true" borderColor="0xffffff" contentBackgroundColor="16777215" fontSize="16" text="开启状态" deviceID="" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" width="66" height="24"/>
+    <YXO scaleY="0.5" x="1265" y="650" scaleX="0.5" width="64" height="64"/>
+    <YXC scaleY="0.5" x="1350" y="650" scaleX="0.5" width="64" height="64"/>
+    <TEXT fontFamily="微软雅黑" x="859" y="360" color="255" sizeAuto="true" borderColor="0xffffff" contentBackgroundColor="16777215" fontSize="18" text="办公区域" deviceID="" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" width="74" height="27"/>
+    <TEXT fontFamily="微软雅黑" x="1325" y="625" color="0" sizeAuto="true" borderColor="0xffffff" contentBackgroundColor="16777215" fontSize="16" text="关闭状态" deviceID="" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" width="66" height="24"/>
+    <YXO scaleY="0.7" x="839.0999999999999" y="312.85" scaleX="0.7" width="64" height="64"/>
+  </Components>
+</Configration>

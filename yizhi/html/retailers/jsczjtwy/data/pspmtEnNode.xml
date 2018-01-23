@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration >
+  <LIST>
+    <Component>
+      <WSK/>
+      <HANDAUTO/>
+      <PWB/>
+      <PWB1/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <WSK scaleY="1.2" y="290" scaleX="1.2" x="260" width="217" height="126" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image1465" rotation="0" deviceID="76"/>
+    <HANDAUTO y="260" x="425" width="58" alarm="HANDAUTO" height="25" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image1467" rotation="0" deviceID="76" param="handAuto"/>
+    <PWB scaleY="0.35" y="140" scaleX="0.35" x="335" width="250" height="188" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image1469" rotation="0" deviceID="76"/>
+    <PWB1 scaleY="0.35" y="210" scaleX="0.35" x="335" width="250" height="188" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image1471" rotation="0" deviceID="76"/>
+    <TEXT x="275" y="165" height="22" widthInChars="2" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput1473" rotation="0" fontSize="18" color="0" sizeAuto="true" width="30" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="1号" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <TEXT x="275" y="235" height="22" widthInChars="2" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput1476" rotation="0" fontSize="18" color="0" sizeAuto="true" width="30" deviceID="" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="2号" fontWeight="normal" fontFamily="微软雅黑" param=""/>
+    <TEXT x="249" y="90" height="30" widthInChars="10" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput1491" rotation="0" fontSize="20" color="65280" sizeAuto="false" contentBackgroundColor="0" width="240" deviceID="76" textAlign="center" contentBackgroundAlpha="0" borderColor="0xffffff" borderVisible="false" text="12" fontWeight="normal" fontFamily="微软雅黑" param="deviceName"/>
+  </Components>
+</Configration>

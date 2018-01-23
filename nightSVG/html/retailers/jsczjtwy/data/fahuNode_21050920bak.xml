@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configration >
+  <LIST>
+    <Component>
+      <EAF/>
+      <ALARM/>
+      <HANDAUTO/>
+      <OPENCLOSE/>
+    </Component>
+    <Image>
+      <KTMD source="assets/comp/ktmd.png"/>
+      <LRPG source="assets/comp/lrpg.png"/>
+      <GLW source="assets/comp/glw.png"/>
+      <DDFFG source="assets/comp/ddf_fg.png"/>
+      <TEMP source="assets/comp/temp.png"/>
+      <FFL source="assets/comp/ff_l.png"/>
+      <JT source="assets/comp/jt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <KTMD scaleY="0.6" x="51" y="202" rotation="0" scaleX="0.6"/>
+    <LRPG scaleY="0.6" x="355" y="220" rotation="0" scaleX="0.6"/>
+    <GLW scaleY="0.6" x="248" y="219" rotation="0" scaleX="0.6"/>
+    <DDFFG scaleY="0.6" x="369" y="328" rotation="180" scaleX="0.6"/>
+    <EAF scaleY="0.6" y="217" scaleX="0.6" x="529" width="101" isPop="false" height="129" rotation="0" popType="list" deviceID="76"/>
+    <TEXT x="505" y="180" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="送风温度" fontWeight="normal"/>
+    <TEMP scaleY="0.5" x="672" y="195" rotation="0" scaleX="0.5"/>
+    <LABEL x="580" y="181" contentBackgroundAlpha="0" borderVisible="true" fontSize="12" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="sAirTemp" textAlign="right" sizeAuto="false" fontWeight="normal" text="20.00℃" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="168" y="299" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="回水阀位" fontWeight="normal"/>
+    <LABEL x="241" y="298" contentBackgroundAlpha="0" borderVisible="true" fontSize="12" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="wValve" textAlign="right" sizeAuto="false" fontWeight="normal" text="30.00%" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="387" y="325" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="回水温度" fontWeight="normal"/>
+    <LABEL x="386" y="301" contentBackgroundAlpha="0" borderVisible="true" fontSize="12" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="eTemp" textAlign="right" sizeAuto="false" fontWeight="normal" text="17.00℃" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="210" y="158" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="87" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="过滤网报警" fontWeight="normal"/>
+    <ALARM scaleY="1" y="180" scaleX="1" x="222" width="58" height="25" deviceName="X-YL-3-1新风机组" alarm="ALARM" rotation="0" deviceID="76" paramID="282" mark="PAU" param="EQ"/>
+    <FFL scaleY="0.6" x="118" y="219" rotation="0" scaleX="0.6"/>
+    <TEXT x="329" y="157" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="防冻报警" fontWeight="normal"/>
+    <ALARM scaleY="1" y="180" scaleX="1" x="342" width="58" height="25" alarm="ALARM" rotation="0" deviceID="76" param="freeAlarm"/>
+    <HANDAUTO scaleY="1" y="260" scaleX="1" x="588" width="58" height="25" alarm="HANDAUTO" rotation="0" deviceID="76" param="handAuto"/>
+    <TEXT x="82" y="158" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="5" width="87" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="新风阀状态" fontWeight="normal"/>
+    <OPENCLOSE scaleY="1" y="181" scaleX="1" x="100" width="58" height="25" alarm="OPENCLOSE" rotation="0" deviceID="76" param="openClose"/>
+    <TEXT x="505" y="159" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="温度设定" fontWeight="normal"/>
+    <LABEL x="580" y="159" contentBackgroundAlpha="0" borderVisible="true" fontSize="12" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="sAirSetTemp" textAlign="right" sizeAuto="false" fontWeight="normal" text="" borderColor="999999" fontFamily="digifaw"/>
+    <JT scaleY="1" x="50" y="240" rotation="0" scaleX="1"/>
+    <JT scaleY="1" x="701" y="240" rotation="0" scaleX="1"/>
+    <LABEL x="241" y="321" contentBackgroundAlpha="0" borderVisible="true" fontSize="12" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="wValveSet" textAlign="right" sizeAuto="false" fontWeight="normal" text="" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="117" y="53" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" mark="PAU" fontSize="18" deviceName="X-YL-3-1新风机组" contentBackgroundColor="0" deviceID="76" color="65280" scaleX="1" scaleY="1" widthInChars="20" rotation="0" width="200" param="deviceName" textAlign="center" sizeAuto="false" borderColor="0xffffff" height="22" text="12" fontWeight="normal"/>
+    <TEXT x="168" y="319" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="阀位设定" fontWeight="normal"/>
+    <LABEL x="553" y="300" contentBackgroundAlpha="0" borderVisible="true" mark="PAU" fontSize="12" deviceName="X-YL-3-1新风机组" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="rate" textAlign="right" sizeAuto="false" fontWeight="normal" text="" paramID="63" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="511" y="302" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="36" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="频率" fontWeight="normal"/>
+    <LABEL x="553" y="325" contentBackgroundAlpha="0" borderVisible="true" mark="PAU" fontSize="12" deviceName="X-YL-3-1新风机组" rotation="0" deviceID="76" widthInChars="8" scaleY="1" color="65280" contentBackgroundColor="000000" scaleX="1" width="80" param="rateSet" textAlign="right" sizeAuto="false" fontWeight="normal" text="" paramID="114" borderColor="999999" fontFamily="digifaw"/>
+    <TEXT x="480" y="328" contentBackgroundAlpha="0" fontFamily="微软雅黑" borderVisible="false" fontSize="16" rotation="0" deviceID="" color="0" scaleX="1" scaleY="1" widthInChars="4" width="70" param="" textAlign="right" sizeAuto="true" borderColor="0xffffff" height="21" text="频率设定" fontWeight="normal"/>
+  </Components>
+</Configration>

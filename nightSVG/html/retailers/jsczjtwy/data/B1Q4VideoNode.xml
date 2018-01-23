@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1780" Height="628">
+  <LIST>
+    <Component>
+      <QSX/>
+      <ZNSX/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <VB1TULI source="assets/comp/VB1Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="182" y="-401"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10030" rotation="0" isPop="true" scale="0.35" popType="video" x="332" y="119"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="7" fontSize="12" text="夹层自行车库5" scaleX="1" textAlign="right" x="280" y="105"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10039" rotation="0" isPop="true" scale="0.35" popType="video" x="417" y="116"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="4" fontSize="12" text="E2区143" scaleX="1" textAlign="right" x="401" y="139"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10040" rotation="0" isPop="true" scale="0.35" popType="video" x="317" y="147"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="4" fontSize="12" text="E2区19" scaleX="1" textAlign="right" x="300" y="171"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10046" rotation="0" isPop="true" scale="0.35" popType="video" x="413" y="235"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="5" fontSize="12" text="-1F E1区" scaleX="1" textAlign="right" x="387" y="258"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10047" rotation="0" isPop="true" scale="0.35" popType="video" x="405" y="292"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="7" fontSize="12" text="-1F主通道球机" scaleX="1" textAlign="right" x="324" y="337"/>
+    <ZNSX scaleX="0.35" scaleY="0.35" deviceID="10048" rotation="0" isPop="true" scale="0.35" popType="video" x="370" y="316"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="5" fontSize="12" text="西至东通道" scaleX="1" textAlign="right" x="397" y="316"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="10049" rotation="0" isPop="true" scale="0.35" popType="video" x="485" y="309"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="4" fontSize="12" text="E1区76" scaleX="1" textAlign="right" x="463" y="333"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9925" rotation="0" isPop="true" scale="0.35" popType="video" x="523" y="252"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="5" fontSize="12" text="永辉卸货区" scaleX="1" textAlign="right" x="498" y="276"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9921" rotation="0" isPop="true" scale="0.35" popType="video" x="576" y="257"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="5" fontSize="12" text="永辉卸货区" scaleX="1" textAlign="right" x="564" y="281"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9927" rotation="0" isPop="true" scale="0.35" popType="video" x="556" y="319"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="6" fontSize="12" text="1号主行车道" scaleX="1" textAlign="right" x="519" y="345"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9916" rotation="0" isPop="true" scale="0.35" popType="video" x="524" y="408"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="7" fontSize="12" text="西边至-2F通道" scaleX="1" textAlign="right" x="498" y="433"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9919" rotation="0" isPop="true" scale="0.35" popType="video" x="441" y="402"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="7" fontSize="12" text="西边至-2F通道" scaleX="1" textAlign="right" x="413" y="426"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9918" rotation="0" isPop="true" scale="0.35" popType="video" x="626" y="256"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="6" fontSize="12" text="永辉湿垃圾站" scaleX="1" textAlign="right" x="610" y="238"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="9926" rotation="0" isPop="true" scale="0.35" popType="video" x="613" y="330"/>
+    <TEXT rotation="0" scaleY="1" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="6" fontSize="12" text="1号主行车道" scaleX="1" textAlign="right" x="582" y="355"/>
+    <VB1TULI scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="761" y="4"/>
+    <QSX scaleX="0.35" scaleY="0.35" deviceID="7391" rotation="0" isPop="true" scale="0.35" popType="video" x="244" y="211"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" fontWeight="normal" param="" scale="1" widthInChars="5" fontSize="12" text="1号开关站" textAlign="right" x="231" y="243"/>
+  </Components>
+</Configration>

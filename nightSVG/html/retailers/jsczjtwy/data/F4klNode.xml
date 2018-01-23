@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <BJN source="assets/comp/TULI/BJN.png"/>
+      <BJA source="assets/comp/TULI/BJA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE group="map" height="714" x="0" source="mapAssets/mapImages/F4Node.png" y="0" width="1434"/>
+    <LCF4 group="bg" height="92" x="10" source="assets/comp/LCF4.png" y="10" width="110"/>
+    <TULI group="tuli" height="124" x="1198" source="assets/comp/TULI/TULI.png" y="579" width="225"/>
+    <TEXT fontSize="16" y="614" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="true" width="121" fontFamily="微软雅黑" height="21" color="0" x="1263" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="客流摄像头正常" widthInChars="4"/>
+    <TEXT fontSize="16" y="644" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="true" width="121" fontFamily="微软雅黑" height="21" color="0" x="1263" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="客流摄像头报警" widthInChars="4"/>
+    <BJN group="tuli" height="16" x="1238" source="assets/comp/TULI/BJN.png" y="619" width="16"/>
+    <BJA group="tuli" height="16" x="1238" source="assets/comp/TULI/BJA.png" y="649" width="16"/>
+    <TEXT fontSize="12" y="461" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="true" width="92" fontFamily="微软雅黑" height="17" color="13408512" x="838" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="爱上铜锣湾KTV" widthInChars="4"/>
+    <TEXT fontSize="12" y="476" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="true" width="67" fontFamily="微软雅黑" height="17" color="13408512" x="838" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="金仕堡健身" widthInChars="4"/>
+    <TEXT fontSize="12" y="491" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="true" width="80" fontFamily="微软雅黑" height="17" color="13408512" x="838" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="星轶国际影城" widthInChars="4"/>
+    <TEXT fontSize="12" y="461" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="29" fontFamily="微软雅黑" height="17" color="13408512" x="968" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4001" widthInChars="4"/>
+    <TEXT fontSize="12" y="476" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="30" fontFamily="微软雅黑" height="17" color="13408512" x="968" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4002" widthInChars="4"/>
+    <TEXT fontSize="12" y="491" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="30" fontFamily="微软雅黑" height="17" color="13408512" x="968" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4003" widthInChars="4"/>
+    <TEXT fontSize="12" y="231" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="29" fontFamily="微软雅黑" height="17" color="13408512" x="1095" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4001" widthInChars="4"/>
+    <TEXT fontSize="12" y="332" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="30" fontFamily="微软雅黑" height="17" color="13408512" x="1086" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4002" widthInChars="4"/>
+    <TEXT fontSize="12" y="319" contentBackgroundAlpha="0" textAlign="center" borderVisible="false" param="" contentBackgroundColor="16777215" sizeAuto="false" width="30" fontFamily="微软雅黑" height="17" color="13408512" x="1254" group="commonComp" borderColor="0xffffff" fontWeight="normal" source="assets/comp/TEXTINPUT/label.png" deviceID="" text="4003" widthInChars="4"/>
+    <ALARMTB alarm="ALARMTB" y="227" deviceName="铜锣湾" x="1153" source="assets/comp/ALARMTB/alarm/0/1.png" deviceID="9990061" mark="KLVD" width="16" paramID="1" height="16" group="commonComp" param="personNum"/>
+    <ALARMTB alarm="ALARMTB" y="313" deviceName="金仕堡" x="1104" source="assets/comp/ALARMTB/alarm/0/1.png" deviceID="9990093" mark="KLVD" width="16" paramID="1" height="16" group="commonComp" param="personNum"/>
+    <ALARMTB alarm="ALARMTB" y="206" deviceName="星轶影城" x="1227" source="assets/comp/ALARMTB/alarm/0/1.png" deviceID="9990010" mark="KLVD" width="16" paramID="1" height="16" group="commonComp" param="personNum"/>
+    <ALARMTB alarm="ALARMTB" y="430" deviceName="4F至停车楼出入口" x="1170" source="assets/comp/ALARMTB/alarm/0/1.png" deviceID="3700015" mark="KLQY" width="16" paramID="1" height="16" group="commonComp" param="inNum"/>
+  </Components>
+</Configration>

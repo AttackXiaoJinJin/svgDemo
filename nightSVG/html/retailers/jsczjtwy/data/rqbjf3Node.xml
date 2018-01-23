@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <RQBJ/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE x="0" scaleX="1" scaleY="1" rotation="0" y="0" contentBackgroundAlpha="0" contentBackgroundColor="16777215"/>
+    <RQBJ x="154" scaleX="0.25" scaleY="0.25" rotation="0" y="584" deviceName="AAA_三层牛太郎厨房燃气报警" deviceID="300357" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="174" y="582" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="牛太郎" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="151" scaleX="0.25" scaleY="0.25" rotation="0" y="541" deviceName="AAA_三层一品粥厨房燃气报警" deviceID="300356" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="174" y="541" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="一品粥" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="164" scaleX="0.25" scaleY="0.25" rotation="0" y="495" deviceName="AAA_三层夜宴厨房燃气报警" deviceID="300355" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="186" y="495" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="夜焰" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="34" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="169" scaleX="0.25" scaleY="0.25" rotation="0" y="463" deviceName="AAA_三层P2#善品融和厨燃气报警" deviceID="300316" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="185" y="467" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="善品融和" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="4"/>
+    <RQBJ x="168" scaleX="0.25" scaleY="0.25" rotation="0" y="368" deviceName="AAA_三层P2#斗牛士厨房燃气报警" deviceID="300315" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="191" y="366" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="斗牛士" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="190" scaleX="0.25" scaleY="0.25" rotation="0" y="305" deviceName="AAA_三层P2#秦味阁厨房燃气报警" deviceID="300314" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="211" y="304" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="秦味阁" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="197" scaleX="0.25" scaleY="0.25" rotation="0" y="252" deviceName="AAA_三层P2#鲜上鲜厨房燃气报警" deviceID="300317" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="220" y="250" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="鲜尚鲜" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="249" scaleX="0.25" scaleY="0.25" rotation="0" y="153" deviceName="AAA_三层P2#九号仓库燃气报警" deviceID="300318" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="233" y="175" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="9号仓库" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="449" scaleX="0.25" scaleY="0.25" rotation="0" y="102" deviceName="AAA_三层P3#朝天门厨房燃气报警" deviceID="300329" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="431" y="121" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="朝天门" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="517" scaleX="0.25" scaleY="0.25" rotation="0" y="102" deviceName="AAA_三层P3#咖啡之翼燃气报警" deviceID="300330" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="499" y="120" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="咖啡之翼" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="646" scaleX="0.25" scaleY="0.25" rotation="0" y="99" deviceName="AAA_三层P4#星际之旅燃气报警" deviceID="300332" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="603" y="120" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="星际之旅" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="682" scaleX="0.25" scaleY="0.25" rotation="0" y="100" deviceName="AAA_三层P4#悦鼎记厨房燃气报警" deviceID="300331" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="679" y="120" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="悦鼎汇" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="759" scaleX="0.25" scaleY="0.25" rotation="0" y="102" deviceName="AAA_三层P4#西湘阁厨房燃气报警" deviceID="300333" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="747" y="122" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="西湘阁" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="840" scaleX="0.25" scaleY="0.25" rotation="0" y="101" deviceName="AAA_三层P4#半秋山厨房燃气报警" deviceID="300334" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="833" y="122" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="半秋山" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="1115" scaleX="0.25" scaleY="0.25" rotation="0" y="126" deviceName="AAA_三层P5#巴国布衣厨燃气报警" deviceID="300343" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1073" y="101" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="巴国布衣" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="1128" scaleX="0.25" scaleY="0.25" rotation="0" y="219" deviceName="AAA_三层P5#依然厨房燃气报警" deviceID="300342" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1126" y="243" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="依然" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="34" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="1172" scaleX="0.25" scaleY="0.25" rotation="0" y="358" deviceName="AAA_三层P5#长勺子厨房燃气报警" deviceID="300341" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1153" y="335" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="长勺子" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="1134" scaleX="0.25" scaleY="0.25" rotation="0" y="414" deviceName="AAA_三层P6#清江鱼舍厨燃气报警" deviceID="300344" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1113" y="387" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="清江鱼舍" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="1242" scaleX="0.25" scaleY="0.25" rotation="0" y="582" deviceName="AAA_三层P6#海港印象厨燃气报警" deviceID="300345" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1207" y="560" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="海港印象" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="962" scaleX="0.25" scaleY="0.25" rotation="0" y="524" deviceName="AAA_三层美食美客厨房燃气报警" deviceID="300230" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="947" y="546" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="美食美客" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="66" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="807" scaleX="0.25" scaleY="0.25" rotation="0" y="343" deviceName="KITTY HOUSE燃气" deviceID="24521" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="793" y="321" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="KITTY HOUSE" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="110" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="730" scaleX="0.25" scaleY="0.25" rotation="0" y="339" deviceName="韩悦燃气" deviceID="24522" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="725" y="311" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="韩悦" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="34" sizeAuto="true" widthInChars="3"/>
+    <RQBJ x="389" scaleX="0.25" scaleY="0.25" rotation="0" y="428" deviceName="AAA_三层绿茵阁厨房燃气报警" deviceID="300335" mark="RQ" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="372" y="404" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" scaleX="1" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="绿茵阁" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="50" sizeAuto="true" widthInChars="3"/>
+  </Components>
+</Configration>

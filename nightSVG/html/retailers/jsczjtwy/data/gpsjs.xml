@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1073" Height="491">
+  <LIST>
+    <Component>
+      <PWB/>
+      <HANDAUTO/>
+      <PSX/>
+    </Component>
+    <Image>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+      <PIPE3T source="assets/comp/PIPE/pipe3.png"/>
+      <PIPE4T source="assets/comp/PIPE/pipe4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="18" color="16777215" textAlign="right" rotation="0" text="生活水箱" widthInChars="4" param="" x="478" y="46"/>
+    <PWB scale="0.3" rotation="0" deviceID="21209" x="905" y="378"/>
+    <PWB scale="0.3" rotation="0" deviceID="21205" x="303" y="378"/>
+    <PWB scale="0.3" rotation="0" deviceID="21207" x="604" y="378"/>
+    <PWB scale="0.3" rotation="0" deviceID="21208" x="758" y="378"/>
+    <PWB scale="0.3" rotation="0" deviceID="21206" x="456" y="378"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="频率Hz" widthInChars="4" param="" x="562" y="301"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="2号水泵" widthInChars="4" param="" x="452" y="350"/>
+    <HANDAUTO scale="1" rotation="0" deviceID="21205" x="308" y="441"/>
+    <HANDAUTO scale="1" rotation="0" deviceID="21208" x="764" y="441"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="3号水泵" widthInChars="4" param="" x="602" y="350"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="4号水泵" widthInChars="4" param="" x="757" y="351"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="5号水泵" widthInChars="4" param="" x="902" y="347"/>
+    <HANDAUTO scale="1" rotation="0" deviceID="21207" x="610" y="442"/>
+    <HANDAUTO scale="1" rotation="0" deviceID="21206" x="460" y="442"/>
+    <HANDAUTO scale="1" rotation="0" deviceID="21209" x="911" y="441"/>
+    <LABEL fontFamily="digifaw" fontWeight="normal" scale="1" deviceID="21211" fontSize="12" color="65280" textAlign="right" rotation="0" text="301" widthInChars="4" param="csyl" x="478" y="301"/>
+    <LABEL fontFamily="digifaw" fontWeight="normal" scale="1" deviceID="21211" fontSize="12" color="65280" textAlign="right" rotation="0" text="30" widthInChars="3" param="rate" x="637" y="301"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="1号水泵" widthInChars="4" param="" x="298" y="350"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="出水压力Pa" widthInChars="5" param="" x="389" y="301"/>
+    <PSX scale="1" rotation="0" deviceID="21211" x="326" y="39"/>
+    <PIPELINE height="40" scale="1" rotation="90" x="758" y="401"/>
+    <PIPELINE height="40" scale="1" rotation="90" x="605" y="399"/>
+    <PIPELINE height="40" scale="1" rotation="90" x="457" y="398"/>
+    <PIPELINE height="593" scale="1" rotation="90" x="860" y="332"/>
+    <PIPELINE height="40" scale="1" rotation="90" x="304" y="398"/>
+    <PIPELINE height="109" scale="1" rotation="0" x="556" y="287"/>
+    <PIPELINE height="55" scale="1" rotation="0" x="257" y="339"/>
+    <PIPELINE height="40" scale="1" rotation="90" x="907" y="400"/>
+    <PIPECORNER scale="1" rotation="0" x="256" y="393"/>
+    <PIPECORNER scale="1" rotation="90" x="268" y="330"/>
+    <PIPE3T scale="1" rotation="-90" x="403" y="342"/>
+    <PIPECORNER scale="1" rotation="0" x="407" y="393"/>
+    <PIPECORNER scale="1" rotation="0" x="555" y="394"/>
+    <PIPE4T scale="1" rotation="0" x="551" y="327"/>
+    <PIPECORNER scale="1" rotation="0" x="709" y="396"/>
+    <PIPE3T scale="1" rotation="-90" x="705" y="343"/>
+    <PIPECORNER scale="1" rotation="0" x="863" y="394"/>
+    <PIPECORNER scale="1" rotation="180" x="868" y="342"/>
+    <PIPELINE height="55" scale="1" rotation="0" x="408" y="340"/>
+    <PIPELINE height="59" scale="1" rotation="0" x="710" y="339"/>
+    <PIPELINE height="53" scale="1" rotation="0" x="863" y="341"/>
+  </Components>
+</Configration>

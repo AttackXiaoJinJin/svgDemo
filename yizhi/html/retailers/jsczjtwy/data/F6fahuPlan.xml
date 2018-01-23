@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1052.6912751677853" Height="538">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scale="0.7" rotation="0" x="50" y="10"/>
+    <KTTB deviceID="371" scale="0.4" isPop="true" popType="redirect" rotation="0" x="248" y="98"/>
+    <TEXT widthInChars="4" deviceID="" textAlign="right" fontWeight="bold" fontSize="12" rotation="0" fontFamily="Arial" scale="1" text="XF-6-1" param="" color="0" x="230" y="125"/>
+    <KTTB deviceID="372" scale="0.4" isPop="true" popType="redirect" rotation="0" x="318" y="13"/>
+    <TEXT widthInChars="4" deviceID="" textAlign="right" fontWeight="bold" fontSize="12" rotation="0" fontFamily="Arial" scale="1" text="XF-6-3" param="" color="0" x="301" y="40"/>
+    <KTTB deviceID="373" scale="0.4" isPop="true" popType="redirect" rotation="0" x="538" y="94"/>
+    <TEXT widthInChars="4" deviceID="" textAlign="right" fontWeight="bold" fontSize="12" rotation="0" fontFamily="Arial" scale="1" text="XF-6-2" param="" color="0" x="523" y="123"/>
+  </Components>
+</Configration>

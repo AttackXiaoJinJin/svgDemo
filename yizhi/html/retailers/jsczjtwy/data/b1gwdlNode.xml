@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="979.6711409395973" Height="525">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scale="0.5" x="-25" y="-8" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="68" y="453" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="91" y="457" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="132" y="453" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="100" y="415" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="88" y="432" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="112" y="434" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="79" y="406" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="129" y="408" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="86" y="374" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="84" y="338" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="132" y="384" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="106" y="340" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="96" y="318" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="148" y="330" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="130" y="317" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="99" y="294" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="120" y="295" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="111" y="275" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="147" y="243" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="170" y="197" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="198" y="230" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="267" y="216" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="243" y="215" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="257" y="199" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="198" y="163" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="212" y="179" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="204" y="81" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="220" y="99" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="264" y="172" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="285" y="173" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="276" y="153" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="264" y="112" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="286" y="111" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="226" y="132" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="247" y="140" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="263" y="72" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="386" y="86" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="230" y="13" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="288" y="76" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="229" y="35" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="313" y="-4" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="299" y="13" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="323" y="14" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="309" y="37" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="346" y="14" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="341" y="36" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="350" y="54" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="329" y="53" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="352" y="125" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="408" y="86" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="386" y="106" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="466" y="126" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="408" y="107" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="489" y="126" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="467" y="148" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="489" y="148" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="501" y="182" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="513" y="149" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="523" y="183" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="544" y="183" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="467" y="5" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="468" y="27" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="556" y="50" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="556" y="28" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="537" y="81" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="516" y="103" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="538" y="103" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="606" y="84" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="596" y="66" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="585" y="85" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="600" y="108" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="624" y="129" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="623" y="107" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="602" y="129" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="654" y="104" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="677" y="103" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="759" y="97" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="748" y="74" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="822" y="64" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="835" y="79" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="877" y="108" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="900" y="60" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="904" y="24" rotation="0"/>
+  </Components>
+</Configration>

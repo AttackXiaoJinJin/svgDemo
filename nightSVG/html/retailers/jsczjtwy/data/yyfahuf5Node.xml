@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="508">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F5NODE source="assets/comp/F5Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE rotation="0" scale="0.5" x="0" y="0"/>
+    <KTTB deviceID="21163" scale="0.5" rotation="0" x="637" y="240"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KXZ-5-2" rotation="0" color="3407718" x="627" y="223"/>
+    <KTTB deviceID="21164" scale="0.5" rotation="0" x="679" y="167"/>
+    <TEXT widthInChars="4" textAlign="right" deviceID="" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" text="KXZ-5-1" rotation="0" color="3407718" x="615" y="175"/>
+  </Components>
+</Configration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="715">
+  <LIST>
+    <Component/>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE y="0" source="mapAssets/mapImages/B1Node.png" x="0" height="714" width="1434" group="map"/>
+  </Components>
+</Configration>

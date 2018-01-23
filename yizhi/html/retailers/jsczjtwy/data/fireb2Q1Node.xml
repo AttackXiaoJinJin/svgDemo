@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1429" Height="711">
+  <LIST>
+    <Component>
+      <HANDBTN/>
+      <YCQ/>
+      <DWCQ/>
+      <JSBJ/>
+    </Component>
+    <Image>
+      <XFFQB2Q1 source="mapAssets/mapImages/XFFQB2/XFFQB2_1.png" group="map"/>
+      <XFFQB2Q1TULI source="mapAssets/mapImages/XFFQB2/XFFQB2_1TULI.png" group="mapTuli"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQB2Q1 width="1434" x="-5" height="714" source="mapAssets/mapImages/XFFQB2/XFFQB2_1.png" y="-3"/>
+    <HANDBTN deviceName="7.4fa91d.负二1区通道手报3" width="80" height="80" y="164" x="481" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26108" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e4110.负二1区消火栓按钮7#" width="80" height="80" y="192" x="471" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26706" scaleX="0.3"/>
+    <YCQ deviceName="7.4da385.负二1区W3#隔油间烟感9" width="80" height="80" y="253" x="492" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25006" scaleX="0.3"/>
+    <DWCQ deviceName="7.4f76d0.负二1区W3#隔油间门前温感8" width="80" height="80" y="254" x="555" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26301" scaleX="0.3"/>
+    <HANDBTN deviceName="7.519bde.负二1区消火栓按钮1" width="80" height="80" y="228" x="576" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26701" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a406.负二1区手报2" width="80" height="80" y="181" x="624" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26101" scaleX="0.3"/>
+    <YCQ deviceName="7.5484c1.负二1区男厕门前烟感5" width="80" height="80" y="252" x="616" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25005" scaleX="0.3"/>
+    <YCQ deviceName="7.52c0ae.负二1区LT03楼梯内烟感4" width="80" height="80" y="277" x="570" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25003" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a54f.负二1区楼梯间前室手报1" width="80" height="80" y="292" x="583" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26109" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2ed.负二1区LT03楼梯北前室烟感2" width="80" height="80" y="280" x="623" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25002" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2f5.负二1区LT03楼梯北前室烟感3" width="80" height="80" y="315" x="582" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25004" scaleX="0.3"/>
+    <YCQ deviceName="7.530c69.负二13区烟感2" width="80" height="80" y="313" x="500" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25028" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2f7.负二1区强电井烟感1" width="80" height="80" y="313" x="623" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25001" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e4210.负二1区消火栓按钮19" width="80" height="80" y="335" x="636" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26712" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a474.负二1区手报9" width="80" height="80" y="356" x="636" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26103" scaleX="0.3"/>
+    <YCQ deviceName="7.5484c0.负二1区烟感32" width="80" height="80" y="370" x="603" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25016" scaleX="0.3"/>
+    <YCQ deviceName="7.530cae.负二13区烟感1" width="80" height="80" y="370" x="576" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25029" scaleX="0.3"/>
+    <YCQ deviceName="7.52f4aa.负二13区烟感3" width="80" height="80" y="393" x="555" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25027" scaleX="0.3"/>
+    <YCQ deviceName="7.52ce1e.负二13区烟感4" width="80" height="80" y="393" x="527" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25026" scaleX="0.3"/>
+    <YCQ deviceName="7.530cb5.负二13区烟感5" width="80" height="80" y="393" x="499" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25025" scaleX="0.3"/>
+    <YCQ deviceName="7.52c019.负二13区烟感6" width="80" height="80" y="393" x="473" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25024" scaleX="0.3"/>
+    <YCQ deviceName="7.52f4a9.负二13区烟感7" width="80" height="80" y="480" x="472" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25023" scaleX="0.3"/>
+    <YCQ deviceName="7.532aef.负二13区烟感8" width="80" height="80" y="480" x="499" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25022" scaleX="0.3"/>
+    <HANDBTN deviceName="7.519cac.负二1区通道消火栓16" width="80" height="80" y="534" x="443" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26713" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a3b9.负二1区南通道手报7" width="80" height="80" y="601" x="457" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26104" scaleX="0.3"/>
+    <JSBJ deviceName="7.61ee2d.负二1区通道卷帘门2" width="80" height="80" y="601" x="408" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27503" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e4150.负二1区配电间外消火栓17" width="80" height="80" y="531" x="535" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26714" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4ae218.负二1区消火栓按钮14" width="80" height="80" y="621" x="472" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26703" scaleX="0.3"/>
+    <DWCQ deviceName="7.594051.负二1区非编温感模块4" width="80" height="80" y="608" x="533" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26303" scaleX="0.3"/>
+    <DWCQ deviceName="7.593fb8.负二1区非编温感模块3" width="80" height="80" y="557" x="474" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26302" scaleX="0.3"/>
+    <JSBJ deviceName="7.59b461.负二1区水流指示器" width="80" height="80" y="550" x="507" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27510" scaleX="0.3"/>
+    <JSBJ deviceName="7.59a3d4.负二1区信号闸阀" width="80" height="80" y="551" x="530" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27504" scaleX="0.3"/>
+    <JSBJ deviceName="7.597683.负二1,6区卷帘4" width="80" height="80" y="601" x="631" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27501" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2d2.负二1区烟感31" width="80" height="80" y="423" x="596" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25020" scaleX="0.3"/>
+    <YCQ deviceName="7.4da362.负二1区烟感30" width="80" height="80" y="461" x="591" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25017" scaleX="0.3"/>
+    <YCQ deviceName="7.4da38d.负二1区烟感27" width="80" height="80" y="508" x="587" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25018" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2d9.负二1区烟感29" width="80" height="80" y="509" x="616" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25019" scaleX="0.3"/>
+    <HANDBTN deviceName="7.519c02.负二1区消火栓按钮18" width="80" height="80" y="433" x="636" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26710" scaleX="0.3"/>
+    <JSBJ deviceName="7.59b6e6.负二1区280°监视1#" width="80" height="80" y="421" x="619" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27494" scaleX="0.3"/>
+    <JSBJ deviceName="7.59a3ca.负二1区防火阀1" width="80" height="80" y="443" x="615" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27508" scaleX="0.3"/>
+    <JSBJ deviceName="7.597690.负二1区扶梯切非模块" width="80" height="80" y="295" x="604" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27490" scaleX="0.3"/>
+    <JSBJ deviceName="7.61ee17.负二1区强切" width="80" height="80" y="316" x="603" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27502" scaleX="0.3"/>
+    <JSBJ deviceName="7.611cf7.负二1区应急照明切非模块" width="80" height="80" y="334" x="593" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27491" scaleX="0.3"/>
+    <JSBJ deviceName="7.597644.负二1区声光模块1#" width="80" height="80" y="333" x="615" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27492" scaleX="0.3"/>
+    <JSBJ deviceName="7.59400b.负二1区声光模块2#" width="80" height="80" y="353" x="593" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27493" scaleX="0.3"/>
+    <JSBJ deviceName="7.5940c4.负二1区广播1" width="80" height="80" y="353" x="616" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27509" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4faaaa.负二1区消火栓按钮5" width="80" height="80" y="34" x="698" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26709" scaleX="0.3"/>
+    <DWCQ deviceName="7.59414.负二1区非编温感模块5" width="80" height="80" y="66" x="697" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26310" scaleX="0.3"/>
+    <DWCQ deviceName="7.610e03.负二1区非编温感模块6" width="80" height="80" y="102" x="697" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26308" scaleX="0.3"/>
+    <DWCQ deviceName="7.59400c.负二1区非编温感模块7" width="80" height="80" y="138" x="697" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26309" scaleX="0.3"/>
+    <DWCQ deviceName="7.59400e.负二1区非编温感模块8" width="80" height="80" y="167" x="697" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26307" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e446c.负二1区消火栓按钮6" width="80" height="80" y="34" x="837" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26702" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e434d.负二1区消火栓按钮7" width="80" height="80" y="33" x="947" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26708" scaleX="0.3"/>
+    <YCQ deviceName="7.4da321.负二1区烟感12" width="80" height="80" y="66" x="928" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25007" scaleX="0.3"/>
+    <JSBJ deviceName="7.5a4ea0.负二1,2区卷帘3" width="80" height="80" y="102" x="949" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27497" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a3ef.负二1区手报4" width="80" height="80" y="177" x="872" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26102" scaleX="0.3"/>
+    <DWCQ deviceName="7.59400d.负二1区非编温感模块9" width="80" height="80" y="205" x="728" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26306" scaleX="0.3"/>
+    <HANDBTN deviceName="7.519c6e.负二1区N2#隔油间外消火栓9" width="80" height="80" y="262" x="714" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26717" scaleX="0.3"/>
+    <YCQ deviceName="7.52c0a8.负二1区N2#隔油间烟感22" width="80" height="80" y="318" x="719" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25031" scaleX="0.3"/>
+    <YCQ deviceName="7.4da358.负二1区N2#隔油间烟感21" width="80" height="80" y="287" x="733" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25021" scaleX="0.3"/>
+    <YCQ deviceName="7.52ced1.负二1区烟感20" width="80" height="80" y="252" x="771" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25014" scaleX="0.3"/>
+    <YCQ deviceName="7.4da378.负二1区烟感17" width="80" height="80" y="251" x="809" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25013" scaleX="0.3"/>
+    <YCQ deviceName="7.4da384.负二1区烟感13" width="80" height="80" y="249" x="888" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25009" scaleX="0.3"/>
+    <YCQ deviceName="7.4da305.负二1区烟感16" width="80" height="80" y="249" x="849" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25008" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2ec.负二1区烟感14" width="80" height="80" y="285" x="888" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25010" scaleX="0.3"/>
+    <YCQ deviceName="7.4da2ee.负二1区烟感15" width="80" height="80" y="285" x="851" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25011" scaleX="0.3"/>
+    <YCQ deviceName="7.52c0ad.负二1区烟感18" width="80" height="80" y="284" x="810" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25012" scaleX="0.3"/>
+    <YCQ deviceName="7.4da304.负二1区烟感19" width="80" height="80" y="284" x="772" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25015" scaleX="0.3"/>
+    <HANDBTN deviceName="7.54a5e5.负二1区步行街电梯厅外手报5" width="80" height="80" y="365" x="787" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26107" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4fab0b.负二1区消火栓按钮10" width="80" height="80" y="314" x="823" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26716" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4fab4f.负二1区消火栓按钮8#" width="80" height="80" y="333" x="951" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26705" scaleX="0.3"/>
+    <JSBJ deviceName="7.5973c4.负二1,2区卷帘2#" width="80" height="80" y="372" x="951" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27499" scaleX="0.3"/>
+    <DWCQ deviceName="7.598495.负二1区非编温感模块1" width="80" height="80" y="511" x="815" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26304" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4fa975.负二1区手报6" width="80" height="80" y="598" x="710" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26106" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e3fbb.负二1区消火栓按钮13" width="80" height="80" y="625" x="715" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26715" scaleX="0.3"/>
+    <DWCQ deviceName="7.598240.负二1区非编温感模块2" width="80" height="80" y="608" x="822" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="WCQ" deviceID="26305" scaleX="0.3"/>
+    <JSBJ deviceName="7.597a11.负二13区水流指示器" width="80" height="80" y="519" x="915" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27506" scaleX="0.3"/>
+    <JSBJ deviceName="7.597a1e.负二13区信号闸阀" width="80" height="80" y="519" x="939" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27507" scaleX="0.3"/>
+    <JSBJ deviceName="7.610e22.负二1、2分区卷帘门1" width="80" height="80" y="537" x="949" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27505" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e3eb3.负二1区消火栓按钮12" width="80" height="80" y="607" x="950" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26704" scaleX="0.3"/>
+    <HANDBTN deviceName="7.5e410a.负二1区通道消火栓3" width="80" height="80" y="165" x="449" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26718" scaleX="0.3"/>
+    <HANDBTN deviceName="7.4faa90.4faa90 FDM228/230-CN" width="80" height="80" y="99" x="467" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XFSB" deviceID="27518" scaleX="0.3"/>
+    <JSBJ deviceName="7.688e5b.负二1区通道卷帘门1" width="80" height="80" y="102" x="440" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27520" scaleX="0.3"/>
+    <HANDBTN deviceName="7.66c8c2.66c8c2 FDM228/230-CN" width="80" height="80" y="601" x="432" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XFSB" deviceID="27515" scaleX="0.3"/>
+    <YCQ deviceName="7.68257f.68257f OP720-CN" width="80" height="80" y="480" x="530" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27522" scaleX="0.3"/>
+    <YCQ deviceName="7.68257e.68257e OP720-CN" width="80" height="80" y="480" x="554" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27521" scaleX="0.3"/>
+    <HANDBTN deviceName="7.519c47.负二13区消火栓2" width="80" height="80" y="464" x="567" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XHS" deviceID="26711" scaleX="0.3"/>
+    <YCQ deviceName="7.52cec7.52cec7 OP720-CN" width="80" height="80" y="392" x="936" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27511" scaleX="0.3"/>
+    <YCQ deviceName="7.5fbadc.负二1区烟感24" width="80" height="80" y="347" x="729" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25035" scaleX="0.3"/>
+    <YCQ deviceName="7.5fd6d2.负二1区烟感23" width="80" height="80" y="346" x="761" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25036" scaleX="0.3"/>
+    <JSBJ deviceName="7.68c40f.68c40f FDCIO221-CN" width="80" height="80" y="319" x="744" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27517" scaleX="0.3"/>
+    <JSBJ deviceName="7.68e7ca.68e7ca FDCIO221-CN" width="80" height="80" y="320" x="769" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27516" scaleX="0.3"/>
+    <YCQ deviceName="7.52cecf.负二1区烟感11" width="80" height="80" y="65" x="896" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25032" scaleX="0.3"/>
+    <YCQ deviceName="7.5fac9d.负二1区烟感10" width="80" height="80" y="65" x="864" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25034" scaleX="0.3"/>
+    <XFFQB2Q1TULI width="400" x="1100" y="10" height="300" scaleY="0.75" source="mapAssets/mapImages/XFFQB2/XFFQB2_1TULI.png" scaleX="0.75"/>
+    <JSBJ deviceName="AAA_B2层1区非编温感模1" width="80" height="80" y="179" x="941" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27512" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层1区非编温感模2" width="80" height="80" y="107" x="915" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27513" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层1区非编温感模3" width="80" height="80" y="143" x="936" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27514" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层1区非编温感模4" width="80" height="80" y="207" x="937" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27524" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层1#污水提升间烟感" width="80" height="80" y="216" x="603" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27519" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层H134对面锅炉房消火栓2" width="80" height="80" y="581" x="513" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27523" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层10号通道烟感" width="80" height="80" y="338" x="563" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27525" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2F-2区EAF/SEF-B2-2-4风机" width="80" height="80" y="296" x="640" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27535" scaleX="0.3"/>
+    <YCQ deviceName="AAA_负二1区配电间烟感25" width="80" height="80" y="321" x="652" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25030" scaleX="0.3"/>
+    <YCQ deviceName="AAA_负二1区女卫烟感6" width="80" height="80" y="218" x="632" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25033" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2F-1区EAF/SEF-B2-01-3" width="80" height="80" y="158" x="530" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27500" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2-1-29#压开B2-1/13分区" width="80" height="80" y="176" x="544" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="70046" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2F-1区EAF/SEF-B2-01-4" width="80" height="80" y="156" x="553" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27495" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2F-1区OAF/MHP-B2-01-1" width="80" height="80" y="178" x="526" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27496" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层G035排烟排风机房烟感" width="80" height="80" y="172" x="564" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25123" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层G091烟感" width="80" height="80" y="155" x="578" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25165" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层G091员工用房通道烟感2" width="80" height="80" y="136" x="539" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25172" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层G160 29#隔油间烟感" width="80" height="80" y="424" x="915" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27725" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层G100消火栓" width="80" height="80" y="134" x="566" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="26753" scaleX="0.3"/>
+    <HANDBTN deviceName="AAA_B2层G137后手报" width="80" height="80" y="375" x="851" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="XFSB" deviceID="27811" scaleX="0.3"/>
+    <HANDBTN deviceName="AAA_B2层H050对面楼梯前室手报" width="80" height="80" y="437" x="813" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26105" scaleX="0.3"/>
+    <HANDBTN deviceName="AAA_B2层H159手报" width="80" height="80" y="458" x="749" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="70008" scaleX="0.3"/>
+    <HANDBTN deviceName="AAA_B2层库房外过道手报" width="80" height="80" y="473" x="862" scaleY="0.3" source="assets/comp/HANDBTN/alarm/0/1.png" mark="SB" deviceID="26148" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层H059车位旁消火栓" width="80" height="80" y="321" x="870" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="26707" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层H202手报" width="80" height="80" y="333" x="905" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="26790" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层H210消火栓" width="80" height="80" y="422" x="770" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="27871" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层百货冷冻站消火栓16" width="80" height="80" y="418" x="851" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="26777" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层百货冷冻站烟感15" width="80" height="80" y="471" x="938" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25285" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层冷冻站烟感5" width="80" height="80" y="490" x="889" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25266" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层消火栓泵模块" width="80" height="80" y="482" x="705" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="300351" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层烟感12" width="80" height="80" y="349" x="826" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="XFSB" deviceID="27711" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B塔屋顶水箱液位计" width="80" height="80" y="239" x="742" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XFSB" deviceID="70050" scaleX="0.3"/>
+    <JSBJ deviceName="AAA_B2层19#排烟机房门口消火栓1" width="80" height="80" y="189" x="839" scaleY="0.3" source="assets/comp/JSBJ/state/0/1.png" mark="XHS" deviceID="300354" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层16防火分区库房烟感" width="80" height="80" y="87" x="823" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="70002" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层2#排烟风机房烟感1" width="80" height="80" y="190" x="810" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25037" scaleX="0.3"/>
+    <YCQ deviceName="AAA_B2层23#隔油提升间烟感" width="80" height="80" y="185" x="783" scaleY="0.3" source="assets/comp/YCQ/state/0/1.png" mark="YCQ" deviceID="25351" scaleX="0.3"/>
+    <DWCQ deviceName="AAA_B2层9区普通温感模块" width="80" height="80" y="219" x="890" scaleY="0.3" source="assets/comp/DWCQ/state/0/1.png" mark="XFSB" deviceID="27735" scaleX="0.3"/>
+  </Components>
+</Configration>

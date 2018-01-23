@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1042.6510067114093" Height="527">
+  <LIST>
+    <Component>
+      <LXJZ/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LXJZ deviceID="" isPop="true" popType="list" scale="1" x="657" y="379" rotation="0"/>
+  </Components>
+</Configration>

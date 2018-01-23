@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1065" Height="474">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scale="0.45" x="100" y="0" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="280" y="129" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="643" y="161" rotation="0"/>
+  </Components>
+</Configration>

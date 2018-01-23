@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1267" Height="604">
+  <LIST>
+    <Component>
+      <QSX/>
+      <BQSX/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <VB1TULI source="assets/comp/VB1Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="-331" y="-425"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10018" isPop="true" scale="0.45" rotation="0" popType="video" x="545" y="302"/>
+    <BQSX scaleX="0.45" scaleY="0.45" deviceID="10012" isPop="true" scale="0.45" rotation="0" popType="video" x="627" y="415"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="5" rotation="0" param="" text="F1区通道口" scale="1" fontWeight="normal" fontSize="14" x="525" y="336"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10015" isPop="true" scale="0.45" rotation="0" popType="video" x="584" y="255"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="7" rotation="0" param="" text="入口主干道F3区" scale="1" fontWeight="normal" fontSize="14" x="557" y="237"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10011" isPop="true" scale="0.45" rotation="0" popType="video" x="634" y="258"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="7" rotation="0" param="" text="入口主干道F1区" scale="1" fontWeight="normal" fontSize="14" x="614" y="286"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10010" isPop="true" scale="0.45" rotation="0" popType="video" x="654" y="365"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="3" rotation="0" param="" text="通道一" scale="1" fontWeight="normal" fontSize="14" x="650" y="346"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="3" rotation="0" param="" text="通道三" scale="1" fontWeight="normal" fontSize="14" x="620" y="398"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="3" rotation="0" param="" text="通道十" scale="1" fontWeight="normal" fontSize="14" x="587" y="420"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10019" isPop="true" scale="0.45" rotation="0" popType="video" x="589" y="437"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="10016" isPop="true" scale="0.45" rotation="0" popType="video" x="709" y="455"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="5" rotation="0" param="" text="F1区坡道" scale="1" fontWeight="normal" fontSize="14" x="686" y="440"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="9937" isPop="true" scale="0.45" rotation="0" popType="video" x="200" y="396"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="7" rotation="0" param="" text="西侧至-2F通道" scale="1" fontWeight="normal" fontSize="14" x="170" y="378"/>
+    <BQSX scaleX="0.45" scaleY="0.45" deviceID="9929" isPop="true" scale="0.45" rotation="0" popType="video" x="354" y="317"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="7" rotation="0" param="" text="1号出入口岗亭" scale="1" fontWeight="normal" fontSize="14" x="317" y="301"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="9924" isPop="true" scale="0.45" rotation="0" popType="video" x="279" y="301"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="6" rotation="0" param="" text="1号口汽车道" scale="1" fontWeight="normal" fontSize="14" x="247" y="284"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="9915" isPop="true" scale="0.45" rotation="0" popType="video" x="299" y="243"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="4" rotation="0" param="" text="F3区47" scale="1" fontWeight="normal" fontSize="14" x="284" y="227"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="9923" isPop="true" scale="0.45" rotation="0" popType="video" x="447" y="309"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="7" rotation="0" param="" text="人防专用楼梯口" scale="1" fontWeight="normal" fontSize="14" x="417" y="291"/>
+    <QSX scaleX="0.45" scaleY="0.45" deviceID="9917" isPop="true" scale="0.45" rotation="0" popType="video" x="485" y="258"/>
+    <TEXT scaleX="1" scaleY="1" deviceID="" textAlign="right" color="0" fontFamily="Arial" widthInChars="6" rotation="0" param="" text="1号口坡道处" scale="1" fontWeight="normal" fontSize="14" x="459" y="240"/>
+    <VB1TULI scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="731" y="2"/>
+  </Components>
+</Configration>

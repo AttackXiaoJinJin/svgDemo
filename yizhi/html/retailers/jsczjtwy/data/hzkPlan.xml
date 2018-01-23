@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="560">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="0.7" scaleY="0.7" rotation="0" widthInChars="5" scale="0.7" x="40" y="-40"/>
+    <KTTB scaleX="0.4" scaleY="0.4" popType="redirect" rotation="0" isPop="true" scale="0.4" deviceID="8255" x="845" y="140"/>
+    <TEXT text="KT-HZW-1" scaleX="1" param="" scaleY="1" rotation="0" color="0" fontFamily="Arial" fontWeight="bold" fontSize="12" scale="1" widthInChars="5" textAlign="right" deviceID="" x="830" y="121"/>
+    <KTTB scaleX="0.4" scaleY="0.4" popType="redirect" rotation="0" isPop="true" scale="0.4" deviceID="8254" x="827" y="192"/>
+    <TEXT text="KT-HZW-2" scaleX="1" param="" scaleY="1" rotation="0" color="0" fontFamily="Arial" fontWeight="bold" fontSize="12" scale="1" widthInChars="5" textAlign="right" deviceID="" x="810" y="177"/>
+    <TULI scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="840" y="415"/>
+    <TEXT text="正常" scaleX="1" param="" scaleY="1" rotation="0" color="16777215" fontFamily="Arial" fontWeight="normal" fontSize="16" scale="1" widthInChars="2" textAlign="right" deviceID="" x="885" y="440"/>
+    <TEXT text="报警" scaleX="1" param="" scaleY="1" rotation="0" color="16777215" fontFamily="Arial" fontWeight="normal" fontSize="16" scale="1" widthInChars="2" textAlign="right" deviceID="" x="960" y="440"/>
+    <KTN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="885" y="470"/>
+    <KTA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="960" y="470"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="914" y="409" rotation="-90"/>
+  </Components>
+</Configration>

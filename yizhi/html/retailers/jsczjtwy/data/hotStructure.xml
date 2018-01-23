@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1133" Height="606">
+  <LIST>
+    <Component>
+      <RQGL/>
+      <JSQ/>
+      <HANDAUTO/>
+      <LQB/>
+    </Component>
+    <Image>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+      <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png"/>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <RQGL x="72" y="424" mark="RQGL" scaleY="0.5" scaleX="0.5" deviceName="大商业2#锅炉" width="249" height="122" isPop="true" popType="list" deviceID="12102"/>
+    <RQGL x="71" y="225" mark="RQGL" scaleY="0.5" scaleX="0.5" deviceName="大商业1#锅炉" width="249" height="122" isPop="true" popType="list" deviceID="12101"/>
+    <PIPECORNER x="123" y="364.05" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPECORNER x="122" y="161" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="110" y="173" width="12" scaleX="0.5" height="53"/>
+    <PIPELINE2 x="121" y="168.05" height="248" scaleY="1" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="381" y="172" height="23" scaleY="0.5" rotation="180" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="374" y="171" width="12" scaleX="0.5" height="189"/>
+    <PIPECORNER x="369" y="371" height="23" scaleY="0.5" rotation="-90" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="369" y="364" height="247" rotation="90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="111" y="375" width="12" scaleX="0.5" height="49"/>
+    <PIPELINE2 x="379" y="284" height="50" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="427" y="194" width="12" scaleX="0.5" height="186"/>
+    <PIPECORNER x="438" y="183" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPECORNER x="427" y="380" height="23" scaleY="0.5" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="438" y="189" height="108" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="439" y="391" height="100" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="432" y="284" height="111" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="607.05" y="190" height="124" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="743" y="195" height="23" scaleY="0.5" rotation="180" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="610.05" y="288" height="127" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPELINE2 x="736" y="195" width="12" scaleX="0.5" height="185"/>
+    <JSQ x="1088" y="19" scaleY="0.5" deviceID="" rotation="90" width="159" height="72" scaleX="0.5"/>
+    <PIPELINE2 x="608.05" y="391" height="123" rotation="-90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="732" y="391" height="23" scaleY="0.5" rotation="-90" width="23" scaleX="0.5"/>
+    <PIPELINE2 x="741" y="287" height="322" rotation="-90" width="12" scaleX="0.5"/>
+    <JSQ x="1087" y="242" scaleY="0.5" deviceID="" rotation="90" width="159" height="72" scaleX="0.5"/>
+    <PIPELINE x="1058" y="50" height="700" rotation="90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="360" y="50" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPELINE x="349" y="61" width="12" scaleX="0.5" height="327"/>
+    <PIPELINE x="351" y="383" height="177" rotation="90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="175" y="383" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPELINE x="163" y="394" width="12" scaleX="0.5" height="31"/>
+    <PIPELINE x="350" y="195" height="174" rotation="90" width="12" scaleX="0.5"/>
+    <PIPECORNER x="177" y="195" height="23" scaleY="0.5" rotation="90" width="23" scaleX="0.5"/>
+    <PIPELINE x="166" y="206" width="12" scaleX="0.5" height="19"/>
+    <HANDAUTO x="202" y="237" height="25" deviceName="大商业1#锅炉" alarm="HANDAUTO" width="58" paramID="38" mark="RQGL" deviceID="12101" param="handAuto"/>
+    <HANDAUTO x="202" y="439" height="25" deviceName="大商业2#锅炉" alarm="HANDAUTO" width="58" paramID="38" mark="RQGL" deviceID="12102" param="handAuto"/>
+    <HANDAUTO x="481" y="187" height="25" deviceName="大商业1#热水泵" alarm="HANDAUTO" width="58" paramID="38" mark="RSB" deviceID="12103" param="handAuto"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="617" y="195" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="54" fontWeight="normal" fontSize="12" deviceID="" text="频率反馈"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="620" y="319" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="54" fontWeight="normal" fontSize="12" deviceID="" text="频率反馈"/>
+    <LABEL textAlign="right" y="155" borderColor="999999" text="4.61" x="625" sizeAuto="false" fontFamily="digifaw" widthInChars="4" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="大商业1#热水泵" contentBackgroundAlpha="0" borderVisible="true" deviceID="12103" rotation="0" mark="RSB" param="ewPressure" paramID="5"/>
+    <LABEL textAlign="right" y="254" borderColor="999999" text="5.10" x="627" sizeAuto="false" fontFamily="digifaw" widthInChars="4" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="大商业2#热水泵" contentBackgroundAlpha="0" borderVisible="true" deviceID="12104" rotation="0" mark="RSB" param="ewPressure" paramID="5"/>
+    <LABEL textAlign="right" y="394" borderColor="999999" text="0.00" x="622" sizeAuto="false" fontFamily="digifaw" widthInChars="4" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="大商业3#热水泵" contentBackgroundAlpha="0" borderVisible="true" deviceID="15867" rotation="0" mark="RSB" param="ewPressure" paramID="5"/>
+    <LABEL textAlign="right" y="192" borderColor="999999" text="0" x="674" sizeAuto="false" fontFamily="digifaw" widthInChars="4" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="大商业1#热水泵" contentBackgroundAlpha="0" borderVisible="true" deviceID="12103" rotation="0" mark="RSB" param="rate" paramID="63"/>
+    <LABEL textAlign="right" y="316" borderColor="999999" text="50.00" x="676" sizeAuto="false" fontFamily="digifaw" widthInChars="4" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="大商业2#热水泵" contentBackgroundAlpha="0" borderVisible="true" deviceID="12104" rotation="0" mark="RSB" param="rate" paramID="63"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="625" y="134" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="66" fontWeight="normal" fontSize="12" deviceID="" text="1#泵后压力"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="626" y="227" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="66" fontWeight="normal" fontSize="12" deviceID="" text="2#泵后压力"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="622" y="358" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="66" fontWeight="normal" fontSize="12" deviceID="" text="3#泵后压力"/>
+    <LQB x="545" y="134" mark="RSB" scaleY="0.8" scaleX="0.8" deviceName="大商业1#热水泵" width="88" height="87" isPop="true" popType="list" deviceID="12103"/>
+    <LQB x="541" y="232" mark="RSB" scaleY="0.8" scaleX="0.8" deviceName="大商业2#热水泵" width="88" height="87" isPop="true" popType="list" deviceID="12104"/>
+    <LQB x="538" y="337" mark="RSB" scaleY="0.8" scaleX="0.8" deviceName="大商业3#热水泵" width="88" height="87" isPop="true" popType="list" deviceID="15867"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="21" borderColor="0xffffff" color="0x444444" x="1027" y="-5" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="104" fontWeight="normal" fontSize="16" deviceID="" text="大商业分水器"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="21" borderColor="0xffffff" color="0x444444" x="1029" y="206" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="104" fontWeight="normal" fontSize="16" deviceID="" text="大商业集水器"/>
+    <PIPECORNER x="345" y="390" height="23" scaleY="0.5" rotation="-90" width="23" scaleX="0.5"/>
+    <LABEL textAlign="right" y="247" borderColor="999999" text="5.42" x="382" sizeAuto="false" fontFamily="digifaw" widthInChars="3" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="热源参数" contentBackgroundAlpha="0" borderVisible="true" deviceID="12107" rotation="0" mark="RQGL" param="alarm" paramID="2"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="384" y="285" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="41" fontWeight="normal" fontSize="12" deviceID="" text="总压力"/>
+    <LABEL textAlign="right" y="107" borderColor="999999" text="5.42" x="119" sizeAuto="false" fontFamily="digifaw" widthInChars="3" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="热源参数" contentBackgroundAlpha="0" borderVisible="true" deviceID="12107" rotation="0" mark="RQGL" param="eTemp" paramID="4"/>
+    <LABEL textAlign="right" y="74" borderColor="999999" text="5.42" x="119" sizeAuto="false" fontFamily="digifaw" widthInChars="3" fontWeight="normal" contentBackgroundColor="000000" fontSize="12" color="3407616" deviceName="热源参数" contentBackgroundAlpha="0" borderVisible="true" deviceID="12107" rotation="0" mark="RQGL" param="sTemp" paramID="3"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="49" y="76" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="67" fontWeight="normal" fontSize="12" deviceID="" text="锅炉房温度"/>
+    <TEXT textAlign="center" contentBackgroundAlpha="0" height="17" borderColor="0xffffff" color="0x444444" x="48" y="108" borderVisible="false" sizeAuto="true" fontFamily="微软雅黑" param="" widthInChars="4" width="67" fontWeight="normal" fontSize="12" deviceID="" text="锅炉房湿度"/>
+    <HANDAUTO x="483" y="312" height="25" deviceName="大商业1#热水泵" alarm="HANDAUTO" width="58" paramID="38" mark="RSB" deviceID="12103" param="handAuto"/>
+  </Components>
+</Configration>

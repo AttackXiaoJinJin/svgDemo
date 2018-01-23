@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1436" Height="717">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LDN source="assets/comp/TULI/LDN.png"/>
+      <LDDX source="assets/comp/TULI/LDDX.png"/>
+      <LDYJ source="assets/comp/TULI/LDYJ.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE x="2" y="3" scaleY="1" rotation="0" scaleX="1"/>
+    <TULI x="1203" y="588" scaleY="1" rotation="0" scaleX="1"/>
+    <TEXT fontFamily="微软雅黑" x="1220" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="625" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="正常" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="1365" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="625" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="报警" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <LDN x="1220" y="645" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <LDDX x="1291" y="645" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <TEXT fontFamily="微软雅黑" x="1295" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="628" deviceID="" height="24" color="0" borderColor="0xffffff" param="" fontSize="16" text="掉线" fontWeight="normal" rotation="0" textAlign="center" width="34" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="194" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="392" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="218" isToolTip="true" y="413" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="662" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="176" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="414" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="243" isToolTip="true" y="413" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="662" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="267" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="412" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1A1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="34" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="217" isToolTip="true" y="437" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="663" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="171" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="441" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="231" isToolTip="true" y="227" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="664" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="223" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="273" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="188" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="228" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="257" isToolTip="true" y="227" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="665" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="281" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="228" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1APA2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="57" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="257" isToolTip="true" y="251" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="666" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="282" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="251" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="433" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="250" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="431" isToolTip="true" y="207" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="667" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="378" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="208" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="457" isToolTip="true" y="207" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="668" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="483" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="207" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="456" isToolTip="true" y="229" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="669" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="482" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="230" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1APA3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="57" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="533" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="287" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井B2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="547" isToolTip="true" y="313" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="670" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="571" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="312" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW5" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="809" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="251" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P4" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="815" isToolTip="true" y="207" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="671" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="765" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="207" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="838" isToolTip="true" y="206" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="672" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="859" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="206" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="839" isToolTip="true" y="229" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="673" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="861" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="229" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1APA1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="57" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="815" isToolTip="true" y="228" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="674" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="765" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="230" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AT1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="44" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="1062" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="146" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P5" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1063" isToolTip="true" y="169" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="675" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1018" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="169" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1087" isToolTip="true" y="169" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="676" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1110" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="168" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1APA2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="57" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1063" isToolTip="true" y="194" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="677" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1024" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="196" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AT2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="44" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1088" isToolTip="true" y="195" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="678" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1111" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="195" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="1111" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="377" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="强电井P6" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="71" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1138" isToolTip="true" y="397" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="679" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1086" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="399" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1APA3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="57" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1160" isToolTip="true" y="397" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="680" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1182" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="394" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AT3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="44" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1139" isToolTip="true" y="421" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="681" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1097" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="421" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AL3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="43" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="1162" isToolTip="true" y="422" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="682" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1188" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="423" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="1AW3" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="51" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="微软雅黑" x="212" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="95" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="系统正在巡检中..." fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="129" sizeAuto="true" widthInChars="4"/>
+    <LDCQ x="243" isToolTip="true" y="437" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="B2-1PA1(1F 强电井P1）" deviceID="600015" mark="LDCQ" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="272" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="438" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="B2-1PA1" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="73" sizeAuto="true" widthInChars="4"/>
+    <LDYJ x="1364" scaleX="0.5" scaleY="0.5" y="645" width="80" height="80"/>
+  </Components>
+</Configration>

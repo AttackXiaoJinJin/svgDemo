@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="631">
+  <LIST>
+    <Component>
+      <EA2/>
+      <OPENCLOSE/>
+      <HANDAUTO/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <EA2 deviceName="KX-Z-3-1新风机组" y="0" mark="PAU" x="0" source="assets/comp/EA2/alarm/0/1.png" group="deviceComp" deviceID="76" width="993" height="430"/>
+    <OPENCLOSE deviceName="新风机组BX-5AP(K)1" param="csOpenClose" alarm="OPENCLOSE" mark="PAU" x="38" paramID="158" source="assets/comp/OPENCLOSE/openClose/0/1.png" y="25" group="commonComp" deviceID="76" width="58" height="25"/>
+    <HANDAUTO deviceName="新风机组BX-5AP(K)1" param="handAuto" alarm="HANDAUTO" mark="PAU" x="662" paramID="38" source="assets/comp/HANDAUTO/handAuto/0/1.png" y="-1" group="commonComp" deviceID="76" width="58" height="25"/>
+  </Components>
+</Configration>

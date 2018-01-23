@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARM/>
+      <LIFTF2/>
+      <RUNING/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <FTN source="assets/comp/TULI/FTN.png"/>
+      <FTA source="assets/comp/TULI/FTA.png"/>
+      <FTR source="assets/comp/TULI/FTR.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE group="map" y="0" width="1434" height="714" source="mapAssets/mapImages/B1Node.png" x="0"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="680" borderColor="0xffffff" fontFamily="微软雅黑" y="270" sizeAuto="true" group="commonComp" width="85" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT06-B1F(7)#" widthInChars="4" deviceID=""/>
+    <ALARM deviceName="地下夹层至一层FT-BM1F-11" param="alarm" mark="LIFTF" x="678" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="315" alarm="ALARM" group="commonComp" deviceID="850001" width="58" height="25"/>
+    <ALARM deviceName="地下夹层至一层FT-BM1F-12" param="alarm" mark="LIFTF" x="810" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="315" alarm="ALARM" group="commonComp" deviceID="850002" width="58" height="25"/>
+    <LIFTF2 deviceName="FT06-1F(下)" y="291" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850002" width="36" height="52" x="774"/>
+    <LIFTF2 deviceName="FT06-B1F(上)" y="291" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850001" width="36" height="52" x="737"/>
+    <TULI y="509" x="1063" source="assets/comp/TULI/TULI.png" group="tuli" width="225" height="124" scaleY="1.2"/>
+    <FTN y="542.05" x="1221" source="assets/comp/TULI/FTN.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTA y="575.8" x="1221" source="assets/comp/TULI/FTA.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTR y="609.3" x="1221" source="assets/comp/TULI/FTR.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="548" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯正常" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1091" borderColor="0xffffff" contentBackgroundAlpha="0" y="583" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯报警" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="618" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯运行" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <RUNING deviceName="地下夹层至一层FT-BM1F-11" y="292" mark="LIFTF" x="678" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850001" width="58" height="25"/>
+    <RUNING deviceName="FT06-1F(下)" y="292" mark="LIFTF" x="810" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850002" width="58" height="25"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="792" borderColor="0xffffff" fontFamily="微软雅黑" y="269" sizeAuto="true" group="commonComp" width="76" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT06-1F(8)#" widthInChars="4" deviceID=""/>
+  </Components>
+</Configration>

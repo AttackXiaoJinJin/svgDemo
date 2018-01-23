@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="742">
+  <LIST>
+    <Component>
+      <QSX/>
+      <ZNSX/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <LCF5 source="assets/comp/LCF5.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <QSXZCTULI source="assets/comp/TULI/QSXZC.png"/>
+      <QSXBJTULI source="assets/comp/TULI/QSXBJ.png"/>
+      <BQSXZCTULI source="assets/comp/TULI/BQSXZC.png"/>
+      <BQSXBJTULI source="assets/comp/TULI/BQSXBJ.png"/>
+      <ZNSXZCTULI source="assets/comp/TULI/ZNSXZC.png"/>
+      <ZNSXBJTULI source="assets/comp/TULI/ZNSXBJ.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE y="0" x="0" source="mapAssets/mapImages/F5Node.png" group="map" width="1434" height="714"/>
+    <LCF5 y="10" x="10" source="assets/comp/LCF5.png" group="bg" width="110" height="92"/>
+    <QSX x="1063.8" y="387.75" group="commonComp" deviceID="640333" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="JK-5H-K04" source="assets/comp/QSX/alarm/0/1.png"/>
+    <TULI y="596" x="1188" source="assets/comp/TULI/TULI.png" group="tuli" width="225" height="124"/>
+    <TEXT x="1222" y="607" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="正常" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1342" y="609" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="报警" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <QSXZCTULI x="1224" y="630" group="tuli" width="80" height="80" source="assets/comp/TULI/QSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <QSXBJTULI x="1346" y="632" group="tuli" width="80" height="80" source="assets/comp/TULI/QSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <BQSXZCTULI x="1224" y="654" group="tuli" width="80" height="80" source="assets/comp/TULI/BQSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <BQSXBJTULI x="1347" y="656" group="tuli" width="80" height="80" source="assets/comp/TULI/BQSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <ZNSXZCTULI x="1224" y="680" group="tuli" width="80" height="80" source="assets/comp/TULI/ZNSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <ZNSXBJTULI x="1348" y="681" group="tuli" width="80" height="80" source="assets/comp/TULI/ZNSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <QSX x="358" y="360" group="commonComp" deviceID="640334" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="JK-5F-05-K01" source="assets/comp/QSX/alarm/0/1.png"/>
+    <ZNSX x="430.7499999999999" y="354.25" group="commonComp" deviceID="640316" scaleY="0.3" scaleX="0.3" height="80" width="80" mark="TSX" deviceName="JK-5G-QG01" source="assets/comp/ZNSX/alarm/0/1.png"/>
+    <TEXT x="421" y="380" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="冷却塔" color="0x444444" group="commonComp" sizeAuto="true" width="38" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1038" y="365" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="28号楼梯门口" color="0x444444" group="commonComp" sizeAuto="true" width="76" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1280" y="385" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="10号货梯" color="0x444444" group="commonComp" sizeAuto="true" width="52" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1242" y="435" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="11号货梯" color="0x444444" group="commonComp" sizeAuto="true" width="52" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <QSX x="1252" y="381" group="commonComp" deviceID="640269" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="24.13:10号货梯" source="assets/comp/QSX/alarm/0/1.png"/>
+    <QSX x="1253" y="406" group="commonComp" deviceID="640268" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="24.12:11号货梯" source="assets/comp/QSX/alarm/0/1.png"/>
+    <QSX x="488" y="377" group="commonComp" deviceID="640336" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="28.16:冷却塔西侧" source="assets/comp/QSX/alarm/0/1.png"/>
+    <TEXT x="484" y="401" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="冷却塔西侧" color="0x444444" group="commonComp" sizeAuto="true" width="62" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="331" y="382" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="冷却塔附近" color="0x444444" group="commonComp" sizeAuto="true" width="62" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+  </Components>
+</Configration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1052.6912751677853" Height="521">
+  <LIST>
+    <Component>
+      <B2CAR/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <B2CAR scale="1" deviceID="" rotation="0" x="41" y="-59"/>
+    <LABEL widthInChars="3" deviceID="8235" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="E1 " param="totalCars" color="3407616" x="348" y="239"/>
+    <LABEL widthInChars="3" deviceID="8235" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="E2" param="freeCars" color="3407616" x="348" y="266"/>
+    <LABEL widthInChars="3" deviceID="8236" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="F1" param="totalCars" color="65280" x="538" y="356"/>
+    <LABEL widthInChars="3" deviceID="8236" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="F2" param="freeCars" color="65280" x="538" y="384"/>
+    <LABEL widthInChars="3" deviceID="8234" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="D1" param="totalCars" color="3407616" x="153" y="269"/>
+    <LABEL widthInChars="3" deviceID="8234" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="D2" param="freeCars" color="3407616" x="153" y="297"/>
+    <LABEL widthInChars="3" deviceID="8237" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="G1" param="totalCars" color="65280" x="763" y="200"/>
+    <LABEL widthInChars="3" deviceID="8237" textAlign="right" fontWeight="normal" fontSize="18" rotation="0" fontFamily="Arial" scale="1" text="G2" param="freeCars" color="65280" x="763" y="228"/>
+    <LABEL widthInChars="3" textAlign="right" fontWeight="normal" fontSize="18" deviceID="8234" param="faultCars" fontFamily="Arial" scale="1" text="D3" rotation="0" color="3407616" x="154" y="326"/>
+    <LABEL widthInChars="3" textAlign="right" fontWeight="normal" fontSize="18" deviceID="8235" param="faultCars" fontFamily="Arial" scale="1" text="E3" rotation="0" color="3407616" x="348" y="296"/>
+    <LABEL widthInChars="3" textAlign="right" fontWeight="normal" fontSize="18" deviceID="8236" param="faultCars" fontFamily="Arial" scale="1" text="F3" rotation="0" color="65280" x="539" y="413"/>
+    <LABEL widthInChars="3" textAlign="right" fontWeight="normal" fontSize="18" deviceID="8237" param="faultCars" fontFamily="Arial" scale="1" text="G3" rotation="0" color="65280" x="764" y="257"/>
+  </Components>
+</Configration>

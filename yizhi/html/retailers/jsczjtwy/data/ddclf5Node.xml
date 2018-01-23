@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component>
+      <DDCL/>
+    </Component>
+    <Image>
+      <F4NODE source="assets/comp/F4Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2669" scale="0.72" x="57" y="-2" rotation="0"/>
+    <DDCL resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" popType="list" deviceID="7486" isPop="true" scale="0.2" x="191" y="217" rotation="0"/>
+    <DDCL deviceID="7485" popType="list" isPop="true" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" scale="0.2" x="150" y="223" rotation="0"/>
+    <DDCL resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" deviceID="7487" popType="list" isPop="true" scale="0.2" x="232" y="213" rotation="0"/>
+    <DDCL deviceID="7488" popType="list" isPop="true" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" scale="0.2" x="168" y="282" rotation="0"/>
+    <DDCL resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" deviceID="7489" popType="list" isPop="true" scale="0.2" x="209" y="276" rotation="0"/>
+    <DDCL deviceID="7490" popType="list" isPop="true" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image2836" scale="0.2" x="252" y="269" rotation="0"/>
+    <TEXT textAlign="right" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" color="0" deviceID="" fontWeight="bold" fontSize="12" fontFamily="宋体" text="1" widthInChars="1" param="" scale="1" x="159" y="203" rotation="0"/>
+    <TEXT textAlign="right" widthInChars="1" deviceID="" fontWeight="bold" fontSize="12" fontFamily="宋体" color="0" param="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" text="2" scale="1" x="205" y="196" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" fontSize="12" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" fontFamily="宋体" color="0" param="" widthInChars="1" text="3" scale="1" x="246" y="190" rotation="0"/>
+    <TEXT textAlign="right" widthInChars="1" deviceID="" fontWeight="bold" fontSize="12" fontFamily="宋体" color="0" param="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" text="4" scale="1" x="182" y="262" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" fontSize="12" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" fontFamily="宋体" color="0" param="" widthInChars="1" text="5" scale="1" x="217" y="256" rotation="0"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" fontSize="12" widthInChars="1" fontFamily="宋体" color="0" param="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput3320" text="6" scale="1" x="267" y="249" rotation="0"/>
+  </Components>
+</Configration>

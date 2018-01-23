@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1065" Height="487">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F3NODE source="assets/comp/F3Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE scale="0.45" x="102" y="6" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="392" y="196" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="654" y="271.95" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="729" y="170" rotation="0"/>
+  </Components>
+</Configration>

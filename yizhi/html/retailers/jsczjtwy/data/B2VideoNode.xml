@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1365" Height="626">
+  <LIST>
+    <Component/>
+    <Image>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <QSXZCTULI source="assets/comp/TULI/QSXZC.png"/>
+      <QSXBJTULI source="assets/comp/TULI/QSXBJ.png"/>
+      <BQSXZCTULI source="assets/comp/TULI/BQSXZC.png"/>
+      <BQSXBJTULI source="assets/comp/TULI/BQSXBJ.png"/>
+      <ZNSXZCTULI source="assets/comp/TULI/ZNSXZC.png"/>
+      <ZNSXBJTULI source="assets/comp/TULI/ZNSXBJ.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <TULI scaleY="1.2" group="tuli" width="225" x="1095" height="124" y="477" source="assets/comp/TULI/TULI.png" scaleX="1.2"/>
+    <TEXT deviceID="" fontFamily="微软雅黑" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" fontSize="14" borderVisible="false" param="" text="正常" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" width="32" textAlign="center" height="19" y="510" source="assets/comp/TEXTINPUT/label.png" x="1217" color="255" fontWeight="normal"/>
+    <TEXT deviceID="" fontFamily="微软雅黑" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" fontSize="14" borderVisible="false" param="" text="报警" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" width="32" textAlign="center" height="19" y="509" source="assets/comp/TEXTINPUT/label.png" x="1293" color="255" fontWeight="normal"/>
+    <QSXZCTULI scaleY="0.3" group="tuli" width="80" x="1219" height="80" y="533" source="assets/comp/TULI/QSXZC.png" scaleX="0.3"/>
+    <QSXBJTULI scaleY="0.3" group="tuli" width="80" x="1296" height="80" y="532" source="assets/comp/TULI/QSXBJ.png" scaleX="0.3"/>
+    <BQSXZCTULI scaleY="0.3" group="tuli" width="80" x="1219" height="80" y="557" source="assets/comp/TULI/BQSXZC.png" scaleX="0.3"/>
+    <BQSXBJTULI scaleY="0.3" group="tuli" width="80" x="1296" height="80" y="556" source="assets/comp/TULI/BQSXBJ.png" scaleX="0.3"/>
+    <ZNSXZCTULI scaleY="0.3" group="tuli" width="80" x="1219" height="80" y="583" source="assets/comp/TULI/ZNSXZC.png" scaleX="0.3"/>
+    <ZNSXBJTULI scaleY="0.3" group="tuli" width="80" x="1296" height="80" y="581" source="assets/comp/TULI/ZNSXBJ.png" scaleX="0.3"/>
+    <TEXT deviceID="" fontFamily="微软雅黑" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" fontSize="14" borderVisible="false" param="" text="枪机" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" width="32" textAlign="center" height="19" y="535" source="assets/comp/TEXTINPUT/label.png" x="1144" color="255" fontWeight="normal"/>
+    <TEXT deviceID="" fontFamily="微软雅黑" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" fontSize="14" borderVisible="false" param="" text="半球" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" width="32" textAlign="center" height="19" y="559" source="assets/comp/TEXTINPUT/label.png" x="1144" color="255" fontWeight="normal"/>
+    <TEXT deviceID="" fontFamily="微软雅黑" borderColor="0xffffff" widthInChars="4" contentBackgroundAlpha="0" fontSize="14" borderVisible="false" param="" text="云台" contentBackgroundColor="16777215" sizeAuto="true" group="commonComp" width="32" textAlign="center" height="19" y="583" source="assets/comp/TEXTINPUT/label.png" x="1144" color="255" fontWeight="normal"/>
+  </Components>
+</Configration>

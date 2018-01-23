@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?><Map x="-186" y="-49"  mapName="1.0" mapEnName="http://www.darcyenergy.com"><devices>
+</devices>
+
+<components>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.cool::AirHose</flashComp>
+<type>isFlash</type>
+<x>290.35</x>
+<y>172.05</y>
+<width>821.1500000000001</width>
+<height>245.72140402130947</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>0</depth>
+</base>
+<custom url ='comp/xmls/cool/AirHose.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::ColdHeatPipe</flashComp>
+<type>isFlash</type>
+<x>695</x>
+<y>334.40000000000003</y>
+<width>46.08809746954077</width>
+<height>115</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>1</depth>
+</base>
+<custom url ='comp/xmls/air/ColdHeatPipe.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::FilterNet</flashComp>
+<type>isFlash</type>
+<x>568.2</x>
+<y>330.55</y>
+<width>28.568864961866307</width>
+<height>81</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>2</depth>
+</base>
+<custom url ='comp/xmls/air/FilterNet.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::FanRightAnim</flashComp>
+<type>isFlash</type>
+<x>851.9499999999999</x>
+<y>333.45000000000005</y>
+<width>74.66666666666667</width>
+<height>83</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>3</depth>
+</base>
+<custom url ='comp/xmls/air/FanRightAnim.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::Exhaustvalve</flashComp>
+<type>isFlash</type>
+<x>579</x>
+<y>206</y>
+<width>29.956978144897608</width>
+<height>82</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>4</depth>
+</base>
+<custom url ='comp/xmls/air/Exhaustvalve.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comps.flash::MeterOa</flashComp>
+<type>isFlash</type>
+<x>985</x>
+<y>461</y>
+<width>41</width>
+<height>80</height>
+<rotation>-180</rotation>
+<isLocked>false</isLocked>
+<depth>5</depth>
+</base>
+<custom url ='comp/xmls/MeterOa.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.cool::Instrumentation</flashComp>
+<type>isFlash</type>
+<x>852.15</x>
+<y>154.95</y>
+<width>46.833422032996275</width>
+<height>80</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>6</depth>
+</base>
+<custom url ='comp/xmls/cool/Instrumentation.xml' >
+<unitTxt>green</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::Direction</flashComp>
+<type>isFlash</type>
+<x>997.7</x>
+<y>344.90000000000003</y>
+<width>68.21567164179106</width>
+<height>53.19999999999999</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>7</depth>
+</base>
+<custom url ='comp/xmls/air/Direction' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::Direction</flashComp>
+<type>isFlash</type>
+<x>1014</x>
+<y>267</y>
+<width>68.21567164179106</width>
+<height>53.19999999999999</height>
+<rotation>180.7514143419344</rotation>
+<isLocked>false</isLocked>
+<depth>8</depth>
+</base>
+<custom url ='comp/xmls/air/Direction' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>362</x>
+<y>451.15</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>9</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>293</x>
+<y>451</y>
+<width>90</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>10</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>新风阀：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::Direction</flashComp>
+<type>isFlash</type>
+<x>314.64999999999986</x>
+<y>346.90000000000003</y>
+<width>68.21567164179106</width>
+<height>53.19999999999999</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>11</depth>
+</base>
+<custom url ='comp/xmls/air/Direction' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>309.95000000000005</x>
+<y>486</y>
+<width>90</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>12</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>反馈：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>361</x>
+<y>487</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>13</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>468.2000000000001</x>
+<y>484.6</y>
+<width>95</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>14</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>防冻开关：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.status::Status</flashComp>
+<type>isFlash</type>
+<x>555.05</x>
+<y>483.5</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>15</depth>
+</base>
+<custom url ='comp/xmls/Status.xml' >
+<useStaus>normalerror</useStaus>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>508</x>
+<y>435</y>
+<width>58</width>
+<height>50</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>16</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>滤网：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.status::Status</flashComp>
+<type>isFlash</type>
+<x>558</x>
+<y>434</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>17</depth>
+</base>
+<custom url ='comp/xmls/Status.xml' >
+<useStaus>normalerror</useStaus>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>674</x>
+<y>458</y>
+<width>58</width>
+<height>50</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>18</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>水阀：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>726</x>
+<y>459</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>19</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>674</x>
+<y>492</y>
+<width>58</width>
+<height>50</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>20</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>反馈：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>725</x>
+<y>492</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>21</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>881</x>
+<y>472</y>
+<width>106</width>
+<height>50</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>22</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>送风温度：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>971</x>
+<y>474</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>23</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>℃</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>537.95</x>
+<y>102</y>
+<width>90</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>24</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>回风阀：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>833</x>
+<y>123</y>
+<width>110</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>25</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>ppm</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>552</x>
+<y>131</y>
+<width>90</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>26</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>反馈：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>608</x>
+<y>137</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>27</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>751</x>
+<y>121</y>
+<width>90</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>28</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>CO2浓度：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comps.flash::MeterOa</flashComp>
+<type>isFlash</type>
+<x>1028</x>
+<y>163</y>
+<width>41</width>
+<height>80</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>29</depth>
+</base>
+<custom url ='comp/xmls/MeterOa.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>977</x>
+<y>86.89999999999999</y>
+<width>102</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>30</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>回风湿度：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>1064</x>
+<y>91</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>31</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>℃</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>978</x>
+<y>123</y>
+<width>102</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>32</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>回风温度：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>1065</x>
+<y>125</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>33</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>℃</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>608</x>
+<y>105</y>
+<width>91</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>34</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>%</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::Humidifier</flashComp>
+<type>isFlash</type>
+<x>391</x>
+<y>330.95</y>
+<width>40.35973444495908</width>
+<height>118</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>35</depth>
+</base>
+<custom url ='comp/xmls/air/Humidifier.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.air::FanLeftAnim</flashComp>
+<type>isFlash</type>
+<x>752</x>
+<y>209</y>
+<width>80</width>
+<height>80</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>36</depth>
+</base>
+<custom url ='comp/xmls/air/FanLeftAnim.xml' >
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.status::Status</flashComp>
+<type>isFlash</type>
+<x>350.25</x>
+<y>119.85</y>
+<width>70</width>
+<height>30.347270615563303</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>37</depth>
+</base>
+<custom url ='comp/xmls/Status.xml' >
+<useStaus>shotupdown</useStaus>
+</custom>
+</properties>
+</component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>242</x>
+<y>120</y>
+<width>118</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>38</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>回风机启停：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>240</x>
+<y>160</y>
+<width>118</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>39</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>送风机启停：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.status::Status</flashComp>
+<type>isFlash</type>
+<x>351</x>
+<y>160</y>
+<width>68</width>
+<height>29</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>40</depth>
+</base>
+<custom url ='comp/xmls/Status.xml' >
+<useStaus>shotupdown</useStaus>
+</custom>
+</properties>
+</component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>645</x>
+<y>246</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>41</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>h</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>639</x>
+<y>212</y>
+<width>118</width>
+<height>46</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>42</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>0</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>运行时间：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>758</x>
+<y>335</y>
+<width>118</width>
+<height>46</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>43</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>0</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>运行时间：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>763</x>
+<y>367</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>44</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>h</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>235</x>
+<y>232</y>
+<width>118</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>45</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>送风机转速：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::Text</flashComp>
+<type>isFlash</type>
+<x>237</x>
+<y>197</y>
+<width>118</width>
+<height>49</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>46</depth>
+</base>
+<custom url ='comp/xmls/TextLabel.xml' >
+<bold>true</bold>
+<color>9154739</color>
+<font>宋体</font>
+<italic>true</italic>
+<size>10</size>
+<texts>回风机转速：</texts>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>349</x>
+<y>198</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>47</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>r</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+<component className='com.darcy.config.components::FlashComp'>
+<properties>
+<base>
+<flashComp>com.darcy.comp.flash.text::TxtInput</flashComp>
+<type>isFlash</type>
+<x>348</x>
+<y>233</y>
+<width>70</width>
+<height>27</height>
+<rotation>0</rotation>
+<isLocked>false</isLocked>
+<depth>48</depth>
+</base>
+<custom url ='comp/xmls/InputTxt.xml' >
+<unitTxt>r</unitTxt>
+</custom>
+</properties>
+<params deviceId='' deviceName=''></params></component>
+</components>
+</Map>

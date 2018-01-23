@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1594" Height="714">
+  <LIST>
+    <Component>
+      <NEWZMA/>
+      <NEWZMB/>
+      <NEWZMC/>
+      <NEWZMD/>
+      <NEWZMG1/>
+      <SSCTRL/>
+      <NEWZMG2/>
+      <NEWZMH/>
+    </Component>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <LCF2 source="assets/comp/LCF2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE height="714" group="map" source="mapAssets/mapImages/F2Node.png" x="0" y="0" width="1434"/>
+    <LCF2 scaleX="1" scaleY="1" height="92" width="110" x="10" y="10" group="bg" source="assets/comp/LCF2.png"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="33" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="1524" isControl="true" deviceID="3200002"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层卫生间筒灯组(B)" mark="BXJB" y="115" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="1524" isControl="true" deviceID="3210002"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层灯带组(C)" mark="BXJC" y="210" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="1524" isControl="true" deviceID="3220002"/>
+    <NEWZMD scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层信息发布屏组(D)" mark="BXJD" y="311" group="commonComp" source="assets/comp/NEWZMD/bg.png" x="1524" isControl="true" deviceID="3230002"/>
+    <NEWZMG1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（地面）组(G1)" mark="BXJG1" y="413" group="commonComp" source="assets/comp/NEWZMG1/bg.png" x="1524" isControl="true" deviceID="3260002"/>
+    <TEXT height="22" y="2" borderColor="0xffffff" text="公共区筒灯组(A)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="141" fontFamily="微软雅黑" param="" deviceID="" x="1411" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="83" borderColor="0xffffff" text="卫生间筒灯组(B)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="140" fontFamily="微软雅黑" param="" deviceID="" x="1406" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="179" borderColor="0xffffff" text="灯带组(C)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="84" fontFamily="微软雅黑" param="" deviceID="" x="1410" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="280" borderColor="0xffffff" text="信息发布屏组(D)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="141" fontFamily="微软雅黑" param="" deviceID="" x="1408" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="381" borderColor="0xffffff" text="导视屏（地面）组(G1)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="189" fontFamily="微软雅黑" param="" deviceID="" x="1405" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="484" borderColor="0xffffff" text="导视屏（悬挂）组(G2)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="189" fontFamily="微软雅黑" param="" deviceID="" x="1404" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="580" borderColor="0xffffff" text="广告牌组(H)" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="1409" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3200002" deviceName="2层公共区筒灯组(A)" param="control" mark="BXJA" y="38" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3210002" deviceName="2层卫生间筒灯组(B)" param="control" mark="BXJB" y="120" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3220002" deviceName="2层灯带组(C)" param="control" mark="BXJC" y="215" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3230002" deviceName="2层信息发布屏组(D)" param="control" mark="BXJD" y="316" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3260002" deviceName="2层导视屏（地面）组(G1)" param="control" mark="BXJG1" y="418" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3270002" deviceName="2层导视屏（悬挂）组(G2)" param="control" mark="BXJG2" y="520" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <SSCTRL paramID="97" width="100" height="30" deviceID="3280002" deviceName="2层广告牌组(H)" param="control" mark="BXJH" y="615" group="commonComp" source="assets/comp/SSCTRL/control/0/1.png" x="1404"/>
+    <NEWZMG2 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（悬挂）组(G2)" x="1524" y="515" group="commonComp" source="assets/comp/NEWZMG2/bg.png" mark="BXJG2" isControl="true" deviceID="3270002"/>
+    <NEWZMH scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层广告牌组(H)" x="1524" y="610" group="commonComp" source="assets/comp/NEWZMH/bg.png" mark="BXJH" isControl="true" deviceID="3280002"/>
+    <NEWZMH scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层广告牌组(H)" x="895" y="237" group="commonComp" source="assets/comp/NEWZMH/bg.png" mark="BXJH" isControl="true" deviceID="3280002"/>
+    <NEWZMG2 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（悬挂）组(G2)" x="795" y="260" group="commonComp" source="assets/comp/NEWZMG2/bg.png" mark="BXJG2" isControl="true" deviceID="3270002"/>
+    <NEWZMG1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（地面）组(G1)" mark="BXJG1" y="269" group="commonComp" source="assets/comp/NEWZMG1/bg.png" x="585" isControl="true" deviceID="3260002"/>
+    <NEWZMD scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层信息发布屏组(D)" mark="BXJD" y="257" group="commonComp" source="assets/comp/NEWZMD/bg.png" x="498" isControl="true" deviceID="3230002"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层灯带组(C)" mark="BXJC" y="261" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="731" isControl="true" deviceID="3220002"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层卫生间筒灯组(B)" mark="BXJB" y="373" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="933" isControl="true" deviceID="3210002"/>
+    <NEWZMB scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层卫生间筒灯组(B)" mark="BXJB" y="371" group="commonComp" source="assets/comp/NEWZMB/bg.png" x="500" isControl="true" deviceID="3210002"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="262" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="658" isControl="true" deviceID="3200002"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="234" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="83" isControl="true" deviceID="3200002"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层灯带组(C)" mark="BXJC" y="283" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="140" isControl="true" deviceID="3220002"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="464" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="63" isControl="true" deviceID="3200002"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层灯带组(C)" mark="BXJC" y="399" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="133" isControl="true" deviceID="3220002"/>
+    <NEWZMG1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（地面）组(G1)" mark="BXJG1" y="266" group="commonComp" source="assets/comp/NEWZMG1/bg.png" x="199" isControl="true" deviceID="3260002"/>
+    <NEWZMG2 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（悬挂）组(G2)" x="197" y="371" group="commonComp" source="assets/comp/NEWZMG2/bg.png" mark="BXJG2" isControl="true" deviceID="3270002"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="401" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="267" isControl="true" deviceID="3200002"/>
+    <NEWZMH scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层广告牌组(H)" x="263" y="245" group="commonComp" source="assets/comp/NEWZMH/bg.png" mark="BXJH" isControl="true" deviceID="3280002"/>
+    <NEWZMA scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层公共区筒灯组(A)" mark="BXJA" y="262" group="commonComp" source="assets/comp/NEWZMA/bg.png" x="430" isControl="true" deviceID="3200002"/>
+    <NEWZMC scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层灯带组(C)" mark="BXJC" y="263" group="commonComp" source="assets/comp/NEWZMC/bg.png" x="321" isControl="true" deviceID="3220002"/>
+    <NEWZMG1 scaleX="0.5" width="80" scaleY="0.5" height="80" deviceName="2层导视屏（地面）组(G1)" mark="BXJG1" y="238" group="commonComp" source="assets/comp/NEWZMG1/bg.png" x="370" isControl="true" deviceID="3260002"/>
+  </Components>
+</Configration>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component/>
+    <Image>
+      <FNODE source="assets/comp/floorNode.png"/>
+      <LAMPO source="assets/comp/LAMPO.png"/>
+      <LAMPC source="assets/comp/LAMPC.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <FNODE scale="0.3" x="0" y="0" rotation="0"/>
+    <LAMPO scale="0.6" x="164" y="88" rotation="0"/>
+    <LAMPO scale="0.6" x="166" y="124" rotation="0"/>
+    <LAMPO scale="0.6" x="166" y="154" rotation="0"/>
+    <LAMPO scale="0.6" x="171" y="191" rotation="0"/>
+    <LAMPO scale="0.6" x="173" y="227" rotation="0"/>
+    <LAMPO scale="0.6" x="150" y="272" rotation="0"/>
+    <LAMPO scale="0.6" x="156" y="313" rotation="0"/>
+    <LAMPO scale="0.6" x="206" y="334" rotation="0"/>
+    <LAMPO scale="0.6" x="245" y="303" rotation="0"/>
+    <LAMPO scale="0.6" x="237" y="267" rotation="0"/>
+    <LAMPO scale="0.6" x="206" y="243" rotation="0"/>
+    <LAMPO scale="0.6" x="276" y="326" rotation="0"/>
+    <LAMPO scale="0.6" x="324" y="333" rotation="0"/>
+    <LAMPO scale="0.6" x="379" y="337" rotation="0"/>
+    <LAMPO scale="0.6" x="441" y="340" rotation="0"/>
+    <LAMPO scale="0.6" x="496" y="340" rotation="0"/>
+    <LAMPO scale="0.6" x="562" y="342" rotation="0"/>
+    <LAMPO scale="0.6" x="617" y="345" rotation="0"/>
+    <LAMPO scale="0.6" x="672" y="338" rotation="0"/>
+    <LAMPO scale="0.6" x="700" y="313" rotation="0"/>
+    <LAMPO scale="0.6" x="752" y="295" rotation="0"/>
+    <LAMPO scale="0.6" x="783" y="336" rotation="0"/>
+    <LAMPO scale="0.6" x="751" y="373" rotation="0"/>
+    <LAMPO scale="0.6" x="702" y="384" rotation="0"/>
+    <LAMPO scale="0.6" x="852" y="118" rotation="0"/>
+    <LAMPO scale="0.6" x="833" y="163" rotation="0"/>
+    <LAMPO scale="0.6" x="816" y="208" rotation="0"/>
+    <LAMPO scale="0.6" x="795" y="255" rotation="0"/>
+    <LAMPO scale="0.6" x="797" y="257" rotation="0"/>
+    <LAMPC scale="0.6" x="180" y="274" rotation="0"/>
+    <LAMPC scale="0.6" x="208" y="302" rotation="0"/>
+    <LAMPC scale="0.6" x="710" y="351" rotation="0"/>
+    <LAMPC scale="0.6" x="740" y="336" rotation="0"/>
+    <LAMPC scale="0.6" x="404" y="426" rotation="0"/>
+    <LAMPC scale="0.6" x="409" y="376" rotation="0"/>
+  </Components>
+</Configration>

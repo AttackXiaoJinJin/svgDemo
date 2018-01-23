@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <LQB/>
+    </Component>
+    <Image>
+      <OUTTEMP source="assets/comp/outtemp.png"/>
+      <OUTWET source="assets/comp/outwet.png"/>
+      <HANZHI source="assets/comp/hanzhi.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <OUTTEMP x="197" y="116" scaleY="1" rotation="0" scaleX="1"/>
+    <OUTWET x="500" y="116" scaleY="1" rotation="0" scaleX="1"/>
+    <TEXT fontFamily="Arial" x="255" y="370" param="inTemp1" scaleY="1" sizeAuto="true" scaleX="1" color="16777215" fontSize="36" deviceID="11119" paramID="73" mark="BAEN" borderColor="0xffffff" text="12345" fontWeight="bold" rotation="0" contentBackgroundAlpha="0" borderVisible="false" textAlign="right" widthInChars="3" deviceName="室外温湿度" width="102" height="45"/>
+    <TEXT fontFamily="Arial" x="555" y="366" param="inTemp2" scaleY="1" sizeAuto="true" scaleX="1" color="16777215" fontSize="36" deviceID="11119" paramID="74" mark="BAEN" borderColor="0xffffff" text="12345" fontWeight="bold" rotation="0" contentBackgroundAlpha="0" borderVisible="false" textAlign="right" widthInChars="3" deviceName="室外温湿度" width="102" height="45"/>
+    <LQB popType="list" scaleX="0" scaleY="0" x="486" isPop="true" y="155" rotation="0" deviceID="" width="88" height="87"/>
+    <HANZHI x="800" width="266" y="113" height="333"/>
+    <TEXT fontFamily="Arial" x="853" y="371" param="enthalpy" scaleY="1" sizeAuto="true" scaleX="1" color="16777215" fontSize="36" deviceID="11119" paramID="269" mark="BAEN" borderColor="0xffffff" text="12345" fontWeight="bold" rotation="0" contentBackgroundAlpha="0" borderVisible="false" textAlign="right" widthInChars="3" deviceName="室外温湿度" width="102" height="45"/>
+  </Components>
+</Configration>

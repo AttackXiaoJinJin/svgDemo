@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="2538" Height="604">
+  <LIST>
+    <Component/>
+    <Image>
+      <GZDT source="assets/comp/gzdt.png"/>
+      <BPDNEW1 source="assets/comp/BPDNEW1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <GZDT width="2000" source="assets/comp/gzdt.png" x="0" height="603" y="0"/>
+    <BPDNEW1 x="89.25" source="assets/comp/BPDNEW1.png" y="44.75" scaleX="1.5" scaleY="1.5" width="827" height="270"/>
+    <BPDNEW1 x="1297.4999999999998" source="assets/comp/BPDNEW1.png" y="43.900000000000034" scaleX="1.5" scaleY="1.5" width="827" height="270"/>
+  </Components>
+</Configration>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <MJ/>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F6NODE source="mapAssets/mapImages/F6Node.png" group="map"/>
+      <LCF6 source="assets/comp/LCF6.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+      <MJN source="assets/comp/TULI/MJN.png"/>
+      <MJA source="assets/comp/TULI/MJA.png"/>
+      <MJOPEN source="assets/comp/MJOPEN.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE rotation="0" scaleY="1" scaleX="1" x="0" y="0" group="map" source="mapAssets/mapImages/F6Node.png"/>
+    <LCF6 height="92" group="bg" source="assets/comp/LCF6.png" x="10" width="110" y="10"/>
+    <TULI group="tuli" source="assets/comp/TULI/TULI.png" x="1203" y="586" width="225" height="124"/>
+    <LCF4 group="bg" source="assets/comp/LCF4.png" x="10" y="10" width="110" height="92"/>
+    <MJ rotation="0" mark="MJ" height="80" scaleX="0.30000000000000004" width="80" scaleY="0.30000000000000004" deviceName="8.12*6层23号楼梯" y="157" group="deviceComp" source="assets/comp/MJ/bg.png" x="1225" deviceID="1390098"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="53" param="" contentBackgroundColor="16777215" fontWeight="normal" group="commonComp" sizeAuto="true" textAlign="center" text="23号楼梯" fontFamily="微软雅黑" deviceID="" x="1218" y="185" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <MJN scaleX="0.5" scaleY="0.5" height="80" width="80" x="1238" y="641" group="tuli" source="assets/comp/TULI/MJN.png"/>
+    <MJA scaleX="0.5" scaleY="0.5" height="80" width="80" x="1353" y="641" group="tuli" source="assets/comp/TULI/MJA.png"/>
+    <TEXT height="19" y="616" borderColor="0xffffff" text="关门" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="32" fontFamily="微软雅黑" param="" deviceID="" x="1241" fontSize="14" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="19" y="616" borderColor="0xffffff" text="报警" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="32" fontFamily="微软雅黑" param="" deviceID="" x="1356" fontSize="14" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="19" y="616" borderColor="0xffffff" text="开门" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="32" fontFamily="微软雅黑" param="" deviceID="" x="1299" fontSize="14" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <MJOPEN scaleX="0.5" scaleY="0.5" height="80" width="80" x="1295" y="641" group="bg" source="assets/comp/MJOPEN.png"/>
+    <ALARMTB deviceName="8.12#门禁控制器" width="16" height="16" alarm="ALARMTB" paramID="592" param="onLine" deviceID="3770027" x="1272" y="168" group="commonComp" source="assets/comp/ALARMTB/alarm/0/1.png" mark="MJKZQ"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="94" param="" contentBackgroundColor="16777215" fontWeight="normal" group="commonComp" sizeAuto="true" textAlign="center" text="8.12#门禁控制器" fontFamily="微软雅黑" deviceID="" x="1266" y="142" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <MJ rotation="0" mark="MJ" height="80" scaleX="0.30000000000000004" width="80" scaleY="0.30000000000000004" deviceName="8.4*10,11号电梯机房" y="379" group="deviceComp" source="assets/comp/MJ/bg.png" x="1244" deviceID="1390097"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="94" param="" contentBackgroundColor="16777215" fontWeight="normal" group="commonComp" sizeAuto="true" textAlign="center" text="10,11号电梯机房" fontFamily="微软雅黑" deviceID="" x="1248" y="361" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <MJ rotation="0" mark="MJ" height="80" scaleX="0.30000000000000004" width="80" scaleY="0.30000000000000004" deviceName="8.4*6层29号楼梯" y="385" group="deviceComp" source="assets/comp/MJ/bg.png" x="1206" deviceID="1390095"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="53" param="" contentBackgroundColor="16777215" fontWeight="normal" group="commonComp" sizeAuto="true" textAlign="center" text="29号楼梯" fontFamily="微软雅黑" deviceID="" x="1178" y="409" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <ALARMTB deviceName="8.4#门禁控制器" width="16" height="16" alarm="ALARMTB" paramID="592" param="onLine" deviceID="3770026" x="1258" y="404" group="commonComp" source="assets/comp/ALARMTB/alarm/0/1.png" mark="MJKZQ"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="88" param="" contentBackgroundColor="16777215" fontWeight="normal" group="commonComp" sizeAuto="true" textAlign="center" text="8.4#门禁控制器" fontFamily="微软雅黑" deviceID="" x="1242" y="421" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+  </Components>
+</Configration>

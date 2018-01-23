@@ -1,0 +1,280 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#readSVG{
+  position: absolute;
+  /*border: 1px red solid;*/
+  left:100px;
+  top:0;
+  width: 100%;
+  height:100%;
+}
+
+#infoDiv{
+  position: absolute;
+  /*border:1px red solid;*/
+  left:10px;
+  top:10px;
+  display: none;
+  /*display: block;*/
+  background-color: #eeeeee;
+}
+
+#infoDiv tbody tr{
+}
+
+#infoDiv tbody tr td{
+  font-size: 18px;
+
+  padding: 5px;
+  vertical-align: center;
+  border:1px red solid;
+  text-align: center;
+}
+
+.infoColor{
+  color:#38A7AF;
+}
+
+/*视频的弹出框*/
+#infoVideo{
+  cursor: pointer;
+  position: absolute;
+  border:1px red solid;
+  left:10px;
+  top:70px;
+  display: none;
+  /*display: block;*/
+  width: 300px;
+  height: 350px;
+  /*display: block;*/
+  /*background-color: #eeeeee;*/
+}
+#infoVideo .video_title{
+  width: 100%;
+  height:20px;
+  background-color:#38A7AF ;
+  /*border:1px red solid;*/
+}
+#infoVideo  .video_title .vt_txt{
+  font-family: 宋体;
+  font-size: 16px;
+  color:white;
+  /*border:1px red solid;*/
+  line-height: 20px;
+  text-align: center;
+}
+#infoVideo  .video_title #vt_btn{
+  background-image: url("../img/close.png");
+  cursor:pointer;
+  width: 16px;
+  height:16px;
+  /*border:1px red solid;*/
+  background-repeat: no-repeat;
+  float:right;
+  border-radius: 50%;
+  margin-top: 1px;
+  border:0;
+}
+#video_content{
+  border: 1px solid red;
+  background-color: #EEEEEE;
+  height: 100%;
+  width: 100%;
+}
+
+#infoDoor{
+  font-family: "微软雅黑";
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  border:1px red solid;
+  left:10px;
+  top:170px;
+  display: none;
+  /*display: block;*/
+  width: 700px;
+  background:#f1f5f8;
+
+}
+
+
+
+#infoDoor .door_title{
+  width: 100%;
+  height:25px;
+  background-color:#38A7AF ;
+  line-height:25px;
+  /*border:1px red solid;*/
+}
+#infoDoor .door_title .dt_txt1{
+  font-family: 宋体;
+  font-size: 16px;
+  color:white;
+  font-weight: bold;
+  /*border:1px red solid;*/
+  line-height: 20px;
+  text-align: center;
+}
+#infoDoor .door_title .dt_txt2{
+  font-family: 宋体;
+  font-size: 16px;
+  color:white;
+  /*border:1px red solid;*/
+  line-height: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+#infoDoor .door_content{
+  width: 100%;
+  height: 100%;
+}
+
+#doorTable tbody tr{
+  width: 100%;
+  height:25px;
+}
+#doorTable tbody tr:hover{
+  background-color: #CCCCCC;
+}
+
+#doorTable tbody tr td{
+  /*background-color: #EEEEEE;*/
+  border-right: 1px #CCCCCC solid;
+  width: 9%;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+
+#infoDoor .door_bottom{
+  border:1px red solid;
+  width: 100%;
+  height:35px;
+
+}
+#infoDoor .door_bottom .db_clopen{
+  float: left;
+  margin-top: 7px;
+  position: relative;
+  margin-left: 7px;
+}
+/*下拉框样式*/
+#select{
+  background: rgba(0,0,0,0);
+  width: 60px;
+  height: 26px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: white;
+  border: 1px #1a1a1a solid;
+  /*border-radius: 5px;*/
+  position: absolute;
+  top:0px;
+  left:63px;
+
+}
+.select-head{
+  overflow: hidden;
+  width: 55px;
+  height: 22px;
+  box-sizing: border-box;
+  /*padding: 0 10px;*/
+  /*line-height: 40px;*/
+}
+.select-head .select-head-cont{
+  float: left;
+  color: black;
+
+
+}
+.select-head .select-icon{
+  float: right;
+  color:black;
+}
+#option{
+
+  color: black;
+  line-height: 25px;
+  display: none;
+  border: 1px solid black;
+  position:absolute;
+  top:20px;
+  left:-1px;
+  width:60px;
+  background-color: whitesmoke;
+}
+.option-item:hover{
+  background-color: #A8C6EE;
+}
+/*end下拉框============*/
+
+/*下发======================*/
+#infoDoor .door_bottom .door_btn1{
+  /*border:1px red solid;*/
+  width: 45px;
+  height:25px;
+  float: right;
+  margin-top: 4px;
+  margin-right: 8px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+/*关闭*/
+#infoDoor .door_bottom .door_btn2{
+  /*border:1px red solid;*/
+  border: 0;
+  background-color: #6BC6CB;
+  color: white;
+  width: 45px;
+  height:25px;
+  float: right;
+  margin-top:4px;
+  margin-right: 8px;
+
+}
+
+/*奇偶行*/
+.trEven{
+  background-color: #FFFFFF;
+}
+
+.trOdd{
+  background-color: #EEEEEE;
+}
+
+.tr_select{
+  background-color: #A5CFE5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

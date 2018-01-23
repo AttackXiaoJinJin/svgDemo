@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <RQBJ/>
+    </Component>
+    <Image>
+      <F4NODE source="assets/comp/F4Node.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE scaleX="0.7" rotation="0" scaleY="0.7" scale="0.7" x="40" y="1"/>
+    <COMPASS scaleX="0.5" rotation="-90" scaleY="0.5" scale="0.5" x="914" y="420"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="避风塘" textAlign="right" fontWeight="normal" deviceID="" x="668" y="401"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="丸龟制面" textAlign="right" fontWeight="normal" deviceID="" x="351" y="360"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="诚记" textAlign="right" fontWeight="normal" deviceID="" x="454" y="352"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="泰恋" textAlign="right" fontWeight="normal" deviceID="" x="505" y="352"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="57度湘" textAlign="right" fontWeight="normal" deviceID="" x="600" y="364"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="晋家门" textAlign="right" fontWeight="normal" deviceID="" x="750" y="350"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="新东新" textAlign="right" fontWeight="normal" deviceID="" x="373" y="232"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="金元宝" textAlign="right" fontWeight="normal" deviceID="" x="141" y="51"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="好记" textAlign="right" fontWeight="normal" deviceID="" x="112" y="158"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="莲悦" textAlign="right" fontWeight="normal" deviceID="" x="106" y="233"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="汉拿山" textAlign="right" fontWeight="normal" deviceID="" x="288" y="358"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="一条鱼" textAlign="right" fontWeight="normal" deviceID="" x="401" y="356"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="蜀江烤鱼" textAlign="right" fontWeight="normal" deviceID="" x="319" y="229"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="5" scaleY="1" param="" fontSize="14" scale="1" text="快乐星期八" textAlign="right" fontWeight="normal" deviceID="" x="781" y="256"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="5" scaleY="1" param="" fontSize="14" scale="1" text="东北风" textAlign="right" fontWeight="normal" deviceID="" x="762" y="202"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="5" scaleY="1" param="" fontSize="14" scale="1" text="外婆家" textAlign="right" fontWeight="normal" deviceID="" x="154" y="313"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="5" scaleY="1" param="" fontSize="14" scale="1" text="南京大排档" textAlign="right" fontWeight="normal" deviceID="" x="817" y="135"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="厨娘.CN" textAlign="right" fontWeight="normal" deviceID="" x="255" y="200"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="5" scaleY="1" param="" fontSize="14" scale="1" text="榆舍" textAlign="right" fontWeight="normal" deviceID="" x="782" y="76"/>
+    <RQBJ deviceID="14556" scale="0.25" scaleX="0.25" scaleY="0.25" x="163" y="72" rotation="0"/>
+    <RQBJ deviceID="14557" scale="0.25" scaleX="0.25" scaleY="0.25" x="150" y="179" rotation="0"/>
+    <RQBJ deviceID="14558" scale="0.25" scaleX="0.25" scaleY="0.25" x="143" y="253" rotation="0"/>
+    <RQBJ deviceID="14565" scale="0.25" scaleX="0.25" scaleY="0.25" x="234" y="314" rotation="0"/>
+    <RQBJ deviceID="14567" scale="0.25" scaleX="0.25" scaleY="0.25" x="275" y="222" rotation="0"/>
+    <RQBJ deviceID="14562" scale="0.25" scaleX="0.25" scaleY="0.25" x="341" y="248" rotation="0"/>
+    <RQBJ deviceID="14553" scale="0.25" scaleX="0.25" scaleY="0.25" x="400" y="252" rotation="0"/>
+    <RQBJ deviceID="14559" scale="0.25" scaleX="0.25" scaleY="0.25" x="324" y="338" rotation="0"/>
+    <RQBJ deviceID="14548" scale="0.25" scaleX="0.25" scaleY="0.25" x="368" y="340" rotation="0"/>
+    <RQBJ deviceID="14560" scale="0.25" scaleX="0.25" scaleY="0.25" x="421" y="340" rotation="0"/>
+    <RQBJ deviceID="14549" scale="0.25" scaleX="0.25" scaleY="0.25" x="491" y="336" rotation="0"/>
+    <RQBJ deviceID="14550" scale="0.25" scaleX="0.25" scaleY="0.25" x="541" y="334" rotation="0"/>
+    <RQBJ deviceID="14551" scale="0.25" scaleX="0.25" scaleY="0.25" x="626" y="347" rotation="0"/>
+    <RQBJ deviceID="14546" scale="0.25" scaleX="0.25" scaleY="0.25" x="701" y="378" rotation="0"/>
+    <RQBJ deviceID="14552" scale="0.25" scaleX="0.25" scaleY="0.25" x="769" y="331" rotation="0"/>
+    <RQBJ deviceID="14563" scale="0.25" scaleX="0.25" scaleY="0.25" x="802" y="277" rotation="0"/>
+    <RQBJ deviceID="14564" scale="0.25" scaleX="0.25" scaleY="0.25" x="803" y="221" rotation="0"/>
+    <RQBJ deviceID="14566" scale="0.25" scaleX="0.25" scaleY="0.25" x="849" y="159" rotation="0"/>
+    <RQBJ deviceID="14568" scale="0.25" scaleX="0.25" scaleY="0.25" x="835" y="99" rotation="0"/>
+    <RQBJ deviceID="14567" scale="0.25" scaleX="0.25" scaleY="0.25" x="239" y="136" rotation="0"/>
+    <TEXT fontFamily="Arial" color="0" textAlign="right" scaleX="1" rotation="0" scaleY="1" param="" fontSize="14" scale="1" text="香飘四溢" widthInChars="4" fontWeight="normal" deviceID="" x="224" y="114"/>
+  </Components>
+</Configration>

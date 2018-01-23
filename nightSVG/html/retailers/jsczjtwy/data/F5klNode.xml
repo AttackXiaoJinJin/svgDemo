@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <YELLOWBTN/>
+      <ORGBTN/>
+      <REDBTN/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <LCF5 source="assets/comp/LCF5.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="0" source="mapAssets/mapImages/F5Node.png" width="1434" group="map" y="0" height="714"/>
+    <LCF5 x="0" source="assets/comp/LCF5.png" width="110" group="bg" y="0" height="92"/>
+    <COMPASS x="0" y="103" width="255" height="250" group="bg" source="assets/comp/compass.png" scaleX="0.5" scaleY="0.5"/>
+    <YELLOWBTN x="1090" y="606" width="48" height="48" group="commonComp" deviceID="" source="assets/comp/YELLOWBTN/bg.png" scaleX="0.5" scaleY="0.5"/>
+    <ORGBTN x="1090" y="636" width="48" height="48" group="commonComp" deviceID="" source="assets/comp/ORGBTN/bg.png" scaleX="0.5" scaleY="0.5"/>
+    <REDBTN x="1090" y="665" width="48" height="48" group="commonComp" deviceID="" source="assets/comp/REDBTN/bg.png" scaleX="0.5" scaleY="0.5"/>
+    <TEXT x="1130" y="606" fontSize="16" width="138" group="commonComp" height="21" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" widthInChars="4" contentBackgroundColor="16777215" textAlign="center" color="0" text="客流黄色预警方案" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" fontFamily="微软雅黑" borderColor="0xffffff" sizeAuto="true"/>
+    <TEXT x="1130" y="636" fontSize="16" width="138" group="commonComp" height="21" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" widthInChars="4" contentBackgroundColor="16777215" textAlign="center" color="0" text="客流橙色预警方案" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" fontFamily="微软雅黑" borderColor="0xffffff" sizeAuto="true"/>
+    <TEXT x="1130" y="666" fontSize="16" width="138" group="commonComp" height="21" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" widthInChars="4" contentBackgroundColor="16777215" textAlign="center" color="0" text="客流红色预警方案" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" fontFamily="微软雅黑" borderColor="0xffffff" sizeAuto="true"/>
+  </Components>
+</Configration>

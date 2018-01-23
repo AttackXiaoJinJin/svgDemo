@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <QSX/>
+      <BQSX/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.75" scaleX="0.75" scaleY="0.75" rotation="0" x="0" y="0"/>
+    <QSX scale="0.2" deviceID="255" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="176" y="76"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="238#" fontWeight="normal" param="" textAlign="right" x="169" y="61"/>
+    <QSX scale="0.2" deviceID="256" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="222" y="76"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="239#" fontWeight="normal" param="" textAlign="right" x="218" y="62"/>
+    <QSX scale="0.2" deviceID="259" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="495" y="75"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="240#" fontWeight="normal" param="" textAlign="right" x="314" y="61"/>
+    <QSX scale="0.2" deviceID="257" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="322" y="76"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="241#" fontWeight="normal" param="" textAlign="right" x="394" y="61"/>
+    <QSX scale="0.2" deviceID="258" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="399" y="74"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="242#" fontWeight="normal" param="" textAlign="right" x="490" y="61"/>
+    <QSX scale="0.2" deviceID="260" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="603" y="76"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="244#" fontWeight="normal" param="" textAlign="right" x="688" y="62"/>
+    <QSX scale="0.2" deviceID="261" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="693" y="78"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="243#" fontWeight="normal" param="" textAlign="right" x="598" y="60"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="245#" fontWeight="normal" param="" textAlign="right" x="769" y="135"/>
+    <BQSX scale="0.2" deviceID="262" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="773" y="151"/>
+    <BQSX scale="0.2" deviceID="263" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="612" y="97"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="246#" fontWeight="normal" param="" textAlign="right" x="606" y="107"/>
+    <QSX scale="0.2" deviceID="264" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="591" y="125"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="249#" fontWeight="normal" param="" textAlign="right" x="431" y="135"/>
+    <QSX scale="0.2" deviceID="265" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="507" y="125"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="247#" fontWeight="normal" param="" textAlign="right" x="585" y="136"/>
+    <QSX scale="0.2" deviceID="265" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="439" y="125"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="248#" fontWeight="normal" param="" textAlign="right" x="503" y="134"/>
+    <BQSX scale="0.2" deviceID="267" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="397" y="107"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="250#" fontWeight="normal" param="" textAlign="right" x="392" y="120"/>
+    <QSX scale="0.2" deviceID="265" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="321" y="126"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="251#" fontWeight="normal" param="" textAlign="right" x="317" y="137"/>
+    <BQSX scale="0.2" deviceID="269" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="187" y="146"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="252#" fontWeight="normal" param="" textAlign="right" x="179" y="129"/>
+    <BQSX scale="0.2" deviceID="270" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="187" y="182"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="254#" fontWeight="normal" param="" textAlign="right" x="239" y="119"/>
+    <BQSX scale="0.2" deviceID="271" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="244" y="136"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="253#" fontWeight="normal" param="" textAlign="right" x="183" y="168"/>
+    <BQSX scale="0.2" deviceID="272" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="387" y="154"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="255#" fontWeight="normal" param="" textAlign="right" x="372" y="138"/>
+    <BQSX scale="0.2" deviceID="273" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="413" y="154"/>
+    <BQSX scale="0.2" deviceID="274" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="431" y="154"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="256#" fontWeight="normal" param="" textAlign="right" x="401" y="165"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="258#" fontWeight="normal" param="" textAlign="right" x="460" y="165"/>
+    <BQSX scale="0.2" deviceID="275" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="465" y="153"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="257#" fontWeight="normal" param="" textAlign="right" x="428" y="164"/>
+    <BQSX scale="0.2" deviceID="275" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="598" y="161"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="259#" fontWeight="normal" param="" textAlign="right" x="594" y="173"/>
+    <QSX scale="0.2" deviceID="277" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="224" y="189"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="260#" fontWeight="normal" param="" textAlign="right" x="220" y="172"/>
+    <QSX scale="0.2" deviceID="278" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="237" y="204"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="261#" fontWeight="normal" param="" textAlign="right" x="234" y="216"/>
+    <QSX scale="0.2" deviceID="281" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="427" y="209"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="262#" fontWeight="normal" param="" textAlign="right" x="324" y="172"/>
+    <QSX scale="0.2" deviceID="279" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="329" y="189"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="263#" fontWeight="normal" param="" textAlign="right" x="323" y="219"/>
+    <QSX scale="0.2" deviceID="280" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="330" y="208"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="264#" fontWeight="normal" param="" textAlign="right" x="422" y="192"/>
+    <QSX scale="0.2" deviceID="283" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="531" y="191"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="266#" fontWeight="normal" param="" textAlign="right" x="530" y="202"/>
+    <QSX scale="0.2" deviceID="282" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="507" y="210"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="265#" fontWeight="normal" param="" textAlign="right" x="499" y="198"/>
+    <BQSX scale="0.2" deviceID="341" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="535" y="165"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="308#" fontWeight="normal" param="" textAlign="right" x="532" y="176"/>
+    <QSX scale="0.2" deviceID="284" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="585" y="208"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="267#" fontWeight="normal" param="" textAlign="right" x="580" y="193"/>
+    <QSX scale="0.2" deviceID="287" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="763" y="194"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="270#" fontWeight="normal" param="" textAlign="right" x="760" y="178"/>
+    <QSX scale="0.2" deviceID="285" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="646" y="208"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="268#" fontWeight="normal" param="" textAlign="right" x="639" y="196"/>
+    <QSX scale="0.2" deviceID="286" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="711" y="197"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="269#" fontWeight="normal" param="" textAlign="right" x="701" y="181"/>
+    <QSX scale="0.2" deviceID="288" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="776" y="205"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="272#" fontWeight="normal" param="" textAlign="right" x="163" y="215"/>
+    <QSX scale="0.2" deviceID="289" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="170" y="205"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="271#" fontWeight="normal" param="" textAlign="right" x="775" y="220"/>
+    <QSX scale="0.2" deviceID="292" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="326" y="296"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="274#" fontWeight="normal" param="" textAlign="right" x="320" y="241"/>
+    <QSX scale="0.2" deviceID="290" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="222" y="296"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="273#" fontWeight="normal" param="" textAlign="right" x="220" y="277"/>
+    <QSX scale="0.2" deviceID="291" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="326" y="257"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="275#" fontWeight="normal" param="" textAlign="right" x="323" y="283"/>
+    <QSX scale="0.2" deviceID="293" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="326" y="311"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="276#" fontWeight="normal" param="" textAlign="right" x="322" y="322"/>
+    <QSX scale="0.2" deviceID="294" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="418" y="257"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="277#" fontWeight="normal" param="" textAlign="right" x="412" y="270"/>
+    <QSX scale="0.2" deviceID="295" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="415" y="308"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="278#" fontWeight="normal" param="" textAlign="right" x="410" y="293"/>
+    <QSX scale="0.2" deviceID="296" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="509" y="307"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="279#" fontWeight="normal" param="" textAlign="right" x="505" y="319"/>
+    <QSX scale="0.2" deviceID="297" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="530" y="291"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="280#" fontWeight="normal" param="" textAlign="right" x="525" y="276"/>
+    <BQSX scale="0.2" deviceID="323" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="424" y="241"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="306#" fontWeight="normal" param="" textAlign="right" x="420" y="226"/>
+    <BQSX scale="0.2" deviceID="323" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="234" y="145"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="307#" fontWeight="normal" param="" textAlign="right" x="229" y="155"/>
+    <QSX scale="0.2" deviceID="298" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="580" y="310"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="281#" fontWeight="normal" param="" textAlign="right" x="574" y="320"/>
+    <QSX scale="0.2" deviceID="299" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="633" y="296"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="282#" fontWeight="normal" param="" textAlign="right" x="628" y="280"/>
+    <QSX scale="0.2" deviceID="300" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="651" y="306"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="283#" fontWeight="normal" param="" textAlign="right" x="650" y="318"/>
+    <QSX scale="0.2" deviceID="301" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="784" y="291"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="284#" fontWeight="normal" param="" textAlign="right" x="778" y="275"/>
+    <QSX scale="0.2" deviceID="302" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="785" y="308"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="286#" fontWeight="normal" param="" textAlign="right" x="835" y="269"/>
+    <QSX scale="0.2" deviceID="303" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="840" y="285"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="285#" fontWeight="normal" param="" textAlign="right" x="784" y="322"/>
+    <QSX scale="0.2" deviceID="304" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="171" y="434"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="287#" fontWeight="normal" param="" textAlign="right" x="170" y="444"/>
+    <QSX scale="0.2" deviceID="305" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="223" y="417"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="288#" fontWeight="normal" param="" textAlign="right" x="219" y="403"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="289#" fontWeight="normal" param="" textAlign="right" x="244" y="451"/>
+    <QSX scale="0.2" deviceID="306" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="251" y="439"/>
+    <QSX scale="0.2" deviceID="307" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="275" y="416"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="290#" fontWeight="normal" param="" textAlign="right" x="270" y="402"/>
+    <QSX scale="0.2" deviceID="310" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="403" y="437"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="293#" fontWeight="normal" param="" textAlign="right" x="396" y="448"/>
+    <BQSX scale="0.2" deviceID="308" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="297" y="391"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="291#" fontWeight="normal" param="" textAlign="right" x="291" y="375"/>
+    <QSX scale="0.2" deviceID="309" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="314" y="439"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="292#" fontWeight="normal" param="" textAlign="right" x="304" y="451"/>
+    <QSX scale="0.2" deviceID="312" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="504" y="436"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="294#" fontWeight="normal" param="" textAlign="right" x="423" y="400"/>
+    <QSX scale="0.2" deviceID="311" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="431" y="419"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="295#" fontWeight="normal" param="" textAlign="right" x="497" y="449"/>
+    <QSX scale="0.2" deviceID="313" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="529" y="419"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="296#" fontWeight="normal" param="" textAlign="right" x="527" y="399"/>
+    <QSX scale="0.2" deviceID="315" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="600" y="436"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="297#" fontWeight="normal" param="" textAlign="right" x="581" y="400"/>
+    <QSX scale="0.2" deviceID="314" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="585" y="416"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="298#" fontWeight="normal" param="" textAlign="right" x="598" y="448"/>
+    <QSX scale="0.2" deviceID="315" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="634" y="412"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="299#" fontWeight="normal" param="" textAlign="right" x="626" y="425"/>
+    <BQSX scale="0.2" deviceID="318" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="765" y="435"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="300#" fontWeight="normal" param="" textAlign="right" x="739" y="459"/>
+    <BQSX scale="0.2" deviceID="317" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="745" y="451"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="301#" fontWeight="normal" param="" textAlign="right" x="760" y="445"/>
+    <BQSX scale="0.2" deviceID="319" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="786" y="435"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="302#" fontWeight="normal" param="" textAlign="right" x="799" y="435"/>
+    <BQSX scale="0.2" deviceID="322" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="885" y="390"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="303#" fontWeight="normal" param="" textAlign="right" x="759" y="400"/>
+    <BQSX scale="0.2" deviceID="320" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="766" y="418"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="304#" fontWeight="normal" param="" textAlign="right" x="829" y="364"/>
+    <BQSX scale="0.2" deviceID="321" rotation="0" scaleY="0.2" isPop="true" scaleX="0.2" popType="video" x="836" y="381"/>
+    <TEXT rotation="0" fontSize="12" scale="1" widthInChars="2" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="255" text="305#" fontWeight="normal" param="" textAlign="right" x="881" y="374"/>
+  </Components>
+</Configration>

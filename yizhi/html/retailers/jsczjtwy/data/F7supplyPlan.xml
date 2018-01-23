@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1052.6912751677853" Height="532">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F7NODE source="assets/comp/F7Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F7NODE scale="0.7" rotation="0" x="50" y="0"/>
+    <KTTB popType="redirect" deviceID="498" scale="0.4" rotation="0" isPop="true" x="520" y="223"/>
+    <TEXT widthInChars="4" deviceID="" textAlign="right" fontWeight="bold" fontSize="12" rotation="0" fontFamily="Arial" scale="1" text="XF-W-7" param="" color="0" x="509" y="255"/>
+  </Components>
+</Configration>

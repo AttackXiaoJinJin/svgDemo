@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="2001" Height="708">
+  <LIST>
+    <Component/>
+    <Image>
+      <GZDT source="assets/comp/gzdt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <GZDT x="0" source="assets/comp/gzdt.png" width="2000" height="700" y="0"/>
+  </Components>
+</Configration>

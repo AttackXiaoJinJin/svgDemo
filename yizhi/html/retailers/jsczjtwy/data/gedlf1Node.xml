@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="538">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <GWA source="assets/comp/TULI/GWA.png"/>
+      <GWN source="assets/comp/TULI/GWN.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="40" y="0"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8242" x="568" y="346"/>
+    <TEXT text="3#电井-1" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="4" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="589" y="345"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8243" x="569" y="365"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8244" x="385" y="221"/>
+    <TEXT text="3#电井-2" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="4" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="590" y="367"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8245" x="299" y="108"/>
+    <TEXT text="一丁数码-2" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="230" y="130"/>
+    <DWCQ scaleX="0.25" scaleY="0.25" rotation="0" scale="0.25" deviceID="8246" x="299" y="129"/>
+    <TEXT text="一丁数码-1" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="233" y="109"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="837" y="438"/>
+    <TEXT text="正常" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="870" y="458"/>
+    <TEXT text="报警" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="950" y="457"/>
+    <GWA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="950" y="482"/>
+    <GWN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="870" y="483"/>
+    <TEXT text="C&amp;A" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="356" y="221"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="891" y="429" rotation="-90"/>
+  </Components>
+</Configration>

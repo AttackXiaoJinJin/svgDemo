@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1112" Height="585">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F2NODE source="assets/comp/F2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE scale="0.55" rotation="0" x="12" y="1"/>
+    <KTTB deviceID="" scale="0.4" rotation="0" x="112" y="130"/>
+    <TEXT textAlign="right" deviceID="" widthInChars="2" color="16777215" fontWeight="BOLD" fontSize="12" fontFamily="Arial" param="" scale="1" rotation="0" text="DK-1" x="82" y="135"/>
+  </Components>
+</Configration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1134" Height="499">
+  <LIST>
+    <Component/>
+    <Image>
+      <PARKPLAN source="assets/comp/parkPlan.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PARKPLAN scale="0.6" rotation="0" x="4" y="14"/>
+  </Components>
+</Configration>

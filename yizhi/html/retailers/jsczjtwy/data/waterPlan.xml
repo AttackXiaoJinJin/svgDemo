@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <WSK/>
+      <ALARM/>
+      <PWB/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <WSK deviceID="" rotation="0" scale="1" x="100" y="350"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号污水泵状态" rotation="0" scale="1" x="135" y="280"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号污水泵状态" rotation="0" scale="1" x="135" y="320"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号污水坑状态" rotation="0" scale="1" x="115" y="480"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="260" y="280"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="260" y="320"/>
+    <WSK deviceID="" rotation="0" scale="1" x="400" y="350"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号污水坑状态" rotation="0" scale="1" x="415" y="481"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号污水泵状态" rotation="0" scale="1" x="435" y="280"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="560" y="280"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号污水泵状态" rotation="0" scale="1" x="435" y="320"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="560" y="320"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="80" y="270"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="80" y="310"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="380" y="270"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="380" y="310"/>
+    <WSK deviceID="" rotation="0" scale="1" x="700" y="350"/>
+    <WSK deviceID="" rotation="0" scale="1" x="100" y="90"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号集水坑状态" rotation="0" scale="1" x="115" y="220"/>
+    <WSK deviceID="" rotation="0" scale="1" x="400" y="90"/>
+    <WSK deviceID="" rotation="0" scale="1" x="700" y="90"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="3号污水坑状态" rotation="0" scale="1" x="715" y="480"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="680" y="270"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="680" y="310"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号污水泵状态" rotation="0" scale="1" x="735" y="281"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号污水泵状态" rotation="0" scale="1" x="735" y="320"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="860" y="280"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="860" y="320"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号集水坑状态" rotation="0" scale="1" x="415" y="220"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="18" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="3号集水坑状态" rotation="0" scale="1" x="715" y="220"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="80" y="50"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="80" y="10"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="380" y="10"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="380" y="50"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="680" y="50"/>
+    <PWB deviceID="" rotation="0" scale="0.2" x="680" y="10"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号集水泵状态" rotation="0" scale="1" x="135" y="20"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号集水泵状态" rotation="0" scale="1" x="135" y="60"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="260" y="20"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="260" y="60"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号集水泵状态" rotation="0" scale="1" x="435" y="20"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="1号集水泵状态" rotation="0" scale="1" x="735" y="20"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号集水泵状态" rotation="0" scale="1" x="735" y="60"/>
+    <TEXT fontFamily="Arial" deviceID="" fontSize="16" fontWeight="bold" color="16777215" widthInChars="7" param="" textAlign="right" text="2号集水泵状态" rotation="0" scale="1" x="435" y="60"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="560" y="60"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="560" y="20"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="860" y="20"/>
+    <ALARM deviceID="" rotation="0" scale="1" x="860" y="60"/>
+  </Components>
+</Configration>

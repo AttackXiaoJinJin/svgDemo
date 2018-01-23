@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <RQBJ/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE scaleX="0.75" rotation="0" scaleY="0.65" scale="0.75" x="43" y="-27"/>
+    <RQBJ scaleX="0.25" rotation="0" scaleY="0.25" scale="0.25" deviceID="14547" x="748" y="24"/>
+    <TEXT fontFamily="Arial" color="0" scaleX="1" rotation="0" widthInChars="4" scaleY="1" param="" fontSize="14" scale="1" text="员工食堂" textAlign="right" fontWeight="normal" deviceID="" x="729" y="43"/>
+  </Components>
+</Configration>

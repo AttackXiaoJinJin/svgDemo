@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="2501" Height="1329">
+  <LIST>
+    <Component/>
+    <Image>
+      <DZKTCE source="assets/comp/dzktce.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <DZKTCE x="17.550000000000068" source="assets/comp/dzktce.png" y="-122.64999999999998" width="4137" height="2418" scaleX="0.6" scaleY="0.6"/>
+  </Components>
+</Configration>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="621">
+  <LIST>
+    <Component>
+      <VIDEO/>
+      <ALARM/>
+      <LEDBTN/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <VIDEO padVUrl="rtmp://10.92.0.131:25535/flash//" isPop="true" deviceID="237" padDUrl="flashh263|rtmp|127.0.0.1|5535|dahua|sdk|192.168.2.105|37777|admin|admin|8|0|0|0" pnUrl="rtmp://10.92.0.131:5535/flash//" width="295" scaleX="1" y="116" height="220" scaleY="1" rotation="0" x="38" dvrUrl="dahua|sdk|192.168.2.105|37777|admin|admin|8|0|0|0" rtmpUrl="rtmp://10.92.0.131:5535/flash//" popType="list"/>
+    <VIDEO padVUrl="rtmp://10.92.0.131:25535/flash//" isPop="true" deviceID="325" padDUrl="flashh263|rtmp|127.0.0.1|5535|dahua|sdk|192.168.2.105|37777|admin|admin|11|0|0|0" pnUrl="rtmp://10.92.0.131:5535/flash//" width="295" scaleX="1" y="116" height="220" scaleY="1" rotation="0" x="378" dvrUrl="dahua|sdk|192.168.2.105|37777|admin|admin|11|0|0|0" rtmpUrl="rtmp://10.92.0.131:5535/flash//" popType="list"/>
+    <VIDEO padVUrl="rtmp://10.92.0.131:25535/flash//" isPop="true" deviceID="326" padDUrl="flashh263|rtmp|127.0.0.1|5535|dahua|sdk|192.168.2.113|37777|admin|admin|4|0|0|0" pnUrl="rtmp://10.92.0.131:5535/flash//" width="295" scaleX="1" y="116" height="220" scaleY="1" rotation="0" x="726" dvrUrl="dahua|sdk|192.168.2.113|37777|admin|admin|4|0|0|0" rtmpUrl="rtmp://10.92.0.131:5535/flash//" popType="list"/>
+    <LABEL contentBackgroundColor="000000" color="65280" param="sAirTemp" contentBackgroundAlpha="0" rotation="0" paramID="8" borderVisible="true" scaleX="1" fontSize="16" textAlign="right" deviceID="624" borderColor="999999" fontWeight="normal" text="18.0" fontFamily="digifaw" x="218" width="70" y="377" sizeAuto="false" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="屏体温度(15-45℃)" x="50" width="162" y="381" height="22" sizeAuto="false" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="亮度等级(1-4)" x="69" width="122" y="419" height="22" sizeAuto="false" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="烟感1" x="30" width="49" y="335" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <LABEL contentBackgroundColor="000000" color="65280" param="light" contentBackgroundAlpha="0" rotation="0" paramID="85" borderVisible="true" scaleX="1" fontSize="16" textAlign="right" deviceID="624" borderColor="999999" fontWeight="normal" text="123" fontFamily="digifaw" x="218" width="70" y="416" sizeAuto="false" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="总开关" x="507" width="59" y="430" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="烟感2" x="370" width="49" y="335" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="烟感3" x="720" width="49" y="335" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <ALARM x="90" deviceID="624" param="smoke1" rotation="0" width="58" scaleX="1" y="337" height="25" scaleY="1" paramID="86" alarm="ALARM"/>
+    <ALARM x="430" deviceID="624" param="smoke2" rotation="0" width="58" scaleX="1" y="337" height="25" scaleY="1" paramID="87" alarm="ALARM"/>
+    <ALARM x="780" deviceID="624" param="smoke3" rotation="0" width="58" scaleX="1" y="337" height="25" scaleY="1" paramID="88" alarm="ALARM"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="面向1号门大屏" x="30" width="125" y="85" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="面向长廊大屏" x="378" width="116" y="85" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="面向观光梯大屏" x="725" width="135" y="85" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <TEXT deviceID="" param="" contentBackgroundAlpha="0" rotation="0" borderVisible="false" scaleX="1" borderColor="0xffffff" textAlign="right" color="0" fontSize="18" fontWeight="normal" fontFamily="微软雅黑" text="(大屏控制开关，请谨慎操作！)" x="405" width="261" y="460" height="22" sizeAuto="true" scaleY="1" widthInChars="4"/>
+    <LEDBTN isPop="true" deviceID="621" rotation="0" width="48" scaleX="1" y="382" height="48" scaleY="1" x="513" popType="list"/>
+  </Components>
+</Configration>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="708">
+  <LIST>
+    <Component>
+      <YCQ/>
+      <HANDBTN/>
+      <JSBJ/>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <XFFQF5Q2 source="mapAssets/mapImages/XFFQF5/XFFQF5_2.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQF5Q2 x="0" source="mapAssets/mapImages/XFFQF5/XFFQF5_2.png" y="-20" height="714" width="1434"/>
+    <YCQ scaleX="0.3" x="222" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="284" deviceID="23590" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="286" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="284" deviceID="23591" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="221" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="319" deviceID="23589" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="282" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="317" deviceID="23588" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="325" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="284" deviceID="23592" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="325" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="318" deviceID="23587" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="407" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="335" deviceID="23858" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="376" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="273" deviceID="24257" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="406" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="283" deviceID="23513" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="386" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="319" deviceID="23512" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="364" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="322" deviceID="21673" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="445" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="290" deviceID="23844" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="442" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="315" deviceID="23586" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="521" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="313" deviceID="23585" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="481" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="283" deviceID="23514" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="586" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="315" deviceID="23584" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="551" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="287" deviceID="23515" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="598" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="274" deviceID="23845" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="301" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="353" deviceID="24227" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="299" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="419" deviceID="24228" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="300" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="494" deviceID="24230" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="326" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="565" deviceID="23478" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="406" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="563" deviceID="23477" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="482" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="564" deviceID="23476" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="555" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="565" deviceID="23475" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="546" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="543" deviceID="24229" rotation="0" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="583" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="506" deviceID="23928" rotation="0" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="606" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="548" deviceID="23926" rotation="0" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="585" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="548" deviceID="23927" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="658" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="549" deviceID="23507" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="638" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="565" deviceID="23480" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="627" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="545" deviceID="23481" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="621" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="503" deviceID="23482" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="642" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="512" deviceID="23506" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="641" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="532" deviceID="23508" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="714" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="451" deviceID="23568" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="588" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="382" deviceID="23571" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="618" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="479" deviceID="23856" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="595" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="480" deviceID="23857" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="589" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="452" deviceID="23570" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="653" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="453" deviceID="23569" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="678" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="315" deviceID="23583" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="768" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="387" deviceID="23567" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="654" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="380" deviceID="23510" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="733" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="316" deviceID="23582" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="683" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="292" deviceID="23860" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="636" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="289" deviceID="23516" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="648" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="269" deviceID="24256" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="686" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="270" deviceID="24255" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="714" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="284" deviceID="23582" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="638" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="210" deviceID="23517" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="704" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="209" deviceID="23522" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="638" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="164" deviceID="23518" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="703" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="165" deviceID="23521" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="638" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="114" deviceID="23520" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="704" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="112" deviceID="23519" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="761" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="200" deviceID="23861" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="769" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="315" deviceID="23564" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="746" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="388" deviceID="24262" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="747" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="433" deviceID="24261" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="715" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="380" deviceID="23511" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="792" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="327" deviceID="23853" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="780" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="348" deviceID="23852" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="807" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="400" deviceID="23566" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="873" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="367" deviceID="23561" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="810" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="363" deviceID="23565" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="874" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="405" deviceID="23560" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="939" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="407" deviceID="23559" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="942" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="366" deviceID="23562" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="980" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="467" deviceID="23557" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="967" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="448" deviceID="23574" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="994" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="447" deviceID="23573" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="980" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="529" deviceID="23576" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="980" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="496" deviceID="23575" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="860" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="605" deviceID="23556" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="917" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="607" deviceID="23611" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="957" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="604" deviceID="24246" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1010" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="591" deviceID="23555" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1033" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="623" deviceID="23577" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1176" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="500" deviceID="23550" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1116" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="583" deviceID="23579" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1141" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="595" deviceID="23578" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1176" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="540" deviceID="23551" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1103" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="541" deviceID="23552" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1104" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="501" deviceID="23549" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1047" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="571" deviceID="23851" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1206" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="579" deviceID="23855" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1004" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="572" deviceID="23850" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1073" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="591" deviceID="23554" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1102" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="417" deviceID="23547" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1012" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="484" deviceID="23854" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1057" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="505" deviceID="24258" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1029" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="522" deviceID="23553" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1030" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="464" deviceID="23548" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1170" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="370" deviceID="23545" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1170" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="419" deviceID="23546" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1102" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="369" deviceID="23544" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1140" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="314" deviceID="24248" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1023" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="401" deviceID="23558" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="991" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="382" deviceID="24244" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1100" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="322" deviceID="23543" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1172" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="323" deviceID="23609" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1056" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="382" deviceID="24245" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1199" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="298" deviceID="23864" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1171" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="218" deviceID="23541" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1172" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="267" deviceID="23542" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="922" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="180" deviceID="23593" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1104" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="219" deviceID="23538" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1104" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="148" deviceID="23539" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1168" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="150" deviceID="23540" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1024" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="334" deviceID="23563" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1046" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="335" deviceID="23849" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="832" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="319" deviceID="23581" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="798" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="269" deviceID="24253" rotation="0" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="856" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="268" deviceID="24254" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="791" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="296" deviceID="23524" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="874" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="287" deviceID="23530" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="869" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="203" deviceID="23529" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="895" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="320" deviceID="23580" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="960" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="322" deviceID="23572" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="948" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="281" deviceID="23531" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="794" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="204" deviceID="23525" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="893" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="220" deviceID="23862" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="865" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="150" deviceID="23610" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="795" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="152" deviceID="23526" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="865" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="78" deviceID="23528" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="799" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="79" deviceID="23527" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1103" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="274" deviceID="23537" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1025" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="295" deviceID="23607" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1037" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="274" deviceID="23605" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1001" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="221" deviceID="23606" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="951" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="243" deviceID="23532" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1017" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="123" deviceID="23847" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="952" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="206" deviceID="23533" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="922" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="157" deviceID="23534" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="968" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="166" deviceID="23535" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1038" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="135" deviceID="23604" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1037" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="172" deviceID="23602" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="965" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="65" deviceID="23594" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1016" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="152" deviceID="23536" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="911" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="41" deviceID="23863" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="942" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="125" deviceID="23596" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="912" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="93" deviceID="23595" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="1020" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="205" deviceID="23848" rotation="0" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="991" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="154" deviceID="23846" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="924" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="66" deviceID="23597" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1038" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="54" deviceID="23600" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="965" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="94" deviceID="23598" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1005" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="60" deviceID="23601" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1017" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="97" deviceID="23603" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="1037" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="79" deviceID="23599" rotation="0" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="685" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="481" deviceID="23523" mark="YCQ" rotation="0" deviceName="AAA_5F影城影厅夹层烟感43" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="755" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="286" deviceID="23608" mark="YCQ" rotation="0" deviceName="AAA_5F影城东丙类房外烟感102" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="348" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="266" deviceID="23612" mark="YCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房烟感107" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="422" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="263" deviceID="23613" mark="YCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房烟感104" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="732" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="565" deviceID="23614" mark="YCQ" rotation="0" deviceName="AAA_5F影城LT16楼梯间烟感" width="80" height="80"/>
+    <HANDBTN scaleX="0.3" x="258" source="assets/comp/HANDBTN/alarm/0/1.png" scaleY="0.3" y="298" deviceID="23859" mark="SB" rotation="0" deviceName="AAA_5F影城西走道手报2" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="639" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="402" deviceID="23865" mark="XHS" rotation="0" deviceName="AAA_5F影城影厅9外消火栓按钮2" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="291" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="197" deviceID="23932" mark="WCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房温感106" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="336" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="203" deviceID="23933" mark="WCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房温感108" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="403" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="210" deviceID="23934" mark="WCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房温感103" width="80" height="80"/>
+    <DWCQ scaleX="0.3" x="323" source="assets/comp/DWCQ/state/0/1.png" scaleY="0.3" y="250" deviceID="23935" mark="WCQ" rotation="0" deviceName="AAA_5F影城IMAX影厅机房温感105" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="487" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="316" deviceID="24242" mark="XFSB" rotation="0" deviceName="AAA_5F影城声光报警器" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="620" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="323" deviceID="24243" mark="XFSB" rotation="0" deviceName="AAA_5F影城广播" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="519" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="274" deviceID="24247" mark="XFSB" rotation="0" deviceName="AAA_5F影城走道排烟阀模块1" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="564" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="336" deviceID="24249" mark="XFSB" rotation="0" deviceName="AAA_5F影城水流指示器 4" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="537" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="339" deviceID="24250" mark="XFSB" rotation="0" deviceName="AAA_5F影城信号闸阀4" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="665" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="509" deviceID="24251" mark="XFSB" rotation="0" deviceName="AAA_5F影城东北电梯前室正压送风" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="866" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="321" deviceID="24259" mark="XFSB" rotation="0" deviceName="AAA_5F影城水流指示器3" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="998" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="316" deviceID="24252" mark="XFSB" rotation="0" deviceName="AAA_5F影城走道排烟阀2" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="886" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="339" deviceID="24260" mark="XFSB" rotation="0" deviceName="AAA_5F影城信号闸阀 3" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="411" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="309" deviceID="24263" mark="XFSB" rotation="0" deviceName="AAA_5F影城走道排烟阀模块3" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="986" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="268" deviceID="24265" mark="XFSB" rotation="0" deviceName="AAA_5F影城信号闸阀 1" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="903" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="264" deviceID="24266" mark="XFSB" rotation="0" deviceName="AAA_5F影城信号闸阀 2" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="924" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="252" deviceID="24267" mark="XFSB" rotation="0" deviceName="AAA_5F影城水流指示器1" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1044" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="248" deviceID="24268" mark="XFSB" rotation="0" deviceName="AAA_5F影城水流指示器2" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1050" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="200" deviceID="24269" mark="XFSB" rotation="0" deviceName="AAA_5F影城强切" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="681" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="536" deviceID="24272" mark="XFSB" rotation="0" deviceName="AAA_5F影城消防电梯1" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="686" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="560" deviceID="24273" mark="XFSB" rotation="0" deviceName="AAA_5F影城消防电梯2" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="438" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="190" deviceID="24274" mark="XFSB" rotation="0" deviceName="AAA_5F影城IMAX影厅红外对射复位" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="917" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="375" deviceID="24276" mark="XFSB" rotation="0" deviceName="AAA_5F影城8号影厅补风防火阀" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="1053" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="225" deviceID="24278" mark="XFSB" rotation="0" deviceName="AAA_5F影城影厅强切" width="80" height="80"/>
+    <YCQ scaleX="0.3" x="937" source="assets/comp/YCQ/state/0/1.png" scaleY="0.3" y="97" deviceID="26061" mark="YCQ" rotation="0" deviceName="AAA_5F影城北楼梯间烟感58" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="306" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="265" deviceID="27910" mark="XFSB" rotation="0" deviceName="AAA_5层IMAX影厅机房事故排烟阀" width="80" height="80"/>
+    <JSBJ scaleX="0.3" x="944" source="assets/comp/JSBJ/state/0/1.png" scaleY="0.3" y="520" deviceID="27923" mark="XFSB" rotation="0" deviceName="AAA_跨机娱乐楼5层" width="80" height="80"/>
+  </Components>
+</Configration>

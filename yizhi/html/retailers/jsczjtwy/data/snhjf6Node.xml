@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1073" Height="482">
+  <LIST>
+    <Component/>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE rotation="0" scale="0.45" x="61" y="6"/>
+  </Components>
+</Configration>

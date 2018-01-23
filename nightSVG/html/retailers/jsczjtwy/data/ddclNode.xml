@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1067.6912751677853" Height="513">
+  <LIST>
+    <Component>
+      <DDCL/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <TEXT widthInChars="12" deviceID="76" textAlign="right" fontWeight="normal" fontSize="14" rotation="0" fontFamily="Arial" scale="1" text="12" param="deviceName" color="3407718" x="118" y="73"/>
+    <DDCL popType="list" deviceID="7485" scale="1" rotation="0" isPop="true" x="243" y="137"/>
+  </Components>
+</Configration>

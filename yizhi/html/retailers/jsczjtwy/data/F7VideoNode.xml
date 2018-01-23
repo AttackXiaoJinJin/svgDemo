@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <QSX/>
+      <ZNSX/>
+    </Component>
+    <Image>
+      <F7NODE source="assets/comp/F7Node.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F7NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="20" y="5"/>
+    <QSX scaleX="0.35" scaleY="0.35" isPop="true" deviceID="9839" scale="0.35" rotation="0" popType="video" x="264" y="354"/>
+    <ZNSX scaleX="0.3" scaleY="0.3" isPop="true" deviceID="9865" scale="0.3" rotation="0" popType="video" x="243" y="186"/>
+    <TEXT text="" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="3407718" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="201" y="161"/>
+    <TEXT text="七层北气动窗" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="193" y="208"/>
+    <TEXT text="娱乐楼货梯机房" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="212" y="379"/>
+    <TEXT text="小厨娘货梯机房" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="539" y="414"/>
+    <QSX scaleX="0.35" scaleY="0.35" rotation="0" isPop="true" scale="0.35" deviceID="9838" popType="video" x="573" y="386"/>
+    <QSX scaleX="0.35" scaleY="0.35" isPop="true" deviceID="7423" scale="0.35" rotation="0" popType="video" x="404" y="358"/>
+    <QSX scaleX="0.35" scaleY="0.35" rotation="0" isPop="true" scale="0.35" deviceID="7431" popType="video" x="446" y="384"/>
+    <TEXT text="七层平台1通道" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="418" y="356"/>
+    <TEXT text="七层平台2通道" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="341" y="388"/>
+    <QSX scaleX="0.35" scaleY="0.35" isPop="true" deviceID="9903" scale="0.35" rotation="0" popType="video" x="81" y="189"/>
+    <QSX scaleX="0.35" scaleY="0.35" rotation="0" isPop="true" scale="0.35" deviceID="10042" popType="video" x="80" y="220"/>
+    <TEXT text="七层平台冷却塔1" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="98" y="196"/>
+    <TEXT text="七层平台冷却塔2" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="8" color="153" param="" rotation="0" fontWeight="normal" fontSize="12" scale="1" x="101" y="224"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="867" y="452" rotation="-90"/>
+  </Components>
+</Configration>

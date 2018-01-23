@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <LQB/>
+      <PSX/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <YBPAN source="assets/comp/ybpan.png"/>
+      <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <YBPAN x="188" scaleX="0.5" y="193" scaleY="0.5" width="40" height="82"/>
+    <PIPELINE2 x="262" y="52" rotation="-90" width="5" height="260"/>
+    <PIPELINE2 x="109" y="219" rotation="-90" width="5" height="150"/>
+    <PIPELINE2 x="256" y="51" width="5" height="347"/>
+    <PIPECORNER x="266" y="46" rotation="-270" width="10" height="10"/>
+    <LQB x="400" isPop="true" scaleX="0.5" deviceName="1#生活水泵" deviceID="11205" y="17" scaleY="0.5" mark="BSB" popType="list" width="88" height="87"/>
+    <PIPELINE2 x="260" y="168" rotation="-90" width="5" height="268"/>
+    <LQB x="400" isPop="true" scaleX="0.5" deviceName="2#生活水泵" deviceID="11206" y="134" scaleY="0.5" mark="BSB" popType="list" width="88" height="87"/>
+    <PIPELINE2 x="260.04999999999995" y="289" rotation="-90" width="5" height="268"/>
+    <LQB x="400" isPop="true" scaleX="0.5" deviceName="3#生活水泵" deviceID="11207" y="254" scaleY="0.5" mark="BSB" popType="list" width="88" height="87"/>
+    <TEXT fontFamily="微软雅黑" x="117" y="189" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="给水压力" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="58" height="21"/>
+    <LABEL fontFamily="digifaw" x="123" y="76" mark="SHSX" param="rate" color="3407616" sizeAuto="false" fontSize="12" paramID="63" borderColor="999999" text="40" deviceID="11204" contentBackgroundAlpha="0" fontWeight="normal" deviceName="给水设备" borderVisible="true" rotation="0" textAlign="right" contentBackgroundColor="000000" widthInChars="4"/>
+    <PIPELINE2 x="524" y="50" width="5" height="348"/>
+    <PIPECORNER x="531" y="56" rotation="-180" width="10" height="10"/>
+    <LABEL fontFamily="digifaw" x="111" y="225" mark="SHSX" param="ewPressure" color="3407616" sizeAuto="false" fontSize="12" paramID="5" borderColor="999999" text="5.4" deviceID="11204" contentBackgroundAlpha="0" fontWeight="normal" deviceName="给水设备" borderVisible="true" rotation="0" textAlign="right" contentBackgroundColor="000000" widthInChars="6"/>
+    <TEXT fontFamily="微软雅黑" x="403" y="62" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="1#生活水泵" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <TEXT fontFamily="微软雅黑" x="400" y="181" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="2#生活水泵" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <TEXT fontFamily="微软雅黑" x="403" y="301" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="3#生活水泵" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <TEXT fontFamily="微软雅黑" x="408" y="414" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="4#生活水泵" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <PSX x="706.75" deviceID="11201" scaleX="0.6" deviceName="1#生活水箱" y="13.900000000000006" scaleY="0.6" mark="SHSX" width="148" height="202"/>
+    <TEXT fontFamily="微软雅黑" x="614" y="64" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="1#生活水箱" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <PSX x="710.8499999999999" deviceID="11202" scaleX="0.6" deviceName="2#生活水箱" y="170.75" scaleY="0.6" mark="SHSX" width="148" height="202"/>
+    <PSX x="710.9000000000001" deviceID="11203" scaleX="0.6" deviceName="3#生活水箱" y="322.45000000000005" scaleY="0.6" mark="SHSX" width="148" height="202"/>
+    <TEXT fontFamily="微软雅黑" x="618" y="224" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="2#生活水箱" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <TEXT fontFamily="微软雅黑" x="617" y="377" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="3#生活水箱" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="76" height="21"/>
+    <PIPELINE2 x="259.05" y="400" rotation="-90" width="5" height="270"/>
+    <LQB x="400" isPop="true" scaleX="0.5" deviceName="4#生活水泵" deviceID="11208" y="365" scaleY="0.5" mark="BSB" popType="list" width="88" height="87"/>
+    <TEXT fontFamily="微软雅黑" x="123" y="46" param="" widthInChars="4" color="153" sizeAuto="true" fontSize="14" borderColor="0xffffff" text="频率反馈" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" textAlign="center" contentBackgroundColor="16777215" width="58" height="21"/>
+    <PIPECORNER x="520" y="400" rotation="-90" width="10" height="10"/>
+    <PIPECORNER x="255" y="389" rotation="0" width="10" height="10"/>
+    <HANDAUTO x="122" deviceID="11204" y="120" deviceName="给水设备" param="handAuto" mark="SHSX" alarm="HANDAUTO" paramID="38" width="58" height="25"/>
+    <TEXT text="Hz" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" fontFamily="微软雅黑" fontSize="16" y="78" param="" height="24" textAlign="center" x="182" sizeAuto="true" borderColor="0xffffff" color="0" width="23" widthInChars="4"/>
+    <TEXT text="bars" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" fontFamily="微软雅黑" fontSize="16" y="229" param="" height="24" textAlign="center" x="195" sizeAuto="true" borderColor="0xffffff" color="0" width="37" widthInChars="4"/>
+  </Components>
+</Configration>

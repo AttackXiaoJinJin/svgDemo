@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <GWA source="assets/comp/TULI/GWA.png"/>
+      <GWN source="assets/comp/TULI/GWN.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE x="0" y="0" scaleY="1" rotation="0" scaleX="1" contentBackgroundAlpha="0" contentBackgroundColor="16777215"/>
+    <TULI x="1195" y="550" scaleY="1" rotation="0" scaleX="1"/>
+    <TEXT fontFamily="Arial" x="1240" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="580" deviceID="" height="21" color="0" borderColor="0xffffff" param="" fontSize="16" text="正常" fontWeight="normal" rotation="0" textAlign="center" width="36" sizeAuto="true" widthInChars="4"/>
+    <TEXT fontFamily="Arial" x="1335" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="580" deviceID="" height="21" color="0" borderColor="0xffffff" param="" fontSize="16" text="报警" fontWeight="normal" rotation="0" textAlign="center" width="36" sizeAuto="true" widthInChars="4"/>
+    <GWA x="1335" y="605" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <GWN x="1240" y="605" scaleY="0.5" rotation="0" scaleX="0.5"/>
+    <DWCQ x="362" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="57" deviceID="24320" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="318" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="77" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="开1感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="378" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="139" deviceID="24318" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="340" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="119" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="步1感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="253" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="180" deviceID="24317" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="418" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="183" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P3感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="442" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="164" deviceID="24326" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="233" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="160" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P2感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="595" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="212" deviceID="24302" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="560" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="192" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大3感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="477" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="215" deviceID="24303" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="435" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="234" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="超市感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="98" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="546" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="293" deviceID="24304" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="551" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="234" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大3#-2#感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="129" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="602" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="258" deviceID="24305" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="681" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="345" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="B4感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="214" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="284" deviceID="24306" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="176" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="308" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大2感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="223" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="365" deviceID="24301" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="198" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="348" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P1感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="508" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="474" deviceID="24328" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="480" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="453" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="B1感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="533" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="589" deviceID="24327" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1113" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="522" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="开2感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="983" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="605" deviceID="24322" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="484" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="610" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="原超市-写字楼" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="105" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1041" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="502" deviceID="24316" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="935" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="622" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="SOHO西感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="131" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="991" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="573" deviceID="24321" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="934" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="554" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="SOHO东感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="131" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1150" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="498" deviceID="24323" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1004" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="526" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="百货感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="98" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1091" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="180" deviceID="24312" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="862" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="456" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="B3感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="896" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="474" deviceID="24315" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1053" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="157" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大1感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1139" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="358" deviceID="24314" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1108" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="381" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P6感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1026" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="124" deviceID="24324" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="996" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="103" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P5感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1043" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="245" deviceID="24310" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1043" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="216" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大商业至开闭所" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="114" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="1074" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="235" deviceID="24311" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1005" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="267" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大商业至步行街" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="114" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="856" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="233" deviceID="24309" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="911" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="249" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大商业1至步行2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="118" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="966" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="273" deviceID="24313" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="783" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="171" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="P4感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="810" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="192" deviceID="24325" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="810" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="255" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大2感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="92" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="339" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="57" deviceID="24319" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="712" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="324" deviceID="24308" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="576" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="285" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="大3至步2" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="70" sizeAuto="true" widthInChars="4"/>
+    <DWCQ x="597" isToolTip="true" scaleX="0.3" scaleY="0.3" rotation="0" y="304" deviceID="24307" isPop="true" popType="video" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="506" scaleX="1" contentBackgroundAlpha="0" scaleY="1" borderVisible="false" y="316" deviceID="" height="24" color="255" borderColor="0xffffff" param="" fontSize="16" text="B2感温电缆" fontWeight="normal" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="87" sizeAuto="true" widthInChars="4"/>
+  </Components>
+</Configration>

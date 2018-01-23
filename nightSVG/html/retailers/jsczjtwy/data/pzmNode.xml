@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="979.6711409395973" Height="523">
+  <LIST>
+    <Component>
+      <LIGHT/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.45" rotation="0" x="50" y="-50"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="130" y="100"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="170" y="100"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="190" y="135"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="210" y="100"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="150" y="135"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="141" y="83"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="181" y="83"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A3" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="223" y="83"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="161" y="172"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="201" y="171"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="250" y="330"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="580" y="330"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="330" y="330"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="270" y="365"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="310" y="365"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="301" y="313"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="412" y="73"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A3" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="342" y="315"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="282" y="399"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="323" y="399"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="400" y="90"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="290" y="330"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="480" y="90"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="420" y="125"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="460" y="125"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="264" y="314"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="452" y="72"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A3" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="491" y="71"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="473" y="159"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="433" y="160"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="540" y="330"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="620" y="330"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="440" y="90"/>
+    <LIGHT deviceID="248" rotation="0" scale="0.5" x="560" y="366"/>
+    <LIGHT deviceID="" rotation="0" scale="0.5" x="600" y="365"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" color="16777215" scale="1" fontSize="14" fontFamily="Arial" param="" text="A1" rotation="0" widthInChars="1" x="552" y="311"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" scale="1" fontSize="14" fontFamily="Arial" param="" color="16777215" rotation="0" widthInChars="1" text="A2" x="593" y="312"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B1" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="574" y="402"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" color="16777215" scale="1" fontSize="14" fontFamily="Arial" param="" text="A3" rotation="0" widthInChars="1" x="632" y="313"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" color="16777215" scale="1" fontSize="14" fontFamily="Arial" param="" text="B2" rotation="0" widthInChars="1" x="614" y="400"/>
+    <LIGHT deviceID="248" scale="0.5" rotation="0" x="700" y="90"/>
+    <LIGHT deviceID="" scale="0.5" rotation="0" x="740" y="90"/>
+    <LIGHT deviceID="" scale="0.5" rotation="0" x="780" y="90"/>
+    <LIGHT deviceID="248" scale="0.5" rotation="0" x="720" y="125"/>
+    <LIGHT deviceID="" scale="0.5" rotation="0" x="760" y="125"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" scale="1" fontSize="14" fontFamily="Arial" param="" color="16777215" rotation="0" widthInChars="1" text="A1" x="713" y="73"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="A2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="752" y="73"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" color="16777215" scale="1" fontSize="14" fontFamily="Arial" param="" text="A3" rotation="0" widthInChars="1" x="792" y="73"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" scale="1" fontSize="14" fontFamily="Arial" param="" color="16777215" rotation="0" widthInChars="1" text="B1" x="732" y="159"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" text="B2" scale="1" fontSize="14" fontFamily="Arial" param="" rotation="0" widthInChars="1" color="16777215" x="772" y="159"/>
+  </Components>
+</Configration>

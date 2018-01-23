@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1065" Height="473">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F4NODE source="assets/comp/F4Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE scale="0.45" x="24" y="-10" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="415" y="225" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="509" y="53" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="666" y="194" rotation="0"/>
+    <LDCQ deviceID="" scale="1" x="671" y="337" rotation="0"/>
+  </Components>
+</Configration>

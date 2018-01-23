@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1058" Height="549">
+  <LIST>
+    <Component>
+      <TEMPCQ/>
+      <WETCQ/>
+      <LUXCQ/>
+    </Component>
+    <Image>
+      <B1NODE source="assets/comp/B1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE rotation="0" scale="0.5" x="54" y="15"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="140" y="485"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="140" y="515"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="67" y="511"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="67" y="489"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N6" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="68" y="469"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="212" y="523"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="213" y="494"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="230" y="519"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="230" y="496"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="192" y="443"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="191" y="472"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N5" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="307" y="519"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="207" y="446"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="207" y="468"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N4" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="281" y="464"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="167" y="368"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="166" y="401"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="184" y="402"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="183" y="366"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="198" y="374"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="197" y="397"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="92" y="398"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="93" y="376"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="168" y="425"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="92" y="420"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="966" y="503"/>
+    <TEXT fontFamily="Arial" widthInChars="4" text="照    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="977" y="501"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="965" y="473"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="965" y="439"/>
+    <TEXT fontFamily="Arial" widthInChars="4" text="湿    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="975" y="474"/>
+    <TEXT fontFamily="Arial" widthInChars="4" text="温    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="975" y="445"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N1" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="272" y="396"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N1" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="21" y="395"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="186" y="279"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="186" y="311"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="187" y="336"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="112" y="286"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="111" y="307"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="111" y="328"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N1" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="39" y="318"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="242" y="351"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="207" y="264"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="262" y="325"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="261" y="348"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N2" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="337" y="341"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="246" y="321"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="204" y="296"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="220" y="273"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="220" y="295"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N1" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="212" y="251"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="290" y="256"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="292" y="228"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="305" y="233"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="306" y="255"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-1-N3" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="305" y="284"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="270" y="181"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="269" y="211"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="195" y="187"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="194" y="210"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-3-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="123" y="198"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="331" y="212"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="332" y="191"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="334" y="164"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="348" y="167"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="348" y="189"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="347" y="209"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-3-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="394" y="234"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="328" y="89"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="325" y="146"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="326" y="123"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="291" y="8"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="256" y="97"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="256" y="119"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="256" y="142"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-8-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="186" y="128"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="290" y="41"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="290" y="62"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="217" y="19"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="218" y="41"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="218" y="63"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-8-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="149" y="42"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="472" y="177"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="471" y="156"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="474" y="125"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="489" y="177"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="489" y="154"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="488" y="131"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-4-N1" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="407" y="129"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="600" y="204"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="601" y="222"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="602" y="243"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="529" y="246"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="529" y="223"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="529" y="201"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-5-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="548" y="276"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="827" y="120"/>
+    <WETCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="826" y="98"/>
+    <TEMPCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="826" y="64"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22%RH" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="754" y="119"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5%" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="755" y="98"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="" color="65280" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="12" x="754" y="75"/>
+    <TEXT fontFamily="Arial" widthInChars="5" text="B1-Z-6-N2" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="bold" param="" rotation="0" fontSize="12" x="757" y="43"/>
+  </Components>
+</Configration>

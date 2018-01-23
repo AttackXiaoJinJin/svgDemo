@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="714">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE width="1434" x="1" y="0" height="714"/>
+    <TULI x="1204" y="590" scaleY="1" scaleX="1" rotation="0"/>
+    <TEXT x="1245" y="625" widthInChars="2" fontFamily="微软雅黑" deviceID="" scaleY="1" contentBackgroundAlpha="0" borderVisible="false" scaleX="1" param="" fontSize="18" color="0" fontWeight="normal" width="40" height="22" borderColor="0xffffff" text="正常" textAlign="center" rotation="0" sizeAuto="true"/>
+    <TEXT x="1345" y="625" widthInChars="2" fontFamily="微软雅黑" deviceID="" scaleY="1" contentBackgroundAlpha="0" borderVisible="false" scaleX="1" param="" fontSize="18" color="0" fontWeight="normal" width="40" height="22" borderColor="0xffffff" text="报警" textAlign="center" rotation="0" sizeAuto="true"/>
+    <KTN x="1245" y="645" scaleY="0.5" scaleX="0.5" rotation="0"/>
+    <KTA x="1345" y="645" scaleY="0.5" scaleX="0.5" rotation="0"/>
+    <KTTB x="153" y="180" scaleY="0.4" deviceID="300022" deviceName="11#通道热风幕" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect" mark="DRFM"/>
+    <TEXT x="287" sizeAuto="true" y="610" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="27" height="17" borderColor="0xffffff" text="2#门" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="466" y="70" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect" mark="DRFM"/>
+    <TEXT x="461" sizeAuto="true" y="103" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="46" height="17" borderColor="0xffffff" text="12#通道" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="616" y="90" scaleY="0.4" deviceID="300025" deviceName="3#门1#热风幕" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect" mark="DRFM"/>
+    <TEXT x="613" sizeAuto="true" y="122" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="27" height="17" borderColor="0xffffff" text="3#门" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="804" y="72" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect"/>
+    <TEXT x="808" sizeAuto="true" y="105" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="40" height="17" borderColor="0xffffff" text="5#通道" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="1169" y="181" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect"/>
+    <TEXT x="1169" sizeAuto="true" y="213" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="40" height="17" borderColor="0xffffff" text="6#通道" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="1211" y="378" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect"/>
+    <TEXT x="1208" sizeAuto="true" y="413" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="40" height="17" borderColor="0xffffff" text="7#通道" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="1097" y="585" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect"/>
+    <TEXT x="1096" sizeAuto="true" y="617" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="27" height="17" borderColor="0xffffff" text="1#门" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="284" y="578" scaleY="0.4" deviceID="300001" deviceName="2#门1#热风幕" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect" mark="DRFM"/>
+    <TEXT x="189" sizeAuto="true" y="189" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="46" height="17" borderColor="0xffffff" text="11#通道" textAlign="center" contentBackgroundColor="16777215"/>
+    <KTTB x="179" y="427" scaleY="0.4" deviceID="" width="80" height="80" scaleX="0.4" isPop="true" popType="redirect" mark="DRFM"/>
+    <TEXT x="176" sizeAuto="true" y="459" widthInChars="4" fontFamily="微软雅黑" deviceID="" contentBackgroundAlpha="0" borderVisible="false" param="" fontSize="12" color="255" fontWeight="normal" width="46" height="17" borderColor="0xffffff" text="10#通道" textAlign="center" contentBackgroundColor="16777215"/>
+  </Components>
+</Configration>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1995" Height="788">
+  <LIST>
+    <Component>
+      <RYXCS/>
+      <LGJZ/>
+      <LXJZ/>
+      <LQB/>
+      <LQT7/>
+      <JSQ/>
+      <HANDAUTO/>
+      <SLFM/>
+      <ALARM/>
+    </Component>
+    <Image>
+      <PIPELINE2 source="assets/comp/PIPE/pipe1-2.png"/>
+      <PIPELINE source="assets/comp/PIPE/pipe1.png"/>
+      <LYZKSB source="assets/comp/gongfangzhuji.png" group="spetial"/>
+      <PIPE3T source="assets/comp/PIPE/pipe3.png"/>
+      <PIPECORNER source="assets/comp/PIPE/pipe2.png"/>
+      <WATERFLOW source="assets/comp/waterflow.png"/>
+      <LYZKSB1 source="assets/comp/gongfangzhuji.png" group="spetial"/>
+      <LYZKSB2 source="assets/comp/gongfangzhuji.png" group="spetial"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="134" width="12" x="1730.4" y="123.39999999999998" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="23" scaleX="0.5" width="12" x="819" y="214" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="23" scaleX="0.5" width="12" x="822" y="606" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="23" scaleX="0.5" width="12" x="822.0999999999999" y="447" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="23" scaleX="0.5" width="12" x="823" y="323.4" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="17" scaleX="0.5" width="12" x="656.6000000000001" y="623" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="17" scaleX="0.5" width="12" x="657" y="342" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="17" scaleX="0.5" width="12" x="659" y="235" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="17" scaleX="0.5" width="12" x="659" y="465" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="7.5" height="12" width="12" x="1034" y="527" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="40" width="12" x="155" y="553" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="40" width="12" x="124" y="553.05" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="40" width="12" x="154" y="390.04999999999995" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="40" width="12" x="121" y="392" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="38" width="12" x="153" y="225" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="2.8" height="40" width="12" x="123" y="224" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" height="40" width="12" x="124" y="147" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" height="40" width="12" x="125" y="79" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="2.6" height="40" width="12" x="1370" y="554" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1640" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1700" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1400" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="124" y="230" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="4.4" height="27" scaleX="0.5" width="12" x="40" y="337" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="12" height="42" width="12" x="957" y="210" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <RYXCS scaleX="1" width="796" scaleY="1" height="423" source="assets/comp/ryxcs.png" y="132.8" x="932.5"/>
+    <PIPELINE scaleX="0.5" scaleY="16" height="33" width="12" x="35" y="191" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="9.5" height="23" width="12" x="899" y="236" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE rotation="270" scaleY="3.7" height="24" scaleX="0.5" width="12" x="40" y="189" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="14" height="33" width="12" x="279" y="83" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="16.2" height="32" scaleX="0.5" width="12" x="130" y="85" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="11.5" height="40" width="12" x="360" y="264" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="7.5" height="18" width="12" x="530" y="267" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="12.5" height="43" width="12" x="653" y="82" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="368" y="268" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE scaleX="0.5" scaleY="9.5" height="23" width="12" x="620" y="217" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="25" scaleX="0.5" width="12" x="625" y="216" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="25" scaleX="0.5" width="12" x="625" y="324" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="25" scaleX="0.5" width="12" x="625" y="447" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="7.6" height="59" scaleX="0.5" width="12" x="360" y="606" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="23" scaleX="0.5" width="12" x="759" y="236" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="20" scaleX="0.5" width="12" x="779" y="342" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="17" scaleX="0.5" width="12" x="798" y="465" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="6" height="72" scaleX="0.5" width="12" x="772" y="624" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <LGJZ scaleX="0.5" width="256" scaleY="0.4" height="129" deviceName="1#冷机" deviceID="10001" x="721" y="583" group="deviceComp" source="assets/comp/LGJZ/alarm/0/1.png" mark="LSJ"/>
+    <LXJZ scaleX="0.5" width="256" scaleY="0.4" height="147" deviceName="2#冷机" deviceID="10002" x="721" y="417" group="deviceComp" source="assets/comp/LXJZ/alarm/0/1.png" mark="LSJ"/>
+    <LXJZ scaleX="0.5" width="256" scaleY="0.4" height="147" deviceName="3#冷机" deviceID="10003" x="721" y="294" group="deviceComp" source="assets/comp/LXJZ/alarm/0/1.png" mark="LSJ"/>
+    <LXJZ scaleX="0.5" width="256" scaleY="0.4" height="147" deviceName="4#冷机" deviceID="10004" x="721" y="187" group="deviceComp" source="assets/comp/LXJZ/alarm/0/1.png" mark="LSJ"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="5#冷却泵" deviceID="20005" x="424" y="232" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LQB"/>
+    <PIPELINE rotation="270" scaleY="2" height="40" scaleX="0.5" width="12" x="537.6" y="291" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE2 rotation="-90" scaleY="15" height="19" scaleX="0.5" width="12" x="964" y="719" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="7.5" height="19" width="12" x="1030" y="264" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="7.5" height="47" width="12" x="1200" y="263" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="4" height="40" scaleX="0.5" width="12" x="1039" y="268" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="4" height="40" scaleX="0.5" width="12" x="1039" y="338" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="4" height="40" scaleX="0.5" width="12" x="1039" y="408" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="4" height="40" scaleX="0.5" width="12" x="1039" y="532" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="1#冷冻泵" deviceID="30001" x="1100" y="588" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LDB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="2#冷冻泵" deviceID="30002" x="1100" y="497" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LDB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="冷冻水泵 PCWP-B1-3" deviceID="30003" x="1100" y="373" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LDB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="4#冷冻泵" deviceID="30004" x="1100" y="303" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LDB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="5#冷冻泵" deviceID="30005" x="1100" y="233" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LDB"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1400" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE rotation="270" scaleY="8" height="40" scaleX="0.5" width="12" x="40" y="728" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-7(A)" deviceID="40007" x="113" y="108" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-5(A)" deviceID="40005" x="110" y="258" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-6(A)" deviceID="40006" x="139" y="258" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-3(A)" deviceID="40003" x="110" y="431" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-4(A)" deviceID="40004" x="140" y="431" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-1(A)" deviceID="40001" x="110" y="586" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LQT7 scaleX="0.5" width="65" scaleY="0.5" height="109" deviceName="冷却塔T-W-2(A)" deviceID="40002" x="140" y="586" group="deviceComp" source="assets/comp/LQT7/bg.png" mark="LQT"/>
+    <LYZKSB height="117" width="54" deviceName="冷源总管" deviceID="1720001" mark="LYZG" y="200" group="spetial" source="assets/comp/gongfangzhuji.png" x="294.75"/>
+    <TEXT height="21" y="662" borderColor="16777215" text="冷冻供水温度" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="962.5499999999997" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="ldewTemp" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="160" fontFamily="digifaw" text="0" deviceID="1720001" x="1066" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="664" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="ldiwTemp" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="162" fontFamily="digifaw" text="0" deviceID="1720001" x="1318.3500000000001" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="286" widthInChars="4"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="368" y="338" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="368" y="408" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="368" y="515" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="4#冷却泵" deviceID="20004" x="424" y="302" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LQB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="冷却水泵 CWP-B1-3" deviceID="20003" x="424" y="372" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LQB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="2#冷却泵" deviceID="20002" x="425" y="479" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LQB"/>
+    <LQB rotation="0" width="88" scaleY="0.5" height="87" scaleX="0.5" isMouseOverTip="true" deviceName="1#冷却泵" deviceID="20001" x="425" y="569" group="deviceComp" source="assets/comp/LQB/alarm/0/1.png" mark="LQB"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1460" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1640" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1520" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1580" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1700" y="130" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="4" height="40" scaleX="0.5" width="12" x="1209" y="284" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="3" height="40" scaleX="0.5" width="12" x="906" y="298" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1370" y="114" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <JSQ scaleX="2.5" scaleY="0.5" height="72" width="159" deviceID="" x="1340" y="101" group="deviceComp" source="assets/comp/JSQ/bg.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="47" y="342" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="273" y="218" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="372" y="343" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="372" y="413" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="372" y="520" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="372" y="610" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="542" y="296" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="525" y="326" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="632.2" y="328.5000000000001" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="0" scaleY="0.5" height="34" scaleX="0.5" width="24" x="952" y="311" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="0" scaleY="0.5" height="34" scaleX="0.5" width="24" x="952" y="435" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="0" scaleY="0.5" height="34" scaleX="0.5" width="24" x="952" y="594" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="614.75" y="279" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="-180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="665" y="470" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="894" y="330" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="-180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="665" y="348" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="-180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="665" y="240" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="911" y="303" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1366" y="284" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPE3T rotation="90" scaleY="0.5" height="34" scaleX="0.5" width="24" x="1045" y="611" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="1042" y="342.95000000000005" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="0" scaleY="0.5" height="34" scaleX="0.5" width="24" x="1024" y="285" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="1195" y="520" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="1195" y="396" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="1195" y="326" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="1212" y="289" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPECORNER rotation="90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="371" y="260" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="-90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="356" y="728" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="0" scaleY="0.5" height="23" scaleX="0.5" width="23" x="34" y="716" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="46" y="182" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPELINE rotation="270" scaleY="4.4" height="28" scaleX="0.5" width="12" x="36.95" y="505" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPELINE rotation="270" scaleY="4.4" height="28" scaleX="0.5" width="12" x="38" y="668" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="46" y="510" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="180" scaleY="0.5" height="34" scaleX="0.5" width="24" x="47" y="673" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPE3T rotation="-90" scaleY="0.5" height="34" scaleX="0.5" width="24" x="273.75" y="90" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="41" scaleX="0.5" width="12" x="121" y="392" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPE3T scaleX="0.5" scaleY="0.5" height="34" width="24" x="273" y="380" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPELINE rotation="270" scaleY="4" height="40" scaleX="0.5" width="12" x="123.95" y="558" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="275" y="558" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="537" y="273" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="525" y="408" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="631" y="209" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="0" scaleY="0.5" height="23" scaleX="0.5" width="23" x="619" y="435" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="-180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="964" y="219" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="906" y="241" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="894" y="465" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1040" y="261" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="0" scaleY="0.5" height="23" scaleX="0.5" width="23" x="653" y="612" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1207" y="272" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1196" y="624" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1460" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1520" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1580" y="490" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <JSQ scaleX="2.5" scaleY="0.5" height="72" width="159" deviceID="" x="1340" y="640" group="deviceComp" source="assets/comp/JSQ/bg.png"/>
+    <PIPELINE2 scaleX="0.5" scaleY="4" height="40" width="12" x="1252" y="554" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPECORNER rotation="270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1248" y="719" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPELINE2 rotation="-90" scaleY="3" height="40" scaleX="0.5" width="12" x="1253.5" y="558" group="pipe" source="assets/comp/PIPE/pipe1-2.png"/>
+    <PIPECORNER rotation="90" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1263" y="551" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1377" y="563" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <TEXT height="28" y="668" borderColor="0xffffff" text="分水器" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="77" fontFamily="微软雅黑" param="" deviceID="" x="1513" fontSize="24" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="28" y="79" borderColor="0xffffff" text="集水器" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="77" fontFamily="微软雅黑" param="" deviceID="" x="1516" fontSize="24" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路一" fontFamily="微软雅黑" deviceID="" x="1390" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路二" fontFamily="微软雅黑" deviceID="" x="1450" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路三" fontFamily="微软雅黑" deviceID="" x="1513" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路四" fontFamily="微软雅黑" deviceID="" x="1572" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路五" fontFamily="微软雅黑" deviceID="" x="1633" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="59" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="-90" text="支路六" fontFamily="微软雅黑" deviceID="" x="1692" y="416" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <LABEL deviceName="5#冷冻泵" contentBackgroundAlpha="0" color="255" borderVisible="false" param="rate" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="63" fontFamily="digifaw" text="0" deviceID="30005" x="1125" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LDB" y="222" widthInChars="4"/>
+    <TEXT height="25" y="221" borderColor="0xffffff" text="HZ" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="29" fontFamily="微软雅黑" param="" deviceID="" x="1183" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="4#冷冻泵" contentBackgroundAlpha="0" color="255" borderVisible="false" param="rate" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="63" fontFamily="digifaw" text="0" deviceID="30004" x="1126" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LDB" y="291" widthInChars="4"/>
+    <LABEL deviceName="冷冻水泵 PCWP-B1-3" contentBackgroundAlpha="0" color="255" borderVisible="false" param="rate" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="63" fontFamily="digifaw" text="0" deviceID="30003" x="1128" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LDB" y="365" widthInChars="4"/>
+    <LABEL deviceName="2#冷冻泵" contentBackgroundAlpha="0" color="255" borderVisible="false" param="rate" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="63" fontFamily="digifaw" text="0" deviceID="30002" x="1117" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LDB" y="474" widthInChars="4"/>
+    <LABEL deviceName="1#冷冻泵" contentBackgroundAlpha="0" color="255" borderVisible="false" param="rate" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="63" fontFamily="digifaw" text="0" deviceID="30001" x="1119" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LDB" y="567" widthInChars="4"/>
+    <TEXT height="25" y="289" borderColor="0xffffff" text="HZ" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="29" fontFamily="微软雅黑" param="" deviceID="" x="1181" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="364" borderColor="0xffffff" text="HZ" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="29" fontFamily="微软雅黑" param="" deviceID="" x="1177" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="472" borderColor="0xffffff" text="HZ" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="29" fontFamily="微软雅黑" param="" deviceID="" x="1178" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="565" borderColor="0xffffff" text="HZ" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="29" fontFamily="微软雅黑" param="" deviceID="" x="1175" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="lqiwTemp" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="163" fontFamily="digifaw" text="0" deviceID="1720001" x="275" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="658" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="lqewTemp" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="161" fontFamily="digifaw" text="0" deviceID="1720001" x="531" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="19" widthInChars="4"/>
+    <TEXT height="21" y="19" borderColor="16777215" text="冷却供水温度" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="425" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="658" borderColor="16777215" text="冷却回水温度" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="166" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <WATERFLOW rotation="-180" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1022" y="612.4" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW scaleX="0.2" scaleY="0.5" height="22" width="169" x="582.5" y="581" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-180" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1013" y="288" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-180" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1304.35" y="263.9" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="0" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1201.35" y="693.0000000000001" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-270" scaleY="0.5" height="22" scaleX="0.2" width="169" x="952" y="527" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-180" scaleY="0.5" height="22" scaleX="0.2" width="169" x="452" y="103" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="0" scaleY="0.5" height="22" scaleX="0.2" width="229" x="85.75" y="702.9000000000001" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="336" y="619" group="bg" source="assets/comp/waterflow.png"/>
+    <LYZKSB1 height="117" width="54" deviceName="冷站总控制台" deviceID="2270001" mark="LZCZT" y="316" group="spetial" source="assets/comp/gongfangzhuji.png" x="294"/>
+    <LYZKSB2 height="117" width="54" deviceName="冷源群控" deviceID="2390001" mark="LYQK" y="433" group="spetial" source="assets/comp/gongfangzhuji.png" x="293"/>
+    <TEXT height="22" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="78" param="" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" rotation="0" text="机房温度" fontFamily="微软雅黑" deviceID="" x="943.3999999999999" y="24.950000000000003" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="18" widthInChars="4"/>
+    <TEXT height="25" y="741" borderColor="0xffffff" text="冷站开机流程：" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="149" fontFamily="微软雅黑" param="" deviceID="" x="0" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="727" borderColor="0xffffff" text="冷却塔阀门→冷却塔风机→主机冷却阀门→冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="464" fontFamily="微软雅黑" param="" deviceID="" x="142" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="762" borderColor="0xffffff" text="主机冷冻阀门→主机冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="254" fontFamily="微软雅黑" param="" deviceID="" x="145" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="741" borderColor="0xffffff" text="开启冷水主机" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="128" fontFamily="微软雅黑" param="" deviceID="" x="666" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <WATERFLOW rotation="0" scaleY="0.5" height="22" scaleX="0.2" width="169" x="612" y="749" group="bg" source="assets/comp/waterflow.png"/>
+    <TEXT height="25" y="742" borderColor="0xffffff" text="冷站关机流程：" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="149" fontFamily="微软雅黑" param="" deviceID="" x="865" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="25" y="742" borderColor="0xffffff" text="关闭冷水主机→延时关闭冷冻泵（冷却泵）→关闭冷却塔风机→关闭主机冷冻阀冷却阀→关闭冷却塔阀门" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="968" fontFamily="微软雅黑" param="" deviceID="" x="1027" fontSize="20" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="535" y="520" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPELINE scaleX="0.5" scaleY="7.5" height="11" width="12" x="527" y="515" group="pipe" source="assets/comp/PIPE/pipe1.png"/>
+    <PIPE3T rotation="-270" scaleY="0.5" height="34" scaleX="0.5" width="24" x="539" y="594" group="pipe" source="assets/comp/PIPE/pipe3.png"/>
+    <PIPECORNER rotation="0" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1030" y="396" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="-270" scaleY="0.5" height="23" scaleX="0.5" width="23" x="1046" y="524" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <PIPECORNER rotation="180" scaleY="0.5" height="23" scaleX="0.5" width="23" x="661" y="89" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1406" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1465" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1526" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1586" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1646" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1706" y="220" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1406" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1466" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1526" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1586" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1646" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <WATERFLOW rotation="-90" scaleY="0.5" height="22" scaleX="0.2" width="169" x="1704" y="600" group="bg" source="assets/comp/waterflow.png"/>
+    <PIPECORNER rotation="0" scaleY="0.5" height="23" scaleX="0.5" width="23" x="956" y="708" group="pipe" source="assets/comp/PIPE/pipe2.png"/>
+    <TEXT height="22" y="19" borderColor="16777215" text="℃" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="21" fontFamily="微软雅黑" param="" deviceID="" x="592.9000000000001" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="47" borderColor="16777215" text="冷却供水压力" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="426" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管补充参数" contentBackgroundAlpha="0" color="255" borderVisible="false" param="iPressure2" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="193" fontFamily="digifaw" text="0" deviceID="1720002" x="532" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="46" widthInChars="4"/>
+    <TEXT height="22" y="45" borderColor="16777215" text="Mpa" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="38" fontFamily="微软雅黑" param="" deviceID="" x="594" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="611" borderColor="16777215" text="1#冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="413" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管补充参数" contentBackgroundAlpha="0" color="255" borderVisible="false" param="iPressure1" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="194" fontFamily="digifaw" text="0" deviceID="1720002" x="275" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="686" widthInChars="4"/>
+    <TEXT height="22" y="685" borderColor="16777215" text="Mpa" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="38" fontFamily="微软雅黑" param="" deviceID="" x="326" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="657" borderColor="16777215" text="℃" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="21" fontFamily="微软雅黑" param="" deviceID="" x="331" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="685" borderColor="16777215" text="冷却回水压力" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="165.75000000000006" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="520" borderColor="16777215" text="2#冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="414" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <HANDAUTO deviceName="1#冷却泵" width="58" height="25" paramID="38" param="handAuto" x="370.44999999999993" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQB" y="571" deviceID="20001"/>
+    <HANDAUTO deviceName="2#冷却泵" width="58" height="25" paramID="38" param="handAuto" x="371" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQB" y="479.20000000000005" deviceID="20002"/>
+    <HANDAUTO deviceName="3#冷却泵" width="58" height="25" paramID="38" param="handAuto" x="376.3" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQB" y="374.35" deviceID="20003"/>
+    <TEXT height="21" y="414" borderColor="16777215" text="3#冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="415" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="342.35" borderColor="16777215" text="4#冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="416" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="271.65" borderColor="16777215" text="5#冷却泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="418" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <HANDAUTO deviceName="4#冷却泵" width="58" height="25" paramID="38" param="handAuto" x="371" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQB" y="301" deviceID="20004"/>
+    <HANDAUTO deviceName="5#冷却泵" width="58" height="25" paramID="38" param="handAuto" x="370" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQB" y="230.35" deviceID="20005"/>
+    <TEXT height="21" y="634.35" borderColor="16777215" text="1#冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="1088" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <HANDAUTO deviceName="1#冷冻泵" width="58" height="25" paramID="38" param="handAuto" x="1043.05" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LDB" y="587.6000000000001" deviceID="30001"/>
+    <HANDAUTO deviceName="2#冷冻泵" width="58" height="25" paramID="38" param="handAuto" x="1044.3999999999999" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LDB" y="495.44999999999993" deviceID="30002"/>
+    <TEXT height="21" y="541" borderColor="16777215" text="2#冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="1088" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="419" borderColor="16777215" text="3#冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="1088" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="342.40000000000003" borderColor="16777215" text="4#冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="1087.3" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="665" borderColor="16777215" text="℃" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="21" fontFamily="微软雅黑" param="" deviceID="" x="1129" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="688" borderColor="16777215" text="冷冻供水压力" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="964" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="iPressure2" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="193" fontFamily="digifaw" text="0" deviceID="1720001" x="1067" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="690" widthInChars="4"/>
+    <TEXT height="22" y="688" borderColor="16777215" text="Mpa" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="38" fontFamily="微软雅黑" param="" deviceID="" x="1126" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <HANDAUTO deviceName="3#冷冻泵" width="58" height="25" paramID="38" param="handAuto" x="1040.3" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LDB" y="373" deviceID="30003"/>
+    <HANDAUTO deviceName="4#冷冻泵" width="58" height="25" paramID="38" param="handAuto" x="1041" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LDB" y="304" deviceID="30004"/>
+    <HANDAUTO deviceName="5#冷冻泵" width="58" height="25" paramID="38" param="handAuto" x="1041" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LDB" y="234" deviceID="30005"/>
+    <TEXT height="21" y="314" borderColor="16777215" text="冷冻回水压力" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="1217" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="287.74999999999994" borderColor="16777215" text="冷冻回水温度" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="104" fontFamily="微软雅黑" param="" deviceID="" x="1217" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="22" y="284" borderColor="16777215" text="℃" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="21" fontFamily="微软雅黑" param="" deviceID="" x="1373.0499999999997" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="iPressure1" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="194" fontFamily="digifaw" text="0" deviceID="1720001" x="1318" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="315" widthInChars="4"/>
+    <TEXT height="22" y="313" borderColor="16777215" text="Mpa" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="38" fontFamily="微软雅黑" param="" deviceID="" x="1368" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="638.45" borderColor="16777215" text="1#螺杆机" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="745.55" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="474.25" borderColor="16777215" text="2#离心机" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="746.3499999999999" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="352.55000000000007" borderColor="16777215" text="3#离心机" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="746" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="244.30000000000007" borderColor="16777215" text="4#离心机" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="747.3500000000001" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="outWetBallTemp" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="654" fontFamily="digifaw" text="0" deviceID="1720001" x="1021" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="26.200000000000003" widthInChars="4"/>
+    <TEXT height="22" y="27" borderColor="16777215" text="℃" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="21" fontFamily="微软雅黑" param="" deviceID="" x="1080" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="272.2" borderColor="16777215" text="5#冷冻泵" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="69" fontFamily="微软雅黑" param="" deviceID="" x="1087.4" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <SLFM rotation="-90" height="21" width="29" param="" deviceID="" x="1722.8000000000002" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" y="375"/>
+    <TEXT height="21" y="308.95" borderColor="16777215" text="旁通阀开度反馈" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="121" fontFamily="微软雅黑" param="" deviceID="" x="1664.15" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <LABEL deviceName="冷源总管" contentBackgroundAlpha="0" color="255" borderVisible="false" param="ycValve" sizeAuto="false" fontWeight="normal" group="commonComp" contentBackgroundColor="000000" textAlign="center" rotation="0" paramID="651" fontFamily="digifaw" text="0" deviceID="1720001" x="1743.4" fontSize="12" borderColor="999999" source="assets/comp/TEXTINPUT/text.png" mark="LYZG" y="346.20000000000005" widthInChars="4"/>
+    <TEXT height="22" y="346.65" borderColor="16777215" text="%" contentBackgroundAlpha="0" color="0x444444" borderVisible="false" width="19" fontFamily="微软雅黑" param="" deviceID="" x="1793.1" fontSize="18" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="131.35" borderColor="16777215" text="7#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="121" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <HANDAUTO deviceName="冷却塔T-W-7(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="60.25000000000003" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="125.25" deviceID="40007"/>
+    <TEXT height="21" y="278" borderColor="16777215" text="5#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="116.5" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="278" borderColor="16777215" text="6#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="145" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="451.69999999999993" borderColor="16777215" text="3#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="116.90000000000003" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="453" borderColor="16777215" text="4#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="146.05" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="608.9" borderColor="16777215" text="1#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="114.29999999999995" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="21" y="608.8999999999999" borderColor="16777215" text="2#" contentBackgroundAlpha="0" color="16777215" borderVisible="false" width="18" fontFamily="微软雅黑" param="" deviceID="" x="147.14999999999998" fontSize="16" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <SLFM deviceName="冷却塔 蝶阀1#" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330009" x="208.25" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="93.35"/>
+    <SLFM deviceName="冷却塔 蝶阀2#" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330010" x="211" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="237"/>
+    <SLFM deviceName="冷却塔 蝶阀3#" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330011" x="213" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="397.7000000000001"/>
+    <SLFM deviceName="冷却塔 蝶阀4#" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330012" x="212.35000000000002" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="564"/>
+    <HANDAUTO deviceName="冷却塔T-W-5(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="62.39999999999998" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="274.9500000000001" deviceID="40005"/>
+    <HANDAUTO deviceName="冷却塔T-W-6(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="176" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="272.55" deviceID="40006"/>
+    <HANDAUTO deviceName="冷却塔T-W-3(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="59.70000000000002" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="448.95" deviceID="40003"/>
+    <HANDAUTO deviceName="冷却塔T-W-4(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="176.65" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="447.85" deviceID="40004"/>
+    <HANDAUTO deviceName="冷却塔T-W-1(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="61.349999999999994" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="599.5999999999999" deviceID="40001"/>
+    <HANDAUTO deviceName="冷却塔T-W-2(A)" width="58" scaleY="0.8" height="25" scaleX="0.8" paramID="38" param="handAuto" x="175" alarm="HANDAUTO" group="commonComp" source="assets/comp/HANDAUTO/handAuto/0/1.png" mark="LQT" y="599.6000000000001" deviceID="40002"/>
+    <SLFM deviceName="冷水机组4冷却蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330008" x="690.4499999999999" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="221.1"/>
+    <SLFM deviceName="冷水机组4冷冻蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330004" x="892.6000000000001" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="241.49999999999994"/>
+    <SLFM deviceName="冷水机组3冷却蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330007" x="692.35" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="330.04999999999995"/>
+    <SLFM deviceName="冷水机组3冷冻蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330003" x="895.45" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="347.05000000000007"/>
+    <SLFM deviceName="冷水机组2冷却蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330006" x="693.3500000000001" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="452.50000000000006"/>
+    <SLFM deviceName="冷水机组2冷冻蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330002" x="897.9000000000002" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="470.6000000000001"/>
+    <SLFM deviceName="冷水机组1冷冻蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330001" x="930.6999999999998" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="629.8499999999999"/>
+    <SLFM deviceName="冷水机组1冷却蝶阀" height="21" rotation="-180" width="29" paramID="656" param="turnState" deviceID="2330005" x="692.0500000000001" alarm="runing" group="commonComp" source="assets/comp/SLFM/runing/0/1.png" mark="ZGDFKG" y="612.35"/>
+    <ALARM deviceName="4#冷机" height="25" width="58" paramID="2" param="alarm" deviceID="10004" x="822.35" alarm="ALARM" group="commonComp" source="assets/comp/ALARM/alarm/0/1.png" mark="LSJ" y="244.3"/>
+    <ALARM deviceName="3#冷机" height="25" width="58" paramID="2" param="alarm" deviceID="10003" x="824" alarm="ALARM" group="commonComp" source="assets/comp/ALARM/alarm/0/1.png" mark="LSJ" y="351"/>
+    <ALARM deviceName="2#冷机" height="25" width="58" paramID="2" param="alarm" deviceID="10002" x="823" alarm="ALARM" group="commonComp" source="assets/comp/ALARM/alarm/0/1.png" mark="LSJ" y="474"/>
+    <ALARM deviceName="1#冷机" height="25" width="58" paramID="2" param="alarm" deviceID="10001" x="824" alarm="ALARM" group="commonComp" source="assets/comp/ALARM/alarm/0/1.png" mark="LSJ" y="631"/>
+  </Components>
+</Configration>

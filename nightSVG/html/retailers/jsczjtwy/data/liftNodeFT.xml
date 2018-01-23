@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration >
+  <LIST>
+    <Component>
+      <LIFTF/>
+      <ALARM/>
+      <RUNING/>
+      <UP/>
+      <DOWN/>
+      <BQSX/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LIFTF y="100" x="290" width="96" scaleX="2" height="96" scaleY="2" deviceID="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1338" rotation="0"/>
+    <TEXT fontWeight="bold" color="0" sizeAuto="true" widthInChars="4" width="86" height="25" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" text="启停状态" textAlign="center" rotation="0" fontSize="20" x="250" y="330" scaleX="1" scaleY="1" fontFamily="微软雅黑" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.TextInput1354"/>
+    <TEXT fontWeight="bold" color="0" sizeAuto="true" widthInChars="4" width="86" height="25" deviceID="" param="" contentBackgroundAlpha="0" borderVisible="false" borderColor="0xffffff" text="运行状态" textAlign="center" rotation="0" fontSize="20" x="250" y="385" scaleX="1" scaleY="1" fontFamily="微软雅黑" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.TextInput1363"/>
+    <ALARM alarm="ALARM" y="380" x="390" width="58" scaleX="1.5" height="25" scaleY="1.5" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1371" param="alarm" rotation="0"/>
+    <RUNING y="325" x="390" width="58" scaleX="1.5" height="25" scaleY="1.5" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1377" rotation="0"/>
+    <UP y="110" x="440" width="43" scaleX="1" height="42" scaleY="1" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1383" rotation="45"/>
+    <DOWN y="226" x="330" width="43" scaleX="1" height="42" scaleY="1" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1389" rotation="45"/>
+    <BQSX y="85" x="241.85000000000002" popType="video" width="80" scaleX="0.5" height="80" scaleY="0.5" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin207.Group45.initGroup.Image1450" isPop="true" rotation="0"/>
+    <LABEL fontWeight="normal" color="3407616" sizeAuto="false" contentBackgroundColor="000000" width="100" deviceID="76" mark="LIFTF" widthInChars="4" deviceName="B2-3B" param="deviceName" contentBackgroundAlpha="0" borderVisible="true" borderColor="999999" text="0101" textAlign="center" rotation="0" fontSize="18" x="310" y="35" fontFamily="微软雅黑"/>
+  </Components>
+</Configration>

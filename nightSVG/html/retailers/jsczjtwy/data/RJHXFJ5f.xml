@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTSPFJ/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTSPFJN source="assets/comp/TULI/KTSPFJN.png"/>
+      <KTSPFJR source="assets/comp/TULI/KTSPFJR.png"/>
+      <KTSPFJA source="assets/comp/TULI/KTSPFJA.png"/>
+      <LCF5 source="assets/comp/LCF5.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE group="map" source="mapAssets/mapImages/F5Node.png" x="0" width="1434" y="0" height="714"/>
+    <TULI group="tuli" source="assets/comp/TULI/TULI.png" x="1125" width="225" y="509" height="124"/>
+    <KTSPFJN scaleX="0.4" scaleY="0.4" height="80" width="80" x="1274" y="534" group="tuli" source="assets/comp/TULI/KTSPFJN.png"/>
+    <KTSPFJR scaleX="0.4" scaleY="0.4" height="80" width="80" x="1274" y="563" group="tuli" source="assets/comp/TULI/KTSPFJR.png"/>
+    <KTSPFJA scaleX="0.4" scaleY="0.4" height="80" width="80" x="1274" y="591" group="tuli" source="assets/comp/TULI/KTSPFJA.png"/>
+    <TEXT height="17" y="540" borderColor="0xffffff" text="停止" contentBackgroundAlpha="0" color="255" borderVisible="false" width="28" fontFamily="微软雅黑" param="" deviceID="" x="1187" fontSize="12" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="17" y="567" borderColor="0xffffff" text="运行" contentBackgroundAlpha="0" color="255" borderVisible="false" width="28" fontFamily="微软雅黑" param="" deviceID="" x="1186" fontSize="12" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <TEXT height="17" y="594" borderColor="0xffffff" text="报警" contentBackgroundAlpha="0" color="255" borderVisible="false" width="28" fontFamily="微软雅黑" param="" deviceID="" x="1186" fontSize="12" group="commonComp" source="assets/comp/TEXTINPUT/label.png" sizeAuto="true" fontWeight="normal" textAlign="center" widthInChars="4"/>
+    <KTSPFJ scaleX="0.6" width="80" scaleY="0.6" height="80" deviceName="新风机组BX-5AP(K)1" deviceID="1110003" x="959.2" y="361.84999999999997" group="deviceComp" source="assets/comp/KTSPFJ/bg.png" mark="PAU"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="66" param="" contentBackgroundColor="16777215" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="BX-5AP(K)1" fontFamily="微软雅黑" deviceID="" x="951" y="346" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <KTSPFJ scaleX="0.6" width="80" scaleY="0.6" height="80" deviceName="新风机组BX-5AP(K)2" deviceID="1110004" x="965.35" y="176.89999999999998" group="deviceComp" source="assets/comp/KTSPFJ/bg.png" mark="PAU"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="66" param="" contentBackgroundColor="16777215" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="BX-5AP(K)2" fontFamily="微软雅黑" deviceID="" x="960" y="158" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <KTSPFJ scaleX="0.6" width="80" scaleY="0.6" height="80" deviceName="新风机组BX-5AP(K)3" deviceID="1110005" x="1087.1000000000001" y="146.3" group="deviceComp" source="assets/comp/KTSPFJ/bg.png" mark="PAU"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="66" param="" contentBackgroundColor="16777215" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="BX-5AP(K)3" fontFamily="微软雅黑" deviceID="" x="1079" y="131" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+    <LCF5 group="bg" source="assets/comp/LCF5.png" x="10" width="110" y="10" height="92"/>
+    <KTSPFJ scaleX="0.6" width="80" scaleY="0.6" height="80" deviceName="新风机组BX-RAP(K)1" deviceID="1110010" x="1214.95" y="375.8" group="deviceComp" source="assets/comp/KTSPFJ/bg.png" mark="PAU"/>
+    <TEXT height="17" contentBackgroundAlpha="1" color="255" borderVisible="false" width="68" param="" contentBackgroundColor="16777215" sizeAuto="true" fontWeight="normal" group="commonComp" textAlign="center" text="BX-RAP(K)1" fontFamily="微软雅黑" deviceID="" x="1206" y="360" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="12" widthInChars="4"/>
+  </Components>
+</Configration>

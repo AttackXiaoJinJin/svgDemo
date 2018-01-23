@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="560">
+  <LIST>
+    <Component>
+      <YCQ/>
+      <VIDEOTB/>
+      <JSBJ/>
+    </Component>
+    <Image>
+      <XFFQ1F source="assets/comp/XFFQ1F.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <YGN source="assets/comp/TULI/YGN.png"/>
+      <YGA source="assets/comp/TULI/YGA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQ1F scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="55" y="0"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="674" scale="0.35" rotation="0" popType="subList" x="816" y="260"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="667" scale="0.35" rotation="0" popType="subList" x="539" y="333"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="662" scale="0.35" rotation="0" popType="subList" x="751" y="143"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="669" scale="0.35" rotation="0" popType="subList" x="668" y="370"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8497" scale="0.35" rotation="0" popType="subList" x="530" y="287"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="659" scale="0.35" rotation="0" popType="subList" x="361" y="323"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="666" scale="0.35" rotation="0" popType="subList" x="454" y="349"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8500" scale="0.35" rotation="0" popType="subList" x="340" y="105"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8496" scale="0.35" rotation="0" popType="subList" x="347" y="285"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="657" scale="0.35" rotation="0" popType="subList" x="299" y="207"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8499" scale="0.35" rotation="0" popType="subList" x="801" y="146"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="656" scale="0.35" rotation="0" popType="subList" x="323" y="31"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="655" scale="0.35" rotation="0" popType="subList" x="218" y="319"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="654" scale="0.35" rotation="0" popType="subList" x="163" y="181"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8494" scale="0.35" rotation="0" popType="subList" x="205" y="98"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="664" scale="0.35" rotation="0" popType="subList" x="429" y="256"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="649" scale="0.35" rotation="0" popType="subList" x="141" y="55"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8495" scale="0.35" rotation="0" popType="subList" x="215" y="247"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="658" scale="0.35" rotation="0" popType="subList" x="371" y="202"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="671" scale="0.35" rotation="0" popType="subList" x="857" y="133"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="663" scale="0.35" rotation="0" popType="subList" x="720" y="201"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="665" scale="0.35" rotation="0" popType="subList" x="584" y="253"/>
+    <YCQ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="8498" scale="0.35" rotation="0" popType="subList" x="707" y="312"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8499" scale="0.25" rotation="0" popType="videoSub" x="829" y="132"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8494" scale="0.25" rotation="0" popType="videoSub" x="225" y="84"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8495" scale="0.25" rotation="0" popType="videoSub" x="240" y="235"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8496" scale="0.25" rotation="0" popType="videoSub" x="372" y="278"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8497" scale="0.25" rotation="0" popType="videoSub" x="558" y="287"/>
+    <VIDEOTB scaleX="0.25" scaleY="0.25" isPop="true" deviceID="8498" scale="0.25" rotation="0" popType="videoSub" x="728" y="293"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="840" y="460"/>
+    <YGN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="850" y="500"/>
+    <YGA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="910" y="500"/>
+    <TEXT text="正常" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="850" y="480"/>
+    <TEXT text="报警" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="910" y="480"/>
+    <VIDEOTB scaleX="0.5" scaleY="0.5" isPop="true" deviceID="" scale="0.5" rotation="0" popType="videoSub" x="970" y="500"/>
+    <TEXT text="摄像" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="970" y="480"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12423" scale="0.35" rotation="0" popType="subList" x="367" y="106"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12284" scale="0.35" rotation="0" popType="subList" x="399" y="201"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12417" scale="0.35" rotation="0" popType="subList" x="205" y="123"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12418" scale="0.35" rotation="0" popType="subList" x="241" y="255"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12419" scale="0.35" rotation="0" popType="subList" x="391" y="287"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12420" scale="0.35" rotation="0" popType="subList" x="583" y="290"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12422" scale="0.35" rotation="0" popType="subList" x="801" y="172"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12421" scale="0.35" rotation="0" popType="subList" x="738" y="316"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12275" scale="0.35" rotation="0" popType="subList" x="169" y="56"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12280" scale="0.35" rotation="0" popType="subList" x="163" y="208"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12285" scale="0.35" rotation="0" popType="subList" x="390" y="325"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12281" scale="0.35" rotation="0" popType="subList" x="247" y="321"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12289" scale="0.35" rotation="0" popType="subList" x="746" y="203"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12288" scale="0.35" rotation="0" popType="subList" x="777" y="132"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12300" scale="0.35" rotation="0" popType="subList" x="808" y="285"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12290" scale="0.35" rotation="0" popType="subList" x="457" y="259"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12291" scale="0.35" rotation="0" popType="subList" x="612" y="255"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12292" scale="0.35" rotation="0" popType="subList" x="452" y="374"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12293" scale="0.35" rotation="0" popType="subList" x="565" y="337"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12295" scale="0.35" rotation="0" popType="subList" x="693" y="381"/>
+    <JSBJ scaleX="0.35" scaleY="0.35" isPop="true" deviceID="12297" scale="0.35" rotation="0" popType="subList" x="884" y="133"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="896" y="451" rotation="-90"/>
+  </Components>
+</Configration>

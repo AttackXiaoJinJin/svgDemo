@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <BLIGHT/>
+      <ZNSX/>
+    </Component>
+    <Image>
+      <JXK source="assets/comp/jxk.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <JXK y="48" x="438" width="525" height="341"/>
+    <TEXT text="景观照明控制模式" deviceID="" param="" fontWeight="normal" height="29" fontFamily="微软雅黑" x="619" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="76" borderColor="0xffffff" textAlign="center" width="162" fontSize="20" widthInChars="4"/>
+    <BLIGHT deviceID="110001" deviceName="喷泉" isPop="true" x="566" y="113" popType="list" mark="JGHL" width="94" height="49"/>
+    <TEXT text="喷泉" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="477" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="122" borderColor="0xffffff" textAlign="center" width="38" fontSize="18" widthInChars="4"/>
+    <TEXT text="旗杆灯" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="468" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="165" borderColor="0xffffff" textAlign="center" width="56" fontSize="18" widthInChars="4"/>
+    <TEXT text="草丛、射树灯" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="448" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="213" borderColor="0xffffff" textAlign="center" width="110" fontSize="18" widthInChars="4"/>
+    <TEXT text="喷泉灯带" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="458" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="262" borderColor="0xffffff" textAlign="center" width="74" fontSize="18" widthInChars="4"/>
+    <TEXT text="指示牌" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="474" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="305" borderColor="0xffffff" textAlign="center" width="56" fontSize="18" widthInChars="4"/>
+    <TEXT text="草丛灯带" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="734" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="124" borderColor="0xffffff" textAlign="center" width="74" fontSize="18" widthInChars="4"/>
+    <TEXT text="高杆灯1" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="735" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="164" borderColor="0xffffff" textAlign="center" width="67" fontSize="18" widthInChars="4"/>
+    <TEXT text="高杆灯2" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="735" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="217" borderColor="0xffffff" textAlign="center" width="67" fontSize="18" widthInChars="4"/>
+    <BLIGHT deviceID="110002" deviceName="旗杆灯" isPop="true" x="566" y="159" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110003" deviceName="草丛、射树灯" isPop="true" x="566" y="205" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110004" deviceName="喷泉灯带" isPop="true" x="566" y="256" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110005" deviceName="指示牌" isPop="true" x="566" y="303" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110006" deviceName="草丛灯带" isPop="true" x="809" y="113" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110007" deviceName="高杆灯1" isPop="true" x="808" y="156" popType="list" mark="JGHL" width="94" height="49"/>
+    <BLIGHT deviceID="110008" deviceName="高杆灯2" isPop="true" x="807" y="203" popType="list" mark="JGHL" width="94" height="49"/>
+    <TEXT text="高杆灯3" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="737" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="264" borderColor="0xffffff" textAlign="center" width="67" fontSize="18" widthInChars="4"/>
+    <BLIGHT deviceID="110009" deviceName="高杆灯3" isPop="true" x="808" y="252" popType="list" mark="JGHL" width="94" height="49"/>
+    <TEXT text="高杆灯4" deviceID="" param="" fontWeight="normal" height="27" fontFamily="微软雅黑" x="739" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="309" borderColor="0xffffff" textAlign="center" width="67" fontSize="18" widthInChars="4"/>
+    <BLIGHT deviceID="110010" deviceName="高杆灯4" isPop="true" x="808" y="296" popType="list" mark="JGHL" width="94" height="49"/>
+    <ZNSX deviceID="21" deviceName="1F21#室外球机" scaleY="0.4" isPop="true" x="448" y="55" popType="video" scaleX="0.4" mark="BQSX" width="80" height="80"/>
+    <ZNSX deviceID="20" deviceName="1F20#室外球机" scaleY="0.4" isPop="true" x="913" y="55" popType="video" scaleX="0.4" mark="BQSX" width="80" height="80"/>
+    <ZNSX deviceID="19" deviceName="1F19#室外球机" scaleY="0.4" isPop="true" x="458" y="350" popType="video" scaleX="0.4" mark="BQSX" width="80" height="80"/>
+    <ZNSX deviceID="18" deviceName="1F18#室外球机" scaleY="0.4" isPop="true" x="901" y="352" popType="video" scaleX="0.4" mark="BQSX" width="80" height="80"/>
+    <TEXT text="2号门外广场西" deviceID="" param="" fontWeight="normal" height="21" fontFamily="微软雅黑" x="484" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="58" borderColor="0xffffff" textAlign="center" width="95" fontSize="14" widthInChars="4"/>
+    <TEXT text="1号门外广场西" deviceID="" param="" fontWeight="normal" height="21" fontFamily="微软雅黑" x="497" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="355" borderColor="0xffffff" textAlign="center" width="95" fontSize="14" widthInChars="4"/>
+    <TEXT text="1号门外广场东" deviceID="" param="" fontWeight="normal" height="21" fontFamily="微软雅黑" x="801" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="361" borderColor="0xffffff" textAlign="center" width="95" fontSize="14" widthInChars="4"/>
+    <TEXT text="2号门外广场东" deviceID="" param="" fontWeight="normal" height="21" fontFamily="微软雅黑" x="809" contentBackgroundAlpha="0" color="16777215" borderVisible="false" sizeAuto="true" y="57" borderColor="0xffffff" textAlign="center" width="95" fontSize="14" widthInChars="4"/>
+  </Components>
+</Configration>

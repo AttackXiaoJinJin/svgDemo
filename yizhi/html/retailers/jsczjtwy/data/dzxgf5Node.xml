@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="712">
+  <LIST>
+    <Component>
+      <KEEPWATCH/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <XGLINE source="assets/comp/xgline.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="0" y="-2" width="1434" height="714"/>
+    <KEEPWATCH x="1170" deviceID="" scaleX="0.25" rotation="0" y="230" scaleY="0.25" width="80" height="80"/>
+    <KEEPWATCH x="841" deviceID="" scaleX="0.25" rotation="0" y="182" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="832" scaleX="1" y="151" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="1号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="28" widthInChars="3"/>
+    <KEEPWATCH x="828" deviceID="" scaleX="0.25" rotation="0" y="505" scaleY="0.25" width="80" height="80"/>
+    <KEEPWATCH x="1208" deviceID="" scaleX="0.25" rotation="0" y="513" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1165" scaleX="1" y="202" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="2号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="28" widthInChars="3"/>
+    <TEXT fontFamily="微软雅黑" x="824" scaleX="1" y="527" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="3号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="28" widthInChars="3"/>
+    <TEXT fontFamily="微软雅黑" x="1203" scaleX="1" y="533" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="4号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="28" widthInChars="3"/>
+    <XGLINE x="866" y="184" rotation="8" width="310" height="22"/>
+    <XGLINE x="1179.1000000000001" y="250.19999999999993" rotation="140" width="424" height="22"/>
+    <XGLINE x="844.1500000000001" y="510.1" width="368" height="22"/>
+  </Components>
+</Configration>

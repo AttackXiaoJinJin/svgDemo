@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1058" Height="521">
+  <LIST>
+    <Component>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <PD2QGY2 source="assets/comp/PD2QGY2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <PD2QGY2 scale="0.96" rotation="0" x="20" y="0"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="SOHS写字楼A变电馈线1" widthInChars="11" color="16777215" x="-1" y="350"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="断路器柜" widthInChars="4" color="16777215" x="213" y="347"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="隔离柜" widthInChars="3" color="16777215" x="352" y="348"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="步行街3\4变电馈线" widthInChars="9" color="16777215" x="441" y="352"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="分断路器柜" widthInChars="5" color="16777215" x="795" y="348"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" scale="1" text="隔离兼PT柜" widthInChars="6" color="16777215" x="932" y="348"/>
+    <LABEL textAlign="right" deviceID="21091" rotation="0" fontSize="14" fontWeight="normal" param="MIa" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="824" y="375"/>
+    <LABEL textAlign="right" deviceID="21091" rotation="0" fontSize="14" fontWeight="normal" param="MIb" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="823" y="399"/>
+    <LABEL textAlign="right" deviceID="21091" rotation="0" fontSize="14" fontWeight="normal" param="MIc" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="823" y="423"/>
+    <LABEL textAlign="right" deviceID="21091" rotation="0" fontSize="14" fontWeight="normal" param="p" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="823" y="447"/>
+    <LABEL textAlign="right" deviceID="21091" rotation="0" fontSize="14" fontWeight="normal" param="Pf" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="823" y="471"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="7" color="65280" x="823" y="495"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IA(A)" widthInChars="3" color="16777215" x="766" y="376"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IB(A)" widthInChars="3" color="16777215" x="767" y="401"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IC(A)" widthInChars="3" color="16777215" x="32" y="427"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="P(Kw)" widthInChars="3" color="16777215" x="595" y="448"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="PF" widthInChars="3" color="16777215" x="586" y="474"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IA(A)" widthInChars="3" color="16777215" x="593" y="377"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IB(A)" widthInChars="3" color="16777215" x="32" y="402"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IC(A)" widthInChars="3" color="16777215" x="767" y="424"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="P(Kw)" widthInChars="3" color="16777215" x="768" y="447"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="EP(Kwh)" widthInChars="4" color="16777215" x="584" y="496"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="PF" widthInChars="3" color="16777215" x="759" y="474"/>
+    <LABEL textAlign="right" deviceID="21090" rotation="0" fontSize="14" fontWeight="normal" param="MIb" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="650" y="399"/>
+    <LABEL textAlign="right" deviceID="21090" rotation="0" fontSize="14" fontWeight="normal" param="MIa" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="650" y="375"/>
+    <LABEL textAlign="right" deviceID="21090" rotation="0" fontSize="14" fontWeight="normal" param="MIc" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="650" y="423"/>
+    <LABEL textAlign="right" deviceID="21090" rotation="0" fontSize="14" fontWeight="normal" param="p" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="650" y="447"/>
+    <LABEL textAlign="right" deviceID="21090" rotation="0" fontSize="14" fontWeight="normal" param="Pf" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="650" y="471"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="7" color="65280" x="650" y="495"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="5" color="65280" x="972" y="375"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="5" color="65280" x="972" y="399"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="5" color="65280" x="972" y="423"/>
+    <LABEL textAlign="right" deviceID="21103" rotation="0" fontSize="14" fontWeight="normal" param="MIa" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="87" y="375"/>
+    <LABEL textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" scale="1" text="" widthInChars="5" color="65280" x="973" y="447"/>
+    <LABEL textAlign="right" deviceID="21103" rotation="0" fontSize="14" fontWeight="normal" param="MIc" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="87" y="423"/>
+    <LABEL textAlign="right" deviceID="21103" rotation="0" fontSize="14" fontWeight="normal" param="MIb" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="87" y="399"/>
+    <LABEL textAlign="right" deviceID="21103" rotation="0" fontSize="14" fontWeight="normal" param="p" fontFamily="digifaw" scale="1" text="1234567" widthInChars="5" color="65280" x="87" y="447"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IA(A)" widthInChars="3" color="16777215" x="33" y="375"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IB(A)" widthInChars="3" color="16777215" x="594" y="402"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="IC(A)" widthInChars="3" color="16777215" x="594" y="425"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="Uab(Kv)" widthInChars="4" color="16777215" x="904" y="377"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="Ubc(Kv)" widthInChars="4" color="16777215" x="904" y="402"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="Uca(Kv)" widthInChars="4" color="16777215" x="905" y="426"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" scale="1" text="F(Hz)" widthInChars="3" color="16777215" x="918" y="451"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="18" rotation="0" widthInChars="7" text="II-1、II-2段母分" x="920" y="308"/>
+    <TEXT textAlign="right" deviceID="" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" rotation="0" scale="1" color="16777215" widthInChars="7" text="II-1、II-2段母分" x="767" y="310"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" param="" fontFamily="Arial" text="I、II段母分" scale="1" fontSize="18" rotation="0" widthInChars="5" color="16777215" x="179" y="310"/>
+    <TEXT textAlign="right" deviceID="" fontSize="18" fontWeight="normal" param="" fontFamily="Arial" rotation="0" scale="1" text="I、II段母分" widthInChars="5" color="16777215" x="336" y="310"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="4" text="EP(Kwh)" x="758" y="497"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="normal" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="18" rotation="0" widthInChars="6" text="国美变电馈线" x="637" y="352"/>
+    <LABEL textAlign="right" deviceID="21089" fontWeight="normal" param="MIa" fontFamily="digifaw" color="65280" scale="1" fontSize="14" rotation="0" widthInChars="5" text="1234567" x="475" y="375"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" param="" fontFamily="digifaw" color="65280" scale="1" fontSize="14" rotation="0" widthInChars="7" text="" x="475" y="495"/>
+    <LABEL textAlign="right" deviceID="" fontSize="14" fontWeight="normal" param="" fontFamily="digifaw" rotation="0" scale="1" color="65280" widthInChars="7" text="" x="86" y="495"/>
+    <LABEL textAlign="right" deviceID="21089" fontSize="14" fontWeight="normal" param="MIc" fontFamily="digifaw" rotation="0" scale="1" color="65280" widthInChars="5" text="1234567" x="475" y="423"/>
+    <LABEL textAlign="right" deviceID="21089" fontWeight="normal" param="MIb" fontFamily="digifaw" text="1234567" scale="1" fontSize="14" rotation="0" widthInChars="5" color="65280" x="475" y="399"/>
+    <LABEL textAlign="right" deviceID="21089" fontWeight="normal" param="p" fontFamily="digifaw" text="1234567" scale="1" fontSize="14" rotation="0" widthInChars="5" color="65280" x="475" y="447"/>
+    <LABEL textAlign="right" deviceID="21089" fontSize="14" fontWeight="normal" param="Pf" fontFamily="digifaw" rotation="0" scale="1" text="1234567" widthInChars="5" color="65280" x="475" y="471"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IA(A)" x="423" y="377"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IB(A)" x="422" y="402"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IC(A)" x="422" y="425"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="P(Kw)" x="421" y="450"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="PF" x="412" y="474"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="4" text="EP(Kwh)" x="409" y="496"/>
+    <LABEL textAlign="right" deviceID="21103" fontWeight="normal" param="Pf" fontFamily="digifaw" color="65280" scale="1" fontSize="14" rotation="0" widthInChars="5" text="1234567" x="87" y="471"/>
+    <TEXT textAlign="right" deviceID="" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" rotation="0" scale="1" color="16777215" widthInChars="3" text="P(Kw)" x="32" y="449"/>
+    <TEXT textAlign="right" deviceID="" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" rotation="0" scale="1" color="16777215" widthInChars="3" text="PF" x="25" y="474"/>
+    <TEXT textAlign="right" deviceID="" fontSize="14" fontWeight="bold" param="" fontFamily="Arial" rotation="0" scale="1" color="16777215" widthInChars="4" text="EP(Kwh)" x="17" y="494"/>
+    <LABEL textAlign="right" deviceID="21104" fontWeight="normal" param="MIa" fontFamily="digifaw" color="65280" scale="1" fontSize="14" rotation="0" widthInChars="5" text="1234567" x="261" y="375"/>
+    <LABEL textAlign="right" deviceID="" fontWeight="normal" param="" fontFamily="digifaw" text="" scale="1" fontSize="14" rotation="0" widthInChars="7" color="65280" x="261" y="495"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" text="EP(Kwh)" scale="1" fontSize="14" rotation="0" widthInChars="4" color="16777215" x="199" y="494"/>
+    <LABEL textAlign="right" deviceID="21104" fontSize="14" fontWeight="normal" param="MIb" fontFamily="digifaw" rotation="0" scale="1" color="65280" widthInChars="5" text="1234567" x="261" y="399"/>
+    <LABEL textAlign="right" deviceID="21104" fontWeight="normal" param="MIc" fontFamily="digifaw" text="1234567" scale="1" fontSize="14" rotation="0" widthInChars="5" color="65280" x="261" y="423"/>
+    <LABEL textAlign="right" deviceID="21104" fontSize="14" fontWeight="normal" param="p" fontFamily="digifaw" rotation="0" scale="1" text="1234567" widthInChars="5" color="65280" x="261" y="447"/>
+    <LABEL textAlign="right" deviceID="21104" fontWeight="normal" param="Pf" fontFamily="digifaw" color="65280" scale="1" fontSize="14" rotation="0" widthInChars="5" text="1234567" x="261" y="471"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IA(A)" x="207" y="377"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IB(A)" x="206" y="401"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" color="16777215" scale="1" fontSize="14" rotation="0" widthInChars="3" text="IC(A)" x="205" y="425"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" text="P(Kw)" scale="1" fontSize="14" rotation="0" widthInChars="3" color="16777215" x="205" y="449"/>
+    <TEXT textAlign="right" deviceID="" fontWeight="bold" param="" fontFamily="Arial" text="PF" scale="1" fontSize="14" rotation="0" widthInChars="3" color="16777215" x="199" y="473"/>
+    <HANDAUTO deviceID="59" scale="0" x="843.95" y="108.95" rotation="0"/>
+  </Components>
+</Configration>

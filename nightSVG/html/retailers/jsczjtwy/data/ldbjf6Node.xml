@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LDA source="assets/comp/TULI/LDA.png"/>
+      <LDN source="assets/comp/TULI/LDN.png"/>
+      <LDYJ source="assets/comp/TULI/LDYJ.png"/>
+      <LDDX source="assets/comp/TULI/LDDX.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scaleY="0.7" scaleX="0.7" rotation="0" scale="0.7" x="40" y="0"/>
+    <TULI scaleY="0.9" scaleX="0.9" rotation="0" scale="0.9" x="840" y="430"/>
+    <TEXT deviceID="" scaleX="1" color="16777215" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="16" text="正常" fontWeight="normal" textAlign="right" widthInChars="2" x="845" y="455"/>
+    <TEXT deviceID="" scaleX="1" color="16777215" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="16" text="报警" fontWeight="normal" textAlign="right" widthInChars="2" x="1000" y="455"/>
+    <LDA scaleY="0.5" scaleX="0.5" rotation="0" scale="0.5" x="1000" y="480"/>
+    <LDN scaleY="0.5" scaleX="0.5" rotation="0" scale="0.5" x="845" y="480"/>
+    <LDYJ scaleY="0.5" scaleX="0.5" rotation="0" scale="0.5" x="950" y="480"/>
+    <TEXT deviceID="" scaleX="1" color="16777215" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="16" text="预警" fontWeight="normal" textAlign="right" widthInChars="2" x="950" y="455"/>
+    <LDDX scaleY="0.5" scaleX="0.5" rotation="0" scale="0.5" x="895" y="480"/>
+    <TEXT deviceID="" scaleX="1" color="16777215" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="16" text="掉线" fontWeight="normal" textAlign="right" widthInChars="2" x="895" y="455"/>
+    <TEXT deviceID="" scaleX="1" color="204" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="16" text="2#强电井" fontWeight="normal" textAlign="right" widthInChars="4" x="639" y="135"/>
+    <LDCQ deviceID="14310" rotation="0" scaleX="0.25" scaleY="0.25" scale="0.25" x="649" y="77"/>
+    <TEXT deviceID="" scaleX="1" color="0" fontFamily="Arial" rotation="0" param="" scale="1" scaleY="1" fontSize="12" text="WDAP-RB1" fontWeight="normal" textAlign="right" widthInChars="5" x="690" y="77"/>
+    <COMPASS scaleY="0.5" scaleX="0.5" rotation="-90" scale="0.5" x="913" y="423"/>
+    <LDCQ scaleX="0.25" deviceID="14309" rotation="0" scaleY="0.25" scale="0.25" x="668" y="77"/>
+    <TEXT scaleX="1" deviceID="" textAlign="right" color="0" rotation="0" param="" scale="1" scaleY="1" fontFamily="Arial" text="WDAP-PF1" fontWeight="normal" fontSize="12" widthInChars="5" x="581" y="80"/>
+    <LDCQ scaleX="0.25" deviceID="14306" rotation="0" scaleY="0.25" scale="0.25" x="650" y="97"/>
+    <TEXT scaleX="1" deviceID="" fontSize="12" color="0" rotation="0" widthInChars="5" param="" scale="1" scaleY="1" textAlign="right" fontFamily="Arial" fontWeight="normal" text="WDAP-ZL2" x="585" y="118"/>
+    <LDCQ scaleX="0.25" deviceID="14308" rotation="0" scaleY="0.25" scale="0.25" x="669" y="96"/>
+    <TEXT scaleX="1" deviceID="" textAlign="right" color="0" rotation="0" param="" scale="1" scaleY="1" fontFamily="Arial" text="WDAP-ZL1" fontWeight="normal" fontSize="12" widthInChars="5" x="689" y="95"/>
+    <LDCQ scaleX="0.25" deviceID="14307" rotation="0" scaleY="0.25" scale="0.25" x="650" y="117"/>
+    <TEXT scaleX="1" deviceID="" text="WDATS-PY2" color="0" rotation="0" param="" scale="1" scaleY="1" fontSize="12" fontFamily="Arial" fontWeight="normal" textAlign="right" widthInChars="6" x="571" y="98"/>
+  </Components>
+</Configration>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="736">
+  <LIST>
+    <Component>
+      <KTDZKT/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTDZKTA source="assets/comp/TULI/KTDZKTA.png"/>
+      <KTDZKTR source="assets/comp/TULI/KTDZKTR.png"/>
+      <KTDZKTN source="assets/comp/TULI/KTDZKTN.png"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE x="0" source="mapAssets/mapImages/F4Node.png" y="0" group="map" width="1434" height="714"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-1" group="deviceComp" deviceID="1120157" height="80" scaleY="0.4" y="415.75" width="80" x="1159.3" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="SY-4AP(KT) 配电" color="255" width="97.65" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="387.05" group="commonComp" param="" x="1199.6" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <TULI x="941" source="assets/comp/TULI/TULI.png" y="487" group="tuli" width="225" height="124"/>
+    <KTDZKTA source="assets/comp/TULI/KTDZKTA.png" group="tuli" x="1088" scaleY="0.4" y="575" width="80" height="80" scaleX="0.4"/>
+    <KTDZKTR source="assets/comp/TULI/KTDZKTR.png" group="tuli" x="1088" scaleY="0.4" y="543" width="80" height="80" scaleX="0.4"/>
+    <KTDZKTN source="assets/comp/TULI/KTDZKTN.png" group="tuli" x="1087" scaleY="0.4" y="511" width="80" height="80" scaleX="0.4"/>
+    <TEXT borderVisible="false" source="assets/comp/TEXTINPUT/label.png" fontFamily="微软雅黑" widthInChars="4" text="停止" color="255" width="27.6" height="17" group="commonComp" deviceID="" x="995" sizeAuto="true" textAlign="center" param="" fontSize="12" fontWeight="normal" y="515" borderColor="0xffffff" contentBackgroundAlpha="0"/>
+    <TEXT borderVisible="false" source="assets/comp/TEXTINPUT/label.png" fontFamily="微软雅黑" widthInChars="4" text="运行" color="255" width="27.6" height="17" group="commonComp" deviceID="" x="995" sizeAuto="true" textAlign="center" param="" fontSize="12" fontWeight="normal" y="547" borderColor="0xffffff" contentBackgroundAlpha="0"/>
+    <TEXT borderVisible="false" source="assets/comp/TEXTINPUT/label.png" fontFamily="微软雅黑" widthInChars="4" text="报警" color="255" width="27.6" height="17" group="commonComp" deviceID="" x="995" sizeAuto="true" textAlign="center" param="" fontSize="12" fontWeight="normal" y="578" borderColor="0xffffff" contentBackgroundAlpha="0"/>
+    <LCF4 x="10" source="assets/comp/LCF4.png" y="10" group="bg" width="110" height="92"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="1" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="419.20000000000005" group="commonComp" param="" x="1191.35" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-2" group="deviceComp" deviceID="1120158" height="80" scaleY="0.4" y="338.7499999999999" width="80" x="1154.8" scaleX="0.4" mark="DPAU"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-3" group="deviceComp" deviceID="1120159" height="80" scaleY="0.4" y="297.34999999999997" width="80" x="1155.8500000000001" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="2" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="364.3" group="commonComp" param="" x="1173" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="3" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="321" group="commonComp" param="" x="1171.0999999999997" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-4" group="deviceComp" deviceID="1120160" height="80" scaleY="0.4" y="296.79999999999995" width="80" x="1124.45" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="4" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="321.7499999999999" group="commonComp" param="" x="1137.35" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-5" group="deviceComp" deviceID="1120161" height="80" scaleY="0.4" y="297.5499999999999" width="80" x="1091.9999999999998" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="5" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="322.9" group="commonComp" param="" x="1105.0499999999997" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-6" group="deviceComp" deviceID="1120162" height="80" scaleY="0.4" y="244.39999999999998" width="80" x="1092.6000000000001" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="6" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="269.20000000000005" group="commonComp" param="" x="1105" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-7" group="deviceComp" deviceID="1120163" height="80" scaleY="0.4" y="243.79999999999995" width="80" x="1125" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="7" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="268.90000000000003" group="commonComp" param="" x="1137.4000000000003" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-8" group="deviceComp" deviceID="1120164" height="80" scaleY="0.4" y="241.54999999999995" width="80" x="1159.4000000000003" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="8" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="266.45" group="commonComp" param="" x="1171.15" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+    <KTDZKT source="assets/comp/KTDZKT/bg.png" deviceName="空调SY-4AP(KT)-9" group="deviceComp" deviceID="1120165" height="80" scaleY="0.4" y="212.04999999999998" width="80" x="1158.1" scaleX="0.4" mark="DPAU"/>
+    <TEXT fontFamily="微软雅黑" deviceID="" fontSize="12" contentBackgroundColor="16777215" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="9" color="255" width="8.1" contentBackgroundAlpha="1" height="17" sizeAuto="true" y="216.8" group="commonComp" param="" x="1188.6499999999999" borderColor="0xffffff" textAlign="center" fontWeight="normal"/>
+  </Components>
+</Configration>

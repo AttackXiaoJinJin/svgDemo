@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1435" Height="715">
+  <LIST>
+    <Component>
+      <EAF/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE group="map" x="0" height="714" y="0" source="mapAssets/mapImages/F5Node.png" width="1434"/>
+    <EAF x="67" y="4" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070001" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层1_1新风热交换空调"/>
+    <TEXT color="255" x="7" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层1_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="64" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <EAF x="230" y="7" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070002" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层2_1新风热交换空调"/>
+    <EAF x="379" y="2" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070003" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层3_1新风热交换空调"/>
+    <EAF x="527" y="3" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070004" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层3_2新风热交换空调"/>
+    <EAF x="666" y="1" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070005" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层3_3新风热交换空调"/>
+    <EAF x="813" y="0" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070006" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层4_1新风热交换空调"/>
+    <EAF x="954" y="1" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070007" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层5_1新风热交换空调"/>
+    <EAF x="61" y="95" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070008" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层6_1新风热交换空调"/>
+    <TEXT color="255" x="165" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层2_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="65" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="312" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层3_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="67" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="458" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层3_2新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="66" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="605" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层3_3新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="67" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="753" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层4_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="67" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="901" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层5_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="67" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <TEXT color="255" x="18" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层6_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="170" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <EAF x="227" y="92" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070009" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层7_1新风热交换空调"/>
+    <TEXT color="255" x="170" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层7_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="170" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <EAF x="377" y="92" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070010" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层8_1新风热交换空调"/>
+    <TEXT color="255" x="320" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层8_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="168" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <EAF x="532" y="96" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070011" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层9_1新风热交换空调"/>
+    <TEXT color="255" x="478" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层9_1新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="167" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+    <EAF x="673" y="94" source="assets/comp/EAF/alarm/0/1.png" deviceID="1070012" width="101" group="deviceComp" height="129" scaleX="0.4" mark="EAF" scaleY="0.4" deviceName="WD层9_2新风热交换空调"/>
+    <TEXT color="255" x="630" textAlign="center" fontFamily="微软雅黑" fontWeight="normal" text="WD层9_2新风热交换空调" source="assets/comp/TEXTINPUT/label.png" width="144" contentBackgroundAlpha="0" param="" group="commonComp" fontSize="12" height="17" widthInChars="4" sizeAuto="true" y="167" borderVisible="false" deviceID="" borderColor="0xffffff"/>
+  </Components>
+</Configration>

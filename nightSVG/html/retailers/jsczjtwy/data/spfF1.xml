@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTSPFJ/>
+    </Component>
+    <Image>
+      <F1NODE source="mapAssets/mapImages/F1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTSPFJN source="assets/comp/TULI/KTSPFJN.png"/>
+      <KTSPFJR source="assets/comp/TULI/KTSPFJR.png"/>
+      <KTSPFJA source="assets/comp/TULI/KTSPFJA.png"/>
+      <LCF1 source="assets/comp/LCF1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE group="map" height="714" x="0" source="mapAssets/mapImages/F1Node.png" y="0" width="1434"/>
+    <TULI y="577" x="1189" source="assets/comp/TULI/TULI.png" scaleX="1" scaleY="1" group="tuli" height="124" width="225"/>
+    <KTSPFJN y="638" x="1204.95" source="assets/comp/TULI/KTSPFJN.png" scaleX="0.6" scaleY="0.6" group="tuli" height="80" width="80"/>
+    <KTSPFJR y="638" x="1275.9" source="assets/comp/TULI/KTSPFJR.png" scaleX="0.6" scaleY="0.6" group="tuli" height="80" width="80"/>
+    <KTSPFJA y="638" x="1350.25" source="assets/comp/TULI/KTSPFJA.png" scaleX="0.6" scaleY="0.6" group="tuli" height="80" width="80"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="603" contentBackgroundAlpha="0" x="1213" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="停止" height="17" color="0x444444" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="603" contentBackgroundAlpha="0" x="1287" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="正常" height="17" color="0x444444" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="603" contentBackgroundAlpha="0" x="1358" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="报警" height="17" color="0x444444" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <KTSPFJ y="174" deviceName="1F货梯2电梯厅 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070056" mark="EAF" scaleY="0.5" x="632" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="152.25" contentBackgroundAlpha="1" x="322.45000000000005" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="76" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="1电梯厅 排风" fontFamily="微软雅黑" widthInChars="10"/>
+    <LCF1 group="bg" height="92" x="10" source="assets/comp/LCF1.png" y="10" width="110"/>
+    <TEXT borderColor="0xffffff" y="152" contentBackgroundAlpha="1" x="612" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="76" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="2电梯厅 排风" fontFamily="微软雅黑" widthInChars="10"/>
+    <KTSPFJ y="171" deviceName="1F货梯1电梯厅 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070048" mark="EAF" scaleY="0.5" x="353" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <KTSPFJ y="478" deviceName="1F货梯4电梯厅 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070049" mark="EAF" scaleY="0.5" x="158" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="509" contentBackgroundAlpha="1" x="140" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="76" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="4电梯厅 排风" fontFamily="微软雅黑" widthInChars="10"/>
+    <KTSPFJ y="379" deviceName="1F货梯5电梯厅 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070050" mark="EAF" scaleY="0.5" x="391" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="412" contentBackgroundAlpha="1" x="377" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="76" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="5电梯厅 排风" fontFamily="微软雅黑" widthInChars="10"/>
+    <KTSPFJ y="387" deviceName="1F货梯6电梯厅 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070051" mark="EAF" scaleY="0.5" x="793" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="418" contentBackgroundAlpha="1" x="777" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="76" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="6电梯厅 排风" fontFamily="微软雅黑" widthInChars="10"/>
+    <KTSPFJ y="375" deviceName="1F2#卫生间 排风" source="assets/comp/KTSPFJ/bg.png" deviceID="1070052" mark="EAF" scaleY="0.5" x="626" width="80" scaleX="0.5" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="411" contentBackgroundAlpha="1" x="605" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="82" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="2#卫生间 排风" fontFamily="微软雅黑" widthInChars="10"/>
+  </Components>
+</Configration>

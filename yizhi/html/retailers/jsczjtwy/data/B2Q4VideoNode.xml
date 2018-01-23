@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1864" Height="639">
+  <LIST>
+    <Component>
+      <BQSX/>
+      <QSX/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+      <VB2TULI source="assets/comp/VB2Tuli.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scaleX="1.2" scaleY="1.2" rotation="0" scale="1.2" x="271" y="-393"/>
+    <BQSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9953" rotation="0" scale="0.35" x="623" y="104"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10073" rotation="0" scale="0.35" x="375" y="73"/>
+    <TEXT text="G2区041" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="358" y="56"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10077" rotation="0" scale="0.35" x="450" y="301"/>
+    <TEXT text="G2区164" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="436" y="285"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10078" rotation="0" scale="0.35" x="487" y="217"/>
+    <TEXT text="G3区175" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="475" y="201"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10079" rotation="0" scale="0.35" x="451" y="149"/>
+    <TEXT text="G3区141" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="436" y="134"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9948" rotation="0" scale="0.35" x="567" y="96"/>
+    <TEXT text="-2F步行街北货梯" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="8" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="592" y="87"/>
+    <TEXT text="G3区142" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="549" y="83"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9950" rotation="0" scale="0.35" x="630" y="148"/>
+    <TEXT text="G3区156" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="615" y="134"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9954" rotation="0" scale="0.35" x="623" y="211"/>
+    <TEXT text="G3区149" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="612" y="196"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10095" rotation="0" scale="0.35" x="704" y="216"/>
+    <TEXT text="H1区132" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="687" y="199"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="10093" rotation="0" scale="0.35" x="709" y="147"/>
+    <TEXT text="H1区117" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="696" y="131"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9933" rotation="0" scale="0.35" x="631" y="420"/>
+    <TEXT text="G1区237" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="617" y="404"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9941" rotation="0" scale="0.35" x="525" y="419"/>
+    <TEXT text="G1区239" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="513" y="401"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9941" rotation="0" scale="0.35" x="589" y="311"/>
+    <TEXT text="G3区213" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="573" y="296"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9930" rotation="0" scale="0.35" x="626" y="291"/>
+    <TEXT text="G3区117" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="613" y="276"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9942" rotation="0" scale="0.35" x="702" y="297"/>
+    <TEXT text="G1区208" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="652" y="301"/>
+    <QSX scaleX="0.35" popType="video" scaleY="0.35" isPop="true" deviceID="9931" rotation="0" scale="0.35" x="670" y="317"/>
+    <TEXT text="H1区198" fontWeight="normal" textAlign="right" scaleX="1" widthInChars="4" scaleY="1" rotation="0" deviceID="" color="0" fontFamily="Arial" scale="1" param="" fontSize="12" x="693" y="276"/>
+    <VB2TULI scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="786" y="0"/>
+  </Components>
+</Configration>

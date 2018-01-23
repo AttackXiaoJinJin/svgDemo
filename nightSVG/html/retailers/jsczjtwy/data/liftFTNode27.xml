@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <LIFTF/>
+      <ALARM/>
+      <RUNING/>
+      <UP/>
+      <DOWN/>
+      <BQSX/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LIFTF x="90" scaleX="1.4" deviceID="" rotation="0" y="60" scaleY="1.4" width="96" height="96"/>
+    <LIFTF x="350" scaleX="1.4" deviceID="" rotation="0" y="60" scaleY="1.4" width="96" height="96"/>
+    <LIFTF x="610" scaleX="1.4" deviceID="" rotation="0" y="60" scaleY="1.4" width="96" height="96"/>
+    <TEXT fontFamily="微软雅黑" x="145" y="35" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="B2-3A" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="52"/>
+    <TEXT fontFamily="微软雅黑" x="405" y="35" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="B2-3B" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="51"/>
+    <TEXT fontFamily="微软雅黑" x="665" y="35" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="B1-3A" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="52"/>
+    <TEXT fontFamily="微软雅黑" x="90" y="210" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="350" y="210" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="610" y="210" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="90" y="245" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="350" y="245" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="610" y="245" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <ALARM x="165" y="245" deviceID="560" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <ALARM x="425" y="245" deviceID="561" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <ALARM x="685" y="245" deviceID="562" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <RUNING x="165" scaleX="1" deviceID="560" rotation="0" y="210" scaleY="1" width="58" height="25"/>
+    <RUNING x="425" scaleX="1" deviceID="561" rotation="0" y="210" scaleY="1" width="58" height="25"/>
+    <RUNING x="685" scaleX="1" deviceID="562" rotation="0" y="210" scaleY="1" width="58" height="25"/>
+    <UP x="195" scaleX="1" deviceID="560" rotation="45" y="60" scaleY="1" width="43" height="42"/>
+    <UP x="455" scaleX="1" deviceID="561" rotation="45" y="60" scaleY="1" width="43" height="42"/>
+    <UP x="715" scaleX="1" deviceID="562" rotation="45" y="60" scaleY="1" width="43" height="42"/>
+    <DOWN x="120" scaleX="1" deviceID="560" rotation="45" y="135" scaleY="1" width="43" height="42"/>
+    <DOWN x="380" scaleX="1" deviceID="561" rotation="45" y="135" scaleY="1" width="43" height="42"/>
+    <DOWN x="640" scaleX="1" deviceID="562" rotation="45" y="135" scaleY="1" width="43" height="42"/>
+    <TEXT fontFamily="微软雅黑" x="145" y="295" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="B1-3B" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="51"/>
+    <TEXT fontFamily="微软雅黑" x="665" y="295" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="3F-2B" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="49"/>
+    <TEXT fontFamily="微软雅黑" x="406" y="299" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="3F-2A" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="50"/>
+    <LIFTF x="90" scaleX="1.4" deviceID="" rotation="0" y="320" scaleY="1.4" width="96" height="96"/>
+    <LIFTF x="350" scaleX="1.4" deviceID="" rotation="0" y="320" scaleY="1.4" width="96" height="96"/>
+    <LIFTF x="610" scaleX="1.4" deviceID="" rotation="0" y="320" scaleY="1.4" width="96" height="96"/>
+    <DOWN x="120" scaleX="1" deviceID="563" rotation="45" y="395" scaleY="1" width="43" height="42"/>
+    <DOWN x="380" scaleX="1" deviceID="576" rotation="45" y="395" scaleY="1" width="43" height="42"/>
+    <DOWN x="640" scaleX="1" deviceID="577" rotation="45" y="395" scaleY="1" width="43" height="42"/>
+    <UP x="195" scaleX="1" deviceID="563" rotation="45" y="320" scaleY="1" width="43" height="42"/>
+    <UP x="455" scaleX="1" deviceID="576" rotation="45" y="320" scaleY="1" width="43" height="42"/>
+    <UP x="715" scaleX="1" deviceID="577" rotation="45" y="320" scaleY="1" width="43" height="42"/>
+    <TEXT fontFamily="微软雅黑" x="90" y="470" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="350" y="470" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="610" y="470" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="启停状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <RUNING x="165" scaleX="1" deviceID="563" rotation="0" y="470" scaleY="1" width="58" height="25"/>
+    <RUNING x="425" scaleX="1" deviceID="576" rotation="0" y="470" scaleY="1" width="58" height="25"/>
+    <RUNING x="685" scaleX="1" deviceID="577" rotation="0" y="470" scaleY="1" width="58" height="25"/>
+    <TEXT fontFamily="微软雅黑" x="90" y="505" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="350" y="505" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <TEXT fontFamily="微软雅黑" x="610" y="505" scaleY="1" scaleX="1" height="24" color="0" borderColor="0xffffff" widthInChars="4" sizeAuto="true" text="运行状态" fontWeight="bold" deviceID="" fontSize="16" rotation="0" param="" contentBackgroundAlpha="0" borderVisible="false" textAlign="center" width="66"/>
+    <ALARM x="165" y="505" deviceID="563" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <ALARM x="425" y="505" deviceID="576" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <ALARM x="685" y="505" deviceID="577" rotation="0" param="alarm" scaleX="1" scaleY="1" alarm="ALARM" paramID="2" width="58" height="25"/>
+    <BQSX x="355" scaleX="0.35" deviceID="233" rotation="0" y="50" isPop="true" deviceName="B1F217#" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+    <BQSX x="615" scaleX="0.35" deviceID="232" rotation="0" y="50" isPop="true" deviceName="B1F216#" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+    <BQSX x="95" scaleX="0.35" deviceID="7" rotation="0" y="315" isPop="true" deviceName="1F7#2号门扶梯上" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+    <BQSX x="355" scaleX="0.35" deviceID="126" rotation="0" y="315" isPop="true" deviceName="3F112#3楼西扶梯上" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+    <BQSX x="615" scaleX="0.35" deviceID="126" rotation="0" y="315" isPop="true" deviceName="3F112#3楼西扶梯上" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+    <BQSX x="95" scaleX="0.35" deviceID="277" rotation="0" y="50" isPop="true" deviceName="B2F260#" popType="video" scaleY="0.35" mark="BQSX" width="80" height="80"/>
+  </Components>
+</Configration>

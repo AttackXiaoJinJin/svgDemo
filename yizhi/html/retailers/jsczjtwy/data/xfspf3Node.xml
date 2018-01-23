@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <XFSP/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png" group="tuli"/>
+      <XFSPZCTULI source="assets/comp/TULI/XFSPZC.png" group="tuli"/>
+      <XFSPBJTULI source="assets/comp/TULI/XFSPBJ.png" group="tuli"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE scale="1" scaleX="1" scaleY="1" rotation="0" x="0" y="0"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="324" y="389"/>
+    <TULI scale="1" scaleX="1" scaleY="1" rotation="0" x="1207" y="587"/>
+    <XFSPZCTULI scale="0.5" scaleX="0.5" scaleY="0.5" rotation="0" x="1260" y="645"/>
+    <XFSPBJTULI scale="0.5" scaleX="0.5" scaleY="0.5" rotation="0" x="1355" y="645"/>
+    <TEXT fontSize="16" scale="1" widthInChars="2" fontWeight="normal" fontFamily="Arial" color="0" scaleY="1" text="正常" rotation="0" scaleX="1" deviceID="" textAlign="right" param="" x="1260" y="620"/>
+    <TEXT fontSize="16" scale="1" widthInChars="2" fontWeight="normal" fontFamily="Arial" color="0" scaleY="1" text="报警" rotation="0" scaleX="1" deviceID="" textAlign="right" param="" x="1355" y="619"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="329" y="517"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="313" y="209"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="526" y="217"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="362" y="332"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="646" y="226"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="437" y="279"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="751" y="284"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="882" y="274"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="799" y="221"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="1061" y="504"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="1036" y="212"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="935" y="296"/>
+    <XFSP scale="0.25" scaleX="0.25" isPop="false" scaleY="0.25" deviceID="14361" popType="subList" rotation="0" x="1043" y="399"/>
+  </Components>
+</Configration>

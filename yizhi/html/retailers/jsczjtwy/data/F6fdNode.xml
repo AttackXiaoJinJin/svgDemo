@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <BURGLAR/>
+    </Component>
+    <Image>
+      <F6NODE source="assets/comp/F6Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F6NODE scale="0.7" x="35" y="-17" rotation="0"/>
+    <BURGLAR deviceID="" scale="0.35" x="638" y="8" rotation="0"/>
+    <BURGLAR deviceID="" scale="0.35" x="665" y="9" rotation="0"/>
+  </Components>
+</Configration>

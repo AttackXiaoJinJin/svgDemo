@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <YCQ/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+      <FIREFQB12 source="assets/comp/fireFQB1B2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.7" x="-413" y="-42" rotation="0"/>
+    <FIREFQB12 scale="0.7" x="-412" y="-42" rotation="0"/>
+    <YCQ deviceID="" scale="0.5" x="178" y="52" rotation="0"/>
+  </Components>
+</Configration>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component>
+      <EAF/>
+      <ALARM/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <KTMD source="assets/comp/ktmd.png"/>
+      <LRPG source="assets/comp/lrpg.png"/>
+      <GLW source="assets/comp/glw.png"/>
+      <DDFFG source="assets/comp/ddf_fg.png"/>
+      <TEMP source="assets/comp/temp.png"/>
+      <FFL source="assets/comp/ff_l.png"/>
+      <JT source="assets/comp/jt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <KTMD resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4055" scale="0.6" rotation="0" x="51" y="202"/>
+    <LRPG resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4057" scale="0.6" rotation="0" x="355" y="220"/>
+    <GLW resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4059" scale="0.6" rotation="0" x="270" y="219"/>
+    <DDFFG resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4061" scale="0.6" rotation="180" x="369" y="328"/>
+    <EAF deviceID="76" popType="list" rotation="0" scale="0.6" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4063" isPop="false" x="529" y="217"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4065" scale="1" text="送风温度" widthInChars="4" color="16777215" x="619" y="154"/>
+    <TEMP resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4068" scale="0.5" rotation="0" x="649" y="196"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="sAirTemp" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4070" scale="1" text="30.00℃" widthInChars="5" color="65280" x="682" y="153"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="12" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4073" scale="1" text="回水阀位" widthInChars="4" color="16777215" x="209" y="304"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="wValve" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4076" scale="1" text="30.00%" widthInChars="5" color="65280" x="265" y="303"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="12" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4079" scale="1" text="回水温度" widthInChars="4" color="16777215" x="235" y="335"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="eAirWet" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4082" scale="1" text="30.00℃" widthInChars="5" color="65280" x="287" y="335"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4085" scale="1" text="滤网压差" widthInChars="4" color="16777215" x="204" y="184"/>
+    <ALARM deviceID="76" scale="1" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4088" rotation="0" x="265" y="183"/>
+    <FFL resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4090" scale="0.6" rotation="0" x="142" y="219"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="12" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4092" scale="1" text="频率反馈" widthInChars="4" color="16777215" x="500" y="295"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="rate" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4095" scale="1" text="40.00hz" widthInChars="5" color="65280" x="558" y="295"/>
+    <HANDAUTO deviceID="76" scale="1" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4098" rotation="0" x="588" y="260"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4100" scale="1" text="新风阀反馈" widthInChars="5" color="16777215" x="44" y="185"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4103" scale="1" text="温度设定" widthInChars="4" color="16777215" x="619" y="175"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="sAirSetTemp" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4106" scale="1" text="" widthInChars="5" color="65280" x="682" y="176"/>
+    <JT resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4109" scale="1" rotation="0" x="57" y="241"/>
+    <JT resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4111" scale="1" rotation="0" x="694" y="241"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="12" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4113" scale="1" text="频率设定" widthInChars="4" color="16777215" x="500" y="315"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="pltjsr" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4116" scale="1" text="" widthInChars="5" color="65280" x="558" y="317"/>
+    <LABEL textAlign="right" deviceID="76" rotation="0" fontSize="12" fontWeight="normal" param="sValve" fontFamily="digifaw" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4119" scale="1" text="30.00%" widthInChars="5" color="65280" x="118" y="185"/>
+    <TEXT textAlign="right" deviceID="" rotation="0" fontSize="14" fontWeight="normal" param="" fontFamily="黑体" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput4122" scale="1" text="风机压差" widthInChars="4" color="16777215" x="475" y="184"/>
+    <ALARM deviceID="76" scale="1" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image4125" rotation="0" x="536" y="184"/>
+  </Components>
+</Configration>

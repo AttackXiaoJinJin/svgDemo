@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="742">
+  <LIST>
+    <Component>
+      <QSX/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <QSXZCTULI source="assets/comp/TULI/QSXZC.png"/>
+      <QSXBJTULI source="assets/comp/TULI/QSXBJ.png"/>
+      <BQSXZCTULI source="assets/comp/TULI/BQSXZC.png"/>
+      <BQSXBJTULI source="assets/comp/TULI/BQSXBJ.png"/>
+      <ZNSXZCTULI source="assets/comp/TULI/ZNSXZC.png"/>
+      <ZNSXBJTULI source="assets/comp/TULI/ZNSXBJ.png"/>
+      <LCF6 source="assets/comp/LCF6.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE y="0" x="0" source="mapAssets/mapImages/F5Node.png" group="map" width="1434" height="714"/>
+    <QSX x="1233.5" y="165.05" group="commonComp" deviceID="640362" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="30.10:电影院出楼顶" source="assets/comp/QSX/alarm/0/1.png"/>
+    <TULI x="1159" y="560" group="tuli" width="225" height="124" source="assets/comp/TULI/TULI.png" scaleX="1.2" scaleY="1.2"/>
+    <TEXT x="1284" y="593" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="正常" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1348" y="594" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="报警" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <QSXZCTULI x="1289" y="613" group="tuli" width="80" height="80" source="assets/comp/TULI/QSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <QSXBJTULI x="1353" y="614" group="tuli" width="80" height="80" source="assets/comp/TULI/QSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <BQSXZCTULI x="1289" y="638" group="tuli" width="80" height="80" source="assets/comp/TULI/BQSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <BQSXBJTULI x="1353" y="639" group="tuli" width="80" height="80" source="assets/comp/TULI/BQSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <ZNSXZCTULI x="1289" y="663" group="tuli" width="80" height="80" source="assets/comp/TULI/ZNSXZC.png" scaleX="0.3" scaleY="0.3"/>
+    <ZNSXBJTULI x="1353" y="664" group="tuli" width="80" height="80" source="assets/comp/TULI/ZNSXBJ.png" scaleX="0.3" scaleY="0.3"/>
+    <TEXT x="1215" y="639" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="半球" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1215" y="616" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="枪机" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1216" y="663" deviceID="" param="" borderColor="0xffffff" fontSize="14" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="0" fontFamily="微软雅黑" text="云台" color="255" group="commonComp" sizeAuto="true" width="30" height="21" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <LCF6 y="10" x="10" source="assets/comp/LCF6.png" group="bg" width="110" height="92"/>
+    <QSX x="1236.35" y="386.35" group="commonComp" deviceID="640333" scaleY="0.3" scaleX="0.29999999999999993" height="80" width="80" mark="TSX" deviceName="28.13:五层28号楼梯门口" source="assets/comp/QSX/alarm/0/1.png"/>
+    <TEXT x="1200" y="194" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="电影院出楼顶" color="0x444444" group="commonComp" sizeAuto="true" width="74" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+    <TEXT x="1201" y="365" deviceID="" param="" borderColor="0xffffff" fontSize="12" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" contentBackgroundAlpha="1" fontFamily="微软雅黑" text="屋顶29号楼梯门口" color="0x444444" group="commonComp" sizeAuto="true" width="100" height="19" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal"/>
+  </Components>
+</Configration>

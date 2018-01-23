@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component/>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <QDCC source="assets/comp/TULI/QDCC.png"/>
+      <QDCO source="assets/comp/TULI/QDCO.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE x="0" y="0" rotation="0" scaleY="1" scaleX="1"/>
+    <TULI x="1205" y="585" rotation="0" scaleY="1" scaleX="1"/>
+    <TEXT borderVisible="false" textAlign="center" y="620" borderColor="0xffffff" param="" width="70" height="21" fontFamily="微软雅黑" fontWeight="normal" widthInChars="4" color="0" x="1235" sizeAuto="true" rotation="0" scaleX="1" deviceID="" fontSize="16" scaleY="1" contentBackgroundAlpha="0" text="关闭状态"/>
+    <TEXT borderVisible="false" textAlign="center" y="620" borderColor="0xffffff" param="" width="70" height="21" fontFamily="微软雅黑" fontWeight="normal" widthInChars="4" color="0" x="1330" sizeAuto="true" rotation="0" scaleX="1" deviceID="" fontSize="16" scaleY="1" contentBackgroundAlpha="0" text="开启状态"/>
+    <QDCC x="1250" y="645" rotation="0" scaleY="0.5" scaleX="0.5"/>
+    <QDCO x="1345" y="645" rotation="0" scaleY="0.5" scaleX="0.5"/>
+  </Components>
+</Configration>

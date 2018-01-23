@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTFJPG/>
+    </Component>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <LCF2 source="assets/comp/LCF2.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTFJPGN source="assets/comp/TULI/KTFJPGN.png"/>
+      <KTFJPGA source="assets/comp/TULI/KTFJPGA.png"/>
+      <KTFJPGR source="assets/comp/TULI/KTFJPGR.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE height="714" y="0" width="1434" group="map" source="mapAssets/mapImages/F2Node.png" x="0"/>
+    <TEXT x="215" param="" deviceID="" text="2层1_1组风机盘管" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="17" y="195" widthInChars="4" width="104" color="255" fontWeight="normal" contentBackgroundAlpha="0" fontSize="12" fontFamily="微软雅黑" borderVisible="false"/>
+    <LCF2 height="92" y="10" width="110" group="bg" source="assets/comp/LCF2.png" x="10"/>
+    <TULI scaleY="1.2" group="tuli" width="225" x="989" height="124" y="446" source="assets/comp/TULI/TULI.png"/>
+    <KTFJPGN scaleY="0.4" group="tuli" width="80" x="1141" height="80" y="475" source="assets/comp/TULI/KTFJPGN.png" scaleX="0.5"/>
+    <KTFJPGA scaleY="0.4" group="tuli" width="80" x="1141" height="80" y="510" source="assets/comp/TULI/KTFJPGA.png" scaleX="0.5"/>
+    <KTFJPGR scaleY="0.4" group="tuli" width="80" x="1141" height="80" y="544" source="assets/comp/TULI/KTFJPGR.png" scaleX="0.5"/>
+    <TEXT x="1014" param="" deviceID="" text="风机盘管正常" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="19" y="480" widthInChars="4" width="92" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="14" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1014" param="" deviceID="" text="风机盘管报警" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="19" y="514" widthInChars="4" width="92" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="14" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1015" param="" deviceID="" text="风机盘管运行" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="19" y="548" widthInChars="4" width="92" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="14" fontFamily="微软雅黑" borderVisible="false"/>
+    <KTFJPG scaleY="0.7" deviceID="170014" mark="FPG" group="deviceComp" width="80" x="236" height="80" y="210.40000000000003" source="assets/comp/KTFJPG/bg.png" deviceName="2层1_1组风机盘管" scaleX="0.8"/>
+  </Components>
+</Configration>

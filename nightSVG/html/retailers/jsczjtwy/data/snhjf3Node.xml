@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1058" Height="506">
+  <LIST>
+    <Component>
+      <ALARM/>
+      <TEMPCQ/>
+      <WETCQ/>
+      <CO2CQ/>
+      <LUXCQ/>
+    </Component>
+    <Image>
+      <F3NODE source="assets/comp/F3Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE rotation="0" scale="0.45" x="40" y="5"/>
+    <ALARM rotation="0" scale="0" deviceID="21189" x="544" y="82"/>
+    <TEXT fontFamily="黑体" widthInChars="9" text="室内步行街顶层A处" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="82" y="157"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="21902" color="65280" scale="1" textAlign="right" fontWeight="normal" param="sTemp" rotation="0" fontSize="12" x="126" y="182"/>
+    <TEMPCQ rotation="0" deviceID="21902" scale="0.7" isPop="true" popType="line" x="111" y="184"/>
+    <WETCQ rotation="0" deviceID="21903" scale="1" isPop="true" popType="line" x="106" y="207"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="222%RH" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="126" y="203"/>
+    <TEXT fontFamily="黑体" widthInChars="9" text="室内步行街顶层B处" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="775" y="162"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="21904" color="65280" scale="1" textAlign="right" fontWeight="normal" param="sTemp" rotation="0" fontSize="12" x="823" y="185"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="222%RH" deviceID="21905" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="824" y="206"/>
+    <TEMPCQ rotation="0" deviceID="21904" scale="0.7" isPop="true" popType="line" x="807" y="186"/>
+    <WETCQ rotation="0" deviceID="21905" scale="1" isPop="true" popType="line" x="804" y="210"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5lux" deviceID="21914" color="65280" scale="1" textAlign="right" fontWeight="normal" param="zhaodu" rotation="0" fontSize="12" x="126" y="225"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5lux" deviceID="21915" color="65280" scale="1" textAlign="right" fontWeight="normal" param="zhaodu" rotation="0" fontSize="12" x="824" y="227"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="26" y="423"/>
+    <TEMPCQ rotation="0" deviceID="21890" scale="0.7" isPop="true" popType="line" x="34" y="442"/>
+    <WETCQ rotation="0" deviceID="21891" scale="1" isPop="true" popType="line" x="32" y="464"/>
+    <TEXT fontFamily="黑体" widthInChars="6" text="二氧化碳浓度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="54" y="421"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="温    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="64" y="443"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="湿    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="64" y="463"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="照    度" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="64" y="484"/>
+    <LUXCQ rotation="0" deviceID="" scale="1" isPop="true" popType="line" x="33" y="488"/>
+    <LUXCQ rotation="0" deviceID="21914" scale="1" isPop="true" popType="line" x="107" y="230"/>
+    <LUXCQ rotation="0" deviceID="21915" scale="1" isPop="true" popType="line" x="803" y="232"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="186" y="380"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="217" y="381"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="3-Z-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="219" y="407"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="502" y="372"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="530" y="366"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="3-Z-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="513" y="391"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="790" y="372"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="823" y="368"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="3-Z-3-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="804" y="393"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="827" y="113"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="858" y="113"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="3-Z-4-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="833" y="90"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="613" y="172"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="645" y="169"/>
+    <TEXT fontFamily="黑体" widthInChars="4" text="3-Z-11-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="608" y="144"/>
+    <CO2CQ rotation="0" deviceID="21918" scale="1" isPop="true" popType="line" x="181" y="123"/>
+    <LABEL fontFamily="digifaw" widthInChars="6" text="222.0ppm" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="212" y="120"/>
+    <TEXT fontFamily="黑体" widthInChars="5" text="3-Z-1-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="210" y="144"/>
+    <TEMPCQ rotation="0" deviceID="21890" scale="0.7" isPop="true" popType="line" x="136" y="12"/>
+    <WETCQ rotation="0" deviceID="21903" scale="1" isPop="true" popType="line" x="133" y="37"/>
+    <LUXCQ rotation="0" deviceID="21914" scale="1" isPop="true" popType="line" x="133" y="59"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="21902" color="65280" scale="1" textAlign="right" fontWeight="normal" param="sTemp" rotation="0" fontSize="12" x="62" y="14"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="222%RH" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="61" y="36"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5lux" deviceID="21914" color="65280" scale="1" textAlign="right" fontWeight="normal" param="zhaodu" rotation="0" fontSize="12" x="61" y="58"/>
+    <TEXT fontFamily="黑体" widthInChars="5" text="3-Z-1-N" deviceID="" color="16777215" scale="1" textAlign="right" fontWeight="normal" param="" rotation="0" fontSize="14" x="55" y="85"/>
+    <WETCQ rotation="0" deviceID="21903" scale="1" isPop="true" popType="line" x="161" y="39"/>
+    <TEMPCQ rotation="0" deviceID="21890" scale="0.7" isPop="true" popType="line" x="164" y="14"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="22.5℃" deviceID="21902" color="65280" scale="1" textAlign="right" fontWeight="normal" param="sTemp" rotation="0" fontSize="12" x="181" y="13"/>
+    <LABEL fontFamily="digifaw" widthInChars="5" text="222%RH" deviceID="21903" color="65280" scale="1" textAlign="right" fontWeight="normal" param="eAirWet" rotation="0" fontSize="12" x="180" y="36"/>
+  </Components>
+</Configration>

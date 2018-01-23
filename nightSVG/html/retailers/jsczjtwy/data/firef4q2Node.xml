@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1448" Height="713">
+  <LIST>
+    <Component>
+      <HANDBTN/>
+      <YCQ/>
+      <JSBJ/>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <XFFQF4Q3 source="mapAssets/mapImages/XFFQF4/XFFQF4_3.png" group="map"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQF4Q3 ky="0" x="14" y="-1" isLocation="true" ay="37" ax="193" width="1434" kx="0" height="714"/>
+    <HANDBTN x="229" isToolTip="true" y="109" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23821" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="427" isToolTip="true" y="102" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23823" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="227" isToolTip="true" y="164" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23820" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="429" isToolTip="true" y="149" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23824" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="229" isToolTip="true" y="198" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23822" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="271" isToolTip="true" y="216" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23454" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="330" isToolTip="true" y="217" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23456" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="394" isToolTip="true" y="216" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23453" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="395" isToolTip="true" y="251" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23455" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="256" isToolTip="true" y="251" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23452" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="282" isToolTip="true" y="282" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23486" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="228" isToolTip="true" y="283" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23488" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="281" isToolTip="true" y="318" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23489" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="231" isToolTip="true" y="322" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23487" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="303" isToolTip="true" y="274" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23819" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="305" isToolTip="true" y="296" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23840" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="310" isToolTip="true" y="364" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23825" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="321" isToolTip="true" y="463" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23831" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="341" isToolTip="true" y="571" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23474" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="315" isToolTip="true" y="532" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23484" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="436" isToolTip="true" y="547" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23826" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="462" isToolTip="true" y="573" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23483" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="370" isToolTip="true" y="272" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23839" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="395" isToolTip="true" y="279" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23505" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="393" isToolTip="true" y="312" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23490" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="457" isToolTip="true" y="262" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23838" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="550" isToolTip="true" y="284" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23450" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="552" isToolTip="true" y="262" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="24223" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="438" isToolTip="true" y="408" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="24222" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="442" isToolTip="true" y="351" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="24223" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="455" isToolTip="true" y="295" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23451" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="549" isToolTip="true" y="307" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23504" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="544" isToolTip="true" y="479" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23828" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="556" isToolTip="true" y="572" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23830" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="587" isToolTip="true" y="585" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23829" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="600" isToolTip="true" y="566" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23827" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="549" isToolTip="true" y="329" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23931" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="573" isToolTip="true" y="274" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23930" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="571" isToolTip="true" y="320" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23925" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="587" isToolTip="true" y="298" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23929" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="594" isToolTip="true" y="324" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23817" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="607" isToolTip="true" y="270" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23837" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="599" isToolTip="true" y="349" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23818" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="701" isToolTip="true" y="252" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23447" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="641" isToolTip="true" y="312" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23449" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="740" isToolTip="true" y="118" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23814" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="644" isToolTip="true" y="262" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23448" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="684" isToolTip="true" y="269" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23816" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="741" isToolTip="true" y="169" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23813" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="740" isToolTip="true" y="190" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23815" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="783" isToolTip="true" y="354" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23492" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="708" isToolTip="true" y="315" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23446" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="834" isToolTip="true" y="337" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23833" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="820" isToolTip="true" y="530" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23497" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="721" isToolTip="true" y="549" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23500" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="753" isToolTip="true" y="531" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23835" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="692" isToolTip="true" y="521" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23501" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="769" isToolTip="true" y="403" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23495" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="767" isToolTip="true" y="464" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23496" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="711" isToolTip="true" y="286" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23503" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="773" isToolTip="true" y="256" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23444" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="780" isToolTip="true" y="298" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23445" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="792" isToolTip="true" y="225" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23443" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="881" isToolTip="true" y="253" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23441" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="885" isToolTip="true" y="17" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23422" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="891" isToolTip="true" y="192" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23811" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="892" isToolTip="true" y="115" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23810" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="857" isToolTip="true" y="224" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23442" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1005" isToolTip="true" y="302" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23417" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="836" isToolTip="true" y="298" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23491" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="740" isToolTip="true" y="333" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23812" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="781" isToolTip="true" y="531" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23498" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="802" isToolTip="true" y="402" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23502" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="794" isToolTip="true" y="464" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23493" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="827" isToolTip="true" y="477" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23494" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="807" isToolTip="true" y="551" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23836" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="857" isToolTip="true" y="556" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23404" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1040" isToolTip="true" y="592" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23410" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1007" isToolTip="true" y="605" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23792" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="909" isToolTip="true" y="426" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23795" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="876" isToolTip="true" y="428" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23796" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="981" isToolTip="true" y="539" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23408" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="925" isToolTip="true" y="560" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23405" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="970" isToolTip="true" y="449" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23406" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="994" isToolTip="true" y="450" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23397" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="983" isToolTip="true" y="489" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23407" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="846" isToolTip="true" y="637" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23790" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="964" isToolTip="true" y="607" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23403" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1110" isToolTip="true" y="632" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23409" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1145" isToolTip="true" y="629" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23401" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1111" isToolTip="true" y="591" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23400" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1144" isToolTip="true" y="592" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23399" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1172" isToolTip="true" y="559" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23788" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1129" isToolTip="true" y="559" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23787" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1089" isToolTip="true" y="560" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23789" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1041" isToolTip="true" y="569" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23793" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1056" isToolTip="true" y="632" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23402" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1075" isToolTip="true" y="605" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23791" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1027" isToolTip="true" y="537" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23411" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1176" isToolTip="true" y="462" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23413" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1030" isToolTip="true" y="458" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23415" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1075" isToolTip="true" y="458" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23414" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1112" isToolTip="true" y="458" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23412" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1007" isToolTip="true" y="421" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23807" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1068" isToolTip="true" y="498" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23398" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1029" isToolTip="true" y="408" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23436" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1007" isToolTip="true" y="473" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23786" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="994" isToolTip="true" y="405" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23437" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1068" isToolTip="true" y="380" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23435" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1199" isToolTip="true" y="267" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23801" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1117" isToolTip="true" y="348" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23805" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1141" isToolTip="true" y="347" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23804" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1071" isToolTip="true" y="319" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23434" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1019" isToolTip="true" y="367" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23416" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1179" isToolTip="true" y="317" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23433" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1115" isToolTip="true" y="319" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23432" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1169" isToolTip="true" y="334" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23806" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1196" isToolTip="true" y="187" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23803" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="1199" isToolTip="true" y="226" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23802" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="879" isToolTip="true" y="300" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23440" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="970" isToolTip="true" y="339" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23832" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="972" isToolTip="true" y="268" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="24142" isPop="true" popType="subList" width="80" height="80"/>
+    <DWCQ x="967" isToolTip="true" y="291" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23924" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="966" isToolTip="true" y="317" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23923" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="989" isToolTip="true" y="290" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23922" isPop="true" popType="video" width="80" height="80"/>
+    <DWCQ x="990" isToolTip="true" y="317" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23921" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="947" isToolTip="true" y="301" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23439" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="942" isToolTip="true" y="167" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23419" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1015" isToolTip="true" y="260" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23797" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="1040" isToolTip="true" y="300" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23431" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1039" isToolTip="true" y="223" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23429" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1000" isToolTip="true" y="222" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23418" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1017" isToolTip="true" y="146" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23427" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="940" isToolTip="true" y="122" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23420" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="1019" isToolTip="true" y="169" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23428" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="977" isToolTip="true" y="67" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23798" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="910" isToolTip="true" y="88" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23421" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="911" isToolTip="true" y="50" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23423" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="967" isToolTip="true" y="88" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23425" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="998" isToolTip="true" y="68" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23426" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="1021" isToolTip="true" y="124" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23799" isPop="true" popType="video" width="80" height="80"/>
+    <YCQ x="969" isToolTip="true" y="47" scaleY="0.3" rotation="0" scaleX="0.3" deviceID="23424" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="263" isToolTip="true" y="58" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.5647a1四层影城影厅1上空烟感51" deviceID="23472" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="307" isToolTip="true" y="58" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.55da31四层影城影厅1上空烟感58" deviceID="23465" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="348" isToolTip="true" y="58" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.560819四层影城影厅1上空烟感59" deviceID="23464" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="387" isToolTip="true" y="59" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.56080c四层影城影厅1上空烟感66" deviceID="23457" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="387" isToolTip="true" y="99" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.544c56四层影城影厅1上空烟感65" deviceID="23458" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="348" isToolTip="true" y="99" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.541e92四层影城影厅1上空烟感60" deviceID="23463" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="309" isToolTip="true" y="98" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.544c64四层影城影厅1上空烟感57" deviceID="23466" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="266" isToolTip="true" y="97" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.55dc16四层影城影厅1上空烟感52" deviceID="23471" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="266" isToolTip="true" y="138" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.5449e4四层影城影厅1上空烟感53" deviceID="23470" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="307" isToolTip="true" y="138" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.55dcb3四层影城影厅1上空烟感56" deviceID="23467" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="345" isToolTip="true" y="138" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.541e9b四层影城影厅1上空烟感61" deviceID="23462" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="387" isToolTip="true" y="137" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.5493d7四层影城影厅1上空烟感64" deviceID="23459" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="265" isToolTip="true" y="176" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.541fe0四层影城影厅1上空烟感54" deviceID="23469" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="305" isToolTip="true" y="175" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.55dbab四层影城影厅1上空烟感55" deviceID="23468" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="344" isToolTip="true" y="174" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.547610四层影城影厅1上空烟感62" deviceID="23461" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="387" isToolTip="true" y="174" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="12.544b24四层影城影厅1上空烟感63" deviceID="23460" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="856" isToolTip="true" y="402" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F强电井烟感10" deviceID="23430" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="855" isToolTip="true" y="360" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F弱电井烟感1" deviceID="23438" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="307" isToolTip="true" y="249" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城IMAX影厅外走道烟感24" deviceID="23473" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="413" isToolTip="true" y="516" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城售票厅烟感73" deviceID="23479" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="429" isToolTip="true" y="176" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城影厅1外走道烟感34" deviceID="23485" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="726" isToolTip="true" y="575" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城南楼梯前室烟感42" deviceID="23499" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <YCQ x="684" isToolTip="true" y="499" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城电梯机房烟感79" deviceID="23509" mark="YCQ" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1153" isToolTip="true" y="390" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影厅6消火栓按钮2" deviceID="23794" mark="XHS" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="382" isToolTip="true" y="584" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F垃圾房外消火栓6" deviceID="23800" mark="XHS" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="931" isToolTip="true" y="368" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城VIP影厅8手报10" deviceID="23808" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="921" isToolTip="true" y="388" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城VIP影厅8消火栓15" deviceID="23809" mark="XHS" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="355" isToolTip="true" y="598" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城丙类库房2外消火栓23" deviceID="23834" mark="XHS" isPop="true" popType="subList" width="80" height="80"/>
+    <HANDBTN x="486" isToolTip="true" y="518" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城售票厅手报1" deviceID="23841" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="733" isToolTip="true" y="373" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城西侧影厅9外手报11" deviceID="23842" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <HANDBTN x="417" isToolTip="true" y="467" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城售票厅手报12" deviceID="23843" mark="SB" isPop="true" popType="video" width="80" height="80"/>
+    <JSBJ x="1056" isToolTip="true" y="163" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F合用前室正压送风阀" deviceID="24143" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1078" isToolTip="true" y="289" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城东侧强切2" deviceID="24144" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1072" isToolTip="true" y="419" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城东侧声光" deviceID="24151" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="261" isToolTip="true" y="304" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城西侧声光" deviceID="24152" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="433" isToolTip="true" y="321" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城广播" deviceID="24153" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="356" isToolTip="true" y="196" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城1号影厅补风防火阀" deviceID="24191" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1127" isToolTip="true" y="256" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城5号影厅排烟防火阀" deviceID="24192" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="410" isToolTip="true" y="194" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城1号影厅排烟防火阀" deviceID="24193" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="656" isToolTip="true" y="194" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城2号影厅补风防火阀" deviceID="24194" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1131" isToolTip="true" y="210" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城5号影厅补风防火阀" deviceID="24195" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="700" isToolTip="true" y="169" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城2号影厅排烟防火阀" deviceID="24196" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="485" isToolTip="true" y="275" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F-4,5F公共区排烟防火阀1" deviceID="24197" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1122" isToolTip="true" y="408" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城6号影厅补风防火阀" deviceID="24198" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1154" isToolTip="true" y="423" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城6号影厅排烟防火阀" deviceID="24199" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="686" isToolTip="true" y="401" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城9号影厅排烟防火阀" deviceID="24200" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1036" isToolTip="true" y="496" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F-4,5F公共区排烟防火阀2" deviceID="24201" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="832" isToolTip="true" y="154" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城3号影厅排烟防火阀" deviceID="24202" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1163" isToolTip="true" y="232" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城4号影厅补风防火阀" deviceID="24203" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="468" isToolTip="true" y="451" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城大堂补风防火阀" deviceID="24205" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1159" isToolTip="true" y="272" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城4号影厅排烟防火阀" deviceID="24206" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="730" isToolTip="true" y="421" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城9号影厅补风防火阀" deviceID="24207" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="484" isToolTip="true" y="309" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F-4,5F公共区排烟防火阀4" deviceID="24208" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1053" isToolTip="true" y="524" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F-4,5F公共区排烟防火阀3" deviceID="24211" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1130" isToolTip="true" y="514" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城EAF(YT)-RF-07防火阀" deviceID="24212" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1151" isToolTip="true" y="486" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城7号影厅排烟防火阀" deviceID="24213" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="907" isToolTip="true" y="358" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城8号影厅排烟防火阀" deviceID="24214" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1054" isToolTip="true" y="267" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城东侧强切1" deviceID="24215" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1064" isToolTip="true" y="235" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F东侧水流指示器" deviceID="24216" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1058" isToolTip="true" y="289" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F东侧信号闸阀" deviceID="24217" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="453" isToolTip="true" y="116" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城IMAX影厅红外对射1" deviceID="24218" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="451" isToolTip="true" y="157" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城IMAX影厅红外对射2" deviceID="24219" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="239" isToolTip="true" y="131" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城IMAX影厅红外对射3" deviceID="24220" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="240" isToolTip="true" y="180" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城IMAX影厅红外对射4" deviceID="24221" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="616" isToolTip="true" y="307" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城防火分区1/2防火卷帘" deviceID="24224" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="300" isToolTip="true" y="396" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F西侧水流指示器" deviceID="24225" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="302" isToolTip="true" y="424" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F西侧信号闸阀" deviceID="24226" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="662" isToolTip="true" y="541" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城客梯电梯2" deviceID="24232" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="669" isToolTip="true" y="575" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城客梯电梯1" deviceID="24233" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="317" isToolTip="true" y="384" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城售票厅红外对射复位" deviceID="24234" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="748" isToolTip="true" y="286" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城走廊补风阀2" deviceID="24235" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="753" isToolTip="true" y="315" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F影城走廊MAF-09补风阀1" deviceID="24236" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="687" isToolTip="true" y="548" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_4F娱乐楼消防电梯前室送风阀" deviceID="24237" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="394" isToolTip="true" y="361" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城1#影厅补风MAF(YT)-RF-3" deviceID="24159" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="515" isToolTip="true" y="439" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城1#影厅排烟SEF(YT)-RF-3" deviceID="24157" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="545" isToolTip="true" y="525" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城2#影厅补风MAF(YT)-RF-2" deviceID="24154" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="599" isToolTip="true" y="416" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城2#影厅排烟SEF(YT)-RF-2" deviceID="24172" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="665" isToolTip="true" y="283" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城3#影厅补风MAF(YT)-RF-1" deviceID="24174" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="672" isToolTip="true" y="315" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城3#影厅排烟SEF(YT)-RF-1" deviceID="24176" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="600" isToolTip="true" y="459" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城4-5F走道排烟RF-11" deviceID="24187" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="355" isToolTip="true" y="423" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城4-5F走道排烟RF-12" deviceID="24166" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="812" isToolTip="true" y="360" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城4-5F走道排烟RF-13" deviceID="24184" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="621" isToolTip="true" y="469" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城5#影厅补风MAF(YT)-RF-4" deviceID="24167" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="834" isToolTip="true" y="457" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城5#影厅排烟SEF(YT)-RF-4" deviceID="24169" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="804" isToolTip="true" y="305" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城6#影厅补风MAF(YT)-RF-5" deviceID="24185" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="845" isToolTip="true" y="273" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城6#影厅排烟SEF(YT)-RF-5" deviceID="24161" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="880" isToolTip="true" y="323" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城7#影厅补风MAF(YT)-RF-6" deviceID="24181" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="912" isToolTip="true" y="298" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城7#影厅排烟SEF(YT)-RF-6" deviceID="24182" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="861" isToolTip="true" y="200" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城8#影厅补风MAF(YT)-RF-7" deviceID="24146" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="675" isToolTip="true" y="134" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城8#影厅排烟SEF(YT)-RF-7" deviceID="24162" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="644" isToolTip="true" y="356" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城9#影厅补风MAF(YT)-RF-8" deviceID="24240" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="700" isToolTip="true" y="480" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城9#影厅排烟SEF(YT)-RF-8" deviceID="24183" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="635" isToolTip="true" y="530" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城大堂补风MAF(YT)-RF-10" deviceID="24178" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="275" isToolTip="true" y="455" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城大堂排烟SEF(YT)-RF-10" deviceID="24158" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="339" isToolTip="true" y="542" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城影厅10补风MAF(YT)-RF-9" deviceID="24209" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="297" isToolTip="true" y="514" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_影城影厅10排烟SEF(YT)-RF-9" deviceID="24156" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="933" isToolTip="true" y="207" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_娱乐楼补风防火阀" deviceID="24204" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="1037" isToolTip="true" y="336" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_娱乐楼排烟防火阀" deviceID="24190" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+    <JSBJ x="737" isToolTip="true" y="509" scaleY="0.3" rotation="0" scaleX="0.3" deviceName="AAA_跨机娱乐楼4层" deviceID="27922" mark="XFSB" isPop="true" popType="subList" width="80" height="80"/>
+  </Components>
+</Configration>

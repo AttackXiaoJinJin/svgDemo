@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component>
+      <A/>
+      <B/>
+      <C1/>
+      <C2/>
+      <D1/>
+      <D2/>
+      <D3/>
+    </Component>
+    <Image>
+    </Image>
+  </LIST>
+  <Components>
+    <BG source="assets/comp/m14.png" rotation="0" scale="0.85" x="0" y="0"/>
+    <A deviceID="248" scale="0.85" rotation="0" x="0" y="0"/>
+    <B deviceID="249" scale="0.85" rotation="0" x="0" y="0"/>
+    <C1 deviceID="250" scale="0.85" rotation="0" x="0" y="0"/>
+    <C2 deviceID="251" scale="0.85" rotation="0" x="0" y="0"/>
+    <D1 deviceID="5" scale="0.85" rotation="0" x="0" y="0"/>
+    <D2 deviceID="6" scale="0.85" rotation="0" x="0" y="0"/>
+    <D3 deviceID="7" scale="0.85" rotation="0" x="0" y="0"/>
+  </Components>
+</Configration>

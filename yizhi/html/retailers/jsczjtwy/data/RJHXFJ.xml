@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTSPFJ/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTSPFJN source="assets/comp/TULI/KTSPFJN.png"/>
+      <KTSPFJR source="assets/comp/TULI/KTSPFJR.png"/>
+      <KTSPFJA source="assets/comp/TULI/KTSPFJA.png"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE group="map" height="714" x="0" source="mapAssets/mapImages/F4Node.png" y="0" width="1434"/>
+    <KTSPFJ y="169.35" deviceName="新风机组BX-4AP(K)-1" source="assets/comp/KTSPFJ/bg.png" deviceID="1110007" scaleY="0.6" x="153.25" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="152" contentBackgroundAlpha="1" x="144" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-1" fontFamily="微软雅黑" widthInChars="4"/>
+    <TULI group="tuli" height="124" x="1125" source="assets/comp/TULI/TULI.png" y="509" width="225"/>
+    <KTSPFJN y="534" x="1274" source="assets/comp/TULI/KTSPFJN.png" scaleX="0.4" scaleY="0.4" group="tuli" height="80" width="80"/>
+    <KTSPFJR y="563" x="1274" source="assets/comp/TULI/KTSPFJR.png" scaleX="0.4" scaleY="0.4" group="tuli" height="80" width="80"/>
+    <KTSPFJA y="591" x="1274" source="assets/comp/TULI/KTSPFJA.png" scaleX="0.4" scaleY="0.4" group="tuli" height="80" width="80"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="540" contentBackgroundAlpha="0" x="1187" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="停止" height="17" color="255" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="567" contentBackgroundAlpha="0" x="1186" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="运行" height="17" color="255" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" fontWeight="normal" y="594" contentBackgroundAlpha="0" x="1186" borderVisible="false" source="assets/comp/TEXTINPUT/label.png" param="" deviceID="" width="28" sizeAuto="true" fontSize="12" group="commonComp" text="报警" height="17" color="255" fontFamily="微软雅黑" textAlign="center" widthInChars="4"/>
+    <LCF4 group="bg" height="92" x="10" source="assets/comp/LCF4.png" y="10" width="110"/>
+    <KTSPFJ y="176.2" deviceName="新风机组BX-4AP(K)-2" source="assets/comp/KTSPFJ/bg.png" deviceID="1110008" scaleY="0.6" x="384.75" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="158" contentBackgroundAlpha="1" x="384" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-2" fontFamily="微软雅黑" widthInChars="4"/>
+    <KTSPFJ y="164.89999999999998" deviceName="新风机组BX-4AP(K)-3" source="assets/comp/KTSPFJ/bg.png" deviceID="1110009" scaleY="0.6" x="589" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <KTSPFJ y="456" deviceName="新风机组BX-4AP(K)-5" source="assets/comp/KTSPFJ/bg.png" deviceID="1110011" scaleY="0.6" x="187.20000000000005" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <KTSPFJ y="344.09999999999997" deviceName="新风机组BX-4AP(K)-6" source="assets/comp/KTSPFJ/bg.png" deviceID="1110012" scaleY="0.6" x="409.54999999999995" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="149" contentBackgroundAlpha="1" x="574" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-3" fontFamily="微软雅黑" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" y="443" contentBackgroundAlpha="1" x="174" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-5" fontFamily="微软雅黑" widthInChars="4"/>
+    <TEXT borderColor="0xffffff" y="327" contentBackgroundAlpha="1" x="397" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-6" fontFamily="微软雅黑" widthInChars="4"/>
+    <KTSPFJ y="364" deviceName="新风机组BX-4AP(K)-7" source="assets/comp/KTSPFJ/bg.png" deviceID="1110013" scaleY="0.6" x="604" width="80" scaleX="0.6" mark="PAU" height="80" group="deviceComp"/>
+    <TEXT borderColor="0xffffff" y="345" contentBackgroundAlpha="1" x="595" param="" borderVisible="false" sizeAuto="true" fontSize="12" width="70" height="17" color="255" group="commonComp" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" deviceID="" textAlign="center" text="BX-4AP(K)-7" fontFamily="微软雅黑" widthInChars="4"/>
+  </Components>
+</Configration>

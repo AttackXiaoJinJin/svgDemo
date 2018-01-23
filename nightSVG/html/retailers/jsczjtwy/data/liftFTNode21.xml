@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <LIFTF/>
+      <RUNING/>
+      <ALARM/>
+      <UP/>
+      <DOWN/>
+      <BQSX/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="60" y="60"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="259" y="60"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="460" y="60"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="660" y="60"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="860" y="60"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="1F超市3#" fontWeight="bold" param="" textAlign="right" x="115" y="34"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F北侧1#" fontWeight="bold" param="" textAlign="right" x="315" y="35"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F北侧2#" fontWeight="bold" param="" textAlign="right" x="515" y="35"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F西侧1#" fontWeight="bold" param="" textAlign="right" x="715" y="35"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F西侧2#" fontWeight="bold" param="" textAlign="right" x="915" y="35"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="60" y="210"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="60" y="245"/>
+    <RUNING scale="1" deviceID="396" rotation="0" scaleY="1" scaleX="1" x="135" y="210"/>
+    <ALARM scale="1" deviceID="396" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="135" y="245"/>
+    <UP scale="1" deviceID="396" rotation="45" scaleY="1" scaleX="1" x="165" y="60"/>
+    <DOWN scale="1" deviceID="396" rotation="45" scaleY="1" scaleX="1" x="90" y="135"/>
+    <DOWN scale="1" deviceID="397" rotation="45" scaleY="1" scaleX="1" x="290" y="135"/>
+    <DOWN scale="1" deviceID="398" rotation="45" scaleY="1" scaleX="1" x="490" y="135"/>
+    <DOWN scale="1" deviceID="399" rotation="45" scaleY="1" scaleX="1" x="690" y="135"/>
+    <DOWN scale="1" deviceID="400" rotation="45" scaleY="1" scaleX="1" x="890" y="135"/>
+    <UP scale="1" deviceID="397" rotation="45" scaleY="1" scaleX="1" x="365" y="60"/>
+    <UP scale="1" deviceID="398" rotation="45" scaleY="1" scaleX="1" x="565" y="60"/>
+    <UP scale="1" deviceID="399" rotation="45" scaleY="1" scaleX="1" x="765" y="61"/>
+    <UP scale="1" deviceID="400" rotation="45" scaleY="1" scaleX="1" x="965" y="60"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="260" y="210"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="460" y="210"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="660" y="210"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="860" y="210"/>
+    <RUNING scale="1" deviceID="397" rotation="0" scaleY="1" scaleX="1" x="335" y="210"/>
+    <RUNING scale="1" deviceID="398" rotation="0" scaleY="1" scaleX="1" x="535" y="210"/>
+    <RUNING scale="1" deviceID="399" rotation="0" scaleY="1" scaleX="1" x="735" y="210"/>
+    <RUNING scale="1" deviceID="400" rotation="0" scaleY="1" scaleX="1" x="935" y="210"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="260" y="245"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="460" y="245"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="660" y="245"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="860" y="245"/>
+    <ALARM scale="1" deviceID="397" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="335" y="245"/>
+    <ALARM scale="1" deviceID="398" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="535" y="245"/>
+    <ALARM scale="1" deviceID="399" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="735" y="245"/>
+    <ALARM scale="1" deviceID="400" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="935" y="245"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F南侧2#" fontWeight="bold" param="" textAlign="right" x="315" y="295"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="60" y="320"/>
+    <UP scale="1" deviceID="401" rotation="45" scaleY="1" scaleX="1" x="165" y="320"/>
+    <DOWN scale="1" deviceID="401" rotation="45" scaleY="1" scaleX="1" x="90" y="395"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="60" y="470"/>
+    <RUNING scale="1" deviceID="401" rotation="0" scaleY="1" scaleX="1" x="135" y="470"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="60" y="505"/>
+    <ALARM scale="1" deviceID="401" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="135" y="505"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="2F南侧1#" fontWeight="bold" param="" textAlign="right" x="116" y="295"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="3F北侧1#" fontWeight="bold" param="" textAlign="right" x="515" y="295"/>
+    <TEXT rotation="0" fontSize="14" scale="1" widthInChars="5" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="3F北侧2#" fontWeight="bold" param="" textAlign="right" x="715" y="295"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="260" y="320"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="460" y="320"/>
+    <LIFTF scale="1.4" deviceID="" rotation="0" scaleY="1.4" scaleX="1.4" x="660" y="320"/>
+    <UP scale="1" deviceID="402" rotation="45" scaleY="1" scaleX="1" x="365" y="320"/>
+    <UP scale="1" deviceID="403" rotation="45" scaleY="1" scaleX="1" x="565" y="320"/>
+    <UP scale="1" deviceID="404" rotation="45" scaleY="1" scaleX="1" x="765" y="320"/>
+    <DOWN scale="1" deviceID="402" rotation="45" scaleY="1" scaleX="1" x="290" y="395"/>
+    <DOWN scale="1" deviceID="403" rotation="45" scaleY="1" scaleX="1" x="490" y="395"/>
+    <DOWN scale="1" deviceID="404" rotation="45" scaleY="1" scaleX="1" x="690" y="395"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="260" y="470"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="460" y="470"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="启停状态" fontWeight="bold" param="" textAlign="right" x="660" y="470"/>
+    <RUNING scale="1" deviceID="402" rotation="0" scaleY="1" scaleX="1" x="335" y="470"/>
+    <RUNING scale="1" deviceID="403" rotation="0" scaleY="1" scaleX="1" x="535" y="470"/>
+    <RUNING scale="1" deviceID="404" rotation="0" scaleY="1" scaleX="1" x="735" y="470"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="260" y="505"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="460" y="505"/>
+    <TEXT rotation="0" fontSize="16" scale="1" widthInChars="4" deviceID="" scaleY="1" fontFamily="宋体" scaleX="1" color="0" text="运行状态" fontWeight="bold" param="" textAlign="right" x="660" y="505"/>
+    <ALARM scale="1" deviceID="402" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="335" y="505"/>
+    <ALARM scale="1" deviceID="403" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="535" y="505"/>
+    <ALARM scale="1" deviceID="404" alarm="ALARM" rotation="0" scaleY="1" scaleX="1" param="alarm" x="735" y="505"/>
+    <BQSX scale="0.35" deviceID="7313" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="65" y="50"/>
+    <BQSX scale="0.35" deviceID="7323" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="265" y="50"/>
+    <BQSX scale="0.35" deviceID="7351" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="465" y="50"/>
+    <BQSX scale="0.35" deviceID="7384" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="665" y="50"/>
+    <BQSX scale="0.35" deviceID="7384" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="865" y="50"/>
+    <BQSX scale="0.35" deviceID="7407" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="65" y="315"/>
+    <BQSX scale="0.35" deviceID="7412" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="265" y="315"/>
+    <BQSX scale="0.35" deviceID="7349" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="465" y="315"/>
+    <BQSX scale="0.35" deviceID="7361" rotation="0" scaleY="0.35" isPop="true" scaleX="0.35" popType="video" x="665" y="315"/>
+  </Components>
+</Configration>

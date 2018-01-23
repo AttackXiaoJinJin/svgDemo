@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HeadList code="MASWD">
+<!-- 停车位的表头 -->
+<PARKHEAD>
+	<HEAD dataField="id" headText="编号"/>
+	<HEAD dataField="plateNo" headText="车牌号"/>
+	<HEAD dataField="entryTime" headText="入场时间"/>
+	<HEAD dataField="entryPlace" headText="入口"/>
+	<HEAD dataField="leaveTime" headText="出场时间"/>
+	<HEAD dataField="leavePlace" headText="出口"/>
+	<HEAD dataField="payable" headText="支付金额（单位：元）"/>
+	<HEAD dataField="voucher" headText="第三方凭证号"/>
+	<HEAD dataField="cashUser" headText="操作员"/>
+	<HEAD dataField="cashTime" headText="收费时间"/>
+</PARKHEAD>
+
+
+
+            <!-- 客流探头信息 -->
+		<PASSFLOW>
+			<HEAD dataField="hostNo" headText="主机编号"></HEAD>
+			<HEAD dataField="hostStatus" headText="主机状态"></HEAD>
+			<HEAD dataField="monitorNo" headText="探头编号"></HEAD>
+			<HEAD dataField="monitorStatus" headText="探头状态"></HEAD>
+		</PASSFLOW>
+
+
+<!-- 电子巡更的表头 -->
+<KEEPWATCH>
+	<HEAD dataField="ID" headText="编号"/>
+	<HEAD dataField="Plan_Line" headText="线路名称"/>
+	<HEAD dataField="Plan_Place" headText="巡更点"/>
+	<HEAD dataField="Plan_StartTime" headText="计划开始时间"/>
+	<HEAD dataField="Plan_EndTime" headText="计划结束时间"/>
+	<HEAD dataField="Plan_State" headText="状态"/>
+</KEEPWATCH>
+
+
+<!-- 模式管理-夜景照明 -->
+<NIGHTLIGHT>
+	<HEAD label="楼体照明" sysType="1" itemTypeID="11" operateArea="0"/>
+<!-- 	<HEAD label="景观照明" sysType="2" itemTypeID="11" operateArea="1"/> -->
+</NIGHTLIGHT>
+
+
+<!-- 模式管理-公共照明 -->
+<PUBLICLIGHT>
+	<HEAD label="步行街照明" sysType="1" itemTypeID="10" operateArea="0"/>
+	<HEAD label="停车场照明" sysType="2" itemTypeID="10" operateArea="1"/>
+</PUBLICLIGHT>
+
+
+
+
+</HeadList>

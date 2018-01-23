@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="979.6711409395973" Height="526">
+  <LIST>
+    <Component>
+      <DWCQ/>
+    </Component>
+    <Image>
+      <B2NODE source="assets/comp/B2Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B2NODE scale="0.7" x="-427" y="-22" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="929" y="419" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="836" y="400" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="931" y="443" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="900" y="196" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="515" y="313" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="900" y="173" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="282" y="314" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="66" y="262" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="554" y="226" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="92" y="262" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="114" y="302" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="113" y="279" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="397" y="50" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="301" y="123" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="556" y="51" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="625" y="44" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="627" y="72" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="651" y="44" rotation="0"/>
+    <DWCQ deviceID="" scale="0.3" x="779" y="19" rotation="0"/>
+  </Components>
+</Configration>

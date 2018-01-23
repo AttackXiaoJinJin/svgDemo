@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="588">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F3NODE source="assets/comp/F3Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="13" y="-5"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7255" scale="0.4" rotation="0" popType="redirect" x="85" y="77"/>
+    <TEXT text="" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="3407718" param="" fontWeight="normal" fontSize="12" scaleX="1" scale="1" x="303" y="140"/>
+    <TEXT text="XF-KTV-3-1" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="271" y="45"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7254" scale="0.4" rotation="0" popType="redirect" x="873" y="194"/>
+    <TEXT text="XF-3-1" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="869" y="178"/>
+    <TULI scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="840" y="415"/>
+    <TEXT text="正常" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="885" y="440"/>
+    <TEXT text="报警" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="960" y="440"/>
+    <KTN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="885" y="470"/>
+    <KTA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="960" y="470"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7259" scale="0.4" rotation="0" popType="redirect" x="288" y="14"/>
+    <TEXT text="XF-3-2" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="83" y="67"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7260" scale="0.4" rotation="0" popType="redirect" x="397" y="14"/>
+    <TEXT text="XF-KTV-3-2" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="381" y="42"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7261" scale="0.4" rotation="0" popType="redirect" x="312" y="205"/>
+    <TEXT text="XF-KTV-3-3" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="296" y="192"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="7262" scale="0.4" rotation="0" popType="redirect" x="397" y="205"/>
+    <TEXT text="XF-KTV-3-4" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="5" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="382" y="190"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="916" y="410" rotation="-90"/>
+  </Components>
+</Configration>

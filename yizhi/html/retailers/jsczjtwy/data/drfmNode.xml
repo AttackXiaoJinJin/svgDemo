@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1104" Height="591">
+  <LIST>
+    <Component>
+      <HANDAUTO/>
+      <DRFM/>
+    </Component>
+    <Image/>
+  </LIST>
+  <Components>
+    <HANDAUTO deviceID="76" scaleY="1" alarm="HANDAUTO" scaleX="1" rotation="0" x="376" y="229" param="handAuto" width="58" height="25"/>
+    <DRFM deviceID="76" popType="list" scaleY="1" isPop="true" scaleX="1" rotation="0" x="159" y="206" width="205" height="265"/>
+    <TEXT fontFamily="Arial" scaleY="1" x="112" scaleX="1" color="65280" sizeAuto="true" y="85" borderColor="0xffffff" contentBackgroundColor="0" fontSize="16" text="12" deviceID="76" fontWeight="normal" widthInChars="16" rotation="0" contentBackgroundAlpha="0" textAlign="left" borderVisible="false" param="deviceName" width="20" height="21"/>
+  </Components>
+</Configration>

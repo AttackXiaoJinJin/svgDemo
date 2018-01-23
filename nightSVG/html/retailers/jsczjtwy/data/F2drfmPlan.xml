@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component/>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE height="714" x="0" width="1434" y="0"/>
+    <TULI x="1204" y="590" rotation="0" scaleY="1" scaleX="1"/>
+    <TEXT borderVisible="false" x="1245" textAlign="center" y="625" borderColor="0xffffff" param="" rotation="0" width="40" height="22" fontFamily="微软雅黑" fontWeight="normal" widthInChars="2" color="0" sizeAuto="true" fontSize="18" text="正常" deviceID="" scaleY="1" contentBackgroundAlpha="0" scaleX="1"/>
+    <TEXT borderVisible="false" x="1345" textAlign="center" y="625" borderColor="0xffffff" param="" rotation="0" width="40" height="22" fontFamily="微软雅黑" fontWeight="normal" widthInChars="2" color="0" sizeAuto="true" fontSize="18" text="报警" deviceID="" scaleY="1" contentBackgroundAlpha="0" scaleX="1"/>
+    <KTN x="1245" y="645" rotation="0" scaleY="0.5" scaleX="0.5"/>
+    <KTA x="1345" y="645" rotation="0" scaleY="0.5" scaleX="0.5"/>
+  </Components>
+</Configration>

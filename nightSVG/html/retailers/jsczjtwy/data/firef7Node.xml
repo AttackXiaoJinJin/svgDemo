@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="560">
+  <LIST>
+    <Component>
+      <YCQ/>
+      <JSBJ/>
+    </Component>
+    <Image>
+      <XFFQ7F source="assets/comp/XFFQ7F.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <YGN source="assets/comp/TULI/YGN.png"/>
+      <YGA source="assets/comp/TULI/YGA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <XFFQ7F scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="55" y="0"/>
+    <YCQ scaleX="0.5" scaleY="0.5" isPop="true" deviceID="788" scale="0.5" rotation="0" popType="subList" x="347" y="92"/>
+    <YCQ scaleX="0.5" scaleY="0.5" isPop="true" deviceID="789" scale="0.5" rotation="0" popType="subList" x="608" y="98"/>
+    <TULI scaleX="0.8" scaleY="0.8" rotation="0" scale="0.8" x="840" y="460"/>
+    <YGN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="870" y="500"/>
+    <YGA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="950" y="500"/>
+    <TEXT text="正常" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="870" y="480"/>
+    <TEXT text="报警" textAlign="right" scaleX="1" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" rotation="0" fontWeight="normal" fontSize="16" scale="1" x="950" y="480"/>
+    <JSBJ scaleX="0.5" scaleY="0.5" isPop="true" deviceID="12414" scale="0.5" rotation="0" popType="subList" x="387" y="92"/>
+    <JSBJ scaleX="0.5" scaleY="0.5" isPop="true" deviceID="12415" scale="0.5" rotation="0" popType="subList" x="648" y="98"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="894" y="453" rotation="-90"/>
+  </Components>
+</Configration>

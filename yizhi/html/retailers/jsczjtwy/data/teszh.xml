@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <EAF/>
+      <HANDAUTO/>
+      <ALARM/>
+    </Component>
+    <Image>
+      <KTMDXF source="assets/comp/ktmd_xf.png"/>
+      <CO2 source="assets/comp/co2.png"/>
+      <TEMP source="assets/comp/temp.png"/>
+      <WET source="assets/comp/wet.png"/>
+      <LRPG source="assets/comp/lrpg.png"/>
+      <GLW source="assets/comp/glw.png"/>
+      <FFL source="assets/comp/ff_l.png"/>
+      <HFFH source="assets/comp/hff_h.png"/>
+      <DDFFG source="assets/comp/ddf_fg.png"/>
+      <JT source="assets/comp/jt.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <KTMDXF scale="0.6" rotation="0" x="50" y="156"/>
+    <CO2 scale="0.7" rotation="0" x="366" y="145"/>
+    <TEMP scale="0.5" rotation="0" x="540" y="144"/>
+    <WET scale="0.5" rotation="0" x="666" y="143"/>
+    <LRPG scale="0.6" rotation="0" x="413" y="279"/>
+    <GLW scale="0.6" rotation="0" x="352" y="281"/>
+    <FFL scale="0.6" rotation="0" x="130" y="282"/>
+    <HFFH scale="0.6" rotation="0" x="264" y="256"/>
+    <DDFFG scale="0.6" rotation="0" x="427" y="368"/>
+    <EAF deviceID="42" popType="list" scale="0.6" rotation="0" isPop="false" x="553" y="279"/>
+    <TEXT textAlign="right" deviceID="" text="CO2浓度" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="276" y="97"/>
+    <LABEL textAlign="right" deviceID="42" text="900.00ppm" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="inCO2" scale="1" rotation="0" color="65280" widthInChars="7" x="340" y="98"/>
+    <TEXT textAlign="right" deviceID="" text="回风温度" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="465" y="119"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="eAirSetTemp" scale="1" rotation="0" color="65280" widthInChars="5" x="528" y="98"/>
+    <TEXT textAlign="right" deviceID="" text="回风湿度" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="614" y="122"/>
+    <TEXT textAlign="right" deviceID="" text="送风温度" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="651" y="250"/>
+    <TEMP scale="0.5" rotation="0" x="629" y="252"/>
+    <TEXT textAlign="right" deviceID="" text="回水温度" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="358" y="395"/>
+    <TEXT textAlign="right" deviceID="" text="水阀反馈" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="454" y="360"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00%" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="wValve" scale="1" rotation="0" color="65280" widthInChars="5" x="508" y="359"/>
+    <TEXT textAlign="right" deviceID="" text="回风阀反馈" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="5" x="273" y="214"/>
+    <TEXT textAlign="right" deviceID="" text="新风阀反馈" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="131" y="288"/>
+    <TEXT textAlign="right" deviceID="" text="频率反馈" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="585" y="356"/>
+    <TEXT textAlign="right" deviceID="" text="温度设定" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="466" y="99"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00℃" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="eAirTemp" scale="1" rotation="0" color="65280" widthInChars="5" x="528" y="119"/>
+    <TEXT textAlign="right" deviceID="" text="温度设定" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="651" y="278"/>
+    <HANDAUTO deviceID="42" scale="1" rotation="0" x="604" y="323"/>
+    <TEXT textAlign="right" deviceID="" text="CO2设定" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="275" y="120"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="setCO2" scale="1" rotation="0" color="65280" widthInChars="7" x="340" y="119"/>
+    <TEXT textAlign="right" deviceID="" text="滤网压差" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="273" y="357"/>
+    <ALARM deviceID="42" scale="1" rotation="0" x="334" y="358"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00℃" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="eTemp" scale="1" rotation="0" color="65280" widthInChars="5" x="410" y="395"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00%" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="sValve" scale="1" rotation="0" color="65280" widthInChars="5" x="151" y="307"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00%rh" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="eAirWet" scale="1" rotation="0" color="65280" widthInChars="6" x="675" y="120"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00℃" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="sAirTemp" scale="1" rotation="0" color="65280" widthInChars="5" x="715" y="250"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="sAirSetTemp" scale="1" rotation="0" color="65280" widthInChars="5" x="715" y="281"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00hz" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="rate" scale="1" rotation="0" color="65280" widthInChars="5" x="640" y="355"/>
+    <LABEL textAlign="right" deviceID="42" text="30.00%" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="eValve" scale="1" rotation="0" color="65280" widthInChars="5" x="270" y="232"/>
+    <JT scale="1" rotation="0" x="54" y="299.95"/>
+    <JT scale="1" rotation="0" x="56" y="300.95"/>
+    <JT scale="1" rotation="0" x="692" y="308"/>
+    <JT scale="1" rotation="180" x="734" y="217"/>
+    <TEXT textAlign="right" deviceID="" text="新风阀设定" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="48" y="358"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="xffsrtj" scale="1" rotation="0" color="65280" widthInChars="5" x="136" y="358"/>
+    <TEXT textAlign="right" deviceID="" text="回风阀设定" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="5" x="268" y="289"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="hfftjsr" scale="1" rotation="0" color="65280" widthInChars="5" x="270" y="267"/>
+    <TEXT textAlign="right" deviceID="" text="频率设定" fontWeight="normal" fontSize="12" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="585" y="377"/>
+    <LABEL textAlign="right" deviceID="42" text="" fontWeight="normal" fontSize="12" fontFamily="digifaw" param="pltjsr" scale="1" rotation="0" color="65280" widthInChars="5" x="640" y="376"/>
+    <TEXT textAlign="right" deviceID="" text="风机压差" fontWeight="normal" fontSize="14" fontFamily="黑体" param="" scale="1" rotation="0" color="16777215" widthInChars="4" x="486" y="246"/>
+    <ALARM deviceID="42" scale="1" rotation="0" x="546" y="246"/>
+  </Components>
+</Configration>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KTSPFJ/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTSPFJN source="assets/comp/TULI/KTSPFJN.png"/>
+      <KTSPFJR source="assets/comp/TULI/KTSPFJR.png"/>
+      <KTSPFJA source="assets/comp/TULI/KTSPFJA.png"/>
+      <LCF5 source="assets/comp/LCF5.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE source="mapAssets/mapImages/F5Node.png" width="1434" group="map" height="714" x="0" y="0"/>
+    <TULI y="577" height="124" x="1189" source="assets/comp/TULI/TULI.png" group="tuli" scaleX="1" width="225" scaleY="1"/>
+    <KTSPFJN y="638" height="80" x="1204.95" source="assets/comp/TULI/KTSPFJN.png" group="tuli" scaleX="0.6" width="80" scaleY="0.6"/>
+    <KTSPFJR y="638" height="80" x="1275.9" source="assets/comp/TULI/KTSPFJR.png" group="tuli" scaleX="0.6" width="80" scaleY="0.6"/>
+    <KTSPFJA y="638" height="80" x="1350.25" source="assets/comp/TULI/KTSPFJA.png" group="tuli" scaleX="0.6" width="80" scaleY="0.6"/>
+    <TEXT height="18" param="" width="26" color="0x444444" text="停止" fontFamily="微软雅黑" fontWeight="normal" fontSize="12" borderColor="0xffffff" y="603" textAlign="center" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" group="commonComp" borderVisible="false" widthInChars="4" deviceID="" sizeAuto="true" x="1213"/>
+    <TEXT height="18" param="" width="26" color="0x444444" text="正常" fontFamily="微软雅黑" fontWeight="normal" fontSize="12" borderColor="0xffffff" y="603" textAlign="center" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" group="commonComp" borderVisible="false" widthInChars="4" deviceID="" sizeAuto="true" x="1287"/>
+    <TEXT height="18" param="" width="26" color="0x444444" text="报警" fontFamily="微软雅黑" fontWeight="normal" fontSize="12" borderColor="0xffffff" y="603" textAlign="center" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="0" group="commonComp" borderVisible="false" widthInChars="4" deviceID="" sizeAuto="true" x="1358"/>
+    <KTSPFJ width="80" y="357" x="1061" deviceID="1070041" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机5ATE(FJ)1-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="338" text="5F-5强电井1-1" fontFamily="微软雅黑" x="1036" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="84"/>
+    <LCF5 source="assets/comp/LCF5.png" width="110" group="bg" height="92" x="10" y="10"/>
+    <KTSPFJ width="80" y="358" x="1118" deviceID="1070042" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机5ATE(FJ)1-2" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="395" text="5F-5强电井1-2" fontFamily="微软雅黑" x="1099" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="84"/>
+    <KTSPFJ width="80" y="362" x="964" deviceID="1070043" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机5ATE(FJ)2-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="397" text="4F-7新风机房2-1" fontFamily="微软雅黑" x="927" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="96"/>
+    <KTSPFJ width="80" y="165" x="1109" deviceID="1070044" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机5ATE(FJ)4-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="146" text="4F-9新风机房4-1" fontFamily="微软雅黑" x="1094" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="96"/>
+    <KTSPFJ width="80" y="377" x="1202" deviceID="1070045" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机RATE(FJ)1-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="359" text="东北角1-1" fontFamily="微软雅黑" x="1185" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="58"/>
+    <KTSPFJ width="80" y="194" x="1235" deviceID="1070046" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机RATE(FJ)5-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="179" text="西南角5-1" fontFamily="微软雅黑" x="1220" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="58"/>
+    <KTSPFJ width="80" y="307" x="1359" deviceID="1070047" source="assets/comp/KTSPFJ/bg.png" group="deviceComp" mark="EAF" scaleX="0.5" deviceName="双速风机RATE(FJ)3-1" height="80" scaleY="0.5"/>
+    <TEXT height="18" color="255" deviceID="" fontWeight="normal" fontSize="12" borderColor="0xffffff" textAlign="center" group="commonComp" contentBackgroundColor="16777215" sizeAuto="true" y="293" text="6号电井3-1" fontFamily="微软雅黑" x="1343" source="assets/comp/TEXTINPUT/label.png" contentBackgroundAlpha="1" borderVisible="false" widthInChars="10" param="" width="65"/>
+  </Components>
+</Configration>

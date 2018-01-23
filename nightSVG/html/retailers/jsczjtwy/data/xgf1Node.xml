@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="491">
+  <LIST>
+    <Component>
+      <KEEPWATCH/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE rotation="0" scale="0.45" x="30" y="0"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="1" widthInChars="1" param="" x="88" y="106"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="112" y="108"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="225" y="140"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="106" y="199"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="112" y="250"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="102" y="298"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="108" y="373"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="269" y="367"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="309" y="364"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="445" y="365"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="494" y="365"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="661" y="388"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="692" y="389"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="817" y="352"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="892" y="327"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="866" y="273"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="865" y="235"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="785" y="187"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="795" y="45"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="763" y="84"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="313" y="319"/>
+    <KEEPWATCH scale="0.25" deviceID="" rotation="0" x="495" y="327"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="3" widthInChars="1" param="" x="85" y="197"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="4" widthInChars="1" param="" x="91" y="249"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="5" widthInChars="1" param="" x="82" y="294"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="6" widthInChars="1" param="" x="86" y="376"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="8" widthInChars="1" param="" x="308" y="384"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="7" widthInChars="1" param="" x="265" y="387"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="9" widthInChars="1" param="" x="442" y="383"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="10" widthInChars="1" param="" x="490" y="382"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="12" widthInChars="1" param="" x="692" y="405"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="11" widthInChars="1" param="" x="656" y="406"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="13" widthInChars="1" param="" x="823" y="370"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="15" widthInChars="1" param="" x="884" y="274"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="14" widthInChars="1" param="" x="891" y="346"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="18" widthInChars="1" param="" x="743" y="81"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="16" widthInChars="1" param="" x="885" y="231"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="17" widthInChars="1" param="" x="776" y="41"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="2" widthInChars="1" param="" x="238" y="138"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="19" widthInChars="1" param="" x="764" y="184"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="20" widthInChars="1" param="" x="497" y="306"/>
+    <TEXT fontFamily="Arial" fontWeight="bold" scale="1" deviceID="" fontSize="16" color="16777215" textAlign="right" rotation="0" text="21" widthInChars="1" param="" x="313" y="299"/>
+  </Components>
+</Configration>

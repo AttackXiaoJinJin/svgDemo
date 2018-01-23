@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="742">
+  <LIST>
+    <Component>
+      <LUXCQ/>
+      <COCQ/>
+    </Component>
+    <Image>
+      <B1NODE source="mapAssets/mapImages/B1Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LCB1 source="assets/comp/LCB1.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <B1NODE y="0" source="mapAssets/mapImages/B1Node.png" group="map" x="0" width="1434" height="714"/>
+    <TULI y="517" source="assets/comp/TULI/TULI.png" group="tuli" x="1069" width="225" height="124"/>
+    <LUXCQ x="891" y="232" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <COCQ x="296" y="353" group="commonComp" deviceID="" width="24" height="24" source="assets/comp/COCQ/bg.png"/>
+    <TEXT text="CO浓度(ppm)" x="1158" color="6710886" y="548" group="commonComp" deviceID="" param="" width="121" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <LCB1 y="10" source="assets/comp/LCB1.png" group="bg" x="10" width="110" height="92"/>
+    <LABEL x="916" y="226" deviceID="3050012" param="zhaodu" borderColor="255" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="119" sizeAuto="false" mark="HJJKZDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="地下室光照度1#(1号汽车坡道)"/>
+    <COCQ x="1104" y="548" group="commonComp" deviceID="" width="24" height="24" source="assets/comp/COCQ/bg.png"/>
+    <LUXCQ x="1107" y="594" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <TEXT text="照度(Lux)" x="1160" color="6710886" y="588" group="commonComp" deviceID="" param="" width="85" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="18" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="27"/>
+    <COCQ x="1289" y="459" group="commonComp" deviceID="" width="24" height="24" source="assets/comp/COCQ/bg.png"/>
+    <COCQ x="894" y="283" group="commonComp" deviceID="" width="24" height="24" source="assets/comp/COCQ/bg.png"/>
+    <LABEL x="920" y="282" deviceID="3030002" param="inCO" borderColor="255" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="64" sizeAuto="false" mark="HJJKCOD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="地下室一氧化碳 2#"/>
+    <LABEL x="1317" y="417" deviceID="3050013" param="zhaodu" borderColor="255" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="119" sizeAuto="false" mark="HJJKZDD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="地下室光照度2#(2号汽车坡道)"/>
+    <LUXCQ x="1292" y="422" group="commonComp" deviceID="" width="16" height="16" source="assets/comp/LUXCQ/bg.png"/>
+    <LABEL x="1319" y="460" deviceID="3030003" param="inCO" borderColor="255" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="64" sizeAuto="false" mark="HJJKCOD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="地下室一氧化碳 3#"/>
+    <LABEL x="328" y="354" deviceID="3030001" param="inCO" borderColor="255" widthInChars="4" rotation="0" borderVisible="false" source="assets/comp/TEXTINPUT/text.png" fontSize="12" contentBackgroundAlpha="1" fontFamily="digifaw" text="0" color="255" group="commonComp" paramID="64" sizeAuto="false" mark="HJJKCOD" contentBackgroundColor="16777215" textAlign="center" fontWeight="normal" deviceName="地下室一氧化碳 1#"/>
+    <TEXT text="正常光照强度范围      50-300LUX" x="550" color="13311" y="30" group="commonComp" deviceID="" param="" width="218" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+    <TEXT text="正常湿度范围                 20-100%" x="550" color="13311" y="60" group="commonComp" deviceID="" param="" width="218" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+    <TEXT text="正常CO范围                 20-50ppm" x="550" color="13311" y="90" group="commonComp" deviceID="" param="" width="220" borderColor="0xffffff" sizeAuto="true" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontFamily="微软雅黑" textAlign="center" borderVisible="false" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" height="21"/>
+  </Components>
+</Configration>

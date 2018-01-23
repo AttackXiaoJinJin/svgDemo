@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1656" Height="714">
+  <LIST>
+    <Component>
+      <NEWZMA/>
+      <NEWZMB/>
+      <NEWZMC/>
+      <NEWZMD/>
+      <NEWZMF1/>
+      <NEWZMF2/>
+      <NEWZMG1/>
+      <SSCTRL/>
+    </Component>
+    <Image>
+      <F4NODE source="mapAssets/mapImages/F4Node.png" group="map"/>
+      <LCF4 source="assets/comp/LCF4.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F4NODE height="714" y="0" width="1434" group="map" source="mapAssets/mapImages/F4Node.png" x="0"/>
+    <NEWZMA isControl="true" scaleY="0.5" deviceID="3200004" mark="BXJA" group="commonComp" width="80" x="1500" height="80" y="45" source="assets/comp/NEWZMA/bg.png" deviceName="4层筒灯1组" scaleX="0.5"/>
+    <NEWZMB isControl="true" scaleY="0.5" deviceID="3210004" mark="BXJB" group="commonComp" width="80" x="1500" height="80" y="145" source="assets/comp/NEWZMB/bg.png" deviceName="4层筒灯2组" scaleX="0.5"/>
+    <NEWZMC isControl="true" scaleY="0.5" deviceID="3220004" mark="BXJC" group="commonComp" width="80" x="1500" height="80" y="245" source="assets/comp/NEWZMC/bg.png" deviceName="4层射灯1组" scaleX="0.5"/>
+    <NEWZMD isControl="true" scaleY="0.5" deviceID="3230004" mark="BXJD" group="commonComp" width="80" x="1500" height="80" y="345" source="assets/comp/NEWZMD/bg.png" deviceName="4层灯带1组" scaleX="0.5"/>
+    <NEWZMF1 isControl="true" scaleY="0.5" deviceID="3240004" mark="BXJF1" group="commonComp" width="80" x="1500" height="80" y="445" source="assets/comp/NEWZMF1/bg.png" deviceName="4层艺术照明灯组" scaleX="0.5"/>
+    <NEWZMF2 isControl="true" scaleY="0.5" deviceID="3250004" mark="BXJF2" group="commonComp" width="80" x="1500" height="80" y="545" source="assets/comp/NEWZMF2/bg.png" deviceName="4层亮化灯" scaleX="0.5"/>
+    <NEWZMG1 isControl="true" scaleY="0.5" deviceID="3260004" mark="BXJG1" group="commonComp" width="80" x="1500" height="80" y="645" source="assets/comp/NEWZMG1/bg.png" deviceName="4层导向灯组" scaleX="0.5"/>
+    <TEXT x="1550" param="" deviceID="" text="4层筒灯1组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="50" widthInChars="4" width="96" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层筒灯2组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="150" widthInChars="4" width="96" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层射灯1组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="250" widthInChars="4" width="96" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层灯带1组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="350" widthInChars="4" width="96" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层艺术灯组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="450" widthInChars="4" width="106" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层亮化灯组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="550" widthInChars="4" width="106" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <TEXT x="1550" param="" deviceID="" text="4层导向灯组" sizeAuto="true" borderColor="0xffffff" group="commonComp" source="assets/comp/TEXTINPUT/label.png" textAlign="center" height="22" y="650" widthInChars="4" width="106" color="0x444444" fontWeight="normal" contentBackgroundAlpha="0" fontSize="18" fontFamily="微软雅黑" borderVisible="false"/>
+    <SSCTRL param="control" deviceID="3200004" mark="BXJA" group="commonComp" deviceName="4层筒灯1组" width="100" x="1380" height="30" y="50" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3210004" mark="BXJB" group="commonComp" deviceName="4层筒灯2组" width="100" x="1380" height="30" y="150" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3220004" mark="BXJC" group="commonComp" deviceName="4层射灯1组" width="100" x="1380" height="30" y="250" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3230004" mark="BXJD" group="commonComp" deviceName="4层灯带1组" width="100" x="1380" height="30" y="350" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3240004" mark="BXJF1" group="commonComp" deviceName="4层艺术照明灯组" width="100" x="1380" height="30" y="450" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3250004" mark="BXJF2" group="commonComp" deviceName="4层亮化灯" width="100" x="1380" height="30" y="550" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <SSCTRL param="control" deviceID="3260004" mark="BXJG1" group="commonComp" deviceName="4层导向灯组" width="100" x="1380" height="30" y="650" source="assets/comp/SSCTRL/control/0/1.png" paramID="97"/>
+    <LCF4 scaleY="1" group="bg" width="110" x="10" height="92" y="10" source="assets/comp/LCF4.png" scaleX="1"/>
+  </Components>
+</Configration>

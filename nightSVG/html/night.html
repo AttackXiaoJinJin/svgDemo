@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+  <title>night</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/读取静态.css">
+
+
+
+</head>
+<body>
+<button id="showSVG">显示夜景照明</button>
+  <div id="readSVG">
+  </div>
+
+  <table id="infoDiv" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>设备</td>
+      <td>位置</td>
+      <td>参数</td>
+      <td>参数值</td>
+    </tr>
+  </table>
+
+  <!--视频监控-->
+  <div id="infoVideo">
+    <div class="video_title">
+      <span class="vt_txt">视频监控</span>
+      <button id="vt_btn"></button>
+    </div>
+    <div id="video_content">
+    </div>
+  </div>
+
+
+<!--门禁管理-->
+<div id="infoDoor">
+  <div class="door_title">
+    <span class="dt_txt1">设备信息</span>
+    <span class="dt_txt2">*绿色行标示的设备为可控</span>
+  </div>
+  <div class="door_content">
+    <table id="doorTable" border="0" cellspacing="0" cellpadding="0">
+      <!--<tr>-->
+        <!--<td>设备名称</td>-->
+        <!--<td>参数名称</td>-->
+        <!--<td>参数值</td>-->
+      <!--</tr>-->
+    </table>
+  </div>
+  <div class="door_bottom">
+    <div class="db_clopen">
+    <span>设定值：</span>
+      <!--下拉列表-->
+      <ul id="select">
+        <li>
+          <div class="select-head">
+            <span class="select-head-cont"></span>
+            <span class="select-icon">▼</span>
+          </div>
+          <ul id="option">
+            <li class="option-item">关闭</li>
+            <li class="option-item">开启</li>
+          </ul>
+        </li>
+      </ul>
+  </div>
+    <button class="door_btn2">关闭</button>
+    <button class="door_btn1" disabled="disabled">下发</button>
+  </div>
+</div>
+
+
+
+
+
+  <script src="../js/jquery-3.2.1.js"></script>
+  <script src="../js/raphael.min.js"></script>
+  <script src="../js/night.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <ALARM/>
+      <RUNING/>
+      <LIFTF2/>
+    </Component>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <FTN source="assets/comp/TULI/FTN.png"/>
+      <FTA source="assets/comp/TULI/FTA.png"/>
+      <FTR source="assets/comp/TULI/FTR.png"/>
+      <LCF2 source="assets/comp/LCF2.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE group="map" y="0" width="1434" height="714" source="mapAssets/mapImages/F2Node.png" x="0"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="63" borderColor="0xffffff" fontFamily="微软雅黑" y="207" sizeAuto="false" group="commonComp" width="100" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT01-2F(19)#" widthInChars="4" deviceID=""/>
+    <ALARM deviceName="FT01-2F(上)*2~3F" param="alarm" mark="LIFTF" x="61" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="251" alarm="ALARM" group="commonComp" deviceID="850017" width="58" height="25"/>
+    <RUNING deviceName="FT01-2F(上)*2~3F" y="228" mark="LIFTF" x="61" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850017" width="58" height="25"/>
+    <LIFTF2 deviceName="FT01-3F(下)*2~3F" y="229" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850018" width="36" height="52" x="156"/>
+    <TULI y="481" x="1063" source="assets/comp/TULI/TULI.png" group="tuli" width="225" height="124" scaleY="1.2"/>
+    <FTN y="514.05" x="1221" source="assets/comp/TULI/FTN.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTA y="547.8499999999999" x="1221" source="assets/comp/TULI/FTA.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTR y="581.3" x="1221" source="assets/comp/TULI/FTR.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="520" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯正常" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="555" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯报警" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="590" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯运行" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <LCF2 group="bg" y="10" width="110" height="92" source="assets/comp/LCF2.png" x="10"/>
+    <LIFTF2 deviceName="FT01-2F(上)*2~3F" y="229" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850017" width="36" height="52" x="119"/>
+    <RUNING deviceName="FT01-3F(下)*2~3F" y="230" mark="LIFTF" x="191" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850018" width="58" height="25"/>
+    <ALARM deviceName="FT01-3F(下)*2~3F" param="alarm" mark="LIFTF" x="192" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="257" alarm="ALARM" group="commonComp" deviceID="850018" width="58" height="25"/>
+    <LIFTF2 deviceName="FT03-2F(上)*2~3F" y="209" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850019" width="36" height="52" x="338"/>
+    <LIFTF2 deviceName="FT03-3F(下)*2~3F" y="209" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850020" width="36" height="52" x="375"/>
+    <RUNING deviceName="FT03-2F(上)*2~3F" y="211" mark="LIFTF" x="280" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850019" width="58" height="25"/>
+    <ALARM deviceName="FT03-2F(上)*2~3F" param="alarm" mark="LIFTF" x="280" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="234" alarm="ALARM" group="commonComp" deviceID="850019" width="58" height="25"/>
+    <RUNING deviceName="FT03-3F(下)*2~3F" y="209" mark="LIFTF" x="415" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850020" width="58" height="25"/>
+    <ALARM deviceName="FT03-3F(下)*2~3F" param="alarm" mark="LIFTF" x="414" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="232" alarm="ALARM" group="commonComp" deviceID="850020" width="58" height="25"/>
+    <LIFTF2 deviceName="FT04-2F(上)*2~3F" y="208" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850021" width="36" height="52" x="609"/>
+    <LIFTF2 deviceName="FT04-3F(下)*2~3F" y="207" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850022" width="36" height="52" x="646"/>
+    <RUNING deviceName="FT04-2F(上)*2~3F" y="207" mark="LIFTF" x="549" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850021" width="58" height="25"/>
+    <ALARM deviceName="FT04-2F(上)*2~3F" param="alarm" mark="LIFTF" x="549" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="232" alarm="ALARM" group="commonComp" deviceID="850021" width="58" height="25"/>
+    <RUNING deviceName="FT04-3F(下)*2~3F" y="207" mark="LIFTF" x="683" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850022" width="58" height="25"/>
+    <ALARM deviceName="FT04-3F(下)*2~3F" param="alarm" mark="LIFTF" x="684" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="232" alarm="ALARM" group="commonComp" deviceID="850022" width="58" height="25"/>
+    <LIFTF2 deviceName="FT05-2F(上)*2~3F" y="208" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850005" width="36" height="52" x="884"/>
+    <LIFTF2 deviceName="FT05-3F(下)*2~3F" y="208" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850006" width="36" height="52" x="920"/>
+    <RUNING deviceName="FT05-2F(上)*2~3F" y="209" mark="LIFTF" x="825" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850005" width="58" height="25"/>
+    <ALARM deviceName="FT05-2F(上)*2~3F" param="alarm" mark="LIFTF" x="825" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="232" alarm="ALARM" group="commonComp" deviceID="850005" width="58" height="25"/>
+    <RUNING deviceName="FT05-3F(下)*2~3F" y="209" mark="LIFTF" x="957" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850006" width="58" height="25"/>
+    <ALARM deviceName="FT05-3F(下)*2~3F" param="alarm" mark="LIFTF" x="957" paramID="2" source="assets/comp/ALARM/alarm/0/1.png" y="234" alarm="ALARM" group="commonComp" deviceID="850006" width="58" height="25"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="171" borderColor="0xffffff" fontFamily="微软雅黑" y="208" sizeAuto="false" group="commonComp" width="103" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT01-3F(20)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="280" borderColor="0xffffff" fontFamily="微软雅黑" y="188" sizeAuto="false" group="commonComp" width="104" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT03-2F(13)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="393" borderColor="0xffffff" fontFamily="微软雅黑" y="190" sizeAuto="false" group="commonComp" width="103" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT03-3F(14)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="551" borderColor="0xffffff" fontFamily="微软雅黑" y="186" sizeAuto="false" group="commonComp" width="104" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT04-2F(11)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="663" borderColor="0xffffff" fontFamily="微软雅黑" y="185" sizeAuto="false" group="commonComp" width="103" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT04-3F(12)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="799" borderColor="0xffffff" fontFamily="微软雅黑" y="189" sizeAuto="false" group="commonComp" width="105" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT05-2F(3)#" widthInChars="4" deviceID=""/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="936" borderColor="0xffffff" fontFamily="微软雅黑" y="187" sizeAuto="false" group="commonComp" width="105" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT05-3F(4)#" widthInChars="4" deviceID=""/>
+  </Components>
+</Configration>

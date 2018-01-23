@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><Configration>
+  <LIST>
+    <Component>
+      <EAF/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <DFG source="assets/comp/dfg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <DFG scale="0.6" rotation="0" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image24018" x="123" y="226"/>
+    <EAF isPop="false" scale="0.6" deviceID="76" rotation="0" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image24020" x="292" y="242"/>
+    <TEXT textAlign="right" param="" widthInChars="2" scale="1" fontSize="20" fontFamily="黑体" fontWeight="normal" text="送风" rotation="0" deviceID="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput24022" color="16777215" x="484" y="260"/>
+    <TEXT textAlign="right" param="" widthInChars="2" scale="1" fontSize="20" fontFamily="黑体" fontWeight="normal" text="新风" rotation="0" deviceID="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput24025" color="16777215" x="119" y="259"/>
+    <HANDAUTO scale="1" deviceID="76" rotation="0" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.Image24028" x="352" y="283"/>
+    <TEXT textAlign="right" param="" widthInChars="7" scale="1" fontSize="14" fontFamily="黑体" fontWeight="normal" text="CO2浓度（ppm）" rotation="0" deviceID="" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput24030" color="16777215" x="415" y="211"/>
+    <LABEL textAlign="right" param="inCO2" widthInChars="3" scale="1" fontSize="12" fontFamily="digifaw" fontWeight="normal" text="30" rotation="0" deviceID="76" resource="Configration.ApplicationSkin2._ApplicationSkin_Group1.contentGroup.HGroup5.VGroup9._Configration_Scroller1.ScrollerSkin193.Group42.initGroup.TextInput24119" color="65280" x="513" y="209"/>
+  </Components>
+</Configration>

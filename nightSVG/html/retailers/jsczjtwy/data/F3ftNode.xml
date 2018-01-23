@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <LIFTF2/>
+      <RUNING/>
+      <HANDTZ/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <FTN source="assets/comp/TULI/FTN.png"/>
+      <FTA source="assets/comp/TULI/FTA.png"/>
+      <FTR source="assets/comp/TULI/FTR.png"/>
+      <LCF3 source="assets/comp/LCF3.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE group="map" y="0" width="1434" height="714" source="mapAssets/mapImages/F3Node.png" x="0"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="988" borderColor="0xffffff" fontFamily="微软雅黑" y="188" sizeAuto="false" group="commonComp" width="104" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT07-3F(1)#" widthInChars="4" deviceID=""/>
+    <TULI y="481" x="1063" source="assets/comp/TULI/TULI.png" group="tuli" width="225" height="124" scaleY="1.2"/>
+    <FTN y="514.05" x="1221" source="assets/comp/TULI/FTN.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTA y="547.8499999999999" x="1221" source="assets/comp/TULI/FTA.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <FTR y="581.3" x="1221" source="assets/comp/TULI/FTR.png" scaleX="0.7" group="tuli" width="36" height="52" scaleY="0.6"/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="520" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯正常" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="555" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯报警" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <TEXT fontSize="14" fontWeight="normal" param="" borderVisible="false" x="1092" borderColor="0xffffff" contentBackgroundAlpha="0" y="590" sizeAuto="true" width="62" group="commonComp" source="assets/comp/TEXTINPUT/label.png" widthInChars="4" text="扶梯运行" height="19" color="0x444444" fontFamily="微软雅黑" textAlign="center" deviceID=""/>
+    <LCF3 group="bg" y="10" width="110" height="92" source="assets/comp/LCF3.png" x="10"/>
+    <LIFTF2 deviceName="FT07-4F(下)*3~4F" y="209" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850008" width="36" height="52" x="1103"/>
+    <LIFTF2 deviceName="FT07-3F(上)*3~4F" y="209" mark="LIFTF" source="assets/comp/LIFTF2/bg.png" group="deviceComp" deviceID="850007" width="36" height="52" x="1067"/>
+    <RUNING deviceName="FT07-4F(下)*3~4F" y="210" mark="LIFTF" x="1140" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850008" width="58" height="25"/>
+    <HANDTZ deviceName="FT07-4F(下)*3~4F" param="alarm" mark="LIFTF" x="1140" paramID="2" source="assets/comp/HANDTZ/sdtzstatus/0/1.png" y="232" alarm="HANDTZ" group="commonComp" deviceID="850008" width="58" height="25"/>
+    <RUNING deviceName="FT07-3F(上)*3~4F" y="210" mark="LIFTF" x="1008" source="assets/comp/RUNING/runing/0/1.png" group="commonComp" deviceID="850007" width="58" height="25"/>
+    <HANDTZ deviceName="FT07-3F(上)*3~4F" param="alarm" mark="LIFTF" x="1008" paramID="2" source="assets/comp/HANDTZ/sdtzstatus/0/1.png" y="234" alarm="HANDTZ" group="commonComp" deviceID="850007" width="58" height="25"/>
+    <TEXT fontSize="14" contentBackgroundAlpha="1" param="" borderVisible="false" x="1121" borderColor="0xffffff" fontFamily="微软雅黑" y="187" sizeAuto="false" group="commonComp" width="105" height="19" color="255" fontWeight="normal" contentBackgroundColor="16777215" source="assets/comp/TEXTINPUT/label.png" textAlign="center" text="FT07-4F(2)#" widthInChars="4" deviceID=""/>
+  </Components>
+</Configration>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="994.6711409395973" Height="513">
+  <LIST>
+    <Component>
+      <ALARMTB/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scale="0.45" rotation="0" x="50" y="10"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="846" y="348"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="142" y="349"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="135" y="336"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="835" y="359"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="788" y="83"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="804" y="83"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="820" y="83"/>
+    <TEXT textAlign="right" deviceID="" text="3I-KT4、5" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="5" x="114" y="358"/>
+    <TEXT textAlign="right" deviceID="" text="3II-KT4、5" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="5" x="800" y="369"/>
+    <TEXT textAlign="right" deviceID="" text="3II-KT1、2、3" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="763" y="92"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="831" y="149"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="847" y="149"/>
+    <TEXT textAlign="right" deviceID="" text="3II-FT2-1、2" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="796" y="126"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="636" y="347"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="654" y="363"/>
+    <TEXT textAlign="right" deviceID="" text="3II-FT3-1、2" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="602" y="324"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="147" y="141"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="163" y="141"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT1-1、2" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="116" y="118"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="147" y="158"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="163" y="158"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT1-3、4" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="116" y="167"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="636" y="363"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="653" y="347"/>
+    <TEXT textAlign="right" deviceID="" text="3II-FT3-3、4" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="602" y="375"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="848" y="165"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="832" y="165"/>
+    <TEXT textAlign="right" deviceID="" text="3II-FT2-3、4" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="796" y="174"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT4-1、2" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="195" y="324"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="258" y="344"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="274" y="344"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="258" y="363"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="274" y="363"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT4-3、4" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="194" y="373"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="303" y="345"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="319" y="345"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="319" y="362"/>
+    <ALARMTB deviceID="" scale="1" rotation="0" x="303" y="362"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT4-5、6" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="290" y="325"/>
+    <TEXT textAlign="right" deviceID="" text="3I-FT4-7、8" fontWeight="bold" fontSize="14" fontFamily="Arial" param="" scale="1" rotation="0" color="16777215" widthInChars="7" x="291" y="372"/>
+  </Components>
+</Configration>

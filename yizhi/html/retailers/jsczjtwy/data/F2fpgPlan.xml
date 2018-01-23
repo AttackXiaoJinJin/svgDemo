@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1749" Height="729">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F2NODE source="mapAssets/mapImages/F2Node.png" group="map"/>
+      <LCF2 source="assets/comp/LCF2.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTYX source="assets/comp/kt_yx.png"/>
+      <KTBJ source="assets/comp/kt_bj.png"/>
+      <KTTZ source="assets/comp/kttz.png"/>
+      <ZNZTL source="assets/comp/ZNZTL.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F2NODE y="0" x="0" width="1434" height="714" source="mapAssets/mapImages/F2Node.png"/>
+    <KTTB scaleY="0.8500000000000001" scaleX="0.8500000000000001" deviceID="200008" x="375.50000000000006" mark="FPG" y="286.2" width="80" deviceName="8#风机盘管" height="80" source="assets/comp/KTTB/bg.png"/>
+    <KTTB scaleY="0.8500000000000001" scaleX="0.8500000000000001" deviceID="200010" x="1125.7" mark="FPG" y="240.85000000000002" width="80" deviceName="10#风机盘管" height="80" source="assets/comp/KTTB/bg.png"/>
+    <KTTB scaleY="0.8500000000000001" scaleX="0.8500000000000001" deviceID="200009" x="666.65" mark="FPG" y="484.05000000000007" width="80" deviceName="9#风机盘管" height="80" source="assets/comp/KTTB/bg.png"/>
+    <KTTB scaleY="0.8500000000000001" scaleX="0.8500000000000001" deviceID="200011" x="707.95" mark="FPG" y="131.90000000000003" width="80" deviceName="11#风机盘管" height="80" source="assets/comp/KTTB/bg.png"/>
+    <LCF2 scaleY="0.8" scaleX="0.8" x="50" y="30" width="110" height="92" source="assets/comp/LCF2.png"/>
+    <TULI scaleY="1.5" scaleX="1.5" rotation="0" x="1410.85" y="503.4" height="150" source="assets/comp/TULI/TULI.png"/>
+    <TEXT scaleX="1" fontSize="20" rotation="0" deviceID="" param="" scaleY="1" fontWeight="normal" width="170" height="25" source="assets/comp/TEXTINPUT/label.png" color="0" borderColor="0xffffff" sizeAuto="true" contentBackgroundAlpha="0" text="风机盘管（开启）" borderVisible="false" x="1546.65" y="559.8" fontFamily="微软雅黑" widthInChars="2" textAlign="center"/>
+    <KTYX scaleY="0.7" scaleX="0.7" x="1466" y="552.7" width="80" height="80" source="assets/comp/kt_yx.png"/>
+    <KTBJ scaleY="0.7" scaleX="0.7" x="1464.35" y="655.5" width="80" height="80" source="assets/comp/kt_bj.png"/>
+    <KTTZ scaleY="0.7" scaleX="0.7" x="1464.75" y="605.4" width="80" height="80" source="assets/comp/kttz.png"/>
+    <TEXT scaleX="1" fontSize="20" rotation="0" deviceID="" param="" scaleY="1" fontWeight="normal" width="170" height="25" source="assets/comp/TEXTINPUT/label.png" color="0" borderColor="0xffffff" sizeAuto="true" contentBackgroundAlpha="0" text="风机盘管（关闭）" borderVisible="false" x="1548" y="614" fontFamily="微软雅黑" widthInChars="2" textAlign="center"/>
+    <TEXT scaleX="1" fontSize="20" rotation="0" deviceID="" param="" scaleY="1" fontWeight="normal" width="170" height="25" source="assets/comp/TEXTINPUT/label.png" color="0" borderColor="0xffffff" sizeAuto="true" contentBackgroundAlpha="0" text="风机盘管（报警）" borderVisible="false" x="1546" y="667" fontFamily="微软雅黑" widthInChars="2" textAlign="center"/>
+    <ZNZTL scaleY="0.5" scaleX="0.5" x="1186.05" y="40" width="184" height="184" source="assets/comp/ZNZTL.png"/>
+  </Components>
+</Configration>

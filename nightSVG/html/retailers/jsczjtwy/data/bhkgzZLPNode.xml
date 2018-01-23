@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1076.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <ALARM/>
+      <OPENCLOSE/>
+      <ALARMBPD/>
+    </Component>
+    <Image>
+      <BPDP2IN source="assets/comp/BPDP2IN.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <BPDP2IN scaleX="4.2" scaleY="1" rotation="0" scale="4.2" x="35" y="49"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="hmdy" widthInChars="3" deviceID="14137" text="" paramID="234" fontSize="14" x="180" y="172"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="合母电压值(Kv)" fontSize="16" x="65" y="170"/>
+    <ALARM scaleX="0" scaleY="0" deviceID="" alarm="ALARM" scale="0" param="" rotation="0" x="826" y="48"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="控母电压值(Kv)" fontSize="16" x="265" y="170"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="kmdy" widthInChars="3" deviceID="14137" text="" paramID="235" fontSize="14" x="380" y="172"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="dcdy" widthInChars="3" deviceID="14137" text="" paramID="236" fontSize="14" x="780" y="172"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="电池电压值(Kv)" fontSize="16" x="665" y="170"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="控母电流值(A)" fontSize="16" x="465" y="170"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="14" deviceID="" text="百  货  高  压  直  流  屏" fontSize="20" x="373" y="120"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="dcdl" widthInChars="3" deviceID="14137" text="" paramID="237" fontSize="14" x="980" y="172"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="kmdl" widthInChars="3" deviceID="14137" text="" paramID="238" fontSize="14" x="580" y="172"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="电池电流值(A)" fontSize="16" x="865" y="170"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流一路AB电压(Kv)" fontSize="16" x="65" y="210"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acab1" widthInChars="3" deviceID="14137" text="" paramID="239" fontSize="14" x="215" y="212"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流一路CA电压(Kv)" fontSize="16" x="765" y="212"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acbc1" widthInChars="3" deviceID="14137" text="" paramID="240" fontSize="14" x="565" y="212"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acca1" widthInChars="3" deviceID="14137" text="" paramID="241" fontSize="14" x="915" y="212"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流一路BC电压(Kv)" fontSize="16" x="415" y="212"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流二路AB电压(Kv)" fontSize="16" x="65" y="250"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acab2" widthInChars="3" deviceID="14137" text="" paramID="242" fontSize="14" x="215" y="252"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流二路BC电压(Kv)" fontSize="16" x="415" y="250"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acbc2" widthInChars="3" deviceID="14137" text="" paramID="243" fontSize="14" x="565" y="252"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="9" deviceID="" text="交流二路CA电压(Kv)" fontSize="16" x="765" y="250"/>
+    <LABEL scaleX="1" scaleY="1" rotation="0" textAlign="right" color="65280" fontFamily="digifaw" fontWeight="normal" scale="1" param="acca2" widthInChars="3" deviceID="14137" text="" paramID="244" fontSize="14" x="915" y="252"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="5" deviceID="" text="交流开关1" fontSize="16" x="65" y="290"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acSwitch1" rotation="0" paramID="213" x="170" y="290"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="5" deviceID="" text="交流开关2" fontSize="16" x="265" y="290"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acSwitch2" rotation="0" paramID="214" x="370" y="290"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="5" deviceID="" text="交流开关3" fontSize="16" x="465" y="290"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acSwitch3" rotation="0" paramID="215" x="570" y="290"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="5" deviceID="" text="交流开关4" fontSize="16" x="665" y="290"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acSwitch4" rotation="0" paramID="216" x="770" y="290"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="5" deviceID="" text="交流开关5" fontSize="16" x="865" y="290"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acSwitch5" rotation="0" paramID="217" x="970" y="290"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="交流A路状态" fontSize="16" x="65" y="330"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acaStatus" rotation="0" paramID="210" x="170" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="交流B路状态" fontSize="16" x="65" y="370"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="acbStatus" rotation="0" paramID="211" x="170" y="370"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acaUndervoltage" rotation="0" paramID="219" x="590" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="A路掉电告警" fontSize="16" x="260" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="A路欠压告警" fontSize="16" x="459" y="330"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acaBrownout" rotation="0" paramID="218" x="390" y="330"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acaOvervoltage" rotation="0" paramID="220" x="790" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="A路过压告警" fontSize="16" x="660" y="330"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acaPhase" rotation="0" paramID="221" x="990" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="A路缺相告警" fontSize="16" x="860" y="330"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="B路掉电告警" fontSize="16" x="260" y="370"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acbBrownout" rotation="0" paramID="222" x="390" y="370"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="B路欠压告警" fontSize="16" x="460" y="370"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acbUndervoltage" rotation="0" paramID="223" x="590" y="370"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="B路过压告警" fontSize="16" x="660" y="370"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acbOvervoltage" rotation="0" paramID="224" x="790" y="370"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="B路缺相告警" fontSize="16" x="860" y="370"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="acbPhase" rotation="0" paramID="225" x="990" y="370"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="合母过压告警" fontSize="16" x="65" y="410"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="dcUndervoltage" rotation="0" paramID="230" x="390" y="450"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="合母欠压告警" fontSize="16" x="260" y="410"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="hmOvervoltage" rotation="0" paramID="226" x="192" y="410"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="kmOvervoltage" rotation="0" paramID="228" x="590" y="410"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="控母过压告警" fontSize="16" x="460" y="410"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="kmUndervoltage" rotation="0" paramID="229" x="790" y="410"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="控母欠压告警" fontSize="16" x="660" y="410"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="电池均充状态" fontSize="16" x="65" y="450"/>
+    <OPENCLOSE scaleX="1" scaleY="1" deviceID="14137" alarm="OPENCLOSE" scale="1" param="dcCharging" rotation="0" paramID="231" x="170" y="450"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="电池欠压告警" fontSize="16" x="260" y="450"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="hmUndervoltage" rotation="0" paramID="227" x="391" y="410"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="7" deviceID="" text="电池温度高告警" fontSize="16" x="460" y="450"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="dcwsg" rotation="0" paramID="232" x="590" y="450"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="flStatus" rotation="0" paramID="212" x="790" y="450"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="防雷故障告警" fontSize="16" x="660" y="450"/>
+    <TEXT scaleX="1" scaleY="1" rotation="0" textAlign="right" color="0" fontFamily="黑体" fontWeight="normal" scale="1" param="" widthInChars="6" deviceID="" text="绝缘故障告警" fontSize="16" x="860" y="450"/>
+    <ALARMBPD scaleX="1.5" scaleY="1.5" deviceID="14137" alarm="ALARMBPD" scale="1.5" param="jygz" rotation="0" paramID="233" x="990" y="450"/>
+  </Components>
+</Configration>

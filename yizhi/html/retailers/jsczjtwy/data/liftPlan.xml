@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="536">
+  <LIST>
+    <Component>
+      <KTTB/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <KTN source="assets/comp/TULI/KTN.png"/>
+      <KTA source="assets/comp/TULI/KTA.png"/>
+      <COMPASS source="assets/comp/compass.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scaleX="0.7" scaleY="0.7" rotation="0" scale="0.7" x="30" y="5"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="351" scale="0.4" rotation="0" popType="redirect" x="150" y="105"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="350" scale="0.4" rotation="0" popType="redirect" x="146" y="198"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="246" scale="0.4" rotation="0" popType="redirect" x="140" y="276"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="349" scale="0.4" rotation="0" popType="redirect" x="208" y="302"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="352" scale="0.4" rotation="0" popType="redirect" x="274" y="303"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="353" scale="0.4" rotation="0" popType="redirect" x="295" y="245"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="354" scale="0.4" rotation="0" popType="redirect" x="461" y="322"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="355" scale="0.4" rotation="0" popType="redirect" x="561" y="320"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="357" scale="0.4" rotation="0" popType="redirect" x="475" y="254"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="356" scale="0.4" rotation="0" popType="redirect" x="510" y="254"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="359" scale="0.4" rotation="0" popType="redirect" x="739" y="361"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="358" scale="0.4" rotation="0" popType="redirect" x="637" y="254"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="360" scale="0.4" rotation="0" popType="redirect" x="772" y="248"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="361" scale="0.4" rotation="0" popType="redirect" x="804" y="190"/>
+    <KTTB scaleX="0.4" scaleY="0.4" isPop="true" deviceID="362" scale="0.4" rotation="0" popType="redirect" x="762" y="114"/>
+    <TEXT text="KT-3" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="148" y="182"/>
+    <TEXT text="KT-1" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="142" y="263"/>
+    <TEXT text="KT-2" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="209" y="287"/>
+    <TEXT text="KT-7" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="152" y="91"/>
+    <TEXT text="KT-8" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="275" y="289"/>
+    <TEXT text="KT-15" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="287" y="231"/>
+    <TEXT text="KT-9" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="460" y="309"/>
+    <TEXT text="KT-14" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="467" y="240"/>
+    <TEXT text="KT-13" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="505" y="240"/>
+    <TEXT text="KT-10" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="554" y="306"/>
+    <TEXT text="KT-4" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="639" y="239"/>
+    <TEXT text="KT-5" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="741" y="346"/>
+    <TEXT text="KT-6" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="775" y="233"/>
+    <TEXT text="KT-11" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="799" y="175"/>
+    <TEXT text="KT-12" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="3" color="0" param="" fontWeight="bold" fontSize="12" scaleX="1" scale="1" x="758" y="99"/>
+    <TULI scaleX="0.9" scaleY="0.9" rotation="0" scale="0.9" x="840" y="415"/>
+    <TEXT text="正常" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="885" y="440"/>
+    <TEXT text="报警" textAlign="right" rotation="0" scaleY="1" fontFamily="Arial" deviceID="" widthInChars="2" color="16777215" param="" fontWeight="normal" fontSize="16" scaleX="1" scale="1" x="960" y="440"/>
+    <KTN scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="885" y="470"/>
+    <KTA scaleX="0.5" scaleY="0.5" rotation="0" scale="0.5" x="960" y="470"/>
+    <COMPASS scale="0.5" scaleX="0.5" scaleY="0.5" x="915" y="406" rotation="-90"/>
+  </Components>
+</Configration>

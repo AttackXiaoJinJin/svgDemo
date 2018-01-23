@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1057.6510067114093" Height="538">
+  <LIST>
+    <Component>
+      <EAF/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <DFG source="assets/comp/dfg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <DFG scale="0.6" rotation="0" x="123" y="155"/>
+    <EAF popType="list" deviceID="76" isPop="false" scale="0.6" rotation="0" x="291" y="170"/>
+    <TEXT textAlign="right" deviceID="" widthInChars="2" fontWeight="normal" fontSize="20" rotation="0" fontFamily="黑体" scale="1" text="送风" param="" color="16777215" x="482" y="191"/>
+    <TEXT textAlign="right" deviceID="" widthInChars="2" fontWeight="normal" fontSize="20" rotation="0" fontFamily="黑体" scale="1" text="新风" param="" color="16777215" x="119" y="192"/>
+    <HANDAUTO param="handAuto" deviceID="55" scale="1" rotation="0" alarm="HANDAUTO" x="351" y="207"/>
+    <TEXT textAlign="right" deviceID="76" widthInChars="10" fontWeight="normal" fontSize="16" rotation="0" fontFamily="Arial" scale="1" text="12" param="deviceName" color="65280" x="66" y="28"/>
+    <LABEL textAlign="right" deviceID="76" widthInChars="9" fontWeight="normal" fontSize="12" rotation="0" fontFamily="digifaw" scale="1" text="" param="runTime" color="65280" x="283" y="135"/>
+    <TEXT textAlign="right" deviceID="" widthInChars="4" fontWeight="normal" fontSize="12" rotation="0" fontFamily="Arial" scale="1" text="运行时间" param="" color="16777215" x="315" y="111"/>
+  </Components>
+</Configration>

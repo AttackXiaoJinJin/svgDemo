@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1434" Height="714">
+  <LIST>
+    <Component>
+      <KEEPWATCH/>
+    </Component>
+    <Image>
+      <F3NODE source="mapAssets/mapImages/F3Node.png" group="map"/>
+      <XGLINE source="assets/comp/xgline.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F3NODE x="0" y="0" rotation="0" scaleX="1" scaleY="1"/>
+    <KEEPWATCH x="155" deviceID="" scaleX="0.25" rotation="0" y="314" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="130" y="334" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外1号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="166" deviceID="" scaleX="0.25" rotation="0" y="93" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="104" y="87" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外2号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="348" deviceID="" scaleX="0.25" rotation="0" y="584" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="346" y="605" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="1号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="250" deviceID="" scaleX="0.25" rotation="0" y="432" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="220" y="430" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="2号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="245" deviceID="" scaleX="0.25" rotation="0" y="214" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="214" y="198" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="3号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="442" deviceID="" scaleX="0.25" rotation="0" y="191" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="437" y="165" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="4号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="493" deviceID="" scaleX="0.25" rotation="0" y="83" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="471" y="57" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外3号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="541" deviceID="" scaleX="0.25" rotation="0" y="323" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="537" y="343" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="5号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="730" deviceID="" scaleX="0.25" rotation="0" y="353" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="718" y="327" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="6号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="826" deviceID="" scaleX="0.25" rotation="0" y="187" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="823" y="160" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="7号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="813" deviceID="" scaleX="0.25" rotation="0" y="83" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="786" y="63" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外4号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="1104" deviceID="" scaleX="0.25" rotation="0" y="88" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1091" y="66" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外5号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="1202" deviceID="" scaleX="0.25" rotation="0" y="374" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1189" y="395" scaleX="1" param="" height="24" color="255" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="室外6号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="16777215" width="60" widthInChars="4"/>
+    <KEEPWATCH x="1061" deviceID="" scaleX="0.25" rotation="0" y="196" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1054" y="169" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="8号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="1123" deviceID="" scaleX="0.25" rotation="0" y="457" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1148" y="462" scaleX="1" param="" height="24" color="65484" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="9号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="28" widthInChars="4"/>
+    <KEEPWATCH x="1052" deviceID="" scaleX="0.25" rotation="0" y="580" scaleY="0.25" width="80" height="80"/>
+    <TEXT fontFamily="微软雅黑" x="1078" y="582" scaleX="1" param="" height="24" color="65433" sizeAuto="true" fontSize="16" scaleY="1" borderColor="0xffffff" text="10号" deviceID="" contentBackgroundAlpha="0" fontWeight="normal" borderVisible="false" rotation="0" textAlign="center" contentBackgroundColor="0" width="38" widthInChars="4"/>
+    <XGLINE x="159.05" y="311" rotation="270" width="198" height="22"/>
+    <XGLINE x="187" y="89" width="302" height="22"/>
+    <XGLINE x="508" y="83" width="302" height="22"/>
+    <XGLINE x="831" y="90" width="274" height="22"/>
+    <XGLINE x="1129.3999999999999" y="107.35000000000002" rotation="70" width="274" height="22"/>
+    <XGLINE x="342" y="597.9000000000001" rotation="240" width="169" height="22"/>
+    <XGLINE x="247.05" y="430" rotation="270" width="198" height="22"/>
+    <XGLINE x="264.04999999999995" y="208.45" rotation="355" width="176" height="22"/>
+    <XGLINE x="464" y="200" rotation="50" width="149" height="22"/>
+    <XGLINE x="565.7" y="325.65" rotation="10" width="169" height="22"/>
+    <XGLINE x="739.75" y="349.9" rotation="300" width="169" height="22"/>
+    <XGLINE x="847" y="189" width="213" height="22"/>
+    <XGLINE x="1080.95" y="213" rotation="75" width="247" height="22"/>
+    <XGLINE x="1140.4500000000003" y="482.8999999999999" rotation="120" width="121" height="22"/>
+  </Components>
+</Configration>

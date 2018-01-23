@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration Width="1436" Height="713">
+  <LIST>
+    <Component>
+      <MJ/>
+    </Component>
+    <Image>
+      <F5NODE source="mapAssets/mapImages/F5Node.png" group="map"/>
+      <TULI source="assets/comp/TULI/TULI.png"/>
+      <LCF5 source="assets/comp/LCF5.png"/>
+      <MJN source="assets/comp/TULI/MJN.png"/>
+      <MJA source="assets/comp/TULI/MJA.png"/>
+      <MJOPEN source="assets/comp/MJOPEN.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F5NODE x="2" y="-1" height="714" source="mapAssets/mapImages/F5Node.png" width="1434" group="map"/>
+    <TULI x="1200" y="581" height="124" source="assets/comp/TULI/TULI.png" width="225" group="tuli"/>
+    <LCF5 x="10" y="10" height="92" source="assets/comp/LCF5.png" width="110" group="bg"/>
+    <MJN source="assets/comp/TULI/MJN.png" scaleX="0.5" scaleY="0.5" x="1235" y="636" width="80" group="tuli" height="80"/>
+    <MJA source="assets/comp/TULI/MJA.png" scaleX="0.5" scaleY="0.5" x="1350" y="636" width="80" group="tuli" height="80"/>
+    <TEXT width="32" height="19" text="关门" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" y="611" borderVisible="false" color="0x444444" param="" fontFamily="微软雅黑" x="1238" textAlign="center" group="commonComp" deviceID="" sizeAuto="true"/>
+    <TEXT width="32" height="19" text="报警" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" y="611" borderVisible="false" color="0x444444" param="" fontFamily="微软雅黑" x="1353" textAlign="center" group="commonComp" deviceID="" sizeAuto="true"/>
+    <MJ deviceID="1390025" y="170" source="assets/comp/MJ/bg.png" deviceName="MJ-5F-5-DO1" scaleY="0.3" scaleX="0.3" x="1009" width="80" group="deviceComp" height="80" mark="MJ"/>
+    <TEXT group="commonComp" textAlign="center" fontSize="14" fontFamily="微软雅黑" width="62" height="19" deviceID="" text="电梯机房" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="1" contentBackgroundColor="16777215" borderVisible="false" y="198" param="" x="989" color="255" sizeAuto="true"/>
+    <TEXT width="32" height="19" text="开门" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontSize="14" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="0" y="611" borderVisible="false" color="0x444444" param="" fontFamily="微软雅黑" x="1296" textAlign="center" group="commonComp" deviceID="" sizeAuto="true"/>
+    <MJOPEN source="assets/comp/MJOPEN.png" scaleX="0.5" scaleY="0.5" x="1292" y="634" width="80" group="bg" height="80"/>
+    <MJ deviceID="1390042" y="370" source="assets/comp/MJ/bg.png" deviceName="MJ-5H-S01" scaleY="0.3" scaleX="0.3" x="1108" width="80" group="deviceComp" height="80" mark="MJ"/>
+    <MJ deviceID="1390043" y="393" source="assets/comp/MJ/bg.png" deviceName="MJ-5H-D02" scaleY="0.3" scaleX="0.3" x="1071" width="80" group="deviceComp" height="80" mark="MJ"/>
+    <TEXT group="commonComp" textAlign="center" fontSize="14" fontFamily="微软雅黑" width="62" height="19" deviceID="" text="电梯机房" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="1" contentBackgroundColor="16777215" borderVisible="false" y="420" param="" x="1051" color="255" sizeAuto="true"/>
+    <TEXT group="commonComp" textAlign="center" fontSize="14" fontFamily="微软雅黑" width="33" height="19" deviceID="" text="LT28" borderColor="0xffffff" source="assets/comp/TEXTINPUT/label.png" fontWeight="normal" widthInChars="4" contentBackgroundAlpha="1" contentBackgroundColor="16777215" borderVisible="false" y="348" param="" x="1103" color="255" sizeAuto="true"/>
+  </Components>
+</Configration>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1067.6912751677853" Height="513">
+  <LIST>
+    <Component>
+      <EAF/>
+      <HANDAUTO/>
+    </Component>
+    <Image>
+      <DFG source="assets/comp/dfg.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <DFG rotation="0" scale="0.6" x="123" y="226"/>
+    <EAF isPop="false" popType="list" deviceID="457" rotation="0" scale="0.6" x="291" y="242"/>
+    <TEXT text="排风" fontFamily="黑体" widthInChars="2" color="16777215" textAlign="right" deviceID="" rotation="0" param="" fontWeight="normal" fontSize="20" scale="1" x="483" y="260"/>
+    <TEXT text="回风" fontFamily="黑体" widthInChars="2" color="16777215" textAlign="right" deviceID="" rotation="0" param="" fontWeight="normal" fontSize="20" scale="1" x="118" y="259"/>
+    <HANDAUTO deviceID="457" alarm="HANDAUTO" rotation="0" scale="1" param="handAuto" x="351" y="285"/>
+    <TEXT text="12" fontFamily="Arial" widthInChars="12" color="65280" textAlign="right" deviceID="76" rotation="0" param="deviceName" fontWeight="normal" fontSize="16" scale="1" x="66" y="28"/>
+    <LABEL text="" fontFamily="digifaw" widthInChars="9" color="65280" textAlign="right" deviceID="457" rotation="0" param="runTime" fontWeight="normal" fontSize="12" scale="1" x="332" y="207"/>
+    <TEXT text="运行时间" fontFamily="Arial" widthInChars="4" color="16777215" textAlign="right" deviceID="" rotation="0" param="" fontWeight="normal" fontSize="12" scale="1" x="352" y="184"/>
+    <LABEL text="900ppm" fontFamily="digifaw" widthInChars="7" color="65280" textAlign="right" deviceID="457" rotation="0" param="inCO" fontWeight="normal" fontSize="12" scale="1" x="213" y="204"/>
+    <TEXT text="CO浓度" fontFamily="Arial" widthInChars="4" color="16777215" textAlign="right" deviceID="" rotation="0" param="" fontWeight="normal" fontSize="12" scale="1" x="157" y="207"/>
+    <TEXT text="CO设定" fontFamily="Arial" widthInChars="4" color="16777215" textAlign="right" deviceID="" rotation="0" param="" fontWeight="normal" fontSize="12" scale="1" x="157" y="184"/>
+    <LABEL text="900ppm" fontFamily="digifaw" widthInChars="7" color="65280" textAlign="right" deviceID="457" rotation="0" param="inCOSet" fontWeight="normal" fontSize="12" scale="1" x="213" y="181"/>
+  </Components>
+</Configration>

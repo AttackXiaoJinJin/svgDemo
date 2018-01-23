@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><Configration Width="1061.8187919463087" Height="542">
+  <LIST>
+    <Component>
+      <LDCQ/>
+    </Component>
+    <Image>
+      <F1NODE source="assets/comp/F1Node.png"/>
+    </Image>
+  </LIST>
+  <Components>
+    <F1NODE scale="0.5" rotation="0" x="5" y="10"/>
+    <LDCQ scale="1" rotation="0" deviceID="" x="381" y="206"/>
+  </Components>
+</Configration>

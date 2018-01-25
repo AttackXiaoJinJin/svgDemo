@@ -32,27 +32,88 @@ var textDeviceArray=[]
 var textParamArray=[]
 //json文字的值
 var jsonTextArray=[]
-
+//总长
+var alllength=0
+//现在的长
+var nowlength=0
+//剩下的长
+var leftlength=0
 
 window.onload=function () {
   deviceIDArray.unshift('')
   $("#showSVG").click(function () {
+    //外面===============================================================
     //初始化
     drawTextArray=[]
-    let svg=null
+    // let svg=null
     let jsonOne="../json/hotOne.json"
     //同步
     $.ajaxSettings.async = false
-    mouseWheel()
+    // mouseWheel()
+    //配置的xml
     let cptArray=analysisCompoentsOne()
     // let xmlAddress="../lyxtxtjgt.xml"
-    let xmlAddress="../1.xml"
+    // let xmlAddress="../F1VideoNode.xml"
+    let xmlAddress="../0.xml"
     // let xmlAddress="../NLightPlan.xml"
     // let xmlAddress="../NLightPlan1.xml"
+    //当前的xml
+    // let nowArray=analysisNow(xmlAddress)
+    //创建svg画布
+    var xmlFileName=xmlAddress
+    var xmlDoc
+    //IE
+    if((/Trident\/7\./).test(navigator.userAgent)){
+      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+    }else{
+      xmlDoc=document.implementation.createDocument("","",null);
+    }
+    xmlDoc.async=false
+    xmlDoc.load(xmlFileName)
+    var Configration=xmlDoc.documentElement
+    var ConfigWidth=Configration.getAttribute("Width")
+    var ConfigHeight=Configration.getAttribute("Height")
+    //创建svg画布
+    let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
+    // console.log("每次创建先清除元素")
+    // svg.clear()
+    var LIST=xmlDoc.documentElement.childNodes[0]
+    var LISTImage=LIST.childNodes[1]
+    var LISTImageChildren=LISTImage.childNodes
+    // console.log(LISTImage.childNodes.length)
+    var Components=xmlDoc.documentElement.childNodes[1]
+    var ComponentsChildren=Components.childNodes
+    //改变图片
+    var changImg=false
+    let imgnum=0
+    //====================================================================
+    alllength=ComponentsChildren.length
+    let a=5
+    nowlength=parseInt(alllength/a)
+    leftlength=alllength-nowlength
     //画图
-    analysisXML(svg,cptArray,xmlAddress)
+    // while(a){
+    //   a--
+    console.time()
+    // var canvas = document.createElement('canvas');
+    // var context = canvas.getContext('2d');  //取得画布的2d绘图上下文
+
+      analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,alllength)
+    console.timeEnd()
+    // setTimeout(
+    //   analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,leftlength)
+    //   ,100000)
+    // }
+
     //动图和文字
     runAndAlarm()
+    // var innerSVG = $("svg")[0].innerHTML
+    // var fixedSVG = svgfix(innerSVG);
+    // canvg("canvas-result", fixedSVG, {
+    //   renderCallback : function() {
+    //     render();
+    //   }
+    // });
   })
   //夜景照明，模式预览
 
@@ -61,24 +122,16 @@ window.onload=function () {
       $("svg").css("z-index",0)
       $("#patternPreview")[0].innerText="停止预览"
     }else if($("#patternPreview")[0].innerText==="停止预览"){
-      $("svg").css("z-index",-1)
+      $("svg").css("z-index",0)
       $("#patternPreview")[0].innerText="模式预览"
     }
 
   })
 
-
-
   //视频关闭按钮
   $("#vt_btn").click(function () {
     $("#infoVideo").css("display","none")
   })
-  
-
-
-
-
-
 }
 
 function infoDoor() {
@@ -132,403 +185,281 @@ function infoDoor() {
 /*
 * 解析导出的xml文件
 * */
-function analysisXML(svg,cptArray,xmlAddress) {
-  let xmlFileName=xmlAddress
-  let xmlDoc
-  //IE
-  if((/Trident\/7\./).test(navigator.userAgent)){
-    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-  }else{
-    xmlDoc=document.implementation.createDocument("","",null);
-  }
-  xmlDoc.async=false
-  xmlDoc.load(xmlFileName)
-  let Configration=xmlDoc.documentElement
-  // console.log(Configration.nodeName)
-  let ConfigWidth=Configration.getAttribute("Width")
-  let ConfigHeight=Configration.getAttribute("Height")
-  //创建svg画布
-  svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
+function nowXML(){
 
-  let LIST=xmlDoc.documentElement.childNodes[0]
-  let LISTImage=LIST.childNodes[1]
-  let LISTImageChildren=LISTImage.childNodes
-  // console.log(LISTImage.childNodes.length)
-  let Components=xmlDoc.documentElement.childNodes[1]
-  let ComponentsChildren=Components.childNodes
-  //改变图片
-  var changImg=false
+}
+
+
+function analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,alength) {
+
+
   //优化循环
-  for (let i=0,m=ComponentsChildren.length;i<m;i++) {
-    // console.log(ComponentsChildren[i].nodeName)
-    if (ComponentsChildren[i].nodeName !== "#comment") {
-      let imageSource = ComponentsChildren[i].getAttribute("source")
-      //如果没有source就从listimg中寻找
-      if (!imageSource) {
-        for (let j = 0, n = LISTImageChildren.length; j < n; j++) {
-          if (ComponentsChildren[i].nodeName === LISTImageChildren[j].nodeName) {
-            imageSource = LISTImageChildren[j].getAttribute("source")
-          }
-        }
-      }
-      let nodename = ComponentsChildren[i].nodeName
-      // console.log(nodename)
-      let group = ComponentsChildren[i].getAttribute("group")
-      let image = null
-      let width = ComponentsChildren[i].getAttribute("width")
-      let height = ComponentsChildren[i].getAttribute("height")
-      //匹配大背景图片
-      if (group === "map" &&  !width) {
-        width = ConfigWidth
-        height = ConfigHeight
-      }
-
-      let scaleX = ComponentsChildren[i].getAttribute("scaleX")
-      let scaleY = ComponentsChildren[i].getAttribute("scaleY")
-      let param = ComponentsChildren[i].getAttribute("param")
-      //风扇
-      let mark = ComponentsChildren[i].getAttribute("mark")
-
-      let fontSize=null
-      if (ComponentsChildren[i].getAttribute("fontSize")) {
-        fontSize = ComponentsChildren[i].getAttribute("fontSize")
-      }
-      let textAlign=null
-      if (ComponentsChildren[i].getAttribute("textAlign")) {
-        textAlign = ComponentsChildren[i].getAttribute("textAlign")
-      }
-      let isControl=null
-      if(ComponentsChildren[i].getAttribute("isControl")){
-        isControl=ComponentsChildren[i].getAttribute("isControl")
-      }
-
-
-      let compname = ComponentsChildren[i].getAttribute("compname")
-      let deviceID = ComponentsChildren[i].getAttribute("deviceID")
-      let deviceName = ComponentsChildren[i].getAttribute("deviceName")
-      let isMouseOverTip = ComponentsChildren[i].getAttribute("isMouseOverTip")
-
-      let x = ComponentsChildren[i].getAttribute("x")
-      let y = ComponentsChildren[i].getAttribute("y")
-      // 文字以paramid标识
-      let paramID = ComponentsChildren[i].getAttribute("paramID")
-      //20001 63
-      let deviceParam = deviceID + paramID
-      //数组保存参数
-      var handAuto = new Array()
-      var hzStatus = new Array()
-      var inStress = new Array()
-      //组件宽高缩放
-      if (scaleX) {
-        width = parseInt(width) * parseFloat(scaleX)
-      }
-      if (scaleY) {
-        height = parseInt(height) * parseFloat(scaleY)
-      }
-
-      let rotate = 0
-      if (ComponentsChildren[i].getAttribute("rotation")) {
-        rotate = parseInt(ComponentsChildren[i].getAttribute("rotation"))
-      }
-
-      let lb3;
-      //如果是要绘制文字的话===========================================
-      if (ComponentsChildren[i].getAttribute("text")) {
-        let color = ComponentsChildren[i].getAttribute("color")
-        let contentBackgroundColor = ComponentsChildren[i].getAttribute("contentBackgroundColor")
-        let contentBackgroundAlpha = ComponentsChildren[i].getAttribute("contentBackgroundAlpha")
-
-        color = color.indexOf("#") === -1 ? colorTransformation(parseInt(color)) : color
-        // console.log(color)
-        let fontFamily = ComponentsChildren[i].getAttribute("fontFamily")
-        //优先绘制黑色背景框
-        if (fontFamily === "digifaw" || (parseInt(contentBackgroundAlpha) === 1 && parseInt(contentBackgroundColor) === 0)) {
-          svg.rect(x, y, width ? width - 5 : 40, height ? height : 20).attr({
-            "fill": "black"
-          })
-        }
-
-        let fontWeight = ComponentsChildren[i].getAttribute("fontWeight")
-        let textX = parseInt(x) + parseInt(width ? width - 5 : 40) / 2
-        let textY = parseInt(y) + parseInt(height ? height : 20) / 2
-        let text = ComponentsChildren[i].getAttribute("text")
-        //绘制文字
-        let drawText = svg.text(textX, textY, text)
-        drawText.attr({
-          "font-size": fontSize + "px",
-          "text-align": textAlign,
-          cursor: 'pointer',
-          'fill': color,
-          'text-anchor': 'middle',
-          'font-family': fontFamily,
-          'font-weight': fontWeight
-        })
-        //给文字加id
-        drawText.node.setAttribute("deviceId", deviceID)
-        drawText.node.setAttribute("paramId", paramID)
-
-        //=================================
-        //根据json绘制文字
-        if (fontFamily === "digifaw") {
-          // drawTextArray.push(drawText)
-          // textDeviceArray.push(deviceID)
-          // textParamArray.push(paramID)
-          if (paramID == 63 && deviceID == 30005) {
-            // console.log("aaa")
-            drawTextArray.push(drawText)
-          }
-        }
-      }
-      //====================================上面是文字
-      //图片====================================
-      else {
-        let simg =null
-          simg=svg.image(imageSource, x, y, width, height)
-          simg.attr({
-            cursor: 'pointer',
-            //没有x,y即绕自身中心旋转
-            //以坐标x,y进行旋转
-            'transform': 'r' + rotate + ',' + x + ',' + y,
-          })
-          simg.mouseout(function () {
-            $("#infoDiv")
-              .css("display", "none")
-          })
-
-        //添加ID
-        //是设备图片
-        if (group === "deviceComp" || group === "commonComp") {
-          //  夜景照明悬浮变换=========================================================
-          if(isControl==="true" && group==="commonComp"){
-            simg.mouseover(function () {
-              //替换字符串
-              if($("#"+deviceID)[0].getAttribute("href").indexOf("bg.png")>-1){
-                $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/bg.png/, "control1/0/1.png"))
-              }else if($("#"+deviceID)[0].getAttribute("href").indexOf("control1/0/1.png")>-1){
-                $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/control1\/0\/1.png/, "bg.png"))
-              }
-
-            })
-              .mouseout(function () {
-                if($("#"+deviceID)[0].getAttribute("href").indexOf("bg.png")>-1){
-                  $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/bg.png/, "control1/0/1.png"))
-                }else if($("#"+deviceID)[0].getAttribute("href").indexOf("control1/0/1.png")>-1){
-                  $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/control1\/0\/1.png/, "bg.png"))
-                }
-
-              })
-
-          }
-          //end=================================
-          //夜景照明点击变换==============================
-          // if(group==="commonComp" && param==="control"){
-          //   simg.click(function () {
-          //
-          //   })
-          // }
-          //===========================================
-          simg.node.setAttribute('id', deviceID)
-          simg.node.setAttribute('display', 'block')
-          if (deviceID) {
-            deviceIDArray.push(deviceID.toString())
-          }
-          //添加id,速度,数量
-          getImgNum(deviceID, nodename, imageSource)
-          drawRunAndAlarm(deviceID, nodename, cptArray, x, y, scaleX, scaleY, svg, imageSource, simg)
-          //=================================
-          simg.click(function (e) {
-            // console.log("aaa")
-            //  弹窗
-            if (e.target.getAttribute("isPop")) {
-              //弹窗类型
-              let mouseEvent = ""
-              switch (e.target.getAttribute("popType")) {
-                //  视频
-                case "video":
-                  mouseEvent = "video"
-                  $("#infoVideo").css("display", "block")
-                  $("#video_content")[0].innerText = deviceID
-                  break;
-                //空调
-                case "redirect":
-                  mouseEvent = "redirect";
-                  break;
-                //门禁管理
-                case "list":
-                  mouseEvent = "list";
-                  deviceID = 1390069
-                  // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
-                  break;
-                //  CO探测器
-                case "line":
-                  mouseEvent = "line";
-                  break;
-                //  温度探测器
-                case "chart":
-                  mouseEvent = "chart";
-                  break;
-                //  退出按钮
-                case "btn":
-                  mouseEvent = "btn";
-                  break;
-                //消防摄像机
-                case "videoSub":
-                  mouseEvent = "videoSub";
-                  break;
-                //客流黄色按钮
-                case "yBtn":
-                  mouseEvent = "yBtn";
-                  break;
-                //  客流橙色按钮
-                case "oBtn":
-                  mouseEvent = "oBtn";
-                  break;
-                //客流红色按钮
-                case "rBtn":
-                  mouseEvent = "rBtn";
-                  break;
-                //方法按钮
-                case "funcBtn":
-                  mouseEvent = "funcBtn";
-                  break;
-                  //夜景照片开关按钮
-                case "ssctrl":
-                  mouseEvent = "ssctrl";
-                  //替换字符串,图片切换=========================
-                  if($("#"+deviceID)[0].getAttribute("href").indexOf("bg.png")>-1){
-                    $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/bg.png/, "control1/0/1.png"))
-                  }else if($("#"+deviceID)[0].getAttribute("href").indexOf("control1/0/1.png")>-1){
-                    $("#"+deviceID)[0].setAttribute("href",$("#"+deviceID)[0].getAttribute("href").replace(/control1\/0\/1.png/, "bg.png"))
-                  }
-                  //按钮切换=========================
-                  if(e.target.getAttribute("href")==="assets/comp/SSCTRL/control/0/1.png"){
-                    e.target.setAttribute("href","assets/comp/SSCTRL/control/1/1.png")
-                  }else if(e.target.getAttribute("href")==="assets/comp/SSCTRL/control/1/1.png"){
-                    e.target.setAttribute("href","assets/comp/SSCTRL/control/0/1.png")
-                  }
-
-
-                  break;
-
-
-              }
-
-            }
-
-          }).mouseover(function (e) {
-            // .mouseenter(function (e) {
-            // time = (new Date()).getTime();
-            // console.log(time)
-            //鼠标悬停有事件
-            if (isMouseOverTip || e.target.getAttribute("isToolTip")) {
-              let mouseEvent = "isMouseOverTip"
-              // console.log(deviceID)
-              //改变数据
-              // $("#deviceName").text(deviceName)
-              // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
-              // $("#hzStatus").text(hzStatus[deviceID])
-              // $("#inStress").text(inStress[deviceID])
-              //=======================================
-              deviceID = 1390069
-              //读取单个json
-              // getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent)
-              //======================================
-
-            }
-          })
-
+  // for (var i=0,m=ComponentsChildren.length;i<m;i++){
+  for (var i=0,m=alength;i<m;i++){
+    var imageSource=ComponentsChildren[i].getAttribute("source");
+    // imageSource= '/'+$rootScope.serPath+'/static/'+ComponentsChildren[i].getAttribute("source");
+    // imageSource="../1.svg"
+    //如果没有source就从listimg中寻找
+    if(!imageSource){
+      for(var j=0,n=LISTImageChildren.length;j<n;j++){
+        if(ComponentsChildren[i].nodeName===LISTImageChildren[j].nodeName){
+          imageSource=LISTImageChildren[j].getAttribute("source")
 
         }
       }
-      //==========else
     }
+
+    var nodename=ComponentsChildren[i].nodeName
+    // console.log(nodename)
+    var group=ComponentsChildren[i].getAttribute("group")
+    var image=null
+    var width=ComponentsChildren[i].getAttribute("width")
+    var height=ComponentsChildren[i].getAttribute("height")
+    //匹配大背景图片
+    if(group==="map"){
+      // imageSource="../F1Node-mask.svg"
+      // imageSource='/'+$rootScope.serPath+'/static/retailers/'+$rootScope.gcID.toLowerCase()+'/'+ComponentsChildren[i].getAttribute("source");
+      width=!width?ConfigWidth:width
+      // console.log(width,"width")
+      // console.log("aaaaa")
+      height=!height?ConfigHeight:height
+    }
+
+    var scaleX=ComponentsChildren[i].getAttribute("scaleX")
+    var scaleY=ComponentsChildren[i].getAttribute("scaleY")
+    var param=ComponentsChildren[i].getAttribute("param")
+    //风扇
+    var mark=ComponentsChildren[i].getAttribute("mark")
+
+    var fontSize
+    if(ComponentsChildren[i].getAttribute("fontSize")){
+      fontSize=ComponentsChildren[i].getAttribute("fontSize")
+    }
+    var textAlign
+    if(ComponentsChildren[i].getAttribute("textAlign")){
+      textAlign=ComponentsChildren[i].getAttribute("textAlign")
+    }
+
+    var compname=ComponentsChildren[i].getAttribute("compname")
+    var deviceID=ComponentsChildren[i].getAttribute("deviceID")
+    var deviceName=ComponentsChildren[i].getAttribute("deviceName")
+    var isMouseOverTip=ComponentsChildren[i].getAttribute("isMouseOverTip")
+
+    var x=ComponentsChildren[i].getAttribute("x")
+    var y=ComponentsChildren[i].getAttribute("y")
+    // 文字以paramid标识
+    var paramID=ComponentsChildren[i].getAttribute("paramID")
+    //20001 63
+    var deviceParam=deviceID+paramID
+    //数组保存参数
+    var handAuto=new Array()
+    var hzStatus=new Array()
+    var inStress=new Array()
+    //组件宽高缩放
+    if(scaleX){
+      width=parseInt(width)*parseFloat(scaleX)
+    }
+    if(scaleY){
+      height=parseInt(height)*parseFloat(scaleY)
+    }
+
+    var rotate=0
+    if(ComponentsChildren[i].getAttribute("rotation")){
+      rotate=parseInt(ComponentsChildren[i].getAttribute("rotation"))
+    }
+
+    var lb3;
+    //如果是要绘制文字的话===========================================
+    if(ComponentsChildren[i].getAttribute("text")){
+      var color=ComponentsChildren[i].getAttribute("color")
+      var contentBackgroundColor=ComponentsChildren[i].getAttribute("contentBackgroundColor")
+      var contentBackgroundAlpha=ComponentsChildren[i].getAttribute("contentBackgroundAlpha")
+
+      color=color.indexOf("#")===-1?colorTransformation(parseInt(color)):color
+      // console.log(color)
+      var fontFamily=ComponentsChildren[i].getAttribute("fontFamily")
+      //优先绘制黑色背景框
+      // if(fontFamily==="digifaw" || (parseInt(contentBackgroundAlpha)===1 && parseInt(contentBackgroundColor)===0)){
+      //   svg.rect(x, y, width?width-5:40, height?height:20).attr({
+      //     "fill": "black"
+      //   })
+      // }
+
+      var fontWeight=ComponentsChildren[i].getAttribute("fontWeight")
+      var textX=parseInt(x)+parseInt(width?width-5:40)/2
+      var textY=parseInt(y)+parseInt(height?height:20)/2
+      var text=ComponentsChildren[i].getAttribute("text")
+      //绘制文字
+      // var drawText=svg.text(textX,textY,text)
+      // drawText.attr({
+      //   "font-size":fontSize+"px",
+      //   "text-align":textAlign,
+      //   cursor:'pointer',
+      //   'fill':color,
+      //   'text-anchor':'middle',
+      //   'font-family':fontFamily,
+      //   'font-weight':fontWeight
+      // })
+      //给文字加id
+      // drawText.node.setAttribute("deviceId",deviceID)
+      // drawText.node.setAttribute("paramId",paramID)
+
+      //=================================
+      //根据json绘制文字
+      // if(fontFamily==="digifaw"){
+      // drawTextArray.push(drawText)
+      // textDeviceArray.push(deviceID)
+      // textParamArray.push(paramID)
+      // if(paramID == 63 && deviceID==30005){
+      // console.log("aaa")
+      // drawTextArray.push(drawText)
+      // }
+      // }
+    }
+    //====================================上面是文字
+    //图片====================================
+    else{
+      // imgnum++
+      // console.log(imgnum)
+      var simg=svg.image(imageSource,x,y,width,height)
+      //	能不加就不加
+      if(rotate){
+        simg.attr({
+          // cursor:'pointer',
+          //没有x,y即绕自身中心旋转
+          //以坐标x,y进行旋转
+          'transform':'r'+rotate+','+x+','+y,
+        })
+      }
+
+      // simg.mouseover(function (e) {
+      //   // .mouseenter(function (e) {
+      //   // time = (new Date()).getTime();
+      //   // console.log(time)
+      //   //鼠标悬停有事件
+      //   // if(isMouseOverTip){
+      //     // console.log(deviceID)
+      //     //改变数据
+      //     // $("#deviceName").text(deviceName)
+      //     // $("#handAuto").text(handAuto[deviceID]?"自动":"手动")
+      //     // $("#hzStatus").text(hzStatus[deviceID])
+      //     // $("#inStress").text(inStress[deviceID])
+      //     //=======================================
+      //     //读取单个json
+      //     //getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth)
+      //     //======================================
+      //
+      //   // }
+      // })
+      // .mouseout(function () {
+      //   // $("#infoDiv")
+      //   //   .css("display","none")
+      // })
+
+      //添加ID
+      //是设备图片
+      if(group==="deviceComp" || group==="commonComp"){
+        simg.node.setAttribute('id',deviceID)
+        // simg.node.setAttribute('display','block')
+        if(deviceID){deviceIDArray.push(deviceID.toString())}
+        //添加id,速度,数量
+        getImgNum(deviceID,nodename,imageSource)
+        drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,imageSource,simg)
+        //=================================
+
+        // simg.click(function (e) {
+        //   // //切换成自动
+        //   // if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
+        //   //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
+        //   //   handAuto[deviceID]=true
+        //   // }
+        //   // // //切换成手动
+        //   // else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
+        //   //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
+        //   //   handAuto[deviceID]=false
+        //   // }
+        //
+        // })
+      }
+    }
+    //==========else
   }
   //=============循环
 
-  //设置画布的属性
-  let svgEle=document.querySelector("svg")
-  svgEle.style.border="1px red solid"
-  //居中
-  svgEle.style.left='50%'
-  svgEle.style.top='50%'
-  svgEle.style.marginLeft="-"+parseInt(ConfigWidth)/2+"px"
-  svgEle.style.marginTop="-"+parseInt(ConfigHeight)/2+"px"
-  paperLeft=parseInt($("#readSVG").css("width"))/2-parseInt(ConfigWidth)/2
-  paperTop=parseInt($("#readSVG").css("height"))/2-parseInt(ConfigHeight)/2
-  let children=svgEle.childNodes
+
 }
 //============解析xml
 
 //缩放
-function scale(r) {
-  let readSVG=$("#readSVG")
-  // $(document.body).css("-ms-transform","scale("+r+")")
-  readSVG.css("-ms-transform","scale("+r+")")
-  $(window).resize(function() {
-    // $(document.body).css("-ms-transform","scale("+r+")")
-    readSVG.css("-ms-transform","scale("+r+")")
-  })
-}
+// function scale(r) {
+//   let readSVG=$("#readSVG")
+//   // $(document.body).css("-ms-transform","scale("+r+")")
+//   readSVG.css("-ms-transform","scale("+r+")")
+//   $(window).resize(function() {
+//     // $(document.body).css("-ms-transform","scale("+r+")")
+//     readSVG.css("-ms-transform","scale("+r+")")
+//   })
+// }
 
 //滚轮滚动
-function mouseWheel() {
-  let r=1
-  window.addEventListener("mousewheel",function(event){
-    event.delta = event.wheelDelta /120
-    //1为向上滚动，放大
-    if(event.delta===1){
-      r+=0.1
-      console.log(r)
-    }else if(event.delta===-1){
-      r-=0.1
-    }
-    scale(r)
-  },false)
-
-//  拖动画布
-  dragSVG(r)
-}
+// function mouseWheel() {
+//   let r=1
+//   window.addEventListener("mousewheel",function(event){
+//     event.delta = event.wheelDelta /120
+//     //1为向上滚动，放大
+//     if(event.delta===1){
+//       r+=0.1
+//       console.log(r)
+//     }else if(event.delta===-1){
+//       r-=0.1
+//     }
+//     scale(r)
+//   },false)
+//
+// //  拖动画布
+//   dragSVG(r)
+// }
 
 //拖拽画布
-function dragSVG(r) {
-  let flag=false
-
-  let readSVG=document.querySelector("#readSVG")
-  readSVG.onmousedown=function (event) {
-    readSVG.setCapture && readSVG.setCapture()
-    event=event || window.event
-    //求div的偏移量
-    let ol=event.clientX - readSVG.offsetLeft
-    let ot=event.clientY-readSVG.offsetTop
-    console.log(readSVG.offsetTop,"readSVG.offsetTop")
-    // console.log(ol)
-    document.onmousemove=function (event) {
-      // console.log("onmousemove")
-      event=event || window.event
-      let mouseLeft=event.clientX
-      let mouseTop=event.clientY
-      let divLeft=mouseLeft-ol
-      let divTop=mouseTop-ot
-      // console.log(divTop,"divTop")
-      svgLeft=divLeft
-      svgTop=divTop
-      readSVG.style.left=divLeft+"px"
-      readSVG.style.top=divTop+"px"
-    }
-    //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
-    //事件，而不是box1的
-    document.onmouseup=function () {
-      document.onmousemove=null;
-      //当onmousemove销毁后，onmouseup仍然存在，故要销毁
-      document.onmouseup=null;
-      //当鼠标松开取消捕获
-      //兼容IE8
-      readSVG.releaseCapture && readSVG.releaseCapture();
-    }
-    //拖拽时取消浏览器搜索引擎的行为
-    return false
-  }
-}
+// function dragSVG(r) {
+//   let flag=false
+//
+//   let readSVG=document.querySelector("#readSVG")
+//   readSVG.onmousedown=function (event) {
+//     readSVG.setCapture && readSVG.setCapture()
+//     event=event || window.event
+//     //求div的偏移量
+//     let ol=event.clientX - readSVG.offsetLeft
+//     let ot=event.clientY-readSVG.offsetTop
+//     console.log(readSVG.offsetTop,"readSVG.offsetTop")
+//     // console.log(ol)
+//     document.onmousemove=function (event) {
+//       // console.log("onmousemove")
+//       event=event || window.event
+//       let mouseLeft=event.clientX
+//       let mouseTop=event.clientY
+//       let divLeft=mouseLeft-ol
+//       let divTop=mouseTop-ot
+//       // console.log(divTop,"divTop")
+//       svgLeft=divLeft
+//       svgTop=divTop
+//       readSVG.style.left=divLeft+"px"
+//       readSVG.style.top=divTop+"px"
+//     }
+//     //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
+//     //事件，而不是box1的
+//     document.onmouseup=function () {
+//       document.onmousemove=null;
+//       //当onmousemove销毁后，onmouseup仍然存在，故要销毁
+//       document.onmouseup=null;
+//       //当鼠标松开取消捕获
+//       //兼容IE8
+//       readSVG.releaseCapture && readSVG.releaseCapture();
+//     }
+//     //拖拽时取消浏览器搜索引擎的行为
+//     return false
+//   }
+// }
 //=============================
 
 function getJSON(deviceID,x,y,width,height,ConfigHeight,ConfigWidth,mouseEvent) {
@@ -719,61 +650,61 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
 //======================
 }
 
-function jsonStatus(address) {
-
-  //注意清空
-  jsonAlarmIDArray=[]
-  jsonRunIDArray=[]
-  jsonTextArray=[]
-  let param={}
-  let httpUrl
-  param.gcID='JSCZJTWY'
-  param.device=deviceIDArray.toString()
-  httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random()
-  //请求
-  $.ajax({
-    type:'get',
-    // type:'post',
-    url:httpUrl,
-    data:{'str':JSON.stringify(param) },
-    success:function (data) {
-      data=JSON.parse(data)
-      // console.log(data)
-      for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-        //===================alarm
-        if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
-          let id = groups[j].deviceID
-          jsonAlarmIDArray.push(id)
-          // console.log(jsonAlarmIDArray)
-        }else
-        //运行，即动画
-        //=============run
-        if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
-          let id = groups[j].deviceID
-          jsonRunIDArray.push(id)
-        }
-
-        if(groups[j].paramID === 63 && groups[j].deviceID===30005){
-          jsonTextArray.push(groups[j].statusEnValue)
-        }
-
-        // for(let i=0,m=textParamArray.length;i<m;i++){
-        //   if (groups[j].paramID+'' === textParamArray[i]+'' && groups[j].deviceID+'' === textDeviceArray[i]+'') {
-        //     jsonTextArray.push(textParamArray[i])
-        //     break;
-        //   }
-        // }
-
-
-      }
-    },
-    error:function (err) {
-    }
-
-  })
-
-
-}
+// function jsonStatus(address) {
+//
+//   //注意清空
+//   jsonAlarmIDArray=[]
+//   jsonRunIDArray=[]
+//   jsonTextArray=[]
+//   let param={}
+//   let httpUrl
+//   param.gcID='JSCZJTWY'
+//   param.device=deviceIDArray.toString()
+//   httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random()
+//   //请求
+//   $.ajax({
+//     type:'get',
+//     // type:'post',
+//     url:httpUrl,
+//     data:{'str':JSON.stringify(param) },
+//     success:function (data) {
+//       data=JSON.parse(data)
+//       // console.log(data)
+//       for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+//         //===================alarm
+//         if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
+//           let id = groups[j].deviceID
+//           jsonAlarmIDArray.push(id)
+//           // console.log(jsonAlarmIDArray)
+//         }else
+//         //运行，即动画
+//         //=============run
+//         if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
+//           let id = groups[j].deviceID
+//           jsonRunIDArray.push(id)
+//         }
+//
+//         if(groups[j].paramID === 63 && groups[j].deviceID===30005){
+//           jsonTextArray.push(groups[j].statusEnValue)
+//         }
+//
+//         // for(let i=0,m=textParamArray.length;i<m;i++){
+//         //   if (groups[j].paramID+'' === textParamArray[i]+'' && groups[j].deviceID+'' === textDeviceArray[i]+'') {
+//         //     jsonTextArray.push(textParamArray[i])
+//         //     break;
+//         //   }
+//         // }
+//
+//
+//       }
+//     },
+//     error:function (err) {
+//     }
+//
+//   })
+//
+//
+// }
 
 //十进制颜色转换为十六进制
 function colorTransformation(colorStr){
@@ -798,71 +729,7 @@ function colorTransformation(colorStr){
   // console.log(colorStr.toString())
   return colorStr.toString();
 }
-//解析配置文件
-function analysisCompoentsOne() {
-  let compoentsArray={}
-  // console.log("aaa")
-  let xmlFileName="../Components.xml"
-  let xmlDoc
-  //IE
-  if((/Trident\/7\./).test(navigator.userAgent)){
-    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-  }else{
-    xmlDoc=document.implementation.createDocument("","",null);
-  }
-  xmlDoc.async=false
-  xmlDoc.load(xmlFileName)
-  // let Components=xmlDoc.documentElement
-  let Component=xmlDoc.documentElement.childNodes[0]
-  let ComponentChildren=Component.childNodes
-  for(let i=0,m=ComponentChildren.length;i<m;i++){
-    //节点名
-    let childName=ComponentChildren[i].nodeName
-    //节点名下的孩子
-    let child=ComponentChildren[i].childNodes
-    compoentsArray[childName]={}
-    compoentsArray[childName]["running"]={}
-    compoentsArray[childName]["alarm"]={}
-    compoentsArray[childName]["mouseEvent"]={}
-    //==========获取点击，悬浮属性
-    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isPop")==="true"){
-      compoentsArray[childName]["mouseEvent"]["isPop"]=ComponentChildren[i].getAttribute("isPop")
-      compoentsArray[childName]["mouseEvent"]["popType"]=ComponentChildren[i].getAttribute("popType")
-    }
-    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isToolTip")==="true"){
-      compoentsArray[childName]["mouseEvent"]["isToolTip"]=ComponentChildren[i].getAttribute("isToolTip")
-    }
-    //=====================
 
-
-    if(child){
-      // console.log(childName)
-      //读取除第一个子节点的图片，如运行和报警
-      for(let j=0,n=child.length;j<n;j++){
-        if(child[j].getAttribute("param")==="runing"){
-          compoentsArray[childName]["running"]["imgX"]=child[j].getAttribute("x")
-          compoentsArray[childName]["running"]["imgY"]=child[j].getAttribute("y")
-          compoentsArray[childName]["running"]["imgWidth"]=child[j].getAttribute("width")
-          compoentsArray[childName]["running"]["imgHeight"]=child[j].getAttribute("height")
-          compoentsArray[childName]["running"]["imgSource"]=child[j].getAttribute("source")
-      }
-
-      if(child[j].getAttribute("param")==="alarm"){
-          compoentsArray[childName]["alarm"]["imgX"]=child[j].getAttribute("x")
-          compoentsArray[childName]["alarm"]["imgY"]=child[j].getAttribute("y")
-          compoentsArray[childName]["alarm"]["imgWidth"]=child[j].getAttribute("width")
-          compoentsArray[childName]["alarm"]["imgHeight"]=child[j].getAttribute("height")
-          compoentsArray[childName]["alarm"]["imgSource"]=child[j].getAttribute("source")
-      }
-      }
-    }
-
-
-
-  }
-  // console.log(compoentsArray)
-  return compoentsArray
-}
 
 //获取图片数量
 function getImgNum(deviceID,nodeName,imageSource) {
@@ -946,7 +813,7 @@ function runAndAlarm() {
     }
 
     //获取运行，报警数组和文字
-    jsonStatus()
+    // jsonStatus()
     // console.log(jsonTextArray)
     //根据json绘制文字
     // if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
@@ -1076,3 +943,245 @@ function runAndAlarm() {
 
 }
 
+//解析配置文件
+function analysisCompoentsOne() {
+  let compoentsArray={}
+  // console.log("aaa")
+  let xmlFileName="../Components.xml"
+  let xmlDoc
+  //IE
+  if((/Trident\/7\./).test(navigator.userAgent)){
+    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+  }else{
+    xmlDoc=document.implementation.createDocument("","",null);
+  }
+  xmlDoc.async=false
+  xmlDoc.load(xmlFileName)
+  // let Components=xmlDoc.documentElement
+  let Component=xmlDoc.documentElement.childNodes[0]
+  let ComponentChildren=Component.childNodes
+  for(let i=0,m=ComponentChildren.length;i<m;i++){
+    //节点名
+    let childName=ComponentChildren[i].nodeName
+    //节点名下的孩子
+    let child=ComponentChildren[i].childNodes
+    compoentsArray[childName]={}
+    compoentsArray[childName]["running"]={}
+    compoentsArray[childName]["alarm"]={}
+    compoentsArray[childName]["mouseEvent"]={}
+    //==========获取点击，悬浮属性
+    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isPop")==="true"){
+      compoentsArray[childName]["mouseEvent"]["isPop"]=ComponentChildren[i].getAttribute("isPop")
+      compoentsArray[childName]["mouseEvent"]["popType"]=ComponentChildren[i].getAttribute("popType")
+    }
+    if(ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isToolTip")==="true"){
+      compoentsArray[childName]["mouseEvent"]["isToolTip"]=ComponentChildren[i].getAttribute("isToolTip")
+    }
+    //=====================
+
+
+    if(child){
+      // console.log(childName)
+      //读取除第一个子节点的图片，如运行和报警
+      for(let j=0,n=child.length;j<n;j++){
+        if(child[j].getAttribute("param")==="runing"){
+          compoentsArray[childName]["running"]["imgX"]=child[j].getAttribute("x")
+          compoentsArray[childName]["running"]["imgY"]=child[j].getAttribute("y")
+          compoentsArray[childName]["running"]["imgWidth"]=child[j].getAttribute("width")
+          compoentsArray[childName]["running"]["imgHeight"]=child[j].getAttribute("height")
+          compoentsArray[childName]["running"]["imgSource"]=child[j].getAttribute("source")
+        }
+
+        if(child[j].getAttribute("param")==="alarm"){
+          compoentsArray[childName]["alarm"]["imgX"]=child[j].getAttribute("x")
+          compoentsArray[childName]["alarm"]["imgY"]=child[j].getAttribute("y")
+          compoentsArray[childName]["alarm"]["imgWidth"]=child[j].getAttribute("width")
+          compoentsArray[childName]["alarm"]["imgHeight"]=child[j].getAttribute("height")
+          compoentsArray[childName]["alarm"]["imgSource"]=child[j].getAttribute("source")
+        }
+      }
+    }
+
+
+
+  }
+  // console.log(compoentsArray)
+  return compoentsArray
+}
+
+//解析当前的文件
+// function analysisNow(xmlAddress) {
+//   let nowxmlArray = {}
+//   let xmlFileName = xmlAddress
+//   let xmlDoc
+//   //IE
+//   if ((/Trident\/7\./).test(navigator.userAgent)) {
+//     xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+//   } else {
+//     xmlDoc = document.implementation.createDocument("", "", null);
+//   }
+//   xmlDoc.async = false
+//   xmlDoc.load(xmlFileName)
+//   let Configration = xmlDoc.documentElement
+//   // console.log(Configration.nodeName)
+//   let ConfigWidth = Configration.getAttribute("Width")
+//   let ConfigHeight = Configration.getAttribute("Height")
+//   nowxmlArray["ConfigWidth"]=ConfigWidth
+//   nowxmlArray["ConfigHeight"]=ConfigHeight
+//
+//   let LIST = xmlDoc.documentElement.childNodes[0]
+//   let LISTImage = LIST.childNodes[1]
+//   let LISTImageChildren = LISTImage.childNodes
+//   // console.log(LISTImage.childNodes.length)
+//   let Components = xmlDoc.documentElement.childNodes[1]
+//   let ComponentsChildren = Components.childNodes
+//   alllength = ComponentsChildren.length
+//   nowlength = parseInt(alllength / 2)
+//   //改变图片
+//   var changImg = false
+//   // console.log(ComponentsChildren[i].nodeName)
+//   if (ComponentsChildren[i].nodeName !== "#comment") {
+//     let imageSource = ComponentsChildren[i].getAttribute("source")
+//     //如果没有source就从listimg中寻找
+//     if (!imageSource) {
+//       for (let j = 0, n = LISTImageChildren.length; j < n; j++) {
+//         if (ComponentsChildren[i].nodeName === LISTImageChildren[j].nodeName) {
+//           imageSource = LISTImageChildren[j].getAttribute("source")
+//         }
+//       }
+//     }
+//     let nodename = ComponentsChildren[i].nodeName
+//     // console.log(nodename)
+//     let group = ComponentsChildren[i].getAttribute("group")
+//     let image = null
+//     let width = ComponentsChildren[i].getAttribute("width")
+//     let height = ComponentsChildren[i].getAttribute("height")
+//     //匹配大背景图片
+//     if (group === "map" && !width) {
+//       width = ConfigWidth
+//       height = ConfigHeight
+//     }
+//
+//     let scaleX = ComponentsChildren[i].getAttribute("scaleX")
+//     let scaleY = ComponentsChildren[i].getAttribute("scaleY")
+//     let param = ComponentsChildren[i].getAttribute("param")
+//     //风扇
+//     let mark = ComponentsChildren[i].getAttribute("mark")
+//
+//     let fontSize = null
+//     if (ComponentsChildren[i].getAttribute("fontSize")) {
+//       fontSize = ComponentsChildren[i].getAttribute("fontSize")
+//     }
+//     let textAlign = null
+//     if (ComponentsChildren[i].getAttribute("textAlign")) {
+//       textAlign = ComponentsChildren[i].getAttribute("textAlign")
+//     }
+//     let isControl = null
+//     if (ComponentsChildren[i].getAttribute("isControl")) {
+//       isControl = ComponentsChildren[i].getAttribute("isControl")
+//     }
+//
+//
+//     let compname = ComponentsChildren[i].getAttribute("compname")
+//     let deviceID = ComponentsChildren[i].getAttribute("deviceID")
+//     let deviceName = ComponentsChildren[i].getAttribute("deviceName")
+//     let isMouseOverTip = ComponentsChildren[i].getAttribute("isMouseOverTip")
+//
+//     let x = ComponentsChildren[i].getAttribute("x")
+//     let y = ComponentsChildren[i].getAttribute("y")
+//     // 文字以paramid标识
+//     let paramID = ComponentsChildren[i].getAttribute("paramID")
+//     //20001 63
+//     let deviceParam = deviceID + paramID
+//     //数组保存参数
+//     var handAuto = new Array()
+//     var hzStatus = new Array()
+//     var inStress = new Array()
+//     //组件宽高缩放
+//     if (scaleX) {
+//       width = parseInt(width) * parseFloat(scaleX)
+//     }
+//     if (scaleY) {
+//       height = parseInt(height) * parseFloat(scaleY)
+//     }
+//
+//     let rotate = 0
+//     if (ComponentsChildren[i].getAttribute("rotation")) {
+//       rotate = parseInt(ComponentsChildren[i].getAttribute("rotation"))
+//     }
+//
+//     let lb3;
+//
+//
+//     //========================
+//
+//     // console.log("aaa")
+//     let xmlFileName = "../Components.xml"
+//     let xmlDoc
+//     //IE
+//     if ((/Trident\/7\./).test(navigator.userAgent)) {
+//       xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+//     } else {
+//       xmlDoc = document.implementation.createDocument("", "", null);
+//     }
+//     xmlDoc.async = false
+//     xmlDoc.load(xmlFileName)
+//     // let Components=xmlDoc.documentElement
+//     let Component = xmlDoc.documentElement.childNodes[0]
+//     let ComponentChildren = Component.childNodes
+//     for (let i = 0, m = ComponentChildren.length; i < m; i++) {
+//       //节点名
+//       let childName = ComponentChildren[i].nodeName
+//       //节点名下的孩子
+//       let child = ComponentChildren[i].childNodes
+//       compoentsArray[childName] = {}
+//       compoentsArray[childName]["running"] = {}
+//       compoentsArray[childName]["alarm"] = {}
+//       compoentsArray[childName]["mouseEvent"] = {}
+//       //==========获取点击，悬浮属性
+//       if (ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isPop") === "true") {
+//         compoentsArray[childName]["mouseEvent"]["isPop"] = ComponentChildren[i].getAttribute("isPop")
+//         compoentsArray[childName]["mouseEvent"]["popType"] = ComponentChildren[i].getAttribute("popType")
+//       }
+//       if (ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isToolTip") === "true") {
+//         compoentsArray[childName]["mouseEvent"]["isToolTip"] = ComponentChildren[i].getAttribute("isToolTip")
+//       }
+//       //=====================
+//
+//
+//       if (child) {
+//         // console.log(childName)
+//         //读取除第一个子节点的图片，如运行和报警
+//         for (let j = 0, n = child.length; j < n; j++) {
+//           if (child[j].getAttribute("param") === "runing") {
+//             compoentsArray[childName]["running"]["imgX"] = child[j].getAttribute("x")
+//             compoentsArray[childName]["running"]["imgY"] = child[j].getAttribute("y")
+//             compoentsArray[childName]["running"]["imgWidth"] = child[j].getAttribute("width")
+//             compoentsArray[childName]["running"]["imgHeight"] = child[j].getAttribute("height")
+//             compoentsArray[childName]["running"]["imgSource"] = child[j].getAttribute("source")
+//           }
+//
+//           if (child[j].getAttribute("param") === "alarm") {
+//             compoentsArray[childName]["alarm"]["imgX"] = child[j].getAttribute("x")
+//             compoentsArray[childName]["alarm"]["imgY"] = child[j].getAttribute("y")
+//             compoentsArray[childName]["alarm"]["imgWidth"] = child[j].getAttribute("width")
+//             compoentsArray[childName]["alarm"]["imgHeight"] = child[j].getAttribute("height")
+//             compoentsArray[childName]["alarm"]["imgSource"] = child[j].getAttribute("source")
+//           }
+//         }
+//       }
+//
+//
+//     }
+//     // console.log(compoentsArray)
+//     return compoentsArray
+//   }
+// }
+
+
+
+/*
+* 你的心里,可曾有个鬼，
+你可曾有否,与她同醉，
+你可曾与她,满饮此杯，
+你可曾与她,不醉不归*/

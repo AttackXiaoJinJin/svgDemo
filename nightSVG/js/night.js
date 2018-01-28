@@ -32,12 +32,7 @@ var textDeviceArray=[]
 var textParamArray=[]
 //json文字的值
 var jsonTextArray=[]
-//总长
-var alllength=0
-//现在的长
-var nowlength=0
-//剩下的长
-var leftlength=0
+
 
 window.onload=function () {
   deviceIDArray.unshift('')
@@ -52,72 +47,11 @@ window.onload=function () {
     // mouseWheel()
     //配置的xml
     let cptArray=analysisCompoentsOne()
-    // let xmlAddress="../lyxtxtjgt.xml"
     let xmlAddress="../F1VideoNode.xml"
-    // let xmlAddress="../0.xml"
-    // let xmlAddress="../NLightPlan.xml"
-    // let xmlAddress="../NLightPlan1.xml"
-    //当前的xml
-    // let nowArray=analysisNow(xmlAddress)
-    //创建svg画布
-    var xmlFileName=xmlAddress
-    var xmlDoc
-    //IE
-    if((/Trident\/7\./).test(navigator.userAgent)){
-      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-    }else{
-      xmlDoc=document.implementation.createDocument("","",null);
-    }
-    xmlDoc.async=false
-    xmlDoc.load(xmlFileName)
-    var Configration=xmlDoc.documentElement
-    var ConfigWidth=Configration.getAttribute("Width")
-    var ConfigHeight=Configration.getAttribute("Height")
-    //创建svg画布
-    let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight);
-    // console.log("每次创建先清除元素")
-    // svg.clear()
-    var LIST=xmlDoc.documentElement.childNodes[0]
-    var LISTImage=LIST.childNodes[1]
-    var LISTImageChildren=LISTImage.childNodes
-    // console.log(LISTImage.childNodes.length)
-    var Components=xmlDoc.documentElement.childNodes[1]
-    var ComponentsChildren=Components.childNodes
-    //改变图片
-    var changImg=false
-    let imgnum=0
-    //====================================================================
-    alllength=ComponentsChildren.length
-    let a=5
-    nowlength=parseInt(alllength/2)
-    leftlength=alllength-nowlength
-    //画图
-    // while(a){
-    //   a--
-    console.time()
-    // var canvas = document.createElement('canvas');
-    // var context = canvas.getContext('2d');  //取得画布的2d绘图上下文
-      let ai=0
-      analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,nowlength,ai)
-    console.timeEnd()
-    setTimeout(function () {
-      ai=nowlength
-      analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,alllength,ai)
-      console.log("aaaa")
-    }
-     
-      ,5000)
-
-
+    partXML(cptArray,xmlAddress)
     //动图和文字
     runAndAlarm()
-    // var innerSVG = $("svg")[0].innerHTML
-    // var fixedSVG = svgfix(innerSVG);
-    // canvg("canvas-result", fixedSVG, {
-    //   renderCallback : function() {
-    //     render();
-    //   }
-    // });
+
   })
   //夜景照明，模式预览
 
@@ -187,10 +121,54 @@ function infoDoor() {
 
 
 /*
-* 解析导出的xml文件
+* 部分解析导出的xml文件
 * */
-function nowXML(){
-
+function partXML(cptArray,xmlAddress){
+  //创建svg画布
+  var xmlFileName=xmlAddress
+  var xmlDoc
+  //IE
+  if((/Trident\/7\./).test(navigator.userAgent)){
+    xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+  }else{
+    xmlDoc=document.implementation.createDocument("","",null);
+  }
+  xmlDoc.async=false
+  xmlDoc.load(xmlFileName)
+  var Configration=xmlDoc.documentElement
+  var ConfigWidth=Configration.getAttribute("Width")
+  var ConfigHeight=Configration.getAttribute("Height")
+  //创建svg画布
+  let svg=new Raphael(document.querySelector("#readSVG"),ConfigWidth, ConfigHeight)
+  var LIST=xmlDoc.documentElement.childNodes[0]
+  var LISTImage=LIST.childNodes[1]
+  var LISTImageChildren=LISTImage.childNodes
+  // console.log(LISTImage.childNodes.length)
+  var Components=xmlDoc.documentElement.childNodes[1]
+  var ComponentsChildren=Components.childNodes
+  //总长
+  var alllength=0
+  //第一
+  var firstlength=0
+  //第二
+  var secondlength=0
+  alllength=ComponentsChildren.length
+  firstlength=parseInt(alllength/6)
+  secondlength=firstlength*3
+  console.time()
+  let ai=0
+  analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,firstlength,ai)
+  console.timeEnd()
+  //第一次延时
+  setTimeout(function () {
+    ai=firstlength
+    analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,secondlength,ai)
+  },10)
+  //第二次延时
+  setTimeout(function () {
+    ai=secondlength
+    analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,ConfigHeight,alllength,ai)
+  },20)
 }
 
 
@@ -1041,175 +1019,6 @@ function analysisCompoentsOne() {
   }
   // console.log(compoentsArray)
   return compoentsArray
-}
-
-// 解析当前的文件
-function analysisNow(xmlAddress) {
-  let nowxmlArray = {}
-  let xmlFileName = xmlAddress
-  let xmlDoc
-  //IE
-  if ((/Trident\/7\./).test(navigator.userAgent)) {
-    xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-  } else {
-    xmlDoc = document.implementation.createDocument("", "", null);
-  }
-  xmlDoc.async = false
-  xmlDoc.load(xmlFileName)
-  let Configration = xmlDoc.documentElement
-  // console.log(Configration.nodeName)
-  let ConfigWidth = Configration.getAttribute("Width")
-  let ConfigHeight = Configration.getAttribute("Height")
-  nowxmlArray["ConfigWidth"]=ConfigWidth
-  nowxmlArray["ConfigHeight"]=ConfigHeight
-
-  let LIST = xmlDoc.documentElement.childNodes[0]
-  let LISTImage = LIST.childNodes[1]
-  let LISTImageChildren = LISTImage.childNodes
-  // console.log(LISTImage.childNodes.length)
-  let Components = xmlDoc.documentElement.childNodes[1]
-  let ComponentsChildren = Components.childNodes
-  alllength = ComponentsChildren.length
-  nowlength = parseInt(alllength / 2)
-  //改变图片
-  var changImg = false
-  // console.log(ComponentsChildren[i].nodeName)
-  if (ComponentsChildren[i].nodeName !== "#comment") {
-    let imageSource = ComponentsChildren[i].getAttribute("source")
-    //如果没有source就从listimg中寻找
-    if (!imageSource) {
-      for (let j = 0, n = LISTImageChildren.length; j < n; j++) {
-        if (ComponentsChildren[i].nodeName === LISTImageChildren[j].nodeName) {
-          imageSource = LISTImageChildren[j].getAttribute("source")
-        }
-      }
-    }
-    let nodename = ComponentsChildren[i].nodeName
-    // console.log(nodename)
-    let group = ComponentsChildren[i].getAttribute("group")
-    let image = null
-    let width = ComponentsChildren[i].getAttribute("width")
-    let height = ComponentsChildren[i].getAttribute("height")
-    //匹配大背景图片
-    if (group === "map" && !width) {
-      width = ConfigWidth
-      height = ConfigHeight
-    }
-
-    let scaleX = ComponentsChildren[i].getAttribute("scaleX")
-    let scaleY = ComponentsChildren[i].getAttribute("scaleY")
-    let param = ComponentsChildren[i].getAttribute("param")
-    //风扇
-    let mark = ComponentsChildren[i].getAttribute("mark")
-
-    let fontSize = null
-    if (ComponentsChildren[i].getAttribute("fontSize")) {
-      fontSize = ComponentsChildren[i].getAttribute("fontSize")
-    }
-    let textAlign = null
-    if (ComponentsChildren[i].getAttribute("textAlign")) {
-      textAlign = ComponentsChildren[i].getAttribute("textAlign")
-    }
-    let isControl = null
-    if (ComponentsChildren[i].getAttribute("isControl")) {
-      isControl = ComponentsChildren[i].getAttribute("isControl")
-    }
-
-
-    let compname = ComponentsChildren[i].getAttribute("compname")
-    let deviceID = ComponentsChildren[i].getAttribute("deviceID")
-    let deviceName = ComponentsChildren[i].getAttribute("deviceName")
-    let isMouseOverTip = ComponentsChildren[i].getAttribute("isMouseOverTip")
-
-    let x = ComponentsChildren[i].getAttribute("x")
-    let y = ComponentsChildren[i].getAttribute("y")
-    // 文字以paramid标识
-    let paramID = ComponentsChildren[i].getAttribute("paramID")
-    //20001 63
-    let deviceParam = deviceID + paramID
-    //数组保存参数
-    var handAuto = new Array()
-    var hzStatus = new Array()
-    var inStress = new Array()
-    //组件宽高缩放
-    if (scaleX) {
-      width = parseInt(width) * parseFloat(scaleX)
-    }
-    if (scaleY) {
-      height = parseInt(height) * parseFloat(scaleY)
-    }
-
-    let rotate = 0
-    if (ComponentsChildren[i].getAttribute("rotation")) {
-      rotate = parseInt(ComponentsChildren[i].getAttribute("rotation"))
-    }
-
-    let lb3;
-
-
-    //========================
-
-    // console.log("aaa")
-    let xmlFileName = "../Components.xml"
-    let xmlDoc
-    //IE
-    if ((/Trident\/7\./).test(navigator.userAgent)) {
-      xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-    } else {
-      xmlDoc = document.implementation.createDocument("", "", null);
-    }
-    xmlDoc.async = false
-    xmlDoc.load(xmlFileName)
-    // let Components=xmlDoc.documentElement
-    let Component = xmlDoc.documentElement.childNodes[0]
-    let ComponentChildren = Component.childNodes
-    for (let i = 0, m = ComponentChildren.length; i < m; i++) {
-      //节点名
-      let childName = ComponentChildren[i].nodeName
-      //节点名下的孩子
-      let child = ComponentChildren[i].childNodes
-      compoentsArray[childName] = {}
-      compoentsArray[childName]["running"] = {}
-      compoentsArray[childName]["alarm"] = {}
-      compoentsArray[childName]["mouseEvent"] = {}
-      //==========获取点击，悬浮属性
-      if (ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isPop") === "true") {
-        compoentsArray[childName]["mouseEvent"]["isPop"] = ComponentChildren[i].getAttribute("isPop")
-        compoentsArray[childName]["mouseEvent"]["popType"] = ComponentChildren[i].getAttribute("popType")
-      }
-      if (ComponentChildren[i].childNodes[0] && ComponentChildren[i].getAttribute("isToolTip") === "true") {
-        compoentsArray[childName]["mouseEvent"]["isToolTip"] = ComponentChildren[i].getAttribute("isToolTip")
-      }
-      //=====================
-
-
-      if (child) {
-        // console.log(childName)
-        //读取除第一个子节点的图片，如运行和报警
-        for (let j = 0, n = child.length; j < n; j++) {
-          if (child[j].getAttribute("param") === "runing") {
-            compoentsArray[childName]["running"]["imgX"] = child[j].getAttribute("x")
-            compoentsArray[childName]["running"]["imgY"] = child[j].getAttribute("y")
-            compoentsArray[childName]["running"]["imgWidth"] = child[j].getAttribute("width")
-            compoentsArray[childName]["running"]["imgHeight"] = child[j].getAttribute("height")
-            compoentsArray[childName]["running"]["imgSource"] = child[j].getAttribute("source")
-          }
-
-          if (child[j].getAttribute("param") === "alarm") {
-            compoentsArray[childName]["alarm"]["imgX"] = child[j].getAttribute("x")
-            compoentsArray[childName]["alarm"]["imgY"] = child[j].getAttribute("y")
-            compoentsArray[childName]["alarm"]["imgWidth"] = child[j].getAttribute("width")
-            compoentsArray[childName]["alarm"]["imgHeight"] = child[j].getAttribute("height")
-            compoentsArray[childName]["alarm"]["imgSource"] = child[j].getAttribute("source")
-          }
-        }
-      }
-
-
-    }
-    // console.log(compoentsArray)
-    return compoentsArray
-  }
 }
 
 

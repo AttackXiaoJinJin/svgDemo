@@ -764,8 +764,6 @@ function analysisCompoentsOne() {
       compoentsArray[childName]["mouseEvent"]["isToolTip"]=ComponentChildren[i].getAttribute("isToolTip")
     }
     //=====================
-
-
     if(child){
       // console.log(childName)
       //读取除第一个子节点的图片，如运行和报警

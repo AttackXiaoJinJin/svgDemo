@@ -47,7 +47,8 @@ window.onload=function () {
     // mouseWheel()
     //配置的xml
     let cptArray=analysisCompoentsOne()
-    let xmlAddress="../F1VideoNode.xml"
+    // let xmlAddress="../F1VideoNode.xml"
+    let xmlAddress="../0.xml"
     partXML(cptArray,xmlAddress)
     //动图和文字
     runAndAlarm()
@@ -332,13 +333,47 @@ function analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,Conf
       //	能不加就不加
       if(rotate){
         // simg.attr({
-        $(simg).css({
-          // cursor:'pointer',
-          //没有x,y即绕自身中心旋转
-          //以坐标x,y进行旋转
-          // 'transform':'r'+rotate+','+x+','+y,
-          transform:"rotate("+rotate+"deg)"
-        })
+        // simg.setAttribute("transform-origin",x+"px "+y+"px")
+        // if(x && y ){
+          $(simg).css({
+            // cursor:'pointer',
+            //没有x,y即绕自身中心旋转
+            //以坐标x,y进行旋转
+            // 'transform':'r'+rotate+','+x+','+y,
+            // transform:"rotate("+rotate+"deg"+","+x+","+y+")"
+            // transformOrigin:x+"px "+y+"px",
+            transformOrigin:"0% 0%",
+            transform:"rotate("+rotate+"deg)",
+            // left:x-width/2+"px",
+            // top:y-height/2+"px",
+            // width:width,
+            // height:height
+          })
+        // }else{
+        //   $(simg).css({
+        //     transform:"rotate("+rotate+"deg)",
+        //   })
+        // }
+
+
+        // console.log("rotate")
+        // simg.setAttribute(
+        //     "transform",
+        //     "matrix(" +
+        //     Math.cos(2 * Math.PI / 360 * rotate).toFixed(4) +
+        //     "," +
+        //     Math.sin(2 * Math.PI / 360 * rotate).toFixed(4) +
+        //     "," +
+        //     (-1) * Math.sin(2 * Math.PI / 360 * rotate).toFixed(4) +
+        //     "," +
+        //     Math.cos(2 * Math.PI / 360 * rotate).toFixed(4) +
+        //     "," +
+        //     0 +
+        //     "," +
+        //     0 +
+        //     ")")
+
+
 
       }
 

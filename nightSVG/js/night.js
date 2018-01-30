@@ -48,7 +48,9 @@ window.onload=function () {
     //配置的xml
     let cptArray=analysisCompoentsOne()
     // let xmlAddress="../F1VideoNode.xml"
-    let xmlAddress="../0.xml"
+    // let xmlAddress="../0.xml"
+    let xmlAddress="../readhot.xml"
+
     partXML(cptArray,xmlAddress)
     //动图和文字
     runAndAlarm()
@@ -405,7 +407,7 @@ function analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,Conf
       //是设备图片
       if(group==="deviceComp" || group==="commonComp"){
         // simg.node.setAttribute('id',deviceID)
-        simg.setAttribute('id',deviceID)
+        simg.setAttribute('id','d'+deviceID)
         // simg.node.setAttribute('display','block')
         if(deviceID){deviceIDArray.push(deviceID.toString())}
         //添加id,速度,数量
@@ -415,13 +417,13 @@ function analysisXML(svg,cptArray,xmlAddress,ComponentsChildren,ConfigWidth,Conf
 
         // simg.click(function (e) {
         //   // //切换成自动
-        //   // if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
-        //   //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/1/1.png")
+        //   // if(param==="handAuto" && e.target.getAttribute("src")==="assets/comp/HANDAUTO/handAuto/0/1.png"){
+        //   //   e.target.setAttribute("src","assets/comp/HANDAUTO/handAuto/1/1.png")
         //   //   handAuto[deviceID]=true
         //   // }
         //   // // //切换成手动
-        //   // else if(param==="handAuto" && e.target.getAttribute("href")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
-        //   //   e.target.setAttribute("href","assets/comp/HANDAUTO/handAuto/0/1.png")
+        //   // else if(param==="handAuto" && e.target.getAttribute("src")==="assets/comp/HANDAUTO/handAuto/1/1.png"){
+        //   //   e.target.setAttribute("src","assets/comp/HANDAUTO/handAuto/0/1.png")
         //   //   handAuto[deviceID]=false
         //   // }
         //
@@ -634,7 +636,7 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
   //在添加好图片的基础上再去添加它的运行，报警图片
   //背景是bg的，画新的alarm
   //背景是alarm的，不用画
-  if(document.getElementById(deviceID) && !document.getElementById(deviceID+deviceID+deviceID) && document.getElementById(deviceID).getAttribute("href").indexOf("alarm")===-1) {
+  if(document.getElementById(deviceID) && !document.getElementById(deviceID+deviceID+deviceID) && document.getElementById(deviceID).getAttribute("src").indexOf("alarm")===-1) {
     if (cptArray[nodename]) {
       //有的图是用alarm画的，有alarm就不画报警图了
       if (cptArray[nodename]["alarm"] && trueImgSource.indexOf("alarm") === -1) {
@@ -697,61 +699,61 @@ function drawRunAndAlarm(deviceID,nodename,cptArray,x,y,scaleX,scaleY,svg,trueIm
 //======================
 }
 
-// function jsonStatus(address) {
-//
-//   //注意清空
-//   jsonAlarmIDArray=[]
-//   jsonRunIDArray=[]
-//   jsonTextArray=[]
-//   let param={}
-//   let httpUrl
-//   param.gcID='JSCZJTWY'
-//   param.device=deviceIDArray.toString()
-//   httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random()
-//   //请求
-//   $.ajax({
-//     type:'get',
-//     // type:'post',
-//     url:httpUrl,
-//     data:{'str':JSON.stringify(param) },
-//     success:function (data) {
-//       data=JSON.parse(data)
-//       // console.log(data)
-//       for(let j=0,groups=data.result,n=groups.length;j<n;j++){
-//         //===================alarm
-//         if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
-//           let id = groups[j].deviceID
-//           jsonAlarmIDArray.push(id)
-//           // console.log(jsonAlarmIDArray)
-//         }else
-//         //运行，即动画
-//         //=============run
-//         if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
-//           let id = groups[j].deviceID
-//           jsonRunIDArray.push(id)
-//         }
-//
-//         if(groups[j].paramID === 63 && groups[j].deviceID===30005){
-//           jsonTextArray.push(groups[j].statusEnValue)
-//         }
-//
-//         // for(let i=0,m=textParamArray.length;i<m;i++){
-//         //   if (groups[j].paramID+'' === textParamArray[i]+'' && groups[j].deviceID+'' === textDeviceArray[i]+'') {
-//         //     jsonTextArray.push(textParamArray[i])
-//         //     break;
-//         //   }
-//         // }
-//
-//
-//       }
-//     },
-//     error:function (err) {
-//     }
-//
-//   })
-//
-//
-// }
+function jsonStatus(address) {
+
+  //注意清空
+  jsonAlarmIDArray=[]
+  jsonRunIDArray=[]
+  jsonTextArray=[]
+  let param={}
+  let httpUrl
+  param.gcID='JSCZJTWY'
+  param.device=deviceIDArray.toString()
+  httpUrl='http://192.168.1.15:8888/XYCloudService/configurationService/getDeviceParam?falg='+Math.random()
+  //请求
+  $.ajax({
+    type:'get',
+    // type:'post',
+    url:httpUrl,
+    data:{'str':JSON.stringify(param) },
+    success:function (data) {
+      data=JSON.parse(data)
+      // console.log(data)
+      for(let j=0,groups=data.result,n=groups.length;j<n;j++){
+        //===================alarm
+        if (groups[j].paramID === 2 && groups[j].statusValue === "1") {
+          let id = groups[j].deviceID
+          jsonAlarmIDArray.push('d'+id)
+          // console.log(jsonAlarmIDArray)
+        }else
+        //运行，即动画
+        //=============run
+        if (groups[j].paramID === 1 && groups[j].statusValue === "1") {
+          let id = groups[j].deviceID
+          jsonRunIDArray.push('d'+id)
+        }
+
+        if(groups[j].paramID === 63 && groups[j].deviceID===30005){
+          jsonTextArray.push(groups[j].statusEnValue)
+        }
+
+        // for(let i=0,m=textParamArray.length;i<m;i++){
+        //   if (groups[j].paramID+'' === textParamArray[i]+'' && groups[j].deviceID+'' === textDeviceArray[i]+'') {
+        //     jsonTextArray.push(textParamArray[i])
+        //     break;
+        //   }
+        // }
+
+
+      }
+    },
+    error:function (err) {
+    }
+
+  })
+
+
+}
 
 //十进制颜色转换为十六进制
 function colorTransformation(colorStr){
@@ -860,7 +862,7 @@ function runAndAlarm() {
     }
 
     //获取运行，报警数组和文字
-    // jsonStatus()
+    jsonStatus()
     // console.log(jsonTextArray)
     //根据json绘制文字
     // if(group.deviceID===parseInt(deviceID) && group.paramID===parseInt(paramID) ) {
@@ -896,7 +898,7 @@ function runAndAlarm() {
             if(alarmnum>9) {
               alarmnum = 8
             }
-            $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[j] + "/alarm/1/"+alarmnum+".png")
+            $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[j] + "/alarm/1/"+alarmnum+".png")
               alarmnum++
             timerAlarm.push(setTimeout(funcTimeAlarmOne,alarmSpeedArray[realJ]))
             }
@@ -907,8 +909,8 @@ function runAndAlarm() {
               if(alarmnumOne>1) {
                 alarmnumOne =0
               }
-              $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[j] + "/alarm/"+alarmnumOne+"/1.png")
-              // $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[j] + "/alarm/1/1.png")
+              $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[j] + "/alarm/"+alarmnumOne+"/1.png")
+              // $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[j] + "/alarm/1/1.png")
               alarmnumOne++
               timerAlarm.push(setTimeout(funcTimeAlarmTwo,alarmSpeedArray[realJ]))
             }
@@ -928,8 +930,8 @@ function runAndAlarm() {
               if(alarmnumOne>1) {
                 alarmnumOne =0
               }
-              $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[j] + "/alarm/"+alarmnumOne+"/1.png")
-              // $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[j] + "/alarm/1/1.png")
+              $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[j] + "/alarm/"+alarmnumOne+"/1.png")
+              // $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[j] + "/alarm/1/1.png")
               alarmnumOne++
               timerAlarm.push(setTimeout(funcTimeAlarmThree,alarmSpeedArray[realJ]))
             }
@@ -939,7 +941,7 @@ function runAndAlarm() {
               if (alarmnum > 9) {
                 alarmnum = 8
               }
-              $("#" + id)[0].setAttribute("href", "assets/comp/" + nodeNameArray[realJ] + "/alarm/1/" + alarmnum + ".png")
+              $("#" + id)[0].setAttribute("src", "assets/comp/" + nodeNameArray[realJ] + "/alarm/1/" + alarmnum + ".png")
               alarmnum++
               timerAlarm.push(setTimeout(funcTimeAlarm, alarmSpeedArray[realJ]))
             }
@@ -971,7 +973,8 @@ function runAndAlarm() {
       if(runnum>runNumArray[realJ]) {
         runnum = 1
       }
-      $("#"+id)[0].setAttribute("href","assets/comp/" + nodeNameArray[realJ] + "/runing/1/" + runnum + ".png")
+      console.log(id)
+      $("#"+id)[0].setAttribute("src","assets/comp/" + nodeNameArray[realJ] + "/runing/1/" + runnum + ".png")
       runnum++
       timerRun.push(setTimeout(funcTimeRun,runSpeedArray[realJ]))
     }
@@ -1056,6 +1059,8 @@ function analysisCompoentsOne() {
   return compoentsArray
 }
 
+
+let data="{\"result\":[{ \"title\":\"My vault\",\"name\": \"All Documents\",\"search\": \"All\",\"img\": \"..\/imagefebox.svg\"},{ \"title\":\"Tom’s vault\",\"name\": \"All Documents\",\"search\": \"All\",\"img\": \"..\/imagefebox.svg\"}]}"
 
 
 /*

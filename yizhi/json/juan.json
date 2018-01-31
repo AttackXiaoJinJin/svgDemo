@@ -1,4 +1,4 @@
-{"title1":[
+{"result0":[
   { "title": "My vault",
     "name": "All Documents",
     "search": "All",
@@ -32,7 +32,8 @@
     "img": "../imagefebox.svg"
   }
 ],
-  "title2":[
+
+    "result1":[
     { "title": "Tom’s vault",
       "name": "All Documents",
       "search": "All",
